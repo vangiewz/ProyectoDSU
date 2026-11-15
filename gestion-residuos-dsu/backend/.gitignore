@@ -1,0 +1,31 @@
+# Entorno y dependencias
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Excepción autorizada: .env se versiona solo en ProyectoDSU privado; ver ../../AGENTS.md
+.env
+.env.*
+!.env.example
+!/.env
+
+# Generados
+staticfiles/
+modelos/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+graphify-out/
+# Power BI Desktop: estado local y caché de datos del proyecto .pbip
+powerbi/**/.pbi/localSettings.json
+powerbi/**/.pbi/cache.abf
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+respaldos/

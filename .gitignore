@@ -1,0 +1,40 @@
+# Entornos y dependencias
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.ruff_cache/
+**/.cache/
+**/dist/
+**/dist-ssr/
+**/staticfiles/
+*.tsbuildinfo
+**/graphify-out/
+**/modelos/
+**/respaldos/
+**/htmlcov/
+**/.coverage
+
+# Secretos: única excepción solicitada para ProyectoDSU PRIVADO
+.env
+.env.*
+!.env.example
+!/gestion-residuos-dsu/backend/.env
+*.pem
+*.key
+
+# Configuración personal y temporales
+**/.claude/
+**/.codex/
+**/.vscode/
+**/.idea/
+*.local
+*.log
+*.err
+~$*
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

@@ -1,0 +1,124 @@
+{
+  "title": "Mundo visual del sistema DSU",
+  "question": "El sorteo asignó la Planilla de control sellada. Conservarla, tomar una alternativa o volver a sortear.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Planilla de control sellada",
+      "kicker": "THE ROLL",
+      "lineage": "planillas de control y sellos de goma de las oficinas de la DSU",
+      "thesis": "El papel que la DSU usa hoy, convertido en sistema: cada estado se estampa, cada dato capturado se ve escrito a mano.",
+      "palette": ["#C4122F", "#1F3FA8", "#1E2328", "#F4F6F8", "#C9CED6"],
+      "materials": ["formulario impreso", "tinta de sello rojo DSU", "bolígrafo azul para lo capturado"],
+      "viewport": "Riel lateral rojo DSU con el monograma; al centro la jornada del día como lista de paradas con sellos ATENDIDO / OMITIDO; en el celular, una sola parada grande y el botón Registrar al pulgar.",
+      "risk": "Si el sello se usa como adorno y no como estado, se vuelve disfraz de papelería.",
+      "raised": [
+        { "from": "challenger-ikeda", "raise": "Todas las cantidades en numerales tabulares alineados al decimal, densidad de tabla real." },
+        { "from": "challenger-emigre", "raise": "Una sola familia tipográfica carga toda la escala, de la cifra grande al rótulo." },
+        { "from": "challenger-laban", "raise": "La jornada se dibuja sobre el eje 08:00–15:00: la posición de cada sello es la hora real de atención." },
+        { "from": "challenger-streaming", "raise": "En campo, la parada actual se expande y las ya registradas se comprimen." },
+        { "from": "challenger-acetate", "raise": "Los cambios de estado son dos pasos cortos, sin easing decorativo." }
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Código de colores de segregación",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "contenedores de segregación diferenciada frente al Pabellón 150",
+      "thesis": "Cada tipo de residuo lleva el color del contenedor donde se separa; el sistema se lee como los turriles del campus.",
+      "palette": ["#C4122F", "#2E7D32", "#F2B705", "#1565C0", "#5F6B76"],
+      "materials": ["plástico de turril", "rótulos de segregación"],
+      "viewport": "Riel rojo DSU; tablas y gráficos donde cada tipo de residuo tiene su color de contenedor; en campo, botones grandes por tipo con su color.",
+      "risk": "Familiar: es donde aterriza casi toda app de residuos, y el color por categoría compite con los colores de estado."
+    },
+    {
+      "id": "challenger-ticket",
+      "label": "Talonario de boletos",
+      "verdict": "competitive",
+      "lineage": "billeteras de boletos aéreos de la era jet",
+      "thesis": "La jornada como talonario: cada punto es un cupón que se valida o se anula, nada desaparece.",
+      "palette": ["#1B2A52", "#C4122F", "#FFFFFF", "#5B3A8C"],
+      "materials": ["cupón con papel carbónico", "sello VOID"],
+      "viewport": "Jornada como columna de cupones; el cupón actual arriba, los usados con sello, los anulados con VOID.",
+      "case": "Encaja con la lógica de bajas lógicas y bitácora inalterable, pero el personal no se reconoce en un boleto aéreo.",
+      "risk": "Lectura de viaje y turismo ajena a la operación de limpieza.",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-jet-age-ticket-wallet-hero.webp"
+    },
+    {
+      "id": "challenger-ikeda",
+      "label": "Campo de datos Ikeda",
+      "verdict": "declined",
+      "lineage": "datamatics en blanco y negro",
+      "thesis": "Barras y columnas numéricas en blanco y negro puro.",
+      "palette": ["#000000", "#FFFFFF"],
+      "materials": ["barras de código", "monoespaciada"],
+      "viewport": "Campo de barras con cifras en el margen.",
+      "case": "Ni el operario ni el director se reconocen ahí; oscurece la tarea.",
+      "kept": "Numerales tabulares y densidad de tabla real.",
+      "risk": "Ilegible para personal sin formación técnica."
+    },
+    {
+      "id": "challenger-emigre",
+      "label": "Espécimen bitmap Emigre",
+      "verdict": "declined",
+      "lineage": "especímenes tipográficos bitmap",
+      "thesis": "Letra pixelada a escala de afiche.",
+      "palette": ["#FFFFFF", "#111111", "#FF3B00"],
+      "materials": ["pixel", "trama de puntos"],
+      "viewport": "Titular pixelado sobre columnas densas.",
+      "case": "Sin relación con la DSU; la estética pesa más que la operación.",
+      "kept": "Una sola familia tipográfica a muchos tamaños.",
+      "risk": "Pura postura gráfica."
+    },
+    {
+      "id": "challenger-laban",
+      "label": "Partitura Labanotation",
+      "verdict": "declined",
+      "lineage": "notación de danza",
+      "thesis": "Tiempo que sube por un pentagrama vertical.",
+      "palette": ["#FFFFFF", "#000000", "#D9D9D9"],
+      "materials": ["papel de partitura", "bloques sombreados"],
+      "viewport": "Pentagrama central con acciones como bloques.",
+      "case": "Hermosa pero ajena; nadie en la DSU lee notación.",
+      "kept": "La longitud y posición son tiempo real.",
+      "risk": "Requiere aprender un código nuevo."
+    },
+    {
+      "id": "challenger-streaming",
+      "label": "Muro de catálogo streaming",
+      "verdict": "declined",
+      "lineage": "catálogos de streaming",
+      "thesis": "Filas de pósters donde el foco crece.",
+      "palette": ["#141414", "#E50914", "#FFFFFF"],
+      "materials": ["pósters", "fondo oscuro"],
+      "viewport": "Filas horizontales de tarjetas.",
+      "case": "Convierte la operación en entretenimiento; pierde en claridad.",
+      "kept": "El elemento en foco se expande y el resto se calla.",
+      "risk": "Navegación por carriles poco apta para tareas."
+    },
+    {
+      "id": "challenger-acetate",
+      "label": "Manual con pestañas de acetato",
+      "verdict": "declined",
+      "lineage": "manuales de software en caja",
+      "thesis": "Hojas de acetato sobre separadores de color.",
+      "palette": ["#E8E8E0", "#F2B705", "#0F7B6C", "#E34234"],
+      "materials": ["acetato", "separadores"],
+      "viewport": "Manual abierto con riel de pestañas.",
+      "case": "Metáfora de lectura, no de operación en campo.",
+      "kept": "Movimiento en pasos cortos, sin easing.",
+      "risk": "Carga material excesiva para una herramienta."
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "canon": true,
+  "canonCard": {
+    "label": "Panel administrativo estándar",
+    "thesis": "Lo que esta categoría siempre entrega, ejecutado con oficio.",
+    "palette": ["#FFFFFF", "#111827", "#C4122F"],
+    "materials": ["grilla limpia", "tablas y tarjetas"],
+    "viewport": "Barra lateral, encabezado, tablas y formularios esperados.",
+    "risk": "Indistinguible de cualquier otro panel por diseño."
+  },
+  "steer": true
+}

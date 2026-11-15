@@ -1,0 +1,270 @@
+Resumen
+Abstract
+ÍNDICE GENERAL
+ÍNDICE DE FIGURAS
+ÍNDICE DE TABLAS
+Introducción
+Capítulo 1
+1. Perfil del Proyecto
+1.1. Antecedentes
+1.2. Definición del Problema
+1.2.1. Situación Problemática
+1.2.2. Situación Deseada
+1.2.3. Objeto de la Investigación
+1.3. Objetivos
+1.3.1. Objetivo General
+1.3.2. Objetivos Específicos
+1.4. Justificación
+1.4.1. Justificación Técnica
+1.4.2. Justificación Académica
+1.4.3. Justificación Institucional
+1.5. Metodología
+1.5.1. Proceso Unificado de Desarrollo de Software
+1.5.1.1. Fases.
+1.5.1.2. Flujos de Trabajo.
+1.5.2. Lenguaje Unificado de Modelado
+1.5.3. Especificación de Requisitos de Software según la IEEE 830-1998
+1.6. Alcance y Limitaciones
+1.6.1. Funciones Principales
+1.6.2. Usuarios o Beneficiarios
+1.6.3. Limitaciones y Restricciones
+1.7. Recursos Necesarios
+1.7.1. Software y Herramientas
+1.7.2. Equipos y Hardware
+1.7.3. Presupuesto Estimado
+1.8. Cronograma
+1.8.1. Plan de Ejecución
+1.8.2. Hitos Importantes
+Capítulo 2
+2. Random Forest Regressor
+2.1. Fundamentos del Algoritmo
+2.2. Aplicación del Algoritmo en el Proyecto
+2.3. Scikit-learn
+2.4. Python
+2.5. Pandas y NumPy
+2.6. Inteligencia de Negocios y Microsoft Power BI
+2.7. Procesos de Extracción, Transformación y Carga
+2.8. Leaflet y OpenStreetMap
+2.9. Django y Django REST Framework
+2.10. React
+2.11. PostgreSQL
+Capítulo 3
+3. Dirección de Servicios Universitarios de la Universidad Autónoma Gabriel René Moreno
+3.1. Nombre
+3.2. Misión
+3.3. Visión
+3.4. Historia
+3.5. Imagen Corporativa
+3.6. Web, Contacto y Redes Sociales
+3.7. Estructura Organizacional
+3.8. Ubicación e Infraestructura
+3.8.1. Ubicación
+3.8.2. Infraestructura
+3.9. Modelo de Negocio
+3.10. Flujo Operativo del Proceso Principal
+Capítulo 4
+4. Especificación de Requisitos de Software según la IEEE 830-1998
+4.1. Introducción
+4.1.1. Propósito
+4.1.2. Ámbito del Sistema
+4.1.2.1. Nombre.
+4.1.2.2. Funcionalidades.
+4.1.2.3. Beneficios.
+4.1.3. Definiciones, Acrónimos y Abreviaturas
+4.1.4. Referencias
+4.1.5. Visión General del Documento
+4.2. Descripción General del Sistema
+4.2.1. Perspectiva del Producto
+4.2.2. Funciones del Producto
+4.2.3. Características y Restricciones del Usuario
+4.2.4. Restricciones
+4.2.5. Dependencias y Suposiciones
+4.2.6. Modelo de Dominio
+4.3. Requisitos Específicos
+4.3.1. Requisitos Funcionales
+4.3.2. Requisitos No Funcionales
+4.3.3. Requisitos de Interfaces
+4.3.4. Requisitos de Base de Datos
+4.3.5. Requisitos de Diseño
+4.3.6. Requisitos de Rendimiento
+4.3.6.1. Tiempo de Respuesta.
+4.3.6.2. Capacidad y Carga Máxima.
+4.3.6.3. Uso de Recursos.
+4.3.6.4. Disponibilidad y Tiempo de Actividad.
+4.3.6.5. Escalabilidad.
+4.3.6.6. Procesamiento por Lote o en Tiempo Real.
+Capítulo 5
+5. Captura de Requisitos
+5.1. Identificación de Actores
+5.2. Identificación de Casos de Uso
+5.3. Priorización de los Casos de Uso
+5.4. Detalle de los Casos de Uso
+5.4.1. CU1. Iniciar sesión
+5.4.2. CU2. Cerrar sesión
+5.4.3. CU3. Gestionar usuarios
+5.4.4. CU4. Gestionar roles y permisos
+5.4.5. CU5. Gestionar sectores y facultades
+5.4.6. CU6. Gestionar puntos de recolección
+5.4.7. CU7. Gestionar contenedores
+5.4.8. CU8. Gestionar tipos de residuo y unidades de medida
+5.4.9. CU9. Registrar vaciado de residuos
+5.4.10. CU10. Registrar incidencia operativa
+5.4.11. CU11. Atender incidencia
+5.4.12. CU12. Consultar histórico de residuos
+5.4.13. CU13. Gestionar vehículos
+5.4.14. CU14. Planificar jornada y ruta de recolección
+5.4.15. CU15. Asignar personal y vehículos a la jornada
+5.4.16. CU16. Ejecutar jornada de recolección
+5.4.17. CU17. Omitir punto de la ruta
+5.4.18. CU18. Cerrar jornada de recolección
+5.4.19. CU19. Consultar historial de recolecciones
+5.4.20. CU20. Ejecutar proceso ETL
+5.4.21. CU21. Calcular indicadores clave de rendimiento
+5.4.22. CU22. Visualizar tablero interactivo
+5.4.23. CU23. Comparar periodos e identificar tendencias
+5.4.24. CU24. Visualizar puntos en el mapa interactivo
+5.4.25. CU25. Generar mapa de calor
+5.4.26. CU26. Filtrar mapa por periodo, sector y tipo de residuo
+5.4.27. CU27. Entrenar y evaluar el modelo Random Forest Regressor
+5.4.28. CU28. Publicar o revertir versión del modelo
+5.4.29. CU29. Predecir generación futura de residuos
+5.4.30. CU30. Generar alertas y recomendaciones logísticas
+5.4.31. CU31. Atender recomendación logística
+5.4.32. CU32. Configurar periodos académicos y parámetros
+5.4.33. CU33. Registrar evento en bitácora
+5.4.34. CU34. Consultar bitácora de auditoría
+5.4.35. CU35. Generar reporte
+5.4.36. CU36. Exportar reporte
+5.4.37. CU37. Exportar reporte a Excel
+5.4.38. CU38. Exportar reporte a PDF
+5.5. Diagrama General de Casos de Uso
+Capítulo 6
+6. Análisis
+6.1. Análisis de la Arquitectura
+6.1.1. Identificación de Paquetes
+6.1.2. Relación de Paquetes
+6.1.2.1. Paquete Gestión de Usuarios y Control de Acceso.
+6.1.2.2. Paquete Gestión Topológica y Puntos de Recolección.
+6.1.2.3. Paquete Gestión de Residuos.
+6.1.2.4. Paquete Gestión de Recolecciones y Logística.
+6.1.2.5. Paquete Inteligencia de Negocios y Analítica Visual.
+6.1.2.6. Paquete Componente Cartográfico y Análisis Espacial.
+6.1.2.7. Paquete Predicción mediante Random Forest Regressor.
+6.1.2.8. Paquete Administración de la Plataforma y Auditoría.
+6.1.3. Encapsulamiento de Casos de Uso por Paquete
+6.1.3.1. Encapsulamiento del Paquete Gestión de Usuarios y Control de Acceso.
+6.1.3.2. Encapsulamiento del Paquete Gestión Topológica y Puntos de Recolección.
+6.1.3.3. Encapsulamiento del Paquete Gestión de Residuos.
+6.1.3.4. Encapsulamiento del Paquete Gestión de Recolecciones y Logística.
+6.1.3.5. Encapsulamiento del Paquete Inteligencia de Negocios y Analítica Visual.
+6.1.3.6. Encapsulamiento del Paquete Componente Cartográfico y Análisis Espacial.
+6.1.3.7. Encapsulamiento del Paquete Predicción mediante Random Forest Regressor.
+6.1.3.8. Encapsulamiento del Paquete Administración de la Plataforma y Auditoría.
+6.2. Análisis de Casos de Uso
+6.2.1. Analizar Caso de Uso CU1. Iniciar sesión
+6.2.2. Analizar Caso de Uso CU2. Cerrar sesión
+6.2.3. Analizar Caso de Uso CU3. Gestionar usuarios
+6.2.4. Analizar Caso de Uso CU4. Gestionar roles y permisos
+6.2.5. Analizar Caso de Uso CU5. Gestionar sectores y facultades
+6.2.6. Analizar Caso de Uso CU6. Gestionar puntos de recolección
+6.2.7. Analizar Caso de Uso CU7. Gestionar contenedores
+6.2.8. Analizar Caso de Uso CU8. Gestionar tipos de residuo y unidades de medida
+6.2.9. Analizar Caso de Uso CU9. Registrar vaciado de residuos
+6.2.10. Analizar Caso de Uso CU10. Registrar incidencia operativa
+6.2.11. Analizar Caso de Uso CU11. Atender incidencia
+6.2.12. Analizar Caso de Uso CU12. Consultar histórico de residuos
+6.2.13. Analizar Caso de Uso CU13. Gestionar vehículos
+6.2.14. Analizar Caso de Uso CU14. Planificar jornada y ruta de recolección
+6.2.15. Analizar Caso de Uso CU15. Asignar personal y vehículos a la jornada
+6.2.16. Analizar Caso de Uso CU16. Ejecutar jornada de recolección
+6.2.17. Analizar Caso de Uso CU17. Omitir punto de la ruta
+6.2.18. Analizar Caso de Uso CU18. Cerrar jornada de recolección
+6.2.19. Analizar Caso de Uso CU19. Consultar historial de recolecciones
+6.2.20. Analizar Caso de Uso CU20. Ejecutar proceso ETL
+6.2.21. Analizar Caso de Uso CU21. Calcular indicadores clave de rendimiento
+6.2.22. Analizar Caso de Uso CU22. Visualizar tablero interactivo
+6.2.23. Analizar Caso de Uso CU23. Comparar periodos e identificar tendencias
+6.2.24. Analizar Caso de Uso CU24. Visualizar puntos en el mapa interactivo
+6.2.25. Analizar Caso de Uso CU25. Generar mapa de calor
+6.2.26. Analizar Caso de Uso CU26. Filtrar mapa por periodo, sector y tipo de residuo
+6.2.27. Analizar Caso de Uso CU27. Entrenar y evaluar el modelo Random Forest Regressor
+6.2.28. Analizar Caso de Uso CU28. Publicar o revertir versión del modelo
+6.2.29. Analizar Caso de Uso CU29. Predecir generación futura de residuos
+6.2.30. Analizar Caso de Uso CU30. Generar alertas y recomendaciones logísticas
+6.2.31. Analizar Caso de Uso CU31. Atender recomendación logística
+6.2.32. Analizar Caso de Uso CU32. Configurar periodos académicos y parámetros
+6.2.33. Analizar Caso de Uso CU33. Registrar evento en bitácora
+6.2.34. Analizar Caso de Uso CU34. Consultar bitácora de auditoría
+6.2.35. Analizar Caso de Uso CU35. Generar reporte
+6.2.36. Analizar Caso de Uso CU36. Exportar reporte
+6.2.37. Analizar Caso de Uso CU37. Exportar reporte a Excel
+6.2.38. Analizar Caso de Uso CU38. Exportar reporte a PDF
+6.3. Análisis de Paquetes
+Capítulo 7
+7. Diseño
+7.1. Diseño de la Arquitectura
+7.1.1. Diseño Físico
+7.1.2. Diseño Lógico
+7.2. Diagrama de Clases
+7.2.1. Clases de seguridad y auditoría
+7.2.2. Clases de campus y catálogos
+7.2.3. Clases de operación de la recolección
+7.2.4. Clases de analítica y administración
+7.2.5. Clases de predicción
+7.2.6. Clases de control de la capa de servicios
+7.3. Diseño de Datos
+7.3.1. Diseño de Datos Lógico
+7.3.1.1. Diseño Lógico de la Base de Datos.
+7.3.1.2. Mapeo.
+7.3.2. Diseño de Datos Físico
+7.3.2.1. Volumen.
+7.3.2.2. Script.
+7.4. Diseñar Casos de Uso
+7.4.1. CU1. Iniciar sesión
+7.4.2. CU9. Registrar vaciado de residuos
+7.4.3. CU14. Planificar jornada y ruta de recolección
+7.4.4. CU18. Cerrar jornada de recolección
+7.4.5. CU20. Ejecutar proceso ETL
+7.4.6. CU27. Entrenar y evaluar el modelo Random Forest Regressor
+7.4.7. CU29. Predecir generación futura de residuos
+7.4.8. CU31. Atender recomendación logística
+7.5. Diseño de Interfaces
+7.5.1. CU1. Iniciar sesión
+7.5.2. CU2. Cerrar sesión
+7.5.3. CU3. Gestionar usuarios
+7.5.4. CU4. Gestionar roles y permisos
+7.5.5. CU5. Gestionar sectores y facultades
+7.5.6. CU6. Gestionar puntos de recolección
+7.5.7. CU7. Gestionar contenedores
+7.5.8. CU8. Gestionar tipos de residuo y unidades de medida
+7.5.9. CU9. Registrar vaciado de residuos
+7.5.10. CU10. Registrar incidencia operativa
+7.5.11. CU11. Atender incidencia
+7.5.12. CU12. Consultar histórico de residuos
+7.5.13. CU13. Gestionar vehículos
+7.5.14. CU14. Planificar jornada y ruta de recolección
+7.5.15. CU15. Asignar personal y vehículos a la jornada
+7.5.16. CU16. Ejecutar jornada de recolección
+7.5.17. CU17. Omitir punto de la ruta
+7.5.18. CU18. Cerrar jornada de recolección
+7.5.19. CU19. Consultar historial de recolecciones
+7.5.20. CU20. Ejecutar proceso ETL
+7.5.21. CU21. Calcular indicadores clave de rendimiento
+7.5.22. CU22. Visualizar tablero interactivo
+7.5.23. CU23. Comparar periodos e identificar tendencias
+7.5.24. CU24. Visualizar puntos en el mapa interactivo
+7.5.25. CU25. Generar mapa de calor
+7.5.26. CU26. Filtrar mapa por periodo, sector y tipo de residuo
+7.5.27. CU27. Entrenar y evaluar el modelo Random Forest Regressor
+7.5.28. CU28. Publicar o revertir versión del modelo
+7.5.29. CU29. Predecir generación futura de residuos
+7.5.30. CU30. Generar alertas y recomendaciones logísticas
+7.5.31. CU31. Atender recomendación logística
+7.5.32. CU32. Configurar periodos académicos y parámetros
+7.5.33. CU33. Registrar evento en bitácora
+7.5.34. CU34. Consultar bitácora de auditoría
+7.5.35. CU35. Generar reporte
+7.5.36. CU36. Exportar reporte
+7.5.37. CU37. Exportar reporte a Excel
+7.5.38. CU38. Exportar reporte a PDF
+Referencias Bibliográficas

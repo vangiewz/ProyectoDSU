@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T00:00:00Z",
+  "title": "Design System: Sistema de gestión de residuos DSU-UAGRM",
+  "extensions": {
+    "colorMeta": {
+      "dsu": { "role": "primary", "displayName": "Rojo DSU", "canonical": "#c4122f", "tonalRamp": ["#460611", "#7e0c1e", "#b6112c", "#ea1a3c", "#ef526c", "#f48a9c", "#f9b9c3", "#fde8eb"] },
+      "dsu-hondo": { "role": "primary", "displayName": "Rojo DSU hondo", "canonical": "#9a0e25", "tonalRamp": ["#460611", "#7e0b1e", "#b6112c", "#ea1a3c", "#ef526c", "#f48a9c", "#f9b9c3", "#fde8eb"] },
+      "boligrafo": { "role": "secondary", "displayName": "Azul bolígrafo", "canonical": "#1f3fa8", "tonalRamp": ["#0c1841", "#152c74", "#1f3fa8", "#2c54d8", "#607ee2", "#93a8eb", "#becbf3", "#e9eefb"] },
+      "lapiz": { "role": "secondary", "displayName": "Lápiz", "canonical": "#55606c", "tonalRamp": ["#22262b", "#3d444d", "#58636f", "#738191", "#95a0ac", "#b8bfc7", "#d4d9dd", "#f1f2f4"] },
+      "sello-ok": { "role": "tertiary", "displayName": "Tinta de sello verde", "canonical": "#1e7a46", "tonalRamp": ["#0f3d23", "#1b6f3f", "#27a05c", "#36ce78", "#68da99", "#99e6ba", "#c2f0d6", "#ebfaf1"] },
+      "sello-omit": { "role": "tertiary", "displayName": "Tinta de sello ámbar", "canonical": "#9a5b00", "tonalRamp": ["#4c2d00", "#8a5100", "#c77600", "#ff9905", "#ffb242", "#ffcb80", "#ffe0b2", "#fff5e5"] },
+      "papel": { "role": "neutral", "displayName": "Papel de formulario", "canonical": "#f4f6f8", "tonalRamp": ["#1e262f", "#364554", "#4d637a", "#66829e", "#8ca1b6", "#b1bfcd", "#d0d9e1", "#eff2f5"] },
+      "hoja": { "role": "neutral", "displayName": "Hoja", "canonical": "#ffffff", "tonalRamp": ["#262626", "#454545", "#636363", "#828282", "#a1a1a1", "#bfbfbf", "#d9d9d9", "#f2f2f2"] },
+      "grafito": { "role": "neutral", "displayName": "Grafito", "canonical": "#1e2328", "tonalRamp": ["#21262c", "#3b454f", "#556372", "#708294", "#93a1ae", "#b6bfc8", "#d3d9de", "#f0f2f4"] },
+      "grafito-2": { "role": "neutral", "displayName": "Grafito medio", "canonical": "#4a5560", "tonalRamp": ["#21262b", "#3c454e", "#576370", "#728292", "#94a1ad", "#b7bfc8", "#d4d9de", "#f1f2f4"] },
+      "filete": { "role": "neutral", "displayName": "Filete", "canonical": "#c9ced6", "tonalRamp": ["#21252b", "#3b434e", "#566071", "#717e93", "#949eae", "#b7bdc8", "#d4d8de", "#f1f2f4"] },
+      "filete-suave": { "role": "neutral", "displayName": "Filete suave", "canonical": "#e3e7ec", "tonalRamp": ["#1f252e", "#384352", "#506176", "#6a7f9a", "#8f9fb3", "#b3becb", "#d1d8e0", "#f0f2f5"] },
+      "calor-1": { "role": "data", "displayName": "Calor 1 (mínimo)", "canonical": "#f6d5da", "tonalRamp": ["#f6d5da", "#ec9aa6", "#d9485f", "#c4122f", "#7a0a1c"] },
+      "calor-2": { "role": "data", "displayName": "Calor 2", "canonical": "#ec9aa6", "tonalRamp": ["#f6d5da", "#ec9aa6", "#d9485f", "#c4122f", "#7a0a1c"] },
+      "calor-3": { "role": "data", "displayName": "Calor 3", "canonical": "#d9485f", "tonalRamp": ["#f6d5da", "#ec9aa6", "#d9485f", "#c4122f", "#7a0a1c"] },
+      "calor-4": { "role": "data", "displayName": "Calor 4", "canonical": "#c4122f", "tonalRamp": ["#f6d5da", "#ec9aa6", "#d9485f", "#c4122f", "#7a0a1c"] },
+      "calor-5": { "role": "data", "displayName": "Calor 5 (máximo)", "canonical": "#7a0a1c", "tonalRamp": ["#f6d5da", "#ec9aa6", "#d9485f", "#c4122f", "#7a0a1c"] }
+    },
+    "typographyMeta": {
+      "cifra-grande": { "displayName": "Cifra grande", "purpose": "Total del tablero, en bolígrafo; numerales proporcionales por estar sola." },
+      "display": { "displayName": "Display", "purpose": "Código del punto en la parada actual de la captura móvil." },
+      "headline": { "displayName": "Headline", "purpose": "Título de página (1.5rem, 1.75rem desde 640px) sobre filete inferior." },
+      "title": { "displayName": "Title", "purpose": "Títulos de hoja y de figura." },
+      "cifra": { "displayName": "Cifra", "purpose": "Consolidados de jornada en bolígrafo, unidad a 1rem." },
+      "body": { "displayName": "Body", "purpose": "Tablas, avisos y detalle; controles a 0.95rem." },
+      "label": { "displayName": "Rótulo", "purpose": "Rótulos de campo, encabezados de tabla y términos de datos; mayúsculas condensadas." },
+      "sello": { "displayName": "Sello", "purpose": "Solo dentro del sello de estado; mayúsculas muy condensadas." }
+    },
+    "shadows": [
+      { "name": "etiqueta-flotante", "value": "0 2px 8px rgb(0 0 0 / 0.08)", "purpose": "Tooltip de gráficos y leyenda del mapa (0.1)." },
+      { "name": "cajon", "value": "4px 0 24px rgb(0 0 0 / 0.25)", "purpose": "Riel móvil abierto sobre velo de grafito al 40%." }
+    ],
+    "motion": [
+      { "name": "color-rapido", "value": "color, background-color, border-color 100ms", "purpose": "Hover y selección de botones, ítems del riel y opciones de campo." },
+      { "name": "estampar", "value": "140ms steps(2, jump-end) both; rotate(-3deg) scale(1.4) → scale(1), opacity 0 → 1", "purpose": "Caída del sello al asentar un estado nuevo; desactivada con prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón primario",
+      "kind": "button",
+      "refersTo": "button-primario",
+      "description": "Acción principal: grafito con texto blanco; nunca rojo.",
+      "html": "<button class=\"ds-btn-primario\">Registrar vaciado</button>",
+      "css": ".ds-btn-primario { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 0 16px; border: none; border-radius: 4px; background: var(--color-grafito, #1e2328); color: #fff; font-family: 'Archivo Variable', Archivo, system-ui, sans-serif; font-size: 0.875rem; font-weight: 600; cursor: pointer; transition: background-color 100ms; } .ds-btn-primario:hover { background: #000; } .ds-btn-primario:focus-visible { outline: 2px solid var(--color-boligrafo, #1f3fa8); outline-offset: 2px; } .ds-btn-primario:disabled { opacity: 0.6; cursor: not-allowed; }"
+    },
+    {
+      "name": "Botón secundario",
+      "kind": "button",
+      "refersTo": "button-secundario",
+      "description": "Acción alternativa: hoja con filete.",
+      "html": "<button class=\"ds-btn-secundario\">Cancelar</button>",
+      "css": ".ds-btn-secundario { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; padding: 0 16px; border: 1px solid var(--color-filete, #c9ced6); border-radius: 4px; background: var(--color-hoja, #fff); color: var(--color-grafito, #1e2328); font-family: 'Archivo Variable', Archivo, system-ui, sans-serif; font-size: 0.875rem; font-weight: 600; cursor: pointer; transition: border-color 100ms; } .ds-btn-secundario:hover { border-color: var(--color-grafito-2, #4a5560); } .ds-btn-secundario:focus-visible { outline: 2px solid var(--color-boligrafo, #1f3fa8); outline-offset: 2px; }"
+    },
+    {
+      "name": "Botón de peligro",
+      "kind": "button",
+      "refersTo": "button-peligro",
+      "description": "Acción destructiva o de baja lógica: se llena de rojo DSU al pasar.",
+      "html": "<button class=\"ds-btn-peligro\">Desactivar</button>",
+      "css": ".ds-btn-peligro { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; padding: 0 16px; border: 1px solid rgb(196 18 47 / 0.5); border-radius: 4px; background: var(--color-hoja, #fff); color: var(--color-dsu, #c4122f); font-family: 'Archivo Variable', Archivo, system-ui, sans-serif; font-size: 0.875rem; font-weight: 600; cursor: pointer; transition: background-color 100ms, color 100ms; } .ds-btn-peligro:hover { background: var(--color-dsu, #c4122f); color: #fff; } .ds-btn-peligro:focus-visible { outline: 2px solid var(--color-boligrafo, #1f3fa8); outline-offset: 2px; }"
+    },
+    {
+      "name": "Campo con rótulo",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Rótulo condensado encima; lo escrito va en bolígrafo.",
+      "html": "<label class=\"ds-campo\"><span class=\"ds-rotulo\">Observaciones</span><input class=\"ds-input\" value=\"Contenedor desbordado\"></label>",
+      "css": ".ds-campo { display: flex; flex-direction: column; gap: 6px; font-family: 'Archivo Variable', Archivo, system-ui, sans-serif; } .ds-rotulo { font-stretch: 80%; font-weight: 650; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-grafito-2, #4a5560); } .ds-input { min-height: 40px; padding: 0 12px; border: 1px solid var(--color-filete, #c9ced6); border-radius: 4px; background: var(--color-hoja, #fff); color: var(--color-boligrafo, #1f3fa8); caret-color: var(--color-boligrafo, #1f3fa8); font: inherit; font-size: 0.95rem; } .ds-input:hover { border-color: var(--color-grafito-2, #4a5560); } .ds-input:focus { outline: none; border-color: var(--color-boligrafo, #1f3fa8); }"
+    },
+    {
+      "name": "Riel institucional",
+      "kind": "nav",
+      "refersTo": "riel",
+      "description": "Riel rojo DSU con monograma; el ítem activo es una pestaña de papel.",
+      "html": "<nav class=\"ds-riel\"><span class=\"ds-mono\">DSU</span><p class=\"ds-grupo\">Análisis</p><a class=\"ds-item ds-activo\" href=\"#\">Tablero</a><a class=\"ds-item\" href=\"#\">Mapa del campus</a><a class=\"ds-item\" href=\"#\">Predicción</a></nav>",
+      "css": ".ds-riel { display: flex; flex-direction: column; width: 248px; padding: 20px 0; background: var(--color-dsu, #c4122f); color: #fff; font-family: 'Archivo Variable', Archivo, system-ui, sans-serif; } .ds-mono { align-self: flex-start; margin: 0 20px 24px; padding: 4px 8px; border-radius: 3px; background: #fff; color: var(--color-dsu, #c4122f); font-size: 1.25rem; font-weight: 800; font-stretch: 80%; letter-spacing: -0.025em; } .ds-grupo { margin: 0; padding: 0 20px 6px; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; font-stretch: 80%; color: rgb(255 255 255 / 0.65); } .ds-item { display: flex; align-items: center; min-height: 40px; margin-left: 12px; padding: 8px 16px 8px 12px; border-radius: 4px 0 0 4px; color: rgb(255 255 255 / 0.9); font-size: 0.92rem; font-weight: 500; text-decoration: none; transition: background-color 100ms, color 100ms; } .ds-item:hover { background: rgb(255 255 255 / 0.1); color: #fff; } .ds-item:focus-visible { outline: 2px solid #fff; outline-offset: -2px; } .ds-item.ds-activo { background: var(--color-papel, #f4f6f8); color: var(--color-grafito, #1e2328); }"
+    },
+    {
+      "name": "Sello de estado",
+      "kind": "custom",
+      "refersTo": "sello",
+      "description": "Estado asentado con doble filete, rotado -3°, caída en dos pasos.",
+      "html": "<div class=\"ds-sellos\"><span class=\"ds-sello ds-ok ds-recien\">ATENDIDO</span><span class=\"ds-sello ds-omit\">OMITIDO</span><span class=\"ds-sello ds-dsu\">CERRADA</span></div>",
+      "css": ".ds-sellos { display: flex; gap: 20px; padding: 12px; background: var(--color-hoja, #fff); font-family: 'Archivo Variable', Archivo, system-ui, sans-serif; } .ds-sello { display: inline-flex; align-items: center; padding: 0.15em 0.55em; border: 2px solid currentColor; outline: 1px solid currentColor; outline-offset: 2px; border-radius: 3px; font-stretch: 70%; font-weight: 800; font-size: 0.78rem; letter-spacing: 0.08em; line-height: 1.25; text-transform: uppercase; white-space: nowrap; transform: rotate(-3deg); } .ds-ok { color: var(--color-sello-ok, #1e7a46); } .ds-omit { color: var(--color-sello-omit, #9a5b00); } .ds-dsu { color: var(--color-dsu, #c4122f); } .ds-recien { animation: ds-estampar 140ms steps(2, jump-end) both; } @keyframes ds-estampar { from { transform: rotate(-3deg) scale(1.4); opacity: 0; } to { transform: rotate(-3deg) scale(1); opacity: 1; } } @media (prefers-reduced-motion: reduce) { .ds-recien { animation: none; } }"
+    },
+    {
+      "name": "Estimado del modelo",
+      "kind": "custom",
+      "refersTo": "estimado",
+      "description": "Cifra a lápiz con subrayado punteado y su margen (RNF13).",
+      "html": "<span class=\"ds-estimado\"><span class=\"ds-lapiz\">≈ 42,5</span><span class=\"ds-margen\"> ± 6,1 kg</span></span>",
+      "css": ".ds-estimado { white-space: nowrap; font-family: 'Archivo Variable', Archivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; font-size: 1rem; } .ds-lapiz { color: var(--color-lapiz, #55606c); font-weight: 600; text-decoration: underline dotted rgb(85 96 108 / 0.55); text-underline-offset: 4px; text-decoration-thickness: 1.5px; } .ds-margen { font-size: 0.8em; color: var(--color-lapiz, #55606c); }"
+    },
+    {
+      "name": "Hoja con tabla",
+      "kind": "card",
+      "refersTo": "hoja",
+      "description": "Hoja plana con filete; encabezados en rótulo, cantidades medidas en bolígrafo.",
+      "html": "<div class=\"ds-hoja\"><table class=\"ds-tabla\"><thead><tr><th>Punto</th><th class=\"ds-der\">Cantidad</th></tr></thead><tbody><tr><td>P-014 · Pabellón 150</td><td class=\"ds-der ds-tinta\">18,0 kg</td></tr><tr><td>P-022 · Patio central</td><td class=\"ds-der ds-tinta\">7,5 kg</td></tr></tbody></table></div>",
+      "css": ".ds-hoja { border: 1px solid var(--color-filete, #c9ced6); border-radius: 4px; background: var(--color-hoja, #fff); overflow: hidden; font-family: 'Archivo Variable', Archivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-tabla { width: 100%; border-collapse: collapse; font-size: 0.875rem; color: var(--color-grafito, #1e2328); } .ds-tabla th { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--color-filete, #c9ced6); font-stretch: 80%; font-weight: 650; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-grafito-2, #4a5560); } .ds-tabla td { padding: 10px 12px; border-bottom: 1px solid var(--color-filete-suave, #e3e7ec); } .ds-tabla tr:last-child td { border-bottom: 0; } .ds-tabla tbody tr:hover { background: var(--color-papel, #f4f6f8); } .ds-der { text-align: right !important; } .ds-tinta { color: var(--color-boligrafo, #1f3fa8); font-weight: 600; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "La planilla de control sellada",
+    "overview": "El sistema es el papel que la DSU ya usa, convertido en herramienta: un formulario impreso sobre papel frío, con filetes finos, rótulos condensados en mayúsculas, lo que una persona capturó escrito en bolígrafo azul, lo que estima el modelo escrito a lápiz, y cada estado asentado con un sello de goma. El modo es Operate: densidad de tabla real, sin decoración que no cargue un dato, y un riel institucional rojo DSU que enmarca todo.\n\nLa jerarquía nace de la tinta, no de cajas ni sombras. Tres tintas distinguen la procedencia de cada cifra (bolígrafo, lápiz, sello) y el lector sabe, sin leer una leyenda, si un número fue medido en campo, estimado por el Random Forest o si es un estado. En el celular del operario la misma planilla se reduce a una sola parada grande, con objetivos táctiles de 56–64px y la cantidad escrita en bolígrafo a tamaño de display.\n\nInterfaz en español (Bolivia). La terminología del dominio (punto de recolección, sector, jornada, vaciado, incidencia, ruta, cuadrilla) aparece tal cual en rótulos y sellos.",
+    "keyCharacteristics": [
+      "Papel frío (`papel`) con hojas blancas planas delimitadas por filetes de 1px; sin sombras en reposo.",
+      "Riel lateral rojo DSU con el monograma blanco; el rojo vive en el riel, en errores y en sellos de alarma, no en los botones.",
+      "Tres tintas de procedencia: bolígrafo = capturado por personas, lápiz = estimado por el modelo, sello = estado.",
+      "Una sola familia (Archivo variable) que recorre toda la escala usando el eje de ancho; cifras tabulares por defecto.",
+      "Movimiento en dos pasos cortos, sin easing decorativo."
+    ],
+    "rules": [
+      { "name": "The Tres Tintas Rule", "body": "Bolígrafo es lo que escribió una persona; lápiz es lo que estimó el modelo; nada estimado se escribe jamás en bolígrafo, y ninguna estimación aparece sin \"≈\" y sin su \"± margen\".", "section": "colors" },
+      { "name": "The Riel Rojo Rule", "body": "El rojo DSU es el marco institucional (riel, monograma) y la tinta de alarma; las acciones van en grafito. Si un botón rojo aparece fuera de una acción destructiva, está mal.", "section": "colors" },
+      { "name": "The Una Familia Rule", "body": "Archivo variable es la única familia. La jerarquía se construye con peso y ancho, nunca con una segunda tipografía.", "section": "typography" },
+      { "name": "The Cifra Tabular Rule", "body": "Todo el documento usa `tabular-nums`; las cantidades en columnas se alinean a la derecha.", "section": "typography" },
+      { "name": "The Hoja Plana Rule", "body": "Una hoja en reposo no tiene sombra; si necesita separarse, gana un filete, no una sombra.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** escribir todo valor capturado por personas en bolígrafo (`boligrafo`), incluido el texto de los campos.",
+      "**Do** escribir toda estimación del modelo a lápiz como \"≈ valor ± margen unidad\", con el componente Estimado o con tinta lápiz y bigotes de margen en los gráficos.",
+      "**Do** expresar los estados con el sello y su tinta asignada; un estado nuevo cae en dos pasos (140ms `steps(2)`).",
+      "**Do** usar un solo tono por gráfico y ofrecer siempre la vista de tabla.",
+      "**Do** construir la jerarquía con peso y ancho de Archivo; rótulos en mayúsculas condensadas al 80%.",
+      "**Do** mantener objetivos táctiles de 56px o más en la captura de campo."
+    ],
+    "donts": [
+      "**Don't** pintar una estimación en bolígrafo ni mostrarla sin su margen.",
+      "**Don't** usar el sello como decoración: solo marca un estado real del registro.",
+      "**Don't** introducir una segunda familia tipográfica.",
+      "**Don't** usar rojo DSU como fondo de botones de acción no destructiva.",
+      "**Don't** mezclar varias series o una paleta categórica en un mismo gráfico.",
+      "**Don't** dar sombra a las hojas en reposo ni usar transiciones con easing decorativo."
+    ]
+  }
+}

@@ -1,0 +1,1594 @@
+[
+  {
+    "i": 0,
+    "caption": "portada",
+    "size": [
+      777,
+      1008
+    ]
+  },
+  {
+    "i": 1,
+    "caption": "Figura 1. Objeto de la investigación",
+    "size": [
+      2101,
+      966
+    ]
+  },
+  {
+    "i": 2,
+    "caption": "Figura 2. Diagrama de Gantt del proyecto",
+    "size": [
+      2882,
+      850
+    ]
+  },
+  {
+    "i": 3,
+    "caption": "Figura 3. Estructura del ensamble Random Forest Regressor",
+    "size": [
+      1995,
+      1484
+    ]
+  },
+  {
+    "i": 4,
+    "caption": "Figura 4. Flujo de extracción, transformación y carga del proyecto",
+    "size": [
+      2286,
+      961
+    ]
+  },
+  {
+    "i": 5,
+    "caption": "Figura 5. Arquitectura tecnológica del sistema",
+    "size": [
+      2154,
+      1568
+    ]
+  },
+  {
+    "i": 6,
+    "caption": "Figura 6. Imagen corporativa de la institución",
+    "size": [
+      1995,
+      1167
+    ]
+  },
+  {
+    "i": 7,
+    "caption": "Figura 7. Estructura organizacional de la Dirección de Servicios Universitarios",
+    "size": [
+      2642,
+      1758
+    ]
+  },
+  {
+    "i": 8,
+    "caption": "Figura 8. Ubicación geográfica de la institución",
+    "size": [
+      1097,
+      2351
+    ]
+  },
+  {
+    "i": 9,
+    "caption": "Figura 9. Infraestructura de la institución",
+    "size": [
+      1950,
+      1463
+    ]
+  },
+  {
+    "i": 10,
+    "caption": "Figura 10. Modelo de negocio de la Dirección de Servicios Universitarios",
+    "size": [
+      2766,
+      1220
+    ]
+  },
+  {
+    "i": 11,
+    "caption": "Figura 11. Flujo operativo actual del proceso de recolección de residuos",
+    "size": [
+      1934,
+      2698
+    ]
+  },
+  {
+    "i": 12,
+    "caption": "Figura 12. Modelo de dominio del sistema",
+    "size": [
+      2668,
+      1842
+    ]
+  },
+  {
+    "i": 13,
+    "caption": "Figura 13. Registrar Generación y Vaciado de Residuos",
+    "size": [
+      1934,
+      3066
+    ]
+  },
+  {
+    "i": 14,
+    "caption": "Figura 14. Registrar la Ejecución de la Recolección",
+    "size": [
+      2834,
+      2882
+    ]
+  },
+  {
+    "i": 15,
+    "caption": "Figura 15. Ejecutar los Procesos de Extracción, Transformación y Carga",
+    "size": [
+      1034,
+      2698
+    ]
+  },
+  {
+    "i": 16,
+    "caption": "Figura 16. Calcular los Indicadores Clave de Rendimiento",
+    "size": [
+      1934,
+      1962
+    ]
+  },
+  {
+    "i": 17,
+    "caption": "Figura 17. Generar el Mapa de Calor de Zonas Críticas",
+    "size": [
+      1934,
+      2330
+    ]
+  },
+  {
+    "i": 18,
+    "caption": "Figura 18. Entrenar y Evaluar el Modelo Random Forest Regressor",
+    "size": [
+      1934,
+      2698
+    ]
+  },
+  {
+    "i": 19,
+    "caption": "Figura 19. Predecir la Generación Futura de Residuos",
+    "size": [
+      1934,
+      1962
+    ]
+  },
+  {
+    "i": 20,
+    "caption": "Figura 20. Generar Alertas y Recomendaciones Logísticas",
+    "size": [
+      1920,
+      2698
+    ]
+  },
+  {
+    "i": 21,
+    "caption": "Figura 21. Identificación de actores",
+    "size": [
+      1520,
+      606
+    ]
+  },
+  {
+    "i": 22,
+    "caption": "Figura 22. Actores del sistema",
+    "size": [
+      1350,
+      2200
+    ]
+  },
+  {
+    "i": 23,
+    "caption": "Figura 23. Jerarquía de actores",
+    "size": [
+      2540,
+      850
+    ]
+  },
+  {
+    "i": 24,
+    "caption": "Figura 24. CU1. Iniciar sesión",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 25,
+    "caption": "Figura 25. CU2. Cerrar sesión",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 26,
+    "caption": "Figura 26. CU3. Gestionar usuarios",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 27,
+    "caption": "Figura 27. CU4. Gestionar roles y permisos",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 28,
+    "caption": "Figura 28. CU5. Gestionar sectores y facultades",
+    "size": [
+      1636,
+      670
+    ]
+  },
+  {
+    "i": 29,
+    "caption": "Figura 29. CU6. Gestionar puntos de recolección",
+    "size": [
+      1636,
+      670
+    ]
+  },
+  {
+    "i": 30,
+    "caption": "Figura 30. CU7. Gestionar contenedores",
+    "size": [
+      1636,
+      670
+    ]
+  },
+  {
+    "i": 31,
+    "caption": "Figura 31. CU8. Gestionar tipos de residuo y unidades de medida",
+    "size": [
+      1636,
+      670
+    ]
+  },
+  {
+    "i": 32,
+    "caption": "Figura 32. CU9. Registrar vaciado de residuos",
+    "size": [
+      1638,
+      680
+    ]
+  },
+  {
+    "i": 33,
+    "caption": "Figura 33. CU10. Registrar incidencia operativa",
+    "size": [
+      1638,
+      670
+    ]
+  },
+  {
+    "i": 34,
+    "caption": "Figura 34. CU11. Atender incidencia",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 35,
+    "caption": "Figura 35. CU12. Consultar histórico de residuos",
+    "size": [
+      1010,
+      950
+    ]
+  },
+  {
+    "i": 36,
+    "caption": "Figura 36. CU13. Gestionar vehículos",
+    "size": [
+      1636,
+      670
+    ]
+  },
+  {
+    "i": 37,
+    "caption": "Figura 37. CU14. Planificar jornada y ruta de recolección",
+    "size": [
+      1636,
+      680
+    ]
+  },
+  {
+    "i": 38,
+    "caption": "Figura 38. CU15. Asignar personal y vehículos a la jornada",
+    "size": [
+      1636,
+      670
+    ]
+  },
+  {
+    "i": 39,
+    "caption": "Figura 39. CU16. Ejecutar jornada de recolección",
+    "size": [
+      1638,
+      680
+    ]
+  },
+  {
+    "i": 40,
+    "caption": "Figura 40. CU17. Omitir punto de la ruta",
+    "size": [
+      1188,
+      346
+    ]
+  },
+  {
+    "i": 41,
+    "caption": "Figura 41. CU18. Cerrar jornada de recolección",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 42,
+    "caption": "Figura 42. CU19. Consultar historial de recolecciones",
+    "size": [
+      1010,
+      950
+    ]
+  },
+  {
+    "i": 43,
+    "caption": "Figura 43. CU20. Ejecutar proceso ETL",
+    "size": [
+      1636,
+      950
+    ]
+  },
+  {
+    "i": 44,
+    "caption": "Figura 44. CU21. Calcular indicadores clave de rendimiento",
+    "size": [
+      1186,
+      346
+    ]
+  },
+  {
+    "i": 45,
+    "caption": "Figura 45. CU22. Visualizar tablero interactivo",
+    "size": [
+      1638,
+      950
+    ]
+  },
+  {
+    "i": 46,
+    "caption": "Figura 46. CU23. Comparar periodos e identificar tendencias",
+    "size": [
+      1188,
+      346
+    ]
+  },
+  {
+    "i": 47,
+    "caption": "Figura 47. CU24. Visualizar puntos en el mapa interactivo",
+    "size": [
+      1638,
+      950
+    ]
+  },
+  {
+    "i": 48,
+    "caption": "Figura 48. CU25. Generar mapa de calor",
+    "size": [
+      1188,
+      346
+    ]
+  },
+  {
+    "i": 49,
+    "caption": "Figura 49. CU26. Filtrar mapa por periodo, sector y tipo de residuo",
+    "size": [
+      1188,
+      346
+    ]
+  },
+  {
+    "i": 50,
+    "caption": "Figura 50. CU27. Entrenar y evaluar el modelo Random Forest Regressor",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 51,
+    "caption": "Figura 51. CU28. Publicar o revertir versión del modelo",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 52,
+    "caption": "Figura 52. CU29. Predecir generación futura de residuos",
+    "size": [
+      1636,
+      950
+    ]
+  },
+  {
+    "i": 53,
+    "caption": "Figura 53. CU30. Generar alertas y recomendaciones logísticas",
+    "size": [
+      1186,
+      346
+    ]
+  },
+  {
+    "i": 54,
+    "caption": "Figura 54. CU31. Atender recomendación logística",
+    "size": [
+      1636,
+      670
+    ]
+  },
+  {
+    "i": 55,
+    "caption": "Figura 55. CU32. Configurar periodos académicos y parámetros",
+    "size": [
+      1636,
+      400
+    ]
+  },
+  {
+    "i": 56,
+    "caption": "Figura 56. CU33. Registrar evento en bitácora",
+    "size": [
+      1766,
+      1906
+    ]
+  },
+  {
+    "i": 57,
+    "caption": "Figura 57. CU34. Consultar bitácora de auditoría",
+    "size": [
+      1010,
+      670
+    ]
+  },
+  {
+    "i": 58,
+    "caption": "Figura 58. CU35. Generar reporte",
+    "size": [
+      1638,
+      1230
+    ]
+  },
+  {
+    "i": 59,
+    "caption": "Figura 59. CU36. Exportar reporte",
+    "size": [
+      1188,
+      1146
+    ]
+  },
+  {
+    "i": 60,
+    "caption": "Figura 60. CU37. Exportar reporte a Excel",
+    "size": [
+      1140,
+      346
+    ]
+  },
+  {
+    "i": 61,
+    "caption": "Figura 61. CU38. Exportar reporte a PDF",
+    "size": [
+      1140,
+      346
+    ]
+  },
+  {
+    "i": 62,
+    "caption": "Figura 62. Diagrama general de casos de uso",
+    "size": [
+      5056,
+      3046
+    ]
+  },
+  {
+    "i": 63,
+    "caption": "Figura 63. Identificación de paquetes",
+    "size": [
+      2440,
+      806
+    ]
+  },
+  {
+    "i": 64,
+    "caption": "Figura 64. Relación del paquete Gestión de Usuarios y Control de Acceso",
+    "size": [
+      1306,
+      1506
+    ]
+  },
+  {
+    "i": 65,
+    "caption": "Figura 65. Relación del paquete Gestión Topológica y Puntos de Recolección",
+    "size": [
+      1306,
+      1506
+    ]
+  },
+  {
+    "i": 66,
+    "caption": "Figura 66. Relación del paquete Gestión de Residuos",
+    "size": [
+      1624,
+      1506
+    ]
+  },
+  {
+    "i": 67,
+    "caption": "Figura 67. Relación del paquete Gestión de Recolecciones y Logística",
+    "size": [
+      1848,
+      1894
+    ]
+  },
+  {
+    "i": 68,
+    "caption": "Figura 68. Relación del paquete Inteligencia de Negocios y Analítica Visual",
+    "size": [
+      1624,
+      1506
+    ]
+  },
+  {
+    "i": 69,
+    "caption": "Figura 69. Relación del paquete Componente Cartográfico y Análisis Espacial",
+    "size": [
+      1540,
+      1330
+    ]
+  },
+  {
+    "i": 70,
+    "caption": "Figura 70. Relación del paquete Predicción mediante Random Forest Regressor",
+    "size": [
+      1614,
+      1506
+    ]
+  },
+  {
+    "i": 71,
+    "caption": "Figura 71. Relación del paquete Administración de la Plataforma y Auditoría",
+    "size": [
+      1846,
+      1894
+    ]
+  },
+  {
+    "i": 72,
+    "caption": "Figura 72. Encapsulamiento de casos de uso del paquete Gestión de Usuarios y Control de Acceso",
+    "size": [
+      2240,
+      1046
+    ]
+  },
+  {
+    "i": 73,
+    "caption": "Figura 73. Encapsulamiento de casos de uso del paquete Gestión Topológica y Puntos de Recolección",
+    "size": [
+      2240,
+      1046
+    ]
+  },
+  {
+    "i": 74,
+    "caption": "Figura 74. Encapsulamiento de casos de uso del paquete Gestión de Residuos",
+    "size": [
+      2240,
+      1046
+    ]
+  },
+  {
+    "i": 75,
+    "caption": "Figura 75. Encapsulamiento de casos de uso del paquete Gestión de Recolecciones y Logística",
+    "size": [
+      2240,
+      1566
+    ]
+  },
+  {
+    "i": 76,
+    "caption": "Figura 76. Encapsulamiento de casos de uso del paquete Inteligencia de Negocios y Analítica Visual",
+    "size": [
+      2240,
+      1046
+    ]
+  },
+  {
+    "i": 77,
+    "caption": "Figura 77. Encapsulamiento de casos de uso del paquete Componente Cartográfico y Análisis Espacial",
+    "size": [
+      1810,
+      1046
+    ]
+  },
+  {
+    "i": 78,
+    "caption": "Figura 78. Encapsulamiento de casos de uso del paquete Predicción mediante Random Forest Regressor",
+    "size": [
+      2240,
+      1306
+    ]
+  },
+  {
+    "i": 79,
+    "caption": "Figura 79. Encapsulamiento de casos de uso del paquete Administración de la Plataforma y Auditoría",
+    "size": [
+      2240,
+      1566
+    ]
+  },
+  {
+    "i": 80,
+    "caption": "Figura 80. Análisis del caso de uso CU1. Iniciar sesión",
+    "size": [
+      2180,
+      602
+    ]
+  },
+  {
+    "i": 81,
+    "caption": "Figura 81. Análisis del caso de uso CU2. Cerrar sesión",
+    "size": [
+      2178,
+      602
+    ]
+  },
+  {
+    "i": 82,
+    "caption": "Figura 82. Análisis del caso de uso CU3. Gestionar usuarios",
+    "size": [
+      2206,
+      902
+    ]
+  },
+  {
+    "i": 83,
+    "caption": "Figura 83. Análisis del caso de uso CU4. Gestionar roles y permisos",
+    "size": [
+      2214,
+      902
+    ]
+  },
+  {
+    "i": 84,
+    "caption": "Figura 84. Análisis del caso de uso CU5. Gestionar sectores y facultades",
+    "size": [
+      2184,
+      1202
+    ]
+  },
+  {
+    "i": 85,
+    "caption": "Figura 85. Análisis del caso de uso CU6. Gestionar puntos de recolección",
+    "size": [
+      2218,
+      902
+    ]
+  },
+  {
+    "i": 86,
+    "caption": "Figura 86. Análisis del caso de uso CU7. Gestionar contenedores",
+    "size": [
+      2218,
+      902
+    ]
+  },
+  {
+    "i": 87,
+    "caption": "Figura 87. Análisis del caso de uso CU8. Gestionar tipos de residuo y unidades de medida",
+    "size": [
+      2170,
+      1202
+    ]
+  },
+  {
+    "i": 88,
+    "caption": "Figura 88. Análisis del caso de uso CU9. Registrar vaciado de residuos",
+    "size": [
+      2200,
+      1202
+    ]
+  },
+  {
+    "i": 89,
+    "caption": "Figura 89. Análisis del caso de uso CU10. Registrar incidencia operativa",
+    "size": [
+      2218,
+      902
+    ]
+  },
+  {
+    "i": 90,
+    "caption": "Figura 90. Análisis del caso de uso CU11. Atender incidencia",
+    "size": [
+      2142,
+      602
+    ]
+  },
+  {
+    "i": 91,
+    "caption": "Figura 91. Análisis del caso de uso CU12. Consultar histórico de residuos",
+    "size": [
+      2194,
+      602
+    ]
+  },
+  {
+    "i": 92,
+    "caption": "Figura 92. Análisis del caso de uso CU13. Gestionar vehículos",
+    "size": [
+      2076,
+      602
+    ]
+  },
+  {
+    "i": 93,
+    "caption": "Figura 93. Análisis del caso de uso CU14. Planificar jornada y ruta de recolección",
+    "size": [
+      2198,
+      1502
+    ]
+  },
+  {
+    "i": 94,
+    "caption": "Figura 94. Análisis del caso de uso CU15. Asignar personal y vehículos a la jornada",
+    "size": [
+      2176,
+      902
+    ]
+  },
+  {
+    "i": 95,
+    "caption": "Figura 95. Análisis del caso de uso CU16. Ejecutar jornada de recolección",
+    "size": [
+      2184,
+      902
+    ]
+  },
+  {
+    "i": 96,
+    "caption": "Figura 96. Análisis del caso de uso CU17. Omitir punto de la ruta",
+    "size": [
+      2070,
+      390
+    ]
+  },
+  {
+    "i": 97,
+    "caption": "Figura 97. Análisis del caso de uso CU18. Cerrar jornada de recolección",
+    "size": [
+      2178,
+      1202
+    ]
+  },
+  {
+    "i": 98,
+    "caption": "Figura 98. Análisis del caso de uso CU19. Consultar historial de recolecciones",
+    "size": [
+      2202,
+      1202
+    ]
+  },
+  {
+    "i": 99,
+    "caption": "Figura 99. Análisis del caso de uso CU20. Ejecutar proceso ETL",
+    "size": [
+      2224,
+      1502
+    ]
+  },
+  {
+    "i": 100,
+    "caption": "Figura 100. Análisis del caso de uso CU21. Calcular indicadores clave de rendimiento",
+    "size": [
+      2152,
+      886
+    ]
+  },
+  {
+    "i": 101,
+    "caption": "Figura 101. Análisis del caso de uso CU22. Visualizar tablero interactivo",
+    "size": [
+      2180,
+      586
+    ]
+  },
+  {
+    "i": 102,
+    "caption": "Figura 102. Análisis del caso de uso CU23. Comparar periodos e identificar tendencias",
+    "size": [
+      2070,
+      390
+    ]
+  },
+  {
+    "i": 103,
+    "caption": "Figura 103. Análisis del caso de uso CU24. Visualizar puntos en el mapa interactivo",
+    "size": [
+      2176,
+      902
+    ]
+  },
+  {
+    "i": 104,
+    "caption": "Figura 104. Análisis del caso de uso CU25. Generar mapa de calor",
+    "size": [
+      2186,
+      902
+    ]
+  },
+  {
+    "i": 105,
+    "caption": "Figura 105. Análisis del caso de uso CU26. Filtrar mapa por periodo, sector y tipo de residuo",
+    "size": [
+      2200,
+      602
+    ]
+  },
+  {
+    "i": 106,
+    "caption": "Figura 106. Análisis del caso de uso CU27. Entrenar y evaluar el modelo Random Forest Regressor",
+    "size": [
+      2198,
+      1202
+    ]
+  },
+  {
+    "i": 107,
+    "caption": "Figura 107. Análisis del caso de uso CU28. Publicar o revertir versión del modelo",
+    "size": [
+      2152,
+      602
+    ]
+  },
+  {
+    "i": 108,
+    "caption": "Figura 108. Análisis del caso de uso CU29. Predecir generación futura de residuos",
+    "size": [
+      2208,
+      1486
+    ]
+  },
+  {
+    "i": 109,
+    "caption": "Figura 109. Análisis del caso de uso CU30. Generar alertas y recomendaciones logísticas",
+    "size": [
+      2178,
+      1202
+    ]
+  },
+  {
+    "i": 110,
+    "caption": "Figura 110. Análisis del caso de uso CU31. Atender recomendación logística",
+    "size": [
+      2184,
+      1202
+    ]
+  },
+  {
+    "i": 111,
+    "caption": "Figura 111. Análisis del caso de uso CU32. Configurar periodos académicos y parámetros",
+    "size": [
+      2142,
+      886
+    ]
+  },
+  {
+    "i": 112,
+    "caption": "Figura 112. Análisis del caso de uso CU33. Registrar evento en bitácora",
+    "size": [
+      2186,
+      602
+    ]
+  },
+  {
+    "i": 113,
+    "caption": "Figura 113. Análisis del caso de uso CU34. Consultar bitácora de auditoría",
+    "size": [
+      2146,
+      390
+    ]
+  },
+  {
+    "i": 114,
+    "caption": "Figura 114. Análisis del caso de uso CU35. Generar reporte",
+    "size": [
+      2206,
+      1202
+    ]
+  },
+  {
+    "i": 115,
+    "caption": "Figura 115. Análisis del caso de uso CU36. Exportar reporte",
+    "size": [
+      2170,
+      602
+    ]
+  },
+  {
+    "i": 116,
+    "caption": "Figura 116. Análisis del caso de uso CU37. Exportar reporte a Excel",
+    "size": [
+      2140,
+      390
+    ]
+  },
+  {
+    "i": 117,
+    "caption": "Figura 117. Análisis del caso de uso CU38. Exportar reporte a PDF",
+    "size": [
+      2140,
+      390
+    ]
+  },
+  {
+    "i": 118,
+    "caption": "Figura 118. Análisis de paquetes",
+    "size": [
+      2780,
+      2786
+    ]
+  },
+  {
+    "i": 119,
+    "caption": "Figura 119. Diagrama de despliegue",
+    "size": [
+      3022,
+      2046
+    ]
+  },
+  {
+    "i": 120,
+    "caption": "Figura 120. Diseño lógico: diagrama de paquetes por capas",
+    "size": [
+      2860,
+      2166
+    ]
+  },
+  {
+    "i": 121,
+    "caption": "Figura 121. Diagrama de clases: vista general",
+    "size": [
+      2634,
+      1706
+    ]
+  },
+  {
+    "i": 122,
+    "caption": "Figura 122. Diagrama de clases: Seguridad y auditoría",
+    "size": [
+      2704,
+      1806
+    ]
+  },
+  {
+    "i": 123,
+    "caption": "Figura 123. Diagrama de clases: Campus y catálogos",
+    "size": [
+      2862,
+      1416
+    ]
+  },
+  {
+    "i": 124,
+    "caption": "Figura 124. Diagrama de clases: Operación de la recolección",
+    "size": [
+      4420,
+      2286
+    ]
+  },
+  {
+    "i": 125,
+    "caption": "Figura 125. Diagrama de clases: Analítica y administración",
+    "size": [
+      3090,
+      2616
+    ]
+  },
+  {
+    "i": 126,
+    "caption": "Figura 126. Diagrama de clases: Predicción",
+    "size": [
+      3732,
+      2496
+    ]
+  },
+  {
+    "i": 127,
+    "caption": "Figura 127. Diagrama de clases: controladores de la capa de servicios",
+    "size": [
+      5238,
+      2656
+    ]
+  },
+  {
+    "i": 128,
+    "caption": "Figura 128. Diseño lógico de la base de datos: vista general",
+    "size": [
+      3100,
+      2006
+    ]
+  },
+  {
+    "i": 129,
+    "caption": "Figura 129. Diseño lógico de la base de datos: Seguridad y auditoría",
+    "size": [
+      2432,
+      1706
+    ]
+  },
+  {
+    "i": 130,
+    "caption": "Figura 130. Diseño lógico de la base de datos: Campus y catálogos",
+    "size": [
+      3192,
+      1766
+    ]
+  },
+  {
+    "i": 131,
+    "caption": "Figura 131. Diseño lógico de la base de datos: Operación de la recolección",
+    "size": [
+      3948,
+      1916
+    ]
+  },
+  {
+    "i": 132,
+    "caption": "Figura 132. Diseño lógico de la base de datos: Analítica y administración",
+    "size": [
+      2556,
+      1486
+    ]
+  },
+  {
+    "i": 133,
+    "caption": "Figura 133. Diseño lógico de la base de datos: Predicción",
+    "size": [
+      2454,
+      1786
+    ]
+  },
+  {
+    "i": 134,
+    "caption": "Figura 134. Diagrama de secuencia de CU1. Iniciar sesión",
+    "size": [
+      2230,
+      1206
+    ]
+  },
+  {
+    "i": 135,
+    "caption": "Figura 135. Diagrama de secuencia de CU9. Registrar vaciado de residuos",
+    "size": [
+      2800,
+      1218
+    ]
+  },
+  {
+    "i": 136,
+    "caption": "Figura 136. Diagrama de secuencia de CU14. Planificar jornada y ruta de recolección",
+    "size": [
+      2816,
+      1346
+    ]
+  },
+  {
+    "i": 137,
+    "caption": "Figura 137. Diagrama de secuencia de CU18. Cerrar jornada de recolección",
+    "size": [
+      2416,
+      1276
+    ]
+  },
+  {
+    "i": 138,
+    "caption": "Figura 138. Diagrama de secuencia de CU20. Ejecutar proceso ETL",
+    "size": [
+      2816,
+      1222
+    ]
+  },
+  {
+    "i": 139,
+    "caption": "Figura 139. Diagrama de secuencia de CU27. Entrenar y evaluar el modelo Random Forest Regressor",
+    "size": [
+      2416,
+      1222
+    ]
+  },
+  {
+    "i": 140,
+    "caption": "Figura 140. Diagrama de secuencia de CU29. Predecir generación futura de residuos",
+    "size": [
+      2816,
+      1222
+    ]
+  },
+  {
+    "i": 141,
+    "caption": "Figura 141. Diagrama de secuencia de CU31. Atender recomendación logística",
+    "size": [
+      2816,
+      1136
+    ]
+  },
+  {
+    "i": 142,
+    "caption": "Figura 142. Diseño de interfaz CU1: Iniciar sesión (escritorio)",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 143,
+    "caption": "Figura 143. Diseño de interfaz CU1: Iniciar sesión (móvil)",
+    "size": [
+      780,
+      1688
+    ]
+  },
+  {
+    "i": 144,
+    "caption": "Figura 144. Diseño de interfaz CU2: Menú principal con la opción Cerrar sesión (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 145,
+    "caption": "Figura 145. Diseño de interfaz CU3: Lista de usuarios",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 146,
+    "caption": "Figura 146. Diseño de interfaz CU3: Formulario de usuario",
+    "size": [
+      2049,
+      1596
+    ]
+  },
+  {
+    "i": 147,
+    "caption": "Figura 147. Diseño de interfaz CU4: Roles y permisos",
+    "size": [
+      2049,
+      2561
+    ]
+  },
+  {
+    "i": 148,
+    "caption": "Figura 148. Diseño de interfaz CU5: Lista de sectores y facultades",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 149,
+    "caption": "Figura 149. Diseño de interfaz CU5: Formulario de sector",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 150,
+    "caption": "Figura 150. Diseño de interfaz CU6: Puntos de recolección con su ubicación en el mapa",
+    "size": [
+      2049,
+      2108
+    ]
+  },
+  {
+    "i": 151,
+    "caption": "Figura 151. Diseño de interfaz CU6: Formulario de punto de recolección",
+    "size": [
+      2049,
+      2561
+    ]
+  },
+  {
+    "i": 152,
+    "caption": "Figura 152. Diseño de interfaz CU7: Lista de contenedores",
+    "size": [
+      2049,
+      1526
+    ]
+  },
+  {
+    "i": 153,
+    "caption": "Figura 153. Diseño de interfaz CU7: Formulario de contenedor",
+    "size": [
+      2049,
+      1526
+    ]
+  },
+  {
+    "i": 154,
+    "caption": "Figura 154. Diseño de interfaz CU8: Tipos de residuo",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 155,
+    "caption": "Figura 155. Diseño de interfaz CU8: Unidades de medida",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 156,
+    "caption": "Figura 156. Diseño de interfaz CU9: Selección del residuo retirado en el punto actual (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 157,
+    "caption": "Figura 157. Diseño de interfaz CU9: Registro de la cantidad vaciada (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 158,
+    "caption": "Figura 158. Diseño de interfaz CU10: Registro de incidencia en campo (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 159,
+    "caption": "Figura 159. Diseño de interfaz CU10: Reporte de incidencia desde la oficina",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 160,
+    "caption": "Figura 160. Diseño de interfaz CU11: Incidencias operativas",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 161,
+    "caption": "Figura 161. Diseño de interfaz CU12: Histórico de residuos",
+    "size": [
+      2049,
+      2561
+    ]
+  },
+  {
+    "i": 162,
+    "caption": "Figura 162. Diseño de interfaz CU12: Histórico de residuos (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 163,
+    "caption": "Figura 163. Diseño de interfaz CU13: Lista de vehículos",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 164,
+    "caption": "Figura 164. Diseño de interfaz CU13: Formulario de vehículo",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 165,
+    "caption": "Figura 165. Diseño de interfaz CU14: Planificación de la jornada y su ruta",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 166,
+    "caption": "Figura 166. Diseño de interfaz CU15: Asignación de la cuadrilla y los vehículos",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 167,
+    "caption": "Figura 167. Diseño de interfaz CU16: Seguimiento de la jornada en ejecución",
+    "size": [
+      2049,
+      1209
+    ]
+  },
+  {
+    "i": 168,
+    "caption": "Figura 168. Diseño de interfaz CU16: Recorrido de la jornada en campo (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 169,
+    "caption": "Figura 169. Diseño de interfaz CU17: Omisión de un punto de la ruta (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 170,
+    "caption": "Figura 170. Diseño de interfaz CU18: Resumen y cierre de la jornada",
+    "size": [
+      2049,
+      1643
+    ]
+  },
+  {
+    "i": 171,
+    "caption": "Figura 171. Diseño de interfaz CU19: Historial de jornadas de recolección",
+    "size": [
+      2049,
+      2166
+    ]
+  },
+  {
+    "i": 172,
+    "caption": "Figura 172. Diseño de interfaz CU19: Historial de jornadas (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 173,
+    "caption": "Figura 173. Diseño de interfaz CU20: Procesamiento de datos (ETL)",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 174,
+    "caption": "Figura 174. Diseño de interfaz CU21: Indicadores clave calculados en el tablero",
+    "size": [
+      2049,
+      2561
+    ]
+  },
+  {
+    "i": 175,
+    "caption": "Figura 175. Diseño de interfaz CU22: Tablero de gestión",
+    "size": [
+      2049,
+      2561
+    ]
+  },
+  {
+    "i": 176,
+    "caption": "Figura 176. Diseño de interfaz CU22: Tablero de gestión (móvil)",
+    "size": [
+      780,
+      1688
+    ]
+  },
+  {
+    "i": 177,
+    "caption": "Figura 177. Diseño de interfaz CU22: Informe de Power BI insertado en el tablero",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 178,
+    "caption": "Figura 178. Diseño de interfaz CU23: Comparación de periodos",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 179,
+    "caption": "Figura 179. Diseño de interfaz CU24: Mapa interactivo con los puntos de recolección",
+    "size": [
+      2049,
+      1428
+    ]
+  },
+  {
+    "i": 180,
+    "caption": "Figura 180. Diseño de interfaz CU24: Mapa interactivo (móvil)",
+    "size": [
+      780,
+      1688
+    ]
+  },
+  {
+    "i": 181,
+    "caption": "Figura 181. Diseño de interfaz CU25: Mapa de calor de la generación observada",
+    "size": [
+      2049,
+      1428
+    ]
+  },
+  {
+    "i": 182,
+    "caption": "Figura 182. Diseño de interfaz CU25: Mapa de calor de la generación proyectada",
+    "size": [
+      2049,
+      2130
+    ]
+  },
+  {
+    "i": 183,
+    "caption": "Figura 183. Diseño de interfaz CU26: Mapa filtrado por sector y tipo de residuo",
+    "size": [
+      2049,
+      1407
+    ]
+  },
+  {
+    "i": 184,
+    "caption": "Figura 184. Diseño de interfaz CU27: Entrenamiento y evaluación del modelo",
+    "size": [
+      2049,
+      1496
+    ]
+  },
+  {
+    "i": 185,
+    "caption": "Figura 185. Diseño de interfaz CU28: Versiones del modelo: publicar o revertir",
+    "size": [
+      2049,
+      1496
+    ]
+  },
+  {
+    "i": 186,
+    "caption": "Figura 186. Diseño de interfaz CU29: Predicción de generación",
+    "size": [
+      2049,
+      2561
+    ]
+  },
+  {
+    "i": 187,
+    "caption": "Figura 187. Diseño de interfaz CU30: Alertas tempranas y recomendaciones generadas",
+    "size": [
+      2049,
+      1394
+    ]
+  },
+  {
+    "i": 188,
+    "caption": "Figura 188. Diseño de interfaz CU31: Atención de recomendaciones logísticas",
+    "size": [
+      2049,
+      1394
+    ]
+  },
+  {
+    "i": 189,
+    "caption": "Figura 189. Diseño de interfaz CU31: Atención de recomendaciones (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 190,
+    "caption": "Figura 190. Diseño de interfaz CU32: Periodos académicos",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 191,
+    "caption": "Figura 191. Diseño de interfaz CU32: Parámetros del sistema",
+    "size": [
+      2049,
+      1998
+    ]
+  },
+  {
+    "i": 192,
+    "caption": "Figura 192. Diseño de interfaz CU33: Eventos registrados en la bitácora",
+    "size": [
+      2049,
+      2561
+    ]
+  },
+  {
+    "i": 193,
+    "caption": "Figura 193. Diseño de interfaz CU34: Bitácora de auditoría con el detalle de un evento",
+    "size": [
+      2049,
+      2561
+    ]
+  },
+  {
+    "i": 194,
+    "caption": "Figura 194. Diseño de interfaz CU35: Generación de reportes",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 195,
+    "caption": "Figura 195. Diseño de interfaz CU35: Generación de reportes (móvil)",
+    "size": [
+      780,
+      1793
+    ]
+  },
+  {
+    "i": 196,
+    "caption": "Figura 196. Diseño de interfaz CU36: Opciones de exportación del reporte",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 197,
+    "caption": "Figura 197. Diseño de interfaz CU37: Exportación del reporte a Excel",
+    "size": [
+      2049,
+      1152
+    ]
+  },
+  {
+    "i": 198,
+    "caption": "Figura 198. Diseño de interfaz CU38: Reporte exportado a PDF",
+    "size": [
+      1219,
+      405
+    ]
+  }
+]

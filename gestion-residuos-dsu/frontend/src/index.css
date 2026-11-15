@@ -1,0 +1,132 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/archivo/wdth.css';
+@import 'leaflet/dist/leaflet.css';
+
+/* Mundo visual: planilla de control sellada (ver DESIGN.md). */
+@theme {
+  --font-sans: 'Archivo Variable', 'Archivo', system-ui, sans-serif;
+
+  --color-papel: #f4f6f8; /* fondo: papel de formulario frío */
+  --color-hoja: #ffffff; /* superficies de trabajo */
+  --color-grafito: #1e2328; /* rótulos y texto */
+  --color-grafito-2: #4a5560; /* texto secundario */
+  --color-filete: #c9ced6; /* filetes y bordes */
+  --color-filete-suave: #e3e7ec;
+  --color-dsu: #c4122f; /* rojo institucional DSU: riel y tinta de sello */
+  --color-dsu-hondo: #9a0e25;
+  --color-boligrafo: #1f3fa8; /* valores capturados por personas */
+  --color-lapiz: #55606c; /* estimaciones del modelo: se escriben a lápiz, nunca en tinta */
+  --color-sello-ok: #1e7a46; /* ATENDIDO */
+  --color-sello-omit: #9a5b00; /* OMITIDO / pendiente de atención */
+
+  --text-cifra: 2.75rem;
+  --radius-hoja: 4px;
+}
+
+@layer base {
+  html {
+    background: var(--color-papel);
+    color: var(--color-grafito);
+    font-family: var(--font-sans);
+    font-variant-numeric: tabular-nums;
+    accent-color: var(--color-dsu);
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-color: var(--color-filete) transparent;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--color-boligrafo) 22%, transparent);
+  }
+  input,
+  textarea,
+  select {
+    caret-color: var(--color-boligrafo);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-boligrafo);
+    outline-offset: 2px;
+  }
+  a {
+    text-underline-offset: 3px;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  /* Rótulo de formulario: ancho condensado, mayúsculas. */
+  .rotulo {
+    font-stretch: 80%;
+    font-weight: 650;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-grafito-2);
+  }
+
+  /* Valor capturado en campo: tinta de bolígrafo. */
+  .tinta {
+    color: var(--color-boligrafo);
+  }
+
+  /* Valor estimado por el modelo: trazo a lápiz con subrayado punteado, para no confundirlo con lo medido. */
+  .lapiz {
+    color: var(--color-lapiz);
+    text-decoration: underline dotted color-mix(in srgb, var(--color-lapiz) 55%, transparent);
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1.5px;
+  }
+
+  /* El sello: estado asentado sobre el registro. */
+  .sello {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.15em 0.55em;
+    border: 2px solid currentColor;
+    outline: 1px solid currentColor;
+    outline-offset: 2px;
+    border-radius: 3px;
+    font-stretch: 70%;
+    font-weight: 800;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    line-height: 1.25;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transform: rotate(-3deg);
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='60'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -2.2 2.1'/%3E%3C/filter%3E%3Crect width='120' height='60' filter='url(%23n)'/%3E%3C/svg%3E");
+    mask-size: 120px 60px;
+  }
+  .sello-recien {
+    animation: estampar 140ms steps(2, jump-end) both;
+  }
+}
+
+@keyframes estampar {
+  from {
+    transform: rotate(-3deg) scale(1.4);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(-3deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sello-recien {
+    animation: none;
+  }
+}
+
+/* Leaflet dentro del mundo: controles con la tipografía y los filetes del sistema. */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: var(--color-filete-suave);
+}
+.leaflet-bar a {
+  color: var(--color-grafito);
+}

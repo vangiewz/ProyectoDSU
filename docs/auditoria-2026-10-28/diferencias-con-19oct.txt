@@ -1,0 +1,942 @@
+--- 19oct
+
++++ vigente
+
+@@ -23,471 +23,471 @@
+
+ Abstract	3
+ ÍNDICE GENERAL	4
+-ÍNDICE DE FIGURAS	18
+-ÍNDICE DE TABLAS	19
+-Introducción	22
+-Capítulo 1	24
+-1. Perfil del Proyecto	24
+-1.1. Antecedentes	25
+-1.2. Definición del Problema	26
+-1.2.1. Situación Problemática	26
+-1.2.2. Situación Deseada	27
+-1.2.3. Objeto de la Investigación	28
+-1.3. Objetivos	29
+-1.3.1. Objetivo General	29
+-1.3.2. Objetivos Específicos	29
+-1.4. Justificación	30
+-1.4.1. Justificación Técnica	30
+-1.4.2. Justificación Académica	31
+-1.4.3. Justificación Institucional	32
+-1.5. Metodología	33
+-1.5.1. Proceso Unificado de Desarrollo de Software	33
+-1.5.1.1. Fases.	34
+-1.5.1.2. Flujos de Trabajo.	35
+-1.5.2. Lenguaje Unificado de Modelado	36
+-1.5.3. Especificación de Requisitos de Software según la IEEE 830-1998	37
+-1.6. Alcance y Limitaciones	38
+-1.6.1. Funciones Principales	38
+-1.6.2. Usuarios o Beneficiarios	40
+-1.6.3. Limitaciones y Restricciones	40
+-1.7. Recursos Necesarios	41
+-1.7.1. Software y Herramientas	41
+-1.7.2. Equipos y Hardware	42
+-1.7.3. Presupuesto Estimado	42
+-1.8. Cronograma	43
+-1.8.1. Plan de Ejecución	43
+-1.8.2. Hitos Importantes	44
+-Capítulo 2	46
+-2. Random Forest Regressor	46
+-2.1. Fundamentos del Algoritmo	47
+-2.2. Aplicación del Algoritmo en el Proyecto	48
+-2.3. Scikit-learn	49
+-2.4. Python	50
+-2.5. Pandas y NumPy	51
+-2.6. Inteligencia de Negocios y Microsoft Power BI	51
+-2.7. Procesos de Extracción, Transformación y Carga	52
+-2.8. Leaflet y OpenStreetMap	53
+-2.9. Django y Django REST Framework	54
+-2.10. React	54
+-2.11. PostgreSQL	55
+-Capítulo 3	57
+-3. Dirección de Servicios Universitarios de la Universidad Autónoma Gabriel René Moreno	57
+-3.1. Nombre	58
+-3.2. Misión	58
+-3.3. Visión	59
+-3.4. Historia	59
+-3.5. Imagen Corporativa	60
+-3.6. Web, Contacto y Redes Sociales	61
+-3.7. Estructura Organizacional	62
+-3.8. Ubicación e Infraestructura	63
+-3.8.1. Ubicación	63
+-3.8.2. Infraestructura	65
+-3.9. Modelo de Negocio	66
+-3.10. Flujo Operativo del Proceso Principal	67
+-Capítulo 4	70
+-4. Especificación de Requisitos de Software según la IEEE 830-1998	70
+-4.1. Introducción	71
+-4.1.1. Propósito	71
+-4.1.2. Ámbito del Sistema	71
+-4.1.2.1. Nombre.	71
+-4.1.2.2. Funcionalidades.	72
+-4.1.2.3. Beneficios.	73
+-4.1.3. Definiciones, Acrónimos y Abreviaturas	73
+-4.1.4. Referencias	75
+-4.1.5. Visión General del Documento	76
+-4.2. Descripción General del Sistema	76
+-4.2.1. Perspectiva del Producto	76
+-4.2.2. Funciones del Producto	77
+-4.2.3. Características y Restricciones del Usuario	78
+-4.2.4. Restricciones	80
+-4.2.5. Dependencias y Suposiciones	81
+-4.2.6. Modelo de Dominio	82
+-4.3. Requisitos Específicos	83
+-4.3.1. Requisitos Funcionales	83
+-4.3.2. Requisitos No Funcionales	117
+-4.3.3. Requisitos de Interfaces	119
+-4.3.4. Requisitos de Base de Datos	120
+-4.3.5. Requisitos de Diseño	121
+-4.3.6. Requisitos de Rendimiento	122
+-4.3.6.1. Tiempo de Respuesta.	122
+-4.3.6.2. Capacidad y Carga Máxima.	122
+-4.3.6.3. Uso de Recursos.	123
+-4.3.6.4. Disponibilidad y Tiempo de Actividad.	123
+-4.3.6.5. Escalabilidad.	124
+-4.3.6.6. Procesamiento por Lote o en Tiempo Real.	124
+-Capítulo 5	126
+-5. Captura de Requisitos	126
+-5.1. Identificación de Actores	127
+-5.2. Identificación de Casos de Uso	131
+-5.3. Priorización de los Casos de Uso	132
+-5.4. Detalle de los Casos de Uso	135
+-5.4.1. CU1. Iniciar sesión	135
+-5.4.2. CU2. Cerrar sesión	136
+-5.4.3. CU3. Gestionar usuarios	137
+-5.4.4. CU4. Gestionar roles y permisos	138
+-5.4.5. CU5. Gestionar sectores y facultades	139
+-5.4.6. CU6. Gestionar puntos de recolección	140
+-5.4.7. CU7. Gestionar contenedores	141
+-5.4.8. CU8. Gestionar tipos de residuo y unidades de medida	142
+-5.4.9. CU9. Registrar vaciado de residuos	143
+-5.4.10. CU10. Registrar incidencia operativa	144
+-5.4.11. CU11. Atender incidencia	145
+-5.4.12. CU12. Consultar histórico de residuos	146
+-5.4.13. CU13. Gestionar vehículos	148
+-5.4.14. CU14. Planificar jornada y ruta de recolección	149
+-5.4.15. CU15. Asignar personal y vehículos a la jornada	150
+-5.4.16. CU16. Ejecutar jornada de recolección	151
+-5.4.17. CU17. Omitir punto de la ruta	152
+-5.4.18. CU18. Cerrar jornada de recolección	153
+-5.4.19. CU19. Consultar historial de recolecciones	153
+-5.4.20. CU20. Ejecutar proceso ETL	155
+-5.4.21. CU21. Calcular indicadores clave de rendimiento	156
+-5.4.22. CU22. Visualizar tablero interactivo	157
+-5.4.23. CU23. Comparar periodos e identificar tendencias	158
+-5.4.24. CU24. Visualizar puntos en el mapa interactivo	159
+-5.4.25. CU25. Generar mapa de calor	160
+-5.4.26. CU26. Filtrar mapa por periodo, sector y tipo de residuo	161
+-5.4.27. CU27. Entrenar y evaluar el modelo Random Forest Regressor	162
+-5.4.28. CU28. Publicar o revertir versión del modelo	163
+-5.4.29. CU29. Predecir generación futura de residuos	164
+-5.4.30. CU30. Generar alertas y recomendaciones logísticas	165
+-5.4.31. CU31. Atender recomendación logística	166
+-5.4.32. CU32. Configurar periodos académicos y parámetros	167
+-5.4.33. CU33. Registrar evento en bitácora	168
+-5.4.34. CU34. Consultar bitácora de auditoría	169
+-5.4.35. CU35. Generar reporte	170
+-5.4.36. CU36. Exportar reporte	172
+-5.4.37. CU37. Exportar reporte a Excel	173
+-5.4.38. CU38. Exportar reporte a PDF	174
+-5.5. Diagrama General de Casos de Uso	174
+-Capítulo 6	177
+-6. Análisis	177
+-6.1. Análisis de la Arquitectura	179
+-6.1.1. Identificación de Paquetes	179
+-6.1.2. Relación de Paquetes	181
+-6.1.2.1. Paquete Gestión de Usuarios y Control de Acceso.	181
+-6.1.2.2. Paquete Gestión Topológica y Puntos de Recolección.	182
+-6.1.2.3. Paquete Gestión de Residuos.	182
+-6.1.2.4. Paquete Gestión de Recolecciones y Logística.	183
+-6.1.2.5. Paquete Inteligencia de Negocios y Analítica Visual.	184
+-6.1.2.6. Paquete Componente Cartográfico y Análisis Espacial.	185
+-6.1.2.7. Paquete Predicción mediante Random Forest Regressor.	186
+-6.1.2.8. Paquete Administración de la Plataforma y Auditoría.	187
+-6.1.3. Encapsulamiento de Casos de Uso por Paquete	188
+-6.1.3.1. Encapsulamiento del Paquete Gestión de Usuarios y Control de Acceso.	188
+-6.1.3.2. Encapsulamiento del Paquete Gestión Topológica y Puntos de Recolección.	189
+-6.1.3.3. Encapsulamiento del Paquete Gestión de Residuos.	190
+-6.1.3.4. Encapsulamiento del Paquete Gestión de Recolecciones y Logística.	191
+-6.1.3.5. Encapsulamiento del Paquete Inteligencia de Negocios y Analítica Visual.	192
+-6.1.3.6. Encapsulamiento del Paquete Componente Cartográfico y Análisis Espacial.	192
+-6.1.3.7. Encapsulamiento del Paquete Predicción mediante Random Forest Regressor.	193
+-6.1.3.8. Encapsulamiento del Paquete Administración de la Plataforma y Auditoría.	194
+-6.2. Análisis de Casos de Uso	195
+-6.2.1. Analizar Caso de Uso CU1. Iniciar sesión	196
+-6.2.2. Analizar Caso de Uso CU2. Cerrar sesión	196
+-6.2.3. Analizar Caso de Uso CU3. Gestionar usuarios	197
+-6.2.4. Analizar Caso de Uso CU4. Gestionar roles y permisos	197
+-6.2.5. Analizar Caso de Uso CU5. Gestionar sectores y facultades	198
+-6.2.6. Analizar Caso de Uso CU6. Gestionar puntos de recolección	199
+-6.2.7. Analizar Caso de Uso CU7. Gestionar contenedores	200
+-6.2.8. Analizar Caso de Uso CU8. Gestionar tipos de residuo y unidades de medida	201
+-6.2.9. Analizar Caso de Uso CU9. Registrar vaciado de residuos	202
+-6.2.10. Analizar Caso de Uso CU10. Registrar incidencia operativa	203
+-6.2.11. Analizar Caso de Uso CU11. Atender incidencia	204
+-6.2.12. Analizar Caso de Uso CU12. Consultar histórico de residuos	205
+-6.2.13. Analizar Caso de Uso CU13. Gestionar vehículos	205
+-6.2.14. Analizar Caso de Uso CU14. Planificar jornada y ruta de recolección	206
+-6.2.15. Analizar Caso de Uso CU15. Asignar personal y vehículos a la jornada	207
+-6.2.16. Analizar Caso de Uso CU16. Ejecutar jornada de recolección	207
+-6.2.17. Analizar Caso de Uso CU17. Omitir punto de la ruta	208
+-6.2.18. Analizar Caso de Uso CU18. Cerrar jornada de recolección	208
+-6.2.19. Analizar Caso de Uso CU19. Consultar historial de recolecciones	209
+-6.2.20. Analizar Caso de Uso CU20. Ejecutar proceso ETL	210
+-6.2.21. Analizar Caso de Uso CU21. Calcular indicadores clave de rendimiento	211
+-6.2.22. Analizar Caso de Uso CU22. Visualizar tablero interactivo	212
+-6.2.23. Analizar Caso de Uso CU23. Comparar periodos e identificar tendencias	213
+-6.2.24. Analizar Caso de Uso CU24. Visualizar puntos en el mapa interactivo	213
+-6.2.25. Analizar Caso de Uso CU25. Generar mapa de calor	214
+-6.2.26. Analizar Caso de Uso CU26. Filtrar mapa por periodo, sector y tipo de residuo	215
+-6.2.27. Analizar Caso de Uso CU27. Entrenar y evaluar el modelo Random Forest Regressor	215
+-6.2.28. Analizar Caso de Uso CU28. Publicar o revertir versión del modelo	216
+-6.2.29. Analizar Caso de Uso CU29. Predecir generación futura de residuos	217
+-6.2.30. Analizar Caso de Uso CU30. Generar alertas y recomendaciones logísticas	218
+-6.2.31. Analizar Caso de Uso CU31. Atender recomendación logística	219
+-6.2.32. Analizar Caso de Uso CU32. Configurar periodos académicos y parámetros	220
+-6.2.33. Analizar Caso de Uso CU33. Registrar evento en bitácora	221
+-6.2.34. Analizar Caso de Uso CU34. Consultar bitácora de auditoría	222
+-6.2.35. Analizar Caso de Uso CU35. Generar reporte	222
+-6.2.36. Analizar Caso de Uso CU36. Exportar reporte	223
+-6.2.37. Analizar Caso de Uso CU37. Exportar reporte a Excel	224
+-6.2.38. Analizar Caso de Uso CU38. Exportar reporte a PDF	224
+-6.3. Análisis de Paquetes	225
+-Capítulo 7	227
+-7. Diseño	227
+-7.1. Diseño de la Arquitectura	228
+-7.1.1. Diseño Físico	228
+-7.1.2. Diseño Lógico	230
+-7.2. Diagrama de Clases	231
+-7.2.1. Clases de seguridad y auditoría	233
+-7.2.2. Clases de campus y catálogos	234
+-7.2.3. Clases de operación de la recolección	235
+-7.2.4. Clases de analítica y administración	236
+-7.2.5. Clases de predicción	237
+-7.2.6. Clases de control de la capa de servicios	238
+-7.3. Diseño de Datos	240
+-7.3.1. Diseño de Datos Lógico	241
+-7.3.1.1. Diseño Lógico de la Base de Datos.	241
+-7.3.1.2. Mapeo.	248
+-7.3.2. Diseño de Datos Físico	254
+-7.3.2.1. Volumen.	254
+-7.3.2.2. Script.	267
+-7.4. Diseñar Casos de Uso	286
+-7.4.1. CU1. Iniciar sesión	286
+-7.4.2. CU9. Registrar vaciado de residuos	287
+-7.4.3. CU14. Planificar jornada y ruta de recolección	287
+-7.4.4. CU18. Cerrar jornada de recolección	288
+-7.4.5. CU20. Ejecutar proceso ETL	288
+-7.4.6. CU27. Entrenar y evaluar el modelo Random Forest Regressor	289
+-7.4.7. CU29. Predecir generación futura de residuos	289
+-7.4.8. CU31. Atender recomendación logística	290
+-7.5. Diseño de Interfaces	290
+-7.5.1. CU1. Iniciar sesión	291
+-7.5.2. CU2. Cerrar sesión	293
+-7.5.3. CU3. Gestionar usuarios	294
+-7.5.4. CU4. Gestionar roles y permisos	296
+-7.5.5. CU5. Gestionar sectores y facultades	297
+-7.5.6. CU6. Gestionar puntos de recolección	298
+-7.5.7. CU7. Gestionar contenedores	300
+-7.5.8. CU8. Gestionar tipos de residuo y unidades de medida	302
+-7.5.9. CU9. Registrar vaciado de residuos	303
+-7.5.10. CU10. Registrar incidencia operativa	305
+-7.5.11. CU11. Atender incidencia	306
+-7.5.12. CU12. Consultar histórico de residuos	307
+-7.5.13. CU13. Gestionar vehículos	309
+-7.5.14. CU14. Planificar jornada y ruta de recolección	310
+-7.5.15. CU15. Asignar personal y vehículos a la jornada	311
+-7.5.16. CU16. Ejecutar jornada de recolección	312
+-7.5.17. CU17. Omitir punto de la ruta	314
+-7.5.18. CU18. Cerrar jornada de recolección	315
+-7.5.19. CU19. Consultar historial de recolecciones	316
+-7.5.20. CU20. Ejecutar proceso ETL	318
+-7.5.21. CU21. Calcular indicadores clave de rendimiento	319
+-7.5.22. CU22. Visualizar tablero interactivo	320
+-7.5.23. CU23. Comparar periodos e identificar tendencias	322
+-7.5.24. CU24. Visualizar puntos en el mapa interactivo	323
+-7.5.25. CU25. Generar mapa de calor	325
+-7.5.26. CU26. Filtrar mapa por periodo, sector y tipo de residuo	327
+-7.5.27. CU27. Entrenar y evaluar el modelo Random Forest Regressor	328
+-7.5.28. CU28. Publicar o revertir versión del modelo	329
+-7.5.29. CU29. Predecir generación futura de residuos	330
+-7.5.30. CU30. Generar alertas y recomendaciones logísticas	331
+-7.5.31. CU31. Atender recomendación logística	332
+-7.5.32. CU32. Configurar periodos académicos y parámetros	334
+-7.5.33. CU33. Registrar evento en bitácora	336
+-7.5.34. CU34. Consultar bitácora de auditoría	337
+-7.5.35. CU35. Generar reporte	338
+-7.5.36. CU36. Exportar reporte	340
+-7.5.37. CU37. Exportar reporte a Excel	341
+-7.5.38. CU38. Exportar reporte a PDF	341
+-Referencias Bibliográficas	342
++ÍNDICE DE FIGURAS	19
++ÍNDICE DE TABLAS	29
++Introducción	36
++Capítulo 1	38
++1. Perfil del Proyecto	38
++1.1. Antecedentes	39
++1.2. Definición del Problema	40
++1.2.1. Situación Problemática	40
++1.2.2. Situación Deseada	41
++1.2.3. Objeto de la Investigación	42
++1.3. Objetivos	43
++1.3.1. Objetivo General	43
++1.3.2. Objetivos Específicos	43
++1.4. Justificación	44
++1.4.1. Justificación Técnica	44
++1.4.2. Justificación Académica	45
++1.4.3. Justificación Institucional	46
++1.5. Metodología	47
++1.5.1. Proceso Unificado de Desarrollo de Software	47
++1.5.1.1. Fases.	48
++1.5.1.2. Flujos de Trabajo.	49
++1.5.2. Lenguaje Unificado de Modelado	50
++1.5.3. Especificación de Requisitos de Software según la IEEE 830-1998	51
++1.6. Alcance y Limitaciones	52
++1.6.1. Funciones Principales	52
++1.6.2. Usuarios o Beneficiarios	54
++1.6.3. Limitaciones y Restricciones	54
++1.7. Recursos Necesarios	55
++1.7.1. Software y Herramientas	55
++1.7.2. Equipos y Hardware	56
++1.7.3. Presupuesto Estimado	56
++1.8. Cronograma	57
++1.8.1. Plan de Ejecución	57
++1.8.2. Hitos Importantes	58
++Capítulo 2	60
++2. Random Forest Regressor	60
++2.1. Fundamentos del Algoritmo	61
++2.2. Aplicación del Algoritmo en el Proyecto	62
++2.3. Scikit-learn	63
++2.4. Python	64
++2.5. Pandas y NumPy	65
++2.6. Inteligencia de Negocios y Microsoft Power BI	65
++2.7. Procesos de Extracción, Transformación y Carga	66
++2.8. Leaflet y OpenStreetMap	67
++2.9. Django y Django REST Framework	68
++2.10. React	68
++2.11. PostgreSQL	69
++Capítulo 3	71
++3. Dirección de Servicios Universitarios de la Universidad Autónoma Gabriel René Moreno	71
++3.1. Nombre	72
++3.2. Misión	72
++3.3. Visión	73
++3.4. Historia	73
++3.5. Imagen Corporativa	74
++3.6. Web, Contacto y Redes Sociales	75
++3.7. Estructura Organizacional	76
++3.8. Ubicación e Infraestructura	77
++3.8.1. Ubicación	77
++3.8.2. Infraestructura	79
++3.9. Modelo de Negocio	80
++3.10. Flujo Operativo del Proceso Principal	81
++Capítulo 4	84
++4. Especificación de Requisitos de Software según la IEEE 830-1998	84
++4.1. Introducción	85
++4.1.1. Propósito	85
++4.1.2. Ámbito del Sistema	85
++4.1.2.1. Nombre.	85
++4.1.2.2. Funcionalidades.	86
++4.1.2.3. Beneficios.	87
++4.1.3. Definiciones, Acrónimos y Abreviaturas	87
++4.1.4. Referencias	89
++4.1.5. Visión General del Documento	90
++4.2. Descripción General del Sistema	90
++4.2.1. Perspectiva del Producto	90
++4.2.2. Funciones del Producto	91
++4.2.3. Características y Restricciones del Usuario	92
++4.2.4. Restricciones	94
++4.2.5. Dependencias y Suposiciones	95
++4.2.6. Modelo de Dominio	96
++4.3. Requisitos Específicos	97
++4.3.1. Requisitos Funcionales	97
++4.3.2. Requisitos No Funcionales	131
++4.3.3. Requisitos de Interfaces	133
++4.3.4. Requisitos de Base de Datos	134
++4.3.5. Requisitos de Diseño	135
++4.3.6. Requisitos de Rendimiento	136
++4.3.6.1. Tiempo de Respuesta.	136
++4.3.6.2. Capacidad y Carga Máxima.	136
++4.3.6.3. Uso de Recursos.	137
++4.3.6.4. Disponibilidad y Tiempo de Actividad.	137
++4.3.6.5. Escalabilidad.	138
++4.3.6.6. Procesamiento por Lote o en Tiempo Real.	138
++Capítulo 5	140
++5. Captura de Requisitos	140
++5.1. Identificación de Actores	141
++5.2. Identificación de Casos de Uso	145
++5.3. Priorización de los Casos de Uso	146
++5.4. Detalle de los Casos de Uso	149
++5.4.1. CU1. Iniciar sesión	149
++5.4.2. CU2. Cerrar sesión	150
++5.4.3. CU3. Gestionar usuarios	151
++5.4.4. CU4. Gestionar roles y permisos	152
++5.4.5. CU5. Gestionar sectores y facultades	153
++5.4.6. CU6. Gestionar puntos de recolección	154
++5.4.7. CU7. Gestionar contenedores	155
++5.4.8. CU8. Gestionar tipos de residuo y unidades de medida	156
++5.4.9. CU9. Registrar vaciado de residuos	157
++5.4.10. CU10. Registrar incidencia operativa	158
++5.4.11. CU11. Atender incidencia	159
++5.4.12. CU12. Consultar histórico de residuos	160
++5.4.13. CU13. Gestionar vehículos	162
++5.4.14. CU14. Planificar jornada y ruta de recolección	163
++5.4.15. CU15. Asignar personal y vehículos a la jornada	164
++5.4.16. CU16. Ejecutar jornada de recolección	165
++5.4.17. CU17. Omitir punto de la ruta	166
++5.4.18. CU18. Cerrar jornada de recolección	167
++5.4.19. CU19. Consultar historial de recolecciones	167
++5.4.20. CU20. Ejecutar proceso ETL	169
++5.4.21. CU21. Calcular indicadores clave de rendimiento	170
++5.4.22. CU22. Visualizar tablero interactivo	171
++5.4.23. CU23. Comparar periodos e identificar tendencias	172
++5.4.24. CU24. Visualizar puntos en el mapa interactivo	173
++5.4.25. CU25. Generar mapa de calor	174
++5.4.26. CU26. Filtrar mapa por periodo, sector y tipo de residuo	175
++5.4.27. CU27. Entrenar y evaluar el modelo Random Forest Regressor	176
++5.4.28. CU28. Publicar o revertir versión del modelo	177
++5.4.29. CU29. Predecir generación futura de residuos	178
++5.4.30. CU30. Generar alertas y recomendaciones logísticas	179
++5.4.31. CU31. Atender recomendación logística	180
++5.4.32. CU32. Configurar periodos académicos y parámetros	181
++5.4.33. CU33. Registrar evento en bitácora	182
++5.4.34. CU34. Consultar bitácora de auditoría	183
++5.4.35. CU35. Generar reporte	184
++5.4.36. CU36. Exportar reporte	186
++5.4.37. CU37. Exportar reporte a Excel	187
++5.4.38. CU38. Exportar reporte a PDF	188
++5.5. Diagrama General de Casos de Uso	188
++Capítulo 6	191
++6. Análisis	191
++6.1. Análisis de la Arquitectura	193
++6.1.1. Identificación de Paquetes	193
++6.1.2. Relación de Paquetes	195
++6.1.2.1. Paquete Gestión de Usuarios y Control de Acceso.	195
++6.1.2.2. Paquete Gestión Topológica y Puntos de Recolección.	196
++6.1.2.3. Paquete Gestión de Residuos.	196
++6.1.2.4. Paquete Gestión de Recolecciones y Logística.	197
++6.1.2.5. Paquete Inteligencia de Negocios y Analítica Visual.	198
++6.1.2.6. Paquete Componente Cartográfico y Análisis Espacial.	199
++6.1.2.7. Paquete Predicción mediante Random Forest Regressor.	200
++6.1.2.8. Paquete Administración de la Plataforma y Auditoría.	201
++6.1.3. Encapsulamiento de Casos de Uso por Paquete	202
++6.1.3.1. Encapsulamiento del Paquete Gestión de Usuarios y Control de Acceso.	202
++6.1.3.2. Encapsulamiento del Paquete Gestión Topológica y Puntos de Recolección.	203
++6.1.3.3. Encapsulamiento del Paquete Gestión de Residuos.	204
++6.1.3.4. Encapsulamiento del Paquete Gestión de Recolecciones y Logística.	205
++6.1.3.5. Encapsulamiento del Paquete Inteligencia de Negocios y Analítica Visual.	206
++6.1.3.6. Encapsulamiento del Paquete Componente Cartográfico y Análisis Espacial.	206
++6.1.3.7. Encapsulamiento del Paquete Predicción mediante Random Forest Regressor.	207
++6.1.3.8. Encapsulamiento del Paquete Administración de la Plataforma y Auditoría.	208
++6.2. Análisis de Casos de Uso	209
++6.2.1. Analizar Caso de Uso CU1. Iniciar sesión	210
++6.2.2. Analizar Caso de Uso CU2. Cerrar sesión	210
++6.2.3. Analizar Caso de Uso CU3. Gestionar usuarios	211
++6.2.4. Analizar Caso de Uso CU4. Gestionar roles y permisos	211
++6.2.5. Analizar Caso de Uso CU5. Gestionar sectores y facultades	212
++6.2.6. Analizar Caso de Uso CU6. Gestionar puntos de recolección	213
++6.2.7. Analizar Caso de Uso CU7. Gestionar contenedores	214
++6.2.8. Analizar Caso de Uso CU8. Gestionar tipos de residuo y unidades de medida	215
++6.2.9. Analizar Caso de Uso CU9. Registrar vaciado de residuos	215
++6.2.10. Analizar Caso de Uso CU10. Registrar incidencia operativa	216
++6.2.11. Analizar Caso de Uso CU11. Atender incidencia	217
++6.2.12. Analizar Caso de Uso CU12. Consultar histórico de residuos	218
++6.2.13. Analizar Caso de Uso CU13. Gestionar vehículos	218
++6.2.14. Analizar Caso de Uso CU14. Planificar jornada y ruta de recolección	219
++6.2.15. Analizar Caso de Uso CU15. Asignar personal y vehículos a la jornada	220
++6.2.16. Analizar Caso de Uso CU16. Ejecutar jornada de recolección	220
++6.2.17. Analizar Caso de Uso CU17. Omitir punto de la ruta	221
++6.2.18. Analizar Caso de Uso CU18. Cerrar jornada de recolección	221
++6.2.19. Analizar Caso de Uso CU19. Consultar historial de recolecciones	222
++6.2.20. Analizar Caso de Uso CU20. Ejecutar proceso ETL	223
++6.2.21. Analizar Caso de Uso CU21. Calcular indicadores clave de rendimiento	224
++6.2.22. Analizar Caso de Uso CU22. Visualizar tablero interactivo	225
++6.2.23. Analizar Caso de Uso CU23. Comparar periodos e identificar tendencias	226
++6.2.24. Analizar Caso de Uso CU24. Visualizar puntos en el mapa interactivo	226
++6.2.25. Analizar Caso de Uso CU25. Generar mapa de calor	227
++6.2.26. Analizar Caso de Uso CU26. Filtrar mapa por periodo, sector y tipo de residuo	228
++6.2.27. Analizar Caso de Uso CU27. Entrenar y evaluar el modelo Random Forest Regressor	228
++6.2.28. Analizar Caso de Uso CU28. Publicar o revertir versión del modelo	229
++6.2.29. Analizar Caso de Uso CU29. Predecir generación futura de residuos	230
++6.2.30. Analizar Caso de Uso CU30. Generar alertas y recomendaciones logísticas	231
++6.2.31. Analizar Caso de Uso CU31. Atender recomendación logística	232
++6.2.32. Analizar Caso de Uso CU32. Configurar periodos académicos y parámetros	233
++6.2.33. Analizar Caso de Uso CU33. Registrar evento en bitácora	234
++6.2.34. Analizar Caso de Uso CU34. Consultar bitácora de auditoría	235
++6.2.35. Analizar Caso de Uso CU35. Generar reporte	235
++6.2.36. Analizar Caso de Uso CU36. Exportar reporte	236
++6.2.37. Analizar Caso de Uso CU37. Exportar reporte a Excel	237
++6.2.38. Analizar Caso de Uso CU38. Exportar reporte a PDF	237
++6.3. Análisis de Paquetes	238
++Capítulo 7	240
++7. Diseño	240
++7.1. Diseño de la Arquitectura	241
++7.1.1. Diseño Físico	241
++7.1.2. Diseño Lógico	243
++7.2. Diagrama de Clases	244
++7.2.1. Clases de seguridad y auditoría	246
++7.2.2. Clases de campus y catálogos	247
++7.2.3. Clases de operación de la recolección	248
++7.2.4. Clases de analítica y administración	249
++7.2.5. Clases de predicción	250
++7.2.6. Clases de control de la capa de servicios	251
++7.3. Diseño de Datos	253
++7.3.1. Diseño de Datos Lógico	254
++7.3.1.1. Diseño Lógico de la Base de Datos.	254
++7.3.1.2. Mapeo.	261
++7.3.2. Diseño de Datos Físico	267
++7.3.2.1. Volumen.	267
++7.3.2.2. Script.	280
++7.4. Diseñar Casos de Uso	299
++7.4.1. CU1. Iniciar sesión	299
++7.4.2. CU9. Registrar vaciado de residuos	300
++7.4.3. CU14. Planificar jornada y ruta de recolección	300
++7.4.4. CU18. Cerrar jornada de recolección	301
++7.4.5. CU20. Ejecutar proceso ETL	301
++7.4.6. CU27. Entrenar y evaluar el modelo Random Forest Regressor	302
++7.4.7. CU29. Predecir generación futura de residuos	302
++7.4.8. CU31. Atender recomendación logística	303
++7.5. Diseño de Interfaces	303
++7.5.1. CU1. Iniciar sesión	304
++7.5.2. CU2. Cerrar sesión	306
++7.5.3. CU3. Gestionar usuarios	307
++7.5.4. CU4. Gestionar roles y permisos	309
++7.5.5. CU5. Gestionar sectores y facultades	310
++7.5.6. CU6. Gestionar puntos de recolección	311
++7.5.7. CU7. Gestionar contenedores	313
++7.5.8. CU8. Gestionar tipos de residuo y unidades de medida	315
++7.5.9. CU9. Registrar vaciado de residuos	316
++7.5.10. CU10. Registrar incidencia operativa	318
++7.5.11. CU11. Atender incidencia	319
++7.5.12. CU12. Consultar histórico de residuos	320
++7.5.13. CU13. Gestionar vehículos	322
++7.5.14. CU14. Planificar jornada y ruta de recolección	323
++7.5.15. CU15. Asignar personal y vehículos a la jornada	324
++7.5.16. CU16. Ejecutar jornada de recolección	325
++7.5.17. CU17. Omitir punto de la ruta	327
++7.5.18. CU18. Cerrar jornada de recolección	328
++7.5.19. CU19. Consultar historial de recolecciones	329
++7.5.20. CU20. Ejecutar proceso ETL	331
++7.5.21. CU21. Calcular indicadores clave de rendimiento	332
++7.5.22. CU22. Visualizar tablero interactivo	333
++7.5.23. CU23. Comparar periodos e identificar tendencias	335
++7.5.24. CU24. Visualizar puntos en el mapa interactivo	336
++7.5.25. CU25. Generar mapa de calor	338
++7.5.26. CU26. Filtrar mapa por periodo, sector y tipo de residuo	340
++7.5.27. CU27. Entrenar y evaluar el modelo Random Forest Regressor	341
++7.5.28. CU28. Publicar o revertir versión del modelo	342
++7.5.29. CU29. Predecir generación futura de residuos	343
++7.5.30. CU30. Generar alertas y recomendaciones logísticas	344
++7.5.31. CU31. Atender recomendación logística	345
++7.5.32. CU32. Configurar periodos académicos y parámetros	347
++7.5.33. CU33. Registrar evento en bitácora	349
++7.5.34. CU34. Consultar bitácora de auditoría	350
++7.5.35. CU35. Generar reporte	351
++7.5.36. CU36. Exportar reporte	353
++7.5.37. CU37. Exportar reporte a Excel	354
++7.5.38. CU38. Exportar reporte a PDF	354
++Referencias Bibliográficas	355
+ 
+ ÍNDICE DE FIGURAS
+-Figura 1. Objeto de la investigación	38
+-Figura 2. Diagrama de Gantt del proyecto	54
+-Figura 3. Estructura del ensamble Random Forest Regressor	58
+-Figura 4. Flujo de extracción, transformación y carga del proyecto	63
+-Figura 5. Arquitectura tecnológica del sistema	66
+-Figura 6. Imagen corporativa de la institución	71
+-Figura 7. Estructura organizacional de la Dirección de Servicios Universitarios	73
+-Figura 8. Ubicación geográfica de la institución	74
+-Figura 9. Infraestructura de la institución	75
+-Figura 10. Modelo de negocio de la Dirección de Servicios Universitarios	77
+-Figura 11. Flujo operativo actual del proceso de recolección de residuos	79
+-Figura 12. Modelo de dominio del sistema	92
+-Figura 13. Registrar Generación y Vaciado de Residuos	103
+-Figura 14. Registrar la Ejecución de la Recolección	107
+-Figura 15. Ejecutar los Procesos de Extracción, Transformación y Carga	111
+-Figura 16. Calcular los Indicadores Clave de Rendimiento	113
+-Figura 17. Generar el Mapa de Calor de Zonas Críticas	117
+-Figura 18. Entrenar y Evaluar el Modelo Random Forest Regressor	120
+-Figura 19. Predecir la Generación Futura de Residuos	122
+-Figura 20. Generar Alertas y Recomendaciones Logísticas	124
+-Figura 21. Identificación de actores	138
+-Figura 22. Actores del sistema	139
+-Figura 23. Jerarquía de actores	141
+-Figura 24. CU1. Iniciar sesión	145
+-Figura 25. CU2. Cerrar sesión	146
+-Figura 26. CU3. Gestionar usuarios	147
+-Figura 27. CU4. Gestionar roles y permisos	148
+-Figura 28. CU5. Gestionar sectores y facultades	149
+-Figura 29. CU6. Gestionar puntos de recolección	150
+-Figura 30. CU7. Gestionar contenedores	151
+-Figura 31. CU8. Gestionar tipos de residuo y unidades de medida	152
+-Figura 32. CU9. Registrar vaciado de residuos	153
+-Figura 33. CU10. Registrar incidencia operativa	155
+-Figura 34. CU11. Atender incidencia	156
+-Figura 35. CU12. Consultar histórico de residuos	157
+-Figura 36. CU13. Gestionar vehículos	158
+-Figura 37. CU14. Planificar jornada y ruta de recolección	159
+-Figura 38. CU15. Asignar personal y vehículos a la jornada	160
+-Figura 39. CU16. Ejecutar jornada de recolección	161
+-Figura 40. CU17. Omitir punto de la ruta	162
+-Figura 41. CU18. Cerrar jornada de recolección	163
+-Figura 42. CU19. Consultar historial de recolecciones	164
+-Figura 43. CU20. Ejecutar proceso ETL	165
+-Figura 44. CU21. Calcular indicadores clave de rendimiento	166
+-Figura 45. CU22. Visualizar tablero interactivo	167
+-Figura 46. CU23. Comparar periodos e identificar tendencias	168
+-Figura 47. CU24. Visualizar puntos en el mapa interactivo	169
+-Figura 48. CU25. Generar mapa de calor	170
+-Figura 49. CU26. Filtrar mapa por periodo, sector y tipo de residuo	171
+-Figura 50. CU27. Entrenar y evaluar el modelo Random Forest Regressor	172
+-Figura 51. CU28. Publicar o revertir versión del modelo	173
+-Figura 52. CU29. Predecir generación futura de residuos	174
+-Figura 53. CU30. Generar alertas y recomendaciones logísticas	175
+-Figura 54. CU31. Atender recomendación logística	176
+-Figura 55. CU32. Configurar periodos académicos y parámetros	177
+-Figura 56. CU33. Registrar evento en bitácora	178
+-Figura 57. CU34. Consultar bitácora de auditoría	179
+-Figura 58. CU35. Generar reporte	181
+-Figura 59. CU36. Exportar reporte	182
+-Figura 60. CU37. Exportar reporte a Excel	183
+-Figura 61. CU38. Exportar reporte a PDF	184
+-Figura 62. Diagrama general de casos de uso	186
+-Figura 63. Identificación de paquetes	189
+-Figura 64. Relación del paquete Gestión de Usuarios y Control de Acceso	191
+-Figura 65. Relación del paquete Gestión Topológica y Puntos de Recolección	192
+-Figura 66. Relación del paquete Gestión de Residuos	193
+-Figura 67. Relación del paquete Gestión de Recolecciones y Logística	194
+-Figura 68. Relación del paquete Inteligencia de Negocios y Analítica Visual	195
+-Figura 69. Relación del paquete Componente Cartográfico y Análisis Espacial	196
+-Figura 70. Relación del paquete Predicción mediante Random Forest Regressor	197
+-Figura 71. Relación del paquete Administración de la Plataforma y Auditoría	198
+-Figura 72. Encapsulamiento de casos de uso del paquete Gestión de Usuarios y Control de Acceso	199
+-Figura 73. Encapsulamiento de casos de uso del paquete Gestión Topológica y Puntos de Recolección	200
+-Figura 74. Encapsulamiento de casos de uso del paquete Gestión de Residuos	200
+-Figura 75. Encapsulamiento de casos de uso del paquete Gestión de Recolecciones y Logística	201
+-Figura 76. Encapsulamiento de casos de uso del paquete Inteligencia de Negocios y Analítica Visual	202
+-Figura 77. Encapsulamiento de casos de uso del paquete Componente Cartográfico y Análisis Espacial	203
+-Figura 78. Encapsulamiento de casos de uso del paquete Predicción mediante Random Forest Regressor	204
+-Figura 79. Encapsulamiento de casos de uso del paquete Administración de la Plataforma y Auditoría	205
+-Figura 80. Análisis del caso de uso CU1. Iniciar sesión	206
+-Figura 81. Análisis del caso de uso CU2. Cerrar sesión	206
+-Figura 82. Análisis del caso de uso CU3. Gestionar usuarios	207
+-Figura 83. Análisis del caso de uso CU4. Gestionar roles y permisos	208
+-Figura 84. Análisis del caso de uso CU5. Gestionar sectores y facultades	209
+-Figura 85. Análisis del caso de uso CU6. Gestionar puntos de recolección	210
+-Figura 86. Análisis del caso de uso CU7. Gestionar contenedores	210
+-Figura 87. Análisis del caso de uso CU8. Gestionar tipos de residuo y unidades de medida	211
+-Figura 88. Análisis del caso de uso CU9. Registrar vaciado de residuos	212
+-Figura 89. Análisis del caso de uso CU10. Registrar incidencia operativa	213
+-Figura 90. Análisis del caso de uso CU11. Atender incidencia	213
+-Figura 91. Análisis del caso de uso CU12. Consultar histórico de residuos	214
+-Figura 92. Análisis del caso de uso CU13. Gestionar vehículos	214
+-Figura 93. Análisis del caso de uso CU14. Planificar jornada y ruta de recolección	215
+-Figura 94. Análisis del caso de uso CU15. Asignar personal y vehículos a la jornada	216
+-Figura 95. Análisis del caso de uso CU16. Ejecutar jornada de recolección	217
+-Figura 96. Análisis del caso de uso CU17. Omitir punto de la ruta	217
+-Figura 97. Análisis del caso de uso CU18. Cerrar jornada de recolección	218
+-Figura 98. Análisis del caso de uso CU19. Consultar historial de recolecciones	219
+-Figura 99. Análisis del caso de uso CU20. Ejecutar proceso ETL	220
+-Figura 100. Análisis del caso de uso CU21. Calcular indicadores clave de rendimiento	221
+-Figura 101. Análisis del caso de uso CU22. Visualizar tablero interactivo	221
+-Figura 102. Análisis del caso de uso CU23. Comparar periodos e identificar tendencias	222
+-Figura 103. Análisis del caso de uso CU24. Visualizar puntos en el mapa interactivo	223
+-Figura 104. Análisis del caso de uso CU25. Generar mapa de calor	223
+-Figura 105. Análisis del caso de uso CU26. Filtrar mapa por periodo, sector y tipo de residuo	224
+-Figura 106. Análisis del caso de uso CU27. Entrenar y evaluar el modelo Random Forest Regressor	225
+-Figura 107. Análisis del caso de uso CU28. Publicar o revertir versión del modelo	226
+-Figura 108. Análisis del caso de uso CU29. Predecir generación futura de residuos	227
+-Figura 109. Análisis del caso de uso CU30. Generar alertas y recomendaciones logísticas	228
+-Figura 110. Análisis del caso de uso CU31. Atender recomendación logística	229
+-Figura 111. Análisis del caso de uso CU32. Configurar periodos académicos y parámetros	230
+-Figura 112. Análisis del caso de uso CU33. Registrar evento en bitácora	230
+-Figura 113. Análisis del caso de uso CU34. Consultar bitácora de auditoría	231
+-Figura 114. Análisis del caso de uso CU35. Generar reporte	232
+-Figura 115. Análisis del caso de uso CU36. Exportar reporte	232
+-Figura 116. Análisis del caso de uso CU37. Exportar reporte a Excel	233
+-Figura 117. Análisis del caso de uso CU38. Exportar reporte a PDF	233
+-Figura 118. Análisis de paquetes	235
+-Figura 119. Diagrama de despliegue	238
+-Figura 120. Diseño lógico: diagrama de paquetes por capas	239
+-Figura 121. Diagrama de clases: vista general	241
+-Figura 122. Diagrama de clases: Seguridad y auditoría	242
+-Figura 123. Diagrama de clases: Campus y catálogos	243
+-Figura 124. Diagrama de clases: Operación de la recolección	244
+-Figura 125. Diagrama de clases: Analítica y administración	245
+-Figura 126. Diagrama de clases: Predicción	246
+-Figura 127. Diagrama de clases: controladores de la capa de servicios	248
+-Figura 128. Diseño lógico de la base de datos: vista general	251
+-Figura 129. Diseño lógico de la base de datos: Seguridad y auditoría	252
+-Figura 130. Diseño lógico de la base de datos: Campus y catálogos	253
+-Figura 131. Diseño lógico de la base de datos: Operación de la recolección	254
+-Figura 132. Diseño lógico de la base de datos: Analítica y administración	255
+-Figura 133. Diseño lógico de la base de datos: Predicción	256
+-Figura 134. Diagrama de secuencia de CU1. Iniciar sesión	295
+-Figura 135. Diagrama de secuencia de CU9. Registrar vaciado de residuos	296
+-Figura 136. Diagrama de secuencia de CU14. Planificar jornada y ruta de recolección	296
+-Figura 137. Diagrama de secuencia de CU18. Cerrar jornada de recolección	297
+-Figura 138. Diagrama de secuencia de CU20. Ejecutar proceso ETL	297
+-Figura 139. Diagrama de secuencia de CU27. Entrenar y evaluar el modelo Random Forest Regressor	298
+-Figura 140. Diagrama de secuencia de CU29. Predecir generación futura de residuos	298
+-Figura 141. Diagrama de secuencia de CU31. Atender recomendación logística	299
+-Figura 142. Diseño de interfaz CU1: Iniciar sesión (escritorio)	300
+-Figura 143. Diseño de interfaz CU1: Iniciar sesión (móvil)	301
+-Figura 144. Diseño de interfaz CU2: Menú principal con la opción Cerrar sesión (móvil)	302
+-Figura 145. Diseño de interfaz CU3: Lista de usuarios	303
+-Figura 146. Diseño de interfaz CU3: Formulario de usuario	304
+-Figura 147. Diseño de interfaz CU4: Roles y permisos	305
+-Figura 148. Diseño de interfaz CU5: Lista de sectores y facultades	306
+-Figura 149. Diseño de interfaz CU5: Formulario de sector	306
+-Figura 150. Diseño de interfaz CU6: Puntos de recolección con su ubicación en el mapa	307
+-Figura 151. Diseño de interfaz CU6: Formulario de punto de recolección	308
+-Figura 152. Diseño de interfaz CU7: Lista de contenedores	309
+-Figura 153. Diseño de interfaz CU7: Formulario de contenedor	310
+-Figura 154. Diseño de interfaz CU8: Tipos de residuo	311
+-Figura 155. Diseño de interfaz CU8: Unidades de medida	311
+-Figura 156. Diseño de interfaz CU9: Selección del residuo retirado en el punto actual (móvil)	312
+-Figura 157. Diseño de interfaz CU9: Registro de la cantidad vaciada (móvil)	313
+-Figura 158. Diseño de interfaz CU10: Registro de incidencia en campo (móvil)	314
+-Figura 159. Diseño de interfaz CU10: Reporte de incidencia desde la oficina	315
+-Figura 160. Diseño de interfaz CU11: Incidencias operativas	315
+-Figura 161. Diseño de interfaz CU12: Histórico de residuos	316
+-Figura 162. Diseño de interfaz CU12: Histórico de residuos (móvil)	317
+-Figura 163. Diseño de interfaz CU13: Lista de vehículos	318
+-Figura 164. Diseño de interfaz CU13: Formulario de vehículo	318
+-Figura 165. Diseño de interfaz CU14: Planificación de la jornada y su ruta	319
+-Figura 166. Diseño de interfaz CU15: Asignación de la cuadrilla y los vehículos	320
+-Figura 167. Diseño de interfaz CU16: Seguimiento de la jornada en ejecución	321
+-Figura 168. Diseño de interfaz CU16: Recorrido de la jornada en campo (móvil)	322
+-Figura 169. Diseño de interfaz CU17: Omisión de un punto de la ruta (móvil)	323
+-Figura 170. Diseño de interfaz CU18: Resumen y cierre de la jornada	324
+-Figura 171. Diseño de interfaz CU19: Historial de jornadas de recolección	325
+-Figura 172. Diseño de interfaz CU19: Historial de jornadas (móvil)	326
+-Figura 173. Diseño de interfaz CU20: Procesamiento de datos (ETL)	327
+-Figura 174. Diseño de interfaz CU21: Indicadores clave calculados en el tablero	328
+-Figura 175. Diseño de interfaz CU22: Tablero de gestión	329
+-Figura 176. Diseño de interfaz CU22: Tablero de gestión (móvil)	330
+-Figura 177. Diseño de interfaz CU22: Informe de Power BI insertado en el tablero	331
+-Figura 178. Diseño de interfaz CU23: Comparación de periodos	331
+-Figura 179. Diseño de interfaz CU24: Mapa interactivo con los puntos de recolección	332
+-Figura 180. Diseño de interfaz CU24: Mapa interactivo (móvil)	333
+-Figura 181. Diseño de interfaz CU25: Mapa de calor de la generación observada	334
+-Figura 182. Diseño de interfaz CU25: Mapa de calor de la generación proyectada	335
+-Figura 183. Diseño de interfaz CU26: Mapa filtrado por sector y tipo de residuo	336
+-Figura 184. Diseño de interfaz CU27: Entrenamiento y evaluación del modelo	337
+-Figura 185. Diseño de interfaz CU28: Versiones del modelo: publicar o revertir	338
+-Figura 186. Diseño de interfaz CU29: Predicción de generación	339
+-Figura 187. Diseño de interfaz CU30: Alertas tempranas y recomendaciones generadas	340
+-Figura 188. Diseño de interfaz CU31: Atención de recomendaciones logísticas	341
+-Figura 189. Diseño de interfaz CU31: Atención de recomendaciones (móvil)	342
+-Figura 190. Diseño de interfaz CU32: Periodos académicos	343
+-Figura 191. Diseño de interfaz CU32: Parámetros del sistema	344
+-Figura 192. Diseño de interfaz CU33: Eventos registrados en la bitácora	345
+-Figura 193. Diseño de interfaz CU34: Bitácora de auditoría con el detalle de un evento	346
+-Figura 194. Diseño de interfaz CU35: Generación de reportes	347
+-Figura 195. Diseño de interfaz CU35: Generación de reportes (móvil)	348
+-Figura 196. Diseño de interfaz CU36: Opciones de exportación del reporte	349
+-Figura 197. Diseño de interfaz CU37: Exportación del reporte a Excel	350
+-Figura 198. Diseño de interfaz CU38: Reporte exportado a PDF	350
++Figura 1. Objeto de la investigación	42
++Figura 2. Diagrama de Gantt del proyecto	58
++Figura 3. Estructura del ensamble Random Forest Regressor	62
++Figura 4. Flujo de extracción, transformación y carga del proyecto	67
++Figura 5. Arquitectura tecnológica del sistema	70
++Figura 6. Imagen corporativa de la institución	75
++Figura 7. Estructura organizacional de la Dirección de Servicios Universitarios	77
++Figura 8. Ubicación geográfica de la institución	78
++Figura 9. Infraestructura de la institución	79
++Figura 10. Modelo de negocio de la Dirección de Servicios Universitarios	81
++Figura 11. Flujo operativo actual del proceso de recolección de residuos	83
++Figura 12. Modelo de dominio del sistema	96
++Figura 13. Registrar Generación y Vaciado de Residuos	107
++Figura 14. Registrar la Ejecución de la Recolección	111
++Figura 15. Ejecutar los Procesos de Extracción, Transformación y Carga	115
++Figura 16. Calcular los Indicadores Clave de Rendimiento	117
++Figura 17. Generar el Mapa de Calor de Zonas Críticas	121
++Figura 18. Entrenar y Evaluar el Modelo Random Forest Regressor	124
++Figura 19. Predecir la Generación Futura de Residuos	126
++Figura 20. Generar Alertas y Recomendaciones Logísticas	128
++Figura 21. Identificación de actores	142
++Figura 22. Actores del sistema	143
++Figura 23. Jerarquía de actores	145
++Figura 24. CU1. Iniciar sesión	149
++Figura 25. CU2. Cerrar sesión	150
++Figura 26. CU3. Gestionar usuarios	151
++Figura 27. CU4. Gestionar roles y permisos	152
++Figura 28. CU5. Gestionar sectores y facultades	153
++Figura 29. CU6. Gestionar puntos de recolección	154
++Figura 30. CU7. Gestionar contenedores	155
++Figura 31. CU8. Gestionar tipos de residuo y unidades de medida	156
++Figura 32. CU9. Registrar vaciado de residuos	157
++Figura 33. CU10. Registrar incidencia operativa	159
++Figura 34. CU11. Atender incidencia	160
++Figura 35. CU12. Consultar histórico de residuos	161
++Figura 36. CU13. Gestionar vehículos	162
++Figura 37. CU14. Planificar jornada y ruta de recolección	163
++Figura 38. CU15. Asignar personal y vehículos a la jornada	164
++Figura 39. CU16. Ejecutar jornada de recolección	165
++Figura 40. CU17. Omitir punto de la ruta	166
++Figura 41. CU18. Cerrar jornada de recolección	167
++Figura 42. CU19. Consultar historial de recolecciones	168
++Figura 43. CU20. Ejecutar proceso ETL	169
++Figura 44. CU21. Calcular indicadores clave de rendimiento	170
++Figura 45. CU22. Visualizar tablero interactivo	171
++Figura 46. CU23. Comparar periodos e identificar tendencias	172
++Figura 47. CU24. Visualizar puntos en el mapa interactivo	173
++Figura 48. CU25. Generar mapa de calor	174
++Figura 49. CU26. Filtrar mapa por periodo, sector y tipo de residuo	175
++Figura 50. CU27. Entrenar y evaluar el modelo Random Forest Regressor	176
++Figura 51. CU28. Publicar o revertir versión del modelo	177
++Figura 52. CU29. Predecir generación futura de residuos	178
++Figura 53. CU30. Generar alertas y recomendaciones logísticas	179
++Figura 54. CU31. Atender recomendación logística	180
++Figura 55. CU32. Configurar periodos académicos y parámetros	181
++Figura 56. CU33. Registrar evento en bitácora	182
++Figura 57. CU34. Consultar bitácora de auditoría	183
++Figura 58. CU35. Generar reporte	185
++Figura 59. CU36. Exportar reporte	186
++Figura 60. CU37. Exportar reporte a Excel	187
++Figura 61. CU38. Exportar reporte a PDF	188
++Figura 62. Diagrama general de casos de uso	190
++Figura 63. Identificación de paquetes	193
++Figura 64. Relación del paquete Gestión de Usuarios y Control de Acceso	195
++Figura 65. Relación del paquete Gestión Topológica y Puntos de Recolección	196
++Figura 66. Relación del paquete Gestión de Residuos	197
++Figura 67. Relación del paquete Gestión de Recolecciones y Logística	198
++Figura 68. Relación del paquete Inteligencia de Negocios y Analítica Visual	199
++Figura 69. Relación del paquete Componente Cartográfico y Análisis Espacial	200
++Figura 70. Relación del paquete Predicción mediante Random Forest Regressor	201
++Figura 71. Relación del paquete Administración de la Plataforma y Auditoría	202
++Figura 72. Encapsulamiento de casos de uso del paquete Gestión de Usuarios y Control de Acceso	203
++Figura 73. Encapsulamiento de casos de uso del paquete Gestión Topológica y Puntos de Recolección	204
++Figura 74. Encapsulamiento de casos de uso del paquete Gestión de Residuos	204
++Figura 75. Encapsulamiento de casos de uso del paquete Gestión de Recolecciones y Logística	205
++Figura 76. Encapsulamiento de casos de uso del paquete Inteligencia de Negocios y Analítica Visual	206
++Figura 77. Encapsulamiento de casos de uso del paquete Componente Cartográfico y Análisis Espacial	207
++Figura 78. Encapsulamiento de casos de uso del paquete Predicción mediante Random Forest Regressor	208
++Figura 79. Encapsulamiento de casos de uso del paquete Administración de la Plataforma y Auditoría	209
++Figura 80. Análisis del caso de uso CU1. Iniciar sesión	210
++Figura 81. Análisis del caso de uso CU2. Cerrar sesión	210
++Figura 82. Análisis del caso de uso CU3. Gestionar usuarios	211
++Figura 83. Análisis del caso de uso CU4. Gestionar roles y permisos	212
++Figura 84. Análisis del caso de uso CU5. Gestionar sectores y facultades	213
++Figura 85. Análisis del caso de uso CU6. Gestionar puntos de recolección	214
++Figura 86. Análisis del caso de uso CU7. Gestionar contenedores	214
++Figura 87. Análisis del caso de uso CU8. Gestionar tipos de residuo y unidades de medida	215
++Figura 88. Análisis del caso de uso CU9. Registrar vaciado de residuos	216
++Figura 89. Análisis del caso de uso CU10. Registrar incidencia operativa	217
++Figura 90. Análisis del caso de uso CU11. Atender incidencia	217
++Figura 91. Análisis del caso de uso CU12. Consultar histórico de residuos	218
++Figura 92. Análisis del caso de uso CU13. Gestionar vehículos	218
++Figura 93. Análisis del caso de uso CU14. Planificar jornada y ruta de recolección	219
++Figura 94. Análisis del caso de uso CU15. Asignar personal y vehículos a la jornada	220
++Figura 95. Análisis del caso de uso CU16. Ejecutar jornada de recolección	221
++Figura 96. Análisis del caso de uso CU17. Omitir punto de la ruta	221
++Figura 97. Análisis del caso de uso CU18. Cerrar jornada de recolección	222
++Figura 98. Análisis del caso de uso CU19. Consultar historial de recolecciones	223
++Figura 99. Análisis del caso de uso CU20. Ejecutar proceso ETL	224
++Figura 100. Análisis del caso de uso CU21. Calcular indicadores clave de rendimiento	225
++Figura 101. Análisis del caso de uso CU22. Visualizar tablero interactivo	225
++Figura 102. Análisis del caso de uso CU23. Comparar periodos e identificar tendencias	226
++Figura 103. Análisis del caso de uso CU24. Visualizar puntos en el mapa interactivo	227
++Figura 104. Análisis del caso de uso CU25. Generar mapa de calor	227
++Figura 105. Análisis del caso de uso CU26. Filtrar mapa por periodo, sector y tipo de residuo	228
++Figura 106. Análisis del caso de uso CU27. Entrenar y evaluar el modelo Random Forest Regressor	229
++Figura 107. Análisis del caso de uso CU28. Publicar o revertir versión del modelo	230
++Figura 108. Análisis del caso de uso CU29. Predecir generación futura de residuos	231
++Figura 109. Análisis del caso de uso CU30. Generar alertas y recomendaciones logísticas	232
++Figura 110. Análisis del caso de uso CU31. Atender recomendación logística	233
++Figura 111. Análisis del caso de uso CU32. Configurar periodos académicos y parámetros	234
++Figura 112. Análisis del caso de uso CU33. Registrar evento en bitácora	234
++Figura 113. Análisis del caso de uso CU34. Consultar bitácora de auditoría	235
++Figura 114. Análisis del caso de uso CU35. Generar reporte	236
++Figura 115. Análisis del caso de uso CU36. Exportar reporte	236
++Figura 116. Análisis del caso de uso CU37. Exportar reporte a Excel	237
++Figura 117. Análisis del caso de uso CU38. Exportar reporte a PDF	237
++Figura 118. Análisis de paquetes	239
++Figura 119. Diagrama de despliegue	242
++Figura 120. Diseño lógico: diagrama de paquetes por capas	243
++Figura 121. Diagrama de clases: vista general	245
++Figura 122. Diagrama de clases: Seguridad y auditoría	246
++Figura 123. Diagrama de clases: Campus y catálogos	247
++Figura 124. Diagrama de clases: Operación de la recolección	248
++Figura 125. Diagrama de clases: Analítica y administración	249
++Figura 126. Diagrama de clases: Predicción	250
++Figura 127. Diagrama de clases: controladores de la capa de servicios	252
++Figura 128. Diseño lógico de la base de datos: vista general	255
++Figura 129. Diseño lógico de la base de datos: Seguridad y auditoría	256
++Figura 130. Diseño lógico de la base de datos: Campus y catálogos	257
++Figura 131. Diseño lógico de la base de datos: Operación de la recolección	258
++Figura 132. Diseño lógico de la base de datos: Analítica y administración	259
++Figura 133. Diseño lógico de la base de datos: Predicción	260
++Figura 134. Diagrama de secuencia de CU1. Iniciar sesión	299
++Figura 135. Diagrama de secuencia de CU9. Registrar vaciado de residuos	300
++Figura 136. Diagrama de secuencia de CU14. Planificar jornada y ruta de recolección	300
++Figura 137. Diagrama de secuencia de CU18. Cerrar jornada de recolección	301
++Figura 138. Diagrama de secuencia de CU20. Ejecutar proceso ETL	301
++Figura 139. Diagrama de secuencia de CU27. Entrenar y evaluar el modelo Random Forest Regressor	302
++Figura 140. Diagrama de secuencia de CU29. Predecir generación futura de residuos	302
++Figura 141. Diagrama de secuencia de CU31. Atender recomendación logística	303
++Figura 142. Diseño de interfaz CU1: Iniciar sesión (escritorio)	304
++Figura 143. Diseño de interfaz CU1: Iniciar sesión (móvil)	305
++Figura 144. Diseño de interfaz CU2: Menú principal con la opción Cerrar sesión (móvil)	306
++Figura 145. Diseño de interfaz CU3: Lista de usuarios	307
++Figura 146. Diseño de interfaz CU3: Formulario de usuario	308
++Figura 147. Diseño de interfaz CU4: Roles y permisos	309
++Figura 148. Diseño de interfaz CU5: Lista de sectores y facultades	310
++Figura 149. Diseño de interfaz CU5: Formulario de sector	310
++Figura 150. Diseño de interfaz CU6: Puntos de recolección con su ubicación en el mapa	311
++Figura 151. Diseño de interfaz CU6: Formulario de punto de recolección	312
++Figura 152. Diseño de interfaz CU7: Lista de contenedores	313
++Figura 153. Diseño de interfaz CU7: Formulario de contenedor	314
++Figura 154. Diseño de interfaz CU8: Tipos de residuo	315
++Figura 155. Diseño de interfaz CU8: Unidades de medida	315
++Figura 156. Diseño de interfaz CU9: Selección del residuo retirado en el punto actual (móvil)	316
++Figura 157. Diseño de interfaz CU9: Registro de la cantidad vaciada (móvil)	317
++Figura 158. Diseño de interfaz CU10: Registro de incidencia en campo (móvil)	318
++Figura 159. Diseño de interfaz CU10: Reporte de incidencia desde la oficina	319
++Figura 160. Diseño de interfaz CU11: Incidencias operativas	319
++Figura 161. Diseño de interfaz CU12: Histórico de residuos	320
++Figura 162. Diseño de interfaz CU12: Histórico de residuos (móvil)	321
++Figura 163. Diseño de interfaz CU13: Lista de vehículos	322
++Figura 164. Diseño de interfaz CU13: Formulario de vehículo	322
++Figura 165. Diseño de interfaz CU14: Planificación de la jornada y su ruta	323
++Figura 166. Diseño de interfaz CU15: Asignación de la cuadrilla y los vehículos	324
++Figura 167. Diseño de interfaz CU16: Seguimiento de la jornada en ejecución	325
++Figura 168. Diseño de interfaz CU16: Recorrido de la jornada en campo (móvil)	326
++Figura 169. Diseño de interfaz CU17: Omisión de un punto de la ruta (móvil)	327
++Figura 170. Diseño de interfaz CU18: Resumen y cierre de la jornada	328
++Figura 171. Diseño de interfaz CU19: Historial de jornadas de recolección	329
++Figura 172. Diseño de interfaz CU19: Historial de jornadas (móvil)	330
++Figura 173. Diseño de interfaz CU20: Procesamiento de datos (ETL)	331
++Figura 174. Diseño de interfaz CU21: Indicadores clave calculados en el tablero	332
++Figura 175. Diseño de interfaz CU22: Tablero de gestión	333
++Figura 176. Diseño de interfaz CU22: Tablero de gestión (móvil)	334
++Figura 177. Diseño de interfaz CU22: Informe de Power BI insertado en el tablero	335
++Figura 178. Diseño de interfaz CU23: Comparación de periodos	335
++Figura 179. Diseño de interfaz CU24: Mapa interactivo con los puntos de recolección	336
++Figura 180. Diseño de interfaz CU24: Mapa interactivo (móvil)	337
++Figura 181. Diseño de interfaz CU25: Mapa de calor de la generación observada	338
++Figura 182. Diseño de interfaz CU25: Mapa de calor de la generación proyectada	339
++Figura 183. Diseño de interfaz CU26: Mapa filtrado por sector y tipo de residuo	340
++Figura 184. Diseño de interfaz CU27: Entrenamiento y evaluación del modelo	341
++Figura 185. Diseño de interfaz CU28: Versiones del modelo: publicar o revertir	342
++Figura 186. Diseño de interfaz CU29: Predicción de generación	343
++Figura 187. Diseño de interfaz CU30: Alertas tempranas y recomendaciones generadas	344
++Figura 188. Diseño de interfaz CU31: Atención de recomendaciones logísticas	345
++Figura 189. Diseño de interfaz CU31: Atención de recomendaciones (móvil)	346
++Figura 190. Diseño de interfaz CU32: Periodos académicos	347
++Figura 191. Diseño de interfaz CU32: Parámetros del sistema	348
++Figura 192. Diseño de interfaz CU33: Eventos registrados en la bitácora	349
++Figura 193. Diseño de interfaz CU34: Bitácora de auditoría con el detalle de un evento	350
++Figura 194. Diseño de interfaz CU35: Generación de reportes	351
++Figura 195. Diseño de interfaz CU35: Generación de reportes (móvil)	352
++Figura 196. Diseño de interfaz CU36: Opciones de exportación del reporte	353
++Figura 197. Diseño de interfaz CU37: Exportación del reporte a Excel	354
++Figura 198. Diseño de interfaz CU38: Reporte exportado a PDF	354
+ 
+ ÍNDICE DE TABLAS

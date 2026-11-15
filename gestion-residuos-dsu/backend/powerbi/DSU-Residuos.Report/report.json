@@ -1,0 +1,26 @@
+{
+  "config": "{\"version\":\"5.37\",\"themeCollection\":{},\"activeSectionIndex\":0,\"linguisticSchemaSyncVersion\":2}",
+  "layoutOptimization": 0,
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Tablero",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1e63c0dc0b2c8e1fcb8d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":444.5984019832828,\"y\":86.44968927452722,\"z\":0,\"width\":775.3027688906012,\"height\":422.6429253421331}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(bi_hechos_residuos.cantidad_base)\"}],\"Category\":[{\"queryRef\":\"bi_puntos.nombre\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"bi_hechos_residuos\",\"Type\":0},{\"Name\":\"b1\",\"Entity\":\"bi_puntos\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"cantidad_base\"}},\"Function\":0},\"Name\":\"Sum(bi_hechos_residuos.cantidad_base)\",\"NativeReferenceName\":\"cantidad_base\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b1\"}},\"Property\":\"nombre\"},\"Name\":\"bi_puntos.nombre\",\"NativeReferenceName\":\"nombre\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"cantidad_base\"}},\"Function\":0}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 422.64,
+          "width": 775.30,
+          "x": 444.60,
+          "y": 86.45,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

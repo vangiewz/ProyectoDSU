@@ -1,0 +1,968 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Servidor\", \"BaseDatos\", \"Calendario\", \"bi_hechos_residuos\", \"bi_jornadas\", \"bi_incidencias\", \"bi_puntos\", \"bi_predicciones\", \"bi_recomendaciones\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Servidor",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"EDITAR-host-de-neon.neon.tech\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "14581bdb-dc74-5f66-8f02-2accc320d622"
+      },
+      {
+        "name": "BaseDatos",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"neondb\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "18d85740-3f63-5c90-8efc-5bf7ac72cb52"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "98ee484d-1cb1-5082-88c3-6f40b08e16fe",
+        "fromColumn": "fecha",
+        "fromTable": "bi_hechos_residuos",
+        "toColumn": "Fecha",
+        "toTable": "Calendario"
+      },
+      {
+        "name": "cb55b71f-9af1-5b09-a4d7-36e300573755",
+        "fromColumn": "fecha",
+        "fromTable": "bi_jornadas",
+        "toColumn": "Fecha",
+        "toTable": "Calendario"
+      },
+      {
+        "name": "bd331dd8-1c2e-5d4f-9142-a0d276ff6dc3",
+        "fromColumn": "fecha",
+        "fromTable": "bi_predicciones",
+        "toColumn": "Fecha",
+        "toTable": "Calendario"
+      },
+      {
+        "name": "06ec8c3f-8c8d-5842-bd2a-275fa182bb42",
+        "fromColumn": "punto_codigo",
+        "fromTable": "bi_hechos_residuos",
+        "toColumn": "codigo",
+        "toTable": "bi_puntos"
+      },
+      {
+        "name": "f25ccb2a-bd74-5dce-9b4e-9c6f2be5b869",
+        "fromColumn": "punto_codigo",
+        "fromTable": "bi_incidencias",
+        "toColumn": "codigo",
+        "toTable": "bi_puntos"
+      },
+      {
+        "name": "99670052-9eee-50ec-b805-e4df11f37c4c",
+        "fromColumn": "punto_codigo",
+        "fromTable": "bi_predicciones",
+        "toColumn": "codigo",
+        "toTable": "bi_puntos"
+      },
+      {
+        "name": "d1b3e32e-fd01-511a-b2cd-0b9963c0172e",
+        "fromColumn": "punto_codigo",
+        "fromTable": "bi_recomendaciones",
+        "toColumn": "codigo",
+        "toTable": "bi_puntos"
+      }
+    ],
+    "sourceQueryCulture": "es-BO",
+    "tables": [
+      {
+        "name": "Calendario",
+        "columns": [
+          {
+            "name": "Fecha",
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "isKey": true,
+            "lineageTag": "74ef0d52-3870-567a-987b-29aeda705a6a",
+            "sourceColumn": "Fecha",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Año",
+            "dataType": "int64",
+            "lineageTag": "5d515d91-507d-5328-873c-3a5b18d8c65a",
+            "sourceColumn": "Año",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Mes",
+            "dataType": "int64",
+            "lineageTag": "04fe2f11-9aa0-58bc-9245-872914c8767a",
+            "sourceColumn": "Mes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nombre del mes",
+            "dataType": "string",
+            "lineageTag": "9ec8496f-96e4-5142-9b9f-bf940f9b075e",
+            "sortByColumn": "Mes",
+            "sourceColumn": "Nombre del mes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Semestre",
+            "dataType": "int64",
+            "lineageTag": "ebcb95bf-a092-5069-92c2-27213df0b0e8",
+            "sourceColumn": "Semestre",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Semana",
+            "dataType": "int64",
+            "lineageTag": "6ca0419f-e0b3-557b-8e82-e20c85314829",
+            "sourceColumn": "Semana",
+            "summarizeBy": "none"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "9a60da52-c2ad-52a9-972c-769fce402eb7",
+        "partitions": [
+          {
+            "name": "Calendario",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Inicio = #date(2024, 1, 1),",
+                "    Fin = Date.AddYears(Date.From(DateTime.LocalNow()), 1),",
+                "    Fechas = List.Dates(Inicio, Duration.Days(Fin - Inicio) + 1, #duration(1, 0, 0, 0)),",
+                "    Tabla = Table.FromList(Fechas, Splitter.SplitByNothing(), {\"Fecha\"}),",
+                "    ConTipo = Table.TransformColumnTypes(Tabla, {{\"Fecha\", type datetime}}),",
+                "    Anio = Table.AddColumn(ConTipo, \"Año\", each Date.Year([Fecha]), Int64.Type),",
+                "    Mes = Table.AddColumn(Anio, \"Mes\", each Date.Month([Fecha]), Int64.Type),",
+                "    NombreMes = Table.AddColumn(Mes, \"Nombre del mes\", each Date.ToText(Date.From([Fecha]), \"MMMM\", \"es-BO\"), type text),",
+                "    Semestre = Table.AddColumn(NombreMes, \"Semestre\", each if Date.Month([Fecha]) <= 6 then 1 else 2, Int64.Type),",
+                "    Semana = Table.AddColumn(Semestre, \"Semana\", each Date.WeekOfYear([Fecha], Day.Monday), Int64.Type)",
+                "in",
+                "    Semana"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "bi_hechos_residuos",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "lineageTag": "40f6b9e9-60f6-5722-812a-0132eee46299",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fecha",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "0bddabb1-5203-5582-a718-7a7549705a4d",
+            "sourceColumn": "fecha",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fecha_hora",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "29280b7b-66a5-532b-984b-c2da1c9946e4",
+            "sourceColumn": "fecha_hora",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "anio",
+            "dataType": "int64",
+            "lineageTag": "ce638e09-c365-5c53-9532-9f4ec62640f6",
+            "sourceColumn": "anio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mes",
+            "dataType": "int64",
+            "lineageTag": "362e155f-c824-58bd-b601-b2b2b7126d5c",
+            "sourceColumn": "mes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "semana_anio",
+            "dataType": "int64",
+            "lineageTag": "3b30f49b-60bb-557b-9c56-c19bc930fc7f",
+            "sourceColumn": "semana_anio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "dia_semana",
+            "dataType": "int64",
+            "lineageTag": "b9646889-78da-52f2-a8f8-28fee5778876",
+            "sourceColumn": "dia_semana",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector_codigo",
+            "dataType": "string",
+            "lineageTag": "83ab3800-d8ff-51f0-900e-6ef81ea19489",
+            "sourceColumn": "sector_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector",
+            "dataType": "string",
+            "lineageTag": "f8c82894-3a99-5f3d-8f75-23fd7071e84a",
+            "sourceColumn": "sector",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "punto_codigo",
+            "dataType": "string",
+            "lineageTag": "7680af4a-a5ea-5fee-b7f4-b38d55fa67d1",
+            "sourceColumn": "punto_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "punto",
+            "dataType": "string",
+            "lineageTag": "8adabe74-1988-5457-a035-8b7878983ef0",
+            "sourceColumn": "punto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latitud",
+            "dataCategory": "Latitude",
+            "dataType": "double",
+            "lineageTag": "21bb29ca-41cd-50d6-9dc9-037d5736a531",
+            "sourceColumn": "latitud",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "longitud",
+            "dataCategory": "Longitude",
+            "dataType": "double",
+            "lineageTag": "563235d5-3714-5c9d-9396-b4c209721484",
+            "sourceColumn": "longitud",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_residuo",
+            "dataType": "string",
+            "lineageTag": "34ebd21c-49ec-5594-8390-f175e1e71b1f",
+            "sourceColumn": "tipo_residuo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "clasificacion",
+            "dataType": "string",
+            "lineageTag": "50950438-b399-5fa5-b58f-696633640585",
+            "sourceColumn": "clasificacion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aprovechable",
+            "dataType": "boolean",
+            "lineageTag": "5ee25c35-9b4a-51b3-8205-863a6404b0e8",
+            "sourceColumn": "aprovechable",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "magnitud",
+            "dataType": "string",
+            "lineageTag": "2b8525ab-6508-51d2-83a1-5473e3cada5c",
+            "sourceColumn": "magnitud",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cantidad_base",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "46fde4ee-bf2e-5a32-b9cf-da4533f11241",
+            "sourceColumn": "cantidad_base",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cantidad_original",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "635225eb-9ea5-55e0-8af5-600d7bb33c26",
+            "sourceColumn": "cantidad_original",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "unidad_original",
+            "dataType": "string",
+            "lineageTag": "ed334312-424c-5a44-a3ef-e0dc5c5c427b",
+            "sourceColumn": "unidad_original",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "periodo_academico",
+            "dataType": "string",
+            "lineageTag": "c3ebfce9-1214-55af-8be6-18f0fc632cb7",
+            "sourceColumn": "periodo_academico",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "atipico",
+            "dataType": "boolean",
+            "lineageTag": "90882d34-3056-5c5f-a51c-9f051d9f64b5",
+            "sourceColumn": "atipico",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "jornada_id",
+            "dataType": "int64",
+            "lineageTag": "19db261e-41c7-58c0-a3ed-d76089cff378",
+            "sourceColumn": "jornada_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "1efae0ec-0687-5145-a3b0-6acef67c93bc",
+        "measures": [
+          {
+            "name": "Total kg",
+            "expression": "CALCULATE(SUM(bi_hechos_residuos[cantidad_base]), bi_hechos_residuos[magnitud] = \"PESO\")",
+            "formatString": "#,0.00",
+            "lineageTag": "fdf1ef91-6d3b-5405-b790-d5b8210e9367"
+          },
+          {
+            "name": "Total L",
+            "expression": "CALCULATE(SUM(bi_hechos_residuos[cantidad_base]), bi_hechos_residuos[magnitud] = \"VOLUMEN\")",
+            "formatString": "#,0.00",
+            "lineageTag": "6a049f0b-f474-5b99-a80b-5ea689e7bbd2"
+          },
+          {
+            "name": "Registros",
+            "expression": "COUNTROWS(bi_hechos_residuos)",
+            "formatString": "#,0",
+            "lineageTag": "4c7e0a28-8ef4-5d96-a4f8-5be5acee22bb"
+          },
+          {
+            "name": "Puntos con datos",
+            "expression": "DISTINCTCOUNT(bi_hechos_residuos[punto_codigo])",
+            "formatString": "#,0",
+            "lineageTag": "df0afe09-5010-5075-b710-2458f2070588"
+          },
+          {
+            "name": "Promedio kg por punto",
+            "expression": "DIVIDE([Total kg], [Puntos con datos])",
+            "formatString": "#,0.00",
+            "lineageTag": "6f18320f-cc81-54e5-a79f-6d201263dc8e"
+          },
+          {
+            "name": "Total kg año anterior",
+            "expression": "CALCULATE([Total kg], SAMEPERIODLASTYEAR(Calendario[Fecha]))",
+            "formatString": "#,0.00",
+            "lineageTag": "2768b4ff-c916-5fcc-b887-5b326c23c36c"
+          },
+          {
+            "name": "Variación vs año anterior",
+            "expression": "DIVIDE([Total kg] - [Total kg año anterior], [Total kg año anterior])",
+            "formatString": "0.0%",
+            "lineageTag": "4af646fe-6326-5fe5-bfb6-7271c2279c0a"
+          },
+          {
+            "name": "Participación aprovechable",
+            "expression": "DIVIDE(CALCULATE([Total kg], bi_hechos_residuos[aprovechable] = TRUE()), [Total kg])",
+            "formatString": "0.0%",
+            "lineageTag": "8719078c-18ee-5db0-bbfe-cf7a002d8798"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "bi_hechos_residuos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = PostgreSQL.Database(Servidor, BaseDatos),",
+                "    Vista = Origen{[Schema=\"public\", Item=\"bi_hechos_residuos\"]}[Data]",
+                "in",
+                "    Vista"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "bi_jornadas",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "lineageTag": "462da37a-9be8-5735-a23f-b0d066865f78",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fecha",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "065439de-e6ff-5106-9a49-e7f9c4cf7619",
+            "sourceColumn": "fecha",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "turno",
+            "dataType": "string",
+            "lineageTag": "a030c111-1e7e-517e-a74c-487313d6486b",
+            "sourceColumn": "turno",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "estado",
+            "dataType": "string",
+            "lineageTag": "3a89d5ea-f81d-5537-9d11-ff9578a77a67",
+            "sourceColumn": "estado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector_codigo",
+            "dataType": "string",
+            "lineageTag": "34c76b2e-2917-5b15-b775-69c8a9ef3ff2",
+            "sourceColumn": "sector_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector",
+            "dataType": "string",
+            "lineageTag": "a46f19ac-39e9-503a-aab0-3807e7ce2af7",
+            "sourceColumn": "sector",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "puntos_planificados",
+            "dataType": "int64",
+            "lineageTag": "c8050cef-078e-5803-811f-4de682e59d19",
+            "sourceColumn": "puntos_planificados",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "puntos_atendidos",
+            "dataType": "int64",
+            "lineageTag": "920654d0-c88e-5271-a983-01de05af146c",
+            "sourceColumn": "puntos_atendidos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "puntos_omitidos",
+            "dataType": "int64",
+            "lineageTag": "cf5154d5-23c6-5a4d-a7a3-10f9c8bd1b39",
+            "sourceColumn": "puntos_omitidos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora_inicio",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "5956fae7-8d0c-5c46-b3d3-4191a51b79dc",
+            "sourceColumn": "hora_inicio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hora_fin",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "3046c062-d84d-56d8-8c6e-5db068d80b94",
+            "sourceColumn": "hora_fin",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "3640bd87-070c-5b52-be47-dc31ff5a0767",
+        "measures": [
+          {
+            "name": "Jornadas cerradas",
+            "expression": "CALCULATE(COUNTROWS(bi_jornadas), bi_jornadas[estado] = \"CERRADA\")",
+            "formatString": "#,0",
+            "lineageTag": "54eb514c-9e8d-59c0-b041-9b20d853414a"
+          },
+          {
+            "name": "Cobertura",
+            "expression": "DIVIDE(SUM(bi_jornadas[puntos_atendidos]), SUM(bi_jornadas[puntos_planificados]))",
+            "formatString": "0.0%",
+            "lineageTag": "06bbc746-7197-5f80-a4dc-91454df9c0e0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "bi_jornadas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = PostgreSQL.Database(Servidor, BaseDatos),",
+                "    Vista = Origen{[Schema=\"public\", Item=\"bi_jornadas\"]}[Data]",
+                "in",
+                "    Vista"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "bi_incidencias",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "lineageTag": "556c321c-37e9-592e-800e-2351e270f665",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fecha_hora",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "3587fe44-8faf-5881-8bb6-0719fa5e32dc",
+            "sourceColumn": "fecha_hora",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo",
+            "dataType": "string",
+            "lineageTag": "0b5645ec-a275-5fbb-b38f-c4da5bcfd353",
+            "sourceColumn": "tipo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gravedad",
+            "dataType": "string",
+            "lineageTag": "5cc5cd93-ca07-561f-a5c1-607f55c2c551",
+            "sourceColumn": "gravedad",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "estado",
+            "dataType": "string",
+            "lineageTag": "a0a5406a-9db2-548b-bba2-ed1e1ea16385",
+            "sourceColumn": "estado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "punto_codigo",
+            "dataType": "string",
+            "lineageTag": "08b9b10d-64de-54c8-85c3-3dd0e9001e98",
+            "sourceColumn": "punto_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector",
+            "dataType": "string",
+            "lineageTag": "7661a974-ae38-50e1-8924-aff9cda3b9fc",
+            "sourceColumn": "sector",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "atendida_en",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "312b8415-25e2-54a1-b948-9d0f825fe39e",
+            "sourceColumn": "atendida_en",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "cb509bd2-674d-50c8-bfea-91e1465f1793",
+        "measures": [
+          {
+            "name": "Incidencias",
+            "expression": "COUNTROWS(bi_incidencias)",
+            "formatString": "#,0",
+            "lineageTag": "dc33d2ba-29d8-5f41-b1b5-3c507cf1a6bb"
+          },
+          {
+            "name": "Incidencias pendientes",
+            "expression": "CALCULATE(COUNTROWS(bi_incidencias), bi_incidencias[estado] = \"PENDIENTE\")",
+            "formatString": "#,0",
+            "lineageTag": "851fae89-04fb-530c-b95d-cef3a04b0ec8"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "bi_incidencias",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = PostgreSQL.Database(Servidor, BaseDatos),",
+                "    Vista = Origen{[Schema=\"public\", Item=\"bi_incidencias\"]}[Data]",
+                "in",
+                "    Vista"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "bi_puntos",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "lineageTag": "7ea673c1-1735-563a-ab55-f7ee5a400e2f",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "codigo",
+            "dataType": "string",
+            "lineageTag": "281d2230-e81e-5665-a794-bc7d6d5c3aa1",
+            "sourceColumn": "codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nombre",
+            "dataType": "string",
+            "lineageTag": "a9b00b85-806f-5c9d-bf96-893d1c889c90",
+            "sourceColumn": "nombre",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector_codigo",
+            "dataType": "string",
+            "lineageTag": "4c5d8f42-ebac-5a7c-a5bf-f9e109ad7ada",
+            "sourceColumn": "sector_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector",
+            "dataType": "string",
+            "lineageTag": "2d797954-3ba0-5113-ba9a-9d0d237556a0",
+            "sourceColumn": "sector",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latitud",
+            "dataCategory": "Latitude",
+            "dataType": "double",
+            "lineageTag": "d9a6e67d-4191-5c38-9ced-3b974518b112",
+            "sourceColumn": "latitud",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "longitud",
+            "dataCategory": "Longitude",
+            "dataType": "double",
+            "lineageTag": "c472d9b6-e480-53e4-aa93-0125d74461c1",
+            "sourceColumn": "longitud",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "capacidad_kg",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "f512305b-6edf-5b73-a58b-c1f58cb9ff4f",
+            "sourceColumn": "capacidad_kg",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "estado",
+            "dataType": "string",
+            "lineageTag": "6264d370-ccb7-51a9-b83f-eac61921ce3a",
+            "sourceColumn": "estado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_active",
+            "dataType": "boolean",
+            "lineageTag": "c97f6cc4-660e-513b-b75c-3949498f8a1b",
+            "sourceColumn": "is_active",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0c787bb6-2dc4-5fce-b952-fce29c15ced6",
+        "partitions": [
+          {
+            "name": "bi_puntos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = PostgreSQL.Database(Servidor, BaseDatos),",
+                "    Vista = Origen{[Schema=\"public\", Item=\"bi_puntos\"]}[Data]",
+                "in",
+                "    Vista"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "bi_predicciones",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "lineageTag": "42dd3f73-567e-55bf-b5c5-9834edcf7803",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fecha",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "0a63ea7e-c760-56a9-b858-37988cf7bfc0",
+            "sourceColumn": "fecha",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector_codigo",
+            "dataType": "string",
+            "lineageTag": "1b3c412b-cce7-5292-a8c1-8250229923ad",
+            "sourceColumn": "sector_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector",
+            "dataType": "string",
+            "lineageTag": "909c488d-66a7-5792-a880-39539a4c90ca",
+            "sourceColumn": "sector",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "punto_codigo",
+            "dataType": "string",
+            "lineageTag": "539283cd-9326-5e94-a48b-6a0b4e4724c8",
+            "sourceColumn": "punto_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "punto",
+            "dataType": "string",
+            "lineageTag": "539d687c-3fe4-5481-a346-230d27036396",
+            "sourceColumn": "punto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_residuo",
+            "dataType": "string",
+            "lineageTag": "8ac13960-275a-54fa-8818-174df0a017c1",
+            "sourceColumn": "tipo_residuo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "clasificacion",
+            "dataType": "string",
+            "lineageTag": "fbc1bb19-937e-5a0d-ab0d-0c562416f181",
+            "sourceColumn": "clasificacion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cantidad_kg",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "212c2eab-d415-55cb-8b83-82798412f3e8",
+            "sourceColumn": "cantidad_kg",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "margen_kg",
+            "dataType": "double",
+            "formatString": "#,0.00",
+            "lineageTag": "167c1786-54f2-5416-a359-a392cb34467a",
+            "sourceColumn": "margen_kg",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "modelo_version",
+            "dataType": "int64",
+            "lineageTag": "1d31de59-fb00-586f-8959-cf81fc9ced9e",
+            "sourceColumn": "modelo_version",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "generada_en",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "bc4ee137-f154-5792-a643-4fb0931aba64",
+            "sourceColumn": "generada_en",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a5e8581f-9bbd-5b27-b674-923b1e2920d9",
+        "measures": [
+          {
+            "name": "Generación proyectada kg",
+            "expression": "SUM(bi_predicciones[cantidad_kg])",
+            "formatString": "#,0.00",
+            "lineageTag": "cf02bbf7-5aac-5772-9871-442b56bd004e"
+          },
+          {
+            "name": "Margen proyectado kg",
+            "expression": "SQRT(SUMX(bi_predicciones, bi_predicciones[margen_kg] ^ 2))",
+            "formatString": "#,0.00",
+            "lineageTag": "32191b11-5be6-5b5d-b306-792c6e650ab4"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "bi_predicciones",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = PostgreSQL.Database(Servidor, BaseDatos),",
+                "    Vista = Origen{[Schema=\"public\", Item=\"bi_predicciones\"]}[Data]",
+                "in",
+                "    Vista"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "bi_recomendaciones",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "lineageTag": "67b1bfc5-638d-5c5d-bbc5-07d52bdcc6cf",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "creada_en",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "175fe841-c5ca-5e8f-85fe-9c79c7a53af2",
+            "sourceColumn": "creada_en",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector_codigo",
+            "dataType": "string",
+            "lineageTag": "69b289b1-fc87-52b8-b07f-edc315dc78e3",
+            "sourceColumn": "sector_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sector",
+            "dataType": "string",
+            "lineageTag": "647ec94e-e022-5512-8352-4962ca63d441",
+            "sourceColumn": "sector",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "punto_codigo",
+            "dataType": "string",
+            "lineageTag": "63dc89e3-b74b-572f-a36f-47dbd73b2983",
+            "sourceColumn": "punto_codigo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo",
+            "dataType": "string",
+            "lineageTag": "ac9dc540-ec2c-53ba-b96e-5bb26b52e25f",
+            "sourceColumn": "tipo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "urgencia",
+            "dataType": "string",
+            "lineageTag": "f29a76a6-803b-5886-a35f-18d53eabdf2f",
+            "sourceColumn": "urgencia",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "estado",
+            "dataType": "string",
+            "lineageTag": "8b8bec81-5711-5569-9c39-e5e905d362ed",
+            "sourceColumn": "estado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "resuelta_en",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "lineageTag": "96aa961b-59c6-507f-9b63-5c3ab352cfbc",
+            "sourceColumn": "resuelta_en",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "3723bcaa-abcb-5a78-8f85-5bc2ef1681b2",
+        "measures": [
+          {
+            "name": "Recomendaciones pendientes",
+            "expression": "CALCULATE(COUNTROWS(bi_recomendaciones), bi_recomendaciones[estado] = \"PENDIENTE\")",
+            "formatString": "#,0",
+            "lineageTag": "fe1e8a2f-c103-5140-b575-8f9e395d096f"
+          },
+          {
+            "name": "Recomendaciones aceptadas",
+            "expression": "CALCULATE(COUNTROWS(bi_recomendaciones), bi_recomendaciones[estado] = \"ACEPTADA\")",
+            "formatString": "#,0",
+            "lineageTag": "56e794f5-d562-5baf-9e41-daed5ff97d28"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "bi_recomendaciones",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = PostgreSQL.Database(Servidor, BaseDatos),",
+                "    Vista = Origen{[Schema=\"public\", Item=\"bi_recomendaciones\"]}[Data]",
+                "in",
+                "    Vista"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
