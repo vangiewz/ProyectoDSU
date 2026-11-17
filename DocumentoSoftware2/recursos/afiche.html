@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Afiche de campaña DSU</title>
+<style>
+@font-face {
+  font-family: 'Archivo';
+  src: url('../../gestion-residuos-dsu/frontend/node_modules/@fontsource-variable/archivo/files/archivo-latin-wdth-normal.woff2') format('woff2-variations');
+  font-weight: 100 900; font-stretch: 62% 125%;
+}
+:root {
+  --dsu: #c4122f; --grafito: #1e2328; --grafito-2: #4a5560; --boligrafo: #1f3fa8;
+  --lapiz: #55606c; --sello-ok: #1e7a46; --papel: #f4f6f8; --hoja: #fff; --filete: #c9ced6;
+}
+* { box-sizing: border-box; margin: 0; }
+body { width: 816px; height: 1056px; background: var(--papel); font-family: 'Archivo', sans-serif; color: var(--grafito); font-variant-numeric: tabular-nums; }
+.afiche { height: 100%; display: grid; grid-template-rows: auto 1fr auto; }
+.riel { background: var(--dsu); color: #fff; display: flex; align-items: center; gap: 16px; padding: 22px 48px; }
+.mono { background: #fff; color: var(--dsu); font-weight: 800; font-stretch: 75%; font-size: 30px; letter-spacing: .02em; padding: 4px 12px; border-radius: 3px; line-height: 1.1; }
+.riel p { font-stretch: 80%; font-weight: 650; font-size: 14px; letter-spacing: .06em; text-transform: uppercase; line-height: 1.35; }
+.cuerpo { display: grid; grid-template-columns: 1fr 276px; gap: 36px; padding: 40px 48px 32px; }
+h1 { font-weight: 800; font-stretch: 72%; font-size: 84px; line-height: .9; letter-spacing: -.025em; }
+h1 span { display: block; color: var(--dsu); }
+.bajada { margin-top: 22px; font-size: 17px; line-height: 1.45; max-width: 30ch; color: var(--grafito-2); }
+.planilla { margin-top: 28px; background: var(--hoja); border: 1px solid var(--filete); border-radius: 4px; }
+.fila { display: grid; grid-template-columns: 112px 1fr; gap: 12px; align-items: baseline; padding: 12px 16px; border-top: 1px solid #e3e7ec; }
+.fila:first-child { border-top: 0; }
+.sello { justify-self: start; font-weight: 800; font-stretch: 70%; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; padding: .15em .55em; border: 1.5px solid currentColor; border-radius: 3px; transform: rotate(-2deg); }
+.fila p { font-size: 15px; line-height: 1.4; }
+.tinta { color: var(--boligrafo); font-weight: 700; }
+.lapiz { color: var(--lapiz); text-decoration: underline dotted; text-underline-offset: 3px; }
+.telefono { align-self: start; margin-top: 8px; border: 9px solid var(--grafito); border-radius: 30px; overflow: hidden; background: var(--grafito); }
+.telefono img { display: block; width: 258px; height: 516px; object-fit: cover; object-position: top; border-radius: 21px; }
+.pie { display: grid; grid-template-columns: auto 1fr auto; gap: 24px; align-items: center; background: var(--hoja); border-top: 1px solid var(--filete); padding: 22px 48px 26px; position: relative; }
+.pie::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: var(--dsu); }
+.pie img { width: 118px; height: 118px; }
+.pie strong { display: block; font-stretch: 85%; font-size: 22px; line-height: 1.15; }
+.pie p { margin-top: 6px; font-size: 15px; line-height: 1.4; color: var(--grafito-2); max-width: 38ch; }
+.pie small { font-stretch: 80%; font-weight: 650; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--grafito-2); text-align: right; line-height: 1.5; }
+</style>
+</head>
+<body>
+<main class="afiche">
+  <header class="riel">
+    <div class="mono">DSU</div>
+    <p>Dirección de Servicios Universitarios<br>Universidad Autónoma Gabriel René Moreno</p>
+  </header>
+  <section class="cuerpo">
+    <div>
+      <h1>Campus limpio, <span>gestión inteligente</span></h1>
+      <p class="bajada">Cada vaciado queda registrado en el punto de recolección. Con esos datos la DSU planifica sus rutas y se anticipa a los desbordes.</p>
+      <div class="planilla">
+        <div class="fila"><span class="sello" style="color:var(--boligrafo)">En campo</span><p>El personal operativo anota tipo y cantidad desde su celular: <span class="tinta">12,5&nbsp;kg</span>, en cuatro toques.</p></div>
+        <div class="fila"><span class="sello" style="color:var(--sello-ok)">Supervisión</span><p>El supervisor arma la jornada, asigna la cuadrilla y sigue el recorrido en el mapa.</p></div>
+        <div class="fila"><span class="sello" style="color:var(--grafito-2)">Predicción</span><p>El modelo estima los próximos siete días, siempre con su margen: <span class="lapiz">≈&nbsp;403&nbsp;±&nbsp;3,3&nbsp;kg</span>.</p></div>
+      </div>
+    </div>
+    <div class="telefono"><img src="../../docs/auditoria-fase-final/ui/predicciones-super_ui-390.png" alt="Predicción de generación en el teléfono del supervisor"></div>
+  </section>
+  <footer class="pie">
+    <img src="qr_drive.png" alt="Código QR del material del proyecto">
+    <div><strong>Conoce el sistema</strong><p>Escanea el código para ver el manual de usuario, las capturas y el material del proyecto.</p></div>
+    <small>Sistema DSU<br>FICCT · UAGRM<br>Grupo 8</small>
+  </footer>
+</main>
+</body>
+</html>

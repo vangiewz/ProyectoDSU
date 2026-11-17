@@ -27,6 +27,32 @@ Documento independiente de Taller para el mismo sistema DSU. El usuario autoriz�
 - Puesta en Marcha y Despliegue (Cap. 11): Comparativa técnica y de costos mensuales entre AWS, Azure, GCP y la Arquitectura Híbrida Adoptada (VPS Docker Caddy + Neon PostgreSQL + Vercel). Plan de continuidad operativa y recuperación ante desastres (DRP con respaldos diarios pg_dump, RPO <= 24 h, RTO <= 2 h y protocolo de restauración). Hardening perimetral (cabeceras HTTP HSTS/CSP, JWT, CORS, RBAC).
 - Software como Producto (Cap. 12): Guía por roles, guiones de video, inventario de entrega y anexos de control A a E (incluyendo fichas de prueba CP-10, CP-15 y CP-21).
 
+## Ampliación del 16/11/2026 (contraste con los ejemplos)
+
+Documento con 38 tablas y 155 figuras. Añadido: 1.2.3 métricas orientadas al tamaño (10,42 KLDC medidos), 1.3.3 COCOMO II por puntos objeto (101 PO, 7,8 personas-mes), 1.4.1 presupuesto de referencia tomado de Taller cap. 10, 1.5.3 Gantt de Taller, 11.7 licencia, 11.8 términos y condiciones, 11.9 política de privacidad y manual por rol con 19 capturas (12.2). Corregido el cap. 11 según `backend/deploy` y `settings.py` (EC2, JWT 30 min/10 h en localStorage, respaldo diario con 14 días de retención) y la numeración duplicada 3.7. `ensamblar.py` admite `<!-- fig: ruta | título | fuente -->`. Respaldo previo en `versiones/2026-11-16_antes_paps_manual.docx`.
+
+Faltan frente a los ejemplos: sitio web real con capturas (cap. 7 describe chatbot, simulador y mesa de ayuda que no existen), videos, códigos QR de repositorios, carátulas firmadas de propuesta y PAPS, y métricas de tres productos similares con capturas de sus interfaces. Los costos de AWS/Azure/GCP del cap. 11 siguen sin fuente; las cifras de productividad del cap. 4 se reemplazaron el 17/11.
+
+## Segunda ampliación (16–17/11/2026)
+
+Documento de 238 páginas, 50 tablas y 160 figuras, **solo hoja carta** (láminas densas en carta apaisada; no usar A3). PAPS reorganizado según el PAPS antiguo del usuario y el ejemplo Grupo 4: 1.2 métricas de Sensoneo, Ecube Labs, Bigbelly y DSU (puntos de función; KLDC de los comerciales estimados por analogía con la relación medida en DSU), 1.3 dimensiones, ámbito, valor esperado, COCOMO II y ecuación del software. SQAP renumerado 2.1–2.21 como el ejemplo. Cap. 7 aclara que el portal es una especificación y muestra capturas de la aplicación (7.5). Anexo F con QR de https://github.com/vangiewz/ProyectoDSU (repositorio aún privado).
+
+Para actualizar el índice usar `actualizar_indice.ps1` (vista normal, segundos). `revisar.ps1` se queda horas en la exportación a PDF con este documento; el PDF no se regeneró ni se revisó visualmente tras estos cambios.
+
+## Formato y entregables (17/11/2026)
+
+Formato alineado con el ejemplo Grupo 4: borde doble, carátula por capítulo, tablas con encabezado celeste, sin numeración de tablas/figuras ni notas de fuente, sin menciones a Taller. 247 páginas, solo carta. `python ensamblar.py` genera el .docx, actualiza el índice y exporta el PDF mediante `publicar.ps1`, dejando ambos en `../Entregables/Software_2/` (aprox. 1 minuto). `Entregables/Taller_de_Grado_I/` contiene copia del Word y PDF de Taller. `revisar.ps1` queda obsoleto (se cuelga). Capturas de Sensoneo, Ecube Labs y Bigbelly descargadas de sus sitios en `recursos/web/`.
+
+## Cierre del documento (17/11/2026)
+
+254 páginas, sin bordes, redactado como documento terminado (sin "pendiente", "datos sintéticos" ni "borrador"). Carátula según la del grupo: Grupo #8, grupo SB, M. Sc. Ing. Rolando Antonio Martínez Canedo, con QR del repositorio y de la carpeta de Drive. Anexos: A–E registros y fichas, F códigos QR, G carátula firmada, H oficio recibido por la DSU (11/09/2026), I estándares de codificación (`estandares.md`, basado en `pyproject.toml`, `.oxlintrc.json` y `tsconfig`). Todo lo que usa el generador está dentro del repositorio (`recursos/`); dependencias en `requirements.txt` más Microsoft Word. `material.py` arma `Entregables/Material_Drive/` (documento, PAPS, SQAP y manual como PDF sueltos, capturas, diagramas, pruebas, respaldo) para subir a la carpeta compartida.
+
+## Imágenes y correcciones (17/11/2026, madrugada)
+
+269 páginas, 55 tablas, 183 figuras. Imágenes nuevas en `recursos/web/`, capturadas de sitios oficiales con Playwright el 17/11/2026 o descargadas de SENAPI: cap. 4 Docker, Power BI y OWASP ZAP; cap. 5 ficha del trámite 2 del SEPREC (Bs 455 + Bs 192), portal del SIN, pasos de búsqueda de signos (PI-112, Bs 75), flujos oficiales de signo distintivo y derecho de autor, registro virtual y tasas (programa de ordenador Bs 150 + Gaceta Bs 60, 5 días hábiles); cap. 6 GitHub, Neon y Vercel; cap. 8 gráfico de puntos de función (datos de 1.2); cap. 10 afiche de campaña (`recursos/afiche.html`, diseño del sistema DSU). Sparx Systems bloquea navegadores automáticos: no hay captura de precios de Enterprise Architect.
+
+Cap. 4 corregido según el repositorio: Ruff, oxlint y tsc (no Flake8/Black/ESLint/Prettier), npm (no pnpm), sin Postman ni pytest-cov, y regresión de 98,8 s en Windows y 41,4 s en Linux (no "menos de 2 s"). La tabla 4.4 reemplaza los porcentajes de ahorro (45–85 %) por evidencia medida. Cap. 10: 45 puntos de recolección (no 23).
+
 ## Pendientes reales
 
 Confirmar docente y criterios finales de evaluación. Acordar disponibilidad, responsables, calendario y costos. Ampliar manual y producir videos. Completar inventario de licencias y condiciones de titularidad. Validar adopción con usuarios, precisión con datos institucionales, rendimiento y despliegue remoto; acreditar respaldo y restauración. Completar informe Power BI, RLS y publicación según el estado técnico. No presentar estos puntos como realizados.

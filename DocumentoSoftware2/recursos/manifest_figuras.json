@@ -1,1051 +1,1166 @@
 [
   {
     "figura": 1,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\sensoneo.png",
+    "sha256": "4b2e4c6ae9853a745922d1c65a347f9bafb13335a23e8b736969d924602bd5c9"
+  },
+  {
+    "figura": 2,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\ecube.png",
+    "sha256": "b1b224eb386d389fe137694e4637b75a21dd42f344990315cf65635fe51ccc9a"
+  },
+  {
+    "figura": 3,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\bigbelly.png",
+    "sha256": "1f7def34266dd37a689874306add841ef566560d75364fcb2ad47ce5548e65a6"
+  },
+  {
+    "figura": 4,
+    "fuente": "generador\\figuras\\gantt.png",
+    "sha256": "71a80116b1a56249ded11b9640868da2559c385083b2cd19ac77b1f4f3ab8b1b"
+  },
+  {
+    "figura": 5,
+    "fuente": "DocumentoSoftware2\\recursos\\organigrama_equipo.png",
+    "sha256": "e4e33f2f9dbd80d645321103bba03134937b488d23cbf30bf70d883c50012ee8"
+  },
+  {
+    "figura": 6,
     "fuente": "generador\\figuras\\fase_final\\c8_general.png",
     "sha256": "4c3d27d47c80e9712e6202973922f1c32e9080524a6ff1b9f0c83b008a7e4b7e"
   },
   {
-    "figura": 2,
+    "figura": 7,
     "fuente": "generador/figuras/fase1/modelo_dominio.png",
     "titulo": "Modelo de dominio",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "a3",
     "sha256": "43f11828964ada32c9ab72cdc3b6497fc1dff5513b5e904953807285bf75e150"
   },
   {
-    "figura": 3,
+    "figura": 8,
     "fuente": "generador/figuras/fase1/flujo_operativo.png",
     "titulo": "Flujo operativo del sistema",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "09abe5d98d02c6cb6d4072e6593a623348e77efaff998bf1fcc8f9400365fa11"
   },
   {
-    "figura": 4,
+    "figura": 9,
     "fuente": "generador/figuras/fase1/rf8_actividad.png",
     "titulo": "Actividad de RF8 Registro de vaciado",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "aecc995c6dd8ffb5b3f1cc8a9ec2d762402b3c69524827cb70daabc18efcd09d"
   },
   {
-    "figura": 5,
+    "figura": 10,
     "fuente": "generador/figuras/fase1/rf12_actividad.png",
     "titulo": "Actividad de RF12 Ejecución y cierre de recolección",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "b60eedd9053aa81c3b5883dcf6f63d684ded310551cfcd3ffb6423a36fb8d7d9"
   },
   {
-    "figura": 6,
+    "figura": 11,
     "fuente": "generador/figuras/fase1/rf15_actividad.png",
     "titulo": "Actividad de RF15 Proceso ETL",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "b304d56b26ac3e055e79a053056b274c21687237f588c5963dfbba87dcf334b6"
   },
   {
-    "figura": 7,
+    "figura": 12,
     "fuente": "generador/figuras/fase1/rf16_actividad.png",
     "titulo": "Actividad de RF16 Consulta de indicadores",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "06ab5eedd6a44bf0a2a5bd87693be030538ad08baf0b3ebeab5af6644d867864"
   },
   {
-    "figura": 8,
+    "figura": 13,
     "fuente": "generador/figuras/fase1/rf20_actividad.png",
     "titulo": "Actividad de RF20 Mapa de calor",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "d1e975dd7fd97f37cb241c04d8f194ab37397d3cb8fef3f581563cd228b60e44"
   },
   {
-    "figura": 9,
+    "figura": 14,
     "fuente": "generador/figuras/fase1/rf22_actividad.png",
     "titulo": "Actividad de RF22 Entrenamiento y evaluación del modelo",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "ff0dcda7a790e1610c00828d6701e6d3f0623599f5b644a2c1227e09bc67b112"
   },
   {
-    "figura": 10,
+    "figura": 15,
     "fuente": "generador/figuras/fase1/rf23_actividad.png",
     "titulo": "Actividad de RF23 Generación de predicciones",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "2225606823fadbce5971c8e07dcbad71cd22f7232b7478a9ac552d7cf6ff5cb0"
   },
   {
-    "figura": 11,
+    "figura": 16,
     "fuente": "generador/figuras/fase1/rf24_actividad.png",
     "titulo": "Actividad de RF24 Alertas y recomendaciones",
-    "grupo": "3.7. Dominio y actividades del sistema",
+    "grupo": "3.8. Dominio y actividades del sistema",
     "formato": "carta",
     "sha256": "a2ea0cc21c1211d718057d64d57fabf5ecbb4c43fd3249a4a50e532e3ca98857"
   },
   {
-    "figura": 12,
+    "figura": 17,
     "fuente": "generador/figuras/fase2/c5_actores_descripcion.png",
     "titulo": "Actores y responsabilidades",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "9796cad16245e6220c028475d15eae1a4bd90e2e317f59b1de3d58d636441ce7"
   },
   {
-    "figura": 13,
+    "figura": 18,
     "fuente": "generador/figuras/fase_final/c5_general_nombres.png",
     "titulo": "Modelo general de los 34 casos de uso",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "a3",
     "sha256": "4480b3000fdf63f51eb77d7025d00972f3ae3477d5f0b60419f3aab1b1238349"
   },
   {
-    "figura": 14,
+    "figura": 19,
     "fuente": "generador/figuras/fase2/c5_cu01.png",
     "titulo": "CU1 Iniciar sesión",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "a28ada4ffcdc3d1ca078438c79bbe06c5e99786ee0d0883ad84fb226d27204c9"
   },
   {
-    "figura": 15,
+    "figura": 20,
     "fuente": "generador/figuras/fase2/c5_cu02.png",
     "titulo": "CU2 Cerrar sesión",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "e51cc1902314b2a12e03403670b561363d2f13e0145c1671a01f24d47a7c1510"
   },
   {
-    "figura": 16,
+    "figura": 21,
     "fuente": "generador/figuras/fase2/c5_cu03.png",
     "titulo": "CU3 Gestionar usuarios",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "6c4757180173e3a3b72278483a0508fd67711b200bc2599cf4a858ce367e41a5"
   },
   {
-    "figura": 17,
+    "figura": 22,
     "fuente": "generador/figuras/fase2/c5_cu04.png",
     "titulo": "CU4 Gestionar roles y permisos",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "c5117f6013c69098a6ab16ccb20e1b09e95e5986dcec543c5615ad1cb4221e42"
   },
   {
-    "figura": 18,
+    "figura": 23,
     "fuente": "generador/figuras/fase2/c5_cu05.png",
     "titulo": "CU5 Gestionar sectores y facultades",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "464342eae7027c73909b43ef860f97d32270182c3c59e2cb732503207e9fb224"
   },
   {
-    "figura": 19,
+    "figura": 24,
     "fuente": "generador/figuras/fase2/c5_cu06.png",
     "titulo": "CU6 Gestionar puntos de recolección",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "2c7ef0138e8ffcb9948f6097399d560e78f5ce0908b2936e5a2bdf8e59906ef3"
   },
   {
-    "figura": 20,
+    "figura": 25,
     "fuente": "generador/figuras/fase2/c5_cu07.png",
     "titulo": "CU7 Gestionar contenedores",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "d14a00373800424ee9698fae132c009c9e3143d13d64e7156b9e1bb1c8d94f17"
   },
   {
-    "figura": 21,
+    "figura": 26,
     "fuente": "generador/figuras/fase2/c5_cu08.png",
     "titulo": "CU8 Gestionar tipos de residuo y unidades de medida",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "389afb970ca696ed9c522321e69553ffe59ce5bd349035bddecba44261e8cc61"
   },
   {
-    "figura": 22,
+    "figura": 27,
     "fuente": "generador/figuras/fase2/c5_cu09.png",
     "titulo": "CU9 Registrar vaciado de residuos",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "6bb4108a1c016128840cf08ff447b5245ccba9e09da8d802f966d9c3afb510fa"
   },
   {
-    "figura": 23,
+    "figura": 28,
     "fuente": "generador/figuras/fase2/c5_cu10.png",
     "titulo": "CU10 Registrar incidencia operativa",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "2f3306789afc32a9be1fc9d193cc5a317e8dbaae75b668cbe90512a5d1d6b79b"
   },
   {
-    "figura": 24,
+    "figura": 29,
     "fuente": "generador/figuras/fase2/c5_cu11.png",
     "titulo": "CU11 Atender incidencia",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "a6dfd80bdf50c6a06bba33f49efb56ced84268b6a4b7883f4b62719b8a1a3475"
   },
   {
-    "figura": 25,
+    "figura": 30,
     "fuente": "generador/figuras/fase2/c5_cu12.png",
     "titulo": "CU12 Consultar histórico de residuos",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "16c09657fcdbba4c7de4b6b9a36969c94a0d8d204c34daf92c77ac3e030c26aa"
   },
   {
-    "figura": 26,
+    "figura": 31,
     "fuente": "generador/figuras/fase2/c5_cu13.png",
     "titulo": "CU13 Gestionar vehículos",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "f0db5539caf19bf07afacaeef5a3e6c567bc7da49ed70727f88bc6c5b490241a"
   },
   {
-    "figura": 27,
+    "figura": 32,
     "fuente": "generador/figuras/fase2/c5_cu14.png",
     "titulo": "CU14 Planificar jornada y ruta de recolección",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "a097f99265fe87502d4fd659cd055d068a55ba9bdd4074205d676d021a24f836"
   },
   {
-    "figura": 28,
+    "figura": 33,
     "fuente": "generador/figuras/fase2/c5_cu15.png",
     "titulo": "CU15 Asignar personal y vehículos a la jornada",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "e93f9703c8cd7a538c6b16fc2329095fecce51b64afd2cb58ebfd086e1652161"
   },
   {
-    "figura": 29,
+    "figura": 34,
     "fuente": "generador/figuras/fase2/c5_cu16.png",
     "titulo": "CU16 Ejecutar jornada de recolección",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "4da390880231d5f62d7f9dabae1c325c4b565360c5aa351534b45eae0515446c"
   },
   {
-    "figura": 30,
+    "figura": 35,
     "fuente": "generador/figuras/fase2/c5_cu17.png",
     "titulo": "CU17 Omitir punto de la ruta",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "07f65f7265401878c31f1dee10e06a361e13d2fb494a0fa1e62c60e3fd3ac446"
   },
   {
-    "figura": 31,
+    "figura": 36,
     "fuente": "generador/figuras/fase2/c5_cu18.png",
     "titulo": "CU18 Cerrar jornada de recolección",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "81cf91a22435bdc40265b24a1e4064ec49ce81e031747cbbcdddd659d6e5e83d"
   },
   {
-    "figura": 32,
+    "figura": 37,
     "fuente": "generador/figuras/fase2/c5_cu19.png",
     "titulo": "CU19 Consultar historial de recolecciones",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "6eeb256e62ad01c787aef10fa70c2ae6c0ba600c22326765e3aa8f4029f739d1"
   },
   {
-    "figura": 33,
+    "figura": 38,
     "fuente": "generador/figuras/fase2/c5_cu20.png",
     "titulo": "CU20 Ejecutar proceso ETL",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "1c2fdd39fd904884e19925c99e02415ae3f861bcb65f734fc6f16b6f20d4d3bf"
   },
   {
-    "figura": 34,
+    "figura": 39,
     "fuente": "generador/figuras/fase2/c5_cu21.png",
     "titulo": "CU21 Visualizar tablero interactivo",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "a99cea4329402010a530c8d83a6f1f5f4fadf1ce38c392fea710ef240cce4a55"
   },
   {
-    "figura": 35,
+    "figura": 40,
     "fuente": "generador/figuras/fase2/c5_cu22.png",
     "titulo": "CU22 Comparar periodos e identificar tendencias",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "7f09fb3b3dc0fd2335a180ab8df8c9c522f4a657abf5f7b673dc556d7bc592d6"
   },
   {
-    "figura": 36,
+    "figura": 41,
     "fuente": "generador/figuras/fase2/c5_cu23.png",
     "titulo": "CU23 Visualizar puntos en el mapa interactivo",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "8d6d08719b84a118a9dc145cb30562df8c27b1ca70822db80f4fec33befe7618"
   },
   {
-    "figura": 37,
+    "figura": 42,
     "fuente": "generador/figuras/fase2/c5_cu24.png",
     "titulo": "CU24 Generar mapa de calor",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "a753ff5e9ab0c1a23928d26c0afc2dbb73fb9686651348acddc9729ced74f822"
   },
   {
-    "figura": 38,
+    "figura": 43,
     "fuente": "generador/figuras/fase2/c5_cu25.png",
     "titulo": "CU25 Filtrar mapa por periodo, sector y tipo de residuo",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "87928cbef1cf349fa7ff82195b8c12d23e76eb417b623ab954f7cdaadc13721f"
   },
   {
-    "figura": 39,
+    "figura": 44,
     "fuente": "generador/figuras/fase2/c5_cu26.png",
     "titulo": "CU26 Entrenar y evaluar el modelo Random Forest Regressor",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "8dbfc60d3bcfdc6617ee8a56ec143b3a1315cf84a1e66bb6425e00a2bcff7cba"
   },
   {
-    "figura": 40,
+    "figura": 45,
     "fuente": "generador/figuras/fase2/c5_cu27.png",
     "titulo": "CU27 Publicar o revertir versión del modelo",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "1355ca880d07e167cd99cc9704dd013e4a13a1034086c0ab13ded951b9c29c33"
   },
   {
-    "figura": 41,
+    "figura": 46,
     "fuente": "generador/figuras/fase2/c5_cu28.png",
     "titulo": "CU28 Predecir generación futura y emitir alertas",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "3309397a4e1441750ae10516e2e9d992ae83d4feefd01978af3b6307d7676ab5"
   },
   {
-    "figura": 42,
+    "figura": 47,
     "fuente": "generador/figuras/fase2/c5_cu29.png",
     "titulo": "CU29 Consultar alertas y recomendaciones logísticas",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "166220297d245b46a6bcfdec4cc9792da472319ba2c1911c618d7643912252e1"
   },
   {
-    "figura": 43,
+    "figura": 48,
     "fuente": "generador/figuras/fase2/c5_cu30.png",
     "titulo": "CU30 Atender recomendación logística",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "ed0d44aabd343767208d9bc1c1e626859e2273fbf3924b1b0d5b47f65876d739"
   },
   {
-    "figura": 44,
+    "figura": 49,
     "fuente": "generador/figuras/fase2/c5_cu31.png",
     "titulo": "CU31 Configurar periodos académicos y parámetros",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "753f107021a84d99f827dae4eb30dabd538555fb956fdd1c1b62889010b65dd5"
   },
   {
-    "figura": 45,
+    "figura": 50,
     "fuente": "generador/figuras/fase2/c5_cu32.png",
     "titulo": "CU32 Consultar bitácora de auditoría",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "f7c7a56ac794255e06ce10e0f3a5af1eef731b617f14941dccd97196c542843d"
   },
   {
-    "figura": 46,
+    "figura": 51,
     "fuente": "generador/figuras/fase2/c5_cu33.png",
     "titulo": "CU33 Generar reporte",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "a25b0bdd8c1e1c5fce3128be855bfb4c212fc8612de5d38ecde37dd4ab76976d"
   },
   {
-    "figura": 47,
+    "figura": 52,
     "fuente": "generador/figuras/fase2/c5_cu34.png",
     "titulo": "CU34 Exportar reporte a Excel o PDF",
-    "grupo": "3.8. Actores y modelo de casos de uso",
+    "grupo": "3.9. Actores y modelo de casos de uso",
     "formato": "carta",
     "sha256": "3b3fbc85c31f42ef2851a2ae3ba95e09bcc91d40783daebb28a0150113f940b2"
   },
   {
-    "figura": 48,
+    "figura": 53,
     "fuente": "generador/figuras/fase2/c6_paquetes.png",
     "titulo": "Identificación de los ocho paquetes",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "95a1c6769eacda51fc8c6219325939cd22fe02e5f69576b56b49a290f456ef64"
   },
   {
-    "figura": 49,
+    "figura": 54,
     "fuente": "generador/figuras/fase2/c6_rel_p1.png",
     "titulo": "Trazabilidad del paquete Gestión de Usuarios y Control de Acceso",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "aa51b600d92469a4125394ebf53d3e68ae5658aaa936638092a34057361cc86b"
   },
   {
-    "figura": 50,
+    "figura": 55,
     "fuente": "generador/figuras/fase2/c6_enc_p1.png",
     "titulo": "Encapsulamiento de Gestión de Usuarios y Control de Acceso",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "150d2191cba24fef14bb5868df82f0eaca06bcdb7e9f4fb9d5b0ec12b013de97"
   },
   {
-    "figura": 51,
+    "figura": 56,
     "fuente": "generador/figuras/fase2/c6_rel_p2.png",
     "titulo": "Trazabilidad del paquete Gestión Topológica y Puntos de Recolección",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "9ee2d09f31e215fb002e10b9e90193b0ec983bb60fa16e79726de09aaf5122f3"
   },
   {
-    "figura": 52,
+    "figura": 57,
     "fuente": "generador/figuras/fase2/c6_enc_p2.png",
     "titulo": "Encapsulamiento de Gestión Topológica y Puntos de Recolección",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "992daa894bc2ab990c7fc8214bf70df7de1b2f66e54def8c6a61389c60b9ad2c"
   },
   {
-    "figura": 53,
+    "figura": 58,
     "fuente": "generador/figuras/fase2/c6_rel_p3.png",
     "titulo": "Trazabilidad del paquete Gestión de Residuos",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "2be527611ed8d2c782d1e0c2378ea24958c1b8cd9c56887ab88de496201df85b"
   },
   {
-    "figura": 54,
+    "figura": 59,
     "fuente": "generador/figuras/fase2/c6_enc_p3.png",
     "titulo": "Encapsulamiento de Gestión de Residuos",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "f924c91f4abfd50389673ed2aea718cdc078735a3e6d5debbe0f80197e8171e1"
   },
   {
-    "figura": 55,
+    "figura": 60,
     "fuente": "generador/figuras/fase2/c6_rel_p4.png",
     "titulo": "Trazabilidad del paquete Gestión de Recolecciones y Logística",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "4c1fc94c126eca96790c6b6659e527172f1237c7e8d9ffbabc3e475283913222"
   },
   {
-    "figura": 56,
+    "figura": 61,
     "fuente": "generador/figuras/fase2/c6_enc_p4.png",
     "titulo": "Encapsulamiento de Gestión de Recolecciones y Logística",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "f62df4e9d0f162e5de086007fb24b40ebe4476c2827032c0d8ffa6efa661e3b7"
   },
   {
-    "figura": 57,
+    "figura": 62,
     "fuente": "generador/figuras/fase2/c6_rel_p5.png",
     "titulo": "Trazabilidad del paquete Inteligencia de Negocios y Analítica Visual",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "378f9b6c14b64ff4662fa07b2c543eb9460c7247b5c36696d4670c386a0e208d"
   },
   {
-    "figura": 58,
+    "figura": 63,
     "fuente": "generador/figuras/fase2/c6_enc_p5.png",
     "titulo": "Encapsulamiento de Inteligencia de Negocios y Analítica Visual",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "b2ca84edfbcaf94a38d0d76c9616381d4e61274b61b63a22cc60cbb69c7ae11e"
   },
   {
-    "figura": 59,
+    "figura": 64,
     "fuente": "generador/figuras/fase2/c6_rel_p6.png",
     "titulo": "Trazabilidad del paquete Componente Cartográfico y Análisis Espacial",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "03988aaabb69cb738e410b4baa8bf59620b3a05e8d1a513defd4d0ea00572d39"
   },
   {
-    "figura": 60,
+    "figura": 65,
     "fuente": "generador/figuras/fase2/c6_enc_p6.png",
     "titulo": "Encapsulamiento de Componente Cartográfico y Análisis Espacial",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "c27d7317512b15d93c8eec4dc77f0871c257fbf35740803d9648734e95778925"
   },
   {
-    "figura": 61,
+    "figura": 66,
     "fuente": "generador/figuras/fase2/c6_rel_p7.png",
     "titulo": "Trazabilidad del paquete Predicción mediante Random Forest Regressor",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "88e6fa055bff46724bda1caba342d1e94b7abe9fb3b2eac040e0d2f2c6be550b"
   },
   {
-    "figura": 62,
+    "figura": 67,
     "fuente": "generador/figuras/fase2/c6_enc_p7.png",
     "titulo": "Encapsulamiento de Predicción mediante Random Forest Regressor",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "754e639640cd7664c4d2278e83ed007737b21093f8613dec94961f2024379f00"
   },
   {
-    "figura": 63,
+    "figura": 68,
     "fuente": "generador/figuras/fase2/c6_rel_p8.png",
     "titulo": "Trazabilidad del paquete Administración de la Plataforma y Auditoría",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "e15a9034234eb1d252682a446ef0230183c4527f3e0d5c2eca66b9afeed26477"
   },
   {
-    "figura": 64,
+    "figura": 69,
     "fuente": "generador/figuras/fase2/c6_enc_p8.png",
     "titulo": "Encapsulamiento de Administración de la Plataforma y Auditoría",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "carta",
     "sha256": "14a7099c2cbd12386461c2dadc3524204fa7369c74ff8a1f21853c878a78477b"
   },
   {
-    "figura": 65,
+    "figura": 70,
     "fuente": "generador/figuras/fase2/c6_analisis_paquetes.png",
     "titulo": "Dependencias del modelo de análisis",
-    "grupo": "3.9. Organización y relaciones de paquetes",
+    "grupo": "3.10. Organización y relaciones de paquetes",
     "formato": "a3",
     "sha256": "4b02ac9e58870e59452e43e51f7d2bd357fab3d006a3abbaf381d5211e85be5d"
   },
   {
-    "figura": 66,
+    "figura": 71,
     "fuente": "generador/figuras/fase2/c6_cu01.png",
     "titulo": "Análisis de CU1 Iniciar sesión",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "971cd145d4a0202268318cfd05f17bcfea668399ade6b6d1c5c962c3b4b5d3ee"
   },
   {
-    "figura": 67,
+    "figura": 72,
     "fuente": "generador/figuras/fase2/c6_cu02.png",
     "titulo": "Análisis de CU2 Cerrar sesión",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "d733c33d601b1dd35c349107aafd092bef78bc7ee10decdb9198201d386bc852"
   },
   {
-    "figura": 68,
+    "figura": 73,
     "fuente": "generador/figuras/fase2/c6_cu03.png",
     "titulo": "Análisis de CU3 Gestionar usuarios",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "77b39c84f3e230d6c127d990e861a0869f0f64073debd9da0e96fd6d0d0348f4"
   },
   {
-    "figura": 69,
+    "figura": 74,
     "fuente": "generador/figuras/fase2/c6_cu04.png",
     "titulo": "Análisis de CU4 Gestionar roles y permisos",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "eba9dc5573c5e32903d110298e0d249bfce92b8593ac5e1e1a8632ccda737a86"
   },
   {
-    "figura": 70,
+    "figura": 75,
     "fuente": "generador/figuras/fase2/c6_cu05.png",
     "titulo": "Análisis de CU5 Gestionar sectores y facultades",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "99c71fc5ef17b590502fb701df0a68fa082f6cbdf5a1bc553b1a84747af7a669"
   },
   {
-    "figura": 71,
+    "figura": 76,
     "fuente": "generador/figuras/fase2/c6_cu06.png",
     "titulo": "Análisis de CU6 Gestionar puntos de recolección",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "8cc599d5211c948c821f70593c48a1c7bda6c6b8b4bd1d90e0cebc1f6e5a5d45"
   },
   {
-    "figura": 72,
+    "figura": 77,
     "fuente": "generador/figuras/fase2/c6_cu07.png",
     "titulo": "Análisis de CU7 Gestionar contenedores",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "120396c2e828da8eed46c7ab179471aa9b47ff6f54ce7f551ffc118b5ea73c68"
   },
   {
-    "figura": 73,
+    "figura": 78,
     "fuente": "generador/figuras/fase2/c6_cu08.png",
     "titulo": "Análisis de CU8 Gestionar tipos de residuo y unidades de medida",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "83c06c047df92e7b691bce65979fe2b5c1b0414343e2f4072a68f2726634eb82"
   },
   {
-    "figura": 74,
+    "figura": 79,
     "fuente": "generador/figuras/fase2/c6_cu09.png",
     "titulo": "Análisis de CU9 Registrar vaciado de residuos",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "c52d84086bccc5b5ff0a837d7fed668f51923fd640394b9557d9d954323c2279"
   },
   {
-    "figura": 75,
+    "figura": 80,
     "fuente": "generador/figuras/fase2/c6_cu10.png",
     "titulo": "Análisis de CU10 Registrar incidencia operativa",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "c027313b1ac0d38fb57a808ada174257e3596a44d94112063cabb5b30dadb0cd"
   },
   {
-    "figura": 76,
+    "figura": 81,
     "fuente": "generador/figuras/fase2/c6_cu11.png",
     "titulo": "Análisis de CU11 Atender incidencia",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "ceadefb82d6ed4ae70e9d91357c78528745197ab65593d22d984b6f5fddef795"
   },
   {
-    "figura": 77,
+    "figura": 82,
     "fuente": "generador/figuras/fase2/c6_cu12.png",
     "titulo": "Análisis de CU12 Consultar histórico de residuos",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "75aa27c31a406503afa69cff369fab6b803c8eb785cca6457fc019be3ec2d802"
   },
   {
-    "figura": 78,
+    "figura": 83,
     "fuente": "generador/figuras/fase2/c6_cu13.png",
     "titulo": "Análisis de CU13 Gestionar vehículos",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "0b6d20a56e8246a78bb2ae8025ee18286e65ef4fd7ffcbbf0b59fbb83dbdf047"
   },
   {
-    "figura": 79,
+    "figura": 84,
     "fuente": "generador/figuras/fase2/c6_cu14.png",
     "titulo": "Análisis de CU14 Planificar jornada y ruta de recolección",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "f71caa5dc5c9ac07ab41abf5b599a6f802bba815c8740cc22ccec279f884683e"
   },
   {
-    "figura": 80,
+    "figura": 85,
     "fuente": "generador/figuras/fase2/c6_cu15.png",
     "titulo": "Análisis de CU15 Asignar personal y vehículos a la jornada",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "e1b085faad96213f8d3199b3a65217ca730c971921ad9ddbf9dd80461a05079b"
   },
   {
-    "figura": 81,
+    "figura": 86,
     "fuente": "generador/figuras/fase2/c6_cu16.png",
     "titulo": "Análisis de CU16 Ejecutar jornada de recolección",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "3cd22c158bd0e3f146e53e1cf139ded918d3d9504de8e3932816a7083fb16b6b"
   },
   {
-    "figura": 82,
+    "figura": 87,
     "fuente": "generador/figuras/fase2/c6_cu17.png",
     "titulo": "Análisis de CU17 Omitir punto de la ruta",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "2e4abf0f8c270ad4e6e29cf9f2a335f273f5c0cf996e9dd6110faa4fb1631e00"
   },
   {
-    "figura": 83,
+    "figura": 88,
     "fuente": "generador/figuras/fase2/c6_cu18.png",
     "titulo": "Análisis de CU18 Cerrar jornada de recolección",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "22213293e54c7eca64e55deee398c5e7e6f6996a6717b66f28ddcb4c838b15f7"
   },
   {
-    "figura": 84,
+    "figura": 89,
     "fuente": "generador/figuras/fase2/c6_cu19.png",
     "titulo": "Análisis de CU19 Consultar historial de recolecciones",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "1f1a0f98d171a4002395574099eca69799c4ddc45469c19d5c18634399990a0d"
   },
   {
-    "figura": 85,
+    "figura": 90,
     "fuente": "generador/figuras/fase2/c6_cu20.png",
     "titulo": "Análisis de CU20 Ejecutar proceso ETL",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "da4f80095f156b0f130daa4b68ed08f9d96057d99f9fbcfd1188f226208fe0d7"
   },
   {
-    "figura": 86,
+    "figura": 91,
     "fuente": "generador/figuras/fase2/c6_cu21.png",
     "titulo": "Análisis de CU21 Visualizar tablero interactivo",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "ee5850b98aacfa9cb5c3e93a965da5abc222f61ce6557487b42a1692f31b783f"
   },
   {
-    "figura": 87,
+    "figura": 92,
     "fuente": "generador/figuras/fase2/c6_cu22.png",
     "titulo": "Análisis de CU22 Comparar periodos e identificar tendencias",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "7b43107a5ccada537829f5b7214d2c2fb85ddf13078b18b8b594a53970764110"
   },
   {
-    "figura": 88,
+    "figura": 93,
     "fuente": "generador/figuras/fase2/c6_cu23.png",
     "titulo": "Análisis de CU23 Visualizar puntos en el mapa interactivo",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "52bdd7f7c1e48f8f9bf5e0a9a7309528330a293d6e42f6e7a08ecce183c0e332"
   },
   {
-    "figura": 89,
+    "figura": 94,
     "fuente": "generador/figuras/fase2/c6_cu24.png",
     "titulo": "Análisis de CU24 Generar mapa de calor",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "2b5db35c61cfb77ed31b87b25f8fadc94e0a7be725e339e47f0abee867091a8c"
   },
   {
-    "figura": 90,
+    "figura": 95,
     "fuente": "generador/figuras/fase2/c6_cu25.png",
     "titulo": "Análisis de CU25 Filtrar mapa por periodo, sector y tipo de residuo",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "2c1876ada32c511b700c482384322044cb75b70345db35b69a83b94928b0ebf8"
   },
   {
-    "figura": 91,
+    "figura": 96,
     "fuente": "generador/figuras/fase2/c6_cu26.png",
     "titulo": "Análisis de CU26 Entrenar y evaluar el modelo Random Forest Regressor",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "05a83fec5ffbfbf8ff8e25b18f94d9a3548a31108532e0d11d89a5c560e4922b"
   },
   {
-    "figura": 92,
+    "figura": 97,
     "fuente": "generador/figuras/fase2/c6_cu27.png",
     "titulo": "Análisis de CU27 Publicar o revertir versión del modelo",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "4c9e4240cd73b6a0291de04835896d64e814d9c80fc012cfa0bc8622affe8bce"
   },
   {
-    "figura": 93,
+    "figura": 98,
     "fuente": "generador/figuras/fase2/c6_cu28.png",
     "titulo": "Análisis de CU28 Predecir generación futura y emitir alertas",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "d49b351b428f27914dce61a86e81fc777c045a27c671b184d059614b66070c82"
   },
   {
-    "figura": 94,
+    "figura": 99,
     "fuente": "generador/figuras/fase2/c6_cu29.png",
     "titulo": "Análisis de CU29 Consultar alertas y recomendaciones logísticas",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "ab388cb616857348e224a7e003e8f53a4e32929445f44d40df72722a0ac497d9"
   },
   {
-    "figura": 95,
+    "figura": 100,
     "fuente": "generador/figuras/fase2/c6_cu30.png",
     "titulo": "Análisis de CU30 Atender recomendación logística",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "2efeae0a3ed6717ceb7ad951debca77efe869b5f6a7f7251fb8f034708679e17"
   },
   {
-    "figura": 96,
+    "figura": 101,
     "fuente": "generador/figuras/fase2/c6_cu31.png",
     "titulo": "Análisis de CU31 Configurar periodos académicos y parámetros",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "008d8279b68f82740c2be5ffc926199b1593f19fb6c7c33e8c134652a789cd55"
   },
   {
-    "figura": 97,
+    "figura": 102,
     "fuente": "generador/figuras/fase2/c6_cu32.png",
     "titulo": "Análisis de CU32 Consultar bitácora de auditoría",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "ebfb078c9eb4dfe5563d9bea800a88a668f9ae790f8e4c21196c7a77747035c1"
   },
   {
-    "figura": 98,
+    "figura": 103,
     "fuente": "generador/figuras/fase2/c6_cu33.png",
     "titulo": "Análisis de CU33 Generar reporte",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "6197b247317e93385a0f903b347d40296f59dde21465b8041f384144afdd078e"
   },
   {
-    "figura": 99,
+    "figura": 104,
     "fuente": "generador/figuras/fase2/c6_cu34.png",
     "titulo": "Análisis de CU34 Exportar reporte a Excel o PDF",
-    "grupo": "3.10. Realización de los casos de uso en el análisis",
+    "grupo": "3.11. Realización de los casos de uso en el análisis",
     "formato": "a3",
     "sha256": "783e2032d844236876378d8f0aca0fe1132123b22a5ecb0526864715191b4bba"
   },
   {
-    "figura": 100,
+    "figura": 105,
     "fuente": "generador/figuras/fase2/c7_logico.png",
     "titulo": "Diseño lógico por capas",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "3acf892e709f2c3296e565ab9ea7bc0c37d0b71e7cb4793811bc16b66a55d441"
   },
   {
-    "figura": 101,
+    "figura": 106,
     "fuente": "generador/figuras/fase2/c7_clases_general.png",
     "titulo": "Clases de diseño y relaciones generales",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "fa39e1799d37dc5a769b71ecf1bd9567e03891e1022fb330ba76d1d7c2e8d81a"
   },
   {
-    "figura": 102,
+    "figura": 107,
     "fuente": "generador/figuras/fase2/c7_clases_seguridad.png",
     "titulo": "Clases de seguridad y auditoría",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "7f678827b816ae832bdb50e97c61cff7a0d45396f2a5653bc49e6e1d062b37fd"
   },
   {
-    "figura": 103,
+    "figura": 108,
     "fuente": "generador/figuras/fase2/c7_clases_campus.png",
     "titulo": "Clases de campus y catálogos",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "46694a840035664f98c9ce96303619d3bf3d89bbe00f9d5e66723f21d363d060"
   },
   {
-    "figura": 104,
+    "figura": 109,
     "fuente": "generador/figuras/fase2/c7_clases_operacion.png",
     "titulo": "Clases de operación de recolección",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "b0ca4db4de6ce2470554a95fa9bfafa8d51edd8e29738e3dee076df7453f1929"
   },
   {
-    "figura": 105,
+    "figura": 110,
     "fuente": "generador/figuras/fase2/c7_clases_analitica.png",
     "titulo": "Clases de analítica y administración",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "22505f25c17bf0e3e1b04c85fd2432a81e01e265f012c3d246f44da857906d6d"
   },
   {
-    "figura": 106,
+    "figura": 111,
     "fuente": "generador/figuras/fase2/c7_clases_prediccion.png",
     "titulo": "Clases de predicción",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "45ab6e3625d8d434bfd749705058a3ec9e182cde6ad1efa1f6332473577a4a2e"
   },
   {
-    "figura": 107,
+    "figura": 112,
     "fuente": "generador/figuras/fase2/c7_clases_control_admin.png",
     "titulo": "Controladores de seguridad, campus y administración",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "693d450bc17d8a5dd471c1fedc3038258e0d3d17c3e788c2a0e254059b4f48fc"
   },
   {
-    "figura": 108,
+    "figura": 113,
     "fuente": "generador/figuras/fase2/c7_clases_control_operacion.png",
     "titulo": "Controladores de operación",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "931f614e3a36d718c31770e8561ee6db70ec5aae2627f3683c1316496195ed6b"
   },
   {
-    "figura": 109,
+    "figura": 114,
     "fuente": "generador/figuras/fase2/c7_clases_control_analitica.png",
     "titulo": "Controladores de analítica y predicción",
-    "grupo": "3.11. Arquitectura lógica y clases de diseño",
+    "grupo": "3.12. Arquitectura lógica y clases de diseño",
     "formato": "a3",
     "sha256": "92a4a8496967bda9aa3f39bcf559f33b92a1fe23df255d4d5d1e93b7ec32d9e1"
   },
   {
-    "figura": 110,
+    "figura": 115,
     "fuente": "generador/figuras/fase2/c7_bd_general.png",
     "titulo": "Esquema lógico general de datos",
-    "grupo": "3.12. Diseño lógico de la base de datos",
+    "grupo": "3.13. Diseño lógico de la base de datos",
     "formato": "a3",
     "sha256": "ab52c5e724e18cf86377e9dd8c177641c1ecce3495fb00b1a5dc056cfd06d23e"
   },
   {
-    "figura": 111,
+    "figura": 116,
     "fuente": "generador/figuras/fase2/c7_bd_seguridad.png",
     "titulo": "Esquema de datos de seguridad y auditoría",
-    "grupo": "3.12. Diseño lógico de la base de datos",
+    "grupo": "3.13. Diseño lógico de la base de datos",
     "formato": "a3",
     "sha256": "775b0cf029cc245a3ab0d9cc076ac86e8f43404bd007f4dd7afb25f682d618cb"
   },
   {
-    "figura": 112,
+    "figura": 117,
     "fuente": "generador/figuras/fase2/c7_bd_campus.png",
     "titulo": "Esquema de datos de campus y catálogos",
-    "grupo": "3.12. Diseño lógico de la base de datos",
+    "grupo": "3.13. Diseño lógico de la base de datos",
     "formato": "a3",
     "sha256": "06444e64d3d3058c3e7e0ca343977562caef98580a49b0b570fb383178d415f1"
   },
   {
-    "figura": 113,
+    "figura": 118,
     "fuente": "generador/figuras/fase2/c7_bd_operacion.png",
     "titulo": "Esquema de datos de operación de recolección",
-    "grupo": "3.12. Diseño lógico de la base de datos",
+    "grupo": "3.13. Diseño lógico de la base de datos",
     "formato": "a3",
     "sha256": "1145bfc14ad85b3ab4860b805177ea0742ab53977aef35e6faca920c9038d23b"
   },
   {
-    "figura": 114,
+    "figura": 119,
     "fuente": "generador/figuras/fase2/c7_bd_analitica.png",
     "titulo": "Esquema de datos de analítica y administración",
-    "grupo": "3.12. Diseño lógico de la base de datos",
+    "grupo": "3.13. Diseño lógico de la base de datos",
     "formato": "a3",
     "sha256": "87ad30a7d00efc522a6ec8b998ad8a877a39213537bb6630f4a189fc284cfbfc"
   },
   {
-    "figura": 115,
+    "figura": 120,
     "fuente": "generador/figuras/fase2/c7_bd_prediccion.png",
     "titulo": "Esquema de datos de predicción",
-    "grupo": "3.12. Diseño lógico de la base de datos",
+    "grupo": "3.13. Diseño lógico de la base de datos",
     "formato": "a3",
     "sha256": "36efe8d00ad22f75527c0d0d51b8bf1441ca9deb0a3948f3a550d140ee81ba5c"
   },
   {
-    "figura": 116,
+    "figura": 121,
     "fuente": "generador/figuras/fase2/c7_seq_cu01.png",
     "titulo": "Secuencia de CU1 Iniciar sesión",
-    "grupo": "3.13. Interacciones de diseño mediante secuencias",
+    "grupo": "3.14. Interacciones de diseño mediante secuencias",
     "formato": "a3",
     "sha256": "bdc61cb8e7719b202fb1214ae492139102980f255b998591b2f9a15c71576957"
   },
   {
-    "figura": 117,
+    "figura": 122,
     "fuente": "generador/figuras/fase2/c7_seq_cu09.png",
     "titulo": "Secuencia de CU9 Registrar vaciado de residuos",
-    "grupo": "3.13. Interacciones de diseño mediante secuencias",
+    "grupo": "3.14. Interacciones de diseño mediante secuencias",
     "formato": "a3",
     "sha256": "de8f1e4f7b10148e417f161e95060ced493cccd05a100f3d05c53e8c2430b36c"
   },
   {
-    "figura": 118,
+    "figura": 123,
     "fuente": "generador/figuras/fase2/c7_seq_cu14.png",
     "titulo": "Secuencia de CU14 Planificar jornada y ruta de recolección",
-    "grupo": "3.13. Interacciones de diseño mediante secuencias",
+    "grupo": "3.14. Interacciones de diseño mediante secuencias",
     "formato": "a3",
     "sha256": "f8b586552253587d3f73b870c92f552eb96705c107c19b5df523019666374e2d"
   },
   {
-    "figura": 119,
+    "figura": 124,
     "fuente": "generador/figuras/fase2/c7_seq_cu18.png",
     "titulo": "Secuencia de CU18 Cerrar jornada de recolección",
-    "grupo": "3.13. Interacciones de diseño mediante secuencias",
+    "grupo": "3.14. Interacciones de diseño mediante secuencias",
     "formato": "a3",
     "sha256": "838b0ff1677c5bb72c29d67da50366a2ed2574951a44532c2e3abe7b113f2317"
   },
   {
-    "figura": 120,
+    "figura": 125,
     "fuente": "generador/figuras/fase2/c7_seq_cu20.png",
     "titulo": "Secuencia de CU20 Ejecutar proceso ETL",
-    "grupo": "3.13. Interacciones de diseño mediante secuencias",
+    "grupo": "3.14. Interacciones de diseño mediante secuencias",
     "formato": "a3",
     "sha256": "4cc1545320d3ce48dccfd8ae5d40c4eb62ee2b0c10798473bc8b0b0645ef2278"
   },
   {
-    "figura": 121,
+    "figura": 126,
     "fuente": "generador/figuras/fase2/c7_seq_cu26.png",
     "titulo": "Secuencia de CU26 Entrenar y evaluar el modelo Random Forest Regressor",
-    "grupo": "3.13. Interacciones de diseño mediante secuencias",
+    "grupo": "3.14. Interacciones de diseño mediante secuencias",
     "formato": "a3",
     "sha256": "c36caf53d517593ea74d83b10408c8533f17011290cecf327fa6a29c57835405"
   },
   {
-    "figura": 122,
+    "figura": 127,
     "fuente": "generador/figuras/fase2/c7_seq_cu28.png",
     "titulo": "Secuencia de CU28 Predecir generación futura y emitir alertas",
-    "grupo": "3.13. Interacciones de diseño mediante secuencias",
+    "grupo": "3.14. Interacciones de diseño mediante secuencias",
     "formato": "a3",
     "sha256": "8020850413434bfd067355e597c63b3334f343844fe008acdc8b6eb8525d50cc"
   },
   {
-    "figura": 123,
+    "figura": 128,
     "fuente": "generador/figuras/fase2/c7_seq_cu30.png",
     "titulo": "Secuencia de CU30 Atender recomendación logística",
-    "grupo": "3.13. Interacciones de diseño mediante secuencias",
+    "grupo": "3.14. Interacciones de diseño mediante secuencias",
     "formato": "a3",
     "sha256": "f28fdc57e346c630def6d57144e45b6e8a363d416cdd47a5dc5ec8ed27079c39"
   },
   {
-    "figura": 124,
+    "figura": 129,
     "fuente": "generador/figuras/fase_final/c8_sub1.png",
     "titulo": "Componentes de Gestión de Usuarios y Control de Acceso",
-    "grupo": "3.14. Componentes de los subsistemas",
+    "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
     "sha256": "29e36387d385add58bf50fe4fc459ad0ad66a6415ac9aaa67ac5fb2881d382e3"
   },
   {
-    "figura": 125,
+    "figura": 130,
     "fuente": "generador/figuras/fase_final/c8_sub2.png",
     "titulo": "Componentes de Gestión Topológica y Puntos de Recolección",
-    "grupo": "3.14. Componentes de los subsistemas",
+    "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
     "sha256": "d5e18d2d9f0aa38a1d27eb9d7606f2d6ae50aba8020b496b29746dc1f60825cb"
   },
   {
-    "figura": 126,
+    "figura": 131,
     "fuente": "generador/figuras/fase_final/c8_sub3.png",
     "titulo": "Componentes de Gestión de Residuos",
-    "grupo": "3.14. Componentes de los subsistemas",
+    "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
     "sha256": "71c0b912b7c800ba6327c09d4ed4f06a81b03541c8a3035a2ba20d83dd935103"
   },
   {
-    "figura": 127,
+    "figura": 132,
     "fuente": "generador/figuras/fase_final/c8_sub4.png",
     "titulo": "Componentes de Gestión de Recolecciones y Logística",
-    "grupo": "3.14. Componentes de los subsistemas",
+    "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
     "sha256": "452af74ae1d275b16fe50395dae3c8ca8658f91454fef68fda840ad58edc3b4f"
   },
   {
-    "figura": 128,
+    "figura": 133,
     "fuente": "generador/figuras/fase_final/c8_sub5.png",
     "titulo": "Componentes de Inteligencia de Negocios y Analítica Visual",
-    "grupo": "3.14. Componentes de los subsistemas",
+    "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
     "sha256": "31a6ce762a132d251cd4a2e408b7856a1dd435d11216942584f99e18746593ef"
   },
   {
-    "figura": 129,
+    "figura": 134,
     "fuente": "generador/figuras/fase_final/c8_sub6.png",
     "titulo": "Componentes de Componente Cartográfico y Análisis Espacial",
-    "grupo": "3.14. Componentes de los subsistemas",
+    "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
     "sha256": "9ab9de5c419b4f751d9203a8dbd6a6b4264b83d6004a3f817bfc68ecc0a56f07"
   },
   {
-    "figura": 130,
+    "figura": 135,
     "fuente": "generador/figuras/fase_final/c8_sub7.png",
     "titulo": "Componentes de Predicción mediante Random Forest Regressor",
-    "grupo": "3.14. Componentes de los subsistemas",
+    "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
     "sha256": "fa098f72dcb3819ac80d84cad67823a796ac7d2ee74d55ef4d4ff7e33a03b1b2"
   },
   {
-    "figura": 131,
+    "figura": 136,
     "fuente": "generador/figuras/fase_final/c8_sub8.png",
     "titulo": "Componentes de Administración de la Plataforma y Auditoría",
-    "grupo": "3.14. Componentes de los subsistemas",
+    "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
     "sha256": "b77fac2c514c4a1fec7360a2b06a7865b30e9232a5dbe545dc61670067deb1bf"
   },
   {
-    "figura": 132,
+    "figura": 137,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\docker.png",
+    "sha256": "7b3e9e083ec07b9b730e608ea59bbf15fc4b04428e95d7239e5f383d3a9385c3"
+  },
+  {
+    "figura": 138,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\powerbi.png",
+    "sha256": "869ad2405f9b0388670d886fa979d37bdcac42f7e0359fa434e410ce30e5d363"
+  },
+  {
+    "figura": 139,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\zap.png",
+    "sha256": "2ca03a36f7549dc8660268cf729de26dbc053b66ec02ce9183fa8652781d651c"
+  },
+  {
+    "figura": 140,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\seprec_srl.png",
+    "sha256": "e6f5408460e66d842ed36b66950f8428ed16927b0301859b6dead23dfb19438d"
+  },
+  {
+    "figura": 141,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\sin.png",
+    "sha256": "fda0b745443c7444b8590d1f942dc57a07d387537a248fda02c8ed816275cfe1"
+  },
+  {
+    "figura": 142,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\senapi_busqueda.png",
+    "sha256": "b0c750fc8a6ea21e1d243502a00a72908135d2e10093543e3ee8485a636a0c44"
+  },
+  {
+    "figura": 143,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\senapi_flujo_marca.png",
+    "sha256": "edc61f9de078ef2d682c5b8a10b9b2cf7852804fc6f7c6cb58974e885bd19e18"
+  },
+  {
+    "figura": 144,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\senapi_virtual.png",
+    "sha256": "7bdb71a9dcafc1af8c62399876269f752742b0b904bf4dfbdffb15628308f347"
+  },
+  {
+    "figura": 145,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\senapi_flujo_autor.png",
+    "sha256": "d853f2d8e13245a0fe8cb417ccbc96bb7f99ba02e5308d5a0ece0bc27229360e"
+  },
+  {
+    "figura": 146,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\senapi_tasas.png",
+    "sha256": "df736b828c2c2680fc4c29dcb1b8d5864d0d6d0393ffc160a642e304fdc51719"
+  },
+  {
+    "figura": 147,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\github.png",
+    "sha256": "ebbd538c5acee9a788baf3f2897f8b5103b40bcbe39c6d8cc05017308efcba45"
+  },
+  {
+    "figura": 148,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\neon.png",
+    "sha256": "b083501701b824eb912f1f62d5fd8513998f3e03fd2a7ef284102552e7c6f5b6"
+  },
+  {
+    "figura": 149,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\vercel.png",
+    "sha256": "8117a0f67f21cee9831b0a5eb4173af244e88bb4303bda997632b38554bb5180"
+  },
+  {
+    "figura": 150,
+    "fuente": "docs\\auditoria-fase-final\\ui\\login-anon-1440.png",
+    "sha256": "52832733f7f8f2d6204ccc52d8dcb5b66ad63e432742477ad1de3b596f8c2de0"
+  },
+  {
+    "figura": 151,
+    "fuente": "docs\\auditoria-fase-final\\ui\\login-anon-390.png",
+    "sha256": "82e60e95bc7091bca1d07bcdd1485e33cd9dc9721c4cec6ceabb1638478e8a74"
+  },
+  {
+    "figura": 152,
+    "fuente": "docs\\auditoria-fase-final\\ui\\tablero-super_ui-390.png",
+    "sha256": "04c06b215e58a4a30036d10acf0e65ca554eaea6d0ca54b3edebad9749e5afdb"
+  },
+  {
+    "figura": 153,
+    "fuente": "docs\\auditoria-fase-final\\ui\\puntos-super_ui-1440.png",
+    "sha256": "5eed5cce6d5ab359435da2d32defc38722e0331f915138d9f4c9dbf331bbbb33"
+  },
+  {
+    "figura": 154,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\mercado_pf.png",
+    "sha256": "269cf7f776419b60c26ff3218b240828ea2d579902496b0d141cc3c06e6f45b3"
+  },
+  {
+    "figura": 155,
     "fuente": "generador/figuras/fase_final/c9_asignar.png",
     "titulo": "Grafo de control de asignación de recursos",
     "grupo": "Grafos del análisis estructural",
@@ -1053,7 +1168,7 @@
     "sha256": "f651e066935c9b3a4fd85cbb3f4a517b2d611e95b4b28edc2ffd3e92e1b2fc94"
   },
   {
-    "figura": 133,
+    "figura": 156,
     "fuente": "generador/figuras/fase_final/c9_generar.png",
     "titulo": "Grafo de control de generación predictiva",
     "grupo": "Grafos del análisis estructural",
@@ -1061,13 +1176,138 @@
     "sha256": "c4dc3865fd517cbec3a2771f83b7150df68639a5ce16b6f1efa5bd0df909c0db"
   },
   {
-    "figura": 134,
+    "figura": 157,
     "fuente": "docs\\auditoria-fase-final\\ui\\tablero-super_ui-1440.png",
     "sha256": "4c46ec814c075eca7923c2a7d383c6ee87b83eb3904894861aa56bd3f48374f0"
   },
   {
-    "figura": 135,
+    "figura": 158,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\afiche_campana.png",
+    "sha256": "2e0a8fee14ef65c31e91db7d375c6ceeb3753b717ad3108c195a8e1f5dfad573"
+  },
+  {
+    "figura": 159,
     "fuente": "generador\\figuras\\fase_final\\c7_despliegue.png",
     "sha256": "f46918e948e67ed75c63988f5b500a45be3366fe83cdcde1c3d705333f12383d"
+  },
+  {
+    "figura": 160,
+    "fuente": "docs\\auditoria-fase-final\\ui\\login-anon-1440.png",
+    "sha256": "52832733f7f8f2d6204ccc52d8dcb5b66ad63e432742477ad1de3b596f8c2de0"
+  },
+  {
+    "figura": 161,
+    "fuente": "docs\\auditoria-fase-final\\ui\\campo-oper_ui-390.png",
+    "sha256": "ed84dd4bca4053b76d43d1c4a3d6f9c72d5aac784ce68a3ed1653486d42dbffd"
+  },
+  {
+    "figura": 162,
+    "fuente": "docs\\auditoria-fase-final\\ui\\campo-oper_ui-390-error.png",
+    "sha256": "ed84dd4bca4053b76d43d1c4a3d6f9c72d5aac784ce68a3ed1653486d42dbffd"
+  },
+  {
+    "figura": 163,
+    "fuente": "docs\\auditoria-fase-final\\ui\\historico-oper_ui-1440.png",
+    "sha256": "3b34b5a2e4c8662f1771b80146c1b9945569c4fb3c5934ea0fb582e24fd055cd"
+  },
+  {
+    "figura": 164,
+    "fuente": "docs\\auditoria-fase-final\\ui\\jornadas-super_ui-1440.png",
+    "sha256": "5687f3d0cc186911406cb3d91c484889b2913343413e0452cc2a605c8a1fc3b3"
+  },
+  {
+    "figura": 165,
+    "fuente": "docs\\auditoria-fase-final\\ui\\jornadas-nueva-super_ui-1440.png",
+    "sha256": "7a0a5cfeffb578aa01eca27ade8feb08a15767c05637ca00482a7260000974fb"
+  },
+  {
+    "figura": 166,
+    "fuente": "docs\\auditoria-fase-final\\ui\\jornadas-107-super_ui-1440.png",
+    "sha256": "ae738dfbe15063782de36ad6ed6b363ed9fa52abf00122a4ee5d3a145cc55e48"
+  },
+  {
+    "figura": 167,
+    "fuente": "docs\\auditoria-fase-final\\ui\\incidencias-super_ui-1440.png",
+    "sha256": "03ed692717d8d54be6be36b79a1c8a97a577ab758a23e6cd2f28ac244cecf032"
+  },
+  {
+    "figura": 168,
+    "fuente": "docs\\auditoria-fase-final\\ui\\recomendaciones-super_ui-1440.png",
+    "sha256": "f06dd9cb8cf6a5890fbdbe898dcf7108bf0f1d3153420dcb596ea484e23d696b"
+  },
+  {
+    "figura": 169,
+    "fuente": "docs\\auditoria-fase-final\\ui\\tablero-dir_ui-1440.png",
+    "sha256": "ee0e9c212633806832e4df365c26020e6fcea1db8bb14f132ff15c862295f585"
+  },
+  {
+    "figura": 170,
+    "fuente": "docs\\auditoria-fase-final\\ui\\mapa-super_ui-1440.png",
+    "sha256": "0b24019ae284a0e9082e0f5bdeaf1d5ac5a6b30d3c1814ce6fa24a05429ffbce"
+  },
+  {
+    "figura": 171,
+    "fuente": "docs\\auditoria-fase-final\\ui\\predicciones-super_ui-1440.png",
+    "sha256": "b87aaddbc9cced9b293dd039b20545b81c2bdf472a7557abf72e608c1f8f2bbd"
+  },
+  {
+    "figura": 172,
+    "fuente": "docs\\auditoria-fase-final\\ui\\reportes-super_ui-1440.png",
+    "sha256": "0e94e56a438d9979a92d90b74907df8812446e8700a8307873a2a40e6703ba64"
+  },
+  {
+    "figura": 173,
+    "fuente": "docs\\auditoria-fase-final\\ui\\usuarios-admin_ui-1440.png",
+    "sha256": "9b4472220a99cf8672fc9161b516453724135d235917d56f5385a131a7e27779"
+  },
+  {
+    "figura": 174,
+    "fuente": "docs\\auditoria-fase-final\\ui\\roles-admin_ui-1440.png",
+    "sha256": "dec2c6d19b1d01eb8145aa409231d62ee439ec022304947c02f28bd7ab81392d"
+  },
+  {
+    "figura": 175,
+    "fuente": "docs\\auditoria-fase-final\\ui\\parametros-admin_ui-1440.png",
+    "sha256": "f8b0f64cab247435a9b50025cc97b4fc7e7546711b1ff69ea3c7ef50a582ec7c"
+  },
+  {
+    "figura": 176,
+    "fuente": "docs\\auditoria-fase-final\\ui\\procesos-admin_ui-1440.png",
+    "sha256": "65f0a039a93659917f4507ed27a4c994b9986e915baa41852dd78cdc914f4e1f"
+  },
+  {
+    "figura": 177,
+    "fuente": "docs\\auditoria-fase-final\\ui\\modelo-admin_ui-1440.png",
+    "sha256": "e4c4f7a146690ec158a21df18737e0405a183274125283ee8d600c9a40f8120d"
+  },
+  {
+    "figura": 178,
+    "fuente": "docs\\auditoria-fase-final\\ui\\bitacora-admin_ui-1440.png",
+    "sha256": "7c3ba8b06e3a6b74d9e582caca6f66b2e642f7b34d29f605e43c17035200bdb1"
+  },
+  {
+    "figura": 179,
+    "fuente": "DocumentoSoftware2\\recursos\\qr_drive.png",
+    "sha256": "306462f464c61e2a3ae586f48312499fb98344f36a5e52a7a21691cca9a8a8c7"
+  },
+  {
+    "figura": 180,
+    "fuente": "DocumentoSoftware2\\recursos\\qr_repositorio.png",
+    "sha256": "7f3acd69495f311f6b2815d3123e297fcff26f850673b56ab0f868401bca4c4e"
+  },
+  {
+    "figura": 181,
+    "fuente": "DocumentoSoftware2\\recursos\\qr_drive.png",
+    "sha256": "306462f464c61e2a3ae586f48312499fb98344f36a5e52a7a21691cca9a8a8c7"
+  },
+  {
+    "figura": 182,
+    "fuente": "DocumentoSoftware2\\recursos\\caratula_firmada.jpg",
+    "sha256": "8c9e3fb0991d939ea9aab209fff55825d7e8dca890d488d2c4c26beff5f59e5c"
+  },
+  {
+    "figura": 183,
+    "fuente": "DocumentoSoftware2\\recursos\\carta_dsu.jpg",
+    "sha256": "26cdb127c3ab0593bbfe2fd8f94b79e4c919973cfd4eec2b97abeec3567f65b4"
   }
 ]
