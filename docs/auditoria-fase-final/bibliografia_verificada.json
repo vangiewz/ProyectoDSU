@@ -1,0 +1,19 @@
+{
+  "obra": "El proceso unificado de desarrollo de software",
+  "autores": [
+    "Ivar Jacobson",
+    "Grady Booch",
+    "James Rumbaugh"
+  ],
+  "isbn": "84-7829-036-2",
+  "edicion_espanola": 2000,
+  "original_ingles": 1999,
+  "editorial": "Pearson Educación; sello Addison Wesley",
+  "fuente_primaria": "Página legal del ejemplar, página 4 del PDF de consulta",
+  "url_ejemplar": "https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Uml/El%20Proceso%20Unificado%20de%20Desarrollo%20de%20Software%20-%20Jacobson%20-%20Booch%20-%20Rumbaugh.pdf",
+  "corroboracion": "https://books.google.com/books?id=zHKbQgAACAAJ",
+  "evidencia": "jacobson_identificacion_edicion.pdf",
+  "sha256": "cef18ae26e670fd9ee216cd7f2caa906db3422232cc1e23cc1fca40fe3ac5071",
+  "decision": "Unificar año y editorial de la edición española ya citada; no sustituir por la obra inglesa de 1999.",
+  "fecha": "2026-11-16"
+}

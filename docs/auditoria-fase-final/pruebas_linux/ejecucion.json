@@ -1,0 +1,8 @@
+{
+  "inicio_utc": "2026-11-16T07:41:52.859050+00:00",
+  "fin_utc": "2026-11-16T07:42:41.595686+00:00",
+  "imagen": "sha256:66017c10b499d24b6f97f3324a9ccc8b4a267ee6766a36ba2803a0723f55709f",
+  "exit_code": 0,
+  "entorno": "Linux Docker / PostgreSQL 18 aislado; sin Neon",
+  "objetivo": "Regresión sobre dependencias resueltas del contenedor; no acredita despliegue AWS"
+}

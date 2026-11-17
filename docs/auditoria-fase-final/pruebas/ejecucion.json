@@ -1,0 +1,9 @@
+{
+  "inicio_utc": "2026-11-16T07:43:32.859311+00:00",
+  "fin_utc": "2026-11-16T07:45:14.168910+00:00",
+  "entorno": "Windows / PostgreSQL 18 Docker aislado en loopback",
+  "datos": "Fixtures sintéticas de prueba; ninguna escritura en Neon",
+  "exit_code": 0,
+  "comando": "python -m pytest --junitxml <evidencia> -q",
+  "objetivo": "Regresión de API y servicios; no certifica rendimiento productivo"
+}

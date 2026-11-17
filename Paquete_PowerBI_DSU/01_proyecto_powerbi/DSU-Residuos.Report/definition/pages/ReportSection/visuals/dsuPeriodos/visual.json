@@ -1,0 +1,95 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "dsuPeriodos",
+  "position": {
+    "x": 650,
+    "y": 420,
+    "z": 0,
+    "height": 290,
+    "width": 620
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bi_puntos"
+                    }
+                  },
+                  "Property": "sector"
+                }
+              },
+              "queryRef": "bi_puntos.sector",
+              "nativeQueryRef": "sector",
+              "active": true
+            }
+          ]
+        },
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bi_hechos_residuos"
+                    }
+                  },
+                  "Property": "periodo_academico"
+                }
+              },
+              "queryRef": "bi_hechos_residuos.periodo_academico",
+              "nativeQueryRef": "periodo_academico",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bi_hechos_residuos"
+                    }
+                  },
+                  "Property": "Total kg"
+                }
+              },
+              "queryRef": "bi_hechos_residuos.Total kg"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Comparación entre periodos académicos (kg)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

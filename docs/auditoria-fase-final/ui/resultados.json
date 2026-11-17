@@ -1,0 +1,707 @@
+{
+  "fecha": "2026-11-16",
+  "navegador": "157.0.8103.51",
+  "entorno": "HTTP de QA, CSP de vercel.json y PostgreSQL 18 desechable",
+  "datos": "Fixtures sintéticas; sin conexión a Neon",
+  "pantallas": [
+    {
+      "usuario": "anon",
+      "ruta": "/",
+      "ancho": 1440,
+      "captura": "login-anon-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "oper_ui",
+      "ruta": "/campo",
+      "ancho": 1440,
+      "captura": "campo-oper_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "oper_ui",
+      "ruta": "/historico",
+      "ancho": 1440,
+      "captura": "historico-oper_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/jornadas",
+      "ancho": 1440,
+      "captura": "jornadas-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/jornadas/nueva",
+      "ancho": 1440,
+      "captura": "jornadas-nueva-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/jornadas/107",
+      "ancho": 1440,
+      "captura": "jornadas-107-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/incidencias",
+      "ancho": 1440,
+      "captura": "incidencias-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/sectores",
+      "ancho": 1440,
+      "captura": "sectores-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/puntos",
+      "ancho": 1440,
+      "captura": "puntos-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/contenedores",
+      "ancho": 1440,
+      "captura": "contenedores-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/vehiculos",
+      "ancho": 1440,
+      "captura": "vehiculos-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/tablero",
+      "ancho": 1440,
+      "captura": "tablero-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/mapa",
+      "ancho": 1440,
+      "captura": "mapa-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [
+        {
+          "url": "https://c.tile.openstreetmap.org/17/42527/72114.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://b.tile.openstreetmap.org/17/42527/72113.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://b.tile.openstreetmap.org/17/42526/72114.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://a.tile.openstreetmap.org/17/42528/72114.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://a.tile.openstreetmap.org/17/42527/72115.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://a.tile.openstreetmap.org/17/42526/72113.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://c.tile.openstreetmap.org/17/42528/72113.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://c.tile.openstreetmap.org/17/42526/72115.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://b.tile.openstreetmap.org/17/42528/72115.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://a.tile.openstreetmap.org/17/42525/72114.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://b.tile.openstreetmap.org/17/42529/72114.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://c.tile.openstreetmap.org/17/42525/72113.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://a.tile.openstreetmap.org/17/42529/72113.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://b.tile.openstreetmap.org/17/42525/72115.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://c.tile.openstreetmap.org/17/42529/72115.png",
+          "motivo": "net::ERR_ABORTED"
+        }
+      ],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/predicciones",
+      "ancho": 1440,
+      "captura": "predicciones-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/recomendaciones",
+      "ancho": 1440,
+      "captura": "recomendaciones-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/reportes",
+      "ancho": 1440,
+      "captura": "reportes-super_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/usuarios",
+      "ancho": 1440,
+      "captura": "usuarios-admin_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/roles",
+      "ancho": 1440,
+      "captura": "roles-admin_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/bitacora",
+      "ancho": 1440,
+      "captura": "bitacora-admin_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/tipos-residuo",
+      "ancho": 1440,
+      "captura": "tipos-residuo-admin_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/parametros",
+      "ancho": 1440,
+      "captura": "parametros-admin_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/procesos",
+      "ancho": 1440,
+      "captura": "procesos-admin_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/modelo",
+      "ancho": 1440,
+      "captura": "modelo-admin_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "dir_ui",
+      "ruta": "/tablero",
+      "ancho": 1440,
+      "captura": "tablero-dir_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "dir_ui",
+      "ruta": "/usuarios",
+      "ancho": 1440,
+      "captura": "usuarios-dir_ui-1440.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": true,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "anon",
+      "ruta": "/",
+      "ancho": 390,
+      "captura": "login-anon-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "oper_ui",
+      "ruta": "/campo",
+      "ancho": 390,
+      "captura": "campo-oper_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "oper_ui",
+      "ruta": "/historico",
+      "ancho": 390,
+      "captura": "historico-oper_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/jornadas",
+      "ancho": 390,
+      "captura": "jornadas-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/jornadas/nueva",
+      "ancho": 390,
+      "captura": "jornadas-nueva-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/jornadas/107",
+      "ancho": 390,
+      "captura": "jornadas-107-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/incidencias",
+      "ancho": 390,
+      "captura": "incidencias-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/sectores",
+      "ancho": 390,
+      "captura": "sectores-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/puntos",
+      "ancho": 390,
+      "captura": "puntos-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/contenedores",
+      "ancho": 390,
+      "captura": "contenedores-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/vehiculos",
+      "ancho": 390,
+      "captura": "vehiculos-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/tablero",
+      "ancho": 390,
+      "captura": "tablero-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/mapa",
+      "ancho": 390,
+      "captura": "mapa-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [
+        {
+          "url": "https://c.tile.openstreetmap.org/17/42527/72114.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://b.tile.openstreetmap.org/17/42527/72113.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://b.tile.openstreetmap.org/17/42526/72114.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://a.tile.openstreetmap.org/17/42528/72114.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://a.tile.openstreetmap.org/17/42527/72115.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://a.tile.openstreetmap.org/17/42526/72113.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://c.tile.openstreetmap.org/17/42528/72113.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://c.tile.openstreetmap.org/17/42526/72115.png",
+          "motivo": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://b.tile.openstreetmap.org/17/42528/72115.png",
+          "motivo": "net::ERR_ABORTED"
+        }
+      ],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/predicciones",
+      "ancho": 390,
+      "captura": "predicciones-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/recomendaciones",
+      "ancho": 390,
+      "captura": "recomendaciones-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "super_ui",
+      "ruta": "/reportes",
+      "ancho": 390,
+      "captura": "reportes-super_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/usuarios",
+      "ancho": 390,
+      "captura": "usuarios-admin_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/roles",
+      "ancho": 390,
+      "captura": "roles-admin_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/bitacora",
+      "ancho": 390,
+      "captura": "bitacora-admin_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/tipos-residuo",
+      "ancho": 390,
+      "captura": "tipos-residuo-admin_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/parametros",
+      "ancho": 390,
+      "captura": "parametros-admin_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/procesos",
+      "ancho": 390,
+      "captura": "procesos-admin_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "admin_ui",
+      "ruta": "/modelo",
+      "ancho": 390,
+      "captura": "modelo-admin_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "dir_ui",
+      "ruta": "/tablero",
+      "ancho": 390,
+      "captura": "tablero-dir_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": false,
+      "estado": "Capturada"
+    },
+    {
+      "usuario": "dir_ui",
+      "ruta": "/usuarios",
+      "ancho": 390,
+      "captura": "usuarios-dir_ui-390.png",
+      "desbordamiento": false,
+      "errores_js": [],
+      "peticiones_fallidas": [],
+      "violaciones_csp": [],
+      "sin_acceso": true,
+      "estado": "Capturada"
+    }
+  ],
+  "limites": "Lectura de pantallas y comprobación de carga, JS, CSP y desbordes. No sustituye la inspección visual ni demuestra despliegue remoto o aceptación DSU."
+}

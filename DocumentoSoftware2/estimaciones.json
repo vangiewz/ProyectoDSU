@@ -1,0 +1,23 @@
+{
+  "naturaleza": "Estimación inicial propuesta del esfuerzo pendiente; no son horas ejecutadas ni compromisos aprobados",
+  "unidad": "horas persona",
+  "metodo": "E = (optimista + 4 * probable + pesimista) / 6",
+  "actividades": [
+    ["E01", "Revisar PAPS y organización", 4, 6, 10],
+    ["E02", "Profundizar comparación y medición funcional", 6, 10, 16],
+    ["E03", "Revisar SQAP y preparar registros", 4, 8, 12],
+    ["E04", "Completar trazabilidad RF CU diseño prueba", 6, 10, 16],
+    ["E05", "Contrastar diagramas e implementación", 4, 8, 14],
+    ["E06", "Completar y comprobar informe Power BI", 8, 16, 28],
+    ["E07", "Instalar y verificar despliegue remoto", 8, 16, 28],
+    ["E08", "Medir rendimiento y tratar hallazgos", 8, 14, 24],
+    ["E09", "Revisar seguridad de configuración final", 8, 12, 20],
+    ["E10", "Comprobar respaldo y restauración", 6, 10, 16],
+    ["E11", "Preparar evaluación con datos institucionales", 16, 24, 40],
+    ["E12", "Ejecutar tareas de validación con usuarios", 8, 12, 20],
+    ["E13", "Ampliar manual y grabar material de apoyo", 8, 14, 22],
+    ["E14", "Completar inventario de licencias y acuerdos", 6, 10, 16],
+    ["E15", "Preparar sitio y material de presentación", 6, 10, 18],
+    ["E16", "Integrar revisión final del documento", 6, 10, 16]
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "fecha_consulta": "2026-11-16",
+  "fuentes_locales": [
+    {
+      "id": "CITI-2021",
+      "ruta": "cap8-10/CAP 10 - Costos.pdf",
+      "sha256": "181633c0151de46496493f6ee88a5d769334af361f2fc7f95f16e80f445066f4",
+      "uso": "p. 4: tabla de personal atribuida por el docente al CITI Santa Cruz (2021). Referencia histórica secundaria, no tarifario vigente certificado."
+    },
+    {
+      "id": "CITI-imagen",
+      "ruta": "clases/recursos_diapositivas/cap10_p4_img1.png",
+      "sha256": "1dc8fcd4b58526f12db06d758108217d0c2c6c0706b987646c4d11a93aad39ee",
+      "uso": "Detalle legible de los cuatro honorarios mensuales de referencia."
+    },
+    {
+      "id": "CITI-clase",
+      "ruta": "clases/2026-11-11_cap9_pruebas_costos.txt",
+      "sha256": "0f05ccff216ec7ad1f75d9771385e3cf636f61cd329744a9f48a8416cdfea58a",
+      "uso": "07:07–09:30 y 21:34–24:43: fundamentación de honorarios, funciones profesionales y duración coherente con Gantt."
+    },
+    {
+      "id": "AWS-EC2",
+      "ruta": "docs/auditoria-fase-final/aws-precios.json",
+      "sha256": "3f9530e1b43f8ce31b7423a5be0ccc495402e10e16b8511027f2865320b5a9ce",
+      "uso": "t3.large Linux Shared sa-east-1, On-Demand; se excluyen reservas."
+    },
+    {
+      "id": "AWS-EBS",
+      "ruta": "docs/auditoria-fase-final/aws-precios-ebs.json",
+      "sha256": "8ebdb647325dd7f636d6839e1ca27ad43fb121fc125b23623811b089d1c79dd3",
+      "uso": "gp3 0,152 USD/GB-mes en São Paulo."
+    },
+    {
+      "id": "AWS-S3",
+      "ruta": "docs/auditoria-fase-final/aws-precios-s3.json",
+      "sha256": "7b484ea68eb0318f743b808b4076fc101652a91cdf20d6e1d5b9126d71934da8",
+      "uso": "Standard, primer tramo 0,0405 USD/GB-mes en São Paulo."
+    }
+  ],
+  "referencias": [
+    "Amazon Web Services. (2026). AWS Price List Query API [Catálogo de precios On-Demand de EC2, EBS y S3 para São Paulo; consulta del 16 de noviembre de 2026]. https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/using-price-list-query-api.html",
+    "Amazon Web Services. (s. f.). Shared responsibility model. Recuperado el 16 de noviembre de 2026, de https://aws.amazon.com/compliance/shared-responsibility-model/",
+    "Banco Central de Bolivia. (2026). Tipo de cambio oficial del dólar estadounidense [Vigencia del 14 al 16 de noviembre de 2026]. https://www.bcb.gob.bo/bcb_tco_publico_ultima_cotizacion.php",
+    "Jacobson, I., Booch, G., & Rumbaugh, J. (2000). El proceso unificado de desarrollo de software. Pearson Educación.",
+    "Joint Task Force. (2020). Security and privacy controls for information systems and organizations (NIST SP 800-53 Rev. 5). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-53r5",
+    "Microsoft Corporation. (s. f.). Power BI pricing. Recuperado el 16 de noviembre de 2026, de https://www.microsoft.com/en-us/microsoft-fabric/features/power-bi/pricing",
+    "Neon. (s. f.). Neon pricing. Recuperado el 16 de noviembre de 2026, de https://neon.com/pricing",
+    "Sparx Systems. (s. f.). Enterprise Architect pricing. Recuperado el 16 de noviembre de 2026, de https://sparxsystems.com/products/ea/shop/",
+    "Vercel. (s. f.). Vercel pricing. Recuperado el 16 de noviembre de 2026, de https://vercel.com/pricing",
+    "Villagómez Melgar, J. J. (2026a). Capítulo 8 Implementación [Diapositivas de Taller de Grado]. Universidad Autónoma Gabriel René Moreno.",
+    "Villagómez Melgar, J. J. (2026b). Capítulo 9 Pruebas [Diapositivas de Taller de Grado]. Universidad Autónoma Gabriel René Moreno.",
+    "Villagómez Melgar, J. J. (2026c). Capítulo 10 Costos, riesgos y seguridad [Diapositivas de Taller de Grado]. Universidad Autónoma Gabriel René Moreno.",
+    "ZAP. (s. f.). ZAP baseline scan. Recuperado el 16 de noviembre de 2026, de https://www.zaproxy.org/docs/docker/baseline-scan/"
+  ],
+  "limites": "Tarifas base sin impuestos ni recargos. Hardware, dedicación y cantidades de beneficio son supuestos internos explícitos; no son cotizaciones o resultados institucionales."
+}

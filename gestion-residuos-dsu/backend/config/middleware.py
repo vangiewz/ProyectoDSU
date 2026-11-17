@@ -15,3 +15,23 @@ def api_sin_cache(get_response):
         return response
 
     return middleware
+
+
+def cabeceras_seguridad(get_response):
+    """API separada del SPA: no necesita ejecutar scripts ni ser enmarcada.
+
+    CORP permite recursos entre orígenes; las lecturas de datos siguen sujetas
+    a CORS, JWT y permisos. No usar COEP restrictivo en el cliente Power BI.
+    """
+
+    def middleware(request):
+        response = get_response(request)
+        response.setdefault(
+            "Content-Security-Policy", "default-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"
+        )
+        response.setdefault("Permissions-Policy", "geolocation=(), camera=(), microphone=()")
+        response.setdefault("Cross-Origin-Resource-Policy", "cross-origin")
+        response.setdefault("Referrer-Policy", "strict-origin-when-cross-origin")
+        return response
+
+    return middleware

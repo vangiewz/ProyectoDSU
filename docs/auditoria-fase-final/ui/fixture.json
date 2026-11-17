@@ -1,0 +1,11 @@
+{
+  "jornada": 107,
+  "usuarios": [
+    "admin_ui",
+    "super_ui",
+    "oper_ui",
+    "dir_ui"
+  ],
+  "origen": "Datos sintéticos en PostgreSQL desechable; no son observaciones DSU",
+  "modelo_aprobado": true
+}

@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-11-16",
+  "python": "3.12.9",
+  "backend": {
+    "Django": "5.2.17",
+    "djangorestframework": "3.18.1",
+    "djangorestframework-simplejwt": "5.5.1",
+    "psycopg": "3.3.6",
+    "scikit-learn": "1.9.1",
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0",
+    "openpyxl": "3.1.5",
+    "fpdf2": "2.8.9"
+  },
+  "frontend_lock": {
+    "react": "19.3.0",
+    "vite": "8.3.2",
+    "typescript": "6.0.3",
+    "tailwindcss": "4.3.3",
+    "leaflet": "1.9.4",
+    "react-leaflet": "5.0.0",
+    "leaflet.heat": "0.2.0",
+    "lucide-react": "1.52.0"
+  },
+  "postgresql_pruebas": "18",
+  "postgresql_neon": "18, registrado en el estado previo; pendiente nueva consulta",
+  "ea": "15, instalación registrada; verificar número de compilación"
+}

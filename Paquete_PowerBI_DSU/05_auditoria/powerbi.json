@@ -1,0 +1,23 @@
+{
+  "fecha": "2026-11-16",
+  "visuales": [
+    {
+      "pagina": "Tablero",
+      "tipo": "clusteredColumnChart",
+      "mezcla_magnitudes": false,
+      "modificado": true
+    }
+  ],
+  "correcciones": [
+    "Suma directa de magnitudes mixtas sustituida por Total kg",
+    "Servidor real configurado; acceso dedicado conservado exclusivamente en .env",
+    "Diagrama con siete tarjetas alineadas y gráfico existente ampliado; 16 medidas y 7 relaciones conservadas"
+  ],
+  "servidor_sin_configurar": false,
+  "roles_rls": 0,
+  "verificacion_desktop": "Power BI Desktop muestra el gráfico con datos, sin avisos de carga. Se inspeccionaron las seis vistas y Calendario en la vista de tabla. Recuentos visibles coinciden con SELECT en Neon. Verificada en Desktop tras autenticación manual del titular; conexión SQL directa con TLS comprobada por separado.",
+  "estado": "Conexión y carga verificadas; pendientes visualizaciones adicionales, auditoría de filtros y seguridad de compartición/RLS y publicación autorizada",
+  "evidencia_desktop": "Paquete_PowerBI_DSU/05_auditoria/powerbi_desktop.json",
+  "conexion_sql_tls_verificada": true,
+  "desktop_datos_cargados": true
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "1e63c0dc0b2c8e1fcb8d",
+  "position": {
+    "x": 444.59840198328283,
+    "y": 86.449689274527216,
+    "z": 0,
+    "height": 422.64292534213308,
+    "width": 775.30276889060121
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bi_puntos"
+                    }
+                  },
+                  "Property": "nombre"
+                }
+              },
+              "queryRef": "bi_puntos.nombre",
+              "nativeQueryRef": "nombre",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bi_hechos_residuos"
+                    }
+                  },
+                  "Property": "Total kg"
+                }
+              },
+              "queryRef": "bi_hechos_residuos.Total kg"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "bi_hechos_residuos"
+                  }
+                },
+                "Property": "Total kg"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "fecha": "2026-11-16",
+  "tipo_cambio": "11.67",
+  "meses_desarrollo": "4",
+  "roles": [
+    {
+      "rol": "Análisis de negocios",
+      "mensual": "7200",
+      "dedicacion": "0.25",
+      "meses": "4",
+      "subtotal": "7200.00"
+    },
+    {
+      "rol": "Dirección del proyecto",
+      "mensual": "13200",
+      "dedicacion": "0.25",
+      "meses": "4",
+      "subtotal": "13200.00"
+    },
+    {
+      "rol": "Arquitectura de software",
+      "mensual": "14400",
+      "dedicacion": "0.25",
+      "meses": "4",
+      "subtotal": "14400.00"
+    },
+    {
+      "rol": "Desarrollo de aplicaciones",
+      "mensual": "12000",
+      "dedicacion": "1",
+      "meses": "4",
+      "subtotal": "48000.00"
+    }
+  ],
+  "inversion": {
+    "Hardware": "12450",
+    "Software": "5718.30",
+    "Personal": "82800.00",
+    "Infraestructura": "6000",
+    "Logística, material y refrigerio": "1300"
+  },
+  "total_inversion": "108268.30",
+  "operacion": [
+    {
+      "concepto": "EC2 t3.large, 730 horas/mes",
+      "usd_mensual": "98.1120000000",
+      "bs_mensual": "1144.97",
+      "bs_anual": "13739.60",
+      "fuente": "AWS Price List API; São Paulo"
+    },
+    {
+      "concepto": "EBS gp3, 40 GB",
+      "usd_mensual": "6.0800000000",
+      "bs_mensual": "70.95",
+      "bs_anual": "851.44",
+      "fuente": "AWS Price List API; São Paulo"
+    },
+    {
+      "concepto": "Una IPv4 pública, 730 horas/mes",
+      "usd_mensual": "3.650",
+      "bs_mensual": "42.60",
+      "bs_anual": "511.15",
+      "fuente": "AWS VPC Pricing"
+    },
+    {
+      "concepto": "Reserva de 5 GB S3 Standard",
+      "usd_mensual": "0.2025000000",
+      "bs_mensual": "2.36",
+      "bs_anual": "28.36",
+      "fuente": "AWS Price List API; almacenamiento, sin solicitudes"
+    },
+    {
+      "concepto": "Neon Launch: 100 CU-h y 2 GB/mes",
+      "usd_mensual": "11.300",
+      "bs_mensual": "131.87",
+      "bs_anual": "1582.45",
+      "fuente": "Neon Pricing; consumo supuesto"
+    },
+    {
+      "concepto": "Vercel Pro: dos puestos",
+      "usd_mensual": "40",
+      "bs_mensual": "466.80",
+      "bs_anual": "5601.60",
+      "fuente": "Vercel Pricing; consumo dentro de lo incluido"
+    },
+    {
+      "concepto": "Power BI Pro: dos usuarios",
+      "usd_mensual": "28",
+      "bs_mensual": "326.76",
+      "bs_anual": "3921.12",
+      "fuente": "Microsoft; pago anual, sin impuestos"
+    }
+  ],
+  "total_operacion_anual": "26235.72",
+  "beneficios": [
+    {
+      "concepto": "Tiempo administrativo liberado",
+      "mensual": "1080",
+      "anual": "12960",
+      "supuesto": "24 h/mes × Bs. 45/h; valor hora referencial 7.200/160, no salario DSU"
+    },
+    {
+      "concepto": "Atenciones evitables por priorización",
+      "mensual": "640",
+      "anual": "7680",
+      "supuesto": "8 atenciones/mes × Bs. 80; supuesto de escenario, no ahorro observado"
+    },
+    {
+      "concepto": "Consumibles evitados",
+      "mensual": "100",
+      "anual": "1200",
+      "supuesto": "Bs. 100/mes; provisión de escenario, fuera del tiempo y transporte"
+    }
+  ],
+  "beneficio_bruto_anual": "21840",
+  "beneficio_disponible": "-4395.72",
+  "beneficio_neto": "-112664.02",
+  "roi": "-104.06",
+  "umbral_mensual_equilibrio": "11208.67",
+  "sensibilidad": [
+    {
+      "beneficio_bruto_mensual": "1820",
+      "roi": "-104.06"
+    },
+    {
+      "beneficio_bruto_mensual": "5000",
+      "roi": "-68.81"
+    },
+    {
+      "beneficio_bruto_mensual": "12000",
+      "roi": "8.77"
+    },
+    {
+      "beneficio_bruto_mensual": "20000",
+      "roi": "97.44"
+    }
+  ],
+  "advertencia": "Proyección condicionada: no son pagos ni ahorros reales de la DSU. Tarifas base, supuestos, exclusiones e impuestos se declaran en el capítulo."
+}

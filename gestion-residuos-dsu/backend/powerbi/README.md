@@ -1,30 +1,23 @@
 # Tablero en Power BI (RD8, RI14, RNF26)
 
-`DSU-Residuos.pbip` es un proyecto de Power BI Desktop ya conectado a las vistas depuradas del sistema, con el modelo armado: tablas, relaciones, una tabla calendario y las medidas principales. Falta solo dibujar los gráficos y publicarlo.
+`DSU-Residuos.pbip` contiene el modelo de las vistas del sistema, relaciones, calendario y medidas. El 16/11/2026 se configuró el servidor real de Neon y se verificó la conexión directa cifrada con el usuario `powerbi`: lectura de las seis vistas, 15.430 hechos, 1.046 jornadas, 12 puntos, 1 incidencia y 8 recomendaciones. La vista de predicciones devolvió cero filas. El titular autenticó Power BI Desktop y se verificó visualmente la carga de las seis vistas: los recuentos coinciden con SQL. Calendario muestra 1.374 filas. El gráfico existente presenta datos. No se ha publicado. Sigue pendiente completar los gráficos y revisar sus filtros; no hay roles RLS definidos.
 
-Si cambian las vistas `bi_*`, regenerarlo con `python powerbi/generar.py` (desde la raíz del backend).
+No ejecutar `python powerbi/generar.py` sobre el proyecto actual: sobrescribe el modelo y los gráficos editados manualmente. Si cambian las vistas `bi_*`, comparar primero las diferencias, conservar una copia y adaptar el proyecto existente.
 
-## 1. Usuario de solo lectura en Neon (una vez)
+## 1. Acceso preparado
 
-En la consola de Neon → *SQL Editor*:
+El rol `powerbi` ya existe, tiene lectura sobre las seis vistas `bi_*`, sin permisos de escritura sobre ellas y sin atributos administrativos. El 16/11/2026, por autorización del usuario, se renovó únicamente su contraseña y se guardó en `backend/.env`; la contraseña del backend no se modificó. No ejecutar otra vez `CREATE ROLE` ni renovar contraseñas al abrir el informe.
 
-```sql
-CREATE ROLE powerbi LOGIN PASSWORD '<una-clave-fuerte>';
-GRANT USAGE ON SCHEMA public TO powerbi;
-GRANT SELECT ON bi_hechos_residuos, bi_jornadas, bi_incidencias, bi_puntos,
-                bi_predicciones, bi_recomendaciones TO powerbi;
-```
-
-Nunca usar el usuario dueño de la base en Power BI.
+La configuración está en `POWERBI_HOST`, `POWERBI_DATABASE`, `POWERBI_USER` y `POWERBI_PASSWORD`, exclusivamente dentro de `backend/.env`. No copiar la clave al modelo, documentación, capturas ni al paquete de traspaso. La excepción de versionado de este archivo se limita al repositorio privado; antes de hacerlo público se aplica la rotación y limpieza del historial indicadas en `AGENTS.md`.
 
 ## 2. Abrir y conectar
 
-1. Abrir `DSU-Residuos.pbip` con Power BI Desktop (versión de 2024 o posterior).
-2. *Inicio → Transformar datos → Editar parámetros*:
-   - **Servidor**: el host de Neon **sin** `-pooler` (por ejemplo `ep-xxxx.sa-east-1.aws.neon.tech`).
-   - **BaseDatos**: `neondb`.
-3. *Aplicar cambios*. Cuando pida credenciales: pestaña **Base de datos**, usuario `powerbi` y su clave; conexión cifrada.
-4. *Actualizar*. Se cargan las 6 vistas y el calendario.
+1. Abrir `DSU-Residuos.pbip` en Power BI Desktop. Los parámetros `Servidor` y `BaseDatos` ya apuntan a Neon; si cambia la infraestructura, contrastarlos con `POWERBI_HOST` y `POWERBI_DATABASE`.
+2. Pulsar **Actualizar**. En la ventana PostgreSQL, seleccionar **Base de datos**, usar el usuario `powerbi` y la clave `POWERBI_PASSWORD` de `.env`. Usar conexión cifrada.
+3. Power BI conserva sus credenciales mediante su propia administración de orígenes en el perfil de Windows. **No lee `.env` automáticamente**; se introduce la clave una vez por perfil/origen y se actualiza si se rota.
+4. Comprobar las seis vistas y el calendario. La cuenta Microsoft de Power BI es un acceso distinto, necesario para el servicio y la publicación.
+
+La comprobación SQL del 16/11/2026 no modificó registros, no ejecutó ETL y no entrenó el modelo. Evidencia: `docs/auditoria-fase-final/powerbi_conexion.json` desde la raíz del repositorio.
 
 ## 3. Qué trae el modelo
 
@@ -45,6 +38,10 @@ Medidas: `Total kg`, `Total L`, `Registros`, `Puntos con datos`, `Promedio kg po
 > `cantidad_base` está en kg o en litros según `magnitud`: usar siempre las medidas `Total kg` / `Total L`, nunca sumar la columna directamente.
 
 ## 4. Gráficos que pide el documento (RF17, sección 2.6)
+
+`python powerbi/tablero.py` (16/11/2026) arma en la página *Tablero*: cuatro tarjetas (Total kg, Cobertura, Incidencias pendientes, Recomendaciones pendientes), segmentadores de fecha y sector, barras por sector, por tipo y por punto, la evolución mensual (columna calculada `Calendario[Año-Mes]`) y la matriz sector × periodo académico. Conserva el modelo y el gráfico guardados por Desktop y puede repetirse sin duplicar visuales. Antes se auditaron las medidas contra SQL (`docs/auditoria-fase-final/powerbi_medidas.json`): coinciden. Límites declarados: el segmentador de fecha no filtra incidencias ni recomendaciones (sin relación con Calendario: se muestran como estado actual) y el de sector no filtra jornadas; *Participación aprovechable* se calcula sobre kg. Abrir en Desktop, **Actualizar** y revisar los filtros antes de capturar o publicar.
+
+Referencia de visuales:
 
 En la página *Tablero*:
 
@@ -73,4 +70,5 @@ Usar los colores del sistema: rojo DSU `#C4122F`, grafito `#1E2328`, azul `#1F3F
 ## Archivos
 
 - `generar.py`: genera el proyecto a partir de la lista de vistas y medidas.
+- `tablero.py`: agrega los visuales de la página Tablero al proyecto existente sin regenerarlo.
 - `DSU-Residuos.pbip`, `*.SemanticModel/`, `*.Report/`: el proyecto. Power BI Desktop guarda ahí también `.pbi/localSettings.json` y `cache.abf`, que no se versionan.

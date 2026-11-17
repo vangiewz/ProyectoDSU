@@ -1,0 +1,5 @@
+{
+  "fecha": "2026-11-16",
+  "server_version": "18.7 (a21afb5)",
+  "operacion": "SELECT de versión en transacción READ ONLY; sin escrituras"
+}

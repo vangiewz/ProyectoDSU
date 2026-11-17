@@ -1,0 +1,4468 @@
+[
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 31,
+    "excepcion": null
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 31,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 31,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[estado]",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[estado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[estado]",
+    "funcion": "asignar",
+    "evento": "exception",
+    "linea": 41,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[estado]",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[sin_responsable]",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[sin_responsable]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[sin_responsable]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[sin_responsable]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 43,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[sin_responsable]",
+    "funcion": "asignar",
+    "evento": "exception",
+    "linea": 43,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[sin_responsable]",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 43,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 44,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 45,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]",
+    "funcion": "asignar",
+    "evento": "exception",
+    "linea": 45,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 45,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 44,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "exception",
+    "linea": 48,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 44,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 51,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "exception",
+    "linea": 51,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 51,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 44,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 55,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 57,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "exception",
+    "linea": 56,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 44,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 55,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 59,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 60,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 61,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "exception",
+    "linea": 61,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 61,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 44,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 55,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 59,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 60,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 63,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 64,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 65,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 66,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 67,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 68,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 71,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 74,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 74,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 75,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 72,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 67,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 67,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 43,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "exception",
+    "linea": 43,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 43,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "call",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 44,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 55,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 59,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 60,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 63,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 64,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 65,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 66,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 67,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 68,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 71,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 74,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 75,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 72,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "line",
+    "linea": 67,
+    "excepcion": null
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "funcion": "asignar",
+    "evento": "return",
+    "linea": 67,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 32,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 31,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 31,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 31,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 37,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 39,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 51,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 52,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 58,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 61,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 62,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 63,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 64,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 65,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 66,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 71,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 72,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 74,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 75,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 76,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 77,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 90,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 92,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 95,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 98,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 99,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 100,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 102,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 37,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 39,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 51,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 52,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 58,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 61,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 62,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 63,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 64,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 65,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 66,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 71,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 72,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 74,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 75,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 76,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 77,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 90,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 92,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 95,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 98,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 99,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 100,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 102,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 31,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 31,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 31,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_excesivo]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_excesivo]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_excesivo]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_excesivo]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_excesivo]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 31,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_excesivo]",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 31,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_excesivo]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 31,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 37,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 39,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 43,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 43,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 43,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 37,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 39,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 49,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 49,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 37,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 39,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 51,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 52,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 57,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 57,
+    "excepcion": "ValidationError"
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 57,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 36,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "exception",
+    "linea": 36,
+    "excepcion": "PermissionDenied"
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 36,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 36,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 37,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 39,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 51,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 52,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 58,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 61,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 62,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 63,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 64,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 65,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 66,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 71,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 72,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 74,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 75,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 76,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 77,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 90,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 92,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 95,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 98,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 99,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 100,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 102,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 36,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 37,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 39,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 40,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 51,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 52,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 58,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 61,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 62,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 63,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 64,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 65,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 66,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 71,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 72,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 74,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 75,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 76,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 77,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 90,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 92,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 95,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 98,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 99,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 100,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 102,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "call",
+    "linea": 27,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 28,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 29,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 30,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 32,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 33,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 36,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 35,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 36,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 34,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 37,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 38,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 39,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 40,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 41,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 42,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 46,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 47,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 48,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 50,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 51,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 52,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 54,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 53,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 56,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 58,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 61,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 62,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 63,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 64,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 65,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 66,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 71,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 72,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 73,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 74,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 75,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 76,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 77,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 70,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 90,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 80,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 92,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 79,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 95,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 94,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 69,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 98,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 99,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 100,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 102,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 101,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 97,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "line",
+    "linea": 104,
+    "excepcion": null
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+    "funcion": "generar",
+    "evento": "return",
+    "linea": 104,
+    "excepcion": null
+  }
+]

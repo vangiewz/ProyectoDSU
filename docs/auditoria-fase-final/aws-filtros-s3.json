@@ -1,0 +1,1 @@
+[{"Type": "TERM_MATCH", "Field": "location", "Value": "South America (Sao Paulo)"}, {"Type": "TERM_MATCH", "Field": "productFamily", "Value": "Storage"}, {"Type": "TERM_MATCH", "Field": "storageClass", "Value": "General Purpose"}, {"Type": "TERM_MATCH", "Field": "volumeType", "Value": "Standard"}]

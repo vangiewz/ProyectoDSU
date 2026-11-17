@@ -26,10 +26,15 @@
 *.key
 
 # Configuración personal y temporales
+tmp/
+**/tmp/
+DocumentoSoftware2/Documento_Software_2_DSU_con_diagramas.docx
 **/.claude/
 **/.codex/
 **/.vscode/
 **/.idea/
+**/.pbi/
+docs/auditoria-fase-final/render/
 *.local
 *.log
 *.err

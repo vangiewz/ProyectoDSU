@@ -1,0 +1,367 @@
+[
+  {
+    "archivo": "00_LEER_PRIMERO.md",
+    "bytes": 3297,
+    "sha256": "e1c303b3dfaeb8f73e89b41d2d827879c626a4fba8d380b042635cb74633a033"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.pbip",
+    "bytes": 184,
+    "sha256": "385c8119d7bc0d10d4fb82a4726bbf1e9119281cf240e12c7ff8e231155dfbda"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/.platform",
+    "bytes": 306,
+    "sha256": "d4e10d9d3f409e2ba9ae9e57282e8bca53fbb5fd4611d29b5e0a6c2506a95e34"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/pages.json",
+    "bytes": 210,
+    "sha256": "1aaaeea512f8be9f6253e3f9c90962c8a67c2c16241f1db176040c259320af6b"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/page.json",
+    "bytes": 244,
+    "sha256": "ea3147399a5d0dc2f8a261c5edb86bae77399606419b187f8dd1dba45b7902a9"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/1e63c0dc0b2c8e1fcb8d/visual.json",
+    "bytes": 2697,
+    "sha256": "4a78c623054e8e034c189807d67cf47e3f53fb20d996473f1344c8301263bdfe"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuFiltroFecha/visual.json",
+    "bytes": 1346,
+    "sha256": "4e3fc929e636431a0aba31329ffa63903cb2892dacb29da5fb2ff959acf5d42d"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuFiltroSector/visual.json",
+    "bytes": 1632,
+    "sha256": "6b4ce1c0d2593a3c94b5dc12e82f7bc015efe15852e9c58c93d4a50459674dda"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuMensual/visual.json",
+    "bytes": 2231,
+    "sha256": "6b366e0a5a376d16dc7fdb7b14f2bc18d407ca3bd72680e17fdfcca4d1a5ef9f"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuPeriodos/visual.json",
+    "bytes": 2419,
+    "sha256": "cf0021929e37fcc4cab8864fbe300f60a21807e49e953db7db6bfa1273cd8f45"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuSector/visual.json",
+    "bytes": 2683,
+    "sha256": "6bd59c8a4b207b17d04629a597fc55ea029c87830de1499eb541adec9fccdeeb"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuTarjeta0/visual.json",
+    "bytes": 1310,
+    "sha256": "7a6b038b28db855aa7a5326ab60808a7b926783711df6b14f310d9dbd96ecabd"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuTarjeta1/visual.json",
+    "bytes": 1304,
+    "sha256": "9929a22c7a32555fc1c1163047ab5a9ecfaee0373c08ed2be0b702e4cf9765a8"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuTarjeta2/visual.json",
+    "bytes": 1342,
+    "sha256": "a21f38b956f895148a4f6396ba011397e094a31a377a0299d7a3b8b34a8f1796"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuTarjeta3/visual.json",
+    "bytes": 1362,
+    "sha256": "df84e872f101e290ab3b0c74d9909d662dc31ef31243e1199defbdacff0b9975"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/pages/ReportSection/visuals/dsuTipo/visual.json",
+    "bytes": 2727,
+    "sha256": "b8756c483a5819773dc091f8ccd78dd35ccc287041c2cc71df2214bfcf638093"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/report.json",
+    "bytes": 203,
+    "sha256": "8370abf3af3cb79df265e87f7fca836be65e2fe43e8645d04f423ac231be0284"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition/version.json",
+    "bytes": 152,
+    "sha256": "c8bdd966a85f1eaab4312d2096b6d7b508243e4d7bc5a4d25af3cfcb1056a4e7"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.Report/definition.pbir",
+    "bytes": 126,
+    "sha256": "3a5d9bf899373cb359207dc1b2408c3e110bc6d6c3d4fcf7b565e490763f715e"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.SemanticModel/.platform",
+    "bytes": 313,
+    "sha256": "557fde6b407bfb97ee67f68c79fb46b79ce48e0142e876204385ba25cc30ff3b"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.SemanticModel/definition.pbism",
+    "bytes": 43,
+    "sha256": "ed99ec078efd2ff27fc1c65cc97902138d7d3c438acdb7770ae37dc71c7f06c8"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.SemanticModel/diagramLayout.json",
+    "bytes": 2768,
+    "sha256": "880db1658bfb5ee7ec2a66355eb82259d4f10a34a4755de0cdc2ae05ff3f1f39"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/DSU-Residuos.SemanticModel/model.bim",
+    "bytes": 33826,
+    "sha256": "3cad6351484a0463fe44c82410aff87aef6c535644d7d639216e0aef4b631bcb"
+  },
+  {
+    "archivo": "01_proyecto_powerbi/README.md",
+    "bytes": 7355,
+    "sha256": "34fde95f3a6436bbcbdd05e3f2521293703b7aeaa8c55e7b2b86aff990120dfe"
+  },
+  {
+    "archivo": "02_capturas/01_powerbi_desktop_estado_actual.png",
+    "bytes": 115379,
+    "sha256": "40efef83065971f00a9e58d54928495d80599e504e84a41c8296c29e4aed4350"
+  },
+  {
+    "archivo": "02_capturas/02_dialogo_postgresql_host_pendiente.png",
+    "bytes": 24708,
+    "sha256": "8105243b2a606db2febcf8c715912ce83adae25eed875a6d3b30c031b4088c3a"
+  },
+  {
+    "archivo": "02_capturas/03_figura169_pestana_sin_publicar.png",
+    "bytes": 110456,
+    "sha256": "4c65d8f470f9d7aa3b8d73b0cf6a6a4dad64ae373890ad1b2f7086b91238634d"
+  },
+  {
+    "archivo": "02_capturas/04_tablero_web_referencia.png",
+    "bytes": 316269,
+    "sha256": "cda43ccad249342f37b3efd321e185c41b550b221e6ae564b54eb4df8ee8311f"
+  },
+  {
+    "archivo": "02_capturas/05_tablero_web_movil.png",
+    "bytes": 105984,
+    "sha256": "08c9378f21c1813c4ab4565dbf8a98d057d9e3601527165d5bddd640c3d83e8b"
+  },
+  {
+    "archivo": "02_capturas/06_comparacion_periodos_web.png",
+    "bytes": 180256,
+    "sha256": "fadb255fc2245ecfa8b7a65c23def41488a9d6b412f1218044389fd9d9760cca"
+  },
+  {
+    "archivo": "02_capturas/07_parametros_enlace_powerbi.png",
+    "bytes": 253720,
+    "sha256": "6476b8d4c9493fa2fba682d0e882f76a1a518c3786d01d8837f0aaab8b617a1c"
+  },
+  {
+    "archivo": "02_capturas/08_periodos_academicos.png",
+    "bytes": 123868,
+    "sha256": "df20e864961705c5a02814691aefa1abe4d0cf3517f9b2254c97cdc2b3072830"
+  },
+  {
+    "archivo": "02_capturas/09_predicciones_demo.png",
+    "bytes": 397712,
+    "sha256": "abaf238ba07679fa30d1e3ae5b546b4c992753bf9e90492b6e92fb705f6f5a69"
+  },
+  {
+    "archivo": "02_capturas/10_recomendaciones_demo.png",
+    "bytes": 335093,
+    "sha256": "71ea9ff7abe826612a180b284cb6e1bfb27479d31930e60e6f069c6232efc60a"
+  },
+  {
+    "archivo": "02_capturas/11_etl_demo.png",
+    "bytes": 149557,
+    "sha256": "db346936828b02e199a8685f484c4c6056cb8dc8a0a0f32c32ea0bf6e1198498"
+  },
+  {
+    "archivo": "02_capturas/12_powerbi_conectado_informe.png",
+    "bytes": 112078,
+    "sha256": "6a14775da8c15293a6bf34c1c6fb41620cff130dea0a084eb9acdf892d84dd04"
+  },
+  {
+    "archivo": "02_capturas/13_modelo_relaciones_completo.png",
+    "bytes": 82415,
+    "sha256": "e9f01ea9f01a24062da41ed11d48618d0431287e1b80e1a9ac59f57ac23f59ac"
+  },
+  {
+    "archivo": "02_capturas/13_modelo_relaciones_ordenado.png",
+    "bytes": 90395,
+    "sha256": "38c5938bed30d4d4b107d9d4b1a3321fffc50d48fc3f8a71ea5e6b1fc5746ff6"
+  },
+  {
+    "archivo": "02_capturas/14_calendario_importado.png",
+    "bytes": 98271,
+    "sha256": "52d1210235949226d6ca9a9921f215f04fbee0ffd761db1ccc48ece7928cc8b4"
+  },
+  {
+    "archivo": "02_capturas/15_hechos_15430_filas.png",
+    "bytes": 189879,
+    "sha256": "8b0ef2ebdbdc934df40e789449c6d5a83e611475e5b1aa8a9e7c4ab9da7a8fd3"
+  },
+  {
+    "archivo": "02_capturas/16_incidencias_1_fila.png",
+    "bytes": 72149,
+    "sha256": "2368f08cda0efc5562b768a02578d3573b70b6b00d95e54b69a051bef7864379"
+  },
+  {
+    "archivo": "02_capturas/17_jornadas_1046_filas.png",
+    "bytes": 196243,
+    "sha256": "8c58e530bfbfe6c6ea4ea9468114684e6494ba2a122d7ba747e755501faa3ce7"
+  },
+  {
+    "archivo": "02_capturas/18_predicciones_0_filas.png",
+    "bytes": 68552,
+    "sha256": "746979bed9719ddabbbc6700abdf3f97d0beb629bc5f968c469e55339f4631ca"
+  },
+  {
+    "archivo": "02_capturas/19_puntos_12_filas.png",
+    "bytes": 137587,
+    "sha256": "de6a5a7a107f33073e83055f084a557a0f01da79a5a67c7e39fb1dd8a36d2831"
+  },
+  {
+    "archivo": "02_capturas/20_recomendaciones_8_filas.png",
+    "bytes": 121358,
+    "sha256": "234c3c5c1a4f2991298aeb7a9de185e7e938d354cd7841b5cc8001bdb6f88811"
+  },
+  {
+    "archivo": "02_capturas/21_informe_ampliado_con_datos.png",
+    "bytes": 114122,
+    "sha256": "351a0ed57e9491c307344b49683a088d643626cda8ca5bcbb1737eb2de815dbc"
+  },
+  {
+    "archivo": "02_capturas/22_powerbi_tablero_completo.png",
+    "bytes": 327677,
+    "sha256": "7b7f28212179a7c22bb2fa05e9b0529d81b8d5fe34d498967a9a2f96e257e6ec"
+  },
+  {
+    "archivo": "02_capturas/22_tablero_completo_desktop.png",
+    "bytes": 327677,
+    "sha256": "7b7f28212179a7c22bb2fa05e9b0529d81b8d5fe34d498967a9a2f96e257e6ec"
+  },
+  {
+    "archivo": "02_capturas/INDICE_CAPTURAS.md",
+    "bytes": 3335,
+    "sha256": "9c634759d39452871a5ad3dfc03ed894c13fd95e05b7eeb74ddb31cb5e4b9ce0"
+  },
+  {
+    "archivo": "03_documentacion/documento_vigente/Documento_Taller_de_Grado_I_Grupo_8.docx",
+    "bytes": 39472521,
+    "sha256": "52875d52179c271a8c62b916375fa0362279af7cd3b7f568b76f38e751c1353b"
+  },
+  {
+    "archivo": "03_documentacion/documento_vigente/Documento_Taller_de_Grado_I_Grupo_8.pdf",
+    "bytes": 20162924,
+    "sha256": "0a0e49d705656a3e66d33aa2ff04a96880e2d7e0c3f7677896fe2e424ac5c9cb"
+  },
+  {
+    "archivo": "03_documentacion/fuentes/2026-11-06_cap8_implementacion_contexto.md",
+    "bytes": 13514,
+    "sha256": "10ae098275fd811a1591044d74360df5d3c83397c17b91c2074a59e6c3f196ca"
+  },
+  {
+    "archivo": "03_documentacion/fuentes/2026-11-11_cap9-10_pruebas_costos_contexto.md",
+    "bytes": 18780,
+    "sha256": "44a564afc171f998935fa1e944ba1ab7787c192590bf23a77625c002339b3bcd"
+  },
+  {
+    "archivo": "03_documentacion/fuentes/GUIA_FASE_FINAL.md",
+    "bytes": 7313,
+    "sha256": "a1956edfb5a6bd27fab4ce1be72aca87b45d57fc8d9f061d93167555682287ba"
+  },
+  {
+    "archivo": "03_documentacion/material_docente/CAP 10 - Costos.pdf",
+    "bytes": 1305644,
+    "sha256": "181633c0151de46496493f6ee88a5d769334af361f2fc7f95f16e80f445066f4"
+  },
+  {
+    "archivo": "03_documentacion/material_docente/Fase 3 _ Cap 8 Implementacón.pdf",
+    "bytes": 390952,
+    "sha256": "c296dc8edd266acd2bcd54db9a3b0be86f5f34af8e46a43d4b99377ad39c32ac"
+  },
+  {
+    "archivo": "03_documentacion/material_docente/Fase 3 _ Cap 9 Pruebas.pdf",
+    "bytes": 2703957,
+    "sha256": "e4130060bc172df0a9a0ed8c391b3d999348af66e1c1e45f19bcdcfda8a7f5d9"
+  },
+  {
+    "archivo": "04_codigo_referencia/gestion-residuos-dsu/backend/apps/analytics/migrations/0003_vistas_bi.py",
+    "bytes": 2289,
+    "sha256": "2cc2e53d020853f4a6c86087a54bf486c43599a8672b3b4ad8af3f39f805899a"
+  },
+  {
+    "archivo": "04_codigo_referencia/gestion-residuos-dsu/backend/apps/analytics/services/indicadores.py",
+    "bytes": 12797,
+    "sha256": "bac654cb06e78d1f222273209a1d8c265be3dc8b6ba7a5574a1dd92e937b0596"
+  },
+  {
+    "archivo": "04_codigo_referencia/gestion-residuos-dsu/backend/apps/analytics/views/analitica.py",
+    "bytes": 1603,
+    "sha256": "041ff3e19a4dcbade3aee0ff7cc41f64acdc62e6d75502c3e3f609b60a7ba62e"
+  },
+  {
+    "archivo": "04_codigo_referencia/gestion-residuos-dsu/backend/apps/catalogs/migrations/0004_parametrossistema_url_powerbi.py",
+    "bytes": 776,
+    "sha256": "ba6d5946a5e746d15beba603b26bb8f888cdb5a5a1d0cb0425b3d305c2baea7c"
+  },
+  {
+    "archivo": "04_codigo_referencia/gestion-residuos-dsu/backend/apps/catalogs/models/parametros.py",
+    "bytes": 4257,
+    "sha256": "ac842cbd151490e455e414286b9ad02a94fba0f0295fd003fde016a29a35f82d"
+  },
+  {
+    "archivo": "04_codigo_referencia/gestion-residuos-dsu/backend/apps/prediction/migrations/0003_vistas_bi.py",
+    "bytes": 1611,
+    "sha256": "e947f528efdb4ed9ac2be7a1fe7306f0239dc3ce6e874aa0bc0d4856ead4aca4"
+  },
+  {
+    "archivo": "04_codigo_referencia/gestion-residuos-dsu/frontend/src/pages/Sistema.tsx",
+    "bytes": 10733,
+    "sha256": "5f0c3019c3bedb94e3658866228013edcedac78749345651d55b03f33d012251"
+  },
+  {
+    "archivo": "04_codigo_referencia/gestion-residuos-dsu/frontend/src/pages/Tablero.tsx",
+    "bytes": 14757,
+    "sha256": "3cdec6dfb7f58ea52ce9434afb3ee6f80d2008eafeacc3576105fda2510d259d"
+  },
+  {
+    "archivo": "05_auditoria/inventario_modelo.json",
+    "bytes": 13980,
+    "sha256": "f1f287e7c48ca8ea8155acf3ea2d580da629a4e8b2dee86880d69777a26899ac"
+  },
+  {
+    "archivo": "05_auditoria/MEDIDAS_DAX.md",
+    "bytes": 2098,
+    "sha256": "4b67ef553fb9c46a7ea1006bae694a90a49bd0a2294c1a2dae363452434004c8"
+  },
+  {
+    "archivo": "05_auditoria/powerbi.json",
+    "bytes": 1200,
+    "sha256": "4c8dce42af55cd69bfc28b501c1bbcf2646b6a1c33d02c4623176502163b2943"
+  },
+  {
+    "archivo": "05_auditoria/powerbi_conexion.json",
+    "bytes": 524,
+    "sha256": "3dcf2b7623affca025399b982f2ab4449fd6345423cdeadc21cda4a2a7d1b3a0"
+  },
+  {
+    "archivo": "05_auditoria/powerbi_desktop.json",
+    "bytes": 1183,
+    "sha256": "c04f4fc70ba4dca2564ea99977163f68fe377357618e1867ca0679fc675729dd"
+  },
+  {
+    "archivo": "05_auditoria/powerbi_medidas.json",
+    "bytes": 5755,
+    "sha256": "3709bc1b6e833bcb6a26d44ee117d22d798aa2633ac419ec1339bf55360ec69e"
+  },
+  {
+    "archivo": "05_auditoria/REVISION_PAQUETE.json",
+    "bytes": 2904,
+    "sha256": "c7242c309a5b1cefbda054e7adfc891947dac11548d61e3f7dcc4539aaa5c38a"
+  },
+  {
+    "archivo": "PROMPT_PARA_OTRO_AGENTE.md",
+    "bytes": 3146,
+    "sha256": "e60a0a6639fdfcb497aa4d492c6dbbad5b20c2dd2e29a0f26f0891eacc210378"
+  }
+]

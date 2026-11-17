@@ -1,0 +1,728 @@
+{
+  "fecha": "2026-11-16",
+  "base": "docs\\auditoria-fase-final\\base_vigente_cap1-7.docx",
+  "sha256": "718bf8f444969b3ca49f6b6f8060f0a69a0200e594abda22730886a40860485d",
+  "comparacion_archivo_2026_10_30": {
+    "parrafos_cuerpo_iguales": true,
+    "tablas_iguales": true,
+    "imagenes_base": 189,
+    "imagenes_version": 189
+  },
+  "titulos": [
+    "Resumen",
+    "Abstract",
+    "ÍNDICE GENERAL",
+    "ÍNDICE DE FIGURAS",
+    "ÍNDICE DE TABLAS",
+    "Introducción",
+    "Capítulo 1",
+    "1. Perfil del Proyecto",
+    "1.1. Antecedentes",
+    "1.2. Definición del Problema",
+    "1.2.1. Situación Problemática",
+    "1.2.2. Situación Deseada",
+    "1.2.3. Objeto de la Investigación",
+    "1.3. Objetivos",
+    "1.3.1. Objetivo General",
+    "1.3.2. Objetivos Específicos",
+    "1.4. Justificación",
+    "1.4.1. Justificación Técnica",
+    "1.4.2. Justificación Académica",
+    "1.4.3. Justificación Institucional",
+    "1.5. Metodología",
+    "1.5.1. Proceso Unificado de Desarrollo de Software",
+    "1.5.1.1. Fases.",
+    "1.5.1.2. Flujos de Trabajo.",
+    "1.5.2. Lenguaje Unificado de Modelado",
+    "1.5.3. Especificación de Requisitos de Software según la IEEE 830-1998",
+    "1.6. Alcance y Limitaciones",
+    "1.6.1. Funciones Principales",
+    "1.6.2. Usuarios o Beneficiarios",
+    "1.6.3. Limitaciones y Restricciones",
+    "1.7. Recursos Necesarios",
+    "1.7.1. Software y Herramientas",
+    "1.7.2. Equipos y Hardware",
+    "1.7.3. Presupuesto Estimado",
+    "1.8. Cronograma",
+    "1.8.1. Plan de Ejecución",
+    "1.8.2. Hitos Importantes",
+    "Capítulo 2",
+    "2. Random Forest Regressor",
+    "2.1. Fundamentos del Algoritmo",
+    "2.2. Aplicación del Algoritmo en el Proyecto",
+    "2.3. Scikit-learn",
+    "2.4. Python",
+    "2.5. Pandas y NumPy",
+    "2.6. Inteligencia de Negocios y Microsoft Power BI",
+    "2.7. Procesos de Extracción, Transformación y Carga",
+    "2.8. Leaflet y OpenStreetMap",
+    "2.9. Django y Django REST Framework",
+    "2.10. React",
+    "2.11. PostgreSQL",
+    "Capítulo 3",
+    "3. Dirección de Servicios Universitarios de la Universidad Autónoma Gabriel René Moreno",
+    "3.1. Nombre",
+    "3.2. Misión",
+    "3.3. Visión",
+    "3.4. Historia",
+    "3.5. Imagen Corporativa",
+    "3.6. Web, Contacto y Redes Sociales",
+    "3.7. Estructura Organizacional",
+    "3.8. Ubicación e Infraestructura",
+    "3.8.1. Ubicación",
+    "3.8.2. Infraestructura",
+    "3.9. Modelo de Negocio",
+    "3.10. Flujo Operativo del Proceso Principal",
+    "Capítulo 4",
+    "4. Especificación de Requisitos de Software según la IEEE 830-1998",
+    "4.1. Introducción",
+    "4.1.1. Propósito",
+    "4.1.2. Ámbito del Sistema",
+    "4.1.2.1. Nombre.",
+    "4.1.2.2. Funcionalidades.",
+    "4.1.2.3. Beneficios.",
+    "4.1.3. Definiciones, Acrónimos y Abreviaturas",
+    "4.1.4. Referencias",
+    "4.1.5. Visión General del Documento",
+    "4.2. Descripción General del Sistema",
+    "4.2.1. Perspectiva del Producto",
+    "4.2.2. Funciones del Producto",
+    "4.2.3. Características y Restricciones del Usuario",
+    "4.2.4. Restricciones",
+    "4.2.5. Dependencias y Suposiciones",
+    "4.2.6. Modelo de Dominio",
+    "4.3. Requisitos Específicos",
+    "4.3.1. Requisitos Funcionales",
+    "4.3.2. Requisitos No Funcionales",
+    "4.3.3. Requisitos de Interfaces",
+    "4.3.4. Requisitos de Base de Datos",
+    "4.3.5. Requisitos de Diseño",
+    "4.3.6. Requisitos de Rendimiento",
+    "4.3.6.1. Tiempo de Respuesta.",
+    "4.3.6.2. Capacidad y Carga Máxima.",
+    "4.3.6.3. Uso de Recursos.",
+    "4.3.6.4. Disponibilidad y Tiempo de Actividad.",
+    "4.3.6.5. Escalabilidad.",
+    "4.3.6.6. Procesamiento por Lote o en Tiempo Real.",
+    "Capítulo 5",
+    "5. Captura de Requisitos",
+    "5.1. Identificación de Actores",
+    "5.2. Identificación de Casos de Uso",
+    "5.3. Priorización de los Casos de Uso",
+    "5.4. Detalle de los Casos de Uso",
+    "5.4.1. CU1. Iniciar sesión",
+    "5.4.2. CU2. Cerrar sesión",
+    "5.4.3. CU3. Gestionar usuarios",
+    "5.4.4. CU4. Gestionar roles y permisos",
+    "5.4.5. CU5. Gestionar sectores y facultades",
+    "5.4.6. CU6. Gestionar puntos de recolección",
+    "5.4.7. CU7. Gestionar contenedores",
+    "5.4.8. CU8. Gestionar tipos de residuo y unidades de medida",
+    "5.4.9. CU9. Registrar vaciado de residuos",
+    "5.4.10. CU10. Registrar incidencia operativa",
+    "5.4.11. CU11. Atender incidencia",
+    "5.4.12. CU12. Consultar histórico de residuos",
+    "5.4.13. CU13. Gestionar vehículos",
+    "5.4.14. CU14. Planificar jornada y ruta de recolección",
+    "5.4.15. CU15. Asignar personal y vehículos a la jornada",
+    "5.4.16. CU16. Ejecutar jornada de recolección",
+    "5.4.17. CU17. Omitir punto de la ruta",
+    "5.4.18. CU18. Cerrar jornada de recolección",
+    "5.4.19. CU19. Consultar historial de recolecciones",
+    "5.4.20. CU20. Ejecutar proceso ETL",
+    "5.4.21. CU21. Visualizar tablero interactivo",
+    "5.4.22. CU22. Comparar periodos e identificar tendencias",
+    "5.4.23. CU23. Visualizar puntos en el mapa interactivo",
+    "5.4.24. CU24. Generar mapa de calor",
+    "5.4.25. CU25. Filtrar mapa por periodo, sector y tipo de residuo",
+    "5.4.26. CU26. Entrenar y evaluar el modelo Random Forest Regressor",
+    "5.4.27. CU27. Publicar o revertir versión del modelo",
+    "5.4.28. CU28. Predecir generación futura y emitir alertas",
+    "5.4.29. CU29. Consultar alertas y recomendaciones logísticas",
+    "5.4.30. CU30. Atender recomendación logística",
+    "5.4.31. CU31. Configurar periodos académicos y parámetros",
+    "5.4.32. CU32. Consultar bitácora de auditoría",
+    "5.4.33. CU33. Generar reporte",
+    "5.4.34. CU34. Exportar reporte a Excel o PDF",
+    "5.5. Diagrama General de Casos de Uso",
+    "Capítulo 6",
+    "6. Análisis",
+    "6.1. Análisis de la Arquitectura",
+    "6.1.1. Identificación de Paquetes",
+    "6.1.2. Relación de Paquetes",
+    "6.1.2.1. Paquete Gestión de Usuarios y Control de Acceso.",
+    "6.1.2.2. Paquete Gestión Topológica y Puntos de Recolección.",
+    "6.1.2.3. Paquete Gestión de Residuos.",
+    "6.1.2.4. Paquete Gestión de Recolecciones y Logística.",
+    "6.1.2.5. Paquete Inteligencia de Negocios y Analítica Visual.",
+    "6.1.2.6. Paquete Componente Cartográfico y Análisis Espacial.",
+    "6.1.2.7. Paquete Predicción mediante Random Forest Regressor.",
+    "6.1.2.8. Paquete Administración de la Plataforma y Auditoría.",
+    "6.1.3. Encapsulamiento de Casos de Uso por Paquete",
+    "6.1.3.1. Encapsulamiento del Paquete Gestión de Usuarios y Control de Acceso.",
+    "6.1.3.2. Encapsulamiento del Paquete Gestión Topológica y Puntos de Recolección.",
+    "6.1.3.3. Encapsulamiento del Paquete Gestión de Residuos.",
+    "6.1.3.4. Encapsulamiento del Paquete Gestión de Recolecciones y Logística.",
+    "6.1.3.5. Encapsulamiento del Paquete Inteligencia de Negocios y Analítica Visual.",
+    "6.1.3.6. Encapsulamiento del Paquete Componente Cartográfico y Análisis Espacial.",
+    "6.1.3.7. Encapsulamiento del Paquete Predicción mediante Random Forest Regressor.",
+    "6.1.3.8. Encapsulamiento del Paquete Administración de la Plataforma y Auditoría.",
+    "6.2. Análisis de Casos de Uso",
+    "6.2.1. Analizar Caso de Uso CU1. Iniciar sesión",
+    "6.2.2. Analizar Caso de Uso CU2. Cerrar sesión",
+    "6.2.3. Analizar Caso de Uso CU3. Gestionar usuarios",
+    "6.2.4. Analizar Caso de Uso CU4. Gestionar roles y permisos",
+    "6.2.5. Analizar Caso de Uso CU5. Gestionar sectores y facultades",
+    "6.2.6. Analizar Caso de Uso CU6. Gestionar puntos de recolección",
+    "6.2.7. Analizar Caso de Uso CU7. Gestionar contenedores",
+    "6.2.8. Analizar Caso de Uso CU8. Gestionar tipos de residuo y unidades de medida",
+    "6.2.9. Analizar Caso de Uso CU9. Registrar vaciado de residuos",
+    "6.2.10. Analizar Caso de Uso CU10. Registrar incidencia operativa",
+    "6.2.11. Analizar Caso de Uso CU11. Atender incidencia",
+    "6.2.12. Analizar Caso de Uso CU12. Consultar histórico de residuos",
+    "6.2.13. Analizar Caso de Uso CU13. Gestionar vehículos",
+    "6.2.14. Analizar Caso de Uso CU14. Planificar jornada y ruta de recolección",
+    "6.2.15. Analizar Caso de Uso CU15. Asignar personal y vehículos a la jornada",
+    "6.2.16. Analizar Caso de Uso CU16. Ejecutar jornada de recolección",
+    "6.2.17. Analizar Caso de Uso CU17. Omitir punto de la ruta",
+    "6.2.18. Analizar Caso de Uso CU18. Cerrar jornada de recolección",
+    "6.2.19. Analizar Caso de Uso CU19. Consultar historial de recolecciones",
+    "6.2.20. Analizar Caso de Uso CU20. Ejecutar proceso ETL",
+    "6.2.21. Analizar Caso de Uso CU21. Visualizar tablero interactivo",
+    "6.2.22. Analizar Caso de Uso CU22. Comparar periodos e identificar tendencias",
+    "6.2.23. Analizar Caso de Uso CU23. Visualizar puntos en el mapa interactivo",
+    "6.2.24. Analizar Caso de Uso CU24. Generar mapa de calor",
+    "6.2.25. Analizar Caso de Uso CU25. Filtrar mapa por periodo, sector y tipo de residuo",
+    "6.2.26. Analizar Caso de Uso CU26. Entrenar y evaluar el modelo Random Forest Regressor",
+    "6.2.27. Analizar Caso de Uso CU27. Publicar o revertir versión del modelo",
+    "6.2.28. Analizar Caso de Uso CU28. Predecir generación futura y emitir alertas",
+    "6.2.29. Analizar Caso de Uso CU29. Consultar alertas y recomendaciones logísticas",
+    "6.2.30. Analizar Caso de Uso CU30. Atender recomendación logística",
+    "6.2.31. Analizar Caso de Uso CU31. Configurar periodos académicos y parámetros",
+    "6.2.32. Analizar Caso de Uso CU32. Consultar bitácora de auditoría",
+    "6.2.33. Analizar Caso de Uso CU33. Generar reporte",
+    "6.2.34. Analizar Caso de Uso CU34. Exportar reporte a Excel o PDF",
+    "6.3. Análisis de Paquetes",
+    "Capítulo 7",
+    "7. Diseño",
+    "7.1. Diseño de la Arquitectura",
+    "7.1.1. Diseño Físico",
+    "7.1.2. Diseño Lógico",
+    "7.2. Diagrama de Clases",
+    "7.2.1. Clases de seguridad y auditoría",
+    "7.2.2. Clases de campus y catálogos",
+    "7.2.3. Clases de operación de la recolección",
+    "7.2.4. Clases de analítica y administración",
+    "7.2.5. Clases de predicción",
+    "7.2.6. Clases de control de la capa de servicios",
+    "7.3. Diseño de Datos",
+    "7.3.1. Diseño de Datos Lógico",
+    "7.3.1.1. Diseño Lógico de la Base de Datos.",
+    "7.3.1.2. Mapeo.",
+    "7.3.2. Diseño de Datos Físico",
+    "7.3.2.1. Volumen.",
+    "7.3.2.2. Script.",
+    "7.4. Diseñar Casos de Uso",
+    "7.4.1. CU1. Iniciar sesión",
+    "7.4.2. CU9. Registrar vaciado de residuos",
+    "7.4.3. CU14. Planificar jornada y ruta de recolección",
+    "7.4.4. CU18. Cerrar jornada de recolección",
+    "7.4.5. CU20. Ejecutar proceso ETL",
+    "7.4.6. CU26. Entrenar y evaluar el modelo Random Forest Regressor",
+    "7.4.7. CU28. Predecir generación futura y emitir alertas",
+    "7.4.8. CU30. Atender recomendación logística",
+    "7.5. Diseño de Interfaces",
+    "7.5.1. CU1. Iniciar sesión",
+    "7.5.2. CU2. Cerrar sesión",
+    "7.5.3. CU3. Gestionar usuarios",
+    "7.5.4. CU4. Gestionar roles y permisos",
+    "7.5.5. CU5. Gestionar sectores y facultades",
+    "7.5.6. CU6. Gestionar puntos de recolección",
+    "7.5.7. CU7. Gestionar contenedores",
+    "7.5.8. CU8. Gestionar tipos de residuo y unidades de medida",
+    "7.5.9. CU9. Registrar vaciado de residuos",
+    "7.5.10. CU10. Registrar incidencia operativa",
+    "7.5.11. CU11. Atender incidencia",
+    "7.5.12. CU12. Consultar histórico de residuos",
+    "7.5.13. CU13. Gestionar vehículos",
+    "7.5.14. CU14. Planificar jornada y ruta de recolección",
+    "7.5.15. CU15. Asignar personal y vehículos a la jornada",
+    "7.5.16. CU16. Ejecutar jornada de recolección",
+    "7.5.17. CU17. Omitir punto de la ruta",
+    "7.5.18. CU18. Cerrar jornada de recolección",
+    "7.5.19. CU19. Consultar historial de recolecciones",
+    "7.5.20. CU20. Ejecutar proceso ETL",
+    "7.5.21. CU21. Visualizar tablero interactivo",
+    "7.5.22. CU22. Comparar periodos e identificar tendencias",
+    "7.5.23. CU23. Visualizar puntos en el mapa interactivo",
+    "7.5.24. CU24. Generar mapa de calor",
+    "7.5.25. CU25. Filtrar mapa por periodo, sector y tipo de residuo",
+    "7.5.26. CU26. Entrenar y evaluar el modelo Random Forest Regressor",
+    "7.5.27. CU27. Publicar o revertir versión del modelo",
+    "7.5.28. CU28. Predecir generación futura y emitir alertas",
+    "7.5.29. CU29. Consultar alertas y recomendaciones logísticas",
+    "7.5.30. CU30. Atender recomendación logística",
+    "7.5.31. CU31. Configurar periodos académicos y parámetros",
+    "7.5.32. CU32. Consultar bitácora de auditoría",
+    "7.5.33. CU33. Generar reporte",
+    "7.5.34. CU34. Exportar reporte a Excel o PDF",
+    "Referencias Bibliográficas"
+  ],
+  "simbolos": {
+    "gestion-residuos-dsu/backend/apps/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/accounts/apps.py": [
+      "AccountsConfig"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/analytics/apps.py": [
+      "AnalyticsConfig"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/audit/apps.py": [
+      "AuditConfig"
+    ],
+    "gestion-residuos-dsu/backend/apps/audit/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/campus/apps.py": [
+      "CampusConfig"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/catalogs/apps.py": [
+      "CatalogsConfig"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/apps.py": [
+      "OperationsConfig"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/prediction/apps.py": [
+      "PredictionConfig"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/accounts/models/user.py": [
+      "Rol",
+      "User"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/models/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/accounts/permissions/alcance.py": [
+      "es_supervisor_restringido",
+      "filtrar_por_sector",
+      "exigir_sector"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/permissions/rol.py": [
+      "RolePermission"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/permissions/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/accounts/serializers/role.py": [
+      "PermissionSerializer",
+      "RoleSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/serializers/user.py": [
+      "UserSerializer",
+      "MeSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/serializers/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/accounts/tests/test_acceso.py": [
+      "test_login_emite_tokens_y_registra_bitacora",
+      "test_cuenta_desactivada_no_ingresa",
+      "test_operativo_no_administra_usuarios",
+      "test_crear_usuario_valida_politica_de_contrasena",
+      "test_bitacora_es_inalterable"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/tests/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/accounts/views/auth.py": [
+      "LoginView",
+      "LogoutView",
+      "MeView"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/views/role.py": [
+      "RoleViewSet",
+      "PermissionViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/views/user.py": [
+      "UserViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/accounts/views/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/analytics/management/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/analytics/models/ejecucion_etl.py": [
+      "EjecucionETL"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/models/hecho_residuo.py": [
+      "HechoResiduo"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/models/registro_descartado.py": [
+      "RegistroDescartado"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/models/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/analytics/serializers/ejecucion_etl.py": [
+      "EjecucionETLSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/serializers/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/analytics/services/etl.py": [
+      "extraer",
+      "marcar_duplicados",
+      "asignar_periodo",
+      "marcar_atipicos",
+      "transformar",
+      "cargar",
+      "iniciar",
+      "ejecutar",
+      "ejecutar_en_segundo_plano"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/services/indicadores.py": [
+      "Alcance",
+      "leer_alcance",
+      "exigir_etl",
+      "hechos",
+      "_totales",
+      "_variacion",
+      "puntos_criticos",
+      "indicadores",
+      "comparar",
+      "tendencia_creciente",
+      "mapa"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/services/reportes.py": [
+      "Reporte",
+      "_generacion",
+      "_jornadas",
+      "_incidencias",
+      "_indicadores",
+      "_prediccion",
+      "generar",
+      "_texto",
+      "a_excel",
+      "_latin1",
+      "_PDF",
+      "a_pdf",
+      "_estilo_cabecera",
+      "nombre_archivo"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/services/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/analytics/tests/test_analitica.py": [
+      "datos",
+      "correr_etl",
+      "test_etl_estandariza_deriva_variables_y_excluye_duplicados",
+      "test_etl_no_permite_ejecuciones_simultaneas",
+      "test_indicadores_exigen_etl_y_calculan_kpis",
+      "test_punto_critico_segun_umbral_configurable",
+      "test_comparacion_rechaza_periodos_superpuestos",
+      "test_reportes_exportan_y_quedan_en_bitacora",
+      "test_etl_bajo_demanda_requiere_permiso",
+      "test_enlace_powerbi_solo_de_app_powerbi"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/tests/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/analytics/views/analitica.py": [
+      "AnaliticaViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/views/ejecucion_etl.py": [
+      "EjecucionETLViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/views/reportes.py": [
+      "ReportesView"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/views/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/analytics/management/commands/etl.py": [
+      "Command"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/management/commands/medir_rendimiento.py": [
+      "Deshacer",
+      "Command"
+    ],
+    "gestion-residuos-dsu/backend/apps/analytics/management/commands/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/audit/filters/audit_log.py": [
+      "AuditLogFilter"
+    ],
+    "gestion-residuos-dsu/backend/apps/audit/filters/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/audit/models/audit_log.py": [
+      "AuditLog"
+    ],
+    "gestion-residuos-dsu/backend/apps/audit/models/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/audit/serializers/audit_log.py": [
+      "AuditLogSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/audit/serializers/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/audit/services/bitacora.py": [
+      "snapshot",
+      "registrar"
+    ],
+    "gestion-residuos-dsu/backend/apps/audit/services/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/audit/views/audit_log.py": [
+      "AuditLogViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/audit/views/base.py": [
+      "AuditedViewSet",
+      "DeactivatableViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/audit/views/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/campus/models/contenedor.py": [
+      "Contenedor"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/models/punto_recoleccion.py": [
+      "PuntoRecoleccion"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/models/sector.py": [
+      "Sector"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/models/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/campus/serializers/contenedor.py": [
+      "ContenedorSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/serializers/punto_recoleccion.py": [
+      "PuntoRecoleccionSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/serializers/sector.py": [
+      "SectorSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/serializers/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/campus/views/contenedor.py": [
+      "ContenedorViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/views/punto_recoleccion.py": [
+      "PuntoRecoleccionViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/views/sector.py": [
+      "SectorViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/campus/views/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/catalogs/models/parametros.py": [
+      "ParametrosSistema"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/models/periodo_academico.py": [
+      "PeriodoAcademico"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/models/tipo_residuo.py": [
+      "TipoResiduo"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/models/unidad_medida.py": [
+      "UnidadMedida"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/models/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/catalogs/serializers/parametros.py": [
+      "ParametrosSistemaSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/serializers/periodo_academico.py": [
+      "PeriodoAcademicoSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/serializers/tipo_residuo.py": [
+      "TipoResiduoSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/serializers/unidad_medida.py": [
+      "UnidadMedidaSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/serializers/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/catalogs/views/parametros.py": [
+      "ParametrosView"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/views/periodo_academico.py": [
+      "PeriodoAcademicoViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/views/tipo_residuo.py": [
+      "TipoResiduoViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/views/unidad_medida.py": [
+      "UnidadMedidaViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/catalogs/views/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/filters/jornada.py": [
+      "JornadaFilter"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/filters/rango.py": [
+      "validar_rango"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/filters/registro_residuo.py": [
+      "RegistroFilter"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/filters/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/management/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/models/incidencia.py": [
+      "Incidencia"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/models/jornada.py": [
+      "Jornada",
+      "JornadaPunto"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/models/registro_residuo.py": [
+      "RegistroResiduo"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/models/vehiculo.py": [
+      "Vehiculo"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/models/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/serializers/incidencia.py": [
+      "IncidenciaSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/serializers/jornada.py": [
+      "JornadaPuntoSerializer",
+      "JornadaSerializer",
+      "AsignacionSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/serializers/registro_residuo.py": [
+      "RegistroResiduoSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/serializers/vehiculo.py": [
+      "VehiculoSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/serializers/visita.py": [
+      "DetalleVisitaSerializer",
+      "VisitaSerializer",
+      "OmisionSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/serializers/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/services/jornada.py": [
+      "exigir_estado",
+      "exigir_personal",
+      "_transicion",
+      "asignar",
+      "confirmar",
+      "abrir",
+      "cerrar",
+      "resumen"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/services/visita.py": [
+      "_parada",
+      "_validar_capacidad",
+      "registrar_visita",
+      "omitir_punto"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/services/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/tests/test_jornada.py": [
+      "test_flujo_completo_de_jornada",
+      "test_supervisor_no_opera_sectores_ajenos",
+      "test_operario_solo_ve_jornadas_asignadas",
+      "test_administrador_no_opera_en_campo"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/tests/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/views/incidencia.py": [
+      "IncidenciaViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/views/jornada.py": [
+      "JornadaViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/views/registro_residuo.py": [
+      "RegistroResiduoViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/views/vehiculo.py": [
+      "VehiculoViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/views/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/operations/management/commands/seed.py": [
+      "Command"
+    ],
+    "gestion-residuos-dsu/backend/apps/operations/management/commands/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/prediction/management/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/prediction/models/lote_prediccion.py": [
+      "LotePrediccion"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/models/modelo_entrenado.py": [
+      "SinArtefacto",
+      "ModeloEntrenado"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/models/prediccion.py": [
+      "Prediccion"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/models/recomendacion.py": [
+      "Recomendacion"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/models/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/prediction/serializers/lote_prediccion.py": [
+      "LotePrediccionSerializer",
+      "SolicitudPrediccionSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/serializers/modelo_entrenado.py": [
+      "ModeloEntrenadoSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/serializers/recomendacion.py": [
+      "RecomendacionSerializer"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/serializers/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/prediction/services/datos.py": [
+      "serie_diaria",
+      "con_temporales",
+      "con_historicas",
+      "estado_actual",
+      "dias_habituales",
+      "pipeline"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/services/entrenamiento.py": [
+      "_es",
+      "Rechazo",
+      "validar_hiperparametros",
+      "iniciar",
+      "_evaluar",
+      "entrenar",
+      "entrenar_en_segundo_plano",
+      "publicar",
+      "vigente",
+      "_archivo",
+      "_guardar_en_disco",
+      "cargar"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/services/prediccion.py": [
+      "generar",
+      "_agrupar",
+      "resumen",
+      "vigentes",
+      "mapa"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/services/recomendaciones.py": [
+      "_num",
+      "evaluar",
+      "_incorporar",
+      "resolver"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/services/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/prediction/tests/test_prediccion.py": [
+      "modelos_dir",
+      "historico",
+      "entrenar",
+      "test_entrenamiento_sin_volumen_minimo_no_publica",
+      "test_entrena_publica_predice_y_revierte",
+      "test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/tests/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/prediction/views/lote_prediccion.py": [
+      "LotePrediccionViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/views/modelo_entrenado.py": [
+      "ModeloEntrenadoViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/views/recomendacion.py": [
+      "RecomendacionViewSet"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/views/__init__.py": [],
+    "gestion-residuos-dsu/backend/apps/prediction/management/commands/entrenar.py": [
+      "Command"
+    ],
+    "gestion-residuos-dsu/backend/apps/prediction/management/commands/__init__.py": [],
+    "gestion-residuos-dsu/frontend/src/App.tsx": [],
+    "gestion-residuos-dsu/frontend/src/leaflet-heat.d.ts": [],
+    "gestion-residuos-dsu/frontend/src/main.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/Crud.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/EjeJornada.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/Estimado.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/FiltrosAnalisis.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/Graficos.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/Mapa.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/Resguardo.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/Sello.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/Shell.tsx": [],
+    "gestion-residuos-dsu/frontend/src/components/ui.tsx": [],
+    "gestion-residuos-dsu/frontend/src/lib/api.ts": [],
+    "gestion-residuos-dsu/frontend/src/lib/auth.tsx": [],
+    "gestion-residuos-dsu/frontend/src/lib/datos.ts": [],
+    "gestion-residuos-dsu/frontend/src/lib/tipos.ts": [],
+    "gestion-residuos-dsu/frontend/src/pages/Admin.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Campo.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Jornadas.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Login.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Maestros.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/MapaCampus.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Modelo.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Prediccion.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Recomendaciones.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Registros.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Reportes.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Sistema.tsx": [],
+    "gestion-residuos-dsu/frontend/src/pages/Tablero.tsx": []
+  }
+}

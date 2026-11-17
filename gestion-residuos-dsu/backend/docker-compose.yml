@@ -8,7 +8,7 @@ services:
     environment:
       DEBUG: "False"
     ports:
-      - "8000:8000"
+      - "127.0.0.1:8000:8000"
     restart: unless-stopped
 
   # RNF12: pg_dump diario a ./respaldos (fuera de Neon). Copiar esa carpeta a otro equipo o nube periódicamente.

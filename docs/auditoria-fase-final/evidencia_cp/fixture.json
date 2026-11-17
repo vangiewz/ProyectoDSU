@@ -1,0 +1,15 @@
+{
+  "usuarios": [
+    "admin_t",
+    "super_t",
+    "super2_t",
+    "oper_t"
+  ],
+  "s1": 1,
+  "s2": 2,
+  "p1": 1,
+  "p2": 2,
+  "p3": 3,
+  "tipo": 1,
+  "origen": "Datos sint\u00e9ticos de las pruebas automatizadas en PostgreSQL desechable"
+}

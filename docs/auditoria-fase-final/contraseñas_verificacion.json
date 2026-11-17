@@ -1,0 +1,7 @@
+{
+  "fecha": "2026-11-16",
+  "entorno": "Configuración Django del backend en desarrollo",
+  "algoritmo_preferido": "pbkdf2_sha256",
+  "procedimiento": "django.contrib.auth.hashers.get_hasher().algorithm después de django.setup(); no se consultaron hashes ni registros de usuarios.",
+  "limite": "No acredita el algoritmo de una instalación productiva remota."
+}

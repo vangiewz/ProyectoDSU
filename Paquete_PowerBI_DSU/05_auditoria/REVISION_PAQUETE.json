@@ -1,0 +1,125 @@
+{
+  "fecha": "2026-11-16",
+  "capturas": [
+    {
+      "archivo": "01_powerbi_desktop_estado_actual.png",
+      "ancho": 1536,
+      "alto": 816
+    },
+    {
+      "archivo": "02_dialogo_postgresql_host_pendiente.png",
+      "ancho": 900,
+      "alto": 412
+    },
+    {
+      "archivo": "03_figura169_pestana_sin_publicar.png",
+      "ancho": 2049,
+      "alto": 1152
+    },
+    {
+      "archivo": "04_tablero_web_referencia.png",
+      "ancho": 2049,
+      "alto": 2561
+    },
+    {
+      "archivo": "05_tablero_web_movil.png",
+      "ancho": 780,
+      "alto": 1688
+    },
+    {
+      "archivo": "06_comparacion_periodos_web.png",
+      "ancho": 2049,
+      "alto": 1152
+    },
+    {
+      "archivo": "07_parametros_enlace_powerbi.png",
+      "ancho": 2049,
+      "alto": 1998
+    },
+    {
+      "archivo": "08_periodos_academicos.png",
+      "ancho": 2049,
+      "alto": 1152
+    },
+    {
+      "archivo": "09_predicciones_demo.png",
+      "ancho": 2049,
+      "alto": 2561
+    },
+    {
+      "archivo": "10_recomendaciones_demo.png",
+      "ancho": 2049,
+      "alto": 1394
+    },
+    {
+      "archivo": "11_etl_demo.png",
+      "ancho": 2049,
+      "alto": 1152
+    },
+    {
+      "archivo": "12_powerbi_conectado_informe.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "13_modelo_relaciones_completo.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "13_modelo_relaciones_ordenado.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "14_calendario_importado.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "15_hechos_15430_filas.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "16_incidencias_1_fila.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "17_jornadas_1046_filas.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "18_predicciones_0_filas.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "19_puntos_12_filas.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "20_recomendaciones_8_filas.png",
+      "ancho": 1363,
+      "alto": 680
+    },
+    {
+      "archivo": "21_informe_ampliado_con_datos.png",
+      "ancho": 1363,
+      "alto": 680
+    }
+  ],
+  "medidas": 16,
+  "tablas": 7,
+  "visuales": 1,
+  "json_proyecto_validos": true,
+  "archivos_privados_excluidos": true,
+  "patrones_secretos_detectados": 0,
+  "valores_privados_reales_detectados": 0,
+  "alcance": "Escaneo acotado y selección explícita de archivos; no certifica ejecución funcional del informe.",
+  "docx_sha256": "52875d52179c271a8c62b916375fa0362279af7cd3b7f568b76f38e751c1353b",
+  "pdf_sha256": "0a0e49d705656a3e66d33aa2ff04a96880e2d7e0c3f7677896fe2e424ac5c9cb"
+}

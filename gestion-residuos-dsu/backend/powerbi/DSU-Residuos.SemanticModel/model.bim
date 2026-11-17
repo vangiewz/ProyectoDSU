@@ -30,7 +30,7 @@
             "value": "Text"
           }
         ],
-        "expression": "\"EDITAR-host-de-neon.neon.tech\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "expression": "\"ep-ancient-firefly-b6v6xayn.c-2.sa-east-1.aws.neon.tech\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
         "kind": "m",
         "lineageTag": "14581bdb-dc74-5f66-8f02-2accc320d622"
       },
@@ -146,6 +146,15 @@
             "dataType": "int64",
             "lineageTag": "6ca0419f-e0b3-557b-8e82-e20c85314829",
             "sourceColumn": "Semana",
+            "summarizeBy": "none"
+          },
+          {
+            "type": "calculated",
+            "name": "Año-Mes",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "expression": "FORMAT(Calendario[Fecha], \"yyyy-MM\")",
+            "lineageTag": "e959c8f5-8a9b-5c96-b63b-fbf3eae6592c",
             "summarizeBy": "none"
           }
         ],
@@ -545,6 +554,12 @@
       },
       {
         "name": "bi_incidencias",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
         "columns": [
           {
             "name": "id",

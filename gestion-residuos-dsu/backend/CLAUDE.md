@@ -70,8 +70,8 @@ python manage.py etl [--programado]
 python manage.py entrenar [--n-estimators N --max-depth D --min-samples-leaf L]
 python manage.py medir_rendimiento   # RTR/RCM con 500 puntos y ~100k observaciones; deshace todo al final
 python scripts/carga.py --usuario <u> --clave <c>   # 12 usuarios simultáneos contra un servidor en marcha (RNF4)
-python powerbi/generar.py           # regenera el proyecto de Power BI si cambian las vistas bi_*
-pytest                      # 20 tests; BD de test en Neon reutilizada (--reuse-db en pyproject)
+python powerbi/generar.py           # NO ejecutar sobre el proyecto actual: sobrescribe cambios manuales; ver powerbi/README.md
+pytest                      # configuración histórica usa Neon; para QA aislado usar el runner de fase_final indicado abajo
 ruff check . && ruff format .
 docker compose up -d --build   # producción (app + respaldo diario), solo backend
 
@@ -79,6 +79,8 @@ docker compose up -d --build   # producción (app + respaldo diario), solo backe
 # Correr desde ../ (no desde este repo): graphify update . / graphify query "<pregunta>" --budget 1500
 # El hook SessionStart de Claude es local y no se distribuye en otros clones.
 ```
+
+Para la auditoría sin afectar la demo compartida: desde la raíz del proyecto, `python generador/fase_final/pruebas_aisladas.py` crea su propio PostgreSQL desechable; `pruebas_linux.py` repite la suite sobre la imagen Linux preparada. No ejecutar pytest, migraciones, ETL ni entrenamiento contra Neon por preparar otro clon. Configuración productiva propuesta: `deploy/README.md`; su existencia no acredita despliegue remoto.
 
 ## Cuidado con
 

@@ -1,0 +1,1384 @@
+[
+  {
+    "funcion": "asignar",
+    "cu": 15,
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/services/jornada.py",
+    "sha256": "5109d899797044e161846c2292ebf4f3c68be652b658107b5ae2188dbc1fd79c",
+    "nodos": [
+      {
+        "n": 1,
+        "descripcion": "Entrada y validación de estado",
+        "lineas": [
+          41
+        ]
+      },
+      {
+        "n": 2,
+        "descripcion": "¿Responsable ausente?",
+        "lineas": [
+          42
+        ]
+      },
+      {
+        "n": 3,
+        "descripcion": "¿Responsable fuera del personal?",
+        "lineas": [
+          44
+        ]
+      },
+      {
+        "n": 4,
+        "descripcion": "¿Personal no operativo o inactivo?",
+        "lineas": [
+          47
+        ]
+      },
+      {
+        "n": 5,
+        "descripcion": "¿Vehículos fuera de servicio?",
+        "lineas": [
+          50
+        ]
+      },
+      {
+        "n": 6,
+        "descripcion": "¿Personal ocupado en el turno?",
+        "lineas": [
+          55
+        ]
+      },
+      {
+        "n": 7,
+        "descripcion": "¿Vehículos ocupados en el turno?",
+        "lineas": [
+          60
+        ]
+      },
+      {
+        "n": 8,
+        "descripcion": "Persistir asignación y registrar bitácora",
+        "lineas": [
+          63
+        ]
+      },
+      {
+        "n": 9,
+        "descripcion": "Rechazar mediante ValidationError",
+        "lineas": [
+          43,
+          45,
+          48,
+          51,
+          56,
+          61
+        ]
+      },
+      {
+        "n": 10,
+        "descripcion": "Salida",
+        "lineas": [
+          67
+        ]
+      }
+    ],
+    "aristas": [
+      [
+        1,
+        2,
+        "e1"
+      ],
+      [
+        2,
+        9,
+        "e2: sí"
+      ],
+      [
+        2,
+        3,
+        "e3: no"
+      ],
+      [
+        3,
+        9,
+        "e4: sí"
+      ],
+      [
+        3,
+        4,
+        "e5: no"
+      ],
+      [
+        4,
+        9,
+        "e6: sí"
+      ],
+      [
+        4,
+        5,
+        "e7: no"
+      ],
+      [
+        5,
+        9,
+        "e8: sí"
+      ],
+      [
+        5,
+        6,
+        "e9: no"
+      ],
+      [
+        6,
+        9,
+        "e10: sí"
+      ],
+      [
+        6,
+        7,
+        "e11: no"
+      ],
+      [
+        7,
+        9,
+        "e12: sí"
+      ],
+      [
+        7,
+        8,
+        "e13: no"
+      ],
+      [
+        8,
+        10,
+        "e14"
+      ],
+      [
+        9,
+        10,
+        "e15"
+      ]
+    ],
+    "E": 15,
+    "N": 10,
+    "P": 1,
+    "V": 7,
+    "codigo": " 39: def asignar(request, jornada, personal, vehiculos, responsable):\n 40:     \"\"\"RF13: asigna personal y vehículos validando superposición en el mismo turno.\"\"\"\n 41:     exigir_estado(jornada, E.PLANIFICADA, E.CONFIRMADA)\n 42:     if responsable is None:\n 43:         raise ValidationError({\"responsable\": \"Debe designar un responsable de la jornada.\"})\n 44:     if responsable not in personal:\n 45:         raise ValidationError({\"responsable\": \"El responsable debe formar parte del personal asignado.\"})\n 46:     no_operativos = [u.username for u in personal if not u.is_active or Rol.OPERATIVO not in u.roles]\n 47:     if no_operativos:\n 48:         raise ValidationError({\"personal\": f\"No son personal operativo activo: {', '.join(no_operativos)}.\"})\n 49:     fuera = [v.placa for v in vehiculos if v.estado == Vehiculo.Estado.FUERA_SERVICIO or not v.is_active]\n 50:     if fuera:\n 51:         raise ValidationError({\"vehiculos\": f\"Vehículos fuera de servicio: {', '.join(fuera)}.\"})\n 52: \n 53:     mismo_turno = Jornada.objects.filter(fecha=jornada.fecha, turno=jornada.turno).exclude(pk=jornada.pk)\n 54:     ocupados = set(mismo_turno.filter(personal__in=personal).values_list(\"personal__username\", flat=True))\n 55:     if ocupados:\n 56:         raise ValidationError(\n 57:             {\"personal\": f\"Ya asignados a otra jornada en este turno: {', '.join(sorted(ocupados))}.\"}\n 58:         )\n 59:     v_ocupados = set(mismo_turno.filter(vehiculos__in=vehiculos).values_list(\"vehiculos__placa\", flat=True))\n 60:     if v_ocupados:\n 61:         raise ValidationError({\"vehiculos\": f\"Ya asignados en este turno: {', '.join(sorted(v_ocupados))}.\"})\n 62: \n 63:     jornada.personal.set(personal)\n 64:     jornada.vehiculos.set(vehiculos)\n 65:     jornada.responsable = responsable\n 66:     jornada.save(update_fields=[\"responsable\"])\n 67:     registrar(\n 68:         request,\n 69:         Op.ACTUALIZAR,\n 70:         jornada,\n 71:         detalle=\"Asignación de personal y vehículos\",\n 72:         despues={\n 73:             \"personal\": [u.pk for u in personal],\n 74:             \"vehiculos\": [v.pk for v in vehiculos],\n 75:             \"responsable\": responsable.pk,\n 76:         },\n 77:     )",
+    "caminos": [
+      {
+        "camino": "1–2–9–10",
+        "entrada": "Sin responsable",
+        "salida": "ValidationError; asignación intacta",
+        "tests": [
+          "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[sin_responsable]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–9–10",
+        "entrada": "Responsable fuera de la lista",
+        "salida": "ValidationError; asignación intacta",
+        "tests": [
+          "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–9–10",
+        "entrada": "Operario inactivo",
+        "salida": "ValidationError; asignación intacta",
+        "tests": [
+          "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–9–10",
+        "entrada": "Vehículo fuera de servicio",
+        "salida": "ValidationError; asignación intacta",
+        "tests": [
+          "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–6–9–10",
+        "entrada": "Personal ya asignado en el turno",
+        "salida": "ValidationError; asignación intacta",
+        "tests": [
+          "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–6–7–9–10",
+        "entrada": "Vehículo ya asignado en el turno",
+        "salida": "ValidationError; asignación intacta",
+        "tests": [
+          "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–6–7–8–10",
+        "entrada": "Personal, vehículo y responsable válidos",
+        "salida": "Asignación persistida y auditada",
+        "tests": [
+          "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      }
+    ],
+    "recorridos_observados": [
+      {
+        "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[estado]",
+        "camino": [
+          1,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[sin_responsable]",
+        "camino": [
+          1,
+          2,
+          9,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[fuera_personal]",
+        "camino": [
+          1,
+          2,
+          3,
+          9,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[inactivo]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_fuera]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[personal_ocupado]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[vehiculo_ocupado]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_asignacion_caminos.py::test_caminos_asignacion[valido]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+        "camino": [
+          1,
+          2,
+          9,
+          10
+        ]
+      },
+      {
+        "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      }
+    ],
+    "base_factible": {
+      "metodo": "Rango exacto de vectores de incidencia de aristas mediante eliminación gaussiana racional",
+      "clases_factibles": 7,
+      "rango_factible": 7,
+      "rango_ejecutado": 7,
+      "justificacion": "Seis rechazos explícitos y un recorrido aceptado. Las excepciones de exigir_estado y de persistencia se consideran flujo interno de llamadas, fuera de este grafo.",
+      "recorridos_factibles": [
+        [
+          1,
+          2,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      ]
+    },
+    "alcance": "Flujo explícito de sentencias; llamadas, comprensiones y operaciones de biblioteca se consideran bloques atómicos. Excepciones implícitas no se expanden. La ejecución de una prueba no acredita por sí sola todos los caminos básicos."
+  },
+  {
+    "funcion": "generar",
+    "cu": 28,
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/services/prediccion.py",
+    "sha256": "29600fc51855f9da08de439c110d5f1a40c7a0a795d62612325fadfd182ee3c5",
+    "nodos": [
+      {
+        "n": 1,
+        "descripcion": "Usuario y máximo de horizonte",
+        "lineas": [
+          28
+        ]
+      },
+      {
+        "n": 2,
+        "descripcion": "¿Horizonte inválido?",
+        "lineas": [
+          30
+        ]
+      },
+      {
+        "n": 3,
+        "descripcion": "Modelo vigente y puntos autorizados",
+        "lineas": [
+          32
+        ]
+      },
+      {
+        "n": 4,
+        "descripcion": "¿Queda alcance por validar?",
+        "lineas": [
+          34
+        ]
+      },
+      {
+        "n": 5,
+        "descripcion": "¿Existe el alcance?",
+        "lineas": [
+          35
+        ]
+      },
+      {
+        "n": 6,
+        "descripcion": "Exigir permiso territorial",
+        "lineas": [
+          36
+        ]
+      },
+      {
+        "n": 7,
+        "descripcion": "¿Se filtra por sector?",
+        "lineas": [
+          37
+        ]
+      },
+      {
+        "n": 8,
+        "descripcion": "Filtrar sector",
+        "lineas": [
+          38
+        ]
+      },
+      {
+        "n": 9,
+        "descripcion": "¿Se filtra por punto?",
+        "lineas": [
+          39
+        ]
+      },
+      {
+        "n": 10,
+        "descripcion": "Filtrar punto",
+        "lineas": [
+          40
+        ]
+      },
+      {
+        "n": 11,
+        "descripcion": "Obtener identificadores",
+        "lineas": [
+          41
+        ]
+      },
+      {
+        "n": 12,
+        "descripcion": "¿No hay puntos activos?",
+        "lineas": [
+          42
+        ]
+      },
+      {
+        "n": 13,
+        "descripcion": "Construir estado histórico",
+        "lineas": [
+          47
+        ]
+      },
+      {
+        "n": 14,
+        "descripcion": "¿Histórico vacío?",
+        "lineas": [
+          48
+        ]
+      },
+      {
+        "n": 15,
+        "descripcion": "Construir fechas y días habituales",
+        "lineas": [
+          50
+        ]
+      },
+      {
+        "n": 16,
+        "descripcion": "¿Sin fechas de recolección?",
+        "lineas": [
+          56
+        ]
+      },
+      {
+        "n": 17,
+        "descripcion": "Inferir, calcular margen y persistir",
+        "lineas": [
+          58
+        ]
+      },
+      {
+        "n": 18,
+        "descripcion": "Registrar evento en la bitácora",
+        "lineas": [
+          97
+        ]
+      },
+      {
+        "n": 19,
+        "descripcion": "Rechazo explícito",
+        "lineas": [
+          31,
+          43,
+          49,
+          57
+        ]
+      },
+      {
+        "n": 20,
+        "descripcion": "Salida",
+        "lineas": [
+          104
+        ]
+      }
+    ],
+    "aristas": [
+      [
+        1,
+        2,
+        "e1"
+      ],
+      [
+        2,
+        19,
+        "e2: sí"
+      ],
+      [
+        2,
+        3,
+        "e3: no"
+      ],
+      [
+        3,
+        4,
+        "e4"
+      ],
+      [
+        4,
+        5,
+        "e5: sí"
+      ],
+      [
+        4,
+        7,
+        "e6: no"
+      ],
+      [
+        5,
+        6,
+        "e7: sí"
+      ],
+      [
+        5,
+        4,
+        "e8: no"
+      ],
+      [
+        6,
+        4,
+        "e9"
+      ],
+      [
+        7,
+        8,
+        "e10: sí"
+      ],
+      [
+        7,
+        9,
+        "e11: no"
+      ],
+      [
+        8,
+        9,
+        "e12"
+      ],
+      [
+        9,
+        10,
+        "e13: sí"
+      ],
+      [
+        9,
+        11,
+        "e14: no"
+      ],
+      [
+        10,
+        11,
+        "e15"
+      ],
+      [
+        11,
+        12,
+        "e16"
+      ],
+      [
+        12,
+        19,
+        "e17: sí"
+      ],
+      [
+        12,
+        13,
+        "e18: no"
+      ],
+      [
+        13,
+        14,
+        "e19"
+      ],
+      [
+        14,
+        19,
+        "e20: sí"
+      ],
+      [
+        14,
+        15,
+        "e21: no"
+      ],
+      [
+        15,
+        16,
+        "e22"
+      ],
+      [
+        16,
+        19,
+        "e23: sí"
+      ],
+      [
+        16,
+        17,
+        "e24: no"
+      ],
+      [
+        17,
+        18,
+        "e25"
+      ],
+      [
+        18,
+        20,
+        "e26"
+      ],
+      [
+        19,
+        20,
+        "e27"
+      ]
+    ],
+    "E": 27,
+    "N": 20,
+    "P": 1,
+    "V": 9,
+    "codigo": " 27: def generar(request, horizonte: int, sector=None, punto=None) -> LotePrediccion:\n 28:     user = request.user\n 29:     maximo = ParametrosSistema.actual().horizonte_max_dias\n 30:     if not 1 <= horizonte <= maximo:\n 31:         raise ValidationError({\"horizonte\": f\"El horizonte debe estar entre 1 y {maximo} días.\"})\n 32:     modelo = entrenamiento.vigente()\n 33:     puntos = filtrar_por_sector(PuntoRecoleccion.objects.filter(is_active=True), user, \"sector\")\n 34:     for alcance in (sector, punto.sector if punto else None):\n 35:         if alcance:\n 36:             exigir_sector(user, alcance)\n 37:     if sector:\n 38:         puntos = puntos.filter(sector=sector)\n 39:     if punto:\n 40:         puntos = puntos.filter(pk=punto.pk)\n 41:     ids = list(puntos.values_list(\"pk\", flat=True))\n 42:     if not ids:\n 43:         raise ValidationError(\"No hay puntos activos en el alcance indicado.\")\n 44: \n 45:     # Paso 2: estado histórico de cada punto y variables temporales de las fechas futuras.\n 46:     hoy = timezone.localdate()\n 47:     estado = datos.estado_actual(hoy, ids)\n 48:     if estado.empty:\n 49:         raise ValidationError(\"Los puntos del alcance carecen de historial reciente suficiente para predecir.\")\n 50:     habituales = datos.dias_habituales(hoy, ids)\n 51:     fechas = pd.date_range(hoy + timedelta(days=1), periods=horizonte)\n 52:     filas = estado.merge(pd.DataFrame({\"fecha\": fechas}), how=\"cross\")\n 53:     filas = filas[\n 54:         [d in habituales.get(p, ()) for p, d in zip(filas[\"punto_id\"], filas[\"fecha\"].dt.dayofweek, strict=True)]\n 55:     ]\n 56:     if filas.empty:\n 57:         raise ValidationError(\"En el horizonte solicitado no hay días de recolección habitual para estos puntos.\")\n 58:     filas = datos.con_temporales(filas.reset_index(drop=True))\n 59: \n 60:     # Paso 3: inferencia con el modelo publicado.\n 61:     estimado = entrenamiento.cargar(modelo.pk).predict(filas[modelo.variables]).clip(min=0)\n 62:     margen = Decimal(str(round(modelo.rmse, 3)))\n 63:     filas[\"cantidad_kg\"] = estimado.round(3)\n 64:     filas[\"margen_kg\"] = float(margen)\n 65:     filas[\"fecha\"] = filas[\"fecha\"].dt.date\n 66:     omitidos = list(puntos.exclude(pk__in=set(estado[\"punto_id\"])).values_list(\"codigo\", flat=True))\n 67: \n 68:     # Paso 4: almacenamiento con la versión del modelo y entrega a las recomendaciones.\n 69:     with transaction.atomic():\n 70:         lote = LotePrediccion.objects.create(\n 71:             modelo=modelo,\n 72:             solicitado_por=user,\n 73:             desde=fechas[0].date(),\n 74:             hasta=fechas[-1].date(),\n 75:             sector=sector,\n 76:             punto=punto,\n 77:             puntos_omitidos=omitidos,\n 78:         )\n 79:         Prediccion.objects.bulk_create(\n 80:             (\n 81:                 Prediccion(\n 82:                     lote=lote,\n 83:                     punto_id=int(f.punto_id),\n 84:                     sector_id=int(f.sector_id),\n 85:                     tipo_residuo_id=int(f.tipo_residuo_id),\n 86:                     fecha=f.fecha,\n 87:                     cantidad_kg=Decimal(str(f.cantidad_kg)),\n 88:                     margen_kg=margen,\n 89:                 )\n 90:                 for f in filas.itertuples()\n 91:             ),\n 92:             batch_size=2000,\n 93:         )\n 94:         emitidas = recomendaciones.evaluar(\n 95:             lote, filas[[\"punto_id\", \"tipo_residuo_id\", \"fecha\", \"cantidad_kg\", \"margen_kg\"]]\n 96:         )\n 97:     registrar(\n 98:         request,\n 99:         AuditLog.Operacion.PROCESO,\n100:         lote,\n101:         detalle=f\"Predicción {lote.desde:%d/%m}–{lote.hasta:%d/%m} con el modelo v{modelo.version}: \"\n102:         f\"{len(ids) - len(omitidos)} punto(s), {len(emitidas)} recomendación(es)\",\n103:     )\n104:     return lote",
+    "caminos": [
+      {
+        "camino": "1–2–19–20",
+        "entrada": "Horizonte cero o superior al máximo",
+        "salida": "ValidationError sin lote",
+        "tests": [
+          "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–4–5–4–7–9–11–12–19–20",
+        "entrada": "Sin filtros; puntos inactivos",
+        "salida": "ValidationError sin lote",
+        "tests": [
+          "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–4–5–4–7–9–11–12–13–14–19–20",
+        "entrada": "Puntos activos sin histórico",
+        "salida": "ValidationError sin lote",
+        "tests": [
+          "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–4–5–4–7–9–11–12–13–14–15–16–19–20",
+        "entrada": "Sin días habituales en el horizonte",
+        "salida": "ValidationError sin lote",
+        "tests": [
+          "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–4–5–4–7–9–11–12–13–14–15–16–17–18–20",
+        "entrada": "Histórico suficiente y modelo vigente",
+        "salida": "Lote con versión y margen",
+        "tests": [
+          "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–6–4–5–4–7–8–9–11–12–13–14–15–16–17–18–20",
+        "entrada": "Filtro por sector válido",
+        "salida": "Lote del sector autorizado",
+        "tests": [
+          "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–4–5–6–4–7–9–10–11–12–13–14–15–16–17–18–20",
+        "entrada": "Filtro por punto válido",
+        "salida": "Lote del punto autorizado",
+        "tests": [
+          "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      },
+      {
+        "camino": "1–2–3–4–5–6–4–5–6–4–7–8–9–10–11–12–13–14–15–16–17–18–20",
+        "entrada": "Sector y punto compatibles",
+        "salida": "Lote restringido a ambos filtros",
+        "tests": [
+          "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]"
+        ],
+        "evidencia": "Recorrido contrastado con la traza"
+      }
+    ],
+    "recorridos_observados": [
+      {
+        "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+        "camino": [
+          1,
+          2,
+          19,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+        "camino": [
+          1,
+          2,
+          3,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+        "camino": [
+          1,
+          2,
+          19,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_cero]",
+        "camino": [
+          1,
+          2,
+          19,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[horizonte_excesivo]",
+        "camino": [
+          1,
+          2,
+          19,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_puntos]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          19,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_historia]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14,
+          19,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sin_dias]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_rechazos_prediccion[sector_ajeno]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[sector]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          4,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[punto]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          6,
+          4,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "test": "apps/prediction/tests/test_prediccion_caminos.py::test_prediccion_con_filtros[ambos]",
+        "camino": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      }
+    ],
+    "base_factible": {
+      "metodo": "Rango exacto de vectores de incidencia de aristas mediante eliminación gaussiana racional",
+      "clases_factibles": 17,
+      "rango_factible": 7,
+      "rango_ejecutado": 7,
+      "justificacion": "El bucle recorre exactamente (sector, punto.sector si hay punto). PuntoRecoleccion.sector no admite nulo. Por tanto, las decisiones de existencia del alcance están ligadas a los filtros posteriores. Se enumeran cuatro combinaciones de filtros por cuatro desenlaces posteriores, más el rechazo de horizonte: 17 clases de recorrido del flujo explícito.",
+      "recorridos_factibles": [
+        [
+          1,
+          2,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          4,
+          7,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          6,
+          4,
+          7,
+          9,
+          10,
+          11,
+          12,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          6,
+          4,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          6,
+          4,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5,
+          6,
+          4,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          4,
+          7,
+          8,
+          9,
+          11,
+          12,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          4,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          4,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          4,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          4,
+          5,
+          6,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ]
+      ]
+    },
+    "alcance": "Flujo explícito de sentencias; llamadas, comprensiones y operaciones de biblioteca se consideran bloques atómicos. Excepciones implícitas no se expanden. La ejecución de una prueba no acredita por sí sola todos los caminos básicos."
+  }
+]

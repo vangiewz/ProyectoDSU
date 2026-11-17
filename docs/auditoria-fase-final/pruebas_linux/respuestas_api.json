@@ -1,0 +1,2337 @@
+[
+  {
+    "test": "apps/accounts/tests/test_acceso.py::test_login_emite_tokens_y_registra_bitacora",
+    "metodo": "POST",
+    "ruta": "/api/auth/login/",
+    "consulta": {},
+    "entrada": "[consultar entrada en el caso de prueba]",
+    "estado": 200,
+    "respuesta": {
+      "refresh": "[omitido]",
+      "access": "[omitido]"
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_acceso.py::test_login_emite_tokens_y_registra_bitacora",
+    "metodo": "POST",
+    "ruta": "/api/auth/login/",
+    "consulta": {},
+    "entrada": "[consultar entrada en el caso de prueba]",
+    "estado": 401,
+    "respuesta": {
+      "detail": "No active account found with the given credentials"
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_acceso.py::test_cuenta_desactivada_no_ingresa",
+    "metodo": "POST",
+    "ruta": "/api/usuarios/8/desactivar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "id": 8,
+      "username": "oper_t",
+      "first_name": "oper_t",
+      "last_name": "",
+      "email": "",
+      "ci": "",
+      "telefono": "",
+      "roles": [
+        "Operativo"
+      ],
+      "is_active": false,
+      "last_login": null,
+      "date_joined": "2026-11-16T03:42:09.742626-04:00"
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_acceso.py::test_cuenta_desactivada_no_ingresa",
+    "metodo": "POST",
+    "ruta": "/api/auth/login/",
+    "consulta": {},
+    "entrada": "[consultar entrada en el caso de prueba]",
+    "estado": 401,
+    "respuesta": {
+      "detail": "No active account found with the given credentials"
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_acceso.py::test_operativo_no_administra_usuarios",
+    "metodo": "GET",
+    "ruta": "/api/usuarios/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_acceso.py::test_operativo_no_administra_usuarios",
+    "metodo": "GET",
+    "ruta": "/api/usuarios/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "count": 4,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 9,
+          "username": "admin_t",
+          "first_name": "admin_t",
+          "last_name": "",
+          "email": "",
+          "ci": "",
+          "telefono": "",
+          "roles": [
+            "Administrador"
+          ],
+          "is_active": true,
+          "last_login": null,
+          "date_joined": "2026-11-16T03:42:10.078537-04:00"
+        },
+        {
+          "id": 12,
+          "username": "oper_t",
+          "first_name": "oper_t",
+          "last_name": "",
+          "email": "",
+          "ci": "",
+          "telefono": "",
+          "roles": [
+            "Operativo"
+          ],
+          "is_active": true,
+          "last_login": null,
+          "date_joined": "2026-11-16T03:42:10.433460-04:00"
+        },
+        {
+          "id": 11,
+          "username": "super2_t",
+          "first_name": "super2_t",
+          "last_name": "",
+          "email": "",
+          "ci": "",
+          "telefono": "",
+          "roles": [
+            "Supervisor"
+          ],
+          "is_active": true,
+          "last_login": null,
+          "date_joined": "2026-11-16T03:42:10.314409-04:00"
+        },
+        {
+          "id": 10,
+          "username": "super_t",
+          "first_name": "super_t",
+          "last_name": "",
+          "email": "",
+          "ci": "",
+          "telefono": "",
+          "roles": [
+            "Supervisor"
+          ],
+          "is_active": true,
+          "last_login": null,
+          "date_joined": "2026-11-16T03:42:10.198810-04:00"
+        }
+      ]
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_acceso.py::test_crear_usuario_valida_politica_de_contrasena",
+    "metodo": "POST",
+    "ruta": "/api/usuarios/",
+    "consulta": {},
+    "entrada": {
+      "username": "nuevo",
+      "first_name": "N",
+      "last_name": "U",
+      "roles": [
+        "Operativo"
+      ],
+      "password": "[omitido]"
+    },
+    "estado": 400,
+    "respuesta": {
+      "non_field_errors": [
+        "La contraseña es demasiado corta. Debe contener por lo menos 8 caracteres.",
+        "Esta contraseña es demasiado común.",
+        "Esta contraseña es completamente numérica."
+      ]
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_acceso.py::test_crear_usuario_valida_politica_de_contrasena",
+    "metodo": "POST",
+    "ruta": "/api/usuarios/",
+    "consulta": {},
+    "entrada": {
+      "username": "nuevo",
+      "first_name": "N",
+      "last_name": "U",
+      "roles": [
+        "Operativo"
+      ],
+      "password": "[omitido]"
+    },
+    "estado": 201,
+    "respuesta": {
+      "id": 17,
+      "username": "nuevo",
+      "first_name": "N",
+      "last_name": "U",
+      "email": "",
+      "ci": "",
+      "telefono": "",
+      "roles": [
+        "Operativo"
+      ],
+      "is_active": true,
+      "last_login": null,
+      "date_joined": "2026-11-16T03:42:11.268663-04:00"
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_cabeceras_seguridad.py::test_cors_del_cliente_autorizado_no_se_rompe",
+    "metodo": "GET",
+    "ruta": "/api/auth/me/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "id": 23,
+      "username": "super_t",
+      "first_name": "super_t",
+      "last_name": "",
+      "email": "",
+      "is_superuser": false,
+      "roles": [
+        "Supervisor"
+      ],
+      "permisos": [
+        "accounts.view_user",
+        "analytics.generar_reporte",
+        "analytics.view_hechoresiduo",
+        "campus.add_contenedor",
+        "campus.add_puntorecoleccion",
+        "campus.change_contenedor",
+        "campus.change_puntorecoleccion",
+        "campus.change_sector",
+        "campus.view_contenedor",
+        "campus.view_puntorecoleccion",
+        "campus.view_sector",
+        "catalogs.view_periodoacademico",
+        "catalogs.view_tiporesiduo",
+        "catalogs.view_unidadmedida",
+        "operations.add_incidencia",
+        "operations.add_jornada",
+        "operations.add_registroresiduo",
+        "operations.add_vehiculo",
+        "operations.asignar_jornada",
+        "operations.atender_incidencia",
+        "operations.cerrar_jornada",
+        "operations.change_jornada",
+        "operations.change_vehiculo",
+        "operations.ejecutar_jornada",
+        "operations.view_incidencia",
+        "operations.view_jornada",
+        "operations.view_registroresiduo",
+        "operations.view_vehiculo",
+        "prediction.generar_prediccion",
+        "prediction.resolver_recomendacion",
+        "prediction.view_prediccion",
+        "prediction.view_recomendacion"
+      ]
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_cabeceras_seguridad.py::test_cors_del_cliente_autorizado_no_se_rompe",
+    "metodo": "GET",
+    "ruta": "/api/auth/me/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "id": 23,
+      "username": "super_t",
+      "first_name": "super_t",
+      "last_name": "",
+      "email": "",
+      "is_superuser": false,
+      "roles": [
+        "Supervisor"
+      ],
+      "permisos": [
+        "accounts.view_user",
+        "analytics.generar_reporte",
+        "analytics.view_hechoresiduo",
+        "campus.add_contenedor",
+        "campus.add_puntorecoleccion",
+        "campus.change_contenedor",
+        "campus.change_puntorecoleccion",
+        "campus.change_sector",
+        "campus.view_contenedor",
+        "campus.view_puntorecoleccion",
+        "campus.view_sector",
+        "catalogs.view_periodoacademico",
+        "catalogs.view_tiporesiduo",
+        "catalogs.view_unidadmedida",
+        "operations.add_incidencia",
+        "operations.add_jornada",
+        "operations.add_registroresiduo",
+        "operations.add_vehiculo",
+        "operations.asignar_jornada",
+        "operations.atender_incidencia",
+        "operations.cerrar_jornada",
+        "operations.change_jornada",
+        "operations.change_vehiculo",
+        "operations.ejecutar_jornada",
+        "operations.view_incidencia",
+        "operations.view_jornada",
+        "operations.view_registroresiduo",
+        "operations.view_vehiculo",
+        "prediction.generar_prediccion",
+        "prediction.resolver_recomendacion",
+        "prediction.view_prediccion",
+        "prediction.view_recomendacion"
+      ]
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_logout_revoca_refresh_y_conserva_evidencia",
+    "metodo": "POST",
+    "ruta": "/api/auth/login/",
+    "consulta": {},
+    "entrada": "[consultar entrada en el caso de prueba]",
+    "estado": 200,
+    "respuesta": {
+      "refresh": "[omitido]",
+      "access": "[omitido]"
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_logout_revoca_refresh_y_conserva_evidencia",
+    "metodo": "POST",
+    "ruta": "/api/auth/logout/",
+    "consulta": {},
+    "entrada": "[consultar entrada en el caso de prueba]",
+    "estado": 205,
+    "respuesta": {
+      "tipo": null,
+      "bytes": 0,
+      "firma": ""
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_logout_revoca_refresh_y_conserva_evidencia",
+    "metodo": "POST",
+    "ruta": "/api/auth/refresh/",
+    "consulta": {},
+    "entrada": "[consultar entrada en el caso de prueba]",
+    "estado": 401,
+    "respuesta": {
+      "detail": "Token is blacklisted",
+      "code": "token_not_valid"
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "metodo": "GET",
+    "ruta": "/api/puntos/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "count": 2,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 1,
+          "sector_nombre": "Sector 1",
+          "estado_display": "Operativo",
+          "capacidad_contenedores_litros": null,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "referencia": "",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "capacidad_kg": "100.00",
+          "estado": "OPERATIVO",
+          "is_active": true,
+          "motivo_baja": "",
+          "sector": 1
+        },
+        {
+          "id": 2,
+          "sector_nombre": "Sector 1",
+          "estado_display": "Operativo",
+          "capacidad_contenedores_litros": null,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "referencia": "",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "capacidad_kg": "100.00",
+          "estado": "OPERATIVO",
+          "is_active": true,
+          "motivo_baja": "",
+          "sector": 1
+        }
+      ]
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "metodo": "GET",
+    "ruta": "/api/predicciones/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "count": 0,
+      "next": null,
+      "previous": null,
+      "results": []
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "metodo": "POST",
+    "ruta": "/api/predicciones/",
+    "consulta": {},
+    "entrada": {
+      "horizonte": 0
+    },
+    "estado": 400,
+    "respuesta": {
+      "horizonte": "El horizonte debe estar entre 1 y 30 días."
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "metodo": "POST",
+    "ruta": "/api/sectores/",
+    "consulta": {},
+    "entrada": {
+      "codigo": "NO",
+      "nombre": "No permitido"
+    },
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_roles_y_sesion.py::test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+    "metodo": "POST",
+    "ruta": "/api/incidencias/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_indicadores_exigen_etl_y_calculan_kpis",
+    "metodo": "GET",
+    "ruta": "/api/analitica/indicadores/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ]
+    },
+    "entrada": {},
+    "estado": 400,
+    "respuesta": [
+      "Aún no hay información analítica: ejecute el proceso ETL al menos una vez."
+    ]
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_indicadores_exigen_etl_y_calculan_kpis",
+    "metodo": "GET",
+    "ruta": "/api/analitica/indicadores/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "alcance": {
+        "desde": "2026-09-01",
+        "hasta": "2026-09-30",
+        "dias": 30
+      },
+      "total_kg": "42.500",
+      "total_litros": "0",
+      "variacion_kg_pct": null,
+      "periodo_anterior": {
+        "desde": "2026-08-02",
+        "hasta": "2026-08-31",
+        "total_kg": "0"
+      },
+      "promedio_kg_por_punto": "21.25",
+      "promedio_kg_por_sector": "42.50",
+      "sector_mayor_generacion": {
+        "sector_id": 4,
+        "sector__codigo": "S1",
+        "sector__nombre": "Sector 1",
+        "total": "42.500"
+      },
+      "tipo_predominante": {
+        "tipo_residuo_id": 4,
+        "tipo_residuo__nombre": "Orgánico",
+        "magnitud": "PESO",
+        "total": "42.500"
+      },
+      "recolecciones_realizadas": 1,
+      "frecuencia_semanal_por_punto": 0.12,
+      "cobertura_pct": 50.0,
+      "puntos_criticos": [],
+      "umbral_critico_kg_dia": "20.00",
+      "registros": 2,
+      "atipicos": 0,
+      "por_sector": [
+        {
+          "sector_id": 4,
+          "sector__codigo": "S1",
+          "sector__nombre": "Sector 1",
+          "total": "42.500"
+        }
+      ],
+      "por_tipo": [
+        {
+          "tipo_residuo_id": 4,
+          "tipo_residuo__nombre": "Orgánico",
+          "magnitud": "PESO",
+          "total": "42.500"
+        }
+      ],
+      "por_punto": [
+        {
+          "punto_id": 7,
+          "punto__codigo": "P1",
+          "punto__nombre": "Punto 1",
+          "sector__nombre": "Sector 1",
+          "total": "40.000"
+        },
+        {
+          "punto_id": 8,
+          "punto__codigo": "P2",
+          "punto__nombre": "Punto 2",
+          "sector__nombre": "Sector 1",
+          "total": "2.500"
+        }
+      ],
+      "serie": [
+        {
+          "etiqueta": "2026-09-01",
+          "total": "42.500"
+        }
+      ],
+      "serie_por": "dia"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_indicadores_exigen_etl_y_calculan_kpis",
+    "metodo": "GET",
+    "ruta": "/api/analitica/indicadores/",
+    "consulta": {
+      "desde": [
+        "2026-09-30"
+      ],
+      "hasta": [
+        "2026-09-01"
+      ]
+    },
+    "entrada": {},
+    "estado": 400,
+    "respuesta": [
+      "El rango de fechas es inválido: 'desde' es posterior a 'hasta'."
+    ]
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_punto_critico_segun_umbral_configurable",
+    "metodo": "PATCH",
+    "ruta": "/api/parametros/",
+    "consulta": {},
+    "entrada": {
+      "umbral_critico_kg_dia": "0"
+    },
+    "estado": 400,
+    "respuesta": {
+      "umbral_critico_kg_dia": [
+        "Asegúrese de que este valor es mayor o igual a 0.1."
+      ]
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_punto_critico_segun_umbral_configurable",
+    "metodo": "PATCH",
+    "ruta": "/api/parametros/",
+    "consulta": {},
+    "entrada": {
+      "umbral_critico_kg_dia": "1"
+    },
+    "estado": 200,
+    "respuesta": {
+      "umbral_critico_kg_dia": "1.00",
+      "tolerancia_capacidad": "1.50",
+      "etl_periodicidad_horas": 24,
+      "etl_umbral_observados_pct": "10.00",
+      "min_registros_entrenamiento": 1000,
+      "umbral_r2_modelo": "0.600",
+      "horizonte_max_dias": 30,
+      "alerta_capacidad_pct": "80.00",
+      "crecimiento_alerta_pct": "20.00",
+      "no_aprovechable_max_pct": "40.00",
+      "url_powerbi": "",
+      "actualizado_en": "2026-11-16T03:42:16.364572-04:00",
+      "actualizado_por": 47
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_punto_critico_segun_umbral_configurable",
+    "metodo": "GET",
+    "ruta": "/api/analitica/mapa/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "alcance": {
+        "desde": "2026-09-01",
+        "hasta": "2026-09-30",
+        "dias": 30
+      },
+      "maximo_kg": "40.000",
+      "umbral_critico_kg_dia": "1.00",
+      "puntos": [
+        {
+          "id": 9,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "sector": "Sector 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "capacidad_kg": "100.00",
+          "total_kg": "40.000",
+          "promedio_dia_kg": "1.33",
+          "peso": 1.0,
+          "critico": true,
+          "ultima_atencion": "2026-09-01 13:00:00+00:00"
+        },
+        {
+          "id": 10,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "sector": "Sector 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "capacidad_kg": "100.00",
+          "total_kg": "2.500",
+          "promedio_dia_kg": "0.08",
+          "peso": 0.0625,
+          "critico": false,
+          "ultima_atencion": null
+        }
+      ],
+      "registros": 2
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_punto_critico_segun_umbral_configurable",
+    "metodo": "PATCH",
+    "ruta": "/api/parametros/",
+    "consulta": {},
+    "entrada": {
+      "--BoUnDaRyStRiNg\r\nContent-Disposition: form-data; name": [
+        "\"umbral_critico_kg_dia\"\r\n\r\n5\r\n--BoUnDaRyStRiNg--\r\n"
+      ]
+    },
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_comparacion_rechaza_periodos_superpuestos",
+    "metodo": "GET",
+    "ruta": "/api/analitica/comparacion/",
+    "consulta": {
+      "base_desde": [
+        "2026-08-01"
+      ],
+      "base_hasta": [
+        "2026-09-15"
+      ],
+      "comp_desde": [
+        "2026-09-01"
+      ],
+      "comp_hasta": [
+        "2026-09-30"
+      ]
+    },
+    "entrada": {},
+    "estado": 400,
+    "respuesta": [
+      "Los periodos seleccionados se superponen."
+    ]
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_comparacion_rechaza_periodos_superpuestos",
+    "metodo": "GET",
+    "ruta": "/api/analitica/comparacion/",
+    "consulta": {
+      "base_desde": [
+        "2026-08-01"
+      ],
+      "base_hasta": [
+        "2026-08-31"
+      ],
+      "comp_desde": [
+        "2026-09-01"
+      ],
+      "comp_hasta": [
+        "2026-09-30"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "base": {
+        "desde": "2026-08-01",
+        "hasta": "2026-08-31"
+      },
+      "comparacion": {
+        "desde": "2026-09-01",
+        "hasta": "2026-09-30"
+      },
+      "sector": [
+        {
+          "id": 6,
+          "nombre": "Sector 1",
+          "base_kg": "0",
+          "comparacion_kg": "42.500",
+          "variacion_kg": "42.500",
+          "variacion_pct": null,
+          "tendencia_creciente": false
+        }
+      ],
+      "punto": [
+        {
+          "id": 11,
+          "nombre": "P1",
+          "base_kg": "0",
+          "comparacion_kg": "40.000",
+          "variacion_kg": "40.000",
+          "variacion_pct": null,
+          "tendencia_creciente": false
+        },
+        {
+          "id": 12,
+          "nombre": "P2",
+          "base_kg": "0",
+          "comparacion_kg": "2.500",
+          "variacion_kg": "2.500",
+          "variacion_pct": null,
+          "tendencia_creciente": false
+        }
+      ],
+      "tipo": [
+        {
+          "id": 6,
+          "nombre": "Orgánico",
+          "base_kg": "0",
+          "comparacion_kg": "42.500",
+          "variacion_kg": "42.500",
+          "variacion_pct": null,
+          "tendencia_creciente": false
+        }
+      ]
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[xlsx-PK]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/generacion-sector/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "xlsx"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 5333,
+      "firma": "PK\u0003\u0004"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[xlsx-PK]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/generacion-tipo/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "xlsx"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 5347,
+      "firma": "PK\u0003\u0004"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[xlsx-PK]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/cumplimiento-jornadas/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "xlsx"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 5484,
+      "firma": "PK\u0003\u0004"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[xlsx-PK]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/incidencias/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "xlsx"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 5338,
+      "firma": "PK\u0003\u0004"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[xlsx-PK]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/indicadores/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "xlsx"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 5612,
+      "firma": "PK\u0003\u0004"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[xlsx-PK]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/indicadores/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "xlsx"
+      ]
+    },
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[pdf-%PDF]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/generacion-sector/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "pdf"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/pdf",
+      "bytes": 1687,
+      "firma": "%PDF"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[pdf-%PDF]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/generacion-tipo/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "pdf"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/pdf",
+      "bytes": 1694,
+      "firma": "%PDF"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[pdf-%PDF]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/cumplimiento-jornadas/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "pdf"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/pdf",
+      "bytes": 1896,
+      "firma": "%PDF"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[pdf-%PDF]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/incidencias/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "pdf"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/pdf",
+      "bytes": 1604,
+      "firma": "%PDF"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[pdf-%PDF]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/indicadores/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "pdf"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/pdf",
+      "bytes": 2218,
+      "firma": "%PDF"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[pdf-%PDF]",
+    "metodo": "GET",
+    "ruta": "/api/reportes/indicadores/",
+    "consulta": {
+      "desde": [
+        "2026-09-01"
+      ],
+      "hasta": [
+        "2026-09-30"
+      ],
+      "formato": [
+        "pdf"
+      ]
+    },
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_etl_bajo_demanda_requiere_permiso",
+    "metodo": "POST",
+    "ruta": "/api/etl/ejecutar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_etl_bajo_demanda_requiere_permiso",
+    "metodo": "POST",
+    "ruta": "/api/etl/ejecutar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 409,
+    "respuesta": {
+      "detail": "Ya hay una ejecución del ETL en curso."
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_enlace_powerbi_solo_de_app_powerbi",
+    "metodo": "PATCH",
+    "ruta": "/api/parametros/",
+    "consulta": {},
+    "entrada": {
+      "url_powerbi": "https://otro.sitio/informe"
+    },
+    "estado": 400,
+    "respuesta": {
+      "url_powerbi": [
+        "Debe ser un enlace de app.powerbi.com."
+      ]
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_enlace_powerbi_solo_de_app_powerbi",
+    "metodo": "PATCH",
+    "ruta": "/api/parametros/",
+    "consulta": {},
+    "entrada": {
+      "url_powerbi": "https://app.powerbi.com/reportEmbed?reportId=abc&autoAuth=true"
+    },
+    "estado": 200,
+    "respuesta": {
+      "umbral_critico_kg_dia": "20.00",
+      "tolerancia_capacidad": "1.50",
+      "etl_periodicidad_horas": 24,
+      "etl_umbral_observados_pct": "10.00",
+      "min_registros_entrenamiento": 1000,
+      "umbral_r2_modelo": "0.600",
+      "horizonte_max_dias": 30,
+      "alerta_capacidad_pct": "80.00",
+      "crecimiento_alerta_pct": "20.00",
+      "no_aprovechable_max_pct": "40.00",
+      "url_powerbi": "https://app.powerbi.com/reportEmbed?reportId=abc&autoAuth=true",
+      "actualizado_en": "2026-11-16T03:42:22.670428-04:00",
+      "actualizado_por": 67
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_enlace_powerbi_solo_de_app_powerbi",
+    "metodo": "GET",
+    "ruta": "/api/analitica/powerbi/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "url": "https://app.powerbi.com/reportEmbed?reportId=abc&autoAuth=true"
+    }
+  },
+  {
+    "test": "apps/analytics/tests/test_analitica.py::test_enlace_powerbi_solo_de_app_powerbi",
+    "metodo": "GET",
+    "ruta": "/api/analitica/powerbi/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/",
+    "consulta": {},
+    "entrada": {
+      "fecha": "2026-11-16",
+      "turno": "MANANA",
+      "sector": 20,
+      "puntos": [
+        35,
+        36
+      ]
+    },
+    "estado": 201,
+    "respuesta": {
+      "id": 19,
+      "ruta": [
+        {
+          "id": 17,
+          "punto": 35,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 1,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        },
+        {
+          "id": 18,
+          "punto": 36,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 2,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        }
+      ],
+      "sector_nombre": "Sector 1",
+      "turno_display": "Mañana",
+      "estado_display": "Planificada",
+      "responsable_nombre": null,
+      "personal_detalle": [],
+      "fecha": "2026-11-16",
+      "turno": "MANANA",
+      "estado": "PLANIFICADA",
+      "descripcion": "",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "observaciones_cierre": "",
+      "creada_en": "2026-11-16T03:42:27.289172-04:00",
+      "sector": 20,
+      "planificada_por": 104,
+      "responsable": null,
+      "personal": [],
+      "vehiculos": []
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/",
+    "consulta": {},
+    "entrada": {
+      "fecha": "2026-11-16",
+      "turno": "MANANA",
+      "sector": 20,
+      "puntos": [
+        35
+      ]
+    },
+    "estado": 400,
+    "respuesta": {
+      "non_field_errors": [
+        "Los campos fecha, turno, sector deben formar un conjunto único."
+      ]
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/asignar/",
+    "consulta": {},
+    "entrada": {
+      "personal": [
+        106
+      ],
+      "responsable": null
+    },
+    "estado": 400,
+    "respuesta": {
+      "responsable": "Debe designar un responsable de la jornada."
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/asignar/",
+    "consulta": {},
+    "entrada": {
+      "personal": [
+        106
+      ],
+      "responsable": 106
+    },
+    "estado": 200,
+    "respuesta": {
+      "id": 19,
+      "ruta": [
+        {
+          "id": 17,
+          "punto": 35,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 1,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        },
+        {
+          "id": 18,
+          "punto": 36,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 2,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        }
+      ],
+      "sector_nombre": "Sector 1",
+      "turno_display": "Mañana",
+      "estado_display": "Planificada",
+      "responsable_nombre": "oper_t",
+      "personal_detalle": [
+        {
+          "id": 106,
+          "nombre": "oper_t"
+        }
+      ],
+      "puntos_planificados": 2,
+      "puntos_atendidos": 0,
+      "fecha": "2026-11-16",
+      "turno": "MANANA",
+      "estado": "PLANIFICADA",
+      "descripcion": "",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "observaciones_cierre": "",
+      "creada_en": "2026-11-16T03:42:27.289172-04:00",
+      "sector": 20,
+      "planificada_por": 104,
+      "responsable": 106,
+      "personal": [
+        106
+      ],
+      "vehiculos": []
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/confirmar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "id": 19,
+      "ruta": [
+        {
+          "id": 17,
+          "punto": 35,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 1,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        },
+        {
+          "id": 18,
+          "punto": 36,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 2,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        }
+      ],
+      "sector_nombre": "Sector 1",
+      "turno_display": "Mañana",
+      "estado_display": "Confirmada",
+      "responsable_nombre": "oper_t",
+      "personal_detalle": [
+        {
+          "id": 106,
+          "nombre": "oper_t"
+        }
+      ],
+      "puntos_planificados": 2,
+      "puntos_atendidos": 0,
+      "fecha": "2026-11-16",
+      "turno": "MANANA",
+      "estado": "CONFIRMADA",
+      "descripcion": "",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "observaciones_cierre": "",
+      "creada_en": "2026-11-16T03:42:27.289172-04:00",
+      "sector": 20,
+      "planificada_por": 104,
+      "responsable": 106,
+      "personal": [
+        106
+      ],
+      "vehiculos": []
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/abrir/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "id": 19,
+      "ruta": [
+        {
+          "id": 17,
+          "punto": 35,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 1,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        },
+        {
+          "id": 18,
+          "punto": 36,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 2,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        }
+      ],
+      "sector_nombre": "Sector 1",
+      "turno_display": "Mañana",
+      "estado_display": "En ejecución",
+      "responsable_nombre": "oper_t",
+      "personal_detalle": [
+        {
+          "id": 106,
+          "nombre": "oper_t"
+        }
+      ],
+      "puntos_planificados": 2,
+      "puntos_atendidos": 0,
+      "fecha": "2026-11-16",
+      "turno": "MANANA",
+      "estado": "EN_EJECUCION",
+      "descripcion": "",
+      "hora_inicio": "2026-11-16T03:42:27.508889-04:00",
+      "hora_fin": null,
+      "observaciones_cierre": "",
+      "creada_en": "2026-11-16T03:42:27.289172-04:00",
+      "sector": 20,
+      "planificada_por": 104,
+      "responsable": 106,
+      "personal": [
+        106
+      ],
+      "vehiculos": []
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/visitas/",
+    "consulta": {},
+    "entrada": {
+      "punto": 35,
+      "detalles": [
+        {
+          "tipo_residuo": 18,
+          "cantidad": "0"
+        }
+      ]
+    },
+    "estado": 400,
+    "respuesta": {
+      "detalles": {
+        "0": {
+          "cantidad": [
+            "Asegúrese de que este valor es mayor o igual a 0.001."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/visitas/",
+    "consulta": {},
+    "entrada": {
+      "punto": 35,
+      "detalles": [
+        {
+          "tipo_residuo": 18,
+          "cantidad": "151"
+        }
+      ]
+    },
+    "estado": 400,
+    "respuesta": {
+      "detalles": "151.00 kg excede de forma manifiesta la capacidad del punto (100.00 kg)."
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/visitas/",
+    "consulta": {},
+    "entrada": {
+      "punto": 35,
+      "detalles": [
+        {
+          "tipo_residuo": 18,
+          "cantidad": "35.5"
+        }
+      ]
+    },
+    "estado": 201,
+    "respuesta": [
+      {
+        "id": 25,
+        "punto_codigo": "P1",
+        "sector": "Sector 1",
+        "tipo_residuo_nombre": "Orgánico",
+        "unidad_simbolo": "kg",
+        "registrado_por_nombre": "oper_t",
+        "jornada_detalle": "2026-11-16 Mañana - S1",
+        "cantidad": "35.500",
+        "observaciones": "",
+        "fecha_hora": "2026-11-16T03:42:27.637025-04:00",
+        "jornada": 19,
+        "punto": 35,
+        "tipo_residuo": 18,
+        "unidad": 26,
+        "registrado_por": 106
+      }
+    ]
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/cerrar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 400,
+    "respuesta": [
+      "Puntos sin registro ni motivo de omisión: P2."
+    ]
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/omitir/",
+    "consulta": {},
+    "entrada": {
+      "punto": 36,
+      "motivo": "Acceso bloqueado"
+    },
+    "estado": 200,
+    "respuesta": {
+      "id": 19,
+      "ruta": [
+        {
+          "id": 17,
+          "punto": 35,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 1,
+          "atendido": true,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": "2026-11-16T03:42:27.637025-04:00"
+        },
+        {
+          "id": 18,
+          "punto": 36,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 2,
+          "atendido": false,
+          "sin_generacion": false,
+          "motivo_omision": "Acceso bloqueado",
+          "atendido_en": "2026-11-16T03:42:27.707928-04:00"
+        }
+      ],
+      "sector_nombre": "Sector 1",
+      "turno_display": "Mañana",
+      "estado_display": "En ejecución",
+      "responsable_nombre": "oper_t",
+      "personal_detalle": [
+        {
+          "id": 106,
+          "nombre": "oper_t"
+        }
+      ],
+      "puntos_planificados": 2,
+      "puntos_atendidos": 1,
+      "fecha": "2026-11-16",
+      "turno": "MANANA",
+      "estado": "EN_EJECUCION",
+      "descripcion": "",
+      "hora_inicio": "2026-11-16T03:42:27.508889-04:00",
+      "hora_fin": null,
+      "observaciones_cierre": "",
+      "creada_en": "2026-11-16T03:42:27.289172-04:00",
+      "sector": 20,
+      "planificada_por": 104,
+      "responsable": 106,
+      "personal": [
+        106
+      ],
+      "vehiculos": []
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "GET",
+    "ruta": "/api/jornadas/19/resumen/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "planificados": 2,
+      "atendidos": 1,
+      "omitidos": [
+        {
+          "punto__codigo": "P2",
+          "motivo_omision": "Acceso bloqueado"
+        }
+      ],
+      "pendientes": 0,
+      "cobertura": 50.0,
+      "total_kg": "35.500000000",
+      "total_litros": 0,
+      "por_tipo": [
+        {
+          "tipo_residuo__nombre": "Orgánico",
+          "unidad__magnitud": "PESO",
+          "total": "35.500000000"
+        }
+      ],
+      "incidencias": 0,
+      "incidencias_pendientes": 0
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/cerrar/",
+    "consulta": {},
+    "entrada": "[consultar entrada en el caso de prueba]",
+    "estado": 200,
+    "respuesta": {
+      "id": 19,
+      "ruta": [
+        {
+          "id": 17,
+          "punto": 35,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 1,
+          "atendido": true,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": "2026-11-16T03:42:27.637025-04:00"
+        },
+        {
+          "id": 18,
+          "punto": 36,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 2,
+          "atendido": false,
+          "sin_generacion": false,
+          "motivo_omision": "Acceso bloqueado",
+          "atendido_en": "2026-11-16T03:42:27.707928-04:00"
+        }
+      ],
+      "sector_nombre": "Sector 1",
+      "turno_display": "Mañana",
+      "estado_display": "Cerrada",
+      "responsable_nombre": "oper_t",
+      "personal_detalle": [
+        {
+          "id": 106,
+          "nombre": "oper_t"
+        }
+      ],
+      "puntos_planificados": 2,
+      "puntos_atendidos": 1,
+      "fecha": "2026-11-16",
+      "turno": "MANANA",
+      "estado": "CERRADA",
+      "descripcion": "",
+      "hora_inicio": "2026-11-16T03:42:27.508889-04:00",
+      "hora_fin": "2026-11-16T03:42:27.799990-04:00",
+      "observaciones_cierre": "OK",
+      "creada_en": "2026-11-16T03:42:27.289172-04:00",
+      "sector": 20,
+      "planificada_por": 104,
+      "responsable": 106,
+      "personal": [
+        106
+      ],
+      "vehiculos": []
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/19/visitas/",
+    "consulta": {},
+    "entrada": {
+      "punto": 35,
+      "detalles": [
+        {
+          "tipo_residuo": 18,
+          "cantidad": "35.5"
+        }
+      ]
+    },
+    "estado": 400,
+    "respuesta": [
+      "La jornada está cerrada; operación no permitida."
+    ]
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada",
+    "metodo": "PATCH",
+    "ruta": "/api/jornadas/19/",
+    "consulta": {},
+    "entrada": {
+      "descripcion": "x"
+    },
+    "estado": 400,
+    "respuesta": {
+      "non_field_errors": [
+        "La jornada ya está en ejecución o cerrada; no puede modificarse."
+      ]
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_supervisor_no_opera_sectores_ajenos",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/",
+    "consulta": {},
+    "entrada": {
+      "fecha": "2026-11-16",
+      "turno": "TARDE",
+      "sector": 21,
+      "puntos": [
+        37
+      ]
+    },
+    "estado": 403,
+    "respuesta": {
+      "detail": "No tiene permisos sobre el sector indicado."
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_supervisor_no_opera_sectores_ajenos",
+    "metodo": "GET",
+    "ruta": "/api/puntos/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "count": 0,
+      "next": null,
+      "previous": null,
+      "results": []
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_operario_solo_ve_jornadas_asignadas",
+    "metodo": "POST",
+    "ruta": "/api/jornadas/",
+    "consulta": {},
+    "entrada": {
+      "fecha": "2026-11-16",
+      "turno": "NOCHE",
+      "sector": 22,
+      "puntos": [
+        39
+      ]
+    },
+    "estado": 201,
+    "respuesta": {
+      "id": 20,
+      "ruta": [
+        {
+          "id": 19,
+          "punto": 39,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "orden": 1,
+          "atendido": null,
+          "sin_generacion": false,
+          "motivo_omision": "",
+          "atendido_en": null
+        }
+      ],
+      "sector_nombre": "Sector 1",
+      "turno_display": "Noche",
+      "estado_display": "Planificada",
+      "responsable_nombre": null,
+      "personal_detalle": [],
+      "fecha": "2026-11-16",
+      "turno": "NOCHE",
+      "estado": "PLANIFICADA",
+      "descripcion": "",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "observaciones_cierre": "",
+      "creada_en": "2026-11-16T03:42:28.958490-04:00",
+      "sector": 22,
+      "planificada_por": 112,
+      "responsable": null,
+      "personal": [],
+      "vehiculos": []
+    }
+  },
+  {
+    "test": "apps/operations/tests/test_jornada.py::test_operario_solo_ve_jornadas_asignadas",
+    "metodo": "GET",
+    "ruta": "/api/jornadas/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "count": 0,
+      "next": null,
+      "previous": null,
+      "results": []
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "POST",
+    "ruta": "/api/modelos/entrenar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "POST",
+    "ruta": "/api/predicciones/",
+    "consulta": {},
+    "entrada": {
+      "horizonte": 7
+    },
+    "estado": 400,
+    "respuesta": [
+      "No existe un modelo publicado vigente: entrene y publique uno primero."
+    ]
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "POST",
+    "ruta": "/api/predicciones/",
+    "consulta": {},
+    "entrada": {
+      "horizonte": 31
+    },
+    "estado": 400,
+    "respuesta": {
+      "horizonte": "El horizonte debe estar entre 1 y 30 días."
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "POST",
+    "ruta": "/api/predicciones/",
+    "consulta": {},
+    "entrada": {
+      "horizonte": 7
+    },
+    "estado": 201,
+    "respuesta": {
+      "id": 1,
+      "version": 1,
+      "sector_nombre": null,
+      "punto_codigo": null,
+      "solicitado_por_nombre": "super_t",
+      "creado_en": "2026-11-16T03:42:30.884018-04:00",
+      "desde": "2026-11-17",
+      "hasta": "2026-11-23",
+      "puntos_omitidos": [],
+      "modelo": 2,
+      "solicitado_por": 120,
+      "sector": null,
+      "punto": null,
+      "por_punto": [
+        {
+          "punto_id": 41,
+          "punto__codigo": "P1",
+          "punto__nombre": "Punto 1",
+          "sector__nombre": "Sector 1",
+          "punto__capacidad_kg": "100.00",
+          "cantidad_kg": "154.47",
+          "margen_kg": "4.85"
+        },
+        {
+          "punto_id": 42,
+          "punto__codigo": "P2",
+          "punto__nombre": "Punto 2",
+          "sector__nombre": "Sector 1",
+          "punto__capacidad_kg": "100.00",
+          "cantidad_kg": "312.25",
+          "margen_kg": "4.85"
+        }
+      ],
+      "por_sector": [
+        {
+          "sector_id": 23,
+          "sector__codigo": "S1",
+          "sector__nombre": "Sector 1",
+          "cantidad_kg": "466.72",
+          "margen_kg": "6.86"
+        }
+      ],
+      "por_tipo": [
+        {
+          "tipo_residuo_id": 21,
+          "tipo_residuo__nombre": "Orgánico",
+          "cantidad_kg": "466.72",
+          "margen_kg": "6.86"
+        }
+      ],
+      "serie": [
+        {
+          "fecha": "2026-11-17",
+          "cantidad_kg": "92.48",
+          "margen_kg": "3.07"
+        },
+        {
+          "fecha": "2026-11-18",
+          "cantidad_kg": "90.89",
+          "margen_kg": "3.07"
+        },
+        {
+          "fecha": "2026-11-19",
+          "cantidad_kg": "89.79",
+          "margen_kg": "3.07"
+        },
+        {
+          "fecha": "2026-11-20",
+          "cantidad_kg": "89.73",
+          "margen_kg": "3.07"
+        },
+        {
+          "fecha": "2026-11-23",
+          "cantidad_kg": "103.83",
+          "margen_kg": "3.07"
+        }
+      ]
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "GET",
+    "ruta": "/api/predicciones/mapa/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "maximo_kg": "312.247",
+      "puntos": [
+        {
+          "id": 41,
+          "codigo": "P1",
+          "nombre": "Punto 1",
+          "sector": "Sector 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "total_kg": "154.47",
+          "margen_kg": "4.85",
+          "promedio_dia_kg": "30.89",
+          "peso": 0.4947,
+          "desde": "2026-11-17",
+          "hasta": "2026-11-23",
+          "version": 1
+        },
+        {
+          "id": 42,
+          "codigo": "P2",
+          "nombre": "Punto 2",
+          "sector": "Sector 1",
+          "latitud": "-17.775700",
+          "longitud": "-63.195600",
+          "total_kg": "312.25",
+          "margen_kg": "4.85",
+          "promedio_dia_kg": "62.45",
+          "peso": 1.0,
+          "desde": "2026-11-17",
+          "hasta": "2026-11-23",
+          "version": 1
+        }
+      ]
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "GET",
+    "ruta": "/api/reportes/prediccion/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "titulo": "Generación proyectada por punto",
+      "columnas": [
+        "Punto",
+        "Nombre",
+        "Sector",
+        "Desde",
+        "Hasta",
+        "Estimado (kg)",
+        "Margen ± (kg)",
+        "Prom. diario (kg)",
+        "Modelo"
+      ],
+      "filas": [
+        [
+          "P1",
+          "Punto 1",
+          "Sector 1",
+          "2026-11-17",
+          "2026-11-23",
+          "154.47",
+          "4.85",
+          "30.89",
+          "v1"
+        ],
+        [
+          "P2",
+          "Punto 2",
+          "Sector 1",
+          "2026-11-17",
+          "2026-11-23",
+          "312.25",
+          "4.85",
+          "62.45",
+          "v1"
+        ]
+      ],
+      "numericas": [
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "GET",
+    "ruta": "/api/reportes/prediccion/",
+    "consulta": {
+      "formato": [
+        "pdf"
+      ]
+    },
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "tipo": "application/pdf",
+      "bytes": 2070,
+      "firma": "%PDF"
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "POST",
+    "ruta": "/api/modelos/2/publicar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte",
+    "metodo": "POST",
+    "ruta": "/api/modelos/2/publicar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 200,
+    "respuesta": {
+      "id": 2,
+      "estado_display": "Aprobado",
+      "entrenado_por_nombre": "admin_t",
+      "version": 1,
+      "estado": "APROBADO",
+      "vigente": true,
+      "inicio": "2026-11-16T03:42:30.383488-04:00",
+      "fin": "2026-11-16T03:42:30.767049-04:00",
+      "hiperparametros": {
+        "max_depth": 8,
+        "n_estimators": 20,
+        "min_samples_leaf": 2
+      },
+      "variables": [
+        "punto_id",
+        "promedio_28d",
+        "frecuencia_semanal",
+        "dia_semana",
+        "dia_mes",
+        "mes",
+        "semana_anio"
+      ],
+      "registros": 234,
+      "observaciones_entrenamiento": 186,
+      "observaciones_prueba": 46,
+      "corte": "2026-10-13",
+      "mae": 1.744520680653888,
+      "mse": 4.7009178999314996,
+      "rmse": 2.16816002636602,
+      "r2": 0.9803052814836872,
+      "umbral_r2": "0.300",
+      "importancias": {
+        "mes": 0.0003,
+        "dia_mes": 0.0052,
+        "punto_id": 0.5293,
+        "dia_semana": 0.0249,
+        "semana_anio": 0.0015,
+        "promedio_28d": 0.4376,
+        "frecuencia_semanal": 0.0012
+      },
+      "mensaje": "R² = 0,980, RMSE = 2,17 kg. Versión publicada.",
+      "entrenado_por": 119
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "metodo": "POST",
+    "ruta": "/api/predicciones/",
+    "consulta": {},
+    "entrada": {
+      "horizonte": 7
+    },
+    "estado": 201,
+    "respuesta": {
+      "id": 2,
+      "version": 1,
+      "sector_nombre": null,
+      "punto_codigo": null,
+      "solicitado_por_nombre": "super_t",
+      "creado_en": "2026-11-16T03:42:32.765362-04:00",
+      "desde": "2026-11-17",
+      "hasta": "2026-11-23",
+      "puntos_omitidos": [],
+      "modelo": 4,
+      "solicitado_por": 124,
+      "sector": null,
+      "punto": null,
+      "por_punto": [
+        {
+          "punto_id": 43,
+          "punto__codigo": "P1",
+          "punto__nombre": "Punto 1",
+          "sector__nombre": "Sector 1",
+          "punto__capacidad_kg": "100.00",
+          "cantidad_kg": "154.47",
+          "margen_kg": "4.85"
+        },
+        {
+          "punto_id": 44,
+          "punto__codigo": "P2",
+          "punto__nombre": "Punto 2",
+          "sector__nombre": "Sector 1",
+          "punto__capacidad_kg": "40.00",
+          "cantidad_kg": "312.25",
+          "margen_kg": "4.85"
+        }
+      ],
+      "por_sector": [
+        {
+          "sector_id": 24,
+          "sector__codigo": "S1",
+          "sector__nombre": "Sector 1",
+          "cantidad_kg": "466.72",
+          "margen_kg": "6.86"
+        }
+      ],
+      "por_tipo": [
+        {
+          "tipo_residuo_id": 22,
+          "tipo_residuo__nombre": "Orgánico",
+          "cantidad_kg": "466.72",
+          "margen_kg": "6.86"
+        }
+      ],
+      "serie": [
+        {
+          "fecha": "2026-11-17",
+          "cantidad_kg": "92.48",
+          "margen_kg": "3.07"
+        },
+        {
+          "fecha": "2026-11-18",
+          "cantidad_kg": "90.89",
+          "margen_kg": "3.07"
+        },
+        {
+          "fecha": "2026-11-19",
+          "cantidad_kg": "89.79",
+          "margen_kg": "3.07"
+        },
+        {
+          "fecha": "2026-11-20",
+          "cantidad_kg": "89.73",
+          "margen_kg": "3.07"
+        },
+        {
+          "fecha": "2026-11-23",
+          "cantidad_kg": "103.83",
+          "margen_kg": "3.07"
+        }
+      ]
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "metodo": "POST",
+    "ruta": "/api/recomendaciones/1/aceptar/",
+    "consulta": {},
+    "entrada": {
+      "--BoUnDaRyStRiNg\r\nContent-Disposition: form-data; name": [
+        "\"motivo\"\r\n\r\nx\r\n--BoUnDaRyStRiNg--\r\n"
+      ]
+    },
+    "estado": 404,
+    "respuesta": {
+      "detail": "No Recomendacion matches the given query."
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "metodo": "POST",
+    "ruta": "/api/recomendaciones/1/aceptar/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 400,
+    "respuesta": {
+      "motivo": "Indique el motivo de la decisión."
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "metodo": "POST",
+    "ruta": "/api/recomendaciones/1/aceptar/",
+    "consulta": {},
+    "entrada": {
+      "motivo": "Coincide con lo observado"
+    },
+    "estado": 200,
+    "respuesta": {
+      "id": 1,
+      "punto_codigo": "P2",
+      "punto_nombre": "Punto 2",
+      "sector_nombre": "Sector 1",
+      "tipo_display": "Priorizar el punto",
+      "urgencia_display": "Alta",
+      "estado_display": "Aceptada",
+      "es_alerta": true,
+      "resuelta_por_nombre": "super_t",
+      "jornada_fecha": "2026-11-17",
+      "tipo": "PRIORIZAR",
+      "urgencia": "ALTA",
+      "mensaje": "Riesgo de desborde en el próximo día de recolección: se proyectan 62,3 ± 2,2 kg para una capacidad de 40,0 kg. Priorizar el punto en la siguiente jornada.",
+      "evidencia": {
+        "horizonte": {
+          "desde": "2026-11-17",
+          "hasta": "2026-11-23"
+        },
+        "margen_kg": 2.2,
+        "capacidad_kg": 40.0,
+        "modelo_version": 1,
+        "crecimiento_pct": 3.0,
+        "proxima_atencion": null,
+        "dias_hasta_atencion": 1,
+        "no_aprovechable_pct": 0.0,
+        "acumulado_proyectado_kg": 62.3,
+        "maximo_proyectado_dia_kg": 69.4,
+        "ocupacion_proyectada_pct": 155.8,
+        "promedio_reciente_dia_kg": 60.65,
+        "promedio_proyectado_dia_kg": 62.45,
+        "incidencias_mal_segregado_90d": 0
+      },
+      "estado": "ACEPTADA",
+      "creada_en": "2026-11-16T03:42:32.810665-04:00",
+      "resuelta_en": "2026-11-16T03:42:32.925610-04:00",
+      "motivo_decision": "Coincide con lo observado",
+      "lote": 2,
+      "punto": 44,
+      "sector": 24,
+      "resuelta_por": 124,
+      "jornada": 261
+    }
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "metodo": "POST",
+    "ruta": "/api/recomendaciones/1/descartar/",
+    "consulta": {},
+    "entrada": {
+      "motivo": "x"
+    },
+    "estado": 400,
+    "respuesta": [
+      "La recomendación ya fue resuelta (aceptada)."
+    ]
+  },
+  {
+    "test": "apps/prediction/tests/test_prediccion.py::test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "metodo": "GET",
+    "ruta": "/api/recomendaciones/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 403,
+    "respuesta": {
+      "detail": "Usted no tiene permiso para realizar esta acción."
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_cabeceras_seguridad.py::test_respuestas_rechazadas_y_no_encontradas_tienen_cabeceras",
+    "metodo": "GET",
+    "ruta": "/api/auth/me/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 401,
+    "respuesta": {
+      "detail": "Las credenciales de autenticación no se proveyeron."
+    }
+  },
+  {
+    "test": "apps/accounts/tests/test_cabeceras_seguridad.py::test_respuestas_rechazadas_y_no_encontradas_tienen_cabeceras",
+    "metodo": "GET",
+    "ruta": "/ruta-inexistente/",
+    "consulta": {},
+    "entrada": {},
+    "estado": 404,
+    "respuesta": {
+      "tipo": "text/html; charset=utf-8",
+      "bytes": 179,
+      "firma": "\n<!d"
+    }
+  }
+]

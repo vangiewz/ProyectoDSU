@@ -1,0 +1,46 @@
+# Producción AWS EC2. Sin puertos públicos de Gunicorn ni PostgreSQL.
+# Ejecutar desde backend/deploy con --env-file ../.env; nunca imprimir config expandido.
+services:
+  app:
+    build:
+      context: ..
+    env_file: ../.env
+    environment:
+      DEBUG: "False"
+      SECURE_SSL_REDIRECT: "True"
+    expose:
+      - "8000"
+    restart: unless-stopped
+    networks: [dsu]
+
+  proxy:
+    image: caddy:2-alpine
+    environment:
+      DSU_API_DOMAIN: ${DSU_API_DOMAIN:?Definir el dominio real de la API}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [app]
+    restart: unless-stopped
+    networks: [dsu]
+
+  respaldo:
+    image: postgres:18-alpine
+    env_file: ../.env
+    volumes:
+      - ../respaldos:/respaldos
+      - ../scripts/respaldo.sh:/respaldo.sh:ro
+    entrypoint: [sh, /respaldo.sh]
+    restart: unless-stopped
+    networks: [dsu]
+
+networks:
+  dsu:
+
+volumes:
+  caddy_data:
+  caddy_config:

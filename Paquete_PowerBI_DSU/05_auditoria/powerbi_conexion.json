@@ -1,0 +1,19 @@
+{
+  "conexion_powerbi": "correcta",
+  "hechos": 15430,
+  "usuario": "powerbi",
+  "credencial_guardada": "backend/.env",
+  "servidor_modelo": "configurado",
+  "password_backend": "sin cambios",
+  "datos": "solo SELECT; sin modificaciones",
+  "desktop": "pendiente ingreso de credenciales y actualización",
+  "tls_cliente": true,
+  "vistas": {
+    "bi_hechos_residuos": 15430,
+    "bi_jornadas": 1046,
+    "bi_incidencias": 1,
+    "bi_puntos": 12,
+    "bi_predicciones": 0,
+    "bi_recomendaciones": 8
+  }
+}

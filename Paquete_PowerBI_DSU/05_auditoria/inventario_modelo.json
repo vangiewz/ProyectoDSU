@@ -1,0 +1,556 @@
+{
+  "fecha": "2026-11-16",
+  "tablas": [
+    {
+      "nombre": "Calendario",
+      "columnas": [
+        {
+          "nombre": "Fecha",
+          "tipo": "dateTime"
+        },
+        {
+          "nombre": "Año",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "Mes",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "Nombre del mes",
+          "tipo": "string"
+        },
+        {
+          "nombre": "Semestre",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "Semana",
+          "tipo": "int64"
+        }
+      ]
+    },
+    {
+      "nombre": "bi_hechos_residuos",
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "fecha",
+          "tipo": "dateTime"
+        },
+        {
+          "nombre": "fecha_hora",
+          "tipo": "dateTime"
+        },
+        {
+          "nombre": "anio",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "mes",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "semana_anio",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "dia_semana",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "sector_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "sector",
+          "tipo": "string"
+        },
+        {
+          "nombre": "punto_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "punto",
+          "tipo": "string"
+        },
+        {
+          "nombre": "latitud",
+          "tipo": "double"
+        },
+        {
+          "nombre": "longitud",
+          "tipo": "double"
+        },
+        {
+          "nombre": "tipo_residuo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "clasificacion",
+          "tipo": "string"
+        },
+        {
+          "nombre": "aprovechable",
+          "tipo": "boolean"
+        },
+        {
+          "nombre": "magnitud",
+          "tipo": "string"
+        },
+        {
+          "nombre": "cantidad_base",
+          "tipo": "double"
+        },
+        {
+          "nombre": "cantidad_original",
+          "tipo": "double"
+        },
+        {
+          "nombre": "unidad_original",
+          "tipo": "string"
+        },
+        {
+          "nombre": "periodo_academico",
+          "tipo": "string"
+        },
+        {
+          "nombre": "atipico",
+          "tipo": "boolean"
+        },
+        {
+          "nombre": "jornada_id",
+          "tipo": "int64"
+        }
+      ]
+    },
+    {
+      "nombre": "bi_jornadas",
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "fecha",
+          "tipo": "dateTime"
+        },
+        {
+          "nombre": "turno",
+          "tipo": "string"
+        },
+        {
+          "nombre": "estado",
+          "tipo": "string"
+        },
+        {
+          "nombre": "sector_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "sector",
+          "tipo": "string"
+        },
+        {
+          "nombre": "puntos_planificados",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "puntos_atendidos",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "puntos_omitidos",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "hora_inicio",
+          "tipo": "dateTime"
+        },
+        {
+          "nombre": "hora_fin",
+          "tipo": "dateTime"
+        }
+      ]
+    },
+    {
+      "nombre": "bi_incidencias",
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "fecha_hora",
+          "tipo": "dateTime"
+        },
+        {
+          "nombre": "tipo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "gravedad",
+          "tipo": "string"
+        },
+        {
+          "nombre": "estado",
+          "tipo": "string"
+        },
+        {
+          "nombre": "punto_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "sector",
+          "tipo": "string"
+        },
+        {
+          "nombre": "atendida_en",
+          "tipo": "dateTime"
+        }
+      ]
+    },
+    {
+      "nombre": "bi_puntos",
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "nombre",
+          "tipo": "string"
+        },
+        {
+          "nombre": "sector_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "sector",
+          "tipo": "string"
+        },
+        {
+          "nombre": "latitud",
+          "tipo": "double"
+        },
+        {
+          "nombre": "longitud",
+          "tipo": "double"
+        },
+        {
+          "nombre": "capacidad_kg",
+          "tipo": "double"
+        },
+        {
+          "nombre": "estado",
+          "tipo": "string"
+        },
+        {
+          "nombre": "is_active",
+          "tipo": "boolean"
+        }
+      ]
+    },
+    {
+      "nombre": "bi_predicciones",
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "fecha",
+          "tipo": "dateTime"
+        },
+        {
+          "nombre": "sector_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "sector",
+          "tipo": "string"
+        },
+        {
+          "nombre": "punto_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "punto",
+          "tipo": "string"
+        },
+        {
+          "nombre": "tipo_residuo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "clasificacion",
+          "tipo": "string"
+        },
+        {
+          "nombre": "cantidad_kg",
+          "tipo": "double"
+        },
+        {
+          "nombre": "margen_kg",
+          "tipo": "double"
+        },
+        {
+          "nombre": "modelo_version",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "generada_en",
+          "tipo": "dateTime"
+        }
+      ]
+    },
+    {
+      "nombre": "bi_recomendaciones",
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "int64"
+        },
+        {
+          "nombre": "creada_en",
+          "tipo": "dateTime"
+        },
+        {
+          "nombre": "sector_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "sector",
+          "tipo": "string"
+        },
+        {
+          "nombre": "punto_codigo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "tipo",
+          "tipo": "string"
+        },
+        {
+          "nombre": "urgencia",
+          "tipo": "string"
+        },
+        {
+          "nombre": "estado",
+          "tipo": "string"
+        },
+        {
+          "nombre": "resuelta_en",
+          "tipo": "dateTime"
+        }
+      ]
+    }
+  ],
+  "medidas": [
+    {
+      "tabla": "bi_hechos_residuos",
+      "name": "Total kg",
+      "expression": "CALCULATE(SUM(bi_hechos_residuos[cantidad_base]), bi_hechos_residuos[magnitud] = \"PESO\")",
+      "formatString": "#,0.00",
+      "lineageTag": "fdf1ef91-6d3b-5405-b790-d5b8210e9367"
+    },
+    {
+      "tabla": "bi_hechos_residuos",
+      "name": "Total L",
+      "expression": "CALCULATE(SUM(bi_hechos_residuos[cantidad_base]), bi_hechos_residuos[magnitud] = \"VOLUMEN\")",
+      "formatString": "#,0.00",
+      "lineageTag": "6a049f0b-f474-5b99-a80b-5ea689e7bbd2"
+    },
+    {
+      "tabla": "bi_hechos_residuos",
+      "name": "Registros",
+      "expression": "COUNTROWS(bi_hechos_residuos)",
+      "formatString": "#,0",
+      "lineageTag": "4c7e0a28-8ef4-5d96-a4f8-5be5acee22bb"
+    },
+    {
+      "tabla": "bi_hechos_residuos",
+      "name": "Puntos con datos",
+      "expression": "DISTINCTCOUNT(bi_hechos_residuos[punto_codigo])",
+      "formatString": "#,0",
+      "lineageTag": "df0afe09-5010-5075-b710-2458f2070588"
+    },
+    {
+      "tabla": "bi_hechos_residuos",
+      "name": "Promedio kg por punto",
+      "expression": "DIVIDE([Total kg], [Puntos con datos])",
+      "formatString": "#,0.00",
+      "lineageTag": "6f18320f-cc81-54e5-a79f-6d201263dc8e"
+    },
+    {
+      "tabla": "bi_hechos_residuos",
+      "name": "Total kg año anterior",
+      "expression": "CALCULATE([Total kg], SAMEPERIODLASTYEAR(Calendario[Fecha]))",
+      "formatString": "#,0.00",
+      "lineageTag": "2768b4ff-c916-5fcc-b887-5b326c23c36c"
+    },
+    {
+      "tabla": "bi_hechos_residuos",
+      "name": "Variación vs año anterior",
+      "expression": "DIVIDE([Total kg] - [Total kg año anterior], [Total kg año anterior])",
+      "formatString": "0.0%",
+      "lineageTag": "4af646fe-6326-5fe5-bfb6-7271c2279c0a"
+    },
+    {
+      "tabla": "bi_hechos_residuos",
+      "name": "Participación aprovechable",
+      "expression": "DIVIDE(CALCULATE([Total kg], bi_hechos_residuos[aprovechable] = TRUE()), [Total kg])",
+      "formatString": "0.0%",
+      "lineageTag": "8719078c-18ee-5db0-bbfe-cf7a002d8798"
+    },
+    {
+      "tabla": "bi_jornadas",
+      "name": "Jornadas cerradas",
+      "expression": "CALCULATE(COUNTROWS(bi_jornadas), bi_jornadas[estado] = \"CERRADA\")",
+      "formatString": "#,0",
+      "lineageTag": "54eb514c-9e8d-59c0-b041-9b20d853414a"
+    },
+    {
+      "tabla": "bi_jornadas",
+      "name": "Cobertura",
+      "expression": "DIVIDE(SUM(bi_jornadas[puntos_atendidos]), SUM(bi_jornadas[puntos_planificados]))",
+      "formatString": "0.0%",
+      "lineageTag": "06bbc746-7197-5f80-a4dc-91454df9c0e0"
+    },
+    {
+      "tabla": "bi_incidencias",
+      "name": "Incidencias",
+      "expression": "COUNTROWS(bi_incidencias)",
+      "formatString": "#,0",
+      "lineageTag": "dc33d2ba-29d8-5f41-b1b5-3c507cf1a6bb"
+    },
+    {
+      "tabla": "bi_incidencias",
+      "name": "Incidencias pendientes",
+      "expression": "CALCULATE(COUNTROWS(bi_incidencias), bi_incidencias[estado] = \"PENDIENTE\")",
+      "formatString": "#,0",
+      "lineageTag": "851fae89-04fb-530c-b95d-cef3a04b0ec8"
+    },
+    {
+      "tabla": "bi_predicciones",
+      "name": "Generación proyectada kg",
+      "expression": "SUM(bi_predicciones[cantidad_kg])",
+      "formatString": "#,0.00",
+      "lineageTag": "cf02bbf7-5aac-5772-9871-442b56bd004e"
+    },
+    {
+      "tabla": "bi_predicciones",
+      "name": "Margen proyectado kg",
+      "expression": "SQRT(SUMX(bi_predicciones, bi_predicciones[margen_kg] ^ 2))",
+      "formatString": "#,0.00",
+      "lineageTag": "32191b11-5be6-5b5d-b306-792c6e650ab4"
+    },
+    {
+      "tabla": "bi_recomendaciones",
+      "name": "Recomendaciones pendientes",
+      "expression": "CALCULATE(COUNTROWS(bi_recomendaciones), bi_recomendaciones[estado] = \"PENDIENTE\")",
+      "formatString": "#,0",
+      "lineageTag": "fe1e8a2f-c103-5140-b575-8f9e395d096f"
+    },
+    {
+      "tabla": "bi_recomendaciones",
+      "name": "Recomendaciones aceptadas",
+      "expression": "CALCULATE(COUNTROWS(bi_recomendaciones), bi_recomendaciones[estado] = \"ACEPTADA\")",
+      "formatString": "#,0",
+      "lineageTag": "56e794f5-d562-5baf-9e41-daed5ff97d28"
+    }
+  ],
+  "relaciones": [
+    {
+      "name": "98ee484d-1cb1-5082-88c3-6f40b08e16fe",
+      "fromColumn": "fecha",
+      "fromTable": "bi_hechos_residuos",
+      "toColumn": "Fecha",
+      "toTable": "Calendario"
+    },
+    {
+      "name": "cb55b71f-9af1-5b09-a4d7-36e300573755",
+      "fromColumn": "fecha",
+      "fromTable": "bi_jornadas",
+      "toColumn": "Fecha",
+      "toTable": "Calendario"
+    },
+    {
+      "name": "bd331dd8-1c2e-5d4f-9142-a0d276ff6dc3",
+      "fromColumn": "fecha",
+      "fromTable": "bi_predicciones",
+      "toColumn": "Fecha",
+      "toTable": "Calendario"
+    },
+    {
+      "name": "06ec8c3f-8c8d-5842-bd2a-275fa182bb42",
+      "fromColumn": "punto_codigo",
+      "fromTable": "bi_hechos_residuos",
+      "toColumn": "codigo",
+      "toTable": "bi_puntos"
+    },
+    {
+      "name": "f25ccb2a-bd74-5dce-9b4e-9c6f2be5b869",
+      "fromColumn": "punto_codigo",
+      "fromTable": "bi_incidencias",
+      "toColumn": "codigo",
+      "toTable": "bi_puntos"
+    },
+    {
+      "name": "99670052-9eee-50ec-b805-e4df11f37c4c",
+      "fromColumn": "punto_codigo",
+      "fromTable": "bi_predicciones",
+      "toColumn": "codigo",
+      "toTable": "bi_puntos"
+    },
+    {
+      "name": "d1b3e32e-fd01-511a-b2cd-0b9963c0172e",
+      "fromColumn": "punto_codigo",
+      "fromTable": "bi_recomendaciones",
+      "toColumn": "codigo",
+      "toTable": "bi_puntos"
+    }
+  ],
+  "parametros": [
+    {
+      "name": "Servidor",
+      "annotations": [
+        {
+          "name": "PBI_ResultType",
+          "value": "Text"
+        }
+      ],
+      "expression": "\"ep-ancient-firefly-b6v6xayn.c-2.sa-east-1.aws.neon.tech\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+      "kind": "m",
+      "lineageTag": "14581bdb-dc74-5f66-8f02-2accc320d622"
+    },
+    {
+      "name": "BaseDatos",
+      "annotations": [
+        {
+          "name": "PBI_ResultType",
+          "value": "Text"
+        }
+      ],
+      "expression": "\"neondb\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+      "kind": "m",
+      "lineageTag": "18d85740-3f63-5c90-8efc-5bf7ac72cb52"
+    }
+  ],
+  "roles_rls": [],
+  "paginas": [
+    {
+      "nombre": "Tablero",
+      "visuales": [
+        "clusteredColumnChart"
+      ]
+    }
+  ]
+}

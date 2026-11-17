@@ -1,0 +1,454 @@
+{
+  "fecha": "2026-11-16",
+  "documento": "docs\\Documento_Taller_de_Grado_I_Grupo_8.docx",
+  "estado": "Documento 1–10 integrado y revisión editorial digital completada; validación final del proyecto pendiente",
+  "controles": [
+    {
+      "id": "P01",
+      "control": "Copia íntegra del vigente anterior",
+      "estado": "Verificado",
+      "evidencia": "inventario.json"
+    },
+    {
+      "id": "P05",
+      "control": "186 imágenes anteriores conservadas; vista general, despliegue y Power BI actualizados",
+      "estado": "Verificado",
+      "evidencia": "Comparación SHA-256 de imágenes en orden; vista general con nombres completos en posición 58, despliegue en 111, informe de Power BI Desktop en 170; nuevas: 9 componentes, 2 grafos, 27 evidencias CP y 3 de ZAP"
+    },
+    {
+      "id": "P02",
+      "control": "Diez capítulos presentes",
+      "estado": "Verificado",
+      "evidencia": "DOCX: títulos de capítulo"
+    },
+    {
+      "id": "P03",
+      "control": "Cuatro actores y 34 CU",
+      "estado": "Verificado",
+      "evidencia": "datos.py"
+    },
+    {
+      "id": "P04",
+      "control": "RF1–RF27 trazados a CU",
+      "estado": "Verificado",
+      "evidencia": "datos.py"
+    },
+    {
+      "id": "DOC-5.4.",
+      "control": "Cobertura de apartados 5.4.",
+      "estado": "Verificado",
+      "evidencia": "34 de 34"
+    },
+    {
+      "id": "DOC-6.2.",
+      "control": "Cobertura de apartados 6.2.",
+      "estado": "Verificado",
+      "evidencia": "34 de 34"
+    },
+    {
+      "id": "DOC-7.5.",
+      "control": "Cobertura de apartados 7.5.",
+      "estado": "Verificado",
+      "evidencia": "34 de 34"
+    },
+    {
+      "id": "DOC-8.2.",
+      "control": "Cobertura de apartados 8.2.",
+      "estado": "Verificado",
+      "evidencia": "8 de 8"
+    },
+    {
+      "id": "C8-01",
+      "control": "Nueve diagramas de componentes disponibles",
+      "estado": "Verificado",
+      "evidencia": "Exportación de Enterprise Architect"
+    },
+    {
+      "id": "C8-02",
+      "control": "Seis apartados de herramientas",
+      "estado": "Verificado",
+      "evidencia": "DOCX: títulos 8.3.1–8.3.6"
+    },
+    {
+      "id": "CP-01",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-02",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-03",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-04",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-05",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-06",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-07",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-08",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-09",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-10",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-11",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-12",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-13",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-14",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-15",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-16",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-17",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-18",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-19",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-20",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-21",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-22",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-23",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-24",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-25",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-26",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "CP-27",
+      "control": "Plantilla de siete campos",
+      "estado": "Verificado",
+      "evidencia": "Tabla de caja negra del DOCX"
+    },
+    {
+      "id": "C9-01",
+      "control": "Veintisiete escenarios funcionales documentados",
+      "estado": "Verificado",
+      "evidencia": "27"
+    },
+    {
+      "id": "TEST-pruebas",
+      "control": "42 pruebas ejecutadas sin fallos ni omisiones",
+      "estado": "Verificado",
+      "evidencia": "42 pruebas; pruebas/pytest.xml"
+    },
+    {
+      "id": "TEST-pruebas_linux",
+      "control": "42 pruebas ejecutadas sin fallos ni omisiones",
+      "estado": "Verificado",
+      "evidencia": "42 pruebas; pruebas_linux/pytest.xml"
+    },
+    {
+      "id": "CB-asignar",
+      "control": "Caminos y base factible contrastados",
+      "estado": "Verificado",
+      "evidencia": "V estructural 7; rango factible/ejecutado 7"
+    },
+    {
+      "id": "CB-generar",
+      "control": "Caminos y base factible contrastados",
+      "estado": "Verificado",
+      "evidencia": "V estructural 9; rango factible/ejecutado 7"
+    },
+    {
+      "id": "ZAP-api",
+      "control": "Reporte posterior de seguridad disponible",
+      "estado": "Verificado",
+      "evidencia": "docs\\auditoria-fase-final\\seguridad\\verificado\\api.json"
+    },
+    {
+      "id": "ZAP-frontend",
+      "control": "Reporte posterior de seguridad disponible",
+      "estado": "Verificado",
+      "evidencia": "docs\\auditoria-fase-final\\seguridad\\verificado\\frontend.json"
+    },
+    {
+      "id": "DOC-ERROR",
+      "control": "Sin marcadores de error de campos o imágenes",
+      "estado": "Verificado",
+      "evidencia": "Inspección del texto DOCX; PDF tiene control independiente"
+    },
+    {
+      "id": "DOC-TOKEN",
+      "control": "Sin JWT de prueba en el documento",
+      "estado": "Verificado",
+      "evidencia": "Búsqueda de estructura JWT; no se imprimen credenciales"
+    },
+    {
+      "id": "UI-01",
+      "control": "Carga de 25 combinaciones de rol/ruta en dos resoluciones",
+      "estado": "Verificado",
+      "evidencia": "ui/resultados.json y ui/auditoria.json; no sustituye flujos completos"
+    },
+    {
+      "id": "BIB-01",
+      "control": "Edición española de Jacobson unificada y contrastada",
+      "estado": "Verificado",
+      "evidencia": "bibliografia_verificada.json y página legal conservada"
+    },
+    {
+      "id": "PAG-01",
+      "control": "Tablas nuevas y notas en la misma página",
+      "estado": "Verificado",
+      "evidencia": "paginacion_tablas.json: rangos de página calculados por Word"
+    },
+    {
+      "id": "PDF-01",
+      "control": "PDF actualizado sin errores de campos ni páginas vacías",
+      "estado": "Verificado",
+      "evidencia": "pdf_indice.json; inspección visual complementaria en revision_visual.json"
+    },
+    {
+      "id": "IND-01",
+      "control": "742 entradas de índice contrastadas con el PDF vigente",
+      "estado": "Verificado",
+      "evidencia": "verificacion_indices.json: 229 figuras y 205 tablas; título presente en la página indicada"
+    },
+    {
+      "id": "PAG-02",
+      "control": "Caracteres dentro del papel en todas las páginas",
+      "estado": "Verificado",
+      "evidencia": "geometria_pdf.json; no sustituye revisión de rótulos dentro de imágenes"
+    },
+    {
+      "id": "VIS-01",
+      "control": "Revisión digital global y correcciones posteriores contrastadas",
+      "estado": "Verificado",
+      "evidencia": "revision_visual.json y continuidad_maquetacion.json; alcance digital, sin prueba de impresión física"
+    },
+    {
+      "id": "SEG-01",
+      "control": "RNF15 distingue hash de cifrado reversible",
+      "estado": "Verificado",
+      "evidencia": "RNF15; algoritmo de desarrollo contrastado en contraseñas_verificacion.json"
+    },
+    {
+      "id": "COST-01",
+      "control": "Presupuesto del perfil conciliado con capítulo 10",
+      "estado": "Verificado",
+      "evidencia": "Tablas 6 y 191; costos_calculados.json"
+    },
+    {
+      "id": "DOC-TABLAS",
+      "control": "Tablas añadidas completas y notas en la misma página",
+      "estado": "Verificado",
+      "evidencia": "paginacion_tablas.json; comprobación nativa Word"
+    },
+    {
+      "id": "R2-01",
+      "control": "Secciones finales en el orden de la presentación de la materia",
+      "estado": "Verificado",
+      "evidencia": "DOCX: títulos de nivel 1; finales.py"
+    },
+    {
+      "id": "R2-02",
+      "control": "8.2 por nodos reales con archivos, tablas y vistas existentes",
+      "estado": "Verificado",
+      "evidencia": "componentes.validar(): archivos, tablas de esquema.json, vistas bi_* y dependencias por imports"
+    },
+    {
+      "id": "R2-03",
+      "control": "Diagrama general de CU con nombres completos y todas las relaciones",
+      "estado": "Verificado",
+      "evidencia": "c5_general_nombres.json: {'extend': 7, 'include': 2, 'Association': 75}; 85 cruces y 20 líneas sobre elipses"
+    },
+    {
+      "id": "R2-04",
+      "control": "Evidencia de caja negra por la interfaz para los 27 CP",
+      "estado": "Verificado",
+      "evidencia": "evidencia_cp/evidencias.json: estado HTTP y texto del oráculo; 27 figuras en 9.3.1"
+    },
+    {
+      "id": "R2-05",
+      "control": "Código de caja blanca con marcas de nodo y sin cortes dentro de identificadores",
+      "estado": "Verificado",
+      "evidencia": "148 líneas de código; máximo 81 caracteres"
+    },
+    {
+      "id": "R2-06",
+      "control": "Figuras de la prueba de vulnerabilidad",
+      "estado": "Verificado",
+      "evidencia": "c9_zap_consola, c9_zap_inicial y c9_zap_verificado"
+    },
+    {
+      "id": "R2-07",
+      "control": "Medidas de Power BI contrastadas con SQL",
+      "estado": "Verificado",
+      "evidencia": "powerbi_medidas.json: 14 medidas con su consulta SQL equivalente; 2 limitaciones declaradas"
+    }
+  ],
+  "pendientes": [
+    {
+      "id": "V02",
+      "control": "Power BI completo y publicado",
+      "estado": "Pendiente del titular",
+      "accion": "Medidas auditadas contra SQL y visuales escritos en el PBIR con powerbi/tablero.py. Falta abrir en Desktop, actualizar, revisar filtros, capturar, definir RLS y publicar."
+    },
+    {
+      "id": "V03",
+      "control": "Despliegue AWS/Vercel verificado",
+      "estado": "Pendiente",
+      "accion": "Compose y Caddy preparados; construcción y regresión Linux no sustituyen el despliegue remoto."
+    },
+    {
+      "id": "V04",
+      "control": "Rendimiento y concurrencia en la región del servidor",
+      "estado": "Pendiente",
+      "accion": "Repetir RTR11, carga y fluidez del mapa en entorno representativo y aislado."
+    },
+    {
+      "id": "V05",
+      "control": "Seguridad productiva y residual de frontend",
+      "estado": "Pendiente",
+      "accion": "CSP mantiene connect-src HTTPS amplio y estilos inline por compatibilidad. Ajustar dominio final, comprobar Power BI/mapas y revisar advertencias residuales."
+    },
+    {
+      "id": "V06",
+      "control": "Validación predictiva con histórico institucional",
+      "estado": "Dependencia externa",
+      "accion": "Las métricas actuales de demo/prueba utilizan datos sintéticos; no prueban precisión DSU."
+    },
+    {
+      "id": "V07",
+      "control": "Prueba de impresión y entrega física",
+      "estado": "Pendiente",
+      "accion": "Revisión digital realizada. La página A3 del diagrama general requiere impresión y plegado. Confirmar acabado/entrega indicados por el docente."
+    },
+    {
+      "id": "V11",
+      "control": "Letra impresa de los diagramas EA de los capítulos 5–7",
+      "estado": "Pendiente decisión",
+      "accion": "Medición por figura: la mayoría entre 3 y 5 pt impresos (letra por defecto de EA reducida al ancho de página). Corregido en 5.5, 8.1–8.2 y 9.3.2; el resto requiere regenerar las figuras con letra mayor."
+    },
+    {
+      "id": "V08",
+      "control": "Cotizaciones y línea base económica institucional",
+      "estado": "Proyección condicionada",
+      "accion": "Referencia CITI de la lámina 2021 y supuestos declarados; no son tarifas certificadas vigentes, compras ni ahorros medidos."
+    },
+    {
+      "id": "V09",
+      "control": "Respaldo externo y restauración del despliegue",
+      "estado": "Pendiente",
+      "accion": "No afirmar copia S3 o restauración productiva ejecutada por incluir su provisión en el presupuesto."
+    },
+    {
+      "id": "V10",
+      "control": "Caracterización institucional del capítulo 3",
+      "estado": "Dependencia externa",
+      "accion": "Misión, visión, organigrama, datos de contacto, ubicación y dimensionamiento delimitados como propuestas o referencias pendientes. Falta fuente institucional aprobada o validación DSU; las imágenes disponibles no acreditan por sí solas la ubicación de sus oficinas."
+    }
+  ],
+  "preservacion": "Base vigente 1–7 e histórica intactas; correcciones explícitas en portada, resumen/abstract, sustento algorítmico, caracterización institucional, presupuesto, terminología, despliegue, vista general y maquetación; 187 imágenes anteriores conservadas y dos actualizadas. Capítulos 8–10 añadidos."
+}

@@ -1,0 +1,18 @@
+{
+  "fecha": "2026-11-16",
+  "observado": "Power BI Desktop muestra el gráfico con datos, sin avisos de carga. Se inspeccionaron las seis vistas y Calendario en la vista de tabla. Recuentos visibles coinciden con SELECT en Neon.",
+  "conexion": "Verificada en Desktop tras autenticación manual del titular; conexión SQL directa con TLS comprobada por separado.",
+  "filas_desktop": {
+    "bi_hechos_residuos": 15430,
+    "bi_jornadas": 1046,
+    "bi_incidencias": 1,
+    "bi_puntos": 12,
+    "bi_predicciones": 0,
+    "bi_recomendaciones": 8,
+    "Calendario": 1374
+  },
+  "publicacion": "No realizada ni verificada. Sign in visible; la conexión PostgreSQL no acredita acceso al servicio Microsoft.",
+  "cambios": "Servidor y base reales, reporte guardado en PBIR, gráfico existente ampliado y siete tarjetas del diagrama alineadas. Sin cambios intencionales de medidas ni relaciones.",
+  "capturas_actuales": "02_capturas/12_... en adelante; consultar INDICE_CAPTURAS.md",
+  "limites": "Un gráfico; faltan gráficos adicionales y auditoría de filtros/medidas/RLS. La base es demo sintética. No se ejecutaron ETL, entrenamiento ni escrituras de registros."
+}

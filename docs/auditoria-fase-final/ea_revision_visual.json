@@ -1,0 +1,202 @@
+{
+  "modelo": "modelo_uml\\DSU-RevisionVisual.eapx",
+  "modelo_original_sha256": "98f33f5e03b58b1eba8315b0aa3c6cfff36ba9ddb56ee63dd6910e0ce10d1098",
+  "elementos": [
+    {
+      "nombre": "Sistema web de gestión de residuos sólidos para la DSU-UAGRM con predicción mediante Random Forest Regressor",
+      "alias": "Sistema DSU",
+      "tipo": "Boundary"
+    },
+    {
+      "nombre": "CU1. Iniciar sesión",
+      "alias": "CU1",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU2. Cerrar sesión",
+      "alias": "CU2",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU3. Gestionar usuarios",
+      "alias": "CU3",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU4. Gestionar roles y permisos",
+      "alias": "CU4",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU5. Gestionar sectores y facultades",
+      "alias": "CU5",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU6. Gestionar puntos de recolección",
+      "alias": "CU6",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU7. Gestionar contenedores",
+      "alias": "CU7",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU8. Gestionar tipos de residuo y unidades de medida",
+      "alias": "CU8",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU9. Registrar vaciado de residuos",
+      "alias": "CU9",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU10. Registrar incidencia operativa",
+      "alias": "CU10",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU11. Atender incidencia",
+      "alias": "CU11",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU12. Consultar histórico de residuos",
+      "alias": "CU12",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU13. Gestionar vehículos",
+      "alias": "CU13",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU14. Planificar jornada y ruta de recolección",
+      "alias": "CU14",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU15. Asignar personal y vehículos a la jornada",
+      "alias": "CU15",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU16. Ejecutar jornada de recolección",
+      "alias": "CU16",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU17. Omitir punto de la ruta",
+      "alias": "CU17",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU18. Cerrar jornada de recolección",
+      "alias": "CU18",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU19. Consultar historial de recolecciones",
+      "alias": "CU19",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU20. Ejecutar proceso ETL",
+      "alias": "CU20",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU21. Visualizar tablero interactivo",
+      "alias": "CU21",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU22. Comparar periodos e identificar tendencias",
+      "alias": "CU22",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU23. Visualizar puntos en el mapa interactivo",
+      "alias": "CU23",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU24. Generar mapa de calor",
+      "alias": "CU24",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU25. Filtrar mapa por periodo, sector y tipo de residuo",
+      "alias": "CU25",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU26. Entrenar y evaluar el modelo Random Forest Regressor",
+      "alias": "CU26",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU27. Publicar o revertir versión del modelo",
+      "alias": "CU27",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU28. Predecir generación futura y emitir alertas",
+      "alias": "CU28",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU29. Consultar alertas y recomendaciones logísticas",
+      "alias": "CU29",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU30. Atender recomendación logística",
+      "alias": "CU30",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU31. Configurar periodos académicos y parámetros",
+      "alias": "CU31",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU32. Consultar bitácora de auditoría",
+      "alias": "CU32",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU33. Generar reporte",
+      "alias": "CU33",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "CU34. Exportar reporte a Excel o PDF",
+      "alias": "CU34",
+      "tipo": "UseCase"
+    },
+    {
+      "nombre": "Personal Operativo de Limpieza",
+      "alias": "Operativo",
+      "tipo": "Actor"
+    },
+    {
+      "nombre": "Supervisor de Recolección",
+      "alias": "Supervisor",
+      "tipo": "Actor"
+    },
+    {
+      "nombre": "Cuerpo Directivo de la DSU",
+      "alias": "Directivo",
+      "tipo": "Actor"
+    },
+    {
+      "nombre": "Administrador del Sistema",
+      "alias": "Administrador",
+      "tipo": "Actor"
+    }
+  ],
+  "alcance": "Solo alias y tamaño de fuente en la vista general. Nombres, elementos, conexiones y disposición originales conservados."
+}

@@ -1,0 +1,154 @@
+{
+  "fecha": "2026-11-16",
+  "conexion": "rol powerbi, solo lectura, sslmode=require",
+  "medidas": {
+    "Total kg": {
+      "dax": "CALCULATE(SUM(bi_hechos_residuos[cantidad_base]), bi_hechos_residuos[magnitud] = \"PESO\")",
+      "sql": "SELECT COALESCE(SUM(cantidad_base),0) FROM bi_hechos_residuos WHERE magnitud='PESO'",
+      "valor": 119248.241
+    },
+    "Total L": {
+      "dax": "CALCULATE(SUM(bi_hechos_residuos[cantidad_base]), bi_hechos_residuos[magnitud] = \"VOLUMEN\")",
+      "sql": "SELECT COALESCE(SUM(cantidad_base),0) FROM bi_hechos_residuos WHERE magnitud='VOLUMEN'",
+      "valor": 0.0
+    },
+    "Registros": {
+      "dax": "COUNTROWS(bi_hechos_residuos)",
+      "sql": "SELECT COUNT(*) FROM bi_hechos_residuos",
+      "valor": 15430.0
+    },
+    "Puntos con datos": {
+      "dax": "DISTINCTCOUNT(bi_hechos_residuos[punto_codigo])",
+      "sql": "SELECT COUNT(DISTINCT punto_codigo) FROM bi_hechos_residuos",
+      "valor": 12.0
+    },
+    "Promedio kg por punto": {
+      "dax": "DIVIDE([Total kg], [Puntos con datos])",
+      "sql": "SELECT SUM(cantidad_base) FILTER (WHERE magnitud='PESO') / NULLIF(COUNT(DISTINCT punto_codigo),0) FROM bi_hechos_residuos",
+      "valor": 9937.353416666667
+    },
+    "Participación aprovechable": {
+      "dax": "DIVIDE(CALCULATE([Total kg], bi_hechos_residuos[aprovechable] = TRUE()), [Total kg])",
+      "sql": "SELECT SUM(cantidad_base) FILTER (WHERE magnitud='PESO' AND aprovechable) / NULLIF(SUM(cantidad_base) FILTER (WHERE magnitud='PESO'),0) FROM bi_hechos_residuos",
+      "valor": 0.8042997045130418
+    },
+    "Jornadas cerradas": {
+      "dax": "CALCULATE(COUNTROWS(bi_jornadas), bi_jornadas[estado] = \"CERRADA\")",
+      "sql": "SELECT COUNT(*) FROM bi_jornadas WHERE estado='CERRADA'",
+      "valor": 1040.0
+    },
+    "Cobertura": {
+      "dax": "DIVIDE(SUM(bi_jornadas[puntos_atendidos]), SUM(bi_jornadas[puntos_planificados]))",
+      "sql": "SELECT SUM(puntos_atendidos)::numeric / NULLIF(SUM(puntos_planificados),0) FROM bi_jornadas",
+      "valor": 0.9646271510516252
+    },
+    "Incidencias": {
+      "dax": "COUNTROWS(bi_incidencias)",
+      "sql": "SELECT COUNT(*) FROM bi_incidencias",
+      "valor": 1.0
+    },
+    "Incidencias pendientes": {
+      "dax": "CALCULATE(COUNTROWS(bi_incidencias), bi_incidencias[estado] = \"PENDIENTE\")",
+      "sql": "SELECT COUNT(*) FROM bi_incidencias WHERE estado='PENDIENTE'",
+      "valor": 1.0
+    },
+    "Generación proyectada kg": {
+      "dax": "SUM(bi_predicciones[cantidad_kg])",
+      "sql": "SELECT COALESCE(SUM(cantidad_kg),0) FROM bi_predicciones",
+      "valor": 0.0
+    },
+    "Margen proyectado kg": {
+      "dax": "SQRT(SUMX(bi_predicciones, bi_predicciones[margen_kg] ^ 2))",
+      "sql": "SELECT COALESCE(SQRT(SUM(margen_kg^2)),0) FROM bi_predicciones",
+      "valor": 0.0
+    },
+    "Recomendaciones pendientes": {
+      "dax": "CALCULATE(COUNTROWS(bi_recomendaciones), bi_recomendaciones[estado] = \"PENDIENTE\")",
+      "sql": "SELECT COUNT(*) FROM bi_recomendaciones WHERE estado='PENDIENTE'",
+      "valor": 2.0
+    },
+    "Recomendaciones aceptadas": {
+      "dax": "CALCULATE(COUNTROWS(bi_recomendaciones), bi_recomendaciones[estado] = \"ACEPTADA\")",
+      "sql": "SELECT COUNT(*) FROM bi_recomendaciones WHERE estado='ACEPTADA'",
+      "valor": 0.0
+    }
+  },
+  "medidas_contextuales": [
+    "Total kg año anterior",
+    "Variación vs año anterior"
+  ],
+  "controles": {
+    "hechos_min_max": [
+      "2025-10-06",
+      "2026-10-05"
+    ],
+    "puntos_solo_volumen": [
+      0.0
+    ],
+    "registros_volumen": [
+      0.0
+    ],
+    "hechos_sin_punto_en_dimension": [
+      0.0
+    ],
+    "puntos_codigo_duplicado": [
+      0.0
+    ],
+    "estados_jornada": [
+      "CERRADA,EN_EJECUCION,PLANIFICADA"
+    ],
+    "estados_incidencia": [
+      "PENDIENTE"
+    ],
+    "estados_recomendacion": [
+      "PENDIENTE,REEMPLAZADA"
+    ],
+    "magnitudes": [
+      "PESO"
+    ]
+  },
+  "hallazgos": [
+    {
+      "control": "Calendario marcado como tabla de fechas",
+      "estado": "Conforme"
+    },
+    {
+      "control": "Rango del calendario cubre los hechos",
+      "estado": "Conforme",
+      "detalle": "Calendario desde 2024-01-01; hechos 2025-10-06 a 2026-10-05"
+    },
+    {
+      "control": "Fecha filtra hechos, jornadas y predicciones",
+      "estado": "Conforme"
+    },
+    {
+      "control": "Incidencias y recomendaciones sin relación con Calendario",
+      "estado": "Limitación declarada",
+      "detalle": "Sus fechas son marcas de tiempo (fecha_hora, creada_en). Un segmentador de periodo no las filtra; en el informe se presentan como estado actual (pendientes), no como serie del periodo."
+    },
+    {
+      "control": "Integridad de la relación con bi_puntos",
+      "estado": "Conforme"
+    },
+    {
+      "control": "Promedio kg por punto: divisor",
+      "estado": "Conforme",
+      "detalle": "Puntos con solo registros en litros: 0.0; si fueran más de cero, el divisor incluiría puntos sin kg."
+    },
+    {
+      "control": "Participación aprovechable",
+      "estado": "Limitación declarada",
+      "detalle": "Calculada sobre kg; registros en litros: 0.0."
+    },
+    {
+      "control": "Margen proyectado kg",
+      "estado": "Conforme",
+      "detalle": "Raíz de la suma de cuadrados, igual que apps/prediction/services/prediccion.py (supone errores independientes)."
+    },
+    {
+      "control": "Valores de estado usados por las medidas existen",
+      "estado": "Conforme",
+      "detalle": "Jornadas: CERRADA,EN_EJECUCION,PLANIFICADA; incidencias: PENDIENTE; recomendaciones: PENDIENTE,REEMPLAZADA"
+    }
+  ]
+}

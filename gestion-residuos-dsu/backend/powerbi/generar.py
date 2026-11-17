@@ -226,6 +226,18 @@ def calendario() -> dict:
     columnas = [columna("Calendario", n, t) for n, t in cols]
     columnas[0].update(isKey=True, formatString="Short Date")
     columnas[3]["sortByColumn"] = "Mes"
+    # Serie mensual ordenable (la agrega también tablero.py al proyecto existente).
+    columnas.append(
+        {
+            "type": "calculated",
+            "name": "Año-Mes",
+            "dataType": "string",
+            "isDataTypeInferred": True,
+            "expression": 'FORMAT(Calendario[Fecha], "yyyy-MM")',
+            "lineageTag": guid("Calendario", "Año-Mes"),
+            "summarizeBy": "none",
+        }
+    )
     return {
         "name": "Calendario",
         "dataCategory": "Time",

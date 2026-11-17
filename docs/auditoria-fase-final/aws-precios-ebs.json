@@ -1,0 +1,6 @@
+{
+    "FormatVersion": "aws_v1",
+    "PriceList": [
+        "{\"product\":{\"productFamily\":\"Storage\",\"attributes\":{\"maxThroughputvolume\":\"2000 MiB/s\",\"volumeType\":\"General Purpose\",\"maxIopsvolume\":\"80000\",\"usagetype\":\"SAE1-EBS:VolumeUsage.gp3\",\"locationType\":\"AWS Region\",\"maxVolumeSize\":\"64 TiB\",\"storageMedia\":\"SSD-backed\",\"regionCode\":\"sa-east-1\",\"servicecode\":\"AmazonEC2\",\"volumeApiName\":\"gp3\",\"location\":\"South America (Sao Paulo)\",\"servicename\":\"Amazon Elastic Compute Cloud\",\"operation\":\"\",\"group\":\"EBS Storage\"},\"sku\":\"FJRJF7DYJ65UXC5J\"},\"serviceCode\":\"AmazonEC2\",\"terms\":{\"OnDemand\":{\"FJRJF7DYJ65UXC5J.JRTCKXETXF\":{\"priceDimensions\":{\"FJRJF7DYJ65UXC5J.JRTCKXETXF.6YS6EN2CT7\":{\"unit\":\"GB-Mo\",\"endRange\":\"Inf\",\"description\":\"$0.152 per GB-month of General Purpose (gp3) provisioned storage - South America (Sao Paulo)\",\"appliesTo\":[],\"rateCode\":\"FJRJF7DYJ65UXC5J.JRTCKXETXF.6YS6EN2CT7\",\"beginRange\":\"0\",\"pricePerUnit\":{\"USD\":\"0.1520000000\"}}},\"sku\":\"FJRJF7DYJ65UXC5J\",\"effectiveDate\":\"2026-11-01T00:00:00Z\",\"offerTermCode\":\"JRTCKXETXF\",\"termAttributes\":{}}}},\"version\":\"20261114012926\",\"publicationDate\":\"2026-11-14T01:29:26Z\"}"
+    ]
+}

@@ -1,13 +1,13 @@
 # Software 2 — contexto del proyecto DSU
 
-Actualizado: 15/11/2026.
+Actualizado: 16/11/2026.
 
 El equipo utiliza el mismo sistema DSU-UAGRM para **Software 2 y Taller de Grado I**. Cada materia conserva sus entregables y criterios de evaluación, pero comparte implementación, requisitos y evidencias consistentes.
 
 ## Decisiones confirmadas
 
 - La metodología elegida para Software 2 es **PUDS (Proceso Unificado de Desarrollo de Software)**, para aprovechar el trabajo de Taller.
-- Taller ya tiene documentación vigente en `../docs/Documento_Taller_de_Grado_I_Grupo_8.docx`. Software 2 todavía no tiene entregables propios; este archivo registra contexto, no sustituye un entregable.
+- Taller tiene documentación vigente en `../docs/Documento_Taller_de_Grado_I_Grupo_8.docx`. Software 2 tiene su documento independiente en `Documento_Software_2_DSU.docx`: avance de 53 páginas con doce capítulos desarrollados, SQAP, PUDS, pruebas, bibliografía y anexos. Ver `PROGRESO.md` para fuentes, pendientes y continuidad.
 - Software 2 solicita **SQAP**. El listado exacto de otros documentos, formatos, fechas y criterios queda pendiente de confirmar con las instrucciones del docente.
 - El código es compartido y mantiene **PostgreSQL en Neon**. Se descartó migrar a una base local.
 
@@ -19,4 +19,7 @@ Reutilizar requisitos, análisis, diseño, diagramas y evidencias de Taller cuan
 
 ## Para iniciar una tarea
 
-Leer primero `../AGENTS.md`, las instrucciones específicas del entregable y las fuentes de Taller aplicables. Antes de producir el conjunto completo de documentación de Software 2, confirmar la lista oficial del docente. No duplicar el sistema ni alterar requisitos solo porque aparezcan en un ejemplo.
+Leer primero `../AGENTS.md`, `PROGRESO.md` y las fuentes de Taller aplicables. El 16/11/2026 el usuario autorizó avanzar con la estructura de los modelos y los apuntes de `C:/Users/rekte/OneDrive/Desktop/clase.pdf`, aunque no recuerda la consigna completa. Usar el modelo 2025 del Grupo 4 como base y el final 2023 como contraste; identificar la estructura como adoptada, no como rúbrica confirmada. Mantener documentos y criterios propios por materia, con un mismo producto. No duplicar el sistema ni alterar requisitos solo porque aparezcan en un ejemplo.
+
+El usuario confirmó Grupo 8 para Software 2 y pidió omitir la fecha de entrega. Mantener escudo y formato de los modelos. Las fuentes activas son paps.md y capitulos.md, ensambladas por ensamblar.py; preservar cambios manuales antes de regenerar. Consultar PROGRESO.md para pendientes y supuestos.
+

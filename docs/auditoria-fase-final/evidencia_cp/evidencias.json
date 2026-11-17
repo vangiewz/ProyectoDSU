@@ -1,0 +1,1080 @@
+{
+  "fecha": "2026-11-16",
+  "navegador": "157.0.8103.51",
+  "entorno": "PostgreSQL 18 desechable en Docker, API Django local y cliente compilado con las cabeceras de vercel.json",
+  "datos": "Fixtures sintéticas equivalentes a las pruebas automatizadas; sin conexión a Neon",
+  "casos": [
+    {
+      "cp": 1,
+      "usuario": null,
+      "figura": "CP-01.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 200,
+        "contiene": "access"
+      },
+      "nota": "El sistema emite los tokens y abre la pantalla de inicio del rol Operativo.",
+      "metodo": "POST",
+      "ruta": "/api/auth/login/",
+      "entrada": {
+        "username": "oper_t",
+        "password": "lVlg6rb7BP-G_9AUambskTaN6bCbbR9H"
+      },
+      "estado": 200,
+      "respuesta": {
+        "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5NDg5MDQ2MCwiaWF0IjoxNzk0ODU0NDYwLCJqdGkiOiJjMGE3NDAzYmU3NTM0OGJjYWY3ODMzNWI3M2JlZWRjNiIsInVzZXJfaWQiOiI0In0.moV0woUemy8b96G9GoFfp0yAkrfvAdBWgbIs2iZLm5I",
+        "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzk0ODU2MjYwLCJpYXQiOjE3OTQ4NTQ0NjAsImp0aSI6ImUyMzI2MmUxZDc0NjRmZDNiMjFiY2U1MWRkYjc4MmRkIiwidXNlcl9pZCI6IjQifQ.X2kflqHO96HfL7FYzIQLZJaMBiJEny6KOAeZXxGhMaU"
+      }
+    },
+    {
+      "cp": 2,
+      "usuario": null,
+      "figura": "CP-02.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 401,
+        "contiene": "No active account"
+      },
+      "nota": "La interfaz informa el rechazo y no abre sesión.",
+      "metodo": "POST",
+      "ruta": "/api/auth/login/",
+      "entrada": {
+        "username": "oper_t",
+        "password": "mala"
+      },
+      "estado": 401,
+      "respuesta": {
+        "detail": "No active account found with the given credentials"
+      }
+    },
+    {
+      "cp": 3,
+      "usuario": null,
+      "figura": "CP-03.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 205,
+        "contiene": ""
+      },
+      "nota": "Tras cerrar sesión la interfaz vuelve a la pantalla de ingreso.",
+      "metodo": "POST",
+      "ruta": "/api/auth/logout/",
+      "entrada": {
+        "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5NDg5MDQ2MCwiaWF0IjoxNzk0ODU0NDYwLCJqdGkiOiJjMGE3NDAzYmU3NTM0OGJjYWY3ODMzNWI3M2JlZWRjNiIsInVzZXJfaWQiOiI0In0.moV0woUemy8b96G9GoFfp0yAkrfvAdBWgbIs2iZLm5I"
+      },
+      "estado": 205,
+      "respuesta": ""
+    },
+    {
+      "cp": 4,
+      "usuario": null,
+      "figura": "CP-04.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 401,
+        "contiene": "blacklisted"
+      },
+      "nota": "Solicitud de renovación con el refresh de la sesión cerrada en CP-03, enviada desde el mismo navegador: el servidor lo rechaza por estar revocado. La pantalla de ingreso es solo la consecuencia.",
+      "metodo": "POST",
+      "ruta": "/api/auth/refresh/",
+      "entrada": {
+        "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5NDg5MDQ2MCwiaWF0IjoxNzk0ODU0NDYwLCJqdGkiOiJjMGE3NDAzYmU3NTM0OGJjYWY3ODMzNWI3M2JlZWRjNiIsInVzZXJfaWQiOiI0In0.moV0woUemy8b96G9GoFfp0yAkrfvAdBWgbIs2iZLm5I"
+      },
+      "estado": 401,
+      "respuesta": {
+        "detail": "Token is blacklisted",
+        "code": "token_not_valid"
+      }
+    },
+    {
+      "cp": 5,
+      "usuario": "oper_t",
+      "figura": "CP-05.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 403,
+        "contiene": "permiso"
+      },
+      "nota": "La interfaz oculta el módulo al rol Operativo; la solicitud directa a la API desde la misma sesión también es denegada (el servidor valida el permiso).",
+      "metodo": "GET",
+      "ruta": "/api/usuarios/",
+      "entrada": null,
+      "estado": 403,
+      "respuesta": {
+        "detail": "Usted no tiene permiso para realizar esta acción."
+      }
+    },
+    {
+      "cp": 6,
+      "usuario": "admin_t",
+      "figura": "CP-06.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 400,
+        "contiene": "contraseña"
+      },
+      "nota": "",
+      "metodo": "POST",
+      "ruta": "/api/usuarios/",
+      "entrada": {
+        "username": "nuevo",
+        "first_name": "N",
+        "last_name": "U",
+        "roles": [
+          "Operativo"
+        ],
+        "password": "123"
+      },
+      "estado": 400,
+      "respuesta": {
+        "non_field_errors": [
+          "La contraseña es demasiado corta. Debe contener por lo menos 8 caracteres.",
+          "Esta contraseña es demasiado común.",
+          "Esta contraseña es completamente numérica."
+        ]
+      }
+    },
+    {
+      "cp": 7,
+      "usuario": "admin_t",
+      "figura": "CP-07.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 201,
+        "contiene": "Operativo"
+      },
+      "nota": "La cuenta aparece en la lista con el rol Operativo; la respuesta no incluye la contraseña.",
+      "metodo": "POST",
+      "ruta": "/api/usuarios/",
+      "entrada": {
+        "username": "nuevo",
+        "first_name": "N",
+        "last_name": "U",
+        "roles": [
+          "Operativo"
+        ],
+        "password": "Otra.Clave.Larga.9"
+      },
+      "estado": 201,
+      "respuesta": {
+        "id": 5,
+        "username": "nuevo",
+        "first_name": "N",
+        "last_name": "U",
+        "email": "",
+        "ci": "",
+        "telefono": "",
+        "roles": [
+          "Operativo"
+        ],
+        "is_active": true,
+        "last_login": null,
+        "date_joined": "2026-11-16T14:41:10.381528-04:00"
+      }
+    },
+    {
+      "cp": 8,
+      "usuario": "super_t",
+      "figura": "CP-08.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 201,
+        "contiene": "P1"
+      },
+      "nota": "La jornada queda planificada con la ruta P1, P2 y se abre su detalle.",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/",
+      "entrada": {
+        "fecha": "2026-11-16",
+        "turno": "MANANA",
+        "sector": "1",
+        "descripcion": "",
+        "puntos": [
+          1,
+          2
+        ]
+      },
+      "estado": 201,
+      "respuesta": {
+        "id": 2,
+        "ruta": [
+          {
+            "id": 3,
+            "punto": 1,
+            "codigo": "P1",
+            "nombre": "Punto 1",
+            "latitud": "-17.775700",
+            "longitud": "-63.195600",
+            "orden": 1,
+            "atendido": null,
+            "sin_generacion": false,
+            "motivo_omision": "",
+            "atendido_en": null
+          },
+          {
+            "id": 4,
+            "punto": 2,
+            "codigo": "P2",
+            "nombre": "Punto 2",
+            "latitud": "-17.775700",
+            "longitud": "-63.195600",
+            "orden": 2,
+            "atendido": null,
+            "sin_generacion": false,
+            "motivo_omision": "",
+            "atendido_en": null
+          }
+        ],
+        "sector_nombre": "Sector 1",
+        "turno_display": "Mañana",
+        "estado_display": "Planificada",
+        "responsable_nombre": null,
+        "personal_detalle": [],
+        "fecha": "2026-11-16",
+        "turno": "MANANA",
+        "estado": "PLANIFICADA",
+        "descripcion": "",
+        "hora_inicio": null,
+        "hora_fin": null,
+        "observaciones_cierre": "",
+        "creada_en": "2026-11-16T14:41:39.164613-04:00",
+        "sector": 1,
+        "planificada_por": 2,
+        "responsable": null,
+        "personal": [],
+        "vehiculos": []
+      }
+    },
+    {
+      "cp": 9,
+      "usuario": "super_t",
+      "figura": "CP-09.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 400,
+        "contiene": "conjunto único"
+      },
+      "nota": "",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/",
+      "entrada": {
+        "fecha": "2026-11-16",
+        "turno": "MANANA",
+        "sector": "1",
+        "descripcion": "",
+        "puntos": [
+          1
+        ]
+      },
+      "estado": 400,
+      "respuesta": {
+        "non_field_errors": [
+          "Los campos fecha, turno, sector deben formar un conjunto único."
+        ]
+      }
+    },
+    {
+      "cp": 10,
+      "usuario": "super_t",
+      "figura": "CP-10.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 400,
+        "contiene": "responsable"
+      },
+      "nota": "Se marcó al operario sin elegir responsable.",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/2/asignar/",
+      "entrada": {
+        "personal": [
+          4
+        ],
+        "vehiculos": [],
+        "responsable": null
+      },
+      "estado": 400,
+      "respuesta": {
+        "responsable": "Debe designar un responsable de la jornada."
+      }
+    },
+    {
+      "cp": 11,
+      "usuario": "super_t",
+      "figura": "CP-11.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 200,
+        "contiene": "\"responsable\""
+      },
+      "nota": "",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/2/asignar/",
+      "entrada": {
+        "personal": [
+          4
+        ],
+        "vehiculos": [],
+        "responsable": 4
+      },
+      "estado": 200,
+      "respuesta": {
+        "id": 2,
+        "ruta": [
+          {
+            "id": 3,
+            "punto": 1,
+            "codigo": "P1",
+            "nombre": "Punto 1",
+            "latitud": "-17.775700",
+            "longitud": "-63.195600",
+            "orden": 1,
+            "atendido": null,
+            "sin_generacion": false,
+            "motivo_omision": "",
+            "atendido_en": null
+          },
+          {
+            "id": 4,
+            "punto": 2,
+            "codigo": "P2",
+            "nombre": "Punto 2",
+            "latitud": "-17.775700",
+            "longitud": "-63.195600",
+            "orden": 2,
+            "atendido": null,
+            "sin_generacion": false,
+            "motivo_omision": "",
+            "atendido_en": null
+          }
+        ],
+        "sector_nombre": "Sector 1",
+        "turno_display": "Mañana",
+        "estado_display": "Planificada",
+        "responsable_nombre": "oper_t",
+        "personal_detalle": [
+          {
+            "id": 4,
+            "nombre": "oper_t"
+          }
+        ],
+        "puntos_planificados": 2,
+        "puntos_atendidos": 0,
+        "fecha": "2026-11-16",
+        "turno": "MANANA",
+        "estado": "PLANIFICADA",
+        "descripcion": "",
+        "hora_inicio": null,
+        "hora_fin": null,
+        "observaciones_cierre": "",
+        "creada_en": "2026-11-16T14:41:39.164613-04:00",
+        "sector": 1,
+        "planificada_por": 2,
+        "responsable": 4,
+        "personal": [
+          4
+        ],
+        "vehiculos": []
+      }
+    },
+    {
+      "cp": 12,
+      "usuario": "oper_t",
+      "figura": "CP-12.png",
+      "conforme": true,
+      "ancho": 390,
+      "esperado": {
+        "estado": 400,
+        "contiene": "mayor o igual"
+      },
+      "nota": "Con cantidad 0 la interfaz deshabilita «Registrar vaciado». La misma entrada enviada a la API desde la sesión del operario también es rechazada.",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/2/visitas/",
+      "entrada": {
+        "punto": 1,
+        "detalles": [
+          {
+            "tipo_residuo": 1,
+            "cantidad": "0"
+          }
+        ]
+      },
+      "estado": 400,
+      "respuesta": {
+        "detalles": {
+          "0": {
+            "cantidad": [
+              "Asegúrese de que este valor es mayor o igual a 0.001."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cp": 13,
+      "usuario": "oper_t",
+      "figura": "CP-13.png",
+      "conforme": true,
+      "ancho": 390,
+      "esperado": {
+        "estado": 400,
+        "contiene": "excede"
+      },
+      "nota": "",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/2/visitas/",
+      "entrada": {
+        "punto": 1,
+        "observaciones": "",
+        "detalles": [
+          {
+            "tipo_residuo": 1,
+            "cantidad": "151"
+          }
+        ]
+      },
+      "estado": 400,
+      "respuesta": {
+        "detalles": "151.00 kg excede de forma manifiesta la capacidad del punto (100.00 kg)."
+      }
+    },
+    {
+      "cp": 14,
+      "usuario": "oper_t",
+      "figura": "CP-14.png",
+      "conforme": true,
+      "ancho": 390,
+      "esperado": {
+        "estado": 201,
+        "contiene": "P1"
+      },
+      "nota": "El registro queda a nombre del operario autenticado y la ruta avanza a P2.",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/2/visitas/",
+      "entrada": {
+        "punto": 1,
+        "observaciones": "",
+        "detalles": [
+          {
+            "tipo_residuo": 1,
+            "cantidad": "35.5"
+          }
+        ]
+      },
+      "estado": 201,
+      "respuesta": [
+        {
+          "id": 4,
+          "punto_codigo": "P1",
+          "sector": "Sector 1",
+          "tipo_residuo_nombre": "Orgánico",
+          "unidad_simbolo": "kg",
+          "registrado_por_nombre": "oper_t",
+          "jornada_detalle": "2026-11-16 Mañana - S1",
+          "cantidad": "35.500",
+          "observaciones": "",
+          "fecha_hora": "2026-11-16T14:42:42.389474-04:00",
+          "jornada": 2,
+          "punto": 1,
+          "tipo_residuo": 1,
+          "unidad": 1,
+          "registrado_por": 4
+        }
+      ]
+    },
+    {
+      "cp": 15,
+      "usuario": "super_t",
+      "figura": "CP-15.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 400,
+        "contiene": "P2"
+      },
+      "nota": "",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/2/cerrar/",
+      "entrada": {
+        "observaciones": ""
+      },
+      "estado": 400,
+      "respuesta": [
+        "Puntos sin registro ni motivo de omisión: P2."
+      ]
+    },
+    {
+      "cp": 16,
+      "usuario": "oper_t",
+      "figura": "CP-16.png",
+      "conforme": true,
+      "ancho": 390,
+      "esperado": {
+        "estado": 200,
+        "contiene": "Acceso bloqueado"
+      },
+      "nota": "",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/2/omitir/",
+      "entrada": {
+        "punto": 2,
+        "motivo": "Acceso bloqueado"
+      },
+      "estado": 200,
+      "respuesta": {
+        "id": 2,
+        "ruta": [
+          {
+            "id": 3,
+            "punto": 1,
+            "codigo": "P1",
+            "nombre": "Punto 1",
+            "latitud": "-17.775700",
+            "longitud": "-63.195600",
+            "orden": 1,
+            "atendido": true,
+            "sin_generacion": false,
+            "motivo_omision": "",
+            "atendido_en": "2026-11-16T14:42:42.389474-04:00"
+          },
+          {
+            "id": 4,
+            "punto": 2,
+            "codigo": "P2",
+            "nombre": "Punto 2",
+            "latitud": "-17.775700",
+            "longitud": "-63.195600",
+            "orden": 2,
+            "atendido": false,
+            "sin_generacion": false,
+            "motivo_omision": "Acceso bloqueado",
+            "atendido_en": "2026-11-16T14:42:46.064432-04:00"
+          }
+        ],
+        "sector_nombre": "Sector 1",
+        "turno_display": "Mañana",
+        "estado_display": "En ejecución",
+        "responsable_nombre": "oper_t",
+        "personal_detalle": [
+          {
+            "id": 4,
+            "nombre": "oper_t"
+          }
+        ],
+        "puntos_planificados": 2,
+        "puntos_atendidos": 1,
+        "fecha": "2026-11-16",
+        "turno": "MANANA",
+        "estado": "EN_EJECUCION",
+        "descripcion": "",
+        "hora_inicio": "2026-11-16T14:42:39.248937-04:00",
+        "hora_fin": null,
+        "observaciones_cierre": "",
+        "creada_en": "2026-11-16T14:41:39.164613-04:00",
+        "sector": 1,
+        "planificada_por": 2,
+        "responsable": 4,
+        "personal": [
+          4
+        ],
+        "vehiculos": []
+      }
+    },
+    {
+      "cp": 17,
+      "usuario": "super_t",
+      "figura": "CP-17.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 200,
+        "contiene": "CERRADA"
+      },
+      "nota": "",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/2/cerrar/",
+      "entrada": {
+        "observaciones": "OK"
+      },
+      "estado": 200,
+      "respuesta": {
+        "id": 2,
+        "ruta": [
+          {
+            "id": 3,
+            "punto": 1,
+            "codigo": "P1",
+            "nombre": "Punto 1",
+            "latitud": "-17.775700",
+            "longitud": "-63.195600",
+            "orden": 1,
+            "atendido": true,
+            "sin_generacion": false,
+            "motivo_omision": "",
+            "atendido_en": "2026-11-16T14:42:42.389474-04:00"
+          },
+          {
+            "id": 4,
+            "punto": 2,
+            "codigo": "P2",
+            "nombre": "Punto 2",
+            "latitud": "-17.775700",
+            "longitud": "-63.195600",
+            "orden": 2,
+            "atendido": false,
+            "sin_generacion": false,
+            "motivo_omision": "Acceso bloqueado",
+            "atendido_en": "2026-11-16T14:42:46.064432-04:00"
+          }
+        ],
+        "sector_nombre": "Sector 1",
+        "turno_display": "Mañana",
+        "estado_display": "Cerrada",
+        "responsable_nombre": "oper_t",
+        "personal_detalle": [
+          {
+            "id": 4,
+            "nombre": "oper_t"
+          }
+        ],
+        "puntos_planificados": 2,
+        "puntos_atendidos": 1,
+        "fecha": "2026-11-16",
+        "turno": "MANANA",
+        "estado": "CERRADA",
+        "descripcion": "",
+        "hora_inicio": "2026-11-16T14:42:39.248937-04:00",
+        "hora_fin": "2026-11-16T14:42:48.080697-04:00",
+        "observaciones_cierre": "OK",
+        "creada_en": "2026-11-16T14:41:39.164613-04:00",
+        "sector": 1,
+        "planificada_por": 2,
+        "responsable": 4,
+        "personal": [
+          4
+        ],
+        "vehiculos": []
+      }
+    },
+    {
+      "cp": 18,
+      "usuario": "super_t",
+      "figura": "CP-18.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 403,
+        "contiene": "sector"
+      },
+      "nota": "La lista de sectores del supervisor solo ofrece su sector. La planificación en el sector ajeno, enviada desde su sesión, es denegada por el servidor.",
+      "metodo": "POST",
+      "ruta": "/api/jornadas/",
+      "entrada": {
+        "fecha": "2026-11-16",
+        "turno": "TARDE",
+        "sector": 2,
+        "puntos": [
+          3
+        ]
+      },
+      "estado": 403,
+      "respuesta": {
+        "detail": "No tiene permisos sobre el sector indicado."
+      }
+    },
+    {
+      "cp": 19,
+      "usuario": "super_t",
+      "figura": "CP-19.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 400,
+        "contiene": "ETL"
+      },
+      "nota": "",
+      "metodo": "GET",
+      "ruta": "/api/analitica/indicadores/?desde=2026-09-01&hasta=2026-09-30",
+      "entrada": null,
+      "estado": 400,
+      "respuesta": [
+        "Aún no hay información analítica: ejecute el proceso ETL al menos una vez."
+      ]
+    },
+    {
+      "cp": 20,
+      "usuario": "super_t",
+      "figura": "CP-20.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 200,
+        "contiene": "42.5"
+      },
+      "nota": "Periodo 01/09/2026–30/09/2026, después del ETL de la fixture.",
+      "metodo": "GET",
+      "ruta": "/api/analitica/indicadores/?desde=2026-09-01&hasta=2026-09-30",
+      "entrada": null,
+      "estado": 200,
+      "respuesta": {
+        "alcance": {
+          "desde": "2026-09-01",
+          "hasta": "2026-09-30",
+          "dias": 30
+        },
+        "total_kg": 42.5,
+        "total_litros": 0.0,
+        "variacion_kg_pct": null,
+        "periodo_anterior": {
+          "desde": "2026-08-02",
+          "hasta": "2026-08-31",
+          "total_kg": 0.0
+        },
+        "promedio_kg_por_punto": 21.25,
+        "promedio_kg_por_sector": 42.5,
+        "sector_mayor_generacion": {
+          "sector_id": 1,
+          "sector__codigo": "S1",
+          "sector__nombre": "Sector 1",
+          "total": 42.5
+        },
+        "tipo_predominante": {
+          "tipo_residuo_id": 1,
+          "tipo_residuo__nombre": "Orgánico",
+          "magnitud": "PESO",
+          "total": 42.5
+        },
+        "recolecciones_realizadas": 1,
+        "frecuencia_semanal_por_punto": 0.12,
+        "cobertura_pct": 50.0,
+        "puntos_criticos": [],
+        "umbral_critico_kg_dia": 20.0,
+        "registros": 2,
+        "atipicos": 0,
+        "por_sector": [
+          {
+            "sector_id": 1,
+            "sector__codigo": "S1",
+            "sector__nombre": "Sector 1",
+            "total": 42.5
+          }
+        ],
+        "por_tipo": [
+          {
+            "tipo_residuo_id": 1,
+            "tipo_residuo__nombre": "Orgánico",
+            "magnitud": "PESO",
+            "total": 42.5
+          }
+        ],
+        "por_punto": [
+          {
+            "punto_id": 1,
+            "punto__codigo": "P1",
+            "punto__nombre": "Punto 1",
+            "sector__nombre": "Sector 1",
+            "total": 40.0
+          },
+          {
+            "punto_id": 2,
+            "punto__codigo": "P2",
+            "punto__nombre": "Punto 2",
+            "sector__nombre": "Sector 1",
+            "total": 2.5
+          }
+        ],
+        "serie": [
+          {
+            "etiqueta": "2026-09-01",
+            "total": 42.5
+          }
+        ],
+        "serie_por": "dia"
+      }
+    },
+    {
+      "cp": 21,
+      "usuario": "super_t",
+      "figura": "CP-21.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 400,
+        "contiene": "superponen"
+      },
+      "nota": "",
+      "metodo": "GET",
+      "ruta": "/api/analitica/comparacion/?base_desde=2026-08-01&base_hasta=2026-09-15&comp_desde=2026-09-01&comp_hasta=2026-09-30",
+      "entrada": null,
+      "estado": 400,
+      "respuesta": [
+        "Los periodos seleccionados se superponen."
+      ]
+    },
+    {
+      "cp": 22,
+      "usuario": "super_t",
+      "figura": "CP-22.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 200,
+        "contiene": "42.5"
+      },
+      "nota": "Agosto sin datos como base y septiembre como periodo comparado.",
+      "metodo": "GET",
+      "ruta": "/api/analitica/comparacion/?base_desde=2026-08-01&base_hasta=2026-08-31&comp_desde=2026-09-01&comp_hasta=2026-09-30",
+      "entrada": null,
+      "estado": 200,
+      "respuesta": {
+        "base": {
+          "desde": "2026-08-01",
+          "hasta": "2026-08-31"
+        },
+        "comparacion": {
+          "desde": "2026-09-01",
+          "hasta": "2026-09-30"
+        },
+        "sector": [
+          {
+            "id": 1,
+            "nombre": "Sector 1",
+            "base_kg": 0.0,
+            "comparacion_kg": 42.5,
+            "variacion_kg": 42.5,
+            "variacion_pct": null,
+            "tendencia_creciente": false
+          }
+        ],
+        "punto": [
+          {
+            "id": 1,
+            "nombre": "P1",
+            "base_kg": 0.0,
+            "comparacion_kg": 40.0,
+            "variacion_kg": 40.0,
+            "variacion_pct": null,
+            "tendencia_creciente": false
+          },
+          {
+            "id": 2,
+            "nombre": "P2",
+            "base_kg": 0.0,
+            "comparacion_kg": 2.5,
+            "variacion_kg": 2.5,
+            "variacion_pct": null,
+            "tendencia_creciente": false
+          }
+        ],
+        "tipo": [
+          {
+            "id": 1,
+            "nombre": "Orgánico",
+            "base_kg": 0.0,
+            "comparacion_kg": 42.5,
+            "variacion_kg": 42.5,
+            "variacion_pct": null,
+            "tendencia_creciente": false
+          }
+        ]
+      }
+    },
+    {
+      "cp": 23,
+      "usuario": "super_t",
+      "figura": "CP-23.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 400,
+        "contiene": "modelo publicado"
+      },
+      "nota": "Histórico sintético cargado; todavía no existe un modelo publicado.",
+      "metodo": "POST",
+      "ruta": "/api/predicciones/",
+      "entrada": {
+        "horizonte": 7,
+        "sector": null,
+        "punto": null
+      },
+      "estado": 400,
+      "respuesta": [
+        "No existe un modelo publicado vigente: entrene y publique uno primero."
+      ]
+    },
+    {
+      "cp": 24,
+      "usuario": "super_t",
+      "figura": "CP-24.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 400,
+        "contiene": "horizonte"
+      },
+      "nota": "El campo admite como máximo 30 días y el navegador impide enviar 31. La misma entrada enviada a la API desde la sesión del supervisor también es rechazada.",
+      "metodo": "POST",
+      "ruta": "/api/predicciones/",
+      "entrada": {
+        "horizonte": 31
+      },
+      "estado": 400,
+      "respuesta": {
+        "horizonte": "El horizonte debe estar entre 1 y 30 días."
+      }
+    },
+    {
+      "cp": 25,
+      "usuario": "super_t",
+      "figura": "CP-25.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 201,
+        "contiene": "margen_kg"
+      },
+      "nota": "Cada valor se presenta con su margen de error y la versión del modelo.",
+      "metodo": "POST",
+      "ruta": "/api/predicciones/",
+      "entrada": {
+        "horizonte": 7,
+        "sector": null,
+        "punto": null
+      },
+      "estado": 201,
+      "respuesta": {
+        "id": 1,
+        "version": 1,
+        "sector_nombre": null,
+        "punto_codigo": null,
+        "solicitado_por_nombre": "super_t",
+        "creado_en": "2026-11-16T14:43:49.661186-04:00",
+        "desde": "2026-11-17",
+        "hasta": "2026-11-23",
+        "puntos_omitidos": [],
+        "modelo": 1,
+        "solicitado_por": 2,
+        "sector": null,
+        "punto": null,
+        "por_punto": [
+          {
+            "punto_id": 1,
+            "punto__codigo": "P1",
+            "punto__nombre": "Punto 1",
+            "sector__nombre": "Sector 1",
+            "punto__capacidad_kg": 100.0,
+            "cantidad_kg": 151.36,
+            "margen_kg": 5.55
+          },
+          {
+            "punto_id": 2,
+            "punto__codigo": "P2",
+            "punto__nombre": "Punto 2",
+            "sector__nombre": "Sector 1",
+            "punto__capacidad_kg": 100.0,
+            "cantidad_kg": 308.9,
+            "margen_kg": 5.55
+          }
+        ],
+        "por_sector": [
+          {
+            "sector_id": 1,
+            "sector__codigo": "S1",
+            "sector__nombre": "Sector 1",
+            "cantidad_kg": 460.26,
+            "margen_kg": 7.85
+          }
+        ],
+        "por_tipo": [
+          {
+            "tipo_residuo_id": 1,
+            "tipo_residuo__nombre": "Orgánico",
+            "cantidad_kg": 460.26,
+            "margen_kg": 7.85
+          }
+        ],
+        "serie": [
+          {
+            "fecha": "2026-11-17",
+            "cantidad_kg": 90.75,
+            "margen_kg": 3.51
+          },
+          {
+            "fecha": "2026-11-18",
+            "cantidad_kg": 90.26,
+            "margen_kg": 3.51
+          },
+          {
+            "fecha": "2026-11-19",
+            "cantidad_kg": 90.18,
+            "margen_kg": 3.51
+          },
+          {
+            "fecha": "2026-11-20",
+            "cantidad_kg": 89.93,
+            "margen_kg": 3.51
+          },
+          {
+            "fecha": "2026-11-23",
+            "cantidad_kg": 99.14,
+            "margen_kg": 3.51
+          }
+        ]
+      }
+    },
+    {
+      "cp": 26,
+      "usuario": "admin_t",
+      "figura": "CP-26.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 200,
+        "contiene": "%PDF"
+      },
+      "nota": "El navegador descarga el archivo PDF generado por el servidor.",
+      "metodo": "GET",
+      "ruta": "/api/reportes/indicadores/?desde=2026-09-01&hasta=2026-09-30&formato=pdf",
+      "entrada": null,
+      "estado": 200,
+      "respuesta": {
+        "tipo": "application/pdf",
+        "bytes": 2222,
+        "firma": "%PDF",
+        "archivo": "dsu-indicadores.pdf"
+      }
+    },
+    {
+      "cp": 27,
+      "usuario": "admin_t",
+      "figura": "CP-27.png",
+      "conforme": true,
+      "ancho": 1280,
+      "esperado": {
+        "estado": 200,
+        "contiene": "PK"
+      },
+      "nota": "El navegador descarga el archivo XLSX generado por el servidor.",
+      "metodo": "GET",
+      "ruta": "/api/reportes/indicadores/?desde=2026-09-01&hasta=2026-09-30&formato=xlsx",
+      "entrada": null,
+      "estado": 200,
+      "respuesta": {
+        "tipo": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "bytes": 5613,
+        "firma": "PK\u0003\u0004",
+        "archivo": "dsu-indicadores.xlsx"
+      }
+    }
+  ]
+}

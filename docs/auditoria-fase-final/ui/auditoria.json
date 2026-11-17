@@ -1,0 +1,134 @@
+{
+  "fecha": "2026-11-16",
+  "comprobaciones": 50,
+  "rutas_por_resolucion": 25,
+  "errores_javascript": 0,
+  "violaciones_csp": 0,
+  "desbordamientos_generales": 0,
+  "rechazos_esperados": 2,
+  "solicitudes_canceladas_mapa": [
+    {
+      "ancho": 1440,
+      "url": "https://c.tile.openstreetmap.org/17/42527/72114.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://b.tile.openstreetmap.org/17/42527/72113.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://b.tile.openstreetmap.org/17/42526/72114.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://a.tile.openstreetmap.org/17/42528/72114.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://a.tile.openstreetmap.org/17/42527/72115.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://a.tile.openstreetmap.org/17/42526/72113.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://c.tile.openstreetmap.org/17/42528/72113.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://c.tile.openstreetmap.org/17/42526/72115.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://b.tile.openstreetmap.org/17/42528/72115.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://a.tile.openstreetmap.org/17/42525/72114.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://b.tile.openstreetmap.org/17/42529/72114.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://c.tile.openstreetmap.org/17/42525/72113.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://a.tile.openstreetmap.org/17/42529/72113.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://b.tile.openstreetmap.org/17/42525/72115.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 1440,
+      "url": "https://c.tile.openstreetmap.org/17/42529/72115.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://c.tile.openstreetmap.org/17/42527/72114.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://b.tile.openstreetmap.org/17/42527/72113.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://b.tile.openstreetmap.org/17/42526/72114.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://a.tile.openstreetmap.org/17/42528/72114.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://a.tile.openstreetmap.org/17/42527/72115.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://a.tile.openstreetmap.org/17/42526/72113.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://c.tile.openstreetmap.org/17/42528/72113.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://c.tile.openstreetmap.org/17/42526/72115.png",
+      "motivo": "net::ERR_ABORTED"
+    },
+    {
+      "ancho": 390,
+      "url": "https://b.tile.openstreetmap.org/17/42528/72115.png",
+      "motivo": "net::ERR_ABORTED"
+    }
+  ],
+  "interpretacion": "Las cancelaciones ERR_ABORTED se conservan como evidencia. Las capturas muestran cartografía cargada; no equivalen a disponibilidad garantizada de OSM.",
+  "sha256_resultados": "208cd5228cbc0843882831b3aaeea3da965226669e66db76a55fbe2453204de1",
+  "alcance": "Carga y lectura de rutas con fixtures sintéticas y CSP reproducida localmente; sin pruebas de todos los controles, publicación remota ni aceptación institucional."
+}

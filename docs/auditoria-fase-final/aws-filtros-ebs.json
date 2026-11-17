@@ -1,0 +1,1 @@
+[{"Type": "TERM_MATCH", "Field": "location", "Value": "South America (Sao Paulo)"}, {"Type": "TERM_MATCH", "Field": "volumeApiName", "Value": "gp3"}, {"Type": "TERM_MATCH", "Field": "productFamily", "Value": "Storage"}]

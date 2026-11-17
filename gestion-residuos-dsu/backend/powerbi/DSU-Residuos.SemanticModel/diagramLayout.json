@@ -10,98 +10,98 @@
       "nodes": [
         {
           "location": {
-            "x": 420.54418343906832,
-            "y": 505.41893561126972
+            "x": 330,
+            "y": 300
           },
           "nodeIndex": "bi_hechos_residuos",
           "nodeLineageTag": "1efae0ec-0687-5145-a3b0-6acef67c93bc",
           "size": {
-            "height": 300,
-            "width": 234
+            "height": 240,
+            "width": 270
           },
           "zIndex": 0
         },
         {
           "location": {
-            "x": 50,
-            "y": -50
+            "x": 20,
+            "y": 20
           },
           "nodeIndex": "bi_incidencias",
           "nodeLineageTag": "cb509bd2-674d-50c8-bfea-91e1465f1793",
           "size": {
-            "height": 300,
-            "width": 234
+            "height": 240,
+            "width": 270
           },
           "zIndex": 0
         },
         {
           "location": {
-            "x": 707.83189107332862,
-            "y": 412.88712450192838
+            "x": 950,
+            "y": 300
           },
           "nodeIndex": "bi_jornadas",
           "nodeLineageTag": "3640bd87-070c-5b52-be47-dc31ff5a0767",
           "size": {
-            "height": 300,
-            "width": 234
+            "height": 240,
+            "width": 270
           },
           "zIndex": 0
         },
         {
           "location": {
-            "x": 629.85310129454024,
-            "y": 7.0823150952041942
+            "x": 640,
+            "y": 300
           },
           "nodeIndex": "bi_predicciones",
           "nodeLineageTag": "a5e8581f-9bbd-5b27-b674-923b1e2920d9",
           "size": {
-            "height": 300,
-            "width": 234
+            "height": 240,
+            "width": 270
           },
           "zIndex": 0
         },
         {
           "location": {
-            "x": 339.918333212065,
-            "y": 152.40805641272544
+            "x": 330,
+            "y": 20
           },
           "nodeIndex": "bi_puntos",
           "nodeLineageTag": "0c787bb6-2dc4-5fce-b952-fce29c15ced6",
           "size": {
-            "height": 300,
-            "width": 234
+            "height": 240,
+            "width": 270
           },
           "zIndex": 0
         },
         {
           "location": {
-            "x": 50.012430721704561,
-            "y": 387.17759097501437
+            "x": 20,
+            "y": 300
           },
           "nodeIndex": "bi_recomendaciones",
           "nodeLineageTag": "3723bcaa-abcb-5a78-8f85-5bc2ef1681b2",
           "size": {
-            "height": 300,
-            "width": 234
+            "height": 240,
+            "width": 270
           },
           "zIndex": 0
         },
         {
           "location": {
-            "x": 997.09468294014425,
-            "y": 268.10892737886911
+            "x": 640,
+            "y": 20
           },
           "nodeIndex": "Calendario",
           "nodeLineageTag": "9a60da52-c2ad-52a9-972c-769fce402eb7",
           "size": {
-            "height": 224,
-            "width": 234
+            "height": 240,
+            "width": 270
           },
           "zIndex": 0
         }
       ],
       "name": "All tables",
-      "zoomValue": 100,
+      "zoomValue": 66.666666666666657,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
