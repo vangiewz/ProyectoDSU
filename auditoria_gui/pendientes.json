@@ -1,0 +1,12 @@
+[
+  "Power BI: informe publicado, autenticación institucional y actualización real.",
+  "Contacto: recepción real de correos; envío bloqueado por instrucción del usuario.",
+  "Imprimir: diálogo nativo y resultado de impresión.",
+  "Caída de PostgreSQL en medio de ETL.",
+  "Todos los límites de cada parámetro y longitud de cada formulario.",
+  "Doble clic/reenvío de todas las operaciones de escritura.",
+  "Navegación con cambios sin guardar: no se verificó cada pantalla.",
+  "Todos los enlaces y controles del pitch y material de marketing (se verificó carga, no cada interacción).",
+  "Combinaciones CU/rol sin recorrido completo registrado en matriz_permisos_y_roles.json.",
+  "Administrador resolviendo recomendaciones: documentación y permisos vigentes difieren; no se alteraron roles originales."
+]

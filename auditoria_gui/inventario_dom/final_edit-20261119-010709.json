@@ -1,0 +1,179 @@
+[
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1055",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Editar planificación",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1055/editar"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Asignar cuadrilla",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Abrir jornada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  }
+]

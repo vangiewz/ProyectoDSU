@@ -135,15 +135,21 @@ $$('form[data-envio]').forEach((f) => {
 // La app web permite CORS (*) y bloquea no-cors por su política CORP; la API admite no-cors.
 async function sondear(url, mode) {
   const t0 = performance.now();
-  try { await fetch(url, { mode, cache: 'no-store' }); return Math.round(performance.now() - t0); }
+  try {
+    const respuesta = await fetch(url, { mode, cache: 'no-store', signal: AbortSignal.timeout(10000) });
+    if (respuesta.type === 'opaque') return { verificable: false };
+    const esperado = url === API ? 401 : 200;
+    return respuesta.status === esperado ? { verificable: true, ms: Math.round(performance.now() - t0) } : null;
+  }
   catch { return null; }
 }
 const estado = $('#estado-servicio');
 if (estado) (async () => {
   for (const [sel, url, modo] of [['[data-s=app]', APP, 'cors'], ['[data-s=api]', API, 'no-cors']]) {
-    const ms = await sondear(url, modo), b = $(sel, estado);
-    b.textContent = ms === null ? 'Sin respuesta' : `En línea · ${ms} ms`;
-    b.className = ms === null ? 'mal-t' : 'ok-t';
+    const resultado = await sondear(url, modo), b = $(sel, estado);
+    b.textContent = resultado === null ? 'No disponible o sin respuesta'
+      : resultado.verificable ? `En línea · ${resultado.ms} ms` : 'Estado no verificable desde este navegador';
+    b.className = resultado?.verificable ? 'ok-t' : 'mal-t';
   }
   $('[data-s=hora]', estado).textContent = new Date().toLocaleString('es-BO');
 })();
@@ -151,16 +157,16 @@ if (estado) (async () => {
 // Asistente: responde desde la base de conocimiento y deriva a una persona del equipo
 const BASE = [
   { c: ['precio', 'plan', 'costo', 'cuesta', 'tarifa', 'pagar', 'suscrip'], r: 'Hay tres planes: <b>Inicial</b> sin costo (hasta 15 puntos), <b>Campus</b> a Bs 2 900 al mes y <b>Red</b> a Bs 7 500 al mes. El pago anual equivale a diez meses. <a href="planes.html">Ver planes</a>.' },
-  { c: ['gratis', 'freemium', 'inicial', 'prueba'], r: 'El plan <b>Inicial</b> es gratuito sin límite de tiempo: una sede, hasta 15 puntos de recolección y 5 usuarios, con registro en campo, jornadas y tablero. No incluye predicción.' },
-  { c: ['predic', 'random', 'forest', 'pronost', 'modelo', 'ia', 'inteligencia'], r: 'Residata entrena un <b>Random Forest Regressor</b> con el histórico de su institución (punto, tipo de residuo, día, semana y periodo académico) y pronostica kilos por punto con su margen de error. Está en los planes Campus y Red.' },
+  { c: ['gratis', 'freemium', 'inicial', 'prueba'], r: 'El plan <b>Inicial</b> se propone sin costo: una sede, hasta 15 puntos de recolección y 5 usuarios, con registro en campo, jornadas y tablero. No incluye predicción.' },
+  { c: ['predic', 'random', 'forest', 'pronost', 'modelo', 'ia', 'inteligencia'], r: 'Residata entrena un <b>Random Forest Regressor</b> con el histórico de su institución (punto, tipo de residuo, día, semana y periodo académico) y pronostica kilos por punto con su margen de error. Se propone para los planes Campus y Red; el piloto demuestra la función.' },
   { c: ['sensor', 'iot', 'hardware', 'balanza', 'bascula', 'báscula', 'equipo'], r: 'No necesita sensores ni contenedores especiales. El personal registra el peso desde el navegador del teléfono con la balanza que ya usa.' },
   { c: ['celular', 'telefono', 'teléfono', 'movil', 'móvil', 'app', 'instalar', 'android', 'iphone'], r: 'Funciona en el navegador de cualquier teléfono o computadora; no hay que instalar nada. La pantalla de campo está pensada para una mano y botones grandes.' },
   { c: ['demo', 'demostr', 'ver', 'probar'], r: 'Podemos mostrarle el sistema funcionando con datos de demostración. <a href="contacto.html">Solicite una demostración</a> y coordinamos fecha.' },
   { c: ['dato', 'segur', 'privac', 'respaldo', 'backup'], r: 'Los datos viajan cifrados (TLS), cada rol ve solo lo que le corresponde, toda operación queda en una bitácora y la base se respalda cada día. Detalle en la <a href="privacidad.html">política de privacidad</a>.' },
   { c: ['contrase', 'clave', 'acceso', 'ingresar', 'login', 'usuario'], r: 'Si olvidó su contraseña, el administrador de su institución la restablece desde Usuarios. Si el administrador no puede ingresar, abra un ticket y lo atendemos.' },
-  { c: ['factura', 'nit', 'impuesto', 'iva'], r: 'Los precios publicados incluyen los impuestos de ley y se emite factura electrónica en línea.' },
+  { c: ['factura', 'nit', 'impuesto', 'iva'], r: 'Los precios son propuestos. No hay contratación ni facturación electrónica habilitadas; la comercialización exige formalización previa.' },
   { c: ['power bi', 'powerbi', 'tablero', 'reporte', 'excel', 'pdf'], r: 'Incluye tablero de indicadores, mapa de calor y reportes en Excel y PDF. El plan Red agrega la conexión de solo lectura para Power BI.' },
-  { c: ['capacita', 'curso', 'manual', 'aprender'], r: 'Cada plan de pago incluye capacitación inicial por rol. El manual de usuario por rol está en la sección de soporte.' },
+  { c: ['capacita', 'curso', 'manual', 'aprender'], r: 'Se propone capacitación inicial por rol para los planes de pago. El manual de usuario por rol está en la sección de soporte.' },
   { c: ['novedad', 'version', 'versión', 'actualiza', 'cambio'], r: 'Publicamos cada versión en <a href="novedades.html">Novedades</a>, también disponible por RSS.' },
 ];
 const NORM = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');

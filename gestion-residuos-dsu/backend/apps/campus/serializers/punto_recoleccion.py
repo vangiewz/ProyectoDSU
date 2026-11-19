@@ -1,3 +1,5 @@
+from decimal import Decimal
+
 from django.conf import settings
 from rest_framework import serializers
 
@@ -15,6 +17,7 @@ class PuntoRecoleccionSerializer(serializers.ModelSerializer):
         model = PuntoRecoleccion
         fields = "__all__"
         read_only_fields = ["is_active", "motivo_baja"]
+        extra_kwargs = {"capacidad_kg": {"min_value": Decimal("0.01")}}
 
     def validate_sector(self, sector):
         if not sector.is_active:
@@ -25,7 +28,8 @@ class PuntoRecoleccionSerializer(serializers.ModelSerializer):
     def validate(self, attrs):
         lat = attrs.get("latitud", getattr(self.instance, "latitud", None))
         lon = attrs.get("longitud", getattr(self.instance, "longitud", None))
-        lat_min, lon_min, lat_max, lon_max = settings.CAMPUS_BBOX
+        # Comparar Decimal con float puede excluir una coordenada sobre el borde.
+        lat_min, lon_min, lat_max, lon_max = (Decimal(str(v)) for v in settings.CAMPUS_BBOX)
         if not (lat_min <= lat <= lat_max and lon_min <= lon <= lon_max):
             raise serializers.ValidationError({"latitud": "Las coordenadas están fuera del área atendida por la DSU."})
         return attrs

@@ -1,0 +1,16 @@
+{
+  "comandos": [
+    "npm run build",
+    "npm run lint",
+    "npm audit --audit-level=high"
+  ],
+  "resultado": "APROBADO",
+  "vite": "8.3.8",
+  "advertencias_lint": 9,
+  "vulnerabilidades_npm_audit": 0,
+  "avisos": [
+    "bundle mayor de 500 kB",
+    "Node local 22.16 es anterior al motor >=22.22 declarado por React Router"
+  ],
+  "entorno": "Windows, frontend local; resultados observados en ejecución de cierre"
+}

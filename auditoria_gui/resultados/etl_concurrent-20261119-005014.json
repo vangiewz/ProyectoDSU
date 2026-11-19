@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ETL-concurrencia-duplicados",
+    "titulo": "ETL concurrente y duplicados visibles",
+    "rol": "administrativo",
+    "cu": [
+      20
+    ],
+    "inicio_utc": "2026-11-19T04:50:19.022160+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Dos sesiones gráficas; 2000 entradas de fixture procesadas, 1999 duplicados; segundo inicio bloqueado en curso",
+    "evidencia": "capturas\\etl_concurrent-20261119-005014-ETL-concurrencia-duplicados.png",
+    "segundos": 4.77
+  }
+]

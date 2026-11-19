@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1000" viewBox="0 0 2700 1000"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">prediction.Prediccion — relaciones persistentes</text>
+<text x="55" y="105" font-family="Arial" font-size="40" font-weight="400">Tabla: prediction_prediccion</text>
+<rect x="55" y="140" width="1190" height="810" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="194" font-family="Arial" font-size="42" font-weight="700">Prediccion</text>
+<text x="75" y="255" font-family="Arial" font-size="40" font-weight="400">id: BigAutoField PK</text>
+<text x="75" y="304" font-family="Arial" font-size="40" font-weight="400">lote: ForeignKey FK</text>
+<text x="75" y="353" font-family="Arial" font-size="40" font-weight="400">punto: ForeignKey FK</text>
+<text x="75" y="402" font-family="Arial" font-size="40" font-weight="400">sector: ForeignKey FK</text>
+<text x="75" y="451" font-family="Arial" font-size="40" font-weight="400">tipo_residuo: ForeignKey FK</text>
+<text x="75" y="500" font-family="Arial" font-size="40" font-weight="400">fecha: DateField</text>
+<text x="75" y="549" font-family="Arial" font-size="40" font-weight="400">cantidad_kg: DecimalField</text>
+<text x="75" y="598" font-family="Arial" font-size="40" font-weight="400">margen_kg: DecimalField</text>
+<rect x="1950" y="180.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="227.0" font-family="Arial" font-size="40" font-weight="400">prediction.LotePrediccion</text>
+<line x1="1245" y1="299" x2="1950" y2="235.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1929.4215589693943" y2="247.3502131459293" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1927.533981627064" y2="226.5573689843213" stroke="#444" stroke-width="3"/>
+<text x="1260" y="289" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="225.0" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="355.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="402.0" font-family="Arial" font-size="40" font-weight="400">campus.PuntoRecoleccion</text>
+<line x1="1245" y1="348" x2="1950" y2="410.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="410.0" x2="1927.5578315381101" y2="418.50582592863014" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="410.0" x2="1929.3868820359767" y2="397.70775171902005" stroke="#444" stroke-width="3"/>
+<text x="1260" y="338" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="400.0" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="530.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="577.0" font-family="Arial" font-size="40" font-weight="400">campus.Sector</text>
+<line x1="1245" y1="397" x2="1950" y2="585.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="585.0" x2="1926.4291722245437" y2="589.5184154279766" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="585.0" x2="1931.8087421007751" y2="569.3450283921084" stroke="#444" stroke-width="3"/>
+<text x="1260" y="387" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="575.0" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="705.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="752.0" font-family="Arial" font-size="40" font-weight="400">catalogs.TipoResiduo</text>
+<line x1="1245" y1="446" x2="1950" y2="760.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="760.0" x2="1926.011520888161" y2="760.7435522179819" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="760.0" x2="1934.50607779937" y2="741.6713782612871" stroke="#444" stroke-width="3"/>
+<text x="1260" y="436" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="750.0" font-family="Arial" font-size="40" font-weight="400">1</text>
+</svg>

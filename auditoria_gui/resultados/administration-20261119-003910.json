@@ -1,0 +1,185 @@
+[
+  {
+    "id": "LIM-punto-0",
+    "titulo": "Capacidad/factor no positivo punto 0",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:39:13.176748+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-punto-0.png",
+    "segundos": 1.3
+  },
+  {
+    "id": "LIM-punto--1",
+    "titulo": "Capacidad/factor no positivo punto -1",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:39:14.481329+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-punto--1.png",
+    "segundos": 1.12
+  },
+  {
+    "id": "LIM-contenedor-0",
+    "titulo": "Capacidad/factor no positivo contenedor 0",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:39:15.609793+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-contenedor-0.png",
+    "segundos": 1.0
+  },
+  {
+    "id": "LIM-contenedor--1",
+    "titulo": "Capacidad/factor no positivo contenedor -1",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:39:16.603758+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-contenedor--1.png",
+    "segundos": 1.0
+  },
+  {
+    "id": "LIM-unidad-0",
+    "titulo": "Capacidad/factor no positivo unidad 0",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:39:17.604768+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-unidad-0.png",
+    "segundos": 1.12
+  },
+  {
+    "id": "LIM-unidad--1",
+    "titulo": "Capacidad/factor no positivo unidad -1",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:39:18.730738+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-unidad--1.png",
+    "segundos": 1.09
+  },
+  {
+    "id": "LIM-vehiculo-0",
+    "titulo": "Capacidad/factor no positivo vehiculo 0",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:39:19.829065+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-vehiculo-0.png",
+    "segundos": 1.08
+  },
+  {
+    "id": "LIM-vehiculo--1",
+    "titulo": "Capacidad/factor no positivo vehiculo -1",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:39:20.899636+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-vehiculo--1.png",
+    "segundos": 1.19
+  },
+  {
+    "id": "LIM-geografia",
+    "titulo": "Geografía y precisión de coordenadas",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:39:22.088563+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Exterior rechazado, precisión >6 rechazada, esquina mínima BBOX aceptada y persistida; ubicación QA restituida",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-geografia.png",
+    "segundos": 3.12
+  },
+  {
+    "id": "LIM-longitud",
+    "titulo": "Longitudes y caracteres especiales de sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:39:25.210620+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Longitud máxima+1 rechazada; caracteres acentuados y HTML se conservan como texto",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-longitud.png",
+    "segundos": 2.3
+  },
+  {
+    "id": "ADM-rol",
+    "titulo": "Crear y editar rol sintético, asignarlo a usuario",
+    "rol": "administrativo",
+    "cu": [
+      4,
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:39:27.510440+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rol sintético creado, permiso de consulta, edición y asignación a usuario sintético; cuentas originales intactas",
+    "evidencia": "capturas\\administration-20261119-003910-ADM-rol.png",
+    "segundos": 3.42
+  },
+  {
+    "id": "ADM-parametros",
+    "titulo": "Parámetros y validaciones con persistencia",
+    "rol": "administrativo",
+    "cu": [
+      31
+    ],
+    "inicio_utc": "2026-11-19T04:39:30.930558+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Tolerancia 0/6 rechazadas; límites 1/5 persistidos, valor original restituido; dominio Power BI inválido rechazado",
+    "evidencia": "capturas\\administration-20261119-003910-ADM-parametros.png",
+    "segundos": 4.52
+  },
+  {
+    "id": "ADM-bitacora",
+    "titulo": "Auditoría de cambios reales de GUI",
+    "rol": "administrativo",
+    "cu": [
+      32
+    ],
+    "inicio_utc": "2026-11-19T04:39:35.461110+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Actualización de parámetros visible con antes/después y sin controles de modificación",
+    "evidencia": "capturas\\administration-20261119-003910-ADM-bitacora.png",
+    "segundos": 0.73
+  }
+]

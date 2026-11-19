@@ -1,0 +1,1334 @@
+{
+  "figuras": [
+    {
+      "numero": 1,
+      "titulo": "Plataforma de gestión de Sensoneo"
+    },
+    {
+      "numero": 2,
+      "titulo": "Plataforma CleanCityNetworks de Ecube Labs"
+    },
+    {
+      "numero": 3,
+      "titulo": "Estación inteligente de Bigbelly"
+    },
+    {
+      "numero": 4,
+      "titulo": "Cronograma de referencia: fases y semanas ampliadas"
+    },
+    {
+      "numero": 5,
+      "titulo": "Organización interna del equipo"
+    },
+    {
+      "numero": 6,
+      "titulo": "Organización funcional: ocho áreas y persistencia compartida"
+    },
+    {
+      "numero": 7,
+      "titulo": "Entidades persistentes del sistema implementado; relaciones ampliadas en el anexo K"
+    },
+    {
+      "numero": 8,
+      "titulo": "Flujo operativo: flujo ampliado, parte 1/3"
+    },
+    {
+      "numero": 9,
+      "titulo": "Flujo operativo: flujo ampliado, parte 2/3"
+    },
+    {
+      "numero": 10,
+      "titulo": "Flujo operativo: flujo ampliado, parte 3/3"
+    },
+    {
+      "numero": 11,
+      "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 1/3"
+    },
+    {
+      "numero": 12,
+      "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 2/3"
+    },
+    {
+      "numero": 13,
+      "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 3/3"
+    },
+    {
+      "numero": 14,
+      "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 1/3"
+    },
+    {
+      "numero": 15,
+      "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 2/3"
+    },
+    {
+      "numero": 16,
+      "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 3/3"
+    },
+    {
+      "numero": 17,
+      "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 1/3"
+    },
+    {
+      "numero": 18,
+      "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 2/3"
+    },
+    {
+      "numero": 19,
+      "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 3/3"
+    },
+    {
+      "numero": 20,
+      "titulo": "RF16 · Calcular los Indicadores Clave de Rendimiento: flujo ampliado, parte 1/2"
+    },
+    {
+      "numero": 21,
+      "titulo": "RF16 · Calcular los Indicadores Clave de Rendimiento: flujo ampliado, parte 2/2"
+    },
+    {
+      "numero": 22,
+      "titulo": "RF20 · Generar el Mapa de Calor de Zonas Críticas: flujo ampliado, parte 1/2"
+    },
+    {
+      "numero": 23,
+      "titulo": "RF20 · Generar el Mapa de Calor de Zonas Críticas: flujo ampliado, parte 2/2"
+    },
+    {
+      "numero": 24,
+      "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 1/3"
+    },
+    {
+      "numero": 25,
+      "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 2/3"
+    },
+    {
+      "numero": 26,
+      "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 3/3"
+    },
+    {
+      "numero": 27,
+      "titulo": "RF23 · Predecir la Generación Futura de Residuos: flujo ampliado, parte 1/2"
+    },
+    {
+      "numero": 28,
+      "titulo": "RF23 · Predecir la Generación Futura de Residuos: flujo ampliado, parte 2/2"
+    },
+    {
+      "numero": 29,
+      "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 1/3"
+    },
+    {
+      "numero": 30,
+      "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 2/3"
+    },
+    {
+      "numero": 31,
+      "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 3/3"
+    },
+    {
+      "numero": 32,
+      "titulo": "Actores y responsabilidades del catálogo de requisitos"
+    },
+    {
+      "numero": 33,
+      "titulo": "Modelo general de los 34 CU mediante identificadores; nombres en las vistas individuales"
+    },
+    {
+      "numero": 34,
+      "titulo": "CU1. Iniciar sesión: actores y relaciones"
+    },
+    {
+      "numero": 35,
+      "titulo": "CU2. Cerrar sesión: actores y relaciones"
+    },
+    {
+      "numero": 36,
+      "titulo": "CU3. Gestionar usuarios: actores y relaciones"
+    },
+    {
+      "numero": 37,
+      "titulo": "CU4. Gestionar roles y permisos: actores y relaciones"
+    },
+    {
+      "numero": 38,
+      "titulo": "CU5. Gestionar sectores y facultades: actores y relaciones"
+    },
+    {
+      "numero": 39,
+      "titulo": "CU6. Gestionar puntos de recolección: actores y relaciones"
+    },
+    {
+      "numero": 40,
+      "titulo": "CU7. Gestionar contenedores: actores y relaciones"
+    },
+    {
+      "numero": 41,
+      "titulo": "CU8. Gestionar tipos de residuo y unidades de medida: actores y relaciones"
+    },
+    {
+      "numero": 42,
+      "titulo": "CU9. Registrar vaciado de residuos: actores y relaciones"
+    },
+    {
+      "numero": 43,
+      "titulo": "CU10. Registrar incidencia operativa: actores y relaciones"
+    },
+    {
+      "numero": 44,
+      "titulo": "CU11. Atender incidencia: actores y relaciones"
+    },
+    {
+      "numero": 45,
+      "titulo": "CU12. Consultar histórico de residuos: actores y relaciones"
+    },
+    {
+      "numero": 46,
+      "titulo": "CU13. Gestionar vehículos: actores y relaciones"
+    },
+    {
+      "numero": 47,
+      "titulo": "CU14. Planificar jornada y ruta de recolección: actores y relaciones"
+    },
+    {
+      "numero": 48,
+      "titulo": "CU15. Asignar personal y vehículos a la jornada: actores y relaciones"
+    },
+    {
+      "numero": 49,
+      "titulo": "CU16. Ejecutar jornada de recolección: actores y relaciones"
+    },
+    {
+      "numero": 50,
+      "titulo": "CU17. Omitir punto de la ruta: actores y relaciones"
+    },
+    {
+      "numero": 51,
+      "titulo": "CU18. Cerrar jornada de recolección: actores y relaciones"
+    },
+    {
+      "numero": 52,
+      "titulo": "CU19. Consultar historial de recolecciones: actores y relaciones"
+    },
+    {
+      "numero": 53,
+      "titulo": "CU20. Ejecutar proceso ETL: actores y relaciones"
+    },
+    {
+      "numero": 54,
+      "titulo": "CU21. Visualizar tablero interactivo: actores y relaciones"
+    },
+    {
+      "numero": 55,
+      "titulo": "CU22. Comparar periodos e identificar tendencias: actores y relaciones"
+    },
+    {
+      "numero": 56,
+      "titulo": "CU23. Visualizar puntos en el mapa interactivo: actores y relaciones"
+    },
+    {
+      "numero": 57,
+      "titulo": "CU24. Generar mapa de calor: actores y relaciones"
+    },
+    {
+      "numero": 58,
+      "titulo": "CU25. Filtrar mapa por periodo, sector y tipo de residuo: actores y relaciones"
+    },
+    {
+      "numero": 59,
+      "titulo": "CU26. Entrenar y evaluar el modelo Random Forest Regressor: actores y relaciones"
+    },
+    {
+      "numero": 60,
+      "titulo": "CU27. Publicar o revertir versión del modelo: actores y relaciones"
+    },
+    {
+      "numero": 61,
+      "titulo": "CU28. Predecir generación futura y emitir alertas: actores y relaciones"
+    },
+    {
+      "numero": 62,
+      "titulo": "CU29. Consultar alertas y recomendaciones logísticas: actores y relaciones"
+    },
+    {
+      "numero": 63,
+      "titulo": "CU30. Atender recomendación logística: actores y relaciones"
+    },
+    {
+      "numero": 64,
+      "titulo": "CU31. Configurar periodos académicos y parámetros: actores y relaciones"
+    },
+    {
+      "numero": 65,
+      "titulo": "CU32. Consultar bitácora de auditoría: actores y relaciones"
+    },
+    {
+      "numero": 66,
+      "titulo": "CU33. Generar reporte: actores y relaciones"
+    },
+    {
+      "numero": 67,
+      "titulo": "CU34. Exportar reporte a Excel o PDF: actores y relaciones"
+    },
+    {
+      "numero": 68,
+      "titulo": "Identificación y requisitos asociados a los ocho paquetes"
+    },
+    {
+      "numero": 69,
+      "titulo": "Trazabilidad del paquete 1 hacia sus casos de uso"
+    },
+    {
+      "numero": 70,
+      "titulo": "Encapsulamiento del paquete 1 y asociaciones de los roles"
+    },
+    {
+      "numero": 71,
+      "titulo": "Trazabilidad del paquete 2 hacia sus casos de uso"
+    },
+    {
+      "numero": 72,
+      "titulo": "Encapsulamiento del paquete 2 y asociaciones de los roles"
+    },
+    {
+      "numero": 73,
+      "titulo": "Trazabilidad del paquete 3 hacia sus casos de uso"
+    },
+    {
+      "numero": 74,
+      "titulo": "Encapsulamiento del paquete 3 y asociaciones de los roles"
+    },
+    {
+      "numero": 75,
+      "titulo": "Trazabilidad del paquete 4 hacia sus casos de uso"
+    },
+    {
+      "numero": 76,
+      "titulo": "Encapsulamiento del paquete 4 y asociaciones de los roles"
+    },
+    {
+      "numero": 77,
+      "titulo": "Trazabilidad del paquete 5 hacia sus casos de uso"
+    },
+    {
+      "numero": 78,
+      "titulo": "Encapsulamiento del paquete 5 y asociaciones de los roles"
+    },
+    {
+      "numero": 79,
+      "titulo": "Trazabilidad del paquete 6 hacia sus casos de uso"
+    },
+    {
+      "numero": 80,
+      "titulo": "Encapsulamiento del paquete 6 y asociaciones de los roles"
+    },
+    {
+      "numero": 81,
+      "titulo": "Trazabilidad del paquete 7 hacia sus casos de uso"
+    },
+    {
+      "numero": 82,
+      "titulo": "Encapsulamiento del paquete 7 y asociaciones de los roles"
+    },
+    {
+      "numero": 83,
+      "titulo": "Trazabilidad del paquete 8 hacia sus casos de uso"
+    },
+    {
+      "numero": 84,
+      "titulo": "Encapsulamiento del paquete 8 y asociaciones de los roles"
+    },
+    {
+      "numero": 85,
+      "titulo": "Dependencias de los paquetes: matriz de lectura del modelo de análisis"
+    },
+    {
+      "numero": 86,
+      "titulo": "Realización de análisis del CU1: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 87,
+      "titulo": "Realización de análisis del CU2: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 88,
+      "titulo": "Realización de análisis del CU3: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 89,
+      "titulo": "Realización de análisis del CU4: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 90,
+      "titulo": "Realización de análisis del CU5: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 91,
+      "titulo": "Realización de análisis del CU6: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 92,
+      "titulo": "Realización de análisis del CU7: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 93,
+      "titulo": "Realización de análisis del CU8: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 94,
+      "titulo": "Realización de análisis del CU9: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 95,
+      "titulo": "Realización de análisis del CU10: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 96,
+      "titulo": "Realización de análisis del CU11: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 97,
+      "titulo": "Realización de análisis del CU12: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 98,
+      "titulo": "Realización de análisis del CU13: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 99,
+      "titulo": "Realización de análisis del CU14: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 100,
+      "titulo": "Realización de análisis del CU15: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 101,
+      "titulo": "Realización de análisis del CU16: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 102,
+      "titulo": "Realización de análisis del CU17: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 103,
+      "titulo": "Realización de análisis del CU18: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 104,
+      "titulo": "Realización de análisis del CU19: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 105,
+      "titulo": "Realización de análisis del CU20: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 106,
+      "titulo": "Realización de análisis del CU21: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 107,
+      "titulo": "Realización de análisis del CU22: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 108,
+      "titulo": "Realización de análisis del CU23: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 109,
+      "titulo": "Realización de análisis del CU24: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 110,
+      "titulo": "Realización de análisis del CU25: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 111,
+      "titulo": "Realización de análisis del CU26: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 112,
+      "titulo": "Realización de análisis del CU27: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 113,
+      "titulo": "Realización de análisis del CU28: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 114,
+      "titulo": "Realización de análisis del CU29: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 115,
+      "titulo": "Realización de análisis del CU30: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 116,
+      "titulo": "Realización de análisis del CU31: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 117,
+      "titulo": "Realización de análisis del CU32: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 118,
+      "titulo": "Realización de análisis del CU33: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 119,
+      "titulo": "Realización de análisis del CU34: responsabilidades y mensajes numerados"
+    },
+    {
+      "numero": 120,
+      "titulo": "Arquitectura lógica de la implementación y sus tres entornos"
+    },
+    {
+      "numero": 121,
+      "titulo": "Entidades persistentes del sistema implementado; relaciones ampliadas en el anexo K"
+    },
+    {
+      "numero": 122,
+      "titulo": "Clases de seguridad; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 123,
+      "titulo": "Clases de campus; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 124,
+      "titulo": "Clases de operacion; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 125,
+      "titulo": "Clases de analitica; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 126,
+      "titulo": "Clases de prediccion; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 127,
+      "titulo": "Controladores concretos de accounts, campus, catalogs, audit (extracción del código)"
+    },
+    {
+      "numero": 128,
+      "titulo": "Controladores concretos de operations (extracción del código)"
+    },
+    {
+      "numero": 129,
+      "titulo": "Controladores concretos de analytics, prediction (extracción del código)"
+    },
+    {
+      "numero": 130,
+      "titulo": "Catálogo de tablas del ORM; relaciones ampliadas en el anexo K"
+    },
+    {
+      "numero": 131,
+      "titulo": "Tablas de seguridad; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 132,
+      "titulo": "Tablas de campus; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 133,
+      "titulo": "Tablas de operacion; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 134,
+      "titulo": "Tablas de analitica; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 135,
+      "titulo": "Tablas de prediccion; claves y relaciones en el anexo K"
+    },
+    {
+      "numero": 136,
+      "titulo": "Secuencia de diseño ampliada del CU1; interacción conceptual"
+    },
+    {
+      "numero": 137,
+      "titulo": "Secuencia de diseño ampliada del CU9; interacción conceptual"
+    },
+    {
+      "numero": 138,
+      "titulo": "Secuencia de diseño ampliada del CU14; interacción conceptual"
+    },
+    {
+      "numero": 139,
+      "titulo": "Secuencia de diseño ampliada del CU18; interacción conceptual"
+    },
+    {
+      "numero": 140,
+      "titulo": "Secuencia de diseño ampliada del CU20; interacción conceptual"
+    },
+    {
+      "numero": 141,
+      "titulo": "Secuencia de diseño ampliada del CU26; interacción conceptual"
+    },
+    {
+      "numero": 142,
+      "titulo": "Secuencia de diseño ampliada del CU28; interacción conceptual"
+    },
+    {
+      "numero": 143,
+      "titulo": "Secuencia de diseño ampliada del CU30; interacción conceptual"
+    },
+    {
+      "numero": 144,
+      "titulo": "Componentes del subsistema 1: archivos y servicios reales"
+    },
+    {
+      "numero": 145,
+      "titulo": "Componentes del subsistema 2: archivos y servicios reales"
+    },
+    {
+      "numero": 146,
+      "titulo": "Componentes del subsistema 3: archivos y servicios reales"
+    },
+    {
+      "numero": 147,
+      "titulo": "Componentes del subsistema 4: archivos y servicios reales"
+    },
+    {
+      "numero": 148,
+      "titulo": "Componentes del subsistema 5: archivos y servicios reales"
+    },
+    {
+      "numero": 149,
+      "titulo": "Componentes del subsistema 6: archivos y servicios reales"
+    },
+    {
+      "numero": 150,
+      "titulo": "Componentes del subsistema 7: archivos y servicios reales"
+    },
+    {
+      "numero": 151,
+      "titulo": "Componentes del subsistema 8: archivos y servicios reales"
+    },
+    {
+      "numero": 152,
+      "titulo": "Planes de Docker"
+    },
+    {
+      "numero": 153,
+      "titulo": "Planes de Microsoft Power BI"
+    },
+    {
+      "numero": 154,
+      "titulo": "Sitio oficial de OWASP ZAP"
+    },
+    {
+      "numero": 155,
+      "titulo": "Ficha del SEPREC para la inscripción de una S.R.L."
+    },
+    {
+      "numero": 156,
+      "titulo": "Portal del Servicio de Impuestos Nacionales"
+    },
+    {
+      "numero": 157,
+      "titulo": "Pasos del SENAPI para la búsqueda de signos distintivos"
+    },
+    {
+      "numero": 158,
+      "titulo": "Solicitud de registro de marca: síntesis orientativa del procedimiento oficial"
+    },
+    {
+      "numero": 159,
+      "titulo": "Pasos del registro virtual de derecho de autor en el SENAPI"
+    },
+    {
+      "numero": 160,
+      "titulo": "Registro de software: revisión y resultado: síntesis orientativa del procedimiento oficial"
+    },
+    {
+      "numero": 161,
+      "titulo": "Tasas del SENAPI para el registro de derecho de autor"
+    },
+    {
+      "numero": 162,
+      "titulo": "Portal corporativo en su captura histórica del 18 de noviembre"
+    },
+    {
+      "numero": 163,
+      "titulo": "Asistente de reglas y derivación por correo"
+    },
+    {
+      "numero": 164,
+      "titulo": "URL pública del portal; actualización de contenido pendiente por el titular"
+    },
+    {
+      "numero": 165,
+      "titulo": "Puntos de función ajustados de las soluciones comparadas"
+    },
+    {
+      "numero": 166,
+      "titulo": "Proyección financiera recalculada: ingresos netos y egresos sin IUE"
+    },
+    {
+      "numero": 167,
+      "titulo": "Proyección financiera recalculada: flujo acumulado del escenario base"
+    },
+    {
+      "numero": 168,
+      "titulo": "Secuencia de CU9 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes"
+    },
+    {
+      "numero": 169,
+      "titulo": "CU9 ampliación 1"
+    },
+    {
+      "numero": 170,
+      "titulo": "CU9 ampliación 2"
+    },
+    {
+      "numero": 171,
+      "titulo": "CU9 ampliación 3"
+    },
+    {
+      "numero": 172,
+      "titulo": "Grafo de mensajes del CU9"
+    },
+    {
+      "numero": 173,
+      "titulo": "Secuencia de CU15 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes"
+    },
+    {
+      "numero": 174,
+      "titulo": "CU15 ampliación 1"
+    },
+    {
+      "numero": 175,
+      "titulo": "CU15 ampliación 2"
+    },
+    {
+      "numero": 176,
+      "titulo": "CU15 ampliación 3"
+    },
+    {
+      "numero": 177,
+      "titulo": "Grafo de mensajes del CU15"
+    },
+    {
+      "numero": 178,
+      "titulo": "Secuencia de CU28 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes"
+    },
+    {
+      "numero": 179,
+      "titulo": "CU28 ampliación 1"
+    },
+    {
+      "numero": 180,
+      "titulo": "CU28 ampliación 2"
+    },
+    {
+      "numero": 181,
+      "titulo": "CU28 ampliación 3"
+    },
+    {
+      "numero": 182,
+      "titulo": "Grafo de mensajes del CU28"
+    },
+    {
+      "numero": 183,
+      "titulo": "Afiche de la campaña «Campus limpio, gestión inteligente»"
+    },
+    {
+      "numero": 184,
+      "titulo": "Banner comercial con interfaz de demostración"
+    },
+    {
+      "numero": 185,
+      "titulo": "Publicación de demostración sin atribuir resultados institucionales"
+    },
+    {
+      "numero": 186,
+      "titulo": "Topología productiva ampliada: Azure, Vercel, Neon y servicios externos"
+    },
+    {
+      "numero": 187,
+      "titulo": "Pantalla de inicio de sesión"
+    },
+    {
+      "numero": 188,
+      "titulo": "Registro de campo en el teléfono del operativo"
+    },
+    {
+      "numero": 189,
+      "titulo": "Mensaje de validación en el registro de campo"
+    },
+    {
+      "numero": 190,
+      "titulo": "Histórico de registros de residuos"
+    },
+    {
+      "numero": 191,
+      "titulo": "Listado de jornadas de recolección"
+    },
+    {
+      "numero": 192,
+      "titulo": "Planificación de una jornada nueva"
+    },
+    {
+      "numero": 193,
+      "titulo": "Detalle y seguimiento de una jornada"
+    },
+    {
+      "numero": 194,
+      "titulo": "Incidencias operativas"
+    },
+    {
+      "numero": 195,
+      "titulo": "Topología comprobada de Azure, Vercel y Neon; servicios externos y límites"
+    },
+    {
+      "numero": 196,
+      "titulo": "Tablero de indicadores del directivo"
+    },
+    {
+      "numero": 197,
+      "titulo": "Mapa del campus con puntos de recolección"
+    },
+    {
+      "numero": 198,
+      "titulo": "Predicción de generación de residuos"
+    },
+    {
+      "numero": 199,
+      "titulo": "Generación y exportación de reportes"
+    },
+    {
+      "numero": 200,
+      "titulo": "Gestión de usuarios"
+    },
+    {
+      "numero": 201,
+      "titulo": "Roles y permisos"
+    },
+    {
+      "numero": 202,
+      "titulo": "Parámetros del sistema"
+    },
+    {
+      "numero": 203,
+      "titulo": "Procesos ETL"
+    },
+    {
+      "numero": 204,
+      "titulo": "Entrenamiento y versiones del modelo"
+    },
+    {
+      "numero": 205,
+      "titulo": "Bitácora de auditoría"
+    },
+    {
+      "numero": 206,
+      "titulo": "Código QR del material del proyecto"
+    },
+    {
+      "numero": 207,
+      "titulo": "Enlace público del pitch; actualización pendiente por el titular"
+    },
+    {
+      "numero": 208,
+      "titulo": "Repositorio del proyecto"
+    },
+    {
+      "numero": 209,
+      "titulo": "Material del proyecto"
+    },
+    {
+      "numero": 210,
+      "titulo": "Aplicación DSU del piloto"
+    },
+    {
+      "numero": 211,
+      "titulo": "Portal corporativo; actualización local pendiente de publicación"
+    },
+    {
+      "numero": 212,
+      "titulo": "Pitch público; actualización de las cifras pendiente de publicación"
+    },
+    {
+      "numero": 213,
+      "titulo": "Carátula de la propuesta revisada por el docente"
+    },
+    {
+      "numero": 214,
+      "titulo": "Oficio de solicitud con sello de recepción de la DSU"
+    },
+    {
+      "numero": 215,
+      "titulo": "Edición de una planificación confirmada y nueva ruta persistida"
+    },
+    {
+      "numero": 216,
+      "titulo": "Jornada cerrada con consolidado de la captura gráfica"
+    },
+    {
+      "numero": 217,
+      "titulo": "auth.Permission: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 218,
+      "titulo": "auth.Group: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 219,
+      "titulo": "accounts.User: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 220,
+      "titulo": "audit.AuditLog: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 221,
+      "titulo": "catalogs.ParametrosSistema: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 222,
+      "titulo": "catalogs.PeriodoAcademico: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 223,
+      "titulo": "catalogs.UnidadMedida: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 224,
+      "titulo": "catalogs.TipoResiduo: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 225,
+      "titulo": "campus.Sector: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 226,
+      "titulo": "campus.PuntoRecoleccion: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 227,
+      "titulo": "campus.Contenedor: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 228,
+      "titulo": "operations.Vehiculo: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 229,
+      "titulo": "operations.Jornada: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 230,
+      "titulo": "operations.JornadaPunto: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 231,
+      "titulo": "operations.Incidencia: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 232,
+      "titulo": "operations.RegistroResiduo: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 233,
+      "titulo": "analytics.EjecucionETL: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 234,
+      "titulo": "analytics.HechoResiduo: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 235,
+      "titulo": "analytics.RegistroDescartado: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 236,
+      "titulo": "prediction.ModeloEntrenado: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 237,
+      "titulo": "prediction.LotePrediccion: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 238,
+      "titulo": "prediction.Prediccion: atributos y asociaciones del ORM"
+    },
+    {
+      "numero": 239,
+      "titulo": "prediction.Recomendacion: atributos y asociaciones del ORM"
+    }
+  ],
+  "tablas": [
+    {
+      "numero": 1,
+      "encabezados": "Área; Funciones incluidas; Requisitos"
+    },
+    {
+      "numero": 2,
+      "encabezados": "Parámetro de medición; Cuenta; Peso medio; Total"
+    },
+    {
+      "numero": 3,
+      "encabezados": "Parámetro de medición; Cuenta; Peso medio; Total"
+    },
+    {
+      "numero": 4,
+      "encabezados": "Parámetro de medición; Cuenta; Peso medio; Total"
+    },
+    {
+      "numero": 5,
+      "encabezados": "Parámetro de medición; Cuenta; Peso medio; Total"
+    },
+    {
+      "numero": 6,
+      "encabezados": "Medida; Valor; Procedencia"
+    },
+    {
+      "numero": 7,
+      "encabezados": "Métrica orientada al tamaño; Cálculo; Resultado"
+    },
+    {
+      "numero": 8,
+      "encabezados": "Factor de ajuste (0 a 5); Sensoneo; Ecube Labs; Bigbelly; DSU"
+    },
+    {
+      "numero": 9,
+      "encabezados": "Producto; Puntos de función; Tamaño; Procedencia del tamaño"
+    },
+    {
+      "numero": 10,
+      "encabezados": "Indicador; Cálculo o registro; Uso"
+    },
+    {
+      "numero": 11,
+      "encabezados": "Restricción; Descripción"
+    },
+    {
+      "numero": 12,
+      "encabezados": "Interfaz externa; Tipo; Uso"
+    },
+    {
+      "numero": 13,
+      "encabezados": "Escenario; Producto de referencia; KLDC"
+    },
+    {
+      "numero": 14,
+      "encabezados": "Tipo de objeto; Cantidad; Peso; Puntos objeto"
+    },
+    {
+      "numero": 15,
+      "encabezados": "ID; Actividad; O; M; P; E"
+    },
+    {
+      "numero": 16,
+      "encabezados": "Recurso; Aplicación; Condición de planificación"
+    },
+    {
+      "numero": 17,
+      "encabezados": "Categoría; Recursos considerados; Subtotal (Bs.); Participación"
+    },
+    {
+      "numero": 18,
+      "encabezados": "Fase; Resultado que se revisará; Condición de cierre"
+    },
+    {
+      "numero": 19,
+      "encabezados": "Riesgo; Consecuencia; Tratamiento"
+    },
+    {
+      "numero": 20,
+      "encabezados": "Riesgo; P e I; Exposición y razón"
+    },
+    {
+      "numero": 21,
+      "encabezados": "Incremento de referencia; Producto integrado; Verificación prioritaria"
+    },
+    {
+      "numero": 22,
+      "encabezados": "CU; Caso de uso; RF; Actores"
+    },
+    {
+      "numero": 23,
+      "encabezados": "Fase de PUDS; Actividad de aseguramiento de calidad; Producto revisado; Registro"
+    },
+    {
+      "numero": 24,
+      "encabezados": "Fase; Actividades del grupo de desarrollo; Productos"
+    },
+    {
+      "numero": 25,
+      "encabezados": "Actividad del grupo SQA; Entregable asociado"
+    },
+    {
+      "numero": 26,
+      "encabezados": "Función; Responsabilidad; Registro requerido"
+    },
+    {
+      "numero": 27,
+      "encabezados": "Integrante; Función; Responsabilidades de calidad"
+    },
+    {
+      "numero": 28,
+      "encabezados": "Producto; Contenido mínimo; Comprobación de calidad"
+    },
+    {
+      "numero": 29,
+      "encabezados": "Grupo; Identificadores; Contenido"
+    },
+    {
+      "numero": 30,
+      "encabezados": "Informe; Momento; Contenido; Ubicación"
+    },
+    {
+      "numero": 31,
+      "encabezados": "Proceso; Tareas de V&V en el proyecto DSU"
+    },
+    {
+      "numero": 32,
+      "encabezados": "Componente; Contenido; Destinatario"
+    },
+    {
+      "numero": 33,
+      "encabezados": "Aspecto de calidad; Control específico para DSU; Evidencia esperada"
+    },
+    {
+      "numero": 34,
+      "encabezados": "Revisión; Objetivo; Criterios principales en DSU"
+    },
+    {
+      "numero": 35,
+      "encabezados": "Momento; Entrada; Resultado de la revisión"
+    },
+    {
+      "numero": 36,
+      "encabezados": "Revisión; Objetivo; Mecanismo; Salida"
+    },
+    {
+      "numero": 37,
+      "encabezados": "Fase; Iteración; Periodo previsto; Revisiones; Productos revisados"
+    },
+    {
+      "numero": 38,
+      "encabezados": "Nivel o tipo; Objetivo; Herramienta o técnica; Responsable"
+    },
+    {
+      "numero": 39,
+      "encabezados": "Elemento; Identificación; Ubicación"
+    },
+    {
+      "numero": 40,
+      "encabezados": "Línea base; Momento; Contenido"
+    },
+    {
+      "numero": 41,
+      "encabezados": "Estado; Significado; Quién lo asigna"
+    },
+    {
+      "numero": 42,
+      "encabezados": "Severidad; Criterio; Tratamiento"
+    },
+    {
+      "numero": 43,
+      "encabezados": "Herramienta, técnica o metodología; Uso en el aseguramiento de calidad"
+    },
+    {
+      "numero": 44,
+      "encabezados": "Medio; Ubicación; Control de acceso; Respaldo"
+    },
+    {
+      "numero": 45,
+      "encabezados": "Proveedor; Servicio; Uso en DSU; Control"
+    },
+    {
+      "numero": 46,
+      "encabezados": "Tipo de registro; Formato; Ubicación; Retención mínima"
+    },
+    {
+      "numero": 47,
+      "encabezados": "Tema; Destinatarios; Modalidad; Evidencia"
+    },
+    {
+      "numero": 48,
+      "encabezados": "Riesgo de calidad; P e I; Exposición; Tratamiento; Responsable"
+    },
+    {
+      "numero": 49,
+      "encabezados": "Término; Significado en el proyecto; Aplicación"
+    },
+    {
+      "numero": 50,
+      "encabezados": "Versión; Fecha; Cambio; Responsable"
+    },
+    {
+      "numero": 51,
+      "encabezados": "Actividad del ciclo de vida; Herramienta; Evidencia medida en el proyecto; Verificación"
+    },
+    {
+      "numero": 52,
+      "encabezados": "Actividad; Herramienta; Aplicación y evidencia"
+    },
+    {
+      "numero": 53,
+      "encabezados": "Página; Finalidad; Implementación"
+    },
+    {
+      "numero": 54,
+      "encabezados": "Criterio de comparación; Sensoneo Route Planning; Ecube Labs CleanCityNetworks; Bigbelly Smart Waste; Sistema DSU-UAGRM"
+    },
+    {
+      "numero": 55,
+      "encabezados": "Indicador; Bs/año"
+    },
+    {
+      "numero": 56,
+      "encabezados": "Año; Clientes Campus/Red; Ingresos netos; Egresos sin IUE; Flujo; Acumulado"
+    },
+    {
+      "numero": 57,
+      "encabezados": "Escenario de clientes; VAN al 15 %; Déficit máximo"
+    },
+    {
+      "numero": 58,
+      "encabezados": "Actividad; Aplicación real; Evidencia"
+    },
+    {
+      "numero": 59,
+      "encabezados": "Caso y referencia; Resultado esperado resumido; Resultado observado"
+    },
+    {
+      "numero": 60,
+      "encabezados": "Nodo; Mensaje o condición; Referencia"
+    },
+    {
+      "numero": 61,
+      "encabezados": "Nodo; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11"
+    },
+    {
+      "numero": 62,
+      "encabezados": "N.º y camino / flujo; Datos y condición; Esperado y comprobado; Estado y evidencia"
+    },
+    {
+      "numero": 63,
+      "encabezados": "Nodo; Mensaje o condición; Referencia"
+    },
+    {
+      "numero": 64,
+      "encabezados": "Nodo; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11"
+    },
+    {
+      "numero": 65,
+      "encabezados": "N.º y camino / flujo; Datos y condición; Esperado y comprobado; Estado y evidencia"
+    },
+    {
+      "numero": 66,
+      "encabezados": "Nodo; Mensaje o condición; Referencia"
+    },
+    {
+      "numero": 67,
+      "encabezados": "Nodo; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14"
+    },
+    {
+      "numero": 68,
+      "encabezados": "N.º y camino / flujo; Datos y condición; Esperado y comprobado; Estado y evidencia"
+    },
+    {
+      "numero": 69,
+      "encabezados": "Categoría genérica; Comprobación DSU; Resultado y evidencia"
+    },
+    {
+      "numero": 70,
+      "encabezados": "Perfil / Rol; Responsabilidad principal; Dolor o problema actual; Mensaje de valor diferenciado"
+    },
+    {
+      "numero": 71,
+      "encabezados": "Canal de difusión; Formato del material; Audiencia objetivo; Finalidad comunicacional"
+    },
+    {
+      "numero": 72,
+      "encabezados": "Indicador clave (KPI); Definición y método de cálculo; Meta objetivo; Fuente de verificación"
+    },
+    {
+      "numero": 73,
+      "encabezados": "Proveedor/región; USD/mes; Fuente registrada"
+    },
+    {
+      "numero": 74,
+      "encabezados": "Elemento; Comprobación requerida; Situación documentada"
+    },
+    {
+      "numero": 75,
+      "encabezados": "Destino; Bs propuestos"
+    },
+    {
+      "numero": 76,
+      "encabezados": "Campo; Registro"
+    },
+    {
+      "numero": 77,
+      "encabezados": "N.°; Hallazgo y evidencia; Severidad; Acción acordada; Responsable; Estado"
+    },
+    {
+      "numero": 78,
+      "encabezados": "Campo; Registro"
+    },
+    {
+      "numero": 79,
+      "encabezados": "Campo; Registro"
+    },
+    {
+      "numero": 80,
+      "encabezados": "Campo; Registro"
+    },
+    {
+      "numero": 81,
+      "encabezados": "Tarea o caso de uso; Acción realizada; ¿Se completó?; Dificultades y comentarios"
+    },
+    {
+      "numero": 82,
+      "encabezados": "Campo; Registro"
+    },
+    {
+      "numero": 83,
+      "encabezados": "Evidencia; Ubicación relativa al repositorio; Contenido"
+    },
+    {
+      "numero": 84,
+      "encabezados": "Campo; Detalle"
+    },
+    {
+      "numero": 85,
+      "encabezados": "Campo; Detalle"
+    },
+    {
+      "numero": 86,
+      "encabezados": "Campo; Detalle"
+    },
+    {
+      "numero": 87,
+      "encabezados": "Aspecto; Estándar"
+    },
+    {
+      "numero": 88,
+      "encabezados": "Aspecto; Estándar"
+    },
+    {
+      "numero": 89,
+      "encabezados": "Aspecto; Estándar"
+    },
+    {
+      "numero": 90,
+      "encabezados": "Aspecto; Estándar"
+    },
+    {
+      "numero": 91,
+      "encabezados": "Aspecto; Estándar"
+    },
+    {
+      "numero": 92,
+      "titulo": "Lista de comprobación: criterio, resultado, evidencia y límites"
+    },
+    {
+      "numero": 93,
+      "titulo": "RF, casos de uso y resultado de la muestra gráfica"
+    }
+  ]
+}

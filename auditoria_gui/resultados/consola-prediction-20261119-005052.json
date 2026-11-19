@@ -1,0 +1,62 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-entrenar-1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/modelo\",\"texto\":\"Entrenar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-entrenar-2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/modelo\",\"texto\":\"Entrenar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-revertir",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/modelo\",\"texto\":\"Publicar esta versión\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "ML-revertir",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "ML-predecir",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "ML-resolver",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/recomendaciones\",\"texto\":\"Aceptar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "ML-resolver",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/recomendaciones\",\"texto\":\"Aceptar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "ML-resolver",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/recomendaciones\",\"texto\":\"Descartar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "ML-resolver",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/recomendaciones\",\"texto\":\"Todas\",\"tipo\":\"radio\"}"
+  }
+]

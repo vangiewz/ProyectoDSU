@@ -44,6 +44,7 @@ function Rutas() {
         <Route path="campo" element={<Con permiso="operations.ejecutar_jornada"><Campo /></Con>} />
         <Route path="jornadas" element={<Con permiso="operations.view_jornada"><Jornadas /></Con>} />
         <Route path="jornadas/nueva" element={<Con permiso="operations.add_jornada"><NuevaJornada /></Con>} />
+        <Route path="jornadas/:id/editar" element={<Con permiso="operations.change_jornada"><NuevaJornada /></Con>} />
         <Route path="jornadas/:id" element={<Con permiso="operations.view_jornada"><DetalleJornada /></Con>} />
         <Route path="historico" element={<Con permiso="operations.view_registroresiduo"><Historico /></Con>} />
         <Route path="incidencias" element={<Con permiso="operations.view_incidencia"><Incidencias /></Con>} />

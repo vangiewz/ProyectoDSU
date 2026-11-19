@@ -1,0 +1,59 @@
+[
+  {
+    "id": "PERM-sintetico",
+    "titulo": "Permisos del rol creado aplicados al nuevo usuario",
+    "rol": "qa_gui_003231",
+    "cu": [
+      4
+    ],
+    "inicio_utc": "2026-11-19T04:37:38.493621+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_text(\"QA003231\").first\n",
+    "evidencia": "capturas\\permissions-20261119-003735-PERM-sintetico.png",
+    "segundos": 7.2
+  },
+  {
+    "id": "PERM-inactivo",
+    "titulo": "Sesión revocada y login de usuario desactivado",
+    "rol": "qa_gui_003231",
+    "cu": [
+      1,
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:37:45.694208+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Baja sintética revoca sesión existente e impide ingreso; reactivación recupera acceso",
+    "evidencia": "capturas\\permissions-20261119-003735-PERM-inactivo.png",
+    "segundos": 3.84
+  },
+  {
+    "id": "PERM-conexion",
+    "titulo": "Error de conexión, reintento y persistencia entre sesiones",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:37:49.537577+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Sin red conserva formulario y mensaje claro; reintento guarda una vez y persiste tras logout/login",
+    "evidencia": "capturas\\permissions-20261119-003735-PERM-conexion.png",
+    "segundos": 4.05
+  },
+  {
+    "id": "PERM-prediction",
+    "titulo": "Editor ofrece permisos de todos los módulos",
+    "rol": "administrativo",
+    "cu": [
+      4
+    ],
+    "inicio_utc": "2026-11-19T04:37:53.589754+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "El editor de roles no ofrece permisos del módulo prediction",
+    "evidencia": "capturas\\permissions-20261119-003735-PERM-prediction.png",
+    "segundos": 0.8
+  }
+]

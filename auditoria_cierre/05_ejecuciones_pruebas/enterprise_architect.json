@@ -1,0 +1,10 @@
+{
+  "modelo": "C:\\Users\\usuario\\Downloads\\dsu\\ProyectoDSU\\modelo_uml\\DSU-FaseFinal.eapx",
+  "resultado": "LECTURA NATIVA CORRECTA",
+  "conteos": {
+    "paquetes": 18,
+    "elementos": 343,
+    "diagramas": 18
+  },
+  "limite": "Inspecci\u00f3n estructural por API; no revisi\u00f3n visual de cada objeto"
+}

@@ -1,0 +1,2661 @@
+[
+  {
+    "nombre": "Permission",
+    "etiqueta": "auth.Permission",
+    "tabla": "auth_permission",
+    "archivo": "Django auth",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "AutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "name",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 255,
+        "decimales": null
+      },
+      {
+        "nombre": "content_type",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "contenttypes.ContentType",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "codename",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 100,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "Group",
+    "etiqueta": "auth.Group",
+    "tabla": "auth_group",
+    "archivo": "Django auth",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "AutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "name",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 150,
+        "decimales": null
+      },
+      {
+        "nombre": "permissions",
+        "tipo": "ManyToManyField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "auth.Permission",
+        "multiple": true,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "User",
+    "etiqueta": "accounts.User",
+    "tabla": "accounts_user",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\accounts\\models\\user.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "password",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 128,
+        "decimales": null
+      },
+      {
+        "nombre": "last_login",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "is_superuser",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "username",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 150,
+        "decimales": null
+      },
+      {
+        "nombre": "first_name",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 150,
+        "decimales": null
+      },
+      {
+        "nombre": "last_name",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 150,
+        "decimales": null
+      },
+      {
+        "nombre": "email",
+        "tipo": "EmailField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 254,
+        "decimales": null
+      },
+      {
+        "nombre": "is_staff",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "is_active",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "date_joined",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "ci",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 20,
+        "decimales": null
+      },
+      {
+        "nombre": "telefono",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 20,
+        "decimales": null
+      },
+      {
+        "nombre": "groups",
+        "tipo": "ManyToManyField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "auth.Group",
+        "multiple": true,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "user_permissions",
+        "tipo": "ManyToManyField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "auth.Permission",
+        "multiple": true,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "AuditLog",
+    "etiqueta": "audit.AuditLog",
+    "tabla": "audit_auditlog",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\audit\\models\\audit_log.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "usuario",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "modulo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 50,
+        "decimales": null
+      },
+      {
+        "nombre": "operacion",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 20,
+        "decimales": null
+      },
+      {
+        "nombre": "entidad",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 100,
+        "decimales": null
+      },
+      {
+        "nombre": "entidad_id",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 50,
+        "decimales": null
+      },
+      {
+        "nombre": "detalle",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 255,
+        "decimales": null
+      },
+      {
+        "nombre": "datos_anteriores",
+        "tipo": "JSONField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "datos_nuevos",
+        "tipo": "JSONField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "ip",
+        "tipo": "GenericIPAddressField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 39,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "ParametrosSistema",
+    "etiqueta": "catalogs.ParametrosSistema",
+    "tabla": "catalogs_parametrossistema",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\catalogs\\models\\parametros.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "umbral_critico_kg_dia",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "tolerancia_capacidad",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "etl_periodicidad_horas",
+        "tipo": "PositiveSmallIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "etl_umbral_observados_pct",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "min_registros_entrenamiento",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "umbral_r2_modelo",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 3
+      },
+      {
+        "nombre": "horizonte_max_dias",
+        "tipo": "PositiveSmallIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "alerta_capacidad_pct",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "crecimiento_alerta_pct",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "no_aprovechable_max_pct",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "url_powerbi",
+        "tipo": "URLField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 600,
+        "decimales": null
+      },
+      {
+        "nombre": "actualizado_en",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "actualizado_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "PeriodoAcademico",
+    "etiqueta": "catalogs.PeriodoAcademico",
+    "tabla": "catalogs_periodoacademico",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\catalogs\\models\\periodo_academico.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "nombre",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 50,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha_inicio",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha_fin",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "UnidadMedida",
+    "etiqueta": "catalogs.UnidadMedida",
+    "tabla": "catalogs_unidadmedida",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\catalogs\\models\\unidad_medida.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "nombre",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 50,
+        "decimales": null
+      },
+      {
+        "nombre": "simbolo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 10,
+        "decimales": null
+      },
+      {
+        "nombre": "magnitud",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 10,
+        "decimales": null
+      },
+      {
+        "nombre": "factor_conversion",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 6
+      },
+      {
+        "nombre": "is_active",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "TipoResiduo",
+    "etiqueta": "catalogs.TipoResiduo",
+    "tabla": "catalogs_tiporesiduo",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\catalogs\\models\\tipo_residuo.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "nombre",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 80,
+        "decimales": null
+      },
+      {
+        "nombre": "clasificacion",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 20,
+        "decimales": null
+      },
+      {
+        "nombre": "aprovechable",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "unidad",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "catalogs.UnidadMedida",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "descripcion",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "is_active",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "Sector",
+    "etiqueta": "campus.Sector",
+    "tabla": "campus_sector",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\campus\\models\\sector.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "codigo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 20,
+        "decimales": null
+      },
+      {
+        "nombre": "nombre",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 120,
+        "decimales": null
+      },
+      {
+        "nombre": "tipo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 25,
+        "decimales": null
+      },
+      {
+        "nombre": "descripcion",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "supervisor",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "is_active",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "PuntoRecoleccion",
+    "etiqueta": "campus.PuntoRecoleccion",
+    "tabla": "campus_puntorecoleccion",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\campus\\models\\punto_recoleccion.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "sector",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.Sector",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "codigo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 20,
+        "decimales": null
+      },
+      {
+        "nombre": "nombre",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 120,
+        "decimales": null
+      },
+      {
+        "nombre": "referencia",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "latitud",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 6
+      },
+      {
+        "nombre": "longitud",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 6
+      },
+      {
+        "nombre": "capacidad_kg",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "estado",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 15,
+        "decimales": null
+      },
+      {
+        "nombre": "is_active",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "motivo_baja",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "Contenedor",
+    "etiqueta": "campus.Contenedor",
+    "tabla": "campus_contenedor",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\campus\\models\\contenedor.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "punto",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.PuntoRecoleccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "codigo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 30,
+        "decimales": null
+      },
+      {
+        "nombre": "tipo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 60,
+        "decimales": null
+      },
+      {
+        "nombre": "capacidad_litros",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "fecha_instalacion",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "estado",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 15,
+        "decimales": null
+      },
+      {
+        "nombre": "observacion",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "Vehiculo",
+    "etiqueta": "operations.Vehiculo",
+    "tabla": "operations_vehiculo",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\vehiculo.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "placa",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": 15,
+        "decimales": null
+      },
+      {
+        "nombre": "descripcion",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 120,
+        "decimales": null
+      },
+      {
+        "nombre": "capacidad_kg",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 2
+      },
+      {
+        "nombre": "estado",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 15,
+        "decimales": null
+      },
+      {
+        "nombre": "is_active",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "Jornada",
+    "etiqueta": "operations.Jornada",
+    "tabla": "operations_jornada",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\jornada.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "turno",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 10,
+        "decimales": null
+      },
+      {
+        "nombre": "sector",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.Sector",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "estado",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 15,
+        "decimales": null
+      },
+      {
+        "nombre": "descripcion",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 255,
+        "decimales": null
+      },
+      {
+        "nombre": "planificada_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "responsable",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "hora_inicio",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "hora_fin",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "observaciones_cierre",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "creada_en",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "personal",
+        "tipo": "ManyToManyField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": true,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "vehiculos",
+        "tipo": "ManyToManyField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "operations.Vehiculo",
+        "multiple": true,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "JornadaPunto",
+    "etiqueta": "operations.JornadaPunto",
+    "tabla": "operations_jornadapunto",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\jornada.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "jornada",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "operations.Jornada",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "punto",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.PuntoRecoleccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "orden",
+        "tipo": "PositiveSmallIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "atendido",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "sin_generacion",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "motivo_omision",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "atendido_en",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "Incidencia",
+    "etiqueta": "operations.Incidencia",
+    "tabla": "operations_incidencia",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\incidencia.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "jornada",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "operations.Jornada",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "punto",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.PuntoRecoleccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "tipo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 20,
+        "decimales": null
+      },
+      {
+        "nombre": "gravedad",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 10,
+        "decimales": null
+      },
+      {
+        "nombre": "descripcion",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "estado",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 10,
+        "decimales": null
+      },
+      {
+        "nombre": "reportada_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha_hora",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "atendida_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "accion_adoptada",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "atendida_en",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "RegistroResiduo",
+    "etiqueta": "operations.RegistroResiduo",
+    "tabla": "operations_registroresiduo",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\registro_residuo.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "jornada",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "operations.Jornada",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "punto",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.PuntoRecoleccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "tipo_residuo",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "catalogs.TipoResiduo",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "unidad",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "catalogs.UnidadMedida",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "cantidad",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 3
+      },
+      {
+        "nombre": "observaciones",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "registrado_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha_hora",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "EjecucionETL",
+    "etiqueta": "analytics.EjecucionETL",
+    "tabla": "analytics_ejecucionetl",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\analytics\\models\\ejecucion_etl.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "inicio",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fin",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "estado",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 12,
+        "decimales": null
+      },
+      {
+        "nombre": "disparada_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "procesados",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "aceptados",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "observados",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "duplicados",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "atipicos",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "mensaje",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "HechoResiduo",
+    "etiqueta": "analytics.HechoResiduo",
+    "tabla": "analytics_hechoresiduo",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\analytics\\models\\hecho_residuo.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "registro",
+        "tipo": "OneToOneField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": "operations.RegistroResiduo",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha_hora",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "punto",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.PuntoRecoleccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "sector",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.Sector",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "tipo_residuo",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "catalogs.TipoResiduo",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "jornada",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "operations.Jornada",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "unidad",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "catalogs.UnidadMedida",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "cantidad_original",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 3
+      },
+      {
+        "nombre": "magnitud",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 10,
+        "decimales": null
+      },
+      {
+        "nombre": "cantidad_base",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 3
+      },
+      {
+        "nombre": "dia_semana",
+        "tipo": "PositiveSmallIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "mes",
+        "tipo": "PositiveSmallIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "semana_anio",
+        "tipo": "PositiveSmallIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "anio",
+        "tipo": "PositiveSmallIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "periodo",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "catalogs.PeriodoAcademico",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "atipico",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "ejecucion",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "analytics.EjecucionETL",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "RegistroDescartado",
+    "etiqueta": "analytics.RegistroDescartado",
+    "tabla": "analytics_registrodescartado",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\analytics\\models\\registro_descartado.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "registro",
+        "tipo": "OneToOneField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": "operations.RegistroResiduo",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "motivo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 12,
+        "decimales": null
+      },
+      {
+        "nombre": "ejecucion",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "analytics.EjecucionETL",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "ModeloEntrenado",
+    "etiqueta": "prediction.ModeloEntrenado",
+    "tabla": "prediction_modeloentrenado",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\prediction\\models\\modelo_entrenado.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "version",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "estado",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 10,
+        "decimales": null
+      },
+      {
+        "nombre": "vigente",
+        "tipo": "BooleanField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "inicio",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fin",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "entrenado_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "hiperparametros",
+        "tipo": "JSONField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "variables",
+        "tipo": "JSONField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "registros",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "observaciones_entrenamiento",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "observaciones_prueba",
+        "tipo": "PositiveIntegerField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "corte",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "mae",
+        "tipo": "FloatField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "mse",
+        "tipo": "FloatField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "rmse",
+        "tipo": "FloatField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "r2",
+        "tipo": "FloatField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "umbral_r2",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 3
+      },
+      {
+        "nombre": "importancias",
+        "tipo": "JSONField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "mensaje",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "artefacto",
+        "tipo": "BinaryField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "LotePrediccion",
+    "etiqueta": "prediction.LotePrediccion",
+    "tabla": "prediction_loteprediccion",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\prediction\\models\\lote_prediccion.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "modelo",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "prediction.ModeloEntrenado",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "solicitado_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "creado_en",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "desde",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "hasta",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "sector",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "campus.Sector",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "punto",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "campus.PuntoRecoleccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "puntos_omitidos",
+        "tipo": "JSONField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  },
+  {
+    "nombre": "Prediccion",
+    "etiqueta": "prediction.Prediccion",
+    "tabla": "prediction_prediccion",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\prediction\\models\\prediccion.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "lote",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "prediction.LotePrediccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "punto",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.PuntoRecoleccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "sector",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.Sector",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "tipo_residuo",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "catalogs.TipoResiduo",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "fecha",
+        "tipo": "DateField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "cantidad_kg",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 3
+      },
+      {
+        "nombre": "margen_kg",
+        "tipo": "DecimalField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": 3
+      }
+    ]
+  },
+  {
+    "nombre": "Recomendacion",
+    "etiqueta": "prediction.Recomendacion",
+    "tabla": "prediction_recomendacion",
+    "archivo": "gestion-residuos-dsu\\backend\\apps\\prediction\\models\\recomendacion.py",
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "BigAutoField",
+        "pk": true,
+        "nulo": false,
+        "unico": true,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "lote",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "prediction.LotePrediccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "punto",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.PuntoRecoleccion",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "sector",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": "campus.Sector",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "tipo",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 30,
+        "decimales": null
+      },
+      {
+        "nombre": "urgencia",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 5,
+        "decimales": null
+      },
+      {
+        "nombre": "mensaje",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "evidencia",
+        "tipo": "JSONField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "estado",
+        "tipo": "CharField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": 12,
+        "decimales": null
+      },
+      {
+        "nombre": "creada_en",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "resuelta_por",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "accounts.User",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "resuelta_en",
+        "tipo": "DateTimeField",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "motivo_decision",
+        "tipo": "TextField",
+        "pk": false,
+        "nulo": false,
+        "unico": false,
+        "destino": null,
+        "multiple": null,
+        "longitud": null,
+        "decimales": null
+      },
+      {
+        "nombre": "jornada",
+        "tipo": "ForeignKey",
+        "pk": false,
+        "nulo": true,
+        "unico": false,
+        "destino": "operations.Jornada",
+        "multiple": false,
+        "longitud": null,
+        "decimales": null
+      }
+    ]
+  }
+]

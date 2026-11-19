@@ -1,0 +1,17 @@
+[
+  {
+    "id": "RACE-reportes",
+    "titulo": "Respuesta atrasada no mezcla tipos de reporte",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:47:48.567236+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Respuesta anterior liberada después de la nueva; no reemplaza la selección actual",
+    "evidencia": "capturas\\race-20261119-004745-RACE-reportes.png",
+    "segundos": 2.41
+  }
+]

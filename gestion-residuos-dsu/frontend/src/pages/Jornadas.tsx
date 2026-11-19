@@ -125,10 +125,20 @@ export function Jornadas() {
 type PuntoSector = { id: number; codigo: string; nombre: string; is_active: boolean }
 
 export function NuevaJornada() {
+  const { id } = useParams()
+  const existente = useCarga(() => id ? api<Jornada>(`jornadas/${id}/`) : Promise.resolve(null), [id])
+  if (id && existente.cargando) return <Cargando />
+  if (existente.error) return <Aviso tono="error">{existente.error}</Aviso>
+  if (existente.data && !['PLANIFICADA', 'CONFIRMADA'].includes(existente.data.estado)) return <Aviso tono="error">La jornada ya está en ejecución o cerrada; no puede modificarse.</Aviso>
+  return <FormularioJornada key={id ?? 'nueva'} jornada={existente.data ?? null} />
+}
+
+function FormularioJornada({ jornada }: { jornada: Jornada | null }) {
+  const id = jornada?.id
   const navegar = useNavigate()
   const sectores = useSectores()
-  const [datos, setDatos] = useState({ fecha: hoyISO(), turno: 'MANANA', sector: '', descripcion: '' })
-  const [ruta, setRuta] = useState<PuntoSector[]>([])
+  const [datos, setDatos] = useState<{ fecha: string; turno: string; sector: string; descripcion: string }>({ fecha: jornada?.fecha ?? hoyISO(), turno: jornada?.turno ?? 'MANANA', sector: jornada ? String(jornada.sector) : '', descripcion: jornada?.descripcion ?? '' })
+  const [ruta, setRuta] = useState<PuntoSector[]>(() => jornada?.ruta.map((p) => ({ id: p.punto, codigo: p.codigo, nombre: p.nombre, is_active: true })) ?? [])
   const [error, setError] = useState<string | null>(null)
   const [guardando, setGuardando] = useState(false)
   const puntos = useCarga(
@@ -147,7 +157,7 @@ export function NuevaJornada() {
     setGuardando(true)
     setError(null)
     try {
-      const j = await api<Jornada>('jornadas/', { body: { ...datos, puntos: ruta.map((p) => p.id) } })
+      const j = await api<Jornada>(id ? `jornadas/${id}/` : 'jornadas/', { method: id ? 'PATCH' : 'POST', body: { ...datos, puntos: ruta.map((p) => p.id) } })
       navegar(`/jornadas/${j.id}`)
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e))
@@ -163,7 +173,7 @@ export function NuevaJornada() {
       <Link to="/jornadas" className="mb-3 inline-flex items-center gap-1 text-sm text-grafito-2 hover:text-grafito">
         <ChevronLeft className="size-4" aria-hidden /> Jornadas
       </Link>
-      <Encabezado titulo="Planificar jornada" detalle="Defina fecha, turno y sector, y arme la ruta en el orden en que se atenderá." />
+      <Encabezado titulo={id ? 'Editar planificación' : 'Planificar jornada'} detalle="Defina fecha, turno y sector, y arme la ruta en el orden en que se atenderá." />
       {error && (
         <div className="mb-4">
           <Aviso tono="error">{error}</Aviso>
@@ -203,7 +213,7 @@ export function NuevaJornada() {
             <Area value={datos.descripcion} onChange={(e) => setDatos({ ...datos, descripcion: e.target.value })} />
           </Campo>
           <Boton onClick={() => void guardar()} cargando={guardando} disabled={!datos.sector || !ruta.length}>
-            Guardar planificación
+            {id ? 'Guardar cambios de planificación' : 'Guardar planificación'}
           </Boton>
         </section>
 
@@ -420,6 +430,11 @@ export function DetalleJornada() {
         detalle={`${j.sector_nombre}${j.descripcion ? ` — ${j.descripcion}` : ''}`}
         acciones={
           <>
+            {(e === 'PLANIFICADA' || e === 'CONFIRMADA') && puede('operations.change_jornada') && (
+              <Link to={`/jornadas/${j.id}/editar`} className="inline-flex min-h-10 items-center gap-2 rounded-hoja border border-filete bg-hoja px-4 text-sm font-semibold hover:border-grafito-2">
+                Editar planificación
+              </Link>
+            )}
             {(e === 'PLANIFICADA' || e === 'CONFIRMADA') && puede('operations.asignar_jornada') && (
               <Boton variante="secundario" onClick={() => setPanel(panel === 'asignar' ? null : 'asignar')}>
                 Asignar cuadrilla

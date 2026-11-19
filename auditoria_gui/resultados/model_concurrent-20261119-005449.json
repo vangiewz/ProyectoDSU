@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ML-concurrencia",
+    "titulo": "Entrenamientos simultáneos y reversión de versión",
+    "rol": "administrativo",
+    "cu": [
+      26,
+      27
+    ],
+    "inicio_utc": "2026-11-19T04:54:54.477528+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Dos sesiones gráficas; inicio concurrente rechazado, primer entrenamiento termina; versión v3 restaurada por botón Publicar",
+    "evidencia": "capturas\\model_concurrent-20261119-005449-ML-concurrencia.png",
+    "segundos": 11.53
+  }
+]

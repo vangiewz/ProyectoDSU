@@ -1,0 +1,112 @@
+[
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/sectores/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/unidades/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/tipos-residuo/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/vehiculos/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/periodos/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/puntos/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/contenedores/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 401,
+    "ruta": "/api/auth/me/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 401,
+    "ruta": "/api/auth/me/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/unidades/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  }
+]

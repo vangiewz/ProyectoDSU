@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1380" viewBox="0 0 2700 1380"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="49" font-family="Arial" font-size="42" font-weight="700">CU28: interacción de diseño (nombres conceptuales)</text>
+<text x="127.5" y="107" font-family="Arial" font-size="40" font-weight="400">Supervisor de</text>
+<text x="141.5" y="150" font-family="Arial" font-size="40" font-weight="400">Recolección</text>
+<line x1="250.0" y1="230" x2="250.0" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="480.17447916666674" y="107" font-family="Arial" font-size="40" font-weight="400">PrediccionView</text>
+<line x1="616.6666666666667" y1="230" x2="616.6666666666667" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="848.3333333333334" y="107" font-family="Arial" font-size="40" font-weight="400">PrediccionCont</text>
+<text x="939.3333333333334" y="150" font-family="Arial" font-size="40" font-weight="400">roller</text>
+<line x1="983.3333333333334" y1="230" x2="983.3333333333334" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1216.0" y="107" font-family="Arial" font-size="40" font-weight="400">PrediccionServ</text>
+<text x="1324.5" y="150" font-family="Arial" font-size="40" font-weight="400">ice</text>
+<line x1="1350.0" y1="230" x2="1350.0" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1571.1666666666667" y="107" font-family="Arial" font-size="40" font-weight="400">ModeloEntrenad</text>
+<text x="1705.6666666666667" y="150" font-family="Arial" font-size="40" font-weight="400">o</text>
+<line x1="1716.6666666666667" y1="230" x2="1716.6666666666667" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1951.833333333333" y="107" font-family="Arial" font-size="40" font-weight="400">LotePrediccion</text>
+<line x1="2083.333333333333" y1="230" x2="2083.333333333333" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="2293.0" y="107" font-family="Arial" font-size="40" font-weight="400">RecomendacionS</text>
+<text x="2397.0" y="150" font-family="Arial" font-size="40" font-weight="400">ervice</text>
+<line x1="2450.0" y1="230" x2="2450.0" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<rect x="25" y="240" width="2650" height="60" fill="white"/>
+<text x="35" y="277" font-family="Arial" font-size="40" font-weight="400">1. predecir(horizonte, sector)</text>
+<line x1="250.0" y1="323" x2="616.6666666666667" y2="323" stroke="#444" stroke-width="3"/>
+<line x1="616.6666666666667" y1="323" x2="595.0559362102025" y2="333.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="616.6666666666667" y1="323" x2="595.0559362102025" y2="312.56082718133047" stroke="#444" stroke-width="3"/>
+<rect x="25" y="352" width="2650" height="60" fill="white"/>
+<text x="35" y="389" font-family="Arial" font-size="40" font-weight="400">2. POST /predicciones/</text>
+<line x1="616.6666666666667" y1="435" x2="983.3333333333334" y2="435" stroke="#444" stroke-width="3"/>
+<line x1="983.3333333333334" y1="435" x2="961.7226028768691" y2="445.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="983.3333333333334" y1="435" x2="961.7226028768691" y2="424.56082718133047" stroke="#444" stroke-width="3"/>
+<rect x="25" y="464" width="2650" height="60" fill="white"/>
+<text x="35" y="501" font-family="Arial" font-size="40" font-weight="400">3. generar(horizonte, sector)</text>
+<line x1="983.3333333333334" y1="547" x2="1350.0" y2="547" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="547" x2="1328.3892695435356" y2="557.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="547" x2="1328.3892695435356" y2="536.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="576" width="2650" height="60" fill="white"/>
+<text x="35" y="613" font-family="Arial" font-size="40" font-weight="400">4. vigente()</text>
+<line x1="1350.0" y1="659" x2="1716.6666666666667" y2="659" stroke="#444" stroke-width="3"/>
+<line x1="1716.6666666666667" y1="659" x2="1695.0559362102024" y2="669.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1716.6666666666667" y1="659" x2="1695.0559362102024" y2="648.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="688" width="2650" height="60" fill="white"/>
+<text x="35" y="725" font-family="Arial" font-size="40" font-weight="400">5. pipeline</text>
+<line x1="1716.6666666666667" y1="771" x2="1350.0" y2="771" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1350.0" y1="771" x2="1371.6107304564644" y2="760.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="771" x2="1371.6107304564644" y2="781.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="25" y="800" width="2650" height="60" fill="white"/>
+<text x="35" y="837" font-family="Arial" font-size="40" font-weight="400">6. [loop: por cada punto y fecha del horizonte] estado_actual() y predict()</text>
+<line x1="1350.0" y1="883" x2="1420.0" y2="883" stroke="#444" stroke-width="3"/>
+<line x1="1420.0" y1="883" x2="1420.0" y2="897" stroke="#444" stroke-width="3"/>
+<line x1="1420.0" y1="897" x2="1350.0" y2="897" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="897" x2="1371.6107304564644" y2="886.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="897" x2="1371.6107304564644" y2="907.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="25" y="912" width="2650" height="60" fill="white"/>
+<text x="35" y="949" font-family="Arial" font-size="40" font-weight="400">7. create(modelo) + predicciones</text>
+<line x1="1350.0" y1="995" x2="2083.333333333333" y2="995" stroke="#444" stroke-width="3"/>
+<line x1="2083.333333333333" y1="995" x2="2061.7226028768687" y2="1005.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="2083.333333333333" y1="995" x2="2061.7226028768687" y2="984.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1024" width="2650" height="60" fill="white"/>
+<text x="35" y="1061" font-family="Arial" font-size="40" font-weight="400">8. evaluar(lote, preds)</text>
+<line x1="1350.0" y1="1107" x2="2450.0" y2="1107" stroke="#444" stroke-width="3"/>
+<line x1="2450.0" y1="1107" x2="2428.3892695435356" y2="1117.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="2450.0" y1="1107" x2="2428.3892695435356" y2="1096.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1136" width="2650" height="60" fill="white"/>
+<text x="35" y="1173" font-family="Arial" font-size="40" font-weight="400">9. recomendaciones</text>
+<line x1="2450.0" y1="1219" x2="1350.0" y2="1219" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1350.0" y1="1219" x2="1371.6107304564644" y2="1208.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="1219" x2="1371.6107304564644" y2="1229.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1248" width="2650" height="60" fill="white"/>
+<text x="35" y="1285" font-family="Arial" font-size="40" font-weight="400">10. lote con margen de error</text>
+<line x1="983.3333333333334" y1="1331" x2="616.6666666666667" y2="1331" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="616.6666666666667" y1="1331" x2="638.277397123131" y2="1320.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="616.6666666666667" y1="1331" x2="638.277397123131" y2="1341.4391728186695" stroke="#444" stroke-width="3"/>
+</svg>

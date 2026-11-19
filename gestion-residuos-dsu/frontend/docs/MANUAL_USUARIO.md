@@ -5,8 +5,8 @@ Guía de uso por rol (RNF22). Cada persona ve en el menú lateral solo los módu
 ## Ingreso
 
 1. Abra la dirección del sistema en Chrome, Edge o Firefox (computadora, tableta o celular).
-2. Escriba el usuario y la contraseña que le asignó el administrador y pulse **Ingresar al sistema**.
-3. Para salir, use **Cerrar sesión** al pie del menú. La sesión también se cierra sola tras un tiempo sin uso.
+2. Escriba el usuario y la contraseña que le asignó el administrador y pulse **Ingresar**.
+3. Para salir, use **Cerrar sesión** al pie del menú. El acceso se renueva mientras la sesión de renovación siga vigente; cuando ya no puede renovarse, el sistema vuelve al ingreso.
 
 El operario entra directo a **Registro en campo**; el directivo, al **Tablero**.
 
@@ -41,6 +41,8 @@ Otras opciones en el punto:
 3. Guarde. La jornada queda *Planificada*.
 4. En la jornada, **Asignar cuadrilla y vehículos**: personal operativo, responsable y vehículos. El sistema avisa si alguien ya está asignado en ese turno.
 5. **Confirmar y publicar**: la jornada se vuelve visible para la cuadrilla.
+
+**Editar una planificación.** Mientras la jornada esté planificada o confirmada, abra su detalle y pulse **Editar planificación**. Puede cambiar fecha, turno, indicaciones y ruta. Al cambiar de sector se vacía la ruta: seleccione puntos del nuevo sector antes de guardar. Una jornada en ejecución o cerrada no admite esta edición.
 
 **Seguir y cerrar.** En la jornada se ve el recorrido sobre el eje horario 08:00–15:00 con el sello de cada punto en la hora en que se atendió. Al terminar, **Cerrar jornada** con observaciones; todos los puntos deben estar atendidos u omitidos. El *Consolidado* resume kilos por tipo y la cobertura.
 

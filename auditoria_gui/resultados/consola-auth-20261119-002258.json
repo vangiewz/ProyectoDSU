@@ -1,0 +1,222 @@
+[
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/indicadores/"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/indicadores/"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/mapa/"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/mapa/"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/reportes/generacion-sector/"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/reportes/generacion-sector/"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/indicadores/"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/indicadores/"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/indicadores/"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/indicadores/"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/mapa/"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/mapa/"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/reportes/generacion-sector/"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/reportes/generacion-sector/"
+  },
+  {
+    "rol": "directivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/indicadores/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/indicadores/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/mapa/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/analitica/mapa/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/reportes/generacion-sector/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/reportes/generacion-sector/"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  }
+]

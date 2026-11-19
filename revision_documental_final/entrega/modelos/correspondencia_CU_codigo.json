@@ -1,0 +1,553 @@
+[
+  {
+    "cu": 1,
+    "nombre": "Iniciar sesión",
+    "requisito": "RF3",
+    "actores": [
+      "POL",
+      "SUP",
+      "CDD",
+      "ADM"
+    ],
+    "precondiciones": "El usuario cuenta con una cuenta activa registrada en el sistema.",
+    "postcondiciones": "La sesión queda abierta y el usuario accede solo a las funciones autorizadas para su rol.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Login.tsx",
+      "gestion-residuos-dsu/backend/apps/accounts/views/auth.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 2,
+    "nombre": "Cerrar sesión",
+    "requisito": "RF3",
+    "actores": [
+      "POL",
+      "SUP",
+      "CDD",
+      "ADM"
+    ],
+    "precondiciones": "El usuario tiene una sesión abierta.",
+    "postcondiciones": "La sesión queda cerrada, registrada en la bitácora, y el token ya no permite el acceso.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Login.tsx",
+      "gestion-residuos-dsu/backend/apps/accounts/views/auth.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 3,
+    "nombre": "Gestionar usuarios",
+    "requisito": "RF1",
+    "actores": [
+      "ADM"
+    ],
+    "precondiciones": "El administrador inició sesión con permisos de administración.",
+    "postcondiciones": "La cuenta queda registrada o actualizada con sus roles.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Admin.tsx",
+      "gestion-residuos-dsu/backend/apps/accounts/views/user.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 4,
+    "nombre": "Gestionar roles y permisos",
+    "requisito": "RF2",
+    "actores": [
+      "ADM"
+    ],
+    "precondiciones": "El administrador inició sesión con permisos de administración.",
+    "postcondiciones": "Los roles quedan definidos con sus permisos y se aplican a los usuarios que los tienen asignados.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Admin.tsx",
+      "gestion-residuos-dsu/backend/apps/accounts/views/role.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 5,
+    "nombre": "Gestionar sectores y facultades",
+    "requisito": "RF4",
+    "actores": [
+      "ADM",
+      "SUP"
+    ],
+    "precondiciones": "El usuario inició sesión con permisos sobre sectores.",
+    "postcondiciones": "La estructura de sectores queda actualizada.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Maestros.tsx",
+      "gestion-residuos-dsu/backend/apps/campus/views/sector.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 6,
+    "nombre": "Gestionar puntos de recolección",
+    "requisito": "RF5",
+    "actores": [
+      "ADM",
+      "SUP"
+    ],
+    "precondiciones": "Existe al menos un sector activo.",
+    "postcondiciones": "El punto queda registrado y visible en el mapa.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Maestros.tsx",
+      "gestion-residuos-dsu/backend/apps/campus/views/punto_recoleccion.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 7,
+    "nombre": "Gestionar contenedores",
+    "requisito": "RF7",
+    "actores": [
+      "ADM",
+      "SUP"
+    ],
+    "precondiciones": "Existe al menos un punto de recolección activo.",
+    "postcondiciones": "La capacidad instalada del punto queda actualizada.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Maestros.tsx",
+      "gestion-residuos-dsu/backend/apps/campus/views/contenedor.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 8,
+    "nombre": "Gestionar tipos de residuo y unidades de medida",
+    "requisito": "RF6",
+    "actores": [
+      "ADM"
+    ],
+    "precondiciones": "El usuario inició sesión con permisos sobre catálogos.",
+    "postcondiciones": "El catálogo queda disponible para el registro y la analítica.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Maestros.tsx",
+      "gestion-residuos-dsu/backend/apps/catalogs/views/tipo_residuo.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 9,
+    "nombre": "Registrar vaciado de residuos",
+    "requisito": "RF8",
+    "actores": [
+      "POL",
+      "SUP"
+    ],
+    "precondiciones": "El operario inició sesión y su jornada está abierta (en ejecución).",
+    "postcondiciones": "El vaciado queda vinculado al punto, sector, jornada y operario, disponible para el ETL.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Campo.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/services/visita.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 10,
+    "nombre": "Registrar incidencia operativa",
+    "requisito": "RF10",
+    "actores": [
+      "POL",
+      "SUP"
+    ],
+    "precondiciones": "El usuario inició sesión; si es operario, está dentro de una jornada en ejecución.",
+    "postcondiciones": "La incidencia queda registrada y pendiente de atención.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Campo.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/views/incidencia.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 11,
+    "nombre": "Atender incidencia",
+    "requisito": "RF10",
+    "actores": [
+      "SUP"
+    ],
+    "precondiciones": "Existe al menos una incidencia pendiente en un sector del supervisor.",
+    "postcondiciones": "La incidencia queda atendida y conserva su trazabilidad.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Jornadas.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/views/incidencia.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 12,
+    "nombre": "Consultar histórico de residuos",
+    "requisito": "RF9",
+    "actores": [
+      "SUP",
+      "ADM",
+      "CDD",
+      "POL"
+    ],
+    "precondiciones": "Existen registros de residuos almacenados.",
+    "postcondiciones": "El usuario obtiene el histórico solicitado.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Registros.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/views/registro_residuo.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 13,
+    "nombre": "Gestionar vehículos",
+    "requisito": "RF13",
+    "actores": [
+      "ADM",
+      "SUP"
+    ],
+    "precondiciones": "El usuario inició sesión con permisos sobre vehículos.",
+    "postcondiciones": "El vehículo queda disponible (o fuera de servicio) para asignar.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Maestros.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/views/vehiculo.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 14,
+    "nombre": "Planificar jornada y ruta de recolección",
+    "requisito": "RF11",
+    "actores": [
+      "SUP",
+      "ADM"
+    ],
+    "precondiciones": "Existen sectores y puntos activos.",
+    "postcondiciones": "La jornada queda planificada y confirmada con su ruta.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Jornadas.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/services/jornada.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 15,
+    "nombre": "Asignar personal y vehículos a la jornada",
+    "requisito": "RF13",
+    "actores": [
+      "SUP",
+      "ADM"
+    ],
+    "precondiciones": "Existe una jornada planificada y personal registrado.",
+    "postcondiciones": "La jornada queda con personal, vehículos y responsable.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Jornadas.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/services/jornada.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 16,
+    "nombre": "Ejecutar jornada de recolección",
+    "requisito": "RF12",
+    "actores": [
+      "SUP",
+      "POL"
+    ],
+    "precondiciones": "Existe una jornada confirmada para la fecha, con personal asignado.",
+    "postcondiciones": "Todos los puntos quedan visitados u omitidos con motivo.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Campo.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/services/jornada.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 17,
+    "nombre": "Omitir punto de la ruta",
+    "requisito": "RF12",
+    "actores": [
+      "POL",
+      "SUP"
+    ],
+    "precondiciones": "La jornada está en ejecución y el punto está pendiente.",
+    "postcondiciones": "El punto queda omitido con su motivo y cuenta en la desviación de la jornada.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Campo.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/services/visita.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 18,
+    "nombre": "Cerrar jornada de recolección",
+    "requisito": "RF12",
+    "actores": [
+      "SUP"
+    ],
+    "precondiciones": "La jornada está en ejecución y todos sus puntos fueron visitados u omitidos.",
+    "postcondiciones": "La jornada queda cerrada con su resumen consolidado.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Jornadas.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/services/jornada.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 19,
+    "nombre": "Consultar historial de recolecciones",
+    "requisito": "RF14",
+    "actores": [
+      "SUP",
+      "ADM",
+      "CDD",
+      "POL"
+    ],
+    "precondiciones": "Existen jornadas registradas.",
+    "postcondiciones": "El usuario obtiene el historial solicitado.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Jornadas.tsx",
+      "gestion-residuos-dsu/backend/apps/operations/views/jornada.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 20,
+    "nombre": "Ejecutar proceso ETL",
+    "requisito": "RF15",
+    "actores": [
+      "ADM"
+    ],
+    "precondiciones": "Existen registros transaccionales nuevos desde la última ejecución.",
+    "postcondiciones": "La tabla de hechos queda actualizada para indicadores, mapas y modelo.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Sistema.tsx",
+      "gestion-residuos-dsu/backend/apps/analytics/services/etl.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 21,
+    "nombre": "Visualizar tablero interactivo",
+    "requisito": "RF16, RF17",
+    "actores": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "precondiciones": "El usuario inició sesión con permisos de consulta analítica y el proceso ETL se ejecutó al menos una vez.",
+    "postcondiciones": "El usuario interpreta el comportamiento histórico de los residuos.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Tablero.tsx",
+      "gestion-residuos-dsu/backend/apps/analytics/services/indicadores.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 22,
+    "nombre": "Comparar periodos e identificar tendencias",
+    "requisito": "RF18",
+    "actores": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "precondiciones": "Existen hechos en ambos periodos.",
+    "postcondiciones": "La comparación y las tendencias quedan visibles en el tablero.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Tablero.tsx",
+      "gestion-residuos-dsu/backend/apps/analytics/views/analitica.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 23,
+    "nombre": "Visualizar puntos en el mapa interactivo",
+    "requisito": "RF19",
+    "actores": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "precondiciones": "Existen puntos con coordenadas válidas.",
+    "postcondiciones": "El usuario visualiza la distribución de los puntos.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/MapaCampus.tsx",
+      "gestion-residuos-dsu/backend/apps/analytics/views/analitica.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 24,
+    "nombre": "Generar mapa de calor",
+    "requisito": "RF20",
+    "actores": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "precondiciones": "Existen hechos (o predicciones vigentes, para la capa proyectada) en el alcance.",
+    "postcondiciones": "El mapa de calor queda dibujado con las zonas críticas.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/MapaCampus.tsx",
+      "gestion-residuos-dsu/backend/apps/analytics/views/analitica.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 25,
+    "nombre": "Filtrar mapa por periodo, sector y tipo de residuo",
+    "requisito": "RF21",
+    "actores": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "precondiciones": "El mapa está cargado.",
+    "postcondiciones": "El mapa refleja solo la información filtrada.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/MapaCampus.tsx",
+      "gestion-residuos-dsu/backend/apps/analytics/views/analitica.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 26,
+    "nombre": "Entrenar y evaluar el modelo Random Forest Regressor",
+    "requisito": "RF22",
+    "actores": [
+      "ADM"
+    ],
+    "precondiciones": "Existe el volumen mínimo de hechos depurados configurado.",
+    "postcondiciones": "Queda una nueva versión entrenada y evaluada.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Modelo.tsx",
+      "gestion-residuos-dsu/backend/apps/prediction/services/entrenamiento.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 27,
+    "nombre": "Publicar o revertir versión del modelo",
+    "requisito": "RF22",
+    "actores": [
+      "ADM"
+    ],
+    "precondiciones": "Existe al menos una versión entrenada que superó el umbral.",
+    "postcondiciones": "La versión elegida queda vigente para las predicciones.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Modelo.tsx",
+      "gestion-residuos-dsu/backend/apps/prediction/views/modelo_entrenado.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 28,
+    "nombre": "Predecir generación futura y emitir alertas",
+    "requisito": "RF23, RF24",
+    "actores": [
+      "SUP",
+      "CDD",
+      "ADM"
+    ],
+    "precondiciones": "Existe un modelo publicado vigente.",
+    "postcondiciones": "El lote de predicciones queda guardado y las recomendaciones, pendientes de resolución.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Prediccion.tsx",
+      "gestion-residuos-dsu/backend/apps/prediction/services/prediccion.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 29,
+    "nombre": "Consultar alertas y recomendaciones logísticas",
+    "requisito": "RF24",
+    "actores": [
+      "SUP",
+      "CDD",
+      "ADM"
+    ],
+    "precondiciones": "El usuario inició sesión con permiso para ver las recomendaciones.",
+    "postcondiciones": "El usuario conoce las alertas y recomendaciones vigentes.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Recomendaciones.tsx",
+      "gestion-residuos-dsu/backend/apps/prediction/views/recomendacion.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 30,
+    "nombre": "Atender recomendación logística",
+    "requisito": "RF24",
+    "actores": [
+      "SUP",
+      "ADM"
+    ],
+    "precondiciones": "Existen recomendaciones pendientes en sectores del supervisor.",
+    "postcondiciones": "La recomendación queda resuelta y, si se aceptó, incorporada.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Recomendaciones.tsx",
+      "gestion-residuos-dsu/backend/apps/prediction/services/recomendaciones.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 31,
+    "nombre": "Configurar periodos académicos y parámetros",
+    "requisito": "RF25",
+    "actores": [
+      "ADM"
+    ],
+    "precondiciones": "El administrador inició sesión con permisos de administración.",
+    "postcondiciones": "Los parámetros y periodos quedan aplicados a las siguientes ejecuciones.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Sistema.tsx",
+      "gestion-residuos-dsu/backend/apps/catalogs/views/parametros.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 32,
+    "nombre": "Consultar bitácora de auditoría",
+    "requisito": "RF26",
+    "actores": [
+      "ADM"
+    ],
+    "precondiciones": "El usuario tiene permiso de auditoría.",
+    "postcondiciones": "El usuario obtiene la traza solicitada.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Sistema.tsx",
+      "gestion-residuos-dsu/backend/apps/audit/views/audit_log.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 33,
+    "nombre": "Generar reporte",
+    "requisito": "RF27",
+    "actores": [
+      "ADM",
+      "SUP",
+      "CDD"
+    ],
+    "precondiciones": "Existe información para el periodo y filtros.",
+    "postcondiciones": "El reporte queda generado en pantalla.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Reportes.tsx",
+      "gestion-residuos-dsu/backend/apps/analytics/services/reportes.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  },
+  {
+    "cu": 34,
+    "nombre": "Exportar reporte a Excel o PDF",
+    "requisito": "RF27",
+    "actores": [
+      "ADM",
+      "SUP",
+      "CDD"
+    ],
+    "precondiciones": "El reporte está generado en pantalla.",
+    "postcondiciones": "El archivo queda descargado y la emisión registrada.",
+    "archivos_reales": [
+      "gestion-residuos-dsu/frontend/src/pages/Reportes.tsx",
+      "gestion-residuos-dsu/backend/apps/analytics/views/reportes.py"
+    ],
+    "limite": "Ancla de responsabilidad; las vistas de análisis no son extracción literal de métodos. Revisar permisos observados en informe GUI."
+  }
+]

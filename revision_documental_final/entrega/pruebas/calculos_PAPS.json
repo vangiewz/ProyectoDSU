@@ -1,0 +1,29 @@
+{
+  "puntos_funcion": [
+    {
+      "base": 592,
+      "factores": 48,
+      "resultado": 669.0
+    },
+    {
+      "base": 491,
+      "factores": 46,
+      "resultado": 545.0
+    },
+    {
+      "base": 394,
+      "factores": 44,
+      "resultado": 429.5
+    },
+    {
+      "base": 446,
+      "factores": 42,
+      "resultado": 477.2
+    }
+  ],
+  "VE_KLDC": 11.933333333333332,
+  "LDC_redondeado": 11933,
+  "objetos": 101,
+  "esfuerzo_COCOMO": 7.769230769230769,
+  "nota": "Se corrigió 11927 a 11933 para concordar con los valores mostrados de PERT. Los resultados redondeados de Putnam permanecen 5,64 meses y 2,99 personas-mes."
+}

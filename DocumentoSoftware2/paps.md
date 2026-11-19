@@ -140,7 +140,7 @@ PF = cuenta total × [0,65 + 0,01 × ΣFi] = 394 × [0,65 + 0,01 × 44] = 429,5 
 
 **Características del desarrollador.** Equipo de dos estudiantes de la FICCT con conocimientos de Django, React, PostgreSQL, modelado UML y aprendizaje automático con scikit-learn.
 
-**Métrica orientada a la función.** Los archivos lógicos corresponden a las 22 clases del modelo de datos; las interfaces externas son OpenStreetMap y Power BI.
+**Métrica orientada a la función.** Los 22 archivos lógicos son agrupaciones funcionales asumidas para estimar; no equivalen al recuento de modelos ORM o tablas; las interfaces externas son OpenStreetMap y Power BI.
 
 | Parámetro de medición | Cuenta | Peso medio | Total |
 | --- | --- | --- | --- |
@@ -220,7 +220,7 @@ Cada medición debe indicar fecha de corte, responsable, versión y evidencia. S
 
 ### 1.3.1. Dimensiones del proyecto
 
-**Tamaño.** El sistema comprende ocho módulos, 27 requisitos funcionales, 34 casos de uso, cuatro actores y 22 clases persistentes, con una interfaz web adaptable a escritorio y móvil.
+**Tamaño.** El sistema comprende ocho módulos, 27 requisitos funcionales, 34 casos de uso, cuatro actores y 23 modelos ORM inspeccionados (21 propios y dos de Django), con una interfaz web adaptable a escritorio y móvil.
 
 **Complejidad.** 
 La complejidad se concentra en la integración de operación, analítica y predicción. El control de acceso requiere comprobar permisos por rol y alcance; el ETL debe conservar consistencia entre datos transaccionales y analíticos; el componente predictivo requiere un histórico apropiado y evaluación del error. Estas dependencias orientan la descomposición del trabajo y la identificación de riesgos.
@@ -290,9 +290,9 @@ El resultado es coherente con las 7 personas-mes del presupuesto de referencia y
 
 ### 1.3.6. Ecuación del software
 
-Se aplican las expresiones simplificadas de Putnam y Myers (Pressman, 2010) con LDC = 11927 (valor esperado), parámetro de productividad P = 28.000 para aplicaciones de gestión y factor B = 0,16 para programas de 5 a 15 KLDC.
+Se aplican las expresiones simplificadas de Putnam y Myers (Pressman, 2010) con LDC = 11933 (valor esperado), parámetro de productividad P = 28.000 para aplicaciones de gestión y factor B = 0,16 para programas de 5 a 15 KLDC.
 
-t mín = 8,14 × (LDC / P)^0,43 = 8,14 × (11927 / 28.000)^0,43 = 5,64 meses = 0,47 años.
+t mín = 8,14 × (LDC / P)^0,43 = 8,14 × (11933 / 28.000)^0,43 = 5,64 meses = 0,47 años.
 
 E = 180 × B × t³ = 180 × 0,16 × 0,47³ = 2,99 personas-mes.
 
@@ -323,7 +323,7 @@ El equipo está integrado por Carlos Gabriel Lobo Gutiérrez y Leonardo Serrate 
 | Repositorio privado ProyectoDSU | Código, documentación y evidencias | Mantener control de versiones y accesos |
 | Enterprise Architect | Modelos UML | Conservar fuentes y exportaciones consistentes |
 | Entorno aislado de pruebas | Verificaciones sin afectar la base compartida | Identificar configuración y datos de cada ejecución |
-| Vercel y AWS EC2 con Docker | Arquitectura de despliegue | Verificar instalación y operación remotas |
+| Vercel y Azure VM con Docker | Arquitectura de despliegue | Verificar instalación y operación remotas |
 
 ### 1.4.1. Presupuesto de referencia
 
@@ -338,7 +338,11 @@ El presupuesto cubre un periodo de desarrollo de cuatro meses, valora funciones 
 | Logística | Movilización, impresión, material y refrigerio | 1.300,00 | 1,20 % |
 | Total inversión | | 108.268,30 | 100,00 % |
 
-La operación en producción se presupuesta por separado en Bs. 2.186,31 mensuales (Bs. 26.235,72 anuales): instancia AWS EC2, almacenamiento, Neon, Vercel y Power BI con las tarifas base consultadas el 16 de noviembre de 2026. El costo operativo no se suma a la inversión de desarrollo.
+La operación en producción se presupuesta por separado en Bs. 1.192,56 mensuales (Bs. 26.235,72 anuales): instancia Azure VM, almacenamiento, Neon, Vercel y Power BI con las tarifas base consultadas el 16 de noviembre de 2026. El costo operativo no se suma a la inversión de desarrollo.
+
+### 1.4.2. Conciliación de costos del cierre
+
+El presupuesto inicial valora desarrollo y herramientas como planificación, no gastos efectivamente pagados. La referencia operativa revisada es USD 74,19/mes de plataforma más USD 28 para dos usuarios Power BI Pro: USD 102,19, aproximadamente Bs 1 192,56 al cambio de planificación 11,67. La proyección empresarial y su capital de trabajo están en los capítulos 8 y 13; no se suman indistintamente al costo de desarrollar el piloto.
 
 ## 1.5. Planificación del tiempo
 
@@ -417,5 +421,4 @@ El estado técnico consultado el 16 de noviembre de 2026 informa implementación
 
 La solución utiliza Django y Django REST Framework para la API, React para la interfaz web y PostgreSQL gestionado por Neon para la persistencia. El componente predictivo se implementa con scikit-learn; el procesamiento de datos emplea herramientas del entorno Python. La visualización geográfica integra Leaflet y OpenStreetMap, y la analítica contempla tableros de la aplicación e integración con Power BI.
 
-Los modelos UML se mantienen en Enterprise Architect y el código se versiona con Git en el repositorio privado del proyecto. La arquitectura productiva separa el frontend en Vercel y el backend en AWS EC2 con Linux y Docker. Las versiones exactas y la configuración reproducible se documentarán en el inventario de infraestructura, evitando confundir una arquitectura con un despliegue ya comprobado.
-
+Los modelos UML se mantienen en Enterprise Architect y el código se versiona con Git en el repositorio privado del proyecto. La arquitectura productiva separa el frontend en Vercel y el backend en Azure VM con Linux y Docker. Las versiones exactas y la configuración reproducible se documentarán en el inventario de infraestructura, evitando confundir una arquitectura con un despliegue ya comprobado.

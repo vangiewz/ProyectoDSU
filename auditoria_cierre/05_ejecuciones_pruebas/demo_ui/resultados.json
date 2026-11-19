@@ -1,0 +1,203 @@
+{
+  "fecha_utc": "2026-11-19T03:53:18.140433+00:00",
+  "entorno": "Chrome headless contra PostgreSQL sintético y API/Vite locales",
+  "casos": [
+    {
+      "usuario": "admin",
+      "ruta": "usuarios",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "admin",
+      "ruta": "parametros",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "admin",
+      "ruta": "procesos",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "admin",
+      "ruta": "modelo",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "admin",
+      "ruta": "bitacora",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "supervisor",
+      "ruta": "jornadas",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "supervisor",
+      "ruta": "historico",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "supervisor",
+      "ruta": "incidencias",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "supervisor",
+      "ruta": "tablero",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "supervisor",
+      "ruta": "mapa",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "supervisor",
+      "ruta": "reportes",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "supervisor",
+      "ruta": "predicciones",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "supervisor",
+      "ruta": "recomendaciones",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "operario1",
+      "ruta": "campo",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "directivo",
+      "ruta": "tablero",
+      "resultado": "APROBADO"
+    },
+    {
+      "usuario": "directivo",
+      "ruta": "usuarios",
+      "resultado": "APROBADO"
+    }
+  ],
+  "flujo_integrado_api": [
+    {
+      "usuario": "admin",
+      "ruta_api": "usuarios/",
+      "http": 200
+    },
+    {
+      "usuario": "admin",
+      "ruta_api": "usuarios/",
+      "http": 201
+    },
+    {
+      "usuario": "admin",
+      "ruta_api": "sectores/",
+      "http": 201
+    },
+    {
+      "usuario": "admin",
+      "ruta_api": "puntos/",
+      "http": 201
+    },
+    {
+      "usuario": "admin",
+      "ruta_api": "puntos/",
+      "http": 201
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/",
+      "http": 201
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3053/asignar/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3053/confirmar/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3053/abrir/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "tipos-residuo/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3053/visitas/",
+      "http": 201
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3053/omitir/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3053/cerrar/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "etl/ejecutar/",
+      "http": 202
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "etl/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "etl/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "predicciones/",
+      "http": 201
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "reportes/generacion-sector/?formato=pdf",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "reportes/generacion-sector/?formato=xlsx",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/",
+      "http": 201
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3054/asignar/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3054/confirmar/",
+      "http": 200
+    },
+    {
+      "usuario": "supervisor",
+      "ruta_api": "jornadas/3054/abrir/",
+      "http": 200
+    }
+  ]
+}

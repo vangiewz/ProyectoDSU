@@ -86,6 +86,7 @@ STORAGES = {
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 REST_FRAMEWORK = {
+    "EXCEPTION_HANDLER": "config.exceptions.manejar_excepcion",
     "DEFAULT_AUTHENTICATION_CLASSES": ["rest_framework_simplejwt.authentication.JWTAuthentication"],
     "DEFAULT_PERMISSION_CLASSES": ["apps.accounts.permissions.RolePermission"],
     "DEFAULT_FILTER_BACKENDS": [

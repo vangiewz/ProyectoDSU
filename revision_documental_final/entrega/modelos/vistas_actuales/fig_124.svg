@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1492" viewBox="0 0 2700 1492"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="49" font-family="Arial" font-size="42" font-weight="700">CU18: interacción de diseño (nombres conceptuales)</text>
+<text x="127.5" y="107" font-family="Arial" font-size="40" font-weight="400">Supervisor de</text>
+<text x="141.5" y="150" font-family="Arial" font-size="40" font-weight="400">Recolección</text>
+<line x1="250.0" y1="230" x2="250.0" y2="1467" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="565.0078125" y="107" font-family="Arial" font-size="40" font-weight="400">JornadasView</text>
+<line x1="690.0" y1="230" x2="690.0" y2="1467" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="994.5" y="107" font-family="Arial" font-size="40" font-weight="400">JornadaControl</text>
+<text x="1108.0" y="150" font-family="Arial" font-size="40" font-weight="400">ler</text>
+<line x1="1130.0" y1="230" x2="1130.0" y2="1467" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1432.0" y="107" font-family="Arial" font-size="40" font-weight="400">JornadaService</text>
+<line x1="1570.0" y1="230" x2="1570.0" y2="1467" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1938.5" y="107" font-family="Arial" font-size="40" font-weight="400">Jornada</text>
+<line x1="2010.0" y1="230" x2="2010.0" y2="1467" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="2321.5" y="107" font-family="Arial" font-size="40" font-weight="400">BitacoraServic</text>
+<text x="2439.0" y="150" font-family="Arial" font-size="40" font-weight="400">e</text>
+<line x1="2450.0" y1="230" x2="2450.0" y2="1467" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<rect x="25" y="240" width="2650" height="60" fill="white"/>
+<text x="35" y="277" font-family="Arial" font-size="40" font-weight="400">1. verResumen(jornada)</text>
+<line x1="250.0" y1="323" x2="690.0" y2="323" stroke="#444" stroke-width="3"/>
+<line x1="690.0" y1="323" x2="668.3892695435358" y2="333.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="690.0" y1="323" x2="668.3892695435358" y2="312.56082718133047" stroke="#444" stroke-width="3"/>
+<rect x="25" y="352" width="2650" height="60" fill="white"/>
+<text x="35" y="389" font-family="Arial" font-size="40" font-weight="400">2. GET /jornadas/{id}/resumen/</text>
+<line x1="690.0" y1="435" x2="1130.0" y2="435" stroke="#444" stroke-width="3"/>
+<line x1="1130.0" y1="435" x2="1108.3892695435356" y2="445.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="1130.0" y1="435" x2="1108.3892695435356" y2="424.56082718133047" stroke="#444" stroke-width="3"/>
+<rect x="25" y="464" width="2650" height="60" fill="white"/>
+<text x="35" y="501" font-family="Arial" font-size="40" font-weight="400">3. resumen(jornada)</text>
+<line x1="1130.0" y1="547" x2="1570.0" y2="547" stroke="#444" stroke-width="3"/>
+<line x1="1570.0" y1="547" x2="1548.3892695435356" y2="557.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1570.0" y1="547" x2="1548.3892695435356" y2="536.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="576" width="2650" height="60" fill="white"/>
+<text x="35" y="613" font-family="Arial" font-size="40" font-weight="400">4. totales y cobertura</text>
+<line x1="1570.0" y1="659" x2="1130.0" y2="659" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1130.0" y1="659" x2="1151.6107304564644" y2="648.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="1130.0" y1="659" x2="1151.6107304564644" y2="669.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="25" y="688" width="2650" height="60" fill="white"/>
+<text x="35" y="725" font-family="Arial" font-size="40" font-weight="400">5. resumen</text>
+<line x1="1130.0" y1="771" x2="690.0" y2="771" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="690.0" y1="771" x2="711.6107304564642" y2="760.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="690.0" y1="771" x2="711.6107304564642" y2="781.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="25" y="800" width="2650" height="60" fill="white"/>
+<text x="35" y="837" font-family="Arial" font-size="40" font-weight="400">6. cerrar(observaciones)</text>
+<line x1="250.0" y1="883" x2="690.0" y2="883" stroke="#444" stroke-width="3"/>
+<line x1="690.0" y1="883" x2="668.3892695435358" y2="893.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="690.0" y1="883" x2="668.3892695435358" y2="872.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="912" width="2650" height="60" fill="white"/>
+<text x="35" y="949" font-family="Arial" font-size="40" font-weight="400">7. POST /jornadas/{id}/cerrar/</text>
+<line x1="690.0" y1="995" x2="1130.0" y2="995" stroke="#444" stroke-width="3"/>
+<line x1="1130.0" y1="995" x2="1108.3892695435356" y2="1005.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1130.0" y1="995" x2="1108.3892695435356" y2="984.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1024" width="2650" height="60" fill="white"/>
+<text x="35" y="1061" font-family="Arial" font-size="40" font-weight="400">8. cerrar(jornada, observaciones)</text>
+<line x1="1130.0" y1="1107" x2="1570.0" y2="1107" stroke="#444" stroke-width="3"/>
+<line x1="1570.0" y1="1107" x2="1548.3892695435356" y2="1117.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1570.0" y1="1107" x2="1548.3892695435356" y2="1096.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1136" width="2650" height="60" fill="white"/>
+<text x="35" y="1173" font-family="Arial" font-size="40" font-weight="400">9. setEstado(CERRADA)</text>
+<line x1="1570.0" y1="1219" x2="2010.0" y2="1219" stroke="#444" stroke-width="3"/>
+<line x1="2010.0" y1="1219" x2="1988.3892695435356" y2="1229.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="2010.0" y1="1219" x2="1988.3892695435356" y2="1208.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1248" width="2650" height="60" fill="white"/>
+<text x="35" y="1285" font-family="Arial" font-size="40" font-weight="400">10. registrar(CIERRE)</text>
+<line x1="1570.0" y1="1331" x2="2450.0" y2="1331" stroke="#444" stroke-width="3"/>
+<line x1="2450.0" y1="1331" x2="2428.3892695435356" y2="1341.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="2450.0" y1="1331" x2="2428.3892695435356" y2="1320.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1360" width="2650" height="60" fill="white"/>
+<text x="35" y="1397" font-family="Arial" font-size="40" font-weight="400">11. jornada CERRADA</text>
+<line x1="1130.0" y1="1443" x2="690.0" y2="1443" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="690.0" y1="1443" x2="711.6107304564642" y2="1432.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="690.0" y1="1443" x2="711.6107304564642" y2="1453.4391728186695" stroke="#444" stroke-width="3"/>
+</svg>

@@ -79,12 +79,13 @@ jobs:
       - name: Ensamblar y comprobar que no hay cambios sin generar
         working-directory: sitio-residata
         run: |
+          node probar_salud.cjs
           python construir.py
           git diff --exit-code -- '*.html' feed.xml
 
   desplegar-api:
     name: Desplegar API en Azure VM
-    needs: [backend]
+    needs: [backend, frontend, sitio]
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     runs-on: ubuntu-24.04
     environment: produccion
@@ -94,7 +95,8 @@ jobs:
         id: secretos
         env:
           HOST: ${{ secrets.AZURE_VM_HOST }}
-        run: echo "listo=$([ -n "$HOST" ] && echo si || echo no)" >> "$GITHUB_OUTPUT"
+          CLAVE: ${{ secrets.AZURE_VM_SSH_KEY }}
+        run: echo "listo=$([ -n "$HOST" ] && [ -n "$CLAVE" ] && echo si || echo no)" >> "$GITHUB_OUTPUT"
       - name: Copiar el backend y reconstruir los contenedores
         if: steps.secretos.outputs.listo == 'si'
         env:
@@ -109,5 +111,9 @@ jobs:
       - name: Verificar que la API responde
         if: steps.secretos.outputs.listo == 'si'
         run: |
-          code=$(curl -s -o /dev/null -w '%{http_code}' https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com/api/)
-          test "$code" = 401
+          for intento in $(seq 1 12); do
+            code=$(curl --max-time 10 -s -o /dev/null -w '%{http_code}' https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com/api/ || true)
+            [ "$code" = 401 ] && exit 0
+            sleep 5
+          done
+          exit 1

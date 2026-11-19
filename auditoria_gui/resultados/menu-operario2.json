@@ -1,0 +1,30 @@
+[
+  {
+    "ruta": "/campo",
+    "nombre": "Registro en campo"
+  },
+  {
+    "ruta": "/jornadas",
+    "nombre": "Jornadas"
+  },
+  {
+    "ruta": "/historico",
+    "nombre": "Histórico de residuos"
+  },
+  {
+    "ruta": "/incidencias",
+    "nombre": "Incidencias"
+  },
+  {
+    "ruta": "/sectores",
+    "nombre": "Sectores"
+  },
+  {
+    "ruta": "/puntos",
+    "nombre": "Puntos de recolección"
+  },
+  {
+    "ruta": "/tipos-residuo",
+    "nombre": "Tipos y unidades"
+  }
+]

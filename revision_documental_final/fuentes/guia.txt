@@ -1,0 +1,41 @@
+Pruebas en el software
+Caja blanca:
+-Hay Secuencial
+-Hay alternativa
+-Hay Iterativa
+Cuando hacemos pruebas lo que buscamos es encontrar errores
+Un analista problemas pueeden ser de que tenga un mal cliente que no da datos, resistencia al cambio, se contraresta teniendo habilidades de comunicacion y 
+habilidades blandas
+Que caracteristicas deberiamos de tener para ser un ingeniero en pruebas? Tiene que tener una mentalidad destructiva
+Una prueba alpha son despues de las que se paso las pruebas unitarias con el desarrollador, QA, cuando el software entra en un entorno de produccion controlada.
+Las pruebas betas es liberar el software pero con el rotulo de una version beta, simplemente para reportar errores.
+Existen 2 pruebas, caja blanca y caja negra
+La caja negra es no nos importa como lo hace sino que  haya resultado
+La caja blanca si nos interesa como se hace
+Complejidad Ciclometrica 
+Ingenieria Software 2
+Tuesday, November 17, 2026
+6:17 PM
+   
+Nueva sección 1 página 1
+   
+
+Sale 4 en lo de la pizarra
+Tambien hay matriz de conexiones
+En el proyecto sera en diagramas  de secuencia
+Supongamos una aplicacion web desarrollada hace 5 años, en sus 2 primeros años presentaron muchos errores entonces hicieron muchos cambios, pero en estos 3 
+años esta siendo usado de manera regular de manera intensa sin tocarse, pero resulta que despues aparece un error, en el codigo habia un error de que se olvidaron 
+colocar un punto y coma es posible? Esto debido al interprete
+Lo aplicaremos de la siguiente forma en el software
+Hay 13 puntos en el proyecto
+1 de ellos tiene que ver con las pruebas en el software, hay que hacer de 4 formas posibles, 1 de ellas es utilizando el proc eso de desarrollo unificado aplicado al 
+proyecto, la segunda es conseguir de cualquier libro de ingenieria de software un tema llamado listas de comprobacion es pare cido a chequear las cosas antes de 
+proceder conseguir una lista de comprobacion que son de manera generica y adaptandolos al proyecto, ocupar herramientas para el QA pruebas en el software o 
+servicios donde se entrega una url y entrega distintos defectos, la cuarta agarrar por lo menos 3 casos de uso o historias de usuario que esos tengan una de mayor o 
+igual a 3 y  representar en un diagrama de secuencia y a partir de eso aplicar 
+Maximo hasta el dia jueves 8 de la mañana publicar en un pdf los 13 puntos que habiamos comentado del proyecto final, cada punto separado con una caratula en un 
+solo pdf, traerlo impreso completo el documento en la noche y traer 2 caratulas, en anexos se pone un conjunto qr, cada uno h ace referencia a un material adicional 
+elaborado
+   
+Nueva sección 1 página 2
+   

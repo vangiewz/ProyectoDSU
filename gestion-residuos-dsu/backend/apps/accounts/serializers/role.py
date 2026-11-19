@@ -1,7 +1,7 @@
 from django.contrib.auth.models import Group, Permission
 from rest_framework import serializers
 
-APPS_DEL_SISTEMA = ["accounts", "auth", "audit", "catalogs", "campus", "operations", "analytics"]
+APPS_DEL_SISTEMA = ["accounts", "auth", "audit", "catalogs", "campus", "operations", "analytics", "prediction"]
 
 
 class PermissionSerializer(serializers.ModelSerializer):

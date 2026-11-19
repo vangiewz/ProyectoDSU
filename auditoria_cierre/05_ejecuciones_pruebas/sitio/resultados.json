@@ -1,0 +1,102 @@
+{
+  "fecha_utc": "2026-11-19T03:50:56.712414+00:00",
+  "entorno": "Chrome headless, publicación local; sin enviar formularios",
+  "casos": [
+    {
+      "ruta": "/",
+      "ancho": 1440,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "planes.html",
+      "ancho": 1440,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "contacto.html",
+      "ancho": 1440,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "soporte.html",
+      "ancho": 1440,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "terminos.html",
+      "ancho": 1440,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "privacidad.html",
+      "ancho": 1440,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "marketing/",
+      "ancho": 1440,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "pitch/",
+      "ancho": 1440,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "/",
+      "ancho": 390,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "planes.html",
+      "ancho": 390,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "contacto.html",
+      "ancho": 390,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "soporte.html",
+      "ancho": 390,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "terminos.html",
+      "ancho": 390,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "privacidad.html",
+      "ancho": 390,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "marketing/",
+      "ancho": 390,
+      "http": 200,
+      "sin_desborde": true
+    },
+    {
+      "ruta": "pitch/",
+      "ancho": 390,
+      "http": 200,
+      "sin_desborde": true
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { ApiError } from './api'
 
@@ -7,24 +7,28 @@ export function useCarga<T>(cargar: () => Promise<T>, deps: unknown[]) {
   const [data, setData] = useState<T | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [cargando, setCargando] = useState(true)
+  const ultimaCarga = useRef(0)
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const fn = useCallback(cargar, deps)
 
   const recargar = useCallback(async () => {
+    const carga = ++ultimaCarga.current
     setCargando(true)
     setError(null)
     try {
-      setData(await fn())
+      const nuevo = await fn()
+      if (carga === ultimaCarga.current) setData(nuevo)
     } catch (e) {
-      setError(e instanceof Error ? e.message : String(e))
+      if (carga === ultimaCarga.current) setError(e instanceof Error ? e.message : String(e))
     } finally {
-      setCargando(false)
+      if (carga === ultimaCarga.current) setCargando(false)
     }
   }, [fn])
 
   useEffect(() => {
     void recargar()
+    return () => { ultimaCarga.current += 1 }
   }, [recargar])
 
   return { data, error, cargando, recargar, setData }

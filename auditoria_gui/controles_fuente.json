@@ -1,0 +1,276 @@
+[
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\App.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\main.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\Crud.tsx",
+    "campos": [],
+    "aria": [
+      "Buscar"
+    ],
+    "botones": [
+      "\n          Guardar\n        ",
+      "\n          Cancelar\n        "
+    ],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\EjeJornada.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\Estimado.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\FiltrosAnalisis.tsx",
+    "campos": [
+      "Desde",
+      "Hasta",
+      "Periodo académico",
+      "Sector",
+      "Punto",
+      "Tipo de residuo"
+    ],
+    "aria": [
+      "Restablecer filtros"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\Graficos.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\Mapa.tsx",
+    "campos": [],
+    "aria": [
+      "Latitud",
+      "Longitud"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\Resguardo.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\Sello.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\Shell.tsx",
+    "campos": [],
+    "aria": [
+      "Cerrar menú",
+      "Principal",
+      "Abrir menú",
+      "Menú"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\components\\ui.tsx",
+    "campos": [],
+    "aria": [
+      "Paginación",
+      "Página anterior",
+      "Página siguiente"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\lib\\auth.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Admin.tsx",
+    "campos": [
+      "Nombre del rol",
+      "Operación",
+      "Módulo",
+      "Desde",
+      "Hasta"
+    ],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Campo.tsx",
+    "campos": [
+      "Gravedad",
+      "Qué pasó"
+    ],
+    "aria": [
+      "Observaciones",
+      "Motivo",
+      "Recorrido"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Jornadas.tsx",
+    "campos": [
+      "Estado",
+      "Sector",
+      "Desde",
+      "Hasta",
+      "Fecha",
+      "Turno",
+      "Sector",
+      "Indicaciones",
+      "Responsable de la jornada",
+      "Observaciones finales"
+    ],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Login.tsx",
+    "campos": [
+      "Usuario",
+      "Contraseña"
+    ],
+    "aria": [],
+    "botones": [
+      "\n            Ingresar\n          "
+    ],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Maestros.tsx",
+    "campos": [],
+    "aria": [
+      "Catálogos"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\MapaCampus.tsx",
+    "campos": [],
+    "aria": [
+      "Capa del mapa",
+      "Generación mostrada"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Modelo.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Prediccion.tsx",
+    "campos": [
+      "Horizonte (días)",
+      "Sector",
+      "Punto",
+      "Predicción consultada"
+    ],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Recomendaciones.tsx",
+    "campos": [],
+    "aria": [
+      "Recomendaciones mostradas"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Registros.tsx",
+    "campos": [
+      "Sector",
+      "Tipo de residuo",
+      "Desde",
+      "Hasta",
+      "Punto",
+      "Punto",
+      "Tipo",
+      "Gravedad",
+      "Descripción",
+      "Estado",
+      "Gravedad"
+    ],
+    "aria": [],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Reportes.tsx",
+    "campos": [],
+    "aria": [
+      "Tipo de reporte"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Sistema.tsx",
+    "campos": [],
+    "aria": [],
+    "botones": [
+      "\n              Guardar parámetros\n            "
+    ],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  },
+  {
+    "archivo": "gestion-residuos-dsu\\frontend\\src\\pages\\Tablero.tsx",
+    "campos": [
+      "Desde",
+      "Hasta",
+      "Desde",
+      "Hasta",
+      "Comparar por"
+    ],
+    "aria": [
+      "Tendencia creciente sostenida",
+      "Vistas del tablero"
+    ],
+    "botones": [],
+    "estado": "INVENTARIO_ESTATICO_PENDIENTE_CONTRASTE_DOM"
+  }
+]

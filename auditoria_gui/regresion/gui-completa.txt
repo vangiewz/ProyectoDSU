@@ -1,0 +1,4 @@
+........................................................................ [ 97%]
+..                                                                       [100%]
+- generated xml file: C:\Users\usuario\Downloads\dsu\ProyectoDSU\auditoria_cierre\05_ejecuciones_pruebas\gui-completa.xml -
+74 passed in 236.50s (0:03:56)

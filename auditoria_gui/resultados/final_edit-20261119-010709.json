@@ -1,0 +1,16 @@
+[
+  {
+    "id": "J-crear-FICCT",
+    "titulo": "Planificación y cambio de sector con ruta persistida",
+    "rol": "supervisor",
+    "cu": [
+      14
+    ],
+    "inicio_utc": "2026-11-19T05:07:12.928333+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Jornada confirmada editada en dos sectores; ruta anterior vaciada, nueva ruta persistida; se conserva estado confirmado",
+    "evidencia": "capturas\\final_edit-20261119-010709-J-crear-FICCT.png",
+    "segundos": 3.48
+  }
+]

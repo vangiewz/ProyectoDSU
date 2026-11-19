@@ -19,6 +19,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from apps.audit.models import AuditLog
 from apps.audit.services import registrar
 from apps.catalogs.models import ParametrosSistema
+from config.concurrencia import bloquear_proceso
 
 from ..models import ModeloEntrenado
 from . import datos
@@ -63,6 +64,7 @@ def validar_hiperparametros(data) -> dict:
 def iniciar(usuario=None, hiperparametros=None) -> ModeloEntrenado | None:
     """Registra una versión EN_CURSO, o None si ya hay un entrenamiento activo."""
     with transaction.atomic():
+        bloquear_proceso(2)
         activos = ModeloEntrenado.objects.select_for_update().filter(estado=E.EN_CURSO)
         activos.filter(inicio__lt=timezone.now() - VENCIMIENTO_EN_CURSO).update(
             estado=E.FALLIDO, fin=timezone.now(), mensaje="Entrenamiento abandonado (tiempo de espera agotado)."

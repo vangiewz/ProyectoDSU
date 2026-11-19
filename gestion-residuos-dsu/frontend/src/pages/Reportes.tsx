@@ -71,13 +71,13 @@ export function Reportes() {
         detalle="Cada reporte sale con el encabezado institucional, la fecha de emisión y su usuario, y su emisión queda en la bitácora."
         acciones={
           <>
-            <Boton variante="secundario" cargando={ocupado === 'xlsx-descargar'} onClick={() => void obtener('xlsx', 'descargar')} disabled={!data}>
+            <Boton variante="secundario" cargando={ocupado === 'xlsx-descargar'} onClick={() => void obtener('xlsx', 'descargar')} disabled={!data || cargando}>
               <FileSpreadsheet className="size-4" aria-hidden /> Excel
             </Boton>
-            <Boton variante="secundario" cargando={ocupado === 'pdf-descargar'} onClick={() => void obtener('pdf', 'descargar')} disabled={!data}>
+            <Boton variante="secundario" cargando={ocupado === 'pdf-descargar'} onClick={() => void obtener('pdf', 'descargar')} disabled={!data || cargando}>
               <FileText className="size-4" aria-hidden /> PDF
             </Boton>
-            <Boton cargando={ocupado === 'pdf-imprimir'} onClick={() => void obtener('pdf', 'imprimir')} disabled={!data}>
+            <Boton cargando={ocupado === 'pdf-imprimir'} onClick={() => void obtener('pdf', 'imprimir')} disabled={!data || cargando}>
               <Printer className="size-4" aria-hidden /> Imprimir
             </Boton>
           </>
@@ -112,8 +112,8 @@ export function Reportes() {
         </div>
       )}
       {error && <Aviso tono="error">{error}</Aviso>}
-      {cargando && !data && <Cargando texto="Preparando el reporte…" />}
-      {data && (
+      {cargando && <Cargando texto="Preparando el reporte…" />}
+      {data && !cargando && (
         <section className="overflow-x-auto rounded-hoja border border-filete bg-hoja">
           <header className="flex items-baseline justify-between gap-3 border-b border-filete px-4 py-3">
             <h2 className="font-bold">{data.titulo}</h2>

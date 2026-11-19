@@ -1,0 +1,1072 @@
+[
+  [
+    225,
+    "Heading 1",
+    "CAPÍTULO 1: Plan de administración del proyecto de software"
+  ],
+  [
+    235,
+    "Heading 2",
+    "1.1. Perfil del proyecto"
+  ],
+  [
+    236,
+    "Heading 3",
+    "1.1.1. Introducción"
+  ],
+  [
+    239,
+    "Heading 3",
+    "1.1.2. Problema y necesidad"
+  ],
+  [
+    242,
+    "Heading 3",
+    "1.1.3. Objetivo general del producto"
+  ],
+  [
+    244,
+    "Heading 3",
+    "1.1.4. Objetivos de administración del proyecto"
+  ],
+  [
+    251,
+    "Heading 3",
+    "1.1.5. Alcance funcional"
+  ],
+  [
+    254,
+    "Heading 3",
+    "1.1.6. Usuarios y beneficiarios"
+  ],
+  [
+    256,
+    "Heading 3",
+    "1.1.7. Límites y dependencias"
+  ],
+  [
+    259,
+    "Heading 3",
+    "1.1.8. Productos del proyecto"
+  ],
+  [
+    261,
+    "Heading 2",
+    "1.2. Métricas"
+  ],
+  [
+    263,
+    "Heading 3",
+    "1.2.1. Sensoneo"
+  ],
+  [
+    273,
+    "Heading 3",
+    "1.2.2. Ecube Labs"
+  ],
+  [
+    283,
+    "Heading 3",
+    "1.2.3. Bigbelly"
+  ],
+  [
+    293,
+    "Heading 3",
+    "1.2.4. Sistema DSU"
+  ],
+  [
+    302,
+    "Heading 3",
+    "1.2.5. Factores de ajuste y resumen comparativo"
+  ],
+  [
+    306,
+    "Heading 3",
+    "1.2.6. Indicadores de seguimiento"
+  ],
+  [
+    309,
+    "Heading 2",
+    "1.3. Estimaciones"
+  ],
+  [
+    310,
+    "Heading 3",
+    "1.3.1. Dimensiones del proyecto"
+  ],
+  [
+    315,
+    "Heading 3",
+    "1.3.2. Ámbito del proyecto"
+  ],
+  [
+    321,
+    "Heading 3",
+    "1.3.3. Procedimiento de estimación"
+  ],
+  [
+    324,
+    "Heading 3",
+    "1.3.4. Valor esperado"
+  ],
+  [
+    328,
+    "Heading 3",
+    "1.3.5. COCOMO II"
+  ],
+  [
+    333,
+    "Heading 3",
+    "1.3.6. Ecuación del software"
+  ],
+  [
+    338,
+    "Heading 3",
+    "1.3.7. Estimación por actividades"
+  ],
+  [
+    344,
+    "Heading 2",
+    "1.4. Recursos"
+  ],
+  [
+    347,
+    "Heading 3",
+    "1.4.1. Presupuesto de referencia"
+  ],
+  [
+    351,
+    "Heading 3",
+    "1.4.2. Conciliación de costos del cierre"
+  ],
+  [
+    353,
+    "Heading 2",
+    "1.5. Planificación del tiempo"
+  ],
+  [
+    354,
+    "Heading 3",
+    "1.5.1. Organización del trabajo con PUDS"
+  ],
+  [
+    357,
+    "Heading 3",
+    "1.5.2. Secuencia de preparación de la entrega"
+  ],
+  [
+    359,
+    "Heading 3",
+    "1.5.3. Diagrama de Gantt"
+  ],
+  [
+    364,
+    "Heading 2",
+    "1.6. Gestión de riesgos"
+  ],
+  [
+    368,
+    "Heading 3",
+    "1.6.1. Escala y valoración inicial"
+  ],
+  [
+    372,
+    "Heading 2",
+    "1.7. Organización interna"
+  ],
+  [
+    378,
+    "Heading 2",
+    "1.8. Seguimiento y control"
+  ],
+  [
+    382,
+    "Heading 2",
+    "1.9. Tecnologías de desarrollo"
+  ],
+  [
+    388,
+    "Heading 1",
+    "CAPÍTULO 2: Modelo de desarrollo de software mediante PUDS"
+  ],
+  [
+    398,
+    "Heading 2",
+    "2.1. Organización del proceso"
+  ],
+  [
+    401,
+    "Heading 2",
+    "2.2. Fase de Inicio"
+  ],
+  [
+    405,
+    "Heading 2",
+    "2.3. Fase de Elaboración"
+  ],
+  [
+    406,
+    "Heading 3",
+    "2.3.1. Captura y organización de requisitos"
+  ],
+  [
+    408,
+    "Heading 3",
+    "2.3.2. Arquitectura y paquetes"
+  ],
+  [
+    414,
+    "Heading 3",
+    "2.3.3. Decisiones y riesgos arquitectónicos"
+  ],
+  [
+    417,
+    "Heading 2",
+    "2.4. Fase de Construcción"
+  ],
+  [
+    421,
+    "Heading 2",
+    "2.5. Fase de Transición"
+  ],
+  [
+    424,
+    "Heading 2",
+    "2.6. Trazabilidad del producto"
+  ],
+  [
+    427,
+    "Heading 2",
+    "2.7. Ejemplo de aplicación del proceso a una jornada"
+  ],
+  [
+    431,
+    "Heading 2",
+    "3.8. Dominio y actividades del sistema"
+  ],
+  [
+    483,
+    "Heading 2",
+    "3.9. Actores y modelo de casos de uso"
+  ],
+  [
+    665,
+    "Heading 2",
+    "3.10. Organización y relaciones de paquetes"
+  ],
+  [
+    757,
+    "Heading 2",
+    "3.11. Realización de los casos de uso en el análisis"
+  ],
+  [
+    929,
+    "Heading 2",
+    "3.12. Arquitectura lógica y clases de diseño"
+  ],
+  [
+    981,
+    "Heading 2",
+    "3.13. Diseño lógico de la base de datos"
+  ],
+  [
+    1013,
+    "Heading 2",
+    "3.14. Interacciones de diseño mediante secuencias"
+  ],
+  [
+    1055,
+    "Heading 2",
+    "3.15. Componentes de los subsistemas"
+  ],
+  [
+    1100,
+    "Heading 1",
+    "CAPÍTULO 3: Manual de calidad (SQAP)"
+  ],
+  [
+    1110,
+    "Heading 2",
+    "3.1. Introducción"
+  ],
+  [
+    1115,
+    "Heading 3",
+    "3.1.1. Objetivo general"
+  ],
+  [
+    1117,
+    "Heading 3",
+    "3.1.2. Objetivos específicos"
+  ],
+  [
+    1124,
+    "Heading 2",
+    "3.2. Misión"
+  ],
+  [
+    1126,
+    "Heading 2",
+    "3.3. Visión"
+  ],
+  [
+    1128,
+    "Heading 2",
+    "3.4. Valores"
+  ],
+  [
+    1130,
+    "Heading 3",
+    "3.4.1. Lema"
+  ],
+  [
+    1132,
+    "Heading 2",
+    "3.5. Propósito"
+  ],
+  [
+    1134,
+    "Heading 3",
+    "3.5.1. Descripción"
+  ],
+  [
+    1144,
+    "Heading 3",
+    "3.5.2. Política de calidad"
+  ],
+  [
+    1146,
+    "Heading 3",
+    "3.5.3. Alcance"
+  ],
+  [
+    1148,
+    "Heading 3",
+    "3.5.4. Criterio de liberación"
+  ],
+  [
+    1150,
+    "Heading 2",
+    "3.6. Documentos de referencia"
+  ],
+  [
+    1154,
+    "Heading 2",
+    "3.7. Gestión"
+  ],
+  [
+    1155,
+    "Heading 3",
+    "3.7.1. Organización"
+  ],
+  [
+    1157,
+    "Heading 4",
+    "3.7.1.1. Organización del grupo de desarrollo"
+  ],
+  [
+    1159,
+    "Heading 4",
+    "3.7.1.2. Organización del consultor o especialista en SQA"
+  ],
+  [
+    1161,
+    "Heading 4",
+    "3.7.1.3. Organización del cliente"
+  ],
+  [
+    1163,
+    "Heading 4",
+    "3.7.1.4. Organización del grupo SQA"
+  ],
+  [
+    1165,
+    "Heading 3",
+    "3.7.2. Tareas y actividades"
+  ],
+  [
+    1171,
+    "Heading 3",
+    "3.7.3. Roles y responsabilidades"
+  ],
+  [
+    1176,
+    "Heading 4",
+    "3.7.3.1. Responsabilidades del grupo de desarrollo"
+  ],
+  [
+    1182,
+    "Heading 4",
+    "3.7.3.2. Responsabilidades del cliente"
+  ],
+  [
+    1187,
+    "Heading 4",
+    "3.7.3.3. Responsabilidades del grupo SQA"
+  ],
+  [
+    1193,
+    "Heading 2",
+    "3.8. Documentación"
+  ],
+  [
+    1194,
+    "Heading 3",
+    "3.8.1. Propósito"
+  ],
+  [
+    1196,
+    "Heading 3",
+    "3.8.2. Documentación mínima requerida"
+  ],
+  [
+    1199,
+    "Heading 4",
+    "3.8.2.1. Especificación de requisitos de software (ERS)"
+  ],
+  [
+    1203,
+    "Heading 4",
+    "3.8.2.2. Descripción del diseño del software (SDD)"
+  ],
+  [
+    1210,
+    "Heading 3",
+    "3.8.3. Plan de verificación y validación"
+  ],
+  [
+    1215,
+    "Heading 3",
+    "3.8.4. Documentación de usuario"
+  ],
+  [
+    1219,
+    "Heading 2",
+    "3.9. Estándares, prácticas, convenciones y métricas"
+  ],
+  [
+    1220,
+    "Heading 3",
+    "3.9.1. Propósito"
+  ],
+  [
+    1222,
+    "Heading 3",
+    "3.9.2. Contenido"
+  ],
+  [
+    1227,
+    "Heading 3",
+    "3.9.3. Estándar de codificación"
+  ],
+  [
+    1235,
+    "Heading 3",
+    "3.9.4. Estándar de comentarios"
+  ],
+  [
+    1240,
+    "Heading 3",
+    "3.9.5. Responsables de verificar el cumplimiento"
+  ],
+  [
+    1245,
+    "Heading 2",
+    "3.10. Revisiones de software"
+  ],
+  [
+    1246,
+    "Heading 3",
+    "3.10.1. Propósito"
+  ],
+  [
+    1248,
+    "Heading 3",
+    "3.10.2. Requisitos mínimos"
+  ],
+  [
+    1254,
+    "Heading 3",
+    "3.10.3. Otras revisiones y auditorías"
+  ],
+  [
+    1257,
+    "Heading 3",
+    "3.10.4. Tipos de revisión"
+  ],
+  [
+    1260,
+    "Heading 3",
+    "3.10.5. Agenda de revisiones"
+  ],
+  [
+    1263,
+    "Heading 2",
+    "3.11. Prueba"
+  ],
+  [
+    1268,
+    "Heading 3",
+    "3.11.1. Niveles y tipos de prueba"
+  ],
+  [
+    1270,
+    "Heading 3",
+    "3.11.2. Criterios de entrada y salida"
+  ],
+  [
+    1272,
+    "Heading 2",
+    "3.12. Gestión de configuración"
+  ],
+  [
+    1280,
+    "Heading 3",
+    "3.12.1. Elementos de configuración"
+  ],
+  [
+    1282,
+    "Heading 3",
+    "3.12.2. Líneas base"
+  ],
+  [
+    1284,
+    "Heading 2",
+    "3.13. Notificación de problemas y acción correctiva"
+  ],
+  [
+    1285,
+    "Heading 3",
+    "3.13.1. Propósito"
+  ],
+  [
+    1287,
+    "Heading 3",
+    "3.13.2. Flujo de trabajo"
+  ],
+  [
+    1290,
+    "Heading 3",
+    "3.13.3. Clasificación de severidad"
+  ],
+  [
+    1293,
+    "Heading 3",
+    "3.13.4. Métricas de seguimiento"
+  ],
+  [
+    1295,
+    "Heading 2",
+    "3.14. Herramientas, técnicas y metodologías"
+  ],
+  [
+    1298,
+    "Heading 2",
+    "3.15. Control de código"
+  ],
+  [
+    1307,
+    "Heading 2",
+    "3.16. Control de medios"
+  ],
+  [
+    1308,
+    "Heading 3",
+    "3.16.1. Propósito"
+  ],
+  [
+    1310,
+    "Heading 3",
+    "3.16.2. Matriz de control de medios"
+  ],
+  [
+    1312,
+    "Heading 3",
+    "3.16.3. Roles y responsabilidades"
+  ],
+  [
+    1315,
+    "Heading 2",
+    "3.17. Control de proveedores"
+  ],
+  [
+    1318,
+    "Heading 2",
+    "3.18. Recopilación, mantenimiento y retención de registros"
+  ],
+  [
+    1323,
+    "Heading 2",
+    "3.19. Capacitación"
+  ],
+  [
+    1326,
+    "Heading 2",
+    "3.20. Gestión de riesgos"
+  ],
+  [
+    1331,
+    "Heading 2",
+    "3.21. Glosario"
+  ],
+  [
+    1333,
+    "Heading 2",
+    "3.22. Procedimiento e historial de cambios del SQAP"
+  ],
+  [
+    1336,
+    "Heading 2",
+    "3.23. Anexos"
+  ],
+  [
+    1341,
+    "Heading 1",
+    "CAPÍTULO 4: Herramientas CASE y productividad"
+  ],
+  [
+    1351,
+    "Heading 2",
+    "4.1. Modelado con Enterprise Architect"
+  ],
+  [
+    1360,
+    "Heading 2",
+    "4.2. Desarrollo y control de versiones"
+  ],
+  [
+    1365,
+    "Heading 2",
+    "4.3. Herramientas de pruebas y evidencia"
+  ],
+  [
+    1382,
+    "Heading 2",
+    "4.4. Evaluación de productividad"
+  ],
+  [
+    1389,
+    "Heading 1",
+    "CAPÍTULO 5: Aspectos legales del proyecto"
+  ],
+  [
+    1399,
+    "Heading 2",
+    "5.1. Alcance del análisis y contexto legal boliviano"
+  ],
+  [
+    1401,
+    "Heading 2",
+    "5.2. Constitución de una Sociedad de Responsabilidad Limitada (S.R.L.)"
+  ],
+  [
+    1403,
+    "Heading 3",
+    "5.2.1. Marco legal y denominación social"
+  ],
+  [
+    1406,
+    "Heading 3",
+    "5.2.2. Procedimiento constitutivo paso a paso"
+  ],
+  [
+    1436,
+    "Heading 2",
+    "5.3. Protección de la Propiedad Intelectual en el SENAPI"
+  ],
+  [
+    1438,
+    "Heading 3",
+    "5.3.1. Registro de Marca Comercial y Signo Distintivo"
+  ],
+  [
+    1452,
+    "Heading 3",
+    "5.3.2. Registro de Derecho de Autor de Soporte Lógico (Software)"
+  ],
+  [
+    1472,
+    "Heading 2",
+    "5.4. Normativa TIC, firma digital y comercio electrónico"
+  ],
+  [
+    1476,
+    "Heading 2",
+    "5.5. Términos de uso, confidencialidad y gobernanza de datos"
+  ],
+  [
+    1488,
+    "Heading 1",
+    "CAPÍTULO 6: Infraestructura para la producción de software"
+  ],
+  [
+    1498,
+    "Heading 2",
+    "6.1. Topología y entornos"
+  ],
+  [
+    1501,
+    "Heading 2",
+    "6.2. Herramientas y utilización real"
+  ],
+  [
+    1503,
+    "Heading 2",
+    "6.3. Accesos, respaldo y control de cambios"
+  ],
+  [
+    1509,
+    "Heading 1",
+    "CAPÍTULO 7: Sitio web corporativo"
+  ],
+  [
+    1519,
+    "Heading 2",
+    "7.1. Empresa y estado de publicación"
+  ],
+  [
+    1521,
+    "Heading 2",
+    "7.2. Contenidos y canales"
+  ],
+  [
+    1524,
+    "Heading 2",
+    "7.3. Verificación y límites"
+  ],
+  [
+    1539,
+    "Heading 1",
+    "CAPÍTULO 8: Estudio de mercado y adopción"
+  ],
+  [
+    1549,
+    "Heading 2",
+    "8.1. Diagnóstico del contexto de gestión de residuos en Santa Cruz y Bolivia"
+  ],
+  [
+    1554,
+    "Heading 2",
+    "8.2. Soluciones comerciales de referencia internacional"
+  ],
+  [
+    1560,
+    "Heading 2",
+    "8.3. Matriz comparativa entre soluciones comerciales y el Sistema DSU"
+  ],
+  [
+    1567,
+    "Heading 2",
+    "8.4. Propuesta de valor diferencial de DSU-UAGRM"
+  ],
+  [
+    1573,
+    "Heading 2",
+    "8.5. Estrategia de adopción y gestión del cambio en la UAGRM"
+  ],
+  [
+    1579,
+    "Heading 2",
+    "8.6. Dimensionamiento y monetización propuesta"
+  ],
+  [
+    1583,
+    "Heading 2",
+    "8.7. Proyección financiera y sensibilidad"
+  ],
+  [
+    1598,
+    "Heading 1",
+    "CAPÍTULO 9: Pruebas en el software"
+  ],
+  [
+    1608,
+    "Heading 2",
+    "9.1. Objetivo y flujo de prueba del PUDS"
+  ],
+  [
+    1611,
+    "Heading 2",
+    "9.2. Reproducción y regresión del cierre"
+  ],
+  [
+    1617,
+    "Heading 2",
+    "9.3. Caja negra y casos de uso"
+  ],
+  [
+    1620,
+    "Heading 2",
+    "9.4. Caja blanca sobre diagramas de secuencia"
+  ],
+  [
+    1622,
+    "Heading 3",
+    "9.4.1. CU9 Registrar vaciado de residuos"
+  ],
+  [
+    1636,
+    "Heading 3",
+    "9.4.2. CU15 Asignar personal y vehículos a la jornada"
+  ],
+  [
+    1650,
+    "Heading 3",
+    "9.4.3. CU28 Predecir generación futura y emitir alertas"
+  ],
+  [
+    1664,
+    "Heading 2",
+    "9.5. Listas de comprobación adaptadas"
+  ],
+  [
+    1667,
+    "Heading 2",
+    "9.6. Herramientas por URL, móviles y seguridad"
+  ],
+  [
+    1670,
+    "Heading 2",
+    "9.7. Rendimiento, alfa y aceptación beta"
+  ],
+  [
+    1676,
+    "Heading 1",
+    "CAPÍTULO 10: Marketing y difusión del proyecto"
+  ],
+  [
+    1686,
+    "Heading 2",
+    "10.1. Objetivo y propuesta de valor"
+  ],
+  [
+    1691,
+    "Heading 2",
+    "10.2. Segmentación y Buyer-Personas institucionales"
+  ],
+  [
+    1694,
+    "Heading 2",
+    "10.3. Canales, formatos y fases de la campaña de difusión"
+  ],
+  [
+    1700,
+    "Heading 3",
+    "10.3.1. Afiche de la campaña"
+  ],
+  [
+    1705,
+    "Heading 2",
+    "10.4. Recursos e indicadores clave de rendimiento (KPIs)"
+  ],
+  [
+    1708,
+    "Heading 2",
+    "10.5. Material digital y estado de difusión"
+  ],
+  [
+    1719,
+    "Heading 1",
+    "CAPÍTULO 11: Puesta en marcha y operación"
+  ],
+  [
+    1729,
+    "Heading 2",
+    "11.1. Arquitectura comprobada y comparación económica"
+  ],
+  [
+    1739,
+    "Heading 2",
+    "11.2. Instalación, despliegue y reversión"
+  ],
+  [
+    1742,
+    "Heading 2",
+    "11.3. Disponibilidad y monitoreo"
+  ],
+  [
+    1745,
+    "Heading 2",
+    "11.4. Continuidad, respaldo y restauración"
+  ],
+  [
+    1748,
+    "Heading 2",
+    "11.5. Licencia y propuesta de condiciones"
+  ],
+  [
+    1754,
+    "Heading 1",
+    "CAPÍTULO 12: Software como producto"
+  ],
+  [
+    1764,
+    "Heading 2",
+    "12.1. Composición de la entrega"
+  ],
+  [
+    1766,
+    "Heading 2",
+    "12.2. Manual de usuario por rol"
+  ],
+  [
+    1768,
+    "Heading 3",
+    "12.2.1. Acceso al sistema"
+  ],
+  [
+    1773,
+    "Heading 3",
+    "12.2.2. Operación en campo"
+  ],
+  [
+    1784,
+    "Heading 3",
+    "12.2.3. Supervisión de jornadas"
+  ],
+  [
+    1801,
+    "Heading 3",
+    "12.2.4. Consulta directiva"
+  ],
+  [
+    1815,
+    "Heading 3",
+    "12.2.5. Administración"
+  ],
+  [
+    1835,
+    "Heading 2",
+    "12.3. Material de apoyo"
+  ],
+  [
+    1840,
+    "Heading 2",
+    "12.4. Soporte y mantenimiento"
+  ],
+  [
+    1842,
+    "Heading 2",
+    "12.5. Lista de entrega"
+  ],
+  [
+    1847,
+    "Heading 1",
+    "CAPÍTULO 13: Financiamiento"
+  ],
+  [
+    1857,
+    "Heading 2",
+    "13.1. Necesidad de capital y uso de fondos"
+  ],
+  [
+    1860,
+    "Heading 2",
+    "13.2. Fuentes y condiciones por verificar"
+  ],
+  [
+    1862,
+    "Heading 2",
+    "13.3. Inversionista y valoración ilustrativa"
+  ],
+  [
+    1864,
+    "Heading 2",
+    "13.4. Pitch y riesgos"
+  ],
+  [
+    1869,
+    "Heading 1",
+    "Bibliografía"
+  ],
+  [
+    1897,
+    "Heading 1",
+    "Anexos"
+  ],
+  [
+    1898,
+    "Heading 2",
+    "A. Registro de revisión técnica"
+  ],
+  [
+    1903,
+    "Heading 2",
+    "B. Registro de problema y acción correctiva"
+  ],
+  [
+    1906,
+    "Heading 2",
+    "C. Registro de validación con usuarios"
+  ],
+  [
+    1911,
+    "Heading 2",
+    "D. Localización de evidencias"
+  ],
+  [
+    1913,
+    "Heading 2",
+    "E. Fichas de pruebas ejecutadas"
+  ],
+  [
+    1915,
+    "Heading 3",
+    "CP-10. Asignación sin responsable. CU15. Asignar personal y vehículos a la jornada."
+  ],
+  [
+    1917,
+    "Heading 3",
+    "CP-15. Cierre con punto pendiente. CU18. Cerrar jornada de recolección."
+  ],
+  [
+    1919,
+    "Heading 3",
+    "CP-21. Comparación con periodos superpuestos. CU22. Comparar periodos e identificar tendencias."
+  ],
+  [
+    1921,
+    "Heading 2",
+    "F. Códigos QR del proyecto"
+  ],
+  [
+    1938,
+    "Heading 2",
+    "G. Carátula firmada de la propuesta"
+  ],
+  [
+    1942,
+    "Heading 2",
+    "H. Carta de solicitud recibida por la DSU"
+  ],
+  [
+    1947,
+    "Heading 2",
+    "I. Estándares de codificación"
+  ],
+  [
+    1949,
+    "Heading 3",
+    "I.1. Estándares generales"
+  ],
+  [
+    1951,
+    "Heading 3",
+    "I.2. Estándares del backend (Python y Django)"
+  ],
+  [
+    1953,
+    "Heading 3",
+    "I.3. Estándares del frontend (TypeScript y React)"
+  ],
+  [
+    1955,
+    "Heading 3",
+    "I.4. Estándares de la base de datos"
+  ],
+  [
+    1957,
+    "Heading 3",
+    "I.5. Estándares de la API"
+  ]
+]

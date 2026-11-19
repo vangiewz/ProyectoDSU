@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="8.787" timestamp="2026-11-18T23:43:06.862122-04:00" hostname="DESKTOP-BQCTAU4"><testcase classname="apps.analytics.tests.test_analitica" name="test_etl_convierte_cantidades_sin_error_binario" time="5.073"><failure message="AssertionError: assert Decimal('0.003') == Decimal('0.004')&#10; +  where Decimal('0.003') = &lt;HechoResiduo: 1 2026-09-01 0.003&gt;.cantidad_base&#10; +    where &lt;HechoResiduo: 1 2026-09-01 0.003&gt; = get(registro=&lt;RegistroResiduo: P1 0.005 qa&gt;)&#10; +      where get = &lt;django.db.models.manager.Manager object at 0x000002582BC52ED0&gt;.get&#10; +        where &lt;django.db.models.manager.Manager object at 0x000002582BC52ED0&gt; = HechoResiduo.objects&#10; +  and   Decimal('0.004') = Decimal('0.004')">datos = {'jornada': &lt;Jornada: 2026-09-01 Mañana - S1&gt;, 'p1': &lt;PuntoRecoleccion: P1 - Punto 1&gt;, 'p2': &lt;PuntoRecoleccion: P2 - Punto 2&gt;}
+
+    def test_etl_convierte_cantidades_sin_error_binario(datos):
+        original = RegistroResiduo.objects.filter(punto=datos["p1"]).first()
+        unidad = UnidadMedida.objects.create(nombre="Unidad de peso QA", simbolo="qa", magnitud="PESO",
+                                            factor_conversion=Decimal("0.7"))
+        nuevo = RegistroResiduo.objects.create(
+            jornada=original.jornada, punto=original.punto, tipo_residuo=original.tipo_residuo,
+            unidad=unidad, cantidad=Decimal("0.005"), fecha_hora=original.fecha_hora,
+            registrado_por=original.registrado_por,
+        )
+        correr_etl()
+&gt;       assert HechoResiduo.objects.get(registro=nuevo).cantidad_base == Decimal("0.004")
+E       AssertionError: assert Decimal('0.003') == Decimal('0.004')
+E        +  where Decimal('0.003') = &lt;HechoResiduo: 1 2026-09-01 0.003&gt;.cantidad_base
+E        +    where &lt;HechoResiduo: 1 2026-09-01 0.003&gt; = get(registro=&lt;RegistroResiduo: P1 0.005 qa&gt;)
+E        +      where get = &lt;django.db.models.manager.Manager object at 0x000002582BC52ED0&gt;.get
+E        +        where &lt;django.db.models.manager.Manager object at 0x000002582BC52ED0&gt; = HechoResiduo.objects
+E        +  and   Decimal('0.004') = Decimal('0.004')
+
+apps\analytics\tests\test_analitica.py:89: AssertionError</failure></testcase></testsuite></testsuites>

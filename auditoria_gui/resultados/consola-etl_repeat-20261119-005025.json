@@ -1,0 +1,14 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ETL-2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/procesos\",\"texto\":\"Ejecutar ahora\",\"tipo\":\"BUTTON\"}"
+  }
+]

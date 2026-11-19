@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ML-entrenar-1",
+    "titulo": "Entrenamiento y evaluación desde UI",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:50:55.151171+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Entrenamiento 1 completado, métricas visibles y versión vigente persiste",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-entrenar-1.png",
+    "segundos": 5.31
+  },
+  {
+    "id": "ML-entrenar-2",
+    "titulo": "Entrenamiento y evaluación desde UI",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:51:00.461444+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Entrenamiento 2 completado, métricas visibles y versión vigente persiste",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-entrenar-2.png",
+    "segundos": 7.34
+  },
+  {
+    "id": "ML-revertir",
+    "titulo": "Publicar versión anterior del modelo",
+    "rol": "administrativo",
+    "cu": [
+      27
+    ],
+    "inicio_utc": "2026-11-19T04:51:07.810558+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Reversión a v3 persistida",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-revertir.png",
+    "segundos": 1.12
+  },
+  {
+    "id": "ML-predecir",
+    "titulo": "Inferencia y alertas con incertidumbre",
+    "rol": "supervisor",
+    "cu": [
+      28
+    ],
+    "inicio_utc": "2026-11-19T04:51:11.114464+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Lote de siete días solicitado por UI; versión y margen, persistencia al recargar",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-predecir.png",
+    "segundos": 1.92
+  },
+  {
+    "id": "ML-resolver",
+    "titulo": "Consulta y resolución de recomendaciones",
+    "rol": "supervisor",
+    "cu": [
+      29,
+      30
+    ],
+    "inicio_utc": "2026-11-19T04:51:13.039715+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aceptar/descarte con motivo obligatorio; decisiones persistidas y visibles en Todas",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-resolver.png",
+    "segundos": 1.5
+  }
+]

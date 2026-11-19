@@ -1,0 +1,215 @@
+{
+  "RF1": [
+    "Paquete Gestión de Usuarios y Control de Acceso. El paquete Gestión de Usuarios y Control de Acceso agrupa la autenticación de los usuarios, el cierre de sesión y la administración de cuentas, roles y permisos. Determina quién ingresa al sistema y qué operaciones puede realizar cada rol, por lo que es utilizado por todos los demás paquetes. Comprende los requisitos RF1–RF3.",
+    "RF1",
+    "Comprobar el escenario «Operativo sin acceso a usuarios» de RF1.",
+    "Comprobar el escenario «Contraseña insuficiente» de RF1.",
+    "Comprobar el escenario «Creación válida de usuario» de RF1."
+  ],
+  "RF3": [
+    "Paquete Gestión de Usuarios y Control de Acceso. El paquete Gestión de Usuarios y Control de Acceso agrupa la autenticación de los usuarios, el cierre de sesión y la administración de cuentas, roles y permisos. Determina quién ingresa al sistema y qué operaciones puede realizar cada rol, por lo que es utilizado por todos los demás paquetes. Comprende los requisitos RF1–RF3.",
+    "RF3",
+    "Comprobar el escenario «Credenciales válidas» de RF3.",
+    "Comprobar el escenario «Credenciales incorrectas» de RF3.",
+    "Comprobar el escenario «Cierre de sesión» de RF3.",
+    "Comprobar el escenario «Refresh revocado» de RF3."
+  ],
+  "RF4": [
+    "Paquete Gestión Topológica y Puntos de Recolección. El paquete Gestión Topológica y Puntos de Recolección digitaliza la estructura del campus: sectores y facultades, puntos de recolección georreferenciados, contenedores instalados y el catálogo de tipos de residuo y unidades de medida. Es la base territorial y de clasificación que usan la operación, la analítica y la predicción. Comprende los requisitos RF4–RF7.",
+    "RF4"
+  ],
+  "RF7": [
+    "Paquete Gestión Topológica y Puntos de Recolección. El paquete Gestión Topológica y Puntos de Recolección digitaliza la estructura del campus: sectores y facultades, puntos de recolección georreferenciados, contenedores instalados y el catálogo de tipos de residuo y unidades de medida. Es la base territorial y de clasificación que usan la operación, la analítica y la predicción. Comprende los requisitos RF4–RF7.",
+    "RF7"
+  ],
+  "RF8": [
+    "Paquete Gestión de Residuos. El paquete Gestión de Residuos contiene el núcleo transaccional: el registro en campo del vaciado de cada punto, el registro y la atención de incidencias operativas y la consulta del histórico de residuos. Comprende los requisitos RF8–RF10.",
+    "RF8",
+    "Comprobar el escenario «Cantidad cero» de RF8.",
+    "Comprobar el escenario «Cantidad superior a capacidad permitida» de RF8.",
+    "Comprobar el escenario «Vaciado válido» de RF8."
+  ],
+  "RF10": [
+    "Paquete Gestión de Residuos. El paquete Gestión de Residuos contiene el núcleo transaccional: el registro en campo del vaciado de cada punto, el registro y la atención de incidencias operativas y la consulta del histórico de residuos. Comprende los requisitos RF8–RF10.",
+    "RF10"
+  ],
+  "RF11": [
+    "Paquete Gestión de Recolecciones y Logística. El paquete Gestión de Recolecciones y Logística organiza el trabajo de recolección: vehículos, planificación de jornadas y rutas, asignación de personal y vehículos, ejecución punto por punto, cierre con resumen y consulta del historial. Comprende los requisitos RF11–RF14.",
+    "RF11",
+    "Comprobar el escenario «Planificación válida» de RF11.",
+    "Comprobar el escenario «Duplicación de jornada» de RF11.",
+    "Comprobar el escenario «Sector ajeno al supervisor» de RF11."
+  ],
+  "RF14": [
+    "Paquete Gestión de Recolecciones y Logística. El paquete Gestión de Recolecciones y Logística organiza el trabajo de recolección: vehículos, planificación de jornadas y rutas, asignación de personal y vehículos, ejecución punto por punto, cierre con resumen y consulta del historial. Comprende los requisitos RF11–RF14.",
+    "RF14"
+  ],
+  "RF15": [
+    "Paquete Inteligencia de Negocios y Analítica Visual. El paquete Inteligencia de Negocios y Analítica Visual consolida y depura la información mediante el proceso ETL, calcula los indicadores clave, los presenta en tableros interactivos (incluido Power BI) y compara periodos para identificar tendencias. Comprende los requisitos RF15–RF18.",
+    "RF15"
+  ],
+  "RF18": [
+    "Paquete Inteligencia de Negocios y Analítica Visual. El paquete Inteligencia de Negocios y Analítica Visual consolida y depura la información mediante el proceso ETL, calcula los indicadores clave, los presenta en tableros interactivos (incluido Power BI) y compara periodos para identificar tendencias. Comprende los requisitos RF15–RF18.",
+    "RF18",
+    "Comprobar el escenario «Comparación con periodos superpuestos» de RF18.",
+    "Comprobar el escenario «Comparación de periodos válidos» de RF18."
+  ],
+  "RF19": [
+    "Paquete Componente Cartográfico y Análisis Espacial. El paquete Componente Cartográfico y Análisis Espacial representa los puntos de recolección sobre el mapa del campus, genera el mapa de calor de generación observada o proyectada y aplica los filtros de periodo, sector y tipo de residuo. Comprende los requisitos RF19–RF21.",
+    "RF19"
+  ],
+  "RF21": [
+    "Paquete Componente Cartográfico y Análisis Espacial. El paquete Componente Cartográfico y Análisis Espacial representa los puntos de recolección sobre el mapa del campus, genera el mapa de calor de generación observada o proyectada y aplica los filtros de periodo, sector y tipo de residuo. Comprende los requisitos RF19–RF21.",
+    "RF21"
+  ],
+  "RF22": [
+    "Paquete Predicción mediante Random Forest Regressor. El paquete Predicción mediante Random Forest Regressor entrena, evalúa, publica y revierte el modelo Random Forest Regressor, genera las predicciones de generación futura con su margen de error y emite y resuelve las alertas y recomendaciones logísticas. Comprende los requisitos RF22–RF24.",
+    "RF22"
+  ],
+  "RF24": [
+    "Paquete Predicción mediante Random Forest Regressor. El paquete Predicción mediante Random Forest Regressor entrena, evalúa, publica y revierte el modelo Random Forest Regressor, genera las predicciones de generación futura con su margen de error y emite y resuelve las alertas y recomendaciones logísticas. Comprende los requisitos RF22–RF24.",
+    "RF24",
+    "RF23, RF24",
+    "Comprobar el escenario «Predicción sin modelo vigente» de RF23, RF24.",
+    "Comprobar el escenario «Horizonte de predicción excesivo» de RF23, RF24.",
+    "Comprobar el escenario «Predicción con modelo publicado» de RF23, RF24."
+  ],
+  "RF25": [
+    "Paquete Administración de la Plataforma y Auditoría. El paquete Administración de la Plataforma y Auditoría configura los periodos académicos y los parámetros globales, registra y consulta la bitácora de auditoría inalterable y genera, exporta e imprime los reportes. Es transversal: la bitácora la invocan las operaciones críticas de todos los paquetes. Comprende los requisitos RF25–RF27.",
+    "RF25"
+  ],
+  "RF27": [
+    "Paquete Administración de la Plataforma y Auditoría. El paquete Administración de la Plataforma y Auditoría configura los periodos académicos y los parámetros globales, registra y consulta la bitácora de auditoría inalterable y genera, exporta e imprime los reportes. Es transversal: la bitácora la invocan las operaciones críticas de todos los paquetes. Comprende los requisitos RF25–RF27.",
+    "RF27",
+    "Comprobar el escenario «Reporte PDF» de RF27.",
+    "Comprobar el escenario «Reporte Excel» de RF27."
+  ],
+  "RNF11": [
+    "El diseño lógico representa las veintiocho tablas del sistema con sus llaves primarias «PK», sus llaves foráneas «FK» y sus tipos de dato, y las relaciones con su cardinalidad. Las relaciones de composición marcan dependencia de existencia: el registro de detalle solo existe como parte de su cabecera y no se traslada a otra (los puntos de la ruta respecto de su jornada, las predicciones respecto de su lote y cada tabla intermedia respecto de la tabla dueña de la relación de muchos a muchos). La composición no implica que el sistema borre esos datos: no existe eliminación física de registros (las bajas son lógicas, RNF11 y RBD20), porque el histórico es la base del análisis y de la auditoría. Los puntos de la ruta solo se reemplazan cuando se modifica la planificación de la jornada, y un lote de predicción no puede eliminarse mientras tenga predicciones (restricción PROTECT de su llave foránea). Se presenta la vista general, que muestra solo los nombres de las tablas y sus relaciones, y el detalle con las columnas por grupo de tablas.",
+    "RNF11"
+  ],
+  "RF13": [
+    "          \"\"\"RF13: asigna personal y vehículos validando superposición en el",
+    "RF13",
+    "Comprobar el escenario «Asignación sin responsable» de RF13.",
+    "Comprobar el escenario «Asignación válida» de RF13."
+  ],
+  "RF2": [
+    "RF2"
+  ],
+  "RF5": [
+    "RF5"
+  ],
+  "RF6": [
+    "RF6"
+  ],
+  "RF9": [
+    "RF9"
+  ],
+  "RF12": [
+    "RF12",
+    "Comprobar el escenario «Cierre con punto pendiente» de RF12.",
+    "Comprobar el escenario «Omisión con motivo» de RF12.",
+    "Comprobar el escenario «Cierre tras atender u omitir los puntos» de RF12."
+  ],
+  "RF16": [
+    "RF16",
+    "RF16, RF17",
+    "Comprobar el escenario «Indicadores sin ETL previo» de RF16, RF17.",
+    "Comprobar el escenario «Indicadores tras el ETL» de RF16, RF17."
+  ],
+  "RF17": [
+    "RF17",
+    "RF16, RF17",
+    "Comprobar el escenario «Indicadores sin ETL previo» de RF16, RF17.",
+    "Comprobar el escenario «Indicadores tras el ETL» de RF16, RF17."
+  ],
+  "RF20": [
+    "RF20"
+  ],
+  "RF23": [
+    "RF23",
+    "RF23, RF24",
+    "Comprobar el escenario «Predicción sin modelo vigente» de RF23, RF24.",
+    "Comprobar el escenario «Horizonte de predicción excesivo» de RF23, RF24.",
+    "Comprobar el escenario «Predicción con modelo publicado» de RF23, RF24."
+  ],
+  "RF26": [
+    "RF26"
+  ],
+  "RNF1": [
+    "RNF1"
+  ],
+  "RNF2": [
+    "RNF2"
+  ],
+  "RNF3": [
+    "RNF3"
+  ],
+  "RNF4": [
+    "RNF4"
+  ],
+  "RNF5": [
+    "RNF5"
+  ],
+  "RNF6": [
+    "RNF6"
+  ],
+  "RNF7": [
+    "RNF7"
+  ],
+  "RNF8": [
+    "RNF8"
+  ],
+  "RNF9": [
+    "RNF9"
+  ],
+  "RNF10": [
+    "RNF10"
+  ],
+  "RNF12": [
+    "RNF12"
+  ],
+  "RNF13": [
+    "RNF13"
+  ],
+  "RNF14": [
+    "RNF14"
+  ],
+  "RNF15": [
+    "RNF15"
+  ],
+  "RNF16": [
+    "RNF16"
+  ],
+  "RNF17": [
+    "RNF17"
+  ],
+  "RNF18": [
+    "RNF18"
+  ],
+  "RNF19": [
+    "RNF19"
+  ],
+  "RNF20": [
+    "RNF20"
+  ],
+  "RNF21": [
+    "RNF21"
+  ],
+  "RNF22": [
+    "RNF22"
+  ],
+  "RNF23": [
+    "RNF23"
+  ],
+  "RNF24": [
+    "RNF24"
+  ],
+  "RNF25": [
+    "RNF25"
+  ],
+  "RNF26": [
+    "RNF26"
+  ]
+}

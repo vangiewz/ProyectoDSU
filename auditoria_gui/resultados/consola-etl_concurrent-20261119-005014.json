@@ -1,0 +1,38 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ETL-concurrencia-duplicados",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/procesos\",\"texto\":\"Ejecutar ahora\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ETL-concurrencia-duplicados",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/procesos\",\"texto\":\"Ejecutar ahora\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 409,
+    "ruta": "/api/etl/ejecutar/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ETL-concurrencia-duplicados",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 409 (Conflict)"
+  }
+]

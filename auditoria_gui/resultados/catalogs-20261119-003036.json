@@ -1,0 +1,198 @@
+[
+  {
+    "id": "CRUD-sector",
+    "titulo": "Formulario y ciclo CRUD sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:30:38.686200+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003036-CRUD-sector.png",
+    "segundos": 5.31
+  },
+  {
+    "id": "CRUD-unidad",
+    "titulo": "Formulario y ciclo CRUD unidad",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:30:43.995779+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003036-CRUD-unidad.png",
+    "segundos": 5.8
+  },
+  {
+    "id": "CRUD-tipo",
+    "titulo": "Formulario y ciclo CRUD tipo",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:30:49.797325+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003036-CRUD-tipo.png",
+    "segundos": 5.98
+  },
+  {
+    "id": "CRUD-vehiculo",
+    "titulo": "Formulario y ciclo CRUD vehiculo",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:30:55.768864+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003036-CRUD-vehiculo.png",
+    "segundos": 4.48
+  },
+  {
+    "id": "CRUD-periodo",
+    "titulo": "Formulario y ciclo CRUD periodo",
+    "rol": "administrativo",
+    "cu": [
+      31
+    ],
+    "inicio_utc": "2026-11-19T04:31:00.272324+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_text(\"Cambios guardados\").first\n",
+    "evidencia": "capturas\\catalogs-20261119-003036-CRUD-periodo.png",
+    "segundos": 7.09
+  },
+  {
+    "id": "CRUD-punto",
+    "titulo": "Formulario y ciclo CRUD punto",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:31:07.369728+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003036-CRUD-punto.png",
+    "segundos": 6.09
+  },
+  {
+    "id": "CRUD-contenedor",
+    "titulo": "Formulario y ciclo CRUD contenedor",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:31:13.466937+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator.click: Timeout 10000ms exceeded.\nCall log:\nwaiting for locator(\"tbody tr\").filter(has_text=\"CQA003036\").first.get_by_role(\"button\", name=\"Desactivar\", exact=True)\n",
+    "evidencia": "capturas\\catalogs-20261119-003036-CRUD-contenedor.png",
+    "segundos": 13.97
+  },
+  {
+    "id": "CRUD-usuario",
+    "titulo": "Formulario y ciclo CRUD usuario",
+    "rol": "administrativo",
+    "cu": [
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:31:27.432854+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003036-CRUD-usuario.png",
+    "segundos": 6.19
+  },
+  {
+    "id": "DUP-sector",
+    "titulo": "Duplicado rechazado sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:31:33.635009+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003036-DUP-sector.png",
+    "segundos": 1.5
+  },
+  {
+    "id": "DUP-unidad",
+    "titulo": "Duplicado rechazado unidad",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:31:35.134365+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003036-DUP-unidad.png",
+    "segundos": 1.83
+  },
+  {
+    "id": "DUP-tipo",
+    "titulo": "Duplicado rechazado tipo",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:31:36.970712+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003036-DUP-tipo.png",
+    "segundos": 1.98
+  },
+  {
+    "id": "DUP-vehiculo",
+    "titulo": "Duplicado rechazado vehiculo",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:31:38.951915+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003036-DUP-vehiculo.png",
+    "segundos": 1.39
+  },
+  {
+    "id": "DUP-punto",
+    "titulo": "Duplicado rechazado punto",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:31:40.346061+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003036-DUP-punto.png",
+    "segundos": 1.97
+  },
+  {
+    "id": "DUP-usuario",
+    "titulo": "Duplicado rechazado usuario",
+    "rol": "administrativo",
+    "cu": [
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:31:42.322117+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003036-DUP-usuario.png",
+    "segundos": 1.72
+  }
+]

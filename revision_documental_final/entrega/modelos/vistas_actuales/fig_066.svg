@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1730" viewBox="0 0 2700 1730"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">Predicción mediante Random Forest Regressor</text>
+<rect x="55" y="220" width="750" height="330" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="294.0" y="408.0" font-family="Arial" font-size="58" font-weight="700">Paquete 7</text>
+<ellipse cx="1810" cy="325" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1251.5" y="315.0" font-family="Arial" font-size="56" font-weight="400">CU26. Entrenar y evaluar el modelo Random</text>
+<text x="1593.5" y="377.0" font-family="Arial" font-size="56" font-weight="400">Forest Regressor</text>
+<line x1="805" y1="385" x2="1020" y2="325" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="325" x2="1001.9906632337124" y2="340.86391468832466" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="325" x2="996.3785854767328" y2="320.75396939248134" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="585" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1261.0" y="606.0" font-family="Arial" font-size="56" font-weight="400">CU27. Publicar o revertir versión del modelo</text>
+<line x1="805" y1="385" x2="1020" y2="585" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="585" x2="997.0667479947623" y2="577.9242701815106" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="585" x2="1011.2870715207574" y2="562.6374223910658" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="845" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1294.5" y="835.0" font-family="Arial" font-size="56" font-weight="400">CU28. Predecir generación futura y emitir</text>
+<text x="1726.0" y="897.0" font-family="Arial" font-size="56" font-weight="400">alertas</text>
+<line x1="805" y1="385" x2="1020" y2="845" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="845" x2="1001.3923134635611" y2="829.8423616034149" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="845" x2="1020.3066626049416" y2="821.0019592873349" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="1105" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1261.0" y="1095.0" font-family="Arial" font-size="56" font-weight="400">CU29. Consultar alertas y recomendaciones</text>
+<text x="1693.5" y="1157.0" font-family="Arial" font-size="56" font-weight="400">logísticas</text>
+<line x1="805" y1="385" x2="1020" y2="1105" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="1105" x2="1003.8138630233248" y2="1087.2797017583703" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="1105" x2="1023.8193223667975" y2="1081.3058493155277" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="1365" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1315.5234375" y="1386.0" font-family="Arial" font-size="56" font-weight="400">CU30. Atender recomendación logística</text>
+<line x1="805" y1="385" x2="1020" y2="1365" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="1365" x2="1005.1723391351254" y2="1346.1283155686551" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="1365" x2="1025.5656764453277" y2="1341.6542670771312" stroke="#444" stroke-width="3"/>
+<text x="55" y="1702" font-family="Arial" font-size="56" font-weight="400">«trace»: pertenencia y trazabilidad del paquete a sus casos de uso.</text>
+</svg>

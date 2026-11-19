@@ -1,3 +1,7 @@
+> **Entrega documental del 19/11/2026:** versión canónica en [Documento_Software_2_DSU_Entrega.pdf](../revision_documental_final/entrega/Documento_Software_2_DSU_Entrega.pdf) y su Word editable. Conserva carátulas y completa los trece puntos, con 239 figuras y 93 tablas. Consultar Informe_validacion_final.md y Matriz_revision_13_puntos.md de esa carpeta; hay guías de defensa, fuentes, EA implementado y evidencias. Modelo financiero vigente: cargas 17,21 %, VAN Bs 117027, TIR operativa 41,8 %, déficit Bs 164540, propuesta de capital Bs 200000. Los apuntes siguientes son históricos y pueden contener cifras o pendientes superados. No ejecutar ensamblar.py ni generador/build.py sobre el cierre manual. El usuario autorizó el push al repositorio privado el 19/11; se mantiene la publicación de servicios a cargo del titular.
+
+> **Cierre local del 18/11/2026:** consultar `../auditoria_cierre/09_auditoria_final.md` y `04_bitacora_cambios.md`. Se corrigieron defectos de integridad, concurrencia y precisión ETL; regresión nueva en PostgreSQL aislado; documento integrado de 13 capítulos. La publicación queda a cargo del titular por instrucción explícita. No se hicieron commits, push ni escrituras en Neon. El contenido histórico siguiente conserva su fecha y puede describir pendientes ya resueltos localmente.
+
 # Traspaso de sesión — Software 2 (13 puntos) · 18/11/2026, ~21:15
 
 Leer esto primero al retomar. Complementa `PROGRESO.md` (historia anterior) y `CONTEXTO.md`.

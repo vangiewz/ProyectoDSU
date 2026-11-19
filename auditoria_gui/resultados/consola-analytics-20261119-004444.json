@@ -1,0 +1,170 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ETL-1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/procesos\",\"texto\":\"Ejecutar ahora\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ETL-2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/procesos\",\"texto\":\"Ejecutar ahora\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "ETL-2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "A-comparar",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Comparar periodos\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "A-powerbi",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Power BI\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "A-mapa",
+    "tipo": "warning",
+    "mensaje": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "rol": "directivo",
+    "caso": "A-mapa",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Marcadores\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "A-mapa",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Mapa de calor\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "A-mapa",
+    "tipo": "warning",
+    "mensaje": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-por-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Generación por sectorKilos y litros por sector, con registros y puntos.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-por-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-por-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-por-tipo-de-residuo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Generación por tipo de residuoTotales por tipo en el periodo.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-por-tipo-de-residuo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-por-tipo-de-residuo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Cumplimiento-de-jornadas",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Cumplimiento de jornadasPlanificado frente a ejecutado, con cobertura.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Cumplimiento-de-jornadas",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Cumplimiento-de-jornadas",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Incidencias-registradas",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Incidencias registradasTipo, gravedad, estado y acción adoptada.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Incidencias-registradas",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Incidencias-registradas",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Indicadores-del-periodo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Indicadores del periodoResumen gerencial de indicadores.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Indicadores-del-periodo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Indicadores-del-periodo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-proyectada",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Generación proyectadaPredicción vigente por punto, con su margen de error.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-proyectada",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "REP-Generaci-n-proyectada",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  }
+]

@@ -49,7 +49,7 @@ La evidencia técnica disponible comprende implementación de los requisitos fun
 
 ## 2.5. Fase de Transición
 
-La Transición prepara el uso y la entrega: instalación, verificación del entorno, manuales, capacitación y aceptación. La arquitectura utiliza Vercel para el frontend, AWS EC2 con Linux y Docker para la API y Neon para datos.
+La Transición prepara el uso y la entrega: instalación, verificación del entorno, manuales, capacitación y aceptación. La arquitectura utiliza Vercel para el frontend, Azure VM con Linux y Docker para la API y Neon para datos.
 
 Para cerrar esta fase se propone verificar el acceso por roles, un recorrido operativo completo, actualización analítica, predicción con su margen, exportación de reportes y recuperación de información. El piloto institucional debe identificar usuarios, datos autorizados, periodo de observación y criterios de aceptación. El cierre dependerá de evidencias y decisiones documentadas.
 
@@ -126,13 +126,13 @@ Con la aplicación de este SQAP se busca que el sistema DSU cumpla los siguiente
 
 El plan se aplica a todo el producto y a cualquier versión posterior que el equipo desarrolle para la DSU.
 
-### 3.5.2. Política de calidad
+### 3.5.0. Política de calidad
 
 La política exige que todo entregable tenga un responsable, una versión, criterios de revisión y un registro de observaciones. Los requisitos se conservarán con sus identificadores; los cambios del sistema deben propagarse a modelos y pruebas. Ninguna función se considerará aceptada únicamente porque su pantalla esté disponible o porque el código compile.
 
 ### 3.5.3. Alcance
 
-El plan cubre acceso, catálogos, operación, logística, analítica, cartografía, predicción y administración. La evaluación de los servicios externos se limita a su integración y a los compromisos documentados del proveedor. No comprende una auditoría interna de Neon, AWS, Vercel o Microsoft.
+El plan cubre acceso, catálogos, operación, logística, analítica, cartografía, predicción y administración. La evaluación de los servicios externos se limita a su integración y a los compromisos documentados del proveedor. No comprende una auditoría interna de Neon, Azure, Vercel o Microsoft.
 
 ### 3.5.4. Criterio de liberación
 
@@ -144,7 +144,7 @@ Se toman como entradas la especificación DSU, el modelo de casos de uso, los mo
 
 Los ejemplos académicos emplean IEEE 730 en ediciones anteriores. La ficha oficial consultada identifica IEEE 730-2026 como estándar de procesos de aseguramiento de calidad. Se utiliza su descripción pública para orientar la planificación y el control, sin declarar una evaluación de conformidad cláusula por cláusula. ISO/IEC 25010:2023 se consulta como referencia para organizar atributos de calidad del producto. Las condiciones medibles de aceptación provienen de los requisitos DSU y de los acuerdos de revisión, no de metas inventadas a partir del nombre de una norma (IEEE SA, 2026; ISO, 2023).
 
-Los estándares con los que puede certificarse la calidad del software son ISO 9001, que para el software se aplica con la guía ISO 9000-3 (actualmente ISO/IEC/IEEE 90003); IEEE 730, que define el plan de aseguramiento de la calidad; y CMMI, que evalúa la madurez del proceso en niveles progresivos. Este plan sigue la estructura de IEEE 730 porque se orienta a un proyecto concreto y no a la certificación de una organización; ISO 9001 y CMMI quedan como referencia para una certificación futura.
+Las referencias de calidad empleadas son ISO 9001, que para el software se aplica con la guía ISO 9000-3 (actualmente ISO/IEC/IEEE 90003); IEEE 730, que define el plan de aseguramiento de la calidad; y CMMI, que evalúa la madurez del proceso en niveles progresivos. Este plan sigue la estructura de IEEE 730 porque se orienta a un proyecto concreto y no a la certificación de una organización; ISO 9001 y CMMI quedan como referencia para una certificación futura.
 
 ## 3.7. Gestión
 
@@ -394,11 +394,11 @@ La revisión de requisitos comprobará que cada RF tenga actor o destinatario, r
 
 Las revisiones y auditorías mínimas son las siguientes:
 
-<!-- anchos: 3.4,5.2,8.19 -->
+<!-- anchos: 3.4,5.0,8.19 -->
 | Revisión | Objetivo | Criterios principales en DSU |
 | --- | --- | --- |
 | Revisión de requisitos (SRR) | Asegurar que la ERS es correcta, completa y verificable | Cada RF tiene actor, reglas observables y criterio de prueba, y está cubierto por al menos un caso de uso; los requisitos no funcionales tienen valores medibles |
-| Revisión del diseño preliminar (PDR) | Evaluar la arquitectura antes del diseño detallado | Interfaces externas (Neon, AWS, Vercel, Power BI, OpenStreetMap) identificadas con su protocolo; planos transaccional y analítico separados; procesos pesados asíncronos; control de acceso en interfaz y servicios |
+| Revisión del diseño preliminar (PDR) | Evaluar la arquitectura antes del diseño detallado | Interfaces externas (Neon, Azure, Vercel, Power BI, OpenStreetMap) identificadas con su protocolo; planos transaccional y analítico separados; procesos pesados asíncronos; control de acceso en interfaz y servicios |
 | Revisión del diseño crítico (CDR) | Confirmar que el diseño detallado satisface la ERS antes de codificar | Clases con atributos, métodos, visibilidad y multiplicidades; base de datos en 3FN con desnormalización justificada; interacciones con la base de datos expresadas |
 | Revisión del plan de V&V (SVVPR) | Evaluar si los métodos de V&V son adecuados | Cada requisito tiene caso de prueba con entrada, resultado esperado y entorno; la programación indica qué se prueba, cuándo y quién |
 | Auditoría funcional | Verificar antes de la entrega que el sistema hace todo y solo lo que indica la ERS | Cada RF1–RF27 con evidencia de prueba aprobada; las pruebas no ejecutadas se listan con su justificación |
@@ -434,8 +434,8 @@ La RTF se reserva para los productos de mayor importancia. Como mínimo se revis
 
 Las revisiones de calidad se organizan por fase e iteración de PUDS. Los periodos siguen el cronograma del proyecto (sección 1.5.3), del 18 de agosto al 19 de diciembre de 2026, y cada revisión se realiza al cierre de su iteración:
 
-<!-- anchos: 3.2,2.6,5.2,5.79 -->
-<!-- anchos: 2.5,2.1,2.9,4.6,4.69 -->
+<!-- anchos: 3.2,2.6,5.0,5.79 -->
+<!-- anchos: 2.5,0.1,2.9,4.6,4.69 -->
 | Fase | Iteración | Periodo previsto | Revisiones | Productos revisados |
 | --- | --- | --- | --- | --- |
 | Inicio | Iteración 1 | 18/08 al 14/09 | Evaluación de calidad y RTF del alcance | Perfil, PAPS, actores y riesgos iniciales |
@@ -473,7 +473,7 @@ En PUDS, la verificación revisa que cada fase y cada flujo de trabajo se hayan 
 
 ### 3.11.2. Criterios de entrada y salida
 
-Una prueba se inicia con una versión identificada, las migraciones aplicadas, los datos de prueba preparados en un entorno aislado y los casos revisados. Se da por concluida cuando todos los casos se ejecutaron o tienen justificación, no quedan defectos críticos abiertos, los defectos altos están resueltos o aceptados según 2.5.4 y los resultados quedan registrados con versión y entorno.
+Una prueba se inicia con una versión identificada, las migraciones aplicadas, los datos de prueba preparados en un entorno aislado y los casos revisados. Se da por concluida cuando todos los casos se ejecutaron o tienen justificación, no quedan defectos críticos abiertos, los defectos altos están resueltos o aceptados según 3.5.4 y los resultados quedan registrados con versión y entorno.
 
 ## 3.12. Gestión de configuración
 
@@ -578,7 +578,7 @@ El código, los documentos, los diagramas, los datos de prueba y los artefactos 
 
 ### 3.16.2. Matriz de control de medios
 
-<!-- anchos: 3.4,5.2,3.6,4.59 -->
+<!-- anchos: 3.4,5.0,3.6,4.59 -->
 | Medio | Ubicación | Control de acceso | Respaldo |
 | --- | --- | --- | --- |
 | Código fuente | Repositorio Git ProyectoDSU en GitHub | Cuentas del equipo | Historial de Git y copias locales |
@@ -595,13 +595,13 @@ La base demo compartida no será utilizada para pruebas destructivas. Los cambio
 
 ## 3.17. Control de proveedores
 
-Se registrarán proveedor, servicio utilizado, dependencia del sistema, responsable de acceso y condición de continuidad. Para Neon se comprobará conexión segura y persistencia; para Vercel y AWS, configuración y disponibilidad de los entornos; para Power BI, actualización y acceso al informe; para cartografía, atribución y disponibilidad de recursos.
+Se registrarán proveedor, servicio utilizado, dependencia del sistema, responsable de acceso y condición de continuidad. Para Neon se comprobará conexión segura y persistencia; para Vercel y Azure, configuración y disponibilidad de los entornos; para Power BI, actualización y acceso al informe; para cartografía, atribución y disponibilidad de recursos.
 
 <!-- anchos: 3.6,3.4,3.8,5.99 -->
 | Proveedor | Servicio | Uso en DSU | Control |
 | --- | --- | --- | --- |
 | Neon | PostgreSQL gestionado | Base de datos de producción | Conexión cifrada y respaldo diario propio con pg_dump |
-| Amazon Web Services | EC2 con Linux y Docker | Backend de producción | Configuración versionada y verificación de disponibilidad |
+| Microsoft Azure | VM con Linux y Docker | Backend de producción | Configuración versionada y verificación de disponibilidad |
 | Vercel | Hospedaje estático | Frontend | Publicación de la versión de producción con HTTPS |
 | GitHub | Repositorio privado | Código y documentos | Acceso restringido y copias locales |
 | Microsoft | Power BI | Tableros analíticos | Conexión de solo lectura a las vistas analíticas |
@@ -668,7 +668,7 @@ Cada riesgo se trata evitando su causa, mitigando su efecto o aceptándolo de fo
 | Hallazgo | Desviación sustentada por evidencia | Registro para análisis y tratamiento |
 | Regresión | Reejecución para detectar efectos de cambios | Pruebas sobre funciones previamente comprobadas |
 | Aceptación | Decisión documentada sobre una entrega | Distinta de una ejecución técnica satisfactoria |
-| Certificación | Reconocimiento formal de que un proceso o producto cumple un estándar | ISO 9001, IEEE 730 o CMMI |
+| Certificación | Reconocimiento formal de que un proceso o producto cumple un estándar | Sistema de gestión ISO 9001; no se acredita certificación del equipo |
 | ERS | Especificación de requisitos de software | Requisitos RF, RNF y restricciones del sistema |
 | SDD | Descripción del diseño del software | Módulos, procesos, datos e interfaces |
 | V&V | Verificación y validación | Producto construido correctamente y producto correcto |
@@ -754,17 +754,17 @@ El beneficio común es la repetibilidad: cada resultado puede reproducirse con e
 
 El proyecto se concibe como una solución tecnológica aplicada a la gestión ambiental universitaria con potencial de escalabilidad comercial e institucional. Este capítulo analiza el marco jurídico aplicable en el Estado Plurinacional de Bolivia para la formalización empresarial del equipo, la protección de la propiedad intelectual del software desarrollado y el cumplimiento normativo en materia de datos y tecnologías de la información. No afirma que el equipo haya operado comercialmente o devengado ingresos, sino que establece la hoja de ruta legal y regulatoria para la transferencia y explotación legítima del sistema.
 
-## 5.2. Constitución de una Sociedad de Responsabilidad Limitada (S.R.L.)
+## 5.0. Constitución de una Sociedad de Responsabilidad Limitada (S.R.L.)
 
 Para la explotación comercial o prestación de servicios de soporte y mantenimiento del software, la figura societaria idónea en Bolivia es la Sociedad de Responsabilidad Limitada (S.R.L.). Esta forma jurídica limita la responsabilidad de los socios al monto de sus cuotas de capital, salvaguardando el patrimonio personal frente a contingencias operativas.
 
-### 5.2.1. Marco legal y denominación social
+### 5.0.1. Marco legal y denominación social
 
-La constitución se rige por el Código de Comercio de Bolivia (Decreto Ley N° 14379 de 25 de febrero de 1977), en particular sus artículos 127 (contenido del instrumento constitutivo) y 195 al 216 (disposiciones específicas de las S.R.L.), complementado por la Ley N° 393 de Servicios Financieros en lo relativo a bancarización del capital.
+La constitución se rige por el Código de Comercio de Bolivia (Decreto Ley N° 14379 de 25 de febrero de 1977), en particular sus artículos 127 (contenido del instrumento constitutivo) y 195 al 216 (disposiciones específicas de las S.R.L.).
 
-La sociedad operará bajo una razón social o denominación acompañada obligatoriamente de la sigla «S.R.L.» o la palabra «Limitada», proponiéndose la denominación comercial *DSU Tecnología y Gestión Ambiental S.R.L.* El capital social se divide en cuotas de capital de cien bolivianos (Bs. 100) o múltiplos de cien, integradas en su totalidad al momento de la constitución.
+La sociedad operará bajo una razón social o denominación acompañada obligatoriamente de la sigla «S.R.L.» o la palabra «Limitada», proponiéndose la denominación comercial *Residata S.R.L. (en constitución)* El capital social se divide en cuotas de capital de cien bolivianos (Bs. 100) o múltiplos de cien, integradas en su totalidad al momento de la constitución.
 
-### 5.2.2. Procedimiento constitutivo paso a paso
+### 5.0.2. Procedimiento constitutivo paso a paso
 
 1. **Elaboración de Minuta de Constitución:** Redactada por profesional en derecho, establece la identidad de los socios (Carlos Gabriel Lobo Gutiérrez y Leonardo Serrate Basma), objeto social (desarrollo, comercialización, consultoría e implantación de software y soluciones informáticas ambientales), domicilio legal en Santa Cruz de la Sierra, capital social, cuotas de participación, causales de disolución y régimen de representación legal.
 2. **Protocolización Notarial:** Los socios suscriben la minuta ante Notario de Fe Pública, quien eleva el instrumento a Escritura Pública de Constitución de S.R.L. y emite el Testimonio Notarial de Constitución junto con el Testimonio de Poder del Representante Legal.
@@ -781,7 +781,7 @@ La sociedad operará bajo una razón social o denominación acompañada obligato
 5. **Licencia de Funcionamiento y Patente Municipal (GAMSC):**
    - Trámite ante la Secretaría Municipal de Administración Tributaria del Gobierno Autónomo Municipal de Santa Cruz (Quinta Municipal, 4to anillo).
    - Presentación de Declaración Jurada (Formulario N° 101), cédulas de identidad de socios, Testimonio de Constitución, Matrícula de Comercio SEPREC, NIT y croquis de ubicación de la oficina operativa.
-   - Categorización ambiental: Al tratarse de una empresa de desarrollo de software sin emisión de contaminantes ni transformación física de materiales, corresponde la Categoría Ambiental IV (exenta de Estudio de Evaluación de Impacto Ambiental).
+   - **Categorización ambiental:** Su determinación debe verificarse con la autoridad competente; no se acredita una categoría asignada ni una exención automática.
    - Pago de la tasa administrativa de emisión y de la patente municipal anual calculada según activos declarados y zonificación.
 
 La figura siguiente reproduce la ficha oficial del trámite 2 del SEPREC, con sus apartados y los aranceles citados en el paso 3.
@@ -793,7 +793,7 @@ La inscripción en el Registro Nacional de Contribuyentes del paso 4 se inicia d
 <!-- fig: DocumentoSoftware2/recursos/web/sin.png | Portal del Servicio de Impuestos Nacionales -->
 6. **Obligaciones laborales y de seguridad social:**
    - **Ministerio de Trabajo:** Registro en el Registro Obligatorio de Empleadores (ROE) para la presentación mensual de planillas de sueldos.
-   - **Gestora Pública de la Seguridad Social de Largo Plazo:** Afiliación de la empresa y registro de dependientes para el aporte a los fondos de pensiones (aporte laboral del 12.71% retenido y aporte patronal del 16.71%).
+   - **Gestora Pública de la Seguridad Social de Largo Plazo:** Afiliación de la empresa y registro de dependientes para el aporte a los fondos de pensiones (aporte laboral del 12.71% retenido y aporte patronal al SIP del 7,21 %; salud se considera por separado).
    - **Ente Gestor de Salud de Corto Plazo:** Afiliación a la Caja Nacional de Salud (CNS) o Caja Petrolera de Salud (CPS), realizando el aporte patronal reglamentario del 10% sobre el total ganado de la planilla mensual.
 
 ## 5.3. Protección de la Propiedad Intelectual en el SENAPI
@@ -808,8 +808,8 @@ La marca comercial protege la identidad, el logotipo y la denominación del soft
   - *Clase 9:* Software, aplicaciones informáticas descargables, programas de ordenador para gestión logística y ambiental.
   - *Clase 42:* Servicios científicos y tecnológicos, servicios de software como servicio (SaaS), consultoría en tecnologías de la información y mantenimiento de software.
 - **Búsqueda previa de anterioridades:** Búsqueda fonética y figurativa en la base de datos del SENAPI para asegurar la inexistencia de marcas idénticas o confundibles previamente registradas. Se solicita con el formulario PI-112 en la plataforma del SENAPI o en sus oficinas, adjuntando el comprobante de depósito de Bs. 75 para persona natural o jurídica boliviana.
-- **Presentación de la solicitud:** Llenado del Formulario PI-101 (Signos Distintivos), adjuntando copia de cédula de identidad del solicitante o representante legal, reproducción del logotipo a color (formato 4x4 cm) y especificación de colores pantone.
-- **Publicación y concesión:** Superado el examen de forma, el SENAPI ordena la publicación en la Gaceta Oficial de Bolivia. Trascurridos 50 días hábiles sin oposición de terceros, se emite la Resolución Administrativa y el Título de Concesión de Registro de Marca, con vigencia de 10 años renovables de forma indefinida.
+- **Presentación de la solicitud:** Llenado del Formulario PI-100 de registro de marca, adjuntando copia de cédula de identidad del solicitante o representante legal, reproducción del logotipo a color (formato 4x4 cm) y especificación de colores pantone.
+- **Publicación y concesión:** Superado el examen de forma, el SENAPI ordena la publicación en la Gaceta Oficial de Bolivia. Tras el periodo de 30 días hábiles administrativos para oposición corresponde el examen de registrabilidad y, si procede, la Resolución Administrativa y el Título de Concesión de Registro de Marca, con vigencia de 10 años renovables de forma indefinida.
 
 <!-- fig: DocumentoSoftware2/recursos/web/senapi_busqueda.png | Pasos del SENAPI para la búsqueda de signos distintivos -->
 
@@ -840,7 +840,7 @@ Las figuras siguientes muestran el procedimiento virtual, el flujo del trámite 
 
 El funcionamiento de la plataforma web se ajusta a la Ley N° 164 (Ley General de Telecomunicaciones, Tecnologías de Información y Comunicación) y su Decreto Supremo Reglamentario N° 1793:
 
-- **Validez jurídica de mensajes de datos:** Los registros electrónicos de pesaje, incidencias operativas, asignación de turnos y reportes analíticos generados por el sistema tienen plena validez legal y eficacia probatoria de acuerdo con los artículos 6 y 7 de la Ley N° 164.
+- **Validez jurídica de mensajes de datos:** Los registros electrónicos de pesaje, incidencias operativas, asignación de turnos y reportes analíticos generados por el sistema son registros operativos sujetos a protección de integridad y valoración jurídica; el sistema no incorpora firma digital certificada.
 - **Comercio electrónico y pasarelas de pago:** Si en fases futuras el sistema ofrece suscripciones o cobro de tasas por recolección especializada, se integrarán pasarelas autorizadas por ASFI (pago con código QR interoperable y tarjetas de débito/crédito nacionales), cumpliendo los estándares de seguridad PCI-DSS.
 
 ## 5.5. Términos de uso, confidencialidad y gobernanza de datos
@@ -857,101 +857,61 @@ La gobernanza de datos del sistema protege la información de pesaje, ubicación
 
 # 6. Infraestructura para la producción de software
 
-## 6.1. Elementos de configuración
+## 6.1. Topología y entornos
 
-Se consideran elementos de configuración el código, las dependencias, las migraciones, los parámetros de despliegue, los modelos UML, los documentos, las pruebas y los artefactos predictivos. El control de cambios debe permitir relacionar una versión entregada con sus entradas y evidencias.
+El sistema se implementa como monolito modular Django con frontend React separado. La API se aloja en Azure VM, región Mexico Central, detrás de Caddy y Gunicorn; la aplicación React está en Vercel y PostgreSQL permanece en Neon, São Paulo. Las tablas operativas y analíticas comparten una base de datos; no son dos motores independientes. El sitio corporativo es otro proyecto estático, distinto de la aplicación DSU.
 
-| Elemento | Ubicación del proyecto | Control previsto |
+El entorno de cierre usa PostgreSQL 18 propio y efímero en loopback. El runner impone DATABASE_URL local antes de cargar Django; no usa Neon para pruebas con escritura. Python local es 3.13; Docker/CI mantienen 3.12. Esta diferencia de entorno se declara en las evidencias, no se presenta la ejecución local como Linux.
+
+## 6.2. Herramientas y utilización real
+
+| Actividad | Herramienta | Aplicación y evidencia |
 | --- | --- | --- |
-| Backend | gestion-residuos-dsu/backend | Revisión de API, servicios, migraciones y dependencias |
-| Frontend | gestion-residuos-dsu/frontend | Revisión de interfaz, construcción y configuración |
-| Modelos UML | modelo_uml y generador/figuras | Conservación de fuentes y exportaciones |
-| Documento Software 2 | DocumentoSoftware2 | Fuente editable, versiones y revisión visual |
-| Evidencias de pruebas | docs/auditoria-fase-final | Conservación del resultado original y su contexto |
+| Configuración y versiones | Git y GitHub | Repositorio privado; rama cierre-software2-20261118; línea base y rollback en auditoria_cierre/00_inventario_y_linea_base.md |
+| Planeación | Gantt, PERT y COCOMO II | paps.md y estimaciones.json; estimaciones, no horas ejecutadas |
+| Modelado CASE | Enterprise Architect | Los tres .eapx se abrieron por API nativa; conteos en enterprise_architect_todos.json. No equivale a revisar visualmente todos los objetos |
+| Calidad de código | Ruff, oxlint y TypeScript | pyproject.toml y scripts frontend; comandos y salida en evidencias de cierre |
+| Pruebas | pytest y navegador aislado | Ejecuciones nuevas y JUnit en auditoria_cierre/05_ejecuciones_pruebas |
+| Entrega continua | GitHub Actions | .github/workflows/ci.yml; configuración versionada, no implica un push o despliegue de esta rama |
+| Despliegue | Docker Compose, Caddy y Vercel | backend/deploy/compose.azure.yml y sitio-residata/preparar_publicacion.py |
+| Monitoreo | Azure Monitor | Evidencia histórica de disponibilidad en docs/auditoria-fase-final/qa_url/azure_disponibilidad.txt |
+| Respaldo | pg_dump / pg_restore | scripts/respaldo.sh y ensayo aislado del cierre, si cuenta con acta de resultado |
 
-## 6.2. Control de versiones y colaboración
+## 6.3. Accesos, respaldo y control de cambios
 
-La raíz del proyecto es el único repositorio Git. Backend y frontend no son submódulos. Antes de integrar cambios se revisará el estado del repositorio y se identificarán los archivos propios de cada actividad. Las modificaciones de documentación no deben sobrescribir correcciones manuales o alterar artefactos de otra materia.
+Las credenciales no forman parte del paquete de entrega. Por decisión del titular, backend/.env es una excepción en el repositorio privado; antes de cualquier publicación del repositorio se requiere rotación, retirada y limpieza de historial. El respaldo de cambios previos del cierre está fuera del repositorio. No se hicieron cambios en datos compartidos de Neon.
 
-Para una entrega se registrarán identificador de versión, archivos incluidos, dependencias y cambios relevantes. La revisión de los materiales compartidos debe proteger las configuraciones sensibles y verificar que las evidencias no contengan credenciales.
+La cuenta Vercel disponible en este equipo no posee los proyectos existentes. El titular indicó que realizará la publicación; los cambios locales no se presentan como desplegados. El portal devolvió 404 inicialmente y volvió a HTTP 200 en la comprobación final; la versión pública aún conserva afirmaciones comerciales y cifras anteriores que debe actualizar el titular.
 
-El repositorio se aloja en GitHub como repositorio privado. El plan gratuito incluye repositorios públicos y privados ilimitados, suficiente para un equipo de dos integrantes.
+# 7. Sitio web corporativo
 
-<!-- fig: DocumentoSoftware2/recursos/web/github.png | Planes de GitHub -->
+## 7.1. Empresa y estado de publicación
 
-## 6.3. Gestión documental
+Residata S.R.L. es la denominación propuesta de una sociedad en constitución. El producto piloto es el sistema DSU-UAGRM. La app https://dsu-uagrm.vercel.app responde HTTP 200 y la API exige autenticación. El portal corporativo https://residata-bolivia.vercel.app devolvió inicialmente HTTP 404 y en la reverificación del cierre respondió HTTP 200 en once rutas/recursos. No se atribuye esa recuperación a un despliegue de esta sesión. La versión pública aún afirma facturación habilitada y conserva la ronda anterior de Bs 170 000; la corrección local distingue propuestas y actualiza las cifras. El titular publicará esta versión.
 
-Cada materia mantiene su documento, estructura y criterios de evaluación. Los requisitos y el producto permanecen compartidos. Un cambio funcional se analiza en ambos documentos; un ajuste de portada, numeración o capítulo se aplica solo a la materia correspondiente.
+## 7.2. Contenidos y canales
 
-El documento de Software 2 se genera desde fuentes propias y conserva una copia anterior antes de una revisión mayor. El control documental incluye revisión de tablas, índices, imágenes y referencias cruzadas.
-
-## 6.4. Entornos
-
-El entorno de desarrollo permite ejecutar y revisar componentes. La base demo compartida en Neon sirve al trabajo conjunto y debe preservarse de cambios no coordinados. El entorno productivo separa interfaz, API y persistencia administrada; su verificación se describe en el capítulo 11.
-
-La persistencia administrada se contrata en Neon (PostgreSQL sin servidor) y la interfaz se publica en Vercel. Ambos proveedores ofrecen un plan gratuito para el desarrollo y planes de pago por uso para producción; las figuras muestran sus condiciones publicadas el 17 de noviembre de 2026. El costo comparado de producción se analiza en el capítulo 11.
-
-<!-- fig: DocumentoSoftware2/recursos/web/neon.png | Planes de Neon para PostgreSQL administrado -->
-
-<!-- fig: DocumentoSoftware2/recursos/web/vercel.png | Planes de Vercel para la publicación del frontend -->
-
-## 6.5. Inventario técnico observado
-
-Las versiones de la tabla proceden del registro técnico del proyecto del 16 de noviembre de 2026.
-
-<!-- versiones -->
-
-# 7. Sitio web de presentación
-
-## 7.1. Propósito y destinatarios
-
-El portal del proyecto DSU es el punto de acceso de la Dirección de Servicios Universitarios a la gestión de residuos sólidos de la UAGRM. Está dirigido al personal operativo, a los supervisores, a los directivos y al administrador del sistema, y funciona en navegadores de computadoras y teléfonos sin instalar ninguna aplicación.
-
-## 7.2. Estructura de contenidos y arquitectura de información
-
-El portal tiene diseño adaptable y organiza su contenido en las secciones siguientes, visibles según el rol del usuario:
-
-| Sección | Contenido | Finalidad |
+| Página | Finalidad | Implementación |
 | --- | --- | --- |
-| Acceso | Identidad de la DSU e inicio de sesión | Ingresar con la cuenta institucional |
-| Registro en campo | Jornada asignada, puntos de la ruta y formulario de vaciado | Registrar cantidades e incidencias desde el teléfono |
-| Jornadas | Planificación, asignación de personal y vehículos, seguimiento y cierre | Organizar y controlar la recolección |
-| Tablero de gestión | Indicadores, tendencias y comparación de periodos | Apoyar la decisión con datos |
-| Mapa del campus | Puntos de recolección y mapa de calor | Ubicar zonas críticas |
-| Predicción y recomendaciones | Generación proyectada, alertas y recomendaciones logísticas | Anticipar la demanda de recolección |
-| Reportes | Reportes por sector, tipo de residuo, jornadas e incidencias, con exportación a Excel y PDF | Informar y respaldar la gestión |
-| Administración | Usuarios, roles, catálogos, parámetros, procesos ETL, modelo y bitácora | Mantener el sistema |
+| Inicio | Empresa, producto y demostración | HTML estático, capturas identificadas como demo |
+| Planes | Propuesta de monetización | Precios propuestos; sin contratación ni cuotas automáticas implementadas |
+| Novedades y RSS | Versiones y actualizaciones | novedades.json y feed.xml |
+| Soporte | FAQ, horarios y estado | Asistente de reglas; no IA generativa; respuesta opaca no se declara verificación de salud |
+| Contacto | Solicitar demostración | FormSubmit a rekteado@gmail.com; envío real no repetido durante QA |
+| Privacidad y términos | Tratamiento y propuesta contractual | Borradores sujetos a revisión y formalización |
+| Marketing y pitch | Material promocional y financiero | Piezas locales y PDF, sin campaña comercial acreditada |
 
-## 7.3. Mecanismos de interacción y mesa de ayuda (Help-Desk)
+El asistente deriva consultas a un correo mediante un identificador de ticket generado en el navegador. Eso no equivale a un sistema persistente de tickets ni a atención humana en vivo. La confirmación de envío tampoco acredita recepción y respuesta por el destinatario.
 
-Para garantizar la continuidad operativa y la resolución oportuna de problemas funcionales o técnicos, el portal cuenta con un modelo de atención escalonada de soporte técnico estructurado en tres niveles de atención:
+## 7.3. Verificación y límites
 
-| Nivel de soporte | Canal de atención | Responsable | Cobertura horaria | Tiempo de primera respuesta |
-| --- | --- | --- | --- | --- |
-| Nivel 1 (Autoservicio) | Manual de usuario por rol y videos de uso | Usuario | Permanente | Inmediato |
-| Nivel 2 (Soporte Funcional) | Formulario web de tickets e incidencias y correo electrónico institucional | Agente de mesa de ayuda técnica | Lunes a Viernes 07:00 a 19:00 | Menor a 2 horas laborables |
-| Nivel 3 (Soporte Especializado) | Canal directo de ingeniería y seguimiento de bugs en el repositorio | Ingenieros de software y DBA | Lunes a Viernes 08:00 a 16:00 | Menor a 6 horas laborables |
+La publicación local se prepara con preparar_publicacion.py, excluyendo documentos internos y configuraciones de herramientas. La prueba probar_sitio.py recorre páginas en 1440 y 390 píxeles, registra respuestas y desbordamiento, no utiliza perfiles personales y bloquea peticiones externas. Los resultados efectivos se conservan en auditoria_cierre/05_ejecuciones_pruebas/sitio/.
 
-## 7.4. Estrategia progresiva de mejoras tecnológicas
+No se anuncian offline, sensores IoT, suscripciones automáticas ni facturación habilitada como capacidades del piloto. Constituyen evolución y formalización futuras. Los objetivos SLA comerciales no son mediciones de disponibilidad mensual.
 
-La hoja de ruta de evolución del producto contempla tres líneas de modernización continua:
-
-1. **Transformación a Progressive Web App (PWA):** Incorporación de Service Workers y almacenamiento local en IndexedDB en el frontend para habilitar el registro de pesaje en modo fuera de línea (offline). Esto permitirá a las cuadrillas registrar vaciados en zonas del campus con sombra de cobertura móvil, sincronizando automáticamente los datos al recuperar la conectividad.
-2. **Telemetría IoT en contenedores:** Integración futura de sensores ultrasónicos de nivel de llenado con microcontroladores ESP32 y conectividad LoRaWAN / GSM, enviando telemetría directa a los endpoints de la API Django sin requerir registro manual en puntos críticos.
-3. **Localización e internacionalización:** Soporte multi-idioma (español e inglés) en la interfaz pública y analítica para facilitar su evaluación en congresos científicos internacionales de gestión ambiental y ciudades inteligentes.
-
-## 7.5. Imágenes
-
-Las capturas siguientes muestran el portal en escritorio y en teléfono.
-
-
-<!-- fig: docs/auditoria-fase-final/ui/login-anon-1440.png | Página de acceso al sitio en escritorio -->
-
-<!-- fig: docs/auditoria-fase-final/ui/login-anon-390.png | Página de acceso al sitio en teléfono -->
-
-<!-- fig: docs/auditoria-fase-final/ui/tablero-super_ui-390.png | Tablero de gestión en teléfono -->
-
-<!-- fig: docs/auditoria-fase-final/ui/puntos-super_ui-1440.png | Puntos de recolección sobre el mapa del campus -->
+<!-- fig: DocumentoSoftware2/recursos/sitio/inicio-1440.png | Portal corporativo en su captura histórica del 18 de noviembre -->
+<!-- fig: DocumentoSoftware2/recursos/sitio/asistente-1440.png | Asistente de reglas y derivación por correo -->
+<!-- fig: DocumentoSoftware2/recursos/qr_sitio.png | URL pública del portal; actualización de contenido pendiente por el titular -->
 
 # 8. Estudio de mercado y adopción
 
@@ -1008,66 +968,272 @@ La implantación exitosa de la plataforma requiere un programa estructurado de g
 - **Fase 3: Medición de usabilidad estandarizada (SUS):** Aplicación de la escala estandarizada *System Usability Scale* (SUS) al finalizar el piloto, buscando una puntuación superior a 75 puntos sobre 100 como criterio de aceptación de usabilidad antes del despliegue masivo a todos los módulos de la universidad.
 - **Fase 4: Incentivos y reconocimiento ambiental:** Publicación de indicadores de eficiencia y reducción de huella de carbono por facultad, reconociendo a los sectores del campus con mayor tasa de reciclaje y puntualidad en el registro.
 
+## 8.6. Dimensionamiento y monetización propuesta
+
+Se emplean 343 municipios, de los que 43 cuentan con relleno sanitario, y 48 universidades como universo de referencia. Las fuentes se registran en recursos/finanzas.json. No son clientes contratados ni una encuesta de disposición a pagar. TAM y SAM son escenarios de cobertura comercial, no demanda demostrada.
+
+
+| Indicador | Bs/año |
+| --- | --- |
+| TAM | 32 540 400 |
+| SAM | 5 540 400 |
+| Ingresos brutos año 5, escenario base | 1 128 000 |
+
+Los precios mensuales propuestos son Campus Bs 2 900 y Red Bs 7 500; implementación Bs 9 000 y Bs 18 000. Inicial es una oferta freemium propuesta. El escenario base supone 50 % de clientes anuales a diez mensualidades y 50 % mensuales a doce, sin contratos o ventas acreditados. Los límites por plan todavía no se implementan automáticamente.
+
+## 8.7. Proyección financiera y sensibilidad
+
+
+| Año | Clientes Campus/Red | Ingresos netos | Egresos sin IUE | Flujo | Acumulado |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 2/1 | 94 960 | 181 392 | -86 432 | -86 432 |
+| 2 | 5/2 | 243 948 | 322 056 | -78 108 | -164 540 |
+| 3 | 9/4 | 472 236 | 406 635 | 49 201 | -115 339 |
+| 4 | 13/6 | 726 798 | 563 147 | 122 739 | 7 400 |
+| 5 | 17/8 | 981 360 | 582 523 | 299 128 | 306 528 |
+
+El VAN al 15 % es Bs 117 027 y la TIR operativa es 41.8 %. El equilibrio estimado es 14.5 clientes Campus equivalentes. El flujo se vuelve positivo en el año 3 y el acumulado se recupera en el año 4. No representan resultados reales de una empresa ni retorno garantizado.
+
+
+| Escenario de clientes | VAN al 15 % | Déficit máximo |
+| --- | --- | --- |
+| conservador | -228 485 | 377 280 |
+| base | 117 027 | 164 540 |
+| optimista | 439 462 | 74 253 |
+
+La sensibilidad varía los clientes finales al 70 %, 100 % y 130 % de la hipótesis base. No se considera que la reducción o aumento de clientes tenga probabilidad demostrada. El supuesto de ocho clientes por VM requiere medición. El modelo contable simplifica impuestos y no incluye intereses de un crédito.
+
+La validación comercial pendiente consiste en entrevistar responsables de compras y operación, registrar tamaño, presupuesto y disposición a pagar, y contrastar precios con cartas de intención reales. No se han inventado entrevistas ni contratos.
+
+<!-- fig: DocumentoSoftware2/recursos/web/finanzas_ingresos_egresos.png | Proyección de ingresos y egresos con descuento anual incorporado -->
+<!-- fig: DocumentoSoftware2/recursos/web/finanzas_flujo_acumulado.png | Flujo acumulado del escenario base -->
+
 # 9. Pruebas en el software
 
-## 9.1. Objetivo y alcance
+## 9.1. Objetivo y flujo de prueba del PUDS
 
-El propósito es comprobar comportamientos definidos, identificar defectos y conservar evidencia reproducible.
+Se busca descubrir defectos con entradas válidas, inválidas, límites y conflictos de permisos y concurrencia. Siguiendo el flujo de prueba del Proceso Unificado, se planificaron riesgos, se diseñaron casos vinculados a RF/CU, se implementaron fixtures y pruebas, se ejecutaron integración y sistema y se evaluaron los resultados conservando defectos y regresión (Jacobson et al., 2000, capítulo 11).
 
-## 9.2. Diseño y trazabilidad
-
-Cada caso debe indicar requisito y CU, precondiciones, entrada, procedimiento, resultado esperado, resultado observado y estado. La evidencia incluirá entorno, datos y versión. Las pruebas funcionales se complementarán con condiciones inválidas y límites de autorización. Los defectos detectados se gestionarán según el SQAP.
-
-### 9.2.1. Escenarios críticos
-
-| Escenario | Referencia | Condición que se comprueba |
+| Actividad | Aplicación real | Evidencia |
 | --- | --- | --- |
-| Autenticación y cierre | RF3; CU1 y CU2 | Credenciales, sesión y revocación según el contrato implementado |
-| Registro de vaciado | RF8; CU9 | Cantidades válidas, usuario autorizado y vínculo con la operación |
-| Asignación de jornada | RF13; CU15 | Responsable, disponibilidad y conflictos de recursos |
-| Omisión y cierre | RF12; CU17 y CU18 | Motivo registrado y ausencia de puntos sin resolución |
-| Indicadores y periodos | RF15–RF18; CU20–CU22 | Datos preparados y comparaciones consistentes |
-| Predicción | RF22–RF24; CU26–CU30 | Modelo disponible, resultados y margen de error |
+| Planificar | Riesgos de integridad y los 13 puntos | auditoria_cierre/01_plan_y_dependencias.md |
+| Diseñar | Sector incompatible, reenvío y conexiones simultáneas | test_integridad_cierre.py; test_concurrencia_cierre.py |
+| Implementar | PostgreSQL propio y datos sintéticos | auditoria_cierre/ejecutar_aislado.py |
+| Integración | API, persistencia, auditoría, ETL y modelo | apps/*/tests/ y reportes JUnit |
+| Sistema | Navegación y exportaciones | escenarios API y recorridos de navegador aislado |
+| Evaluar | Fallos antes, correcciones y regresión | reproduccion_controlada.xml y regresion_corregida.xml |
 
-## 9.3. Regresión automatizada disponible
+## 9.2. Reproducción y regresión del cierre
 
-Los reportes JUnit conservados registran 42 pruebas en Windows y 42 en Linux, sin fallos, errores ni omisiones en esas corridas. Son dos ejecuciones de la suite; no se presentan como 84 casos distintos.
+La reproducción controlada previa registró cinco fallos: sector incompatible, reenvío entre tandas, inicio simultáneo de ETL, inicio simultáneo de entrenamiento y doble asignación de personal. Se conservaron los resultados anteriores a la corrección. La prueba inicial tuvo además errores de limpieza por el trigger de auditoría; se corrigió únicamente el arnés de test para limpiar su base sintética. La segunda reproducción controlada no tuvo esos errores de infraestructura.
 
-<!-- resultados junit -->
+Se reprodujo además un error de precisión: 0,005 multiplicado por un factor 0,7 se persistía como 0,003 al pasar por coma flotante, frente al resultado decimal redondeado 0,004. La normalización ahora conserva Decimal; los cuantiles de detección de atípicos usan float solo como cálculo estadístico no persistido. Se conservan la prueba fallida anterior y su regresión. La concurrencia de asignación se verifica separadamente para personal y vehículos.
 
-Las duraciones corresponden al tiempo declarado por la suite, no a latencia de usuario ni a capacidad productiva.
+La regresión corregida registra 58 pruebas, 0 fallos y 0 errores, en 172.475 segundos sobre Windows y PostgreSQL 18 local. El código está en una rama con cambios locales; no es una ejecución de producción ni un nuevo resultado Linux. Los controles posteriores al cierre se consultan en la matriz de evidencia.
 
-## 9.4. Ejemplos de resultados funcionales
+Las pruebas concurrentes crean conexiones PostgreSQL independientes, comprueban sus PID y sincronizan los participantes con una barrera. No se confunde una segunda llamada secuencial con concurrencia real. Se añadieron bloqueos transaccionales de PostgreSQL para serializar arranques y asignación.
 
-Los siguientes registros resumen escenarios identificados en las evidencias del proyecto. Los archivos originales conservan los detalles de entrada y respuesta. No se incluyen contraseñas, tokens o información de acceso.
+La demo aislada completa login, planificación, asignación, apertura, vaciado, omisión, cierre, ETL, predicción y exportación. El navegador recorre dieciséis pantallas de cuatro roles. La carga HTTP de doce clientes virtuales durante sesenta segundos registró 531 peticiones sin errores y 156 vaciados confirmados frente a 156 persistidos. Utiliza identidades compartidas de lectura y escritura: no son doce personas reales ni una medición de producción. El reporte conserva mediana, p95, máximos y límites.
+
+## 9.3. Caja negra y casos de uso
 
 <!-- resultados api -->
 
-## 9.5. Pruebas estructurales
+Los resultados del marcador anterior son históricos y se conservan como tales. Las nuevas pruebas no se ejecutan contra Neon. El alta y la auditoría deben deshacerse juntas ante fallo de bitácora; el test de reversión conserva ese criterio como regresión.
 
-El análisis de caja blanca existente examina las funciones de asignación de recursos y generación predictiva. La matriz de auditoría registra complejidad estructural 7 para asignar y 9 para generar. En generar, el rango factible y ejecutado informado es 7; por ello no se declara ejecución de nueve caminos independientes factibles. El análisis debe leerse junto a los grafos, las restricciones y las trazas conservadas.
+## 9.4. Caja blanca sobre diagramas de secuencia
 
-La revisión estructural aporta evidencia sobre decisiones internas seleccionadas. No sustituye la verificación de otros servicios ni una medición general de cobertura del código.
+Los tres casos siguientes utilizan las secuencias exportadas desde el modelo y la matriz conservada en caja_blanca_secuencias.json. Las cifras corresponden a ese modelo de mensajes; no deben confundirse con la complejidad completa de cada función Python tras incorporar bloqueos transaccionales. Los resultados de caminos se contrastan con los tests identificados, sin extrapolarlos a cobertura total.
 
-<!-- grafos pruebas -->
+### 9.4.1. CU9 Registrar vaciado de residuos
 
-## 9.6. Seguridad e interfaz
+<!-- figh: generador/figuras/fase_final/c9_seq_cu09.png | Secuencia de CU9 y sus rechazos -->
 
-La revisión de seguridad disponible corresponde a un análisis pasivo ZAP en entorno aislado, con acceso autenticado comprobado. El registro técnico informa correcciones de cabeceras y advertencias residuales. Su alcance no equivale a una prueba de penetración completa ni permite afirmar ausencia de vulnerabilidades.
+<!-- fig: generador/figuras/fase_final/c9_grafo_cu09.png | Grafo de mensajes del CU9 -->
 
-La revisión de interfaz registró 25 combinaciones de rol y ruta en anchos de 1440 y 390 píxeles, con 50 capturas. El registro informa ausencia de errores JavaScript, violaciones CSP y desbordamiento general en ese recorrido de carga y lectura. No cubre automáticamente todos los flujos interactivos.
+N=11; E=17; predicados=7. V(G)=E−N+2=17-11+2=8; P+1=7+1=8; regiones=8.
 
-<!-- figura interfaz -->
 
-## 9.7. Evaluación del componente predictivo
+| Nodo | Mensaje o condición | Referencia |
+| --- | --- | --- |
+| 1 | Solicitud y personal asignado | 1–4 |
+| 2 | ¿Operario no asignado? | 5 |
+| 3 | ¿Jornada no está en ejecución? | 6–7 |
+| 4 | ¿Punto fuera de la ruta? | 8–9 |
+| 5 | ¿Sin generación con detalle? | 10 |
+| 6 | ¿Sin detalle de residuos? | 11 |
+| 7 | ¿Excede la capacidad en kg? | 12–13 |
+| 8 | ¿Excede la capacidad en litros? | 14 |
+| 9 | Registrar, marcar parada y auditar | 15–19 |
+| 10 | Rechazo y mensaje al operario | 5, 7, 9, 10, 11, 13, 14 |
+| 11 | Fin | 20 |
 
-La evaluación debe registrar versión del modelo, periodo del histórico, procedencia, variables, separación de entrenamiento y prueba, métricas y límites. Los errores se expresarán en unidades interpretables para el uso previsto y se conservará la forma de calcular el margen mostrado al usuario.
+Matriz de conexiones: una fila y columna por nodo; 1 indica arista.
 
-No se trasladan resultados de demostración como rendimiento predictivo institucional.
 
-## 9.8. Pendientes y criterio de cierre
+| Nodo | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 2 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 4 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 0 |
+| 6 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 |
+| 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-Permanecen por comprobar despliegue remoto, carga y rendimiento representativos, restauración externa, validación predictiva institucional y aceptación por usuarios. También debe completarse la revisión del informe Power BI y su publicación cuando corresponda. Cada cierre debe enlazar el requisito con evidencia, entorno y decisión; las observaciones de una fuente anterior no se reemplazarán por una declaración general de finalización.
+
+| Camino | Secuencia | Prueba vinculada | Resultado histórico |
+| --- | --- | --- | --- |
+| 1 | 1–2–10–11 | test_caminos_registro[no_asignado] | Aprobado |
+| 2 | 1–2–3–10–11 | test_caminos_registro[estado] | Aprobado |
+| 3 | 1–2–3–4–10–11 | test_caminos_registro[fuera_ruta] | Aprobado |
+| 4 | 1–2–3–4–5–10–11 | test_caminos_registro[sin_generacion_con_detalle] | Aprobado |
+| 5 | 1–2–3–4–5–6–10–11 | test_caminos_registro[sin_detalle] | Aprobado |
+| 6 | 1–2–3–4–5–6–7–10–11 | test_caminos_registro[excede_kg] | Aprobado |
+| 7 | 1–2–3–4–5–6–7–8–10–11 | test_caminos_registro[excede_litros] | Aprobado |
+| 8 | 1–2–3–4–5–6–7–8–9–11 | test_caminos_registro[valido] | Aprobado |
+
+### 9.4.2. CU15 Asignar personal y vehículos a la jornada
+
+<!-- figh: generador/figuras/fase_final/c9_seq_cu15.png | Secuencia de CU15 y sus rechazos -->
+
+<!-- fig: generador/figuras/fase_final/c9_grafo_cu15.png | Grafo de mensajes del CU15 -->
+
+N=11; E=17; predicados=7. V(G)=E−N+2=17-11+2=8; P+1=7+1=8; regiones=8.
+
+
+| Nodo | Mensaje o condición | Referencia |
+| --- | --- | --- |
+| 1 | Solicitud y estado de la jornada | 1–4 |
+| 2 | ¿Estado no admite asignación? | 5 |
+| 3 | ¿Responsable ausente? | 6 |
+| 4 | ¿Responsable fuera del personal? | 7 |
+| 5 | ¿Personal no operativo o inactivo? | 8–9 |
+| 6 | ¿Vehículo fuera de servicio? | 10–11 |
+| 7 | ¿Personal ocupado en el turno? | 12–13 |
+| 8 | ¿Vehículo ocupado en el turno? | 14 |
+| 9 | Persistir asignación y auditar | 15–18 |
+| 10 | Rechazo y mensaje al supervisor | 5, 6, 7, 9, 11, 13, 14 |
+| 11 | Fin | 19 |
+
+Matriz de conexiones: una fila y columna por nodo; 1 indica arista.
+
+
+| Nodo | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 2 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 4 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 5 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 0 |
+| 6 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 |
+| 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+
+| Camino | Secuencia | Prueba vinculada | Resultado histórico |
+| --- | --- | --- | --- |
+| 1 | 1–2–10–11 | test_caminos_asignacion[estado] | Aprobado |
+| 2 | 1–2–3–10–11 | test_caminos_asignacion[sin_responsable] | Aprobado |
+| 3 | 1–2–3–4–10–11 | test_caminos_asignacion[fuera_personal] | Aprobado |
+| 4 | 1–2–3–4–5–10–11 | test_caminos_asignacion[inactivo] | Aprobado |
+| 5 | 1–2–3–4–5–6–10–11 | test_caminos_asignacion[vehiculo_fuera] | Aprobado |
+| 6 | 1–2–3–4–5–6–7–10–11 | test_caminos_asignacion[personal_ocupado] | Aprobado |
+| 7 | 1–2–3–4–5–6–7–8–10–11 | test_caminos_asignacion[vehiculo_ocupado] | Aprobado |
+| 8 | 1–2–3–4–5–6–7–8–9–11 | test_caminos_asignacion[valido] | Aprobado |
+
+### 9.4.3. CU28 Predecir generación futura y emitir alertas
+
+<!-- figh: generador/figuras/fase_final/c9_seq_cu28.png | Secuencia de CU28 y sus rechazos -->
+
+<!-- fig: generador/figuras/fase_final/c9_grafo_cu28.png | Grafo de mensajes del CU28 -->
+
+N=14; E=21; predicados=8. V(G)=E−N+2=21-14+2=9; P+1=8+1=9; regiones=9.
+
+
+| Nodo | Mensaje o condición | Referencia |
+| --- | --- | --- |
+| 1 | Solicitud y horizonte máximo | 1–4 |
+| 2 | ¿Horizonte fuera de rango? | 5 |
+| 3 | ¿Sin modelo publicado? | 6–7 |
+| 4 | ¿Alcance sin permiso? | 8 |
+| 5 | ¿Se indicó sector? | guarda opt |
+| 6 | Filtrar por sector | 9 |
+| 7 | ¿Se indicó punto? | guarda opt |
+| 8 | Filtrar por punto | 10 |
+| 9 | ¿Sin puntos activos? | 11 |
+| 10 | ¿Sin historial reciente? | 12–13 |
+| 11 | ¿Sin días de recolección? | 14–15 |
+| 12 | Inferir, guardar lote y evaluar alertas | 16–20 |
+| 13 | Rechazo y mensaje al supervisor | 5, 7, 8, 11, 13, 15 |
+| 14 | Fin | 21 |
+
+Matriz de conexiones: una fila y columna por nodo; 1 indica arista.
+
+
+| Nodo | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 2 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 4 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 5 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 6 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 |
+| 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+
+| Camino | Secuencia | Prueba vinculada | Resultado histórico |
+| --- | --- | --- | --- |
+| 1 | 1–2–13–14 | test_rechazos_prediccion[horizonte_cero] | Aprobado |
+| 2 | 1–2–3–13–14 | test_entrena_publica_predice_y_revierte | Aprobado |
+| 3 | 1–2–3–4–13–14 | test_rechazos_prediccion[sector_ajeno] | Aprobado |
+| 4 | 1–2–3–4–5–7–9–13–14 | test_rechazos_prediccion[sin_puntos] | Aprobado |
+| 5 | 1–2–3–4–5–7–9–10–13–14 | test_rechazos_prediccion[sin_historia] | Aprobado |
+| 6 | 1–2–3–4–5–7–9–10–11–13–14 | test_rechazos_prediccion[sin_dias] | Aprobado |
+| 7 | 1–2–3–4–5–7–9–10–11–12–14 | test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada | Aprobado |
+| 8 | 1–2–3–4–5–6–7–9–10–11–12–14 | test_prediccion_con_filtros[sector] | Aprobado |
+| 9 | 1–2–3–4–5–7–8–9–10–11–12–14 | test_prediccion_con_filtros[punto] | Aprobado |
+
+## 9.5. Listas de comprobación adaptadas
+
+Se adaptan las categorías de inspección de Myers, Sandler y Badgett (2012), capítulo 3. Son criterios de revisión, no una certificación del producto.
+
+| Categoría genérica | Comprobación DSU | Resultado y evidencia |
+| --- | --- | --- |
+| Datos y declaraciones | Variables definidas y tipos coherentes | Ruff; tipos Decimal en cantidades; no implica precisión predictiva real |
+| Cálculo | Conversión kg/g y agregados | test_etl_estandariza_deriva_variables_y_excluye_duplicados |
+| Comparaciones y límites | Horizonte fuera de rango, capacidad y periodos | test_rechazos_prediccion; test_caminos_registro; comparación de periodos |
+| Flujo de control | Estados de jornada y caminos de rechazo | test_flujo_completo_de_jornada y caja blanca anterior |
+| Interfaz y autorización | Roles y sector del usuario | test_roles_y_sesion; test_supervisor_no_opera_sectores_ajenos |
+| Entrada/salida | PDF y XLSX válidos | test_reportes_exportan_y_quedan_en_bitacora |
+| Concurrencia | Arranque y asignación simultáneos | test_concurrencia_cierre, conexiones independientes |
+| Integridad | Sector/ruta y duplicado entre tandas | test_integridad_cierre; test_etl_detecta_reenvio_en_tanda_posterior |
+
+## 9.6. Herramientas por URL, móviles y seguridad
+
+Las evidencias históricas de qa_url/resumen.json registran Observatory A+ para app y sitio, W3C sin errores y SSL Labs A+/A para el sitio y A+ para la API. Las corridas Lighthouse corregidas tienen sus propios archivos. Estos resultados son de la fecha conservada; la recuperación posterior a HTTP 200 no permite declarar esos grados de seguridad vigentes sin repetir sus herramientas.
+
+El registro móvil histórico tiene 12 casos aprobados en perfiles iPhone 13 y Pixel 7, sin desbordamiento. Es emulación de navegador, no certificación de equipos físicos. ZAP fue pasivo y conserva advertencias; no acredita pentest completo. La revisión local actual no envía formularios ni ataca servicios externos.
+
+## 9.7. Rendimiento, alfa y aceptación beta
+
+RTR11 no cumplió el límite de 15 segundos con 512 puntos en la medición histórica contra Neon. La medición nueva del cierre en PostgreSQL local y API dentro del mismo proceso sí cumple los límites medidos: sus valores exactos, recuentos y rollback están en rendimiento_local.txt/json. No incluye la latencia de Azure a Neon ni la red del teléfono; no autoriza a declarar cumplimiento productivo. Las latencias móviles de producción siguen requiriendo contraste con RTR1. La carga HTTP de doce usuarios con escrituras se ejecuta solo en la demo aislada y se registra en carga_12_usuarios.txt; su resultado no se presume si hay un error en ese archivo. No se declara capacidad de ocho clientes por VM sin medirla.
+
+La alfa corresponde a comprobaciones técnicas del equipo. La beta y la aceptación por DSU son pendientes externos; el anexo C es un formato sin firmas ficticias. El modelo Random Forest fue validado con datos sintéticos; su calidad institucional requiere datos y evaluación reales.
 
 # 10. Marketing y difusión del proyecto
 
@@ -1094,7 +1260,7 @@ Para adecuar los mensajes y materiales de difusión, se definen cuatro perfiles 
 
 La estrategia de difusión se articula en tres fases progresivas:
 
-- **Fase I: Concientización y expectativa (Semanas 1 a 2):** Campaña institucional bajo el lema *«Campus Limpio, Gestión Inteligente»*. Publicación de cápsulas audiovisuales breves en redes institucionales y colocación de afiches informativos con códigos QR en los 45 puntos de recolección del campus central de la UAGRM.
+- **Fase I: Concientización y expectativa (Semanas 1 a 2):** Campaña institucional bajo el lema *«Campus Limpio, Gestión Inteligente»*. Publicación de cápsulas audiovisuales breves en redes institucionales y colocación de afiches informativos con códigos QR en los puntos seleccionados para el piloto, cuya cantidad se acordará con la DSU.
 - **Fase II: Lanzamiento oficial e inducción (Semanas 3 a 5):** Presentación del portal del proyecto ante autoridades universitarias y realización de talleres presenciales de capacitación situados en los módulos de trabajo de la DSU, entregando guías plastificadas por rol.
 - **Fase III: Consolidación e incentivos ecológicos (Semanas 6 en adelante):** Publicación mensual del ranking de facultades con mayor índice de reciclaje y presentación de los resultados del modelo predictivo en las jornadas científicas de la FICCT.
 
@@ -1122,108 +1288,55 @@ El éxito del programa de difusión y adopción se evaluará de forma continua m
 | Tiempo medio de registro | Tiempo transcurrido en el registro móvil de un vaciado | Menor a 45 segundos por punto | Trazas de auditoría del sistema |
 | Satisfacción de usuario (CSAT) | Encuesta de satisfacción aplicada tras los talleres de inducción | Mayor al 85 % de valoración positiva | Encuestas de usabilidad SUS aplicadas |
 
-# 11. Puesta en marcha y despliegue
+## 10.5. Material digital y estado de difusión
 
-## 11.1. Arquitectura y comparativa de plataformas Cloud
+Existen afiche, banner y publicaciones cuadradas en sitio-residata/marketing/ y recursos/sitio/marketing-*.png. Se revisaron las piezas visuales; no se han acreditado campañas pagadas, conversiones, clientes o ventas. Las cifras de pesaje y predicción corresponden a demostración y deben acompañarse de esa aclaración. La URL promocional volvió a responder HTTP 200; la actualización de las piezas y de las condiciones sigue a cargo del titular.
 
-Para la puesta en marcha del sistema en producción se evaluaron las alternativas de infraestructura en la nube más representativas frente a la arquitectura híbrida adoptada:
+<!-- fig: DocumentoSoftware2/recursos/sitio/marketing-banner.png | Banner comercial con interfaz de demostración -->
+<!-- fig: DocumentoSoftware2/recursos/sitio/marketing-post-kilos.png | Publicación de demostración sin atribuir resultados institucionales -->
 
-- **Amazon Web Services (AWS):** Infraestructura basada en contenedor ECS/Fargate para la API Django, servicio gestionado Amazon RDS para PostgreSQL y bucket S3 con CloudFront para el frontend y medios estáticos. Ofrece alta madurez y SLAs del 99.99 %, pero presenta costos elevados en dólares y mayor complejidad operativa para presupuestos universitarios.
-- **Microsoft Azure:** Despliegue mediante Azure App Service para Linux conectado a Azure Database for PostgreSQL Flexible Server. Facilita la gobernanza mediante suscripciones educativas, aunque mantiene costos mensuales fijos superiores a soluciones serverless.
-- **Google Cloud Platform (GCP):** Cómputo serverless mediante Cloud Run conectado a Cloud SQL para PostgreSQL y Cloud Storage. Destaca por su facturación por milisegundo de ejecución, siendo altamente escalable para cargas intermitentes.
-- **Arquitectura Híbrida Adoptada:** Despliegue del backend en una instancia AWS EC2 Linux en São Paulo, en un contenedor Docker detrás del reverse proxy Caddy (con emisión y renovación automática de certificados SSL/TLS Let's Encrypt), base de datos PostgreSQL alojada en Neon (con pooling de conexiones pgbouncer) y frontend estático distribuido en la red global de Vercel Edge Network.
+# 11. Puesta en marcha y operación
 
-La siguiente tabla compara las opciones de despliegue evaluadas:
+## 11.1. Arquitectura comprobada y comparación económica
 
-| Criterio | Amazon Web Services (AWS) | Microsoft Azure | Google Cloud Platform (GCP) | Arquitectura Híbrida Adoptada |
-| --- | --- | --- | --- | --- |
-| Cómputo Backend | ECS Fargate / EC2 Linux | Azure App Service | Cloud Run Serverless | Docker en AWS EC2 Linux con Caddy |
-| Persistencia de Datos | Amazon RDS PostgreSQL | Azure Database PostgreSQL | Cloud SQL PostgreSQL | PostgreSQL administrado en Neon |
-| Distribución Frontend | S3 + CloudFront CDN | Azure Static Web Apps | Cloud Storage + Cloud CDN | Vercel Edge Global Network |
-| Complejidad de gestión | Alta (requiere DevSecOps) | Media-Alta | Media | Baja-Media (administración ágil) |
-| Costo mensual | No cotizado | No cotizado | No cotizado | Bs. 2.186,31 (unos USD 187), presupuesto de referencia del proyecto |
+API en Azure VM Mexico Central, Caddy, Gunicorn y Docker; PostgreSQL en Neon São Paulo; aplicación React en Vercel. La consulta de Azure de la sesión anterior confirmó la VM dsu-api y suscripción Azure for Students. El sitio corporativo es independiente: inicialmente devolvió 404 y en la reverificación final devolvió 200, con contenido anterior a las correcciones locales. No se cambió el proveedor de base de datos.
 
-## 11.2. Preparación del entorno y configuración técnica
+<!-- figh: generador/figuras/fase_final/c7_despliegue.png | Topología de Azure, Vercel y Neon -->
 
-La configuración de producción desacopla estrictamente los secretos y parámetros sensibles del código fuente mediante variables de entorno seguras almacenadas en archivos protegidos con permisos de lectura restringidos:
+La comparación utiliza precios de referencia del 18/11/2026 y 730 horas/mes para 2 vCPU, 4 GB, disco de 32 GB e IPv4. Son hipótesis de presupuesto; no facturas. AWS y GCP se conservan solo como alternativas comparadas.
 
-- **Aislamiento de credenciales:** La clave secreta de Django (SECRET_KEY), credenciales de conexión a Neon PostgreSQL, tokens de servicio y configuraciones de correo se inyectan en tiempo de ejecución sin incluirse en repositorios públicos.
-- **Políticas de depuración:** Desactivación estricta del modo de depuración (DEBUG=False) en producción para evitar la exposición de trazas de error o variables de sesión ante fallos imprevistos.
-- **Reverse Proxy Caddy:** Manejo automatizado de cifrado HTTPS con certificados TLS emitidos por Let's Encrypt, forzando redirección HTTP a HTTPS y balanceando peticiones hacia el socket WSGI de Django (Gunicorn con 3 workers).
 
-## 11.3. Verificación de puesta en marcha
-
-La aceptación técnica de la instalación en producción se verifica mediante siete controles de calidad estandarizados:
-
-| Control de verificación | Evidencia requerida | Criterio de aceptación |
+| Proveedor/región | USD/mes | Fuente registrada |
 | --- | --- | --- |
-| Acceso seguro perimetral | Certificado SSL/TLS válido y redirección forzosa a HTTPS | Navegación segura sin advertencias de certificado en navegador |
-| Autenticación y roles (RBAC) | Pruebas de acceso con cuentas de los cuatro roles | Restricción estricta de rutas y rechazo de accesos no autorizados |
-| Registro operativo en campo | Ejecución de jornada de prueba completa en entorno productivo | Registro de pesaje, omisión justificada y cierre con totales consistentes |
-| Procesamiento ETL analítico | Disparo del pipeline ETL hacia el esquema estrella de hechos | Inserción sin duplicados y cálculo exacto de métricas acumuladas |
-| Consulta predictiva | Invocación del servicio con parámetros de fecha y sector | Retorno de estimación en kilogramos acompañada de margen de error |
-| Exportación de reportes | Generación de reportes consolidados en Excel y PDF | Formato legible, filtros aplicados y totales coincidentes |
-| Procedimiento de restauración | Prueba de restauración de copia de seguridad en entorno aislado | Integridad referencial comprobada al 100 % tras recuperar la base |
+| Microsoft Azure (adoptado) / Mexico Central | 39.68 | Azure Retail Prices API |
+| Amazon Web Services / São Paulo (sa-east-1) | 57.57 | AWS Price List API |
+| Google Cloud / São Paulo (southamerica-east1) | 47.28 | cloud.google.com, páginas de precios de Compute Engine, discos y red |
 
-## 11.4. Plan de continuidad operativa y recuperación ante desastres (DRP)
+La plataforma de referencia totaliza USD 74.19 al mes, Bs 865.8, para Azure, Neon, Vercel y Monitor. Si se añaden dos licencias Power BI Pro de USD 14, la referencia pasa a USD 102,19 al mes. El crédito educativo no se trata como ingreso recurrente garantizado.
 
-Para garantizar la disponibilidad de la información histórica de la universidad frente a contingencias o corrupción de datos, se define una política formal de respaldo y recuperación:
+## 11.2. Instalación, despliegue y reversión
 
-- **Frecuencia y retención de respaldos:** El servicio de respaldo ejecuta `pg_dump` en formato comprimido cada 24 horas y guarda la copia en el disco del servidor. Conserva los últimos 14 días, valor configurable.
-- **Métricas de recuperación del servicio:**
-  - *RPO (Recovery Point Objective):* Menor o igual a 24 horas, limitando la pérdida máxima tolerable de datos a los registros de la jornada inmediata anterior.
-  - *RTO (Recovery Time Objective):* Menor o igual a 2 horas, tiempo máximo previsto para provisionar una nueva instancia y restaurar el dump de base de datos.
-- **Protocolo paso a paso de restauración:**
-  1. Aprovisionamiento o verificación del clúster de base de datos destino con versión compatible de PostgreSQL.
-  2. Descarga y verificación de la suma de comprobación (checksum SHA-256) del archivo de respaldo más reciente.
-  3. Ejecución del comando de restauración: `pg_restore --clean --if-exists --no-owner -d nombre_bd archivo_backup.dump`.
-  4. Ejecución del script de comprobación de integridad referencial para verificar el conteo de tablas y consistencia de claves foráneas.
-  5. Conexión de la API backend y ejecución de la suite de pruebas de salud de endpoints (healthcheck).
+El runbook actualizado está en backend/deploy/README.md. La configuración productiva se mantiene exclusivamente en la VM. El comando Compose aplica migraciones normales al arrancar; requiere coordinación y respaldo antes de desplegar contra datos compartidos. El cierre local no ha desplegado estos cambios ni ejecutado migraciones en Neon. El titular realizará la publicación web.
 
-## 11.5. Seguridad perimetral, cabeceras HTTP y endurecimiento (Hardening)
+CI comprueba Ruff, migraciones pendientes, pytest, build frontend y ensamblado del sitio. La existencia del workflow no acredita una ejecución reciente en GitHub. Se conservan JUnit locales y el reporte histórico del contenedor por separado.
 
-El endurecimiento perimetral de la infraestructura de producción implementa las mejores prácticas de seguridad recomendadas por OWASP:
+## 11.3. Disponibilidad y monitoreo
 
-- **Cabeceras de seguridad HTTP:** Caddy y Django envían *Strict-Transport-Security* con vigencia de un año y *X-Content-Type-Options: nosniff*, y Caddy oculta la cabecera del servidor.
-- **Aislamiento CORS:** Restricción estricta de la lista blanca de orígenes permitidos en Django (*CORS_ALLOWED_ORIGINS*) exclusivamente al dominio oficial del frontend en Vercel, rechazando solicitudes cross-origin no autorizadas.
-- **Protección de tokens JWT:** El token de acceso caduca a los 30 minutos y el de refresco a las 10 horas, ambos valores configurables. La aplicación web los guarda en el almacenamiento local del navegador; pasarlos a cookies *HttpOnly* es una mejora prevista junto con la política CSP.
-- **Rotación periódica de credenciales:** Se aplica la rotación semestral de contraseñas de servicio y claves secretas de la plataforma.
+La evidencia histórica de Monitor contiene 19/19 sondeos de API, 15/15 de app y 16/16 de sitio: 50 resultados totales, no 50 de API. Es una muestra de minutos y no una disponibilidad mensual. Los objetivos comerciales de 99 % Campus y 99,5 % Red deben acordarse contractualmente y medirse durante el periodo completo.
 
-## 11.6. Estado de preparación y puesta en marcha
+El indicador del portal no declara éxito por un 404 o 500; una respuesta opaca se marca no verificable. Se conservaron seis pruebas de esa función. No se crean recursos cloud pagos para cerrar el documento.
 
-El proyecto cuenta con especificaciones de despliegue probadas en contenedores locales Linux y una base de datos demo compartida en Neon. La puesta en marcha definitiva en el dominio institucional de la universidad se encuentra planificada como fase de transición, condicionada a la autorización de la DSU-UAGRM y a la asignación del dominio correspondiente.
+## 11.4. Continuidad, respaldo y restauración
 
-<!-- figura despliegue -->
+El servicio respaldo ejecuta pg_dump diario y retiene catorce días en la VM. Una copia en el mismo servidor no protege contra pérdida de ese servidor. La copia independiente y la restauración productiva requieren procedimiento y verificación. El ensayo del cierre se realiza exclusivamente en PostgreSQL local con datos sintéticos; sus resultados, cuando aprobados, quedan en restauracion.json. No acredita que un dump productivo sea recuperable ni mide RTO institucional.
 
-## 11.7. Tipo de licencia
+RPO objetivo: 24 horas; RTO objetivo: dos horas. Permanecen objetivos hasta medirlos en el entorno correspondiente. No se aplican restauraciones, limpieza ni entrenamiento sobre Neon durante el cierre.
 
-El sistema se distribuye como software propietario de sus autores, con una licencia de uso institucional, no exclusiva y sin costo para la DSU-UAGRM. La licencia permite instalar, operar y respaldar el sistema para la gestión de residuos de la universidad. No permite sublicenciarlo ni comercializarlo sin acuerdo escrito de los autores. Las bibliotecas de terceros (Django, React, scikit-learn, Leaflet y PostgreSQL, entre otras) conservan sus licencias abiertas originales. 
+## 11.5. Licencia y propuesta de condiciones
 
-## 11.8. Términos y condiciones de uso
+Se propone licencia institucional no exclusiva y sin costo para DSU, separada de las suscripciones comerciales proyectadas. No se acredita firma de convenio, constitución concluida, registro SENAPI ni facturación electrónica habilitada. Los textos locales de términos y privacidad son borradores para revisión, con encargados Azure, Neon, Vercel y FormSubmit identificados.
 
-
-1. **Objeto.** Estos términos regulan el uso del Sistema web de gestión de residuos sólidos de la DSU-UAGRM.
-2. **Usuarios autorizados.** El acceso se limita al personal habilitado por la DSU con uno de los cuatro roles: Operativo, Supervisor, Directivo o Administrador. La cuenta es personal e intransferible.
-3. **Obligaciones del usuario.** Registrar datos veraces, custodiar su contraseña, cerrar la sesión al terminar y comunicar al administrador cualquier acceso indebido o error detectado.
-4. **Usos prohibidos.** Alterar o eliminar registros sin autorización, compartir credenciales, extraer información para fines ajenos a la DSU e intentar eludir los controles de acceso.
-5. **Registro de actividad.** Las operaciones relevantes quedan anotadas en la bitácora de auditoría con usuario, fecha y hora. El usuario acepta este registro al utilizar el sistema.
-6. **Predicciones y recomendaciones.** Las proyecciones de generación y las recomendaciones logísticas son estimaciones de apoyo. La decisión operativa corresponde al personal responsable de la DSU.
-7. **Disponibilidad.** El servicio puede interrumpirse por mantenimiento o por fallas de los proveedores de infraestructura. No se garantiza disponibilidad continua.
-8. **Propiedad intelectual.** El software pertenece a sus autores y se utiliza según la licencia de la sección 11.7. Los datos operativos registrados pertenecen a la UAGRM.
-9. **Modificaciones.** Los cambios a estos términos se comunicarán a los usuarios antes de su vigencia.
-10. **Legislación aplicable.** Estos términos se rigen por las leyes del Estado Plurinacional de Bolivia.
-
-## 11.9. Política de privacidad
-
-Bolivia no cuenta con una ley general de protección de datos personales. La política se apoya en el derecho a la privacidad y en la acción de protección de privacidad de la Constitución Política del Estado (arts. 21 y 130) y en la Ley N° 164 con su reglamento, el Decreto Supremo N° 1793.
-
-- **Datos que se tratan.** Nombre, usuario, correo electrónico y rol de cada cuenta; contraseña almacenada únicamente como resumen criptográfico; registros de operación con su autor, y la bitácora de auditoría. El sistema no solicita datos sensibles ni información de personas ajenas a la DSU.
-- **Finalidad.** Autenticar usuarios, asignar responsabilidades en las jornadas, mantener la trazabilidad de los registros y elaborar indicadores y predicciones sobre residuos. Los análisis se realizan sobre cantidades de residuos, no sobre personas.
-- **Acceso.** Cada usuario consulta la información que su rol permite. La bitácora solo es visible para el Administrador.
-- **Encargados del tratamiento.** La base de datos se aloja en Neon, la aplicación en AWS y la interfaz en Vercel. Los datos se almacenan fuera de Bolivia y viajan cifrados mediante TLS.
-- **Conservación.** Los registros operativos se conservan como histórico institucional. Las cuentas se desactivan en lugar de eliminarse para preservar la trazabilidad.
-- **Derechos.** El titular puede solicitar al administrador el acceso, la rectificación o la desactivación de sus datos mediante la DSU.
-- **Incidentes.** Un acceso indebido o una pérdida de datos se comunicará a la DSU y se registrará como problema según el SQAP.
+Los tokens JWT viven en localStorage, con access de 30 minutos y refresh de diez horas configurables. La API vuelve a comprobar permisos y alcance. No se afirma ausencia de vulnerabilidades por tener TLS y cabeceras. ETL y entrenamiento bajo demanda aún usan hilos web: un reinicio puede interrumpirlos; se recomienda ejecución por comandos controlados y supervisión hasta disponer de cola persistente.
 
 # 12. Software como producto
 
@@ -1315,7 +1428,43 @@ El reporte de incidente incluirá tarea, rol, momento, mensaje y pasos de reprod
 | Manual y videos | Tareas completas por rol | Manual por rol con capturas y material en la carpeta compartida |
 | Respaldo institucional | Solicitud formal ante la DSU | Oficio recibido por la DSU el 11/09/2026 (anexo H) |
 
+# 13. Financiamiento
+
+## 13.1. Necesidad de capital y uso de fondos
+
+Con mezcla de 50 % anual y 50 % mensual, el déficit máximo proyectado es Bs 164 540. Se propone solicitar Bs 200 000, incorporando contingencia y redondeo. Sustituye la referencia inicial de Bs 170 000, que no contemplaba el descuento anual. No se ha obtenido ni comprometido ese financiamiento.
+
+
+| Destino | Bs propuestos |
+| --- | --- |
+| Equipo (sueldos y cargas) | 131 969 |
+| Marketing y ventas | 13 727 |
+| Infraestructura en la nube | 8 576 |
+| Constitución, contabilidad e impuestos | 10 268 |
+| Contingencia (20 % y redondeo) | 35 460 |
+
+## 13.2. Fuentes y condiciones por verificar
+
+Se estudian concursos de capital semilla, FOCASE/BDP, ángeles y fondos presemilla. Las referencias históricas a Incuba Unión y otras convocatorias no acreditan convocatoria vigente, elegibilidad ni adjudicación. Un crédito requiere tasa, plazo, garantías y servicio de deuda; ese escenario no se presenta como equivalente al aporte de capital y debe recalcularse antes de solicitarlo.
+
+## 13.3. Inversionista y valoración ilustrativa
+
+Una hipótesis de Bs 200 000 por 15 % implica valoración post-money de Bs 1 333 333. La ilustración de salida al año cinco supone resultado antes de IUE multiplicado por tres, caja acumulada, deuda cero y ningún dividendo. El cobro estimado de esa participación sería Bs 255 456, con TIR anual ilustrativa de 5.0 %. Es diferente de la TIR operativa del proyecto. No hay comprador, inversión ni salida acreditados; puede perderse el capital.
+
+## 13.4. Pitch y riesgos
+
+El pitch local contiene once láminas. El HTML y su PDF deben conservar las mismas cifras que recursos/finanzas.json. La publicación del pitch y su QR depende del actualización pública de Residata por el titular. Riesgos: adopción y disposición a pagar sin validar, dependencia de nube y tipo de cambio, capacidad no medida, disponibilidad comercial no acreditada, formalización y costos de soporte.
+
+<!-- fig: DocumentoSoftware2/recursos/qr_pitch.png | Enlace público del pitch; actualización pendiente por el titular -->
+
 # Bibliografía
+
+Myers, G. J., Sandler, C., y Badgett, T. (2012). The Art of Software Testing (3.ª ed.). Wiley.
+
+Microsoft. (2026). Azure Retail Prices API y Azure Monitor. Referencias de planificación consultadas el 18/11/2026; ver recursos/finanzas.json.
+
+Mozilla, Google, Qualys y W3C. (2026). HTTP Observatory, Lighthouse, SSL Labs y Nu Validator. Resultados conservados en docs/auditoria-fase-final/qa_url/; no acreditan disponibilidad actual.
+
 
 Bigbelly. (s. f.). CLEAN software. https://bigbelly.com/products/clean-software
 

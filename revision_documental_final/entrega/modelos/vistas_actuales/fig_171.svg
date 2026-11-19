@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1600" viewBox="0 0 2700 1600"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">Topología productiva DSU / Residata</text>
+<rect x="55" y="160" width="780" height="420" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="219" font-family="Arial" font-size="42" font-weight="700">Usuarios autorizados</text>
+<text x="75" y="312" font-family="Arial" font-size="40" font-weight="400">Navegador web</text>
+<text x="75" y="392" font-family="Arial" font-size="40" font-weight="400">Aplicación React</text>
+<text x="75" y="472" font-family="Arial" font-size="40" font-weight="400">Cliente HTTPS / JWT</text>
+<rect x="960" y="160" width="780" height="420" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="980" y="219" font-family="Arial" font-size="42" font-weight="700">Vercel</text>
+<text x="980" y="312" font-family="Arial" font-size="40" font-weight="400">dsu-uagrm.vercel.app</text>
+<text x="980" y="392" font-family="Arial" font-size="40" font-weight="400">residata-bolivia.vercel.app</text>
+<text x="980" y="472" font-family="Arial" font-size="40" font-weight="400">App y portal separados</text>
+<rect x="1845" y="160" width="780" height="420" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1865" y="219" font-family="Arial" font-size="42" font-weight="700">Azure VM · Mexico Central</text>
+<text x="1865" y="312" font-family="Arial" font-size="40" font-weight="400">VM dsu-api</text>
+<text x="1865" y="392" font-family="Arial" font-size="40" font-weight="400">Caddy → Gunicorn / Django</text>
+<text x="1865" y="472" font-family="Arial" font-size="40" font-weight="400">Docker Compose</text>
+<rect x="1845" y="870" width="780" height="420" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1865" y="929" font-family="Arial" font-size="42" font-weight="700">Neon · São Paulo</text>
+<text x="1865" y="1022" font-family="Arial" font-size="40" font-weight="400">PostgreSQL con TLS</text>
+<text x="1865" y="1102" font-family="Arial" font-size="40" font-weight="400">Datos operativos y analíticos</text>
+<text x="1865" y="1182" font-family="Arial" font-size="40" font-weight="400">Predicciones / auditoría</text>
+<rect x="960" y="870" width="780" height="420" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="980" y="929" font-family="Arial" font-size="42" font-weight="700">Servicios externos</text>
+<text x="980" y="1022" font-family="Arial" font-size="40" font-weight="400">Power BI: integración</text>
+<text x="980" y="1102" font-family="Arial" font-size="40" font-weight="400">OpenStreetMap: teselas</text>
+<text x="980" y="1182" font-family="Arial" font-size="40" font-weight="400">FormSubmit: contacto</text>
+<line x1="835" y1="370" x2="960" y2="370" stroke="#444" stroke-width="3"/>
+<line x1="960" y1="370" x2="938.3892695435358" y2="380.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="960" y1="370" x2="938.3892695435358" y2="359.56082718133047" stroke="#444" stroke-width="3"/>
+<line x1="450" y1="160" x2="450" y2="95" stroke="#444" stroke-width="3"/>
+<line x1="450" y1="95" x2="2235" y2="95" stroke="#444" stroke-width="3"/>
+<line x1="2235" y1="95" x2="2235" y2="160" stroke="#444" stroke-width="3"/>
+<line x1="2235" y1="160" x2="2224.5608271813303" y2="138.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="2235" y1="160" x2="2245.4391728186697" y2="138.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="2235" y1="580" x2="2235" y2="870" stroke="#444" stroke-width="3"/>
+<line x1="2235" y1="870" x2="2224.5608271813303" y2="848.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="2235" y1="870" x2="2245.4391728186697" y2="848.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="450" y1="580" x2="450" y2="700" stroke="#444" stroke-width="3"/>
+<line x1="450" y1="700" x2="1350" y2="700" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="700" x2="1350" y2="870" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="870" x2="1339.5608271813305" y2="848.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="870" x2="1360.4391728186695" y2="848.3892695435358" stroke="#444" stroke-width="3"/>
+<text x="55" y="1407" font-family="Arial" font-size="40" font-weight="400">API: dsu-uagrm-api.mexicocentral.cloudapp.azure.com (HTTPS).</text>
+<text x="55" y="1487" font-family="Arial" font-size="40" font-weight="400">El navegador obtiene la app de Vercel y llama a la API directamente; Vercel no es un proxy.</text>
+<text x="55" y="1567" font-family="Arial" font-size="40" font-weight="400">Power BI publicado y recepción real de correo no se acreditan en esta revisión.</text>
+</svg>

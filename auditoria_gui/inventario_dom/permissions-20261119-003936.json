@@ -1,0 +1,2543 @@
+[
+  {
+    "rol": "qa_gui_003231",
+    "ruta": "/sectores",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "search",
+        "texto": "",
+        "aria": "Buscar",
+        "placeholder": "Buscar…",
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "Estado: todosActivosInactivos",
+        "aria": "Estado",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "qa_gui_003231",
+    "ruta": "/sectores",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "search",
+        "texto": "",
+        "aria": "Buscar",
+        "placeholder": "Buscar…",
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "Estado: todosActivosInactivos",
+        "aria": "Estado",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "administrativo",
+    "ruta": "/vehiculos",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Roles y permisos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/roles"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Procesamiento ETL",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/procesos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Modelo predictivo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/modelo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Parámetros",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/parametros"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Bitácora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/bitacora"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Nuevo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "search",
+        "texto": "",
+        "aria": "Buscar",
+        "placeholder": "Buscar…",
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Editar",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Desactivar",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "administrativo",
+    "ruta": "/roles",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Roles y permisos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/roles"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Procesamiento ETL",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/procesos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Modelo predictivo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/modelo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Parámetros",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/parametros"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Bitácora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/bitacora"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Nuevo rol",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "text",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Guardar rol",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Cancelar",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "administrativo",
+    "ruta": "/roles",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Roles y permisos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/roles"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Procesamiento ETL",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/procesos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Modelo predictivo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/modelo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Parámetros",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/parametros"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Bitácora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/bitacora"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Nuevo rol",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "text",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Guardar rol",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Cancelar",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "checkbox",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  }
+]

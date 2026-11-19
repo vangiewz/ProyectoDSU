@@ -1,0 +1,17 @@
+{
+  "original": "Evidencias_GUI_DSU_Residata.zip",
+  "bytes": 185560930,
+  "sha256": "5ccdde1f0055bb2cbdfeb0d084b9247c4e5f0251ba44f64806f297ab7f1e1ca6",
+  "partes": [
+    {
+      "archivo": "parte-001.bin",
+      "bytes": 94371840,
+      "sha256": "ea035f3e36e04281a67d3371720c22042fc116d5914a1bf675f65d710e7a27ce"
+    },
+    {
+      "archivo": "parte-002.bin",
+      "bytes": 91189090,
+      "sha256": "42150caa554acfb32049ff715117e409d5261ae1d4b02590fe66a6030c3022da"
+    }
+  ]
+}

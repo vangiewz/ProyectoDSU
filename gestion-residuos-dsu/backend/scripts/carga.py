@@ -110,7 +110,7 @@ def main():
                 estado, seg, _ = pedir(base, ruta, lectura, query=q)
             with candado:
                 tiempos[nombre].append(seg)
-                if estado == 0 or estado >= 500:
+                if estado == 0 or estado >= 400:
                     errores[nombre] += 1
             time.sleep(rnd.uniform(0.5, 2))  # tiempo de "pensar" de una persona
 
@@ -125,11 +125,13 @@ def main():
     print(f"\n{total} peticiones, {sum(errores.values())} errores de servidor o conexión\n")
     print("| Operación | Peticiones | Mediana | p95 | Máximo | Límite | Cumple (p95) |")
     print("|---|---|---|---|---|---|---|")
+    aprobada = total > 0 and not sum(errores.values())
     for nombre, v in sorted(tiempos.items()):
         v = sorted(v)
         p95 = v[min(len(v) - 1, int(len(v) * 0.95))]
         limite = LIMITES.get(nombre.split()[0])
         cumple = "✅" if limite and p95 <= limite and not errores[nombre] else "❌"
+        aprobada = aprobada and bool(limite and p95 <= limite and not errores[nombre])
         print(
             f"| {nombre} | {len(v)} | {statistics.median(v):.2f} s | {p95:.2f} s | {v[-1]:.2f} s | "
             f"≤ {limite} s | {cumple} |"
@@ -139,6 +141,9 @@ def main():
         ok = despues - antes == enviados[0]
         veredicto = "sin pérdida ✅" if ok else "PÉRDIDA ❌"
         print(f"\nRCM2: {enviados[0]} vaciados confirmados, {despues - antes} guardados → {veredicto}")
+        aprobada = aprobada and ok and enviados[0] > 0
+    if not aprobada:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

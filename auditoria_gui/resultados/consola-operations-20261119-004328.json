@@ -1,0 +1,590 @@
+[
+  {
+    "rol": "supervisor",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FICCT-P1Punto 1 FICCT\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FICCT-P2Punto 2 FICCT\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FICCT-P3Punto 3 FICCT\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Bajar FICCT-P1\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Subir FICCT-P1\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Quitar FICCT-P3\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FICCT-P3Punto 3 FICCT\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Guardar planificación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Confirmar y publicar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/jornadas/1051/confirmar/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Editar planificación\",\"tipo\":\"A\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051/editar\",\"texto\":\"FCET-P1Punto 1 FCET\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051/editar\",\"texto\":\"Guardar cambios de planificación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Editar planificación\",\"tipo\":\"A\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051/editar\",\"texto\":\"FICCT-P1Punto 1 FICCT\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051/editar\",\"texto\":\"FICCT-P2Punto 2 FICCT\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051/editar\",\"texto\":\"FICCT-P3Punto 3 FICCT\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051/editar\",\"texto\":\"Guardar cambios de planificación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FCET-P1Punto 1 FCET\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FCET-P2Punto 2 FCET\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FCET-P3Punto 3 FCET\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Bajar FCET-P1\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Subir FCET-P1\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Quitar FCET-P3\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FCET-P3Punto 3 FCET\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Guardar planificación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1052\",\"texto\":\"Confirmar y publicar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/jornadas/1052/confirmar/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FCET",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-concurrencia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Asignar cuadrilla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-concurrencia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1052\",\"texto\":\"Asignar cuadrilla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-concurrencia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Guardar asignación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-concurrencia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1052\",\"texto\":\"Guardar asignación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/jornadas/1052/asignar/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-concurrencia",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-asignar2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1052\",\"texto\":\"Guardar asignación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/jornadas/1052/asignar/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-asignar2",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-asignar2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1052\",\"texto\":\"Guardar asignación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-confirmar-1051",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Confirmar y publicar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-confirmar-1052",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1052\",\"texto\":\"Confirmar y publicar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "J-abrir-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "J-abrir-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Abrir jornada\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-cierre-prematuro",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Cerrar jornada\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-cierre-prematuro",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Cerrar definitivamente\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/jornadas/1051/cerrar/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-cierre-prematuro",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "operario1",
+    "caso": "I-reportar-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Incidencia\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "I-reportar-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Desborde\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "I-reportar-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Enviar incidencia\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-vaciado-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Orgánico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-vaciado-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Registrar vaciado\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/jornadas/1051/visitas/"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-vaciado-operario1",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-vaciado-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Agregar otro tipo en esta parada\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-vaciado-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Papel y cartón\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-vaciado-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Observaciones\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-vaciado-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Registrar vaciado\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-sin-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Sin residuos\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-omitir-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"No pude\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-omitir-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Acceso bloqueado\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "R-omitir-operario1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Confirmar omisión\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "tipo": "http",
+    "estado": 404,
+    "ruta": "/api/jornadas/1052/"
+  },
+  {
+    "rol": "operario1",
+    "caso": "S-alcance-operario1",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "rol": "operario1",
+    "tipo": "http",
+    "estado": 404,
+    "ruta": "/api/jornadas/1052/"
+  },
+  {
+    "rol": "operario1",
+    "caso": "S-alcance-operario1",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "rol": "operario2",
+    "caso": "J-abrir-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "J-abrir-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Abrir jornada\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "I-reportar-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Incidencia\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "I-reportar-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Desborde\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "I-reportar-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Enviar incidencia\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-vaciado-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Orgánico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-vaciado-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Registrar vaciado\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/jornadas/1052/visitas/"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-vaciado-operario2",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-vaciado-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Agregar otro tipo en esta parada\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-vaciado-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Papel y cartón\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-vaciado-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Observaciones\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-vaciado-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Registrar vaciado\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-sin-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Sin residuos\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-omitir-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"No pude\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-omitir-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Acceso bloqueado\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "caso": "R-omitir-operario2",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Confirmar omisión\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario2",
+    "tipo": "http",
+    "estado": 404,
+    "ruta": "/api/jornadas/1051/"
+  },
+  {
+    "rol": "operario2",
+    "caso": "S-alcance-operario2",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "rol": "operario2",
+    "tipo": "http",
+    "estado": 404,
+    "ruta": "/api/jornadas/1051/"
+  },
+  {
+    "rol": "operario2",
+    "caso": "S-alcance-operario2",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "I-atender",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/incidencias\",\"texto\":\"Atender\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "I-atender",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/incidencias\",\"texto\":\"Asentar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "I-atender",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/incidencias\",\"texto\":\"Atender\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "I-atender",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/incidencias\",\"texto\":\"Asentar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-cerrar-1051",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Cerrar jornada\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-cerrar-1051",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1051\",\"texto\":\"Cerrar definitivamente\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-cerrar-1052",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1052\",\"texto\":\"Cerrar jornada\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-cerrar-1052",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1052\",\"texto\":\"Cerrar definitivamente\",\"tipo\":\"BUTTON\"}"
+  }
+]

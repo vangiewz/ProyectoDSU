@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1250" viewBox="0 0 2700 1250"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="59" font-family="Arial" font-size="42" font-weight="700">Arquitectura lógica y entornos implementados</text>
+<rect x="80" y="160" width="770" height="600" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="100" y="219" font-family="Arial" font-size="42" font-weight="700">Cliente React / Vercel</text>
+<text x="100" y="312" font-family="Arial" font-size="40" font-weight="400">Pantallas por rol</text>
+<text x="100" y="397" font-family="Arial" font-size="40" font-weight="400">Cliente HTTP y JWT</text>
+<text x="100" y="482" font-family="Arial" font-size="40" font-weight="400">Mapas Leaflet / OSM</text>
+<rect x="960" y="160" width="770" height="600" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="980" y="219" font-family="Arial" font-size="42" font-weight="700">API Django / Azure VM</text>
+<text x="980" y="312" font-family="Arial" font-size="40" font-weight="400">Vistas y serializadores DRF</text>
+<text x="980" y="397" font-family="Arial" font-size="40" font-weight="400">Permisos y alcance por sector</text>
+<text x="980" y="482" font-family="Arial" font-size="40" font-weight="400">Servicios: operación, ETL, RF</text>
+<text x="980" y="567" font-family="Arial" font-size="40" font-weight="400">ORM y auditoría</text>
+<rect x="1840" y="160" width="770" height="600" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1860" y="219" font-family="Arial" font-size="42" font-weight="700">PostgreSQL / Neon</text>
+<text x="1860" y="312" font-family="Arial" font-size="40" font-weight="400">Tablas transaccionales</text>
+<text x="1860" y="397" font-family="Arial" font-size="40" font-weight="400">HechoResiduo y vistas bi_*</text>
+<text x="1860" y="482" font-family="Arial" font-size="40" font-weight="400">Predicciones y auditoría</text>
+<line x1="850" y1="490" x2="960" y2="490" stroke="#444" stroke-width="3"/>
+<line x1="960" y1="490" x2="938.3892695435358" y2="500.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="960" y1="490" x2="938.3892695435358" y2="479.56082718133047" stroke="#444" stroke-width="3"/>
+<line x1="1730" y1="490" x2="1840" y2="490" stroke="#444" stroke-width="3"/>
+<line x1="1840" y1="490" x2="1818.3892695435356" y2="500.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="1840" y1="490" x2="1818.3892695435356" y2="479.56082718133047" stroke="#444" stroke-width="3"/>
+<text x="80" y="887" font-family="Arial" font-size="40" font-weight="400">Cliente → API: HTTPS /api/ con JWT; API → Neon: PostgreSQL/TLS.</text>
+<text x="80" y="967" font-family="Arial" font-size="40" font-weight="400">La analítica y la operación comparten la misma base de datos.</text>
+<text x="80" y="1047" font-family="Arial" font-size="40" font-weight="400">Random Forest se ejecuta en Python; las recomendaciones usan reglas.</text>
+<text x="80" y="1127" font-family="Arial" font-size="40" font-weight="400">Power BI es una integración externa; su informe publicado no se acredita aquí.</text>
+</svg>

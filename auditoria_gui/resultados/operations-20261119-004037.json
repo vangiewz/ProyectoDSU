@@ -1,0 +1,316 @@
+[
+  {
+    "id": "J-crear-FICCT",
+    "titulo": "Planificar y reordenar ruta FICCT",
+    "rol": "supervisor",
+    "cu": [
+      14
+    ],
+    "inicio_utc": "2026-11-19T04:40:40.560084+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "{'jornada': 1049, 'fecha': '2026-11-19', 'turno': 'TARDE', 'sector': 'FICCT', 'ruta': '3 puntos, reordenada y persistida'}",
+    "evidencia": "capturas\\operations-20261119-004037-J-crear-FICCT.png",
+    "segundos": 3.31
+  },
+  {
+    "id": "J-crear-FCET",
+    "titulo": "Planificar y reordenar ruta FCET",
+    "rol": "supervisor",
+    "cu": [
+      14
+    ],
+    "inicio_utc": "2026-11-19T04:40:43.864666+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "{'jornada': 1050, 'fecha': '2026-11-19', 'turno': 'TARDE', 'sector': 'FCET', 'ruta': '3 puntos, reordenada y persistida'}",
+    "evidencia": "capturas\\operations-20261119-004037-J-crear-FCET.png",
+    "segundos": 3.19
+  },
+  {
+    "id": "J-concurrencia",
+    "titulo": "Reservas incompatibles en dos sesiones gráficas",
+    "rol": "supervisor",
+    "cu": [
+      15
+    ],
+    "inicio_utc": "2026-11-19T04:40:49.047615+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Dos contextos gráficos; primer guardado aceptado, segundo rechazado, formulario conserva los datos",
+    "evidencia": "capturas\\operations-20261119-004037-J-concurrencia.png",
+    "segundos": 2.62
+  },
+  {
+    "id": "J-asignar2",
+    "titulo": "Asignación alternativa válida y persistencia",
+    "rol": "supervisor",
+    "cu": [
+      15
+    ],
+    "inicio_utc": "2026-11-19T04:40:51.675542+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-asignar2.png",
+    "segundos": 1.88
+  },
+  {
+    "id": "J-confirmar-1049",
+    "titulo": "Confirmar planificación publicada",
+    "rol": "supervisor",
+    "cu": [
+      14,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:40:53.562411+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-confirmar-1049.png",
+    "segundos": 1.2
+  },
+  {
+    "id": "J-confirmar-1050",
+    "titulo": "Confirmar planificación publicada",
+    "rol": "supervisor",
+    "cu": [
+      14,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:40:54.764477+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-confirmar-1050.png",
+    "segundos": 1.11
+  },
+  {
+    "id": "J-abrir-operario1",
+    "titulo": "Operativo abre su jornada desde campo",
+    "rol": "operario1",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:40:56.085823+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-abrir-operario1.png",
+    "segundos": 2.81
+  },
+  {
+    "id": "I-reportar-operario1",
+    "titulo": "Reportar incidencia en campo",
+    "rol": "operario1",
+    "cu": [
+      10
+    ],
+    "inicio_utc": "2026-11-19T04:40:58.901483+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-I-reportar-operario1.png",
+    "segundos": 1.34
+  },
+  {
+    "id": "R-vaciado-operario1",
+    "titulo": "Registro multirresiduo con persistencia",
+    "rol": "operario1",
+    "cu": [
+      9
+    ],
+    "inicio_utc": "2026-11-19T04:41:00.242351+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Negativo y cero bloqueados; dos tipos, cantidades decimales, observación; recarga confirma atendido",
+    "evidencia": "capturas\\operations-20261119-004037-R-vaciado-operario1.png",
+    "segundos": 3.03
+  },
+  {
+    "id": "R-sin-operario1",
+    "titulo": "Visita sin generación",
+    "rol": "operario1",
+    "cu": [
+      9,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:41:03.273208+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-R-sin-operario1.png",
+    "segundos": 0.73
+  },
+  {
+    "id": "R-omitir-operario1",
+    "titulo": "Omisión justificada y recorrido completo",
+    "rol": "operario1",
+    "cu": [
+      17
+    ],
+    "inicio_utc": "2026-11-19T04:41:04.003493+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-R-omitir-operario1.png",
+    "segundos": 1.44
+  },
+  {
+    "id": "S-alcance-operario1",
+    "titulo": "Operativo no accede a jornada ajena por URL",
+    "rol": "operario1",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:41:05.443007+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_text(\"No encontrado\").first\n",
+    "evidencia": "capturas\\operations-20261119-004037-S-alcance-operario1.png",
+    "segundos": 5.22
+  },
+  {
+    "id": "J-abrir-operario2",
+    "titulo": "Operativo abre su jornada desde campo",
+    "rol": "operario2",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:41:10.861134+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-abrir-operario2.png",
+    "segundos": 2.92
+  },
+  {
+    "id": "I-reportar-operario2",
+    "titulo": "Reportar incidencia en campo",
+    "rol": "operario2",
+    "cu": [
+      10
+    ],
+    "inicio_utc": "2026-11-19T04:41:13.784633+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-I-reportar-operario2.png",
+    "segundos": 1.34
+  },
+  {
+    "id": "R-vaciado-operario2",
+    "titulo": "Registro multirresiduo con persistencia",
+    "rol": "operario2",
+    "cu": [
+      9
+    ],
+    "inicio_utc": "2026-11-19T04:41:15.139248+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Negativo y cero bloqueados; dos tipos, cantidades decimales, observación; recarga confirma atendido",
+    "evidencia": "capturas\\operations-20261119-004037-R-vaciado-operario2.png",
+    "segundos": 3.06
+  },
+  {
+    "id": "R-sin-operario2",
+    "titulo": "Visita sin generación",
+    "rol": "operario2",
+    "cu": [
+      9,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:41:18.197682+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-R-sin-operario2.png",
+    "segundos": 0.75
+  },
+  {
+    "id": "R-omitir-operario2",
+    "titulo": "Omisión justificada y recorrido completo",
+    "rol": "operario2",
+    "cu": [
+      17
+    ],
+    "inicio_utc": "2026-11-19T04:41:18.954472+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-R-omitir-operario2.png",
+    "segundos": 1.47
+  },
+  {
+    "id": "S-alcance-operario2",
+    "titulo": "Operativo no accede a jornada ajena por URL",
+    "rol": "operario2",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:41:20.420333+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_text(\"No encontrado\").first\n",
+    "evidencia": "capturas\\operations-20261119-004037-S-alcance-operario2.png",
+    "segundos": 5.25
+  },
+  {
+    "id": "I-atender",
+    "titulo": "Supervisor atiende incidencias de ambos operativos",
+    "rol": "supervisor",
+    "cu": [
+      11
+    ],
+    "inicio_utc": "2026-11-19T04:41:25.690248+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-I-atender.png",
+    "segundos": 1.73
+  },
+  {
+    "id": "J-cerrar-1049",
+    "titulo": "Cierre, consolidado y bloqueo de nuevos registros",
+    "rol": "supervisor",
+    "cu": [
+      18,
+      19
+    ],
+    "inicio_utc": "2026-11-19T04:41:27.429215+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-cerrar-1049.png",
+    "segundos": 1.83
+  },
+  {
+    "id": "J-cerrar-1050",
+    "titulo": "Cierre, consolidado y bloqueo de nuevos registros",
+    "rol": "supervisor",
+    "cu": [
+      18,
+      19
+    ],
+    "inicio_utc": "2026-11-19T04:41:29.266749+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-cerrar-1050.png",
+    "segundos": 1.86
+  },
+  {
+    "id": "R-historico",
+    "titulo": "Buscar y filtrar residuos registrados gráficamente",
+    "rol": "supervisor",
+    "cu": [
+      12
+    ],
+    "inicio_utc": "2026-11-19T04:41:31.130418+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-R-historico.png",
+    "segundos": 1.42
+  }
+]

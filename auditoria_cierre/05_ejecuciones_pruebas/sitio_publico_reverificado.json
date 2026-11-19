@@ -1,0 +1,117 @@
+{
+  "fecha_utc": "2026-11-19T04:00:19.600051+00:00",
+  "solo_lectura": true,
+  "sin_despliegue_por_el_agente": true,
+  "resultados": [
+    {
+      "ruta": "/",
+      "http": 200,
+      "bytes": 18260,
+      "sha256": "762648544daa14f1df384a392086813959b9f4a40b35fcc4808b01d191714ff3",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": false,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "planes.html",
+      "http": 200,
+      "bytes": 8982,
+      "sha256": "572aaf511cf7c85c6d19db86b5692047749793ea8c7c1b98fee1b750bb29a071",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": true,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "contacto.html",
+      "http": 200,
+      "bytes": 5978,
+      "sha256": "4330fff40d0907c8d0875eda60812f3442f0c3c81fa7a135e01797012de1bf7a",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": false,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "soporte.html",
+      "http": 200,
+      "bytes": 7267,
+      "sha256": "16d1f0c64935dc50cfaceb613f0b1952a4b196d241716e8e53d9a56f5ba85753",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": false,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "terminos.html",
+      "http": 200,
+      "bytes": 7461,
+      "sha256": "bfaa8a25de0b3550bba7065030dfe1d3f2a9ec7340096a70ae2f5830e8a540d0",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": true,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "privacidad.html",
+      "http": 200,
+      "bytes": 6120,
+      "sha256": "626c8507c1d18991311b9d6124d566736f3c044b372d12dae94df83ebc06ac29",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": false,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "marketing/",
+      "http": 200,
+      "bytes": 3803,
+      "sha256": "aff1de1b3fd34ab96338d7c95ceb62882648fc9efce410d1b1c9261a4effaa70",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": false,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "pitch/",
+      "http": 200,
+      "bytes": 12280,
+      "sha256": "96f7829b8ab81405f4a956e878f44b23902158bc9f1236d1ce5096835d663a01",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": false,
+      "ronda_200000": false,
+      "ronda_170000": true
+    },
+    {
+      "ruta": "pitch/Residata_pitch.pdf",
+      "http": 200,
+      "bytes": 578852,
+      "sha256": "e72f15c30a7bd75309dd8b3ebf0ba34653ee48f18a5fb87db0dfed2e5f41725a",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": false,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "feed.xml",
+      "http": 200,
+      "bytes": 3438,
+      "sha256": "e64f8fa62ae517111f086a142917b6de89bb83989a5ec7050e80c4764fe8be6e",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": false,
+      "ronda_200000": false,
+      "ronda_170000": false
+    },
+    {
+      "ruta": "js/site.js",
+      "http": 200,
+      "bytes": 16218,
+      "sha256": "4557e50ead9621769a1906fbed9a79efaf4a28af70817c169adf161eaa34a48f",
+      "marcador_propuesta_corregida": false,
+      "factura_electronica_afirmada": true,
+      "ronda_200000": false,
+      "ronda_170000": false
+    }
+  ]
+}

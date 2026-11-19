@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2250" viewBox="0 0 2700 2250"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">Gestión de Recolecciones y Logística</text>
+<rect x="55" y="220" width="750" height="330" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="294.0" y="408.0" font-family="Arial" font-size="58" font-weight="700">Paquete 4</text>
+<ellipse cx="1810" cy="325" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1475.5" y="346.0" font-family="Arial" font-size="56" font-weight="400">CU13. Gestionar vehículos</text>
+<line x1="805" y1="385" x2="1020" y2="325" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="325" x2="1001.9906632337124" y2="340.86391468832466" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="325" x2="996.3785854767328" y2="320.75396939248134" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="585" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1241.0" y="606.0" font-family="Arial" font-size="56" font-weight="400">CU14. Planificar jornada y ruta de recolección</text>
+<line x1="805" y1="385" x2="1020" y2="585" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="585" x2="997.0667479947623" y2="577.9242701815106" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="585" x2="1011.2870715207574" y2="562.6374223910658" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="845" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1312.5234375" y="835.0" font-family="Arial" font-size="56" font-weight="400">CU15. Asignar personal y vehículos a la</text>
+<text x="1717.0" y="897.0" font-family="Arial" font-size="56" font-weight="400">jornada</text>
+<line x1="805" y1="385" x2="1020" y2="845" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="845" x2="1001.3923134635611" y2="829.8423616034149" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="845" x2="1020.3066626049416" y2="821.0019592873349" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="1105" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1331.5" y="1126.0" font-family="Arial" font-size="56" font-weight="400">CU16. Ejecutar jornada de recolección</text>
+<line x1="805" y1="385" x2="1020" y2="1105" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="1105" x2="1003.8138630233248" y2="1087.2797017583703" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="1105" x2="1023.8193223667975" y2="1081.3058493155277" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="1365" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1445.0" y="1386.0" font-family="Arial" font-size="56" font-weight="400">CU17. Omitir punto de la ruta</text>
+<line x1="805" y1="385" x2="1020" y2="1365" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="1365" x2="1005.1723391351254" y2="1346.1283155686551" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="1365" x2="1025.5656764453277" y2="1341.6542670771312" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="1625" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1354.5" y="1646.0" font-family="Arial" font-size="56" font-weight="400">CU18. Cerrar jornada de recolección</text>
+<line x1="805" y1="385" x2="1020" y2="1625" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="1625" x2="1006.0223551277442" y2="1605.490375610353" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="1625" x2="1026.5937703955935" y2="1601.9235576405245" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="1885" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1282.0" y="1906.0" font-family="Arial" font-size="56" font-weight="400">CU19. Consultar historial de recolecciones</text>
+<line x1="805" y1="385" x2="1020" y2="1885" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="1885" x2="1006.6002347241231" y2="1865.0890409434553" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="1885" x2="1027.2673623575104" y2="1862.1267526493364" stroke="#444" stroke-width="3"/>
+<text x="55" y="2222" font-family="Arial" font-size="56" font-weight="400">«trace»: pertenencia y trazabilidad del paquete a sus casos de uso.</text>
+</svg>

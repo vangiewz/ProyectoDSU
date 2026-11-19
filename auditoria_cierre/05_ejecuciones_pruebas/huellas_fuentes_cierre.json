@@ -1,0 +1,1346 @@
+[
+  {
+    "archivo": "auditoria_cierre/actualizar_documentacion.py",
+    "sha256": "4dfb2ce3234dde02d31d3b6c6dd596c2af82d6eeaf2e01978f2d27eabf7e5531"
+  },
+  {
+    "archivo": "auditoria_cierre/cerrar_registros.py",
+    "sha256": "80f7b1a763b6c216c19a158763e0eb10ca51badd5f436f7b31b48022f872f6d5"
+  },
+  {
+    "archivo": "auditoria_cierre/conciliar_pitch.py",
+    "sha256": "307fb234fc67016f3a1c7eec98c927e1df7fa275f6f956a931f47efccc9333e0"
+  },
+  {
+    "archivo": "auditoria_cierre/crear_matrices.py",
+    "sha256": "722cd9787107b224f104bda5c895bd78f330a229b59f38dd87f1d444a656e000"
+  },
+  {
+    "archivo": "auditoria_cierre/demo_y_restauracion.py",
+    "sha256": "609484851fde389ccfaf275f3b6a51a605fedaf992ac39140cbe78fd5364b259"
+  },
+  {
+    "archivo": "auditoria_cierre/ejecutar_aislado.py",
+    "sha256": "14260490d5d6d541c79e175b32addf1bcef69fde6b3395bc10fb2eedfc1c20b2"
+  },
+  {
+    "archivo": "auditoria_cierre/empaquetar_entrega.py",
+    "sha256": "f6edbb5148e66ec8ff1f4a3536eaa917aef9e17d56caf814c7929b5a77ea91b1"
+  },
+  {
+    "archivo": "auditoria_cierre/probar_demo_ui.py",
+    "sha256": "86c13feee16410c445c77fc85eb737f916f636bc1dcbf3c3cf0cab43518484a3"
+  },
+  {
+    "archivo": "auditoria_cierre/probar_finanzas.py",
+    "sha256": "d5e2db2f9733363ef11ffd8865791ad4139728892c4b992e64bdc0e847340c7f"
+  },
+  {
+    "archivo": "auditoria_cierre/probar_sitio.py",
+    "sha256": "139a3f5017557a3e15cf2a0901d43a302a77b9cc6945bcd7c047f84c3f8358c5"
+  },
+  {
+    "archivo": "auditoria_cierre/renderizar_material.py",
+    "sha256": "57a53f3bb1eaf255e7186fd2d0f3f72baa6cff396d7485b2368dcb67ff09952f"
+  },
+  {
+    "archivo": "auditoria_cierre/verificar_entrega.py",
+    "sha256": "c6827576cbcb44a42ca8c14b2272abbb7ac13582a4ec27b79a058d47990494a6"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/tests/test_auditoria_atomica.py",
+    "sha256": "528b6b8cb25087408b1943bc56331ffaae146e11587730374d378c8767f8273a"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/tests/test_concurrencia_cierre.py",
+    "sha256": "86b6e691323fc33397ab223998ab41b42a51b758b3a79308826c2b9e463731b1"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/tests/test_integridad_cierre.py",
+    "sha256": "e64ce3a48eb2d3affd21f332096ad80f865ebb768e33790a3646a9d6c3a058c7"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/config/concurrencia.py",
+    "sha256": "5aeae8dc6c63a0ce9ee038ae20a39601182b94f14c725eb3bc40c203ba4aacdd"
+  },
+  {
+    "archivo": "sitio-residata/preparar_publicacion.py",
+    "sha256": "1a6705456e3210f8a27ebb9f7fdcf89ca133e86fafece6ee87808cf67b92c137"
+  },
+  {
+    "archivo": "sitio-residata/probar_salud.cjs",
+    "sha256": "ab1daadbd9d207b5397d5451636af6cd2f44ea4062b412155ce738e80648367d"
+  },
+  {
+    "archivo": ".github/workflows/ci.yml",
+    "sha256": "02a46f4b75a22621f2d2ef35b3dc065399d24c7e8e4d27b405664f0ec2ccd434"
+  },
+  {
+    "archivo": "DocumentoSoftware2/capturar_produccion.py",
+    "sha256": "26f23d0972692ed7564053e5a5d71b4f7304d2f079a00625312847e3b03ac633"
+  },
+  {
+    "archivo": "DocumentoSoftware2/ensamblar.py",
+    "sha256": "ef156d804015c791f823a8f158ac70d8a935625982d5ec6552af602da4e6b55b"
+  },
+  {
+    "archivo": "DocumentoSoftware2/finanzas.py",
+    "sha256": "876fc3ba4a02da0c7756ff0d64ecd43fe73389c2843eaf534865c00b47cfc5e8"
+  },
+  {
+    "archivo": "DocumentoSoftware2/generar.py",
+    "sha256": "ccfb6f6758fe146ddf8a67a7720e9a504e7dd7fe28c4aad17c1e8ad101ef2ee5"
+  },
+  {
+    "archivo": "DocumentoSoftware2/material.py",
+    "sha256": "94da30af5107d4d5fb3cfabeaf4e9fc9e3a7d5d3a1264e934496ca432e53be3f"
+  },
+  {
+    "archivo": "DocumentoSoftware2/modelos.py",
+    "sha256": "56094369add0882c34348576d189c8dfd141ee43ed2139ff5dc0f40b15520f98"
+  },
+  {
+    "archivo": "DocumentoSoftware2/prueba_movil.py",
+    "sha256": "3f98faac74ef467c1f48f4fdf146b0811695536e7b6a52a3f050c941fa83936c"
+  },
+  {
+    "archivo": "DocumentoSoftware2/publicar.ps1",
+    "sha256": "93a10e4572b5124391d19a6c021623d349cb699da5c06f00bac5099a381e1cb3"
+  },
+  {
+    "archivo": "DocumentoSoftware2/qa_url.py",
+    "sha256": "0172bcadff352e2d0f9ccfebbc63c23ba12700fb845fb25c5ade412343f47cb2"
+  },
+  {
+    "archivo": "DocumentoSoftware2/renderizar_revision.py",
+    "sha256": "74eb687e0d3f73be07ac066cbd41b498dc72cffac2de3d40ba0a4922e7af6565"
+  },
+  {
+    "archivo": "DocumentoSoftware2/revisar.ps1",
+    "sha256": "964aa2830409e83dbdaf4b0164aace6d37bce58fb5ecb76792615d49317fbf38"
+  },
+  {
+    "archivo": "DocumentoSoftware2/verificar_modelos.py",
+    "sha256": "afff7001d7ff7078a253c8c862260edf620ed4f32e0984f8b75b264b9642a100"
+  },
+  {
+    "archivo": "Paquete_PowerBI_DSU/04_codigo_referencia/gestion-residuos-dsu/backend/apps/analytics/migrations/0003_vistas_bi.py",
+    "sha256": "8cb068f024d278128487827fe83fe8c0795942cae170b62416ce75a326613826"
+  },
+  {
+    "archivo": "Paquete_PowerBI_DSU/04_codigo_referencia/gestion-residuos-dsu/backend/apps/analytics/services/indicadores.py",
+    "sha256": "bac654cb06e78d1f222273209a1d8c265be3dc8b6ba7a5574a1dd92e937b0596"
+  },
+  {
+    "archivo": "Paquete_PowerBI_DSU/04_codigo_referencia/gestion-residuos-dsu/backend/apps/analytics/views/analitica.py",
+    "sha256": "041ff3e19a4dcbade3aee0ff7cc41f64acdc62e6d75502c3e3f609b60a7ba62e"
+  },
+  {
+    "archivo": "Paquete_PowerBI_DSU/04_codigo_referencia/gestion-residuos-dsu/backend/apps/catalogs/migrations/0004_parametrossistema_url_powerbi.py",
+    "sha256": "ba6d5946a5e746d15beba603b26bb8f888cdb5a5a1d0cb0425b3d305c2baea7c"
+  },
+  {
+    "archivo": "Paquete_PowerBI_DSU/04_codigo_referencia/gestion-residuos-dsu/backend/apps/catalogs/models/parametros.py",
+    "sha256": "ac842cbd151490e455e414286b9ad02a94fba0f0295fd003fde016a29a35f82d"
+  },
+  {
+    "archivo": "Paquete_PowerBI_DSU/04_codigo_referencia/gestion-residuos-dsu/backend/apps/prediction/migrations/0003_vistas_bi.py",
+    "sha256": "10fe1d8d0ebd6689f23af1a7711daf73b7d523e74fa3b4618f6ed74725d3f281"
+  },
+  {
+    "archivo": "Paquete_PowerBI_DSU/04_codigo_referencia/gestion-residuos-dsu/frontend/src/pages/Sistema.tsx",
+    "sha256": "5f0c3019c3bedb94e3658866228013edcedac78749345651d55b03f33d012251"
+  },
+  {
+    "archivo": "Paquete_PowerBI_DSU/04_codigo_referencia/gestion-residuos-dsu/frontend/src/pages/Tablero.tsx",
+    "sha256": "3cdec6dfb7f58ea52ce9434afb3ee6f80d2008eafeacc3576105fda2510d259d"
+  },
+  {
+    "archivo": "clases/extraer_evidencias_2026-11-11.py",
+    "sha256": "a3c60ca1ca16a325ff23924308bc147d18aeadef62f88fe9e7e9d0e199911177"
+  },
+  {
+    "archivo": "clases/transcribir_2026-11-06.py",
+    "sha256": "1c79fcc9305ac488b76fd81b9e77abeefc512cf34f635adfd671b545659166a1"
+  },
+  {
+    "archivo": "clases/transcribir_2026-11-11.py",
+    "sha256": "b4a6328580ddc51a7bd9faa5cb66bd7605027d4dbc3a0f4e62c4cba3a9bb8616"
+  },
+  {
+    "archivo": "clases/transcribir_revision_2026-10-26.py",
+    "sha256": "8979e930db5b4241e538c39808766c9925a44595f48b5e3a20f5de3969d75e9c"
+  },
+  {
+    "archivo": "docs/auditoria-2026-10-28/extraer.py",
+    "sha256": "e86b2cee493337d862fc6c9b56ccd90c2dd1b1fc402919e1e6df6a92e1334daf"
+  },
+  {
+    "archivo": "docs/auditoria-2026-10-28/figuras.py",
+    "sha256": "5c9c045a9cac377ed58462ed5d24ed07ac567ba180fc6b7866808f3343e3bd79"
+  },
+  {
+    "archivo": "docs/auditoria-2026-10-28/paginas.py",
+    "sha256": "421366c36c2c5c538730a1ad7209ef98f74a1ac729f3c06ba35cae95a0fbeb67"
+  },
+  {
+    "archivo": "docs/auditoria-2026-10-28/verificar.py",
+    "sha256": "b20133217011522acebc018ac8c91bc56ebcdfa8383188ad949c95039b6f0087"
+  },
+  {
+    "archivo": "docs/auditoria-fase-final/seguridad/autenticado/auth_hook.py",
+    "sha256": "d036ba76d278ee1b885af81697ba8e05a95a9e7866de054ee33d256d8a4a6f2a"
+  },
+  {
+    "archivo": "docs/auditoria-fase-final/seguridad/verificado/auth_hook.py",
+    "sha256": "d036ba76d278ee1b885af81697ba8e05a95a9e7866de054ee33d256d8a4a6f2a"
+  },
+  {
+    "archivo": "generador/build.py",
+    "sha256": "dccbbc15346fbd824f56c02ef6178b556620c9d913faf687e3e7c552ebcfddba"
+  },
+  {
+    "archivo": "generador/cap1.py",
+    "sha256": "9859c219200fb0cd746897b369e5c373de465e7df61168428abc1db6b51bc821"
+  },
+  {
+    "archivo": "generador/cap2.py",
+    "sha256": "c86a66772ddfbd6e2ba4d48160f35c34b9a8a29c15e344e6e9350c7f74225009"
+  },
+  {
+    "archivo": "generador/cap3.py",
+    "sha256": "9b3dfff0aa359c2887b9a6a3edaf12b2b17c5eb2064266d8b9f04aba3befbf31"
+  },
+  {
+    "archivo": "generador/cap4.py",
+    "sha256": "94a48a37285b2ce83c5a6fc21e0654fdbb81f07818cd1bbfd67372a43f7ec954"
+  },
+  {
+    "archivo": "generador/contenido.py",
+    "sha256": "02b7df6cbd1dca5b2dbec77444fc8e5bee4c87b31aa8ccfb4396e4b83a5c02d3"
+  },
+  {
+    "archivo": "generador/fase2/analisis.py",
+    "sha256": "05b14f769c137ad4436f900d3857d882fc970edba96e4b8a6a80e7c1e9edb67a"
+  },
+  {
+    "archivo": "generador/fase2/cap5.py",
+    "sha256": "763b3a1a3c2cf9c8fe9e2372010a540c9e1df73f351e9f0bb4045db17cbf6ed9"
+  },
+  {
+    "archivo": "generador/fase2/cap6.py",
+    "sha256": "46783c4cb56fd6d51ee2e6b75c90225082461494419bf761da794930d11cf9b8"
+  },
+  {
+    "archivo": "generador/fase2/cap7.py",
+    "sha256": "cc4848d96aabfad3d0c452012d97395873e96f67a922573d51acd8dbfc5da08d"
+  },
+  {
+    "archivo": "generador/fase2/capturas.py",
+    "sha256": "6e073d9163f44108683af2763461969dbdb1995c4de62520952b501573200b6f"
+  },
+  {
+    "archivo": "generador/fase2/datos.py",
+    "sha256": "fff064a21305b23bf2ef7cedbc48aa4bf8b7c27ceb15edd111b7384cc453f4fc"
+  },
+  {
+    "archivo": "generador/fase2/disenio.py",
+    "sha256": "73ce3f78305c5c8c427fde5858eac40f26629029402950f3637cbfcf71e26065"
+  },
+  {
+    "archivo": "generador/fase2/ea_cap7.py",
+    "sha256": "a4949edba7c782f25b9b46534313287945d9f016c03f4f56a19e024f3d3e7a1b"
+  },
+  {
+    "archivo": "generador/fase2/ea_fase1.py",
+    "sha256": "8bda9a489f71d3b9a57945dd4053f0594aca5bc9f99eb18d3a48a931596afdd9"
+  },
+  {
+    "archivo": "generador/fase2/ea_modelo.py",
+    "sha256": "6e83a258ce309e0b803bb9686bbf86bfbab731c7709b9aa970f25859ef529754"
+  },
+  {
+    "archivo": "generador/fase2/ea_util.py",
+    "sha256": "4b97660f15b9740a5158b332f399698f3e5dc3e8ee23054bc4d16a01f2529a68"
+  },
+  {
+    "archivo": "generador/fase2/esquema.py",
+    "sha256": "d94c7fbc6bafad2a5d767c5f99be45d1d1633a6abcd30440e3cad7fad5063141"
+  },
+  {
+    "archivo": "generador/fase2/insertar.py",
+    "sha256": "c844b7e66cb82e6cf6270fbc5c01ca8afb4a2c37886c747d9709b46cef30453e"
+  },
+  {
+    "archivo": "generador/fase2/interfaces.py",
+    "sha256": "44a13923a0a55d375152ad58b9f495c7f6a64bbfc19041a8fef8cc129b81dc3d"
+  },
+  {
+    "archivo": "generador/fase2/tokens.py",
+    "sha256": "cbf3e24282ab88a8479dd70d974792adc8e1cd8722ab19e9012b1094cf4b4b2b"
+  },
+  {
+    "archivo": "generador/fase_final/ajuste_paginado.py",
+    "sha256": "10c48a8d89ea012fa9005136097ba9bcd7e688f3eab1d564226c6a2b6dc5063e"
+  },
+  {
+    "archivo": "generador/fase_final/ajuste_rnf15.py",
+    "sha256": "698e46fbe38962887a55bd20e23289361302de1520c7a2b91ca8084aedde7ce3"
+  },
+  {
+    "archivo": "generador/fase_final/auditar.py",
+    "sha256": "f27d5c42d60b913d353744d0332a6441cd3b7269cd01c4e1d87b4eef8eefa105"
+  },
+  {
+    "archivo": "generador/fase_final/auditar_powerbi.py",
+    "sha256": "c02a0b1934b0a546bc94cd405ed57493b1d1941ac039166be99b58a9823c8045"
+  },
+  {
+    "archivo": "generador/fase_final/auditar_powerbi_medidas.py",
+    "sha256": "e3423a10ca1a070d87b9badaf092971c902a37eb8e94dfc26487dde3b376ba4d"
+  },
+  {
+    "archivo": "generador/fase_final/auditar_ui.py",
+    "sha256": "0c4b1c74291fff4e417f2696b7bae7295067268a70709237c18d40eaa3d880cb"
+  },
+  {
+    "archivo": "generador/fase_final/caja_blanca.py",
+    "sha256": "ef47263cd864a8933b0dce8c06bf6676999eb4ef78b717f401d248c2d8c21acb"
+  },
+  {
+    "archivo": "generador/fase_final/cap10.py",
+    "sha256": "de99787c98d91bb5d8045a70f168b0ee2aedb5047d50147ca48ec814e58a98ed"
+  },
+  {
+    "archivo": "generador/fase_final/cap8.py",
+    "sha256": "de1ba35e2695bc7c91ffb7bca010eeb305294fdaef388657817696138df1ca05"
+  },
+  {
+    "archivo": "generador/fase_final/cap9.py",
+    "sha256": "8e018afb616928f388ce236d7c779405ad0ee10e8bf1cb2b40ee33d86f91c131"
+  },
+  {
+    "archivo": "generador/fase_final/componentes.py",
+    "sha256": "1191cea767d28fd26d9c19155019f46fcb43114d66f1e0e2d0b4eefef162c842"
+  },
+  {
+    "archivo": "generador/fase_final/continuidad_maquetacion.py",
+    "sha256": "a5dfb1b4cc77983f6a5e3695c7dd411999c7271e88f095567329c98c34e504f1"
+  },
+  {
+    "archivo": "generador/fase_final/costos.py",
+    "sha256": "1d20a8303184bfc1e96646be4552aaa913e63b40a40a69a57e00d37ed833ceec"
+  },
+  {
+    "archivo": "generador/fase_final/datos_cp.py",
+    "sha256": "5411c092a39435c2b5924c955848603ad92c7cc6e0ea29d4ecbed9a662fafe60"
+  },
+  {
+    "archivo": "generador/fase_final/datos_ui.py",
+    "sha256": "61d97c952c614bf082d5dd4c5a5fd6bebebc8012966b7181151201cbbbbf39d4"
+  },
+  {
+    "archivo": "generador/fase_final/ea_final.py",
+    "sha256": "90c9c8d56ab011dd2a65276e8c291c44645258194de9758ebb67a0d884777c9b"
+  },
+  {
+    "archivo": "generador/fase_final/ea_general_cu.py",
+    "sha256": "9e86805fc1a629ee96d6da7ac973e07e4ae916a08af9f0d08074815ecfdedbb6"
+  },
+  {
+    "archivo": "generador/fase_final/ea_revision_visual.py",
+    "sha256": "9ba692755cee76952ad43684af56bc8e15be8cbdc53a4a85195313df89693ab8"
+  },
+  {
+    "archivo": "generador/fase_final/ensamblar.py",
+    "sha256": "56f8527ab077119e548cac98729bc460979fc0400a314ab39311921063d0fa6e"
+  },
+  {
+    "archivo": "generador/fase_final/evidencia_cp.py",
+    "sha256": "f2230240227f8e8310db08a1bc44c2b12edaacdfc486d01e39222baf4b42feb7"
+  },
+  {
+    "archivo": "generador/fase_final/evidencias_pytest.py",
+    "sha256": "04bf644b1c6a3853eecffbb24a7dc0ac57139660d3def5af6eca0f0504078733"
+  },
+  {
+    "archivo": "generador/fase_final/finales.py",
+    "sha256": "abc59689a9a9831f47316084217052d9b552fa7f7836c230d5a8fc14ce02e833"
+  },
+  {
+    "archivo": "generador/fase_final/fuentes.py",
+    "sha256": "19a798bc59d23d34160b41ef9b01e9ae0a1635c6488aa1d429b57c659e39b64f"
+  },
+  {
+    "archivo": "generador/fase_final/inventario.py",
+    "sha256": "545ecb997df0fd9028e383f3b7ab2c32ecd13b499d448479f005c511dab7e8cd"
+  },
+  {
+    "archivo": "generador/fase_final/paginas_tablas.py",
+    "sha256": "ee9e4b51fc9bc2360678d99266d49870dcd86dbcf9c2460e192f3a2bfaa693cd"
+  },
+  {
+    "archivo": "generador/fase_final/preliminares.py",
+    "sha256": "49aa299b569592f2e872b886d53278d7edf2f4ab227dc4f5811155024bd7cdc2"
+  },
+  {
+    "archivo": "generador/fase_final/preparar_traspaso_powerbi.py",
+    "sha256": "f0e886f7368d88ab423a50139a1e44b2d4b1a3f14dadb908f843513eb6e71c99"
+  },
+  {
+    "archivo": "generador/fase_final/pruebas_aisladas.py",
+    "sha256": "e9b18bb96a5f396f0c5a49b24c3a44c3727c830def940b4eb135fda4bb864a38"
+  },
+  {
+    "archivo": "generador/fase_final/pruebas_linux.py",
+    "sha256": "4c03af8029b45c7f901ee60af9592b02f2262650777d267e1bfc1016e9234e70"
+  },
+  {
+    "archivo": "generador/fase_final/qa_pdf.py",
+    "sha256": "19223d3f48e72bce6f2e6dc00fa9337f055a7fb5aa1334109dd841bd188d87b2"
+  },
+  {
+    "archivo": "generador/fase_final/render_pdf.py",
+    "sha256": "82dbca78ca55d4bd8e12bfabbefd05520b4ca4f2b41eca39b01d16a97983e289"
+  },
+  {
+    "archivo": "generador/fase_final/render_word_pdf.py",
+    "sha256": "b6f5ba62a3dd12e8244c361cbb037cf9a0277017105fcecd782823b37856b65b"
+  },
+  {
+    "archivo": "generador/fase_final/revision_global.py",
+    "sha256": "c157aa86afb7cc6208ab17271a7c2f119866ce1b7a4c81569d18713d3f52fd63"
+  },
+  {
+    "archivo": "generador/fase_final/secuencias_caja_blanca.py",
+    "sha256": "bf21dea4ba1fd7426cb643e1b3c0392cc48738d30539ff9de478a181ef6433f0"
+  },
+  {
+    "archivo": "generador/fase_final/seguridad_aislada.py",
+    "sha256": "fd8456236733e04a76b251066df7c18642e7f29d2d6a630e0e6be881de2b1a0a"
+  },
+  {
+    "archivo": "generador/fase_final/ui_aislada.py",
+    "sha256": "ce1a140a8de05881b31e37287a6e3eff25793fa33c81ab7738c72b74e71e7afb"
+  },
+  {
+    "archivo": "generador/fase_final/verificar_indices.py",
+    "sha256": "2db2211dc04070f9284c3d38a5112e5c7bdb920249f99f77450bb658df87cdf8"
+  },
+  {
+    "archivo": "generador/fase_final/word_exportar.py",
+    "sha256": "dab2409e48a378f1d3a77c74ae525fed3df0f891c5efaf396d0d4d7fc290e388"
+  },
+  {
+    "archivo": "generador/fase_final/zap_auth_hook.py",
+    "sha256": "d036ba76d278ee1b885af81697ba8e05a95a9e7866de054ee33d256d8a4a6f2a"
+  },
+  {
+    "archivo": "generador/fase_final/zap_figuras.py",
+    "sha256": "eacf5b8707ab1b2473de1dfbba127dccce84c01d9bbb7eac1480848b86f061a0"
+  },
+  {
+    "archivo": "generador/figuras.py",
+    "sha256": "3e63358f22830d736cf9699e0f3c0c96447bab54edd2202a56645b721f82a88f"
+  },
+  {
+    "archivo": "generador/referencias.py",
+    "sha256": "83476f971a9af3aafc3c3dc2eda72f09804ddee9290931fc47c1e044f5f73469"
+  },
+  {
+    "archivo": "generador/requisitos.py",
+    "sha256": "f558b29161c61c9c7c2f86ae6c0d4780caa767389bfd6af6283d0f09ce0b7032"
+  },
+  {
+    "archivo": "generador/svgkit.py",
+    "sha256": "ae181c6e97cb8e96bf896010af82f62601d3a4790a22f58e5f01e2b370da3a73"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/apps.py",
+    "sha256": "d1cc24a0f7d61fdc7c62917d63c55dee77b72913702e7b42d7808f2ceb85f940"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/migrations/0001_initial.py",
+    "sha256": "a3e16b25b7d8680bbd1963c7ad008f45eb315e909526843ffe034d261fa2d329"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/migrations/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/models/__init__.py",
+    "sha256": "697ae14f569a46950215e34878f407859bec88201515e714dc86634606d5fe66"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/models/user.py",
+    "sha256": "8614a85787f10ef7a34d8d4ea798759151e617c10b5b0bfb5bd0e5429c1abf82"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/permissions/__init__.py",
+    "sha256": "301bc885a6e860a55b37b9529fe34345a35e8910afe577f2c50e1540cb94110c"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/permissions/alcance.py",
+    "sha256": "81b3260e0627e1bad9956c5bb72df453fe97eb522cde04d61500a55d09efc856"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/permissions/rol.py",
+    "sha256": "35ffff141158c951be4b365250e0534e1380fbbaefbf12b64b94d93ac2882fad"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/serializers/__init__.py",
+    "sha256": "bdc599e9cd80e70186b2008f041009d06908cb98f8c78a808ad9d1e45fd91143"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/serializers/role.py",
+    "sha256": "b96f7c9696ff36e9ced2e047ebab237e9adc66e619ee1ae80efa6ba5ad920215"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/serializers/user.py",
+    "sha256": "fbb4abf39e77930fb03fe2034f4d881dd31a92bf7a84283adfc13c9f9fae3829"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/tests/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/tests/test_acceso.py",
+    "sha256": "af49ac1f585bf72586ee4e0d7e3118e2afb4a528310ed8dc055a129eabeae13a"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/tests/test_cabeceras_seguridad.py",
+    "sha256": "e0d60dc766fc7fdf2edde9c90519a2c39bd1d17e0282f5821dea6c8a6262f525"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/tests/test_roles_y_sesion.py",
+    "sha256": "c8e733e9227f2a7882de6e18a05be0ff97e975052062836d15085c00af330829"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/views/__init__.py",
+    "sha256": "6074454353714404004bf184e1b3dce3d4a560a1d89430843b8be42b55f4c9f5"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/views/auth.py",
+    "sha256": "9c56bcdc7028f03052fbdefb64d59c89ddcd556be9e0ae91ab9e6b0091747fce"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/views/role.py",
+    "sha256": "5e96609edd6d8a8ebbe30ee0af263e9cd790564cebf239668a8b0e0b25519c08"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/accounts/views/user.py",
+    "sha256": "16c9d5f2b65ef5fd2c1f1a1342ffe4641e7f631c724fa897e932ac29282e30b3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/apps.py",
+    "sha256": "1e0f7cbc81429ccca0f42b7e8e7b09102276ede6e97b13f9117f7549f3600c64"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/management/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/management/commands/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/management/commands/etl.py",
+    "sha256": "916e341af2e0897b05e2dc380d802969cd51374013bda8dcf19cffd989adbaa3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/management/commands/medir_rendimiento.py",
+    "sha256": "58dc6f87ffb2e2fce96576af404b8e407f77b6792570506bd086dfadd76331c0"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/migrations/0001_initial.py",
+    "sha256": "3f89266736b1bc8b9a95e2f27f94f96e641c7ada691d203664eb73d6c9d1caa4"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/migrations/0002_permisos_roles.py",
+    "sha256": "d8ae87d2a4d53e07eeaf0c4e49cc681c89471181e9754a35132515812fcdc9a4"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/migrations/0003_vistas_bi.py",
+    "sha256": "8cb068f024d278128487827fe83fe8c0795942cae170b62416ce75a326613826"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/migrations/0004_registro_descartado.py",
+    "sha256": "412d5099df377e60307dbaf849caaacfb9cbc404ae379f49a8ee36271a158a51"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/migrations/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/models/__init__.py",
+    "sha256": "8ce4141f5ea406e2bf819c520b7fe4924801ccafcde5ccdb44adf180326af3a4"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/models/ejecucion_etl.py",
+    "sha256": "1446a3e4be14297861b31ab33ebc0f1cfaf010ac345ec16a7540994d99b1007c"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/models/hecho_residuo.py",
+    "sha256": "71c8c3626420f5788991e56af0cbdec209dd66c3ac35ebba25e419f5174d2278"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/models/registro_descartado.py",
+    "sha256": "b6cc9530865e5e75a21f05c2dce85c830f0a6b3e7382bafb9d1e944991b0aac7"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/serializers/__init__.py",
+    "sha256": "386aefaccb3096f6e4f99fd337d2cd626a658205f2f750eb2acea2c017fca2bf"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/serializers/ejecucion_etl.py",
+    "sha256": "1a358980e96e014f12c92482b0ca331325e799bc0b780b7475f9d0a2d4d68cc5"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/services/__init__.py",
+    "sha256": "7eda7a3ad4968d79746161886b2ac0df7c74f3de2d904e641639ce4e1f53ff28"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/services/etl.py",
+    "sha256": "89c95765686075ff73e35701275a3a5f57d6246b4d2a36cd077ff3b834acad5b"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/services/indicadores.py",
+    "sha256": "bac654cb06e78d1f222273209a1d8c265be3dc8b6ba7a5574a1dd92e937b0596"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/services/reportes.py",
+    "sha256": "cec945bd45031aa8be48d35135387ba7ce70ef7b001b9831da751fe8470205bc"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/tests/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/tests/test_analitica.py",
+    "sha256": "d98c968c437eb44cb114cfff7ae479e58ed93f1ac733cb647de5cb8a6b58b45b"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/views/__init__.py",
+    "sha256": "a80ec30fb495e6af134c71d9229d615569cf80251eb3d3df53ea4eec5450ea48"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/views/analitica.py",
+    "sha256": "041ff3e19a4dcbade3aee0ff7cc41f64acdc62e6d75502c3e3f609b60a7ba62e"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/views/ejecucion_etl.py",
+    "sha256": "c8a80c96828856ac533dfe09d6c4f3c34795e9c1f9d7974487f1f832c10627ee"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/analytics/views/reportes.py",
+    "sha256": "ecba74ee667878f0ae35d71ced366609cf9d773fa657bc885166bd12167016d6"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/apps.py",
+    "sha256": "e5009d23bd7ecaf2761b8e62b74378c737102cb74fe21cf6fab62d0dda29b6cf"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/filters/__init__.py",
+    "sha256": "280ac635d703ba8f687d3f491f2aaa1225a35da93b2ed88920fb2ca7d67e8118"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/filters/audit_log.py",
+    "sha256": "a37d45c5bc2c93816adf864047e46139ee7c37c673640cf6b49fdd422b4c5108"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/migrations/0001_initial.py",
+    "sha256": "b20953ad570528236ca7dec07525900a69b175f46ec742e974d7c431e4c980b4"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/migrations/0002_bitacora_inalterable.py",
+    "sha256": "e4e7ee7c83642f7dcccd0d39dc495f16ce852e3acbc7b82f5c30854c37bb1e3d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/migrations/0003_alter_auditlog_operacion.py",
+    "sha256": "3433b8224b44abbe7bf7e0d3a292cee382c3b84a76f76401fd1da5764033354d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/migrations/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/models/__init__.py",
+    "sha256": "988f61be009184eca0e0b3230d443b28c09a2df569517833adc92728aab8c060"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/models/audit_log.py",
+    "sha256": "c5b138eed84e0a0a29a2640005965d92961b5802fc0df3261f3232981cf75aa9"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/serializers/__init__.py",
+    "sha256": "48be6f8712002ec2f1080ed1062c22cbfab3b4aa723fc6ba0c916760af44075c"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/serializers/audit_log.py",
+    "sha256": "119c364ec65445a458f53e081cadcfb533a1b7cfb5c36c63d3919aed5c2abe89"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/services/__init__.py",
+    "sha256": "1782941d95a809072bb6ac481898eebe164fd6d285a0c4be7f5c97dbf1d9469c"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/services/bitacora.py",
+    "sha256": "fe1db014e1622d50b525bdc32317648b5267c1e822695d5db95ab3042618f344"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/views/__init__.py",
+    "sha256": "905d4d30181b5573123b2b9663f818a83627ee1c591541d4f9f9eb9386b24a48"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/views/audit_log.py",
+    "sha256": "3f0b6955eafe2028ca868cf720031fc8d26b808b0eb66c362c452a9c36d154c9"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/audit/views/base.py",
+    "sha256": "6e3e3c6db6cbe01454902dd2e40ac3094adee42d307d8baca40bc6f7d435d079"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/apps.py",
+    "sha256": "d37f2a7847743f354b3f1f11cd524230de6401ed857733ed6f1af0d82b1c8a35"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/migrations/0001_initial.py",
+    "sha256": "600b64ab9b8582afe4460e26849a82b495c5c0cd55d32a17668a7c518dabbdab"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/migrations/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/models/__init__.py",
+    "sha256": "70a2a441a092fdc5446ed79f38fa11709360637501425eb3faf3420dec88c211"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/models/contenedor.py",
+    "sha256": "b83f187e15bb66e826fbabec5966774e06154220f780a249b4fe1488c37c6ca7"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/models/punto_recoleccion.py",
+    "sha256": "5d2816db02ffdb425823ab2192651f6e400ff5a4a49c20dc49a94c739aa55bb3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/models/sector.py",
+    "sha256": "225888a6a5f421b60f385474d08828b0c238f6a76cef85d7d8201c73e8953d6c"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/serializers/__init__.py",
+    "sha256": "32787673dc5c26431b26e7c37d7a1ed12e35c56c160dbd728b04422c4ebdf434"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/serializers/contenedor.py",
+    "sha256": "5b367c7f42c7bdfdc24200e8023ceefd6434b2095abfd6a3933ecb011aae0c96"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/serializers/punto_recoleccion.py",
+    "sha256": "ecf621b95b1302ab4e59d8520b06f1169c4b94d36be099c856caec5d55fb6213"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/serializers/sector.py",
+    "sha256": "6f792c67c937d906cf65647a92c5aef016f4e57eeccf052430a6c519b1b884cc"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/views/__init__.py",
+    "sha256": "61de1f98a9d948acbe217e6c6f5d7525f58c809c67d929e584128ca148970a61"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/views/contenedor.py",
+    "sha256": "d03d8998522cbac4898579ba0313f344c314b57b11e3a8cd6545b4a74cd854a1"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/views/punto_recoleccion.py",
+    "sha256": "a0f2c33d28f47978ca6ce890d64a9bba3dd99cd2d1bc1e890eab583924abf95f"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/campus/views/sector.py",
+    "sha256": "6e601121e2821b28ebc90bd1076f5011b27a12975524f3eca2d934ea912e9ba2"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/apps.py",
+    "sha256": "b316891a512c1fe0ca00b9404591bcfe38a23c3775ee6a1dd7244c49a478e39d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/migrations/0001_initial.py",
+    "sha256": "fd6f8aee902f88ae44983f09c83c769b4d016f98747a7095976695b4d874f9bf"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/migrations/0002_parametrossistema.py",
+    "sha256": "d368003d94467e019d71184336da894080c488d34468db1e7f5f0a4e3d9711f2"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/migrations/0003_parametrossistema_alerta_capacidad_pct_and_more.py",
+    "sha256": "973bc86948a6bf3aa46ad193bb3aa71c69ee2f0170b81e7600336ce8ed0418d3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/migrations/0004_parametrossistema_url_powerbi.py",
+    "sha256": "ba6d5946a5e746d15beba603b26bb8f888cdb5a5a1d0cb0425b3d305c2baea7c"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/migrations/0005_parametros_actualizado_por.py",
+    "sha256": "0540cb4fe8101d367ec8030bb4c0e5f6a202dda325c15a6262d589a6b800285d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/migrations/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/models/__init__.py",
+    "sha256": "255e2f13c0377f32f6a5d240ad7a9cf109161c07cd75ff54422e63c1010f0ff8"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/models/parametros.py",
+    "sha256": "ac842cbd151490e455e414286b9ad02a94fba0f0295fd003fde016a29a35f82d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/models/periodo_academico.py",
+    "sha256": "712a19c389c02d815d37c131e4672e87f087173a880ee57a778eb2e5fc748258"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/models/tipo_residuo.py",
+    "sha256": "e4ec2dd368de4ec400710924c6f2dd8713c37d3781dbad93eb5ede79882f3fa7"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/models/unidad_medida.py",
+    "sha256": "62e3a6c3a202f75945478967134b217f3c4aced09f55803f888798ad0e24c937"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/serializers/__init__.py",
+    "sha256": "077ecfa6f46078e5ab0a1198f3a84cc615ce999d616bdd973a06d0b78314449d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/serializers/parametros.py",
+    "sha256": "faaed808e7c433fe1895485ab725b8bc8deb61a50ef1c71656ce2de3a26ac4ca"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/serializers/periodo_academico.py",
+    "sha256": "15cf56ef72a86599c147d80b8aa8a951be62bca19e5c858f0ded404281e850a4"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/serializers/tipo_residuo.py",
+    "sha256": "4068f5b0d285308102db63a60db2e695ccb1f2163610efaa3d68b8743fb13293"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/serializers/unidad_medida.py",
+    "sha256": "d6596d2463ddc43b4c237c6d0458730b58107ab7320f4a4cda5a327ed575f796"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/views/__init__.py",
+    "sha256": "d3c0d859f86cf70fc4a344fb1b815f95ac3bac0fe176fb9e63800f0aab5e9f8f"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/views/parametros.py",
+    "sha256": "4e382b9567ce479ae95582d46074f902429d334f6ba492601596be22e545c88d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/views/periodo_academico.py",
+    "sha256": "ba8b4078f4b1eb8569487ca183e7f9e1e2c911ffbeb6796887729d39145463b9"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/views/tipo_residuo.py",
+    "sha256": "1074bc4c0dc65f42afdc1bbd2bb0564ef1db88e46546a0dbc6a592998e229d8d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/catalogs/views/unidad_medida.py",
+    "sha256": "b0d62d331cd333e168997bb1165fc656ca9771f5aab2c4e52431720c2cbdf301"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/apps.py",
+    "sha256": "b06f0963e5960fdf058e62dbbc5bbe034b04a6f17c9bcccd3390515c17c26d9b"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/filters/__init__.py",
+    "sha256": "5ac5d7bd2b3e57ecb4aeee6be1721c937bad21d0e748e963dd067144f8b82650"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/filters/jornada.py",
+    "sha256": "fbed2ddcfdc25bda86f36d0d2ed142390d7e8f2b29b58d8d1d2abe5cf916b682"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/filters/rango.py",
+    "sha256": "ab6ce38adbf78fc89824806bcb229f29a3144e6704690ff561bf92fc7a3a18df"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/filters/registro_residuo.py",
+    "sha256": "5aeb2b4454645c2b654bedb0538da95850e2f7f233e9f518acb9c250c302f934"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/management/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/management/commands/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/management/commands/seed.py",
+    "sha256": "85ce87923fe357e6d4d62eb4f5390aba3fda95bdfd044d5552f376ca9194d249"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/migrations/0001_initial.py",
+    "sha256": "e9fd72c15d643c9f8ab7ccf99ca7ded0cba51782c5156c7aa8b2891258ea4af1"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/migrations/0002_roles.py",
+    "sha256": "b48dca3f8bd1e97177b7a33f4ef103e6f92ae0eca2ce1e411d170d0c79a3a191"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/migrations/0003_fusionar_administrativo.py",
+    "sha256": "bd53b0d8b5bef87652d3be2964e72f38c34d8a354420b352392b4ade6478949b"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/migrations/0004_administrador_sin_operacion_de_campo.py",
+    "sha256": "02a75ebd965a8ce69f44e25792dbfdf1c76e8dfeafa6532cfb91b47710f4b03d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/migrations/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/models/__init__.py",
+    "sha256": "410a9dba76515aa285bd8be08981cbe501e266b34722c777c48bf2c468e24a65"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/models/incidencia.py",
+    "sha256": "512e7326401f9161218a631ec9187db4de0f4f8c170403332b47a68a3101c3aa"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/models/jornada.py",
+    "sha256": "3f9c0a5172e9664c06a5a22b42bdca1d7ef349aaf73c865e8e63f1b22727641a"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/models/registro_residuo.py",
+    "sha256": "4a20b0657a5821f0a4ad2f48865b0ca6de5c2702a44dd56e7e92ae424d6c93ba"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/models/vehiculo.py",
+    "sha256": "f1c66e843bc05949615bd3041e68b6ae1e1be0cb157d4f311a503306581e63df"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/serializers/__init__.py",
+    "sha256": "d083282f364e1d86c556e167ea43963bdc5f461b4eb44387aa45cb06505d87d0"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/serializers/incidencia.py",
+    "sha256": "fca0c94466c534252f254c03e72b40cc054d45719c9b52efe9a248d9fd362c67"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/serializers/jornada.py",
+    "sha256": "44cfac3df9f1e5d53ae0eca20e5867099a76c50a2fa2e1be3d4aff04319f6fc3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/serializers/registro_residuo.py",
+    "sha256": "feb9204c55f6d48be6618c2426b9e6fb6ed69985931ab6edadd24ac47c13eb5c"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/serializers/vehiculo.py",
+    "sha256": "d085a40599ff376ea01117dbae56c4831d65ac45bcd423cfcec35c0b09df4a51"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/serializers/visita.py",
+    "sha256": "be7e3503b65f72ce0957035d85102415eaf7a86998cb76b12d9e443ad4b2715f"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/services/__init__.py",
+    "sha256": "ebe522274cfd523f223835bd45906e9f459a919b9fdd710c108a98113a53d076"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/services/jornada.py",
+    "sha256": "878a0bb644ce64670c7f2b2f4ed10f4011d2faa58f9fc96194911dbcc7203345"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/services/visita.py",
+    "sha256": "e7e1d56a8460d9e5f71722d5b74d1a771fe6dd5d6ed30b201a59ae62a1b4ec7e"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/tests/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/tests/test_asignacion_caminos.py",
+    "sha256": "981bff298fd37c2161287fd5d486f53936e1bfe53dcc323823ccfb6009896f65"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/tests/test_jornada.py",
+    "sha256": "26ee7f04d68de01d2129812c4ac23584bf5ea93ad5471b675ab15a409d0d99e9"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/tests/test_registro_caminos.py",
+    "sha256": "31fbf6bd5bd1c4e9c23fd31f231a5cc31da9aee80089ccd11e94ab8d42521a68"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/views/__init__.py",
+    "sha256": "639c33ca7f2ef452848997c706002d4260d7395079965220ee82843551721689"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/views/incidencia.py",
+    "sha256": "d0b162212fe54e2228f1b35de5ef4c0d9360d20cbc348d15e3f17867bebdf7db"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/views/jornada.py",
+    "sha256": "43937d51c563dcad2a6887eb1e20863151472d849abc0706993d2fa712697971"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/views/registro_residuo.py",
+    "sha256": "20d6bbfe5d0abb41c3b64fabd831a13e1512ebf5b9df6782b2d9a68acb3d9248"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/operations/views/vehiculo.py",
+    "sha256": "a64e8760e34e27d7a28dbbb79572a1e8f6074eacf5b4a6201448f54fbf6c6865"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/apps.py",
+    "sha256": "c046d9854d994f8c5b88815032575b1027048dff3dd7915fd4e1eabf9e18ec21"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/management/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/management/commands/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/management/commands/entrenar.py",
+    "sha256": "55ef937d8c90602c9f4a9354c27ca14edca7405832e8e3d0dfad552c30c8bdd9"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/migrations/0001_initial.py",
+    "sha256": "0975fa10ede5fe60ea067449c4d19caebfef62a029ddf92add35e47e0e0fe9e4"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/migrations/0002_permisos_roles.py",
+    "sha256": "de1abe31ffb010532f6fc4c2ef7cf3c52dbc94598fa07da6455bf8895fcb1fed"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/migrations/0003_vistas_bi.py",
+    "sha256": "10fe1d8d0ebd6689f23af1a7711daf73b7d523e74fa3b4618f6ed74725d3f281"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/migrations/0004_alter_modeloentrenado_options.py",
+    "sha256": "d42b9ae8195ebabb205f137f93522b1813cb93ed2ebd525e5a6d333d374b3514"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/migrations/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/models/__init__.py",
+    "sha256": "947730667c88193a2f81e2157568e5959ef10373b65d9e59b0bbf46e06925df5"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/models/lote_prediccion.py",
+    "sha256": "6a2f63bb063c9a283fe912e064127722315e22d9bcc8a2214c72caa4b3378e91"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/models/modelo_entrenado.py",
+    "sha256": "408719e3a8e6cfb22cb075994da58a58eda6e104d8ceed899fdabca60bf2abce"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/models/prediccion.py",
+    "sha256": "788992f013ed6ecea2fc4b0d47fb662e1e63511be8e8321cce1de3024445de1c"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/models/recomendacion.py",
+    "sha256": "f99be00aca7f8e95773736a77baf1455dd6866977c38520e9de809405c88ae4f"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/serializers/__init__.py",
+    "sha256": "b9d6b81e6ec5eb6ad0dca9a5896f18cd000b3c8fb471ce5110a254776eaa4ed6"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/serializers/lote_prediccion.py",
+    "sha256": "d915d7ae2007fe1f4a03bfcadb3b568834938654157317934e892a967101f0c3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/serializers/modelo_entrenado.py",
+    "sha256": "a13e6ad25445b3868f5a251c23788bfec5c85e43bce4ed6769026a288120762f"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/serializers/recomendacion.py",
+    "sha256": "8246dc8fdea30c8b3d86b93e37b50ead80369bd1e43dc4fd167c986a10e8e6d2"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/services/__init__.py",
+    "sha256": "3e262c201384bb957ca1c98d4939b71f6036d33146db1c92f765c80569d26a65"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/services/datos.py",
+    "sha256": "3376cb1b5854e5259e9310793082272e5eaf47517e260c510538297c1db8313f"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/services/entrenamiento.py",
+    "sha256": "609df210f473c0be2a7afff3b51f8146c417a7b518e661b7a610c4dc2277e49b"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/services/prediccion.py",
+    "sha256": "29600fc51855f9da08de439c110d5f1a40c7a0a795d62612325fadfd182ee3c5"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/services/recomendaciones.py",
+    "sha256": "dee33efe1c83ac7cdccb92a626b508919cf69d9d98272a6be79f2435887bd0b8"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/tests/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/tests/test_prediccion.py",
+    "sha256": "582de2985f0e7be74ae049e2caa864309839b6a99a0b38be0d2a49a555e3eacf"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/tests/test_prediccion_caminos.py",
+    "sha256": "2215574dd7569b2bfb3463060885b6ea4c3f7ad04baed7a8e530d9af39f89dc3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/views/__init__.py",
+    "sha256": "2550c3fc201993eb0df5e696a21c9f5c4163ac95665a823d65c7808e8f0be9da"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/views/lote_prediccion.py",
+    "sha256": "db2e9198daa110ee9284889fc1e3a20f1ec34da5ce80048356ff434a1ec978b3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/views/modelo_entrenado.py",
+    "sha256": "3262dd255c25e19eeb18154725a33f6e11874080f1d276fa5e085acd18b02d1a"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/apps/prediction/views/recomendacion.py",
+    "sha256": "b54dd17b74cab1b685bd0da5e74f295a47f99302f2fd564cf96acfd98295be0f"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/config/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/config/middleware.py",
+    "sha256": "db958bc282b19ce19a0a09225db93c0aae66cd2e6c0c2e91ceb8cfdab481dbda"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/config/pagination.py",
+    "sha256": "a813dea7d3df1c4bdbe5d7556c73657d7062ea96302ee78867dff2911192111b"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/config/settings.py",
+    "sha256": "40e73791b666315541c994b2e5049c5e1e6a96816186279bbff3908862fa0121"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/config/urls.py",
+    "sha256": "30ec6fcd51b319c90517546aa9527d3f12789dd15753ac360832fec9a5b51f94"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/config/wsgi.py",
+    "sha256": "1b036e4775f66e44ce87bcf9fe198ab33f2db977cec7fed9de917a32f519cc17"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/conftest.py",
+    "sha256": "ed7fe83b2a4772290c5aa2ba1d1a494753ca101af304321c65b16cc4ed2139c3"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/deploy/compose.azure.yml",
+    "sha256": "3279dfca3f62fe26f15c6088b57db525b086c0d1c73a84cbbfdc7237d8e8f546"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/docker-compose.yml",
+    "sha256": "db310a6521cb0a4bbd20ef523ad4f20524eb1d7d178c679e79513cbc0bde02e9"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/manage.py",
+    "sha256": "f1f3cd9b7534077671faa844b972aa4f4dd030d547ed0a7990d5e82a5959063b"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/powerbi/generar.py",
+    "sha256": "1cc45bbb41b15c736a8d79ba5bcb99be55a25caed56f02d579aad8755f43703f"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/powerbi/tablero.py",
+    "sha256": "be1240e39b9d7d934749a6e4b35238ab1b32955ddea055d053d16fbdfc707b8e"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/scripts/carga.py",
+    "sha256": "f809883ef1826ee39a14d9dca926b425d3613fb41ec9010e89100b5b48c2ff76"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/backend/scripts/respaldo.sh",
+    "sha256": "c07eb72a1312c4a880654dd7e1c0f54c76c467e1208dadb864bad56be682477b"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/App.tsx",
+    "sha256": "bb824637120f28beadb837a579bd93b6b20a6ff5c8b8dc7d8ea2bee482e434dc"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/Crud.tsx",
+    "sha256": "8529af842bc350e01e39e4d1675a6a872e9d6b4afe27379e224adec671768843"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/EjeJornada.tsx",
+    "sha256": "c3c3e1d350f5569a791fc15c7821cd8bc586ac478dbad7752f6edab0a237e54e"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/Estimado.tsx",
+    "sha256": "a49581760e2b3287613616f5493bcc78ee28510362fb314947cc42d2a9032a5e"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/FiltrosAnalisis.tsx",
+    "sha256": "2857ebeda184e84a5f2d0d1608f62b4718b0be1179892e30640ba595ab1a5b2d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/Graficos.tsx",
+    "sha256": "62d017cfa0de271978088e736f201bc6bfc06c8c78f7bcdae5c26b41fb705c90"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/Mapa.tsx",
+    "sha256": "fcff53be6fff0f446e6f7205cc3ccff8f10157a38d444544a49f0fcb42427eb1"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/Resguardo.tsx",
+    "sha256": "71cb198096d9e58d0e5c849c3950a2f35918b031927dd9d900918887457c38f8"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/Sello.tsx",
+    "sha256": "35e87bbf9365bcce9a8048a3eed52c886dc2696db87e9d73fab3333975e6f06d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/Shell.tsx",
+    "sha256": "4c3954a76f696a91489a17dd4e4cc0556a14f366f477ecfc9918df59a4541f89"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/components/ui.tsx",
+    "sha256": "ac0a5da9495579d5cc09628700082e31f7903851af81dba839c200a2769d3285"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/leaflet-heat.d.ts",
+    "sha256": "a0abf9e4dd2a197e08f294da401c4c6a571edafb23a07850b94f9cc75e84ea29"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/lib/api.ts",
+    "sha256": "1a68a58d429aa9b981074e8fa3fbbc9ceb9d3eee2fae7e9a836494acfa03b9e0"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/lib/auth.tsx",
+    "sha256": "cd8c6d9c6ec9737947d3154eaff898f10b87dfc2130779551d697d6796caa397"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/lib/datos.ts",
+    "sha256": "5d34584dc0c898f8ff1c1a56e5e73c91d91e768af5379023c6391a36a2a6b224"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/lib/tipos.ts",
+    "sha256": "8ad7dbdfa397fe02feb0b2ea29e20af491bb75406170f555d88f9ca6b02fedc2"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/main.tsx",
+    "sha256": "cee52351bb47825ca33c489d37270450e0a9be0f1432a501fc45b4f1afb7e916"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Admin.tsx",
+    "sha256": "0e8bdd16e1efdc4d6fd8caefafe9a28726c8717c8d467b78add14948002616b2"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Campo.tsx",
+    "sha256": "5737af76bd65568845a75a6f889e5fa7045662e98cb9b60bf9d742349d4724d7"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Jornadas.tsx",
+    "sha256": "a4fa50c164d48279d70921658b4dc9a95cd593b6a5c8aeb68f0739034574b866"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Login.tsx",
+    "sha256": "25bb4da30f88727190fe0f8ea0776c9b237b789ccad399c762afb4e2be464e82"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Maestros.tsx",
+    "sha256": "8cc0cc06944de281e321248004eb20dd1e0dfbfd5b2c4833caa6649298bab6b8"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/MapaCampus.tsx",
+    "sha256": "69b65764e946cd4beccc0f020dcf75e8eef9ddb0e5615fd3e8785af8cc9097c8"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Modelo.tsx",
+    "sha256": "d10105747025b4b8141a67340be7b26d0e0187ea6fb0cdc739b3b7b9a7018777"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Prediccion.tsx",
+    "sha256": "dc1e27da2875b0df10102e9e8ab5642f7bf938e57456aca8d590bb7ea526591d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Recomendaciones.tsx",
+    "sha256": "5099eb02941cfab41fdf8cbdf03656d4379c1b1155d0b5853a55665fe59157d7"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Registros.tsx",
+    "sha256": "fafff66c67b764defdba6a947ae27127a7fc956e38f6109304a8a1171a37ff85"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Reportes.tsx",
+    "sha256": "dc7149fd1b96cf6c093ca2ba4ef7e79b0b0c82f45da002d1e9cf5bee3c426c59"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Sistema.tsx",
+    "sha256": "5f0c3019c3bedb94e3658866228013edcedac78749345651d55b03f33d012251"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/src/pages/Tablero.tsx",
+    "sha256": "3cdec6dfb7f58ea52ce9434afb3ee6f80d2008eafeacc3576105fda2510d259d"
+  },
+  {
+    "archivo": "gestion-residuos-dsu/frontend/vite.config.ts",
+    "sha256": "f8ce4ddf5c4646aaa3a871540b17c1e4afb7bfee627855d28ff85271ddd2cec6"
+  },
+  {
+    "archivo": "sitio-residata/.impeccable/capturar.py",
+    "sha256": "383b43af3e96bfd0129e8b3fea003b86686699c124b3f073c7948f8d8423f419"
+  },
+  {
+    "archivo": "sitio-residata/construir.py",
+    "sha256": "6714569536263892f03623c8fc4810c5f3fb94e9593a89eb2b966c25126ed6dc"
+  },
+  {
+    "archivo": "sitio-residata/js/contacto.js",
+    "sha256": "24487b946fe2e8e1ba32da2f1465c9d977dca3e028dfda7dde2178996c136051"
+  },
+  {
+    "archivo": "sitio-residata/js/site.js",
+    "sha256": "eb2b35b5aea48cf9d00ed33884b3743ef9c4d6ebfa9a7c680b118dbc64bb5fd9"
+  },
+  {
+    "archivo": "sitio-residata/publicar.sh",
+    "sha256": "04f144938999b4e3e01d17ff0f3e7d7c04311f6663d6e7303167d8764a9cb992"
+  }
+]

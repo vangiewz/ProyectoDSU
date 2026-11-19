@@ -1,0 +1,269 @@
+[
+  {
+    "rol": "directivo",
+    "ruta": "/reportes",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Excel",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "PDF",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Imprimir",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación por sectorKilos y litros por sector, con registros y puntos.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación por tipo de residuoTotales por tipo en el periodo.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Cumplimiento de jornadasPlanificado frente a ejecutado, con cobertura.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencias registradasTipo, gravedad, estado y acción adoptada.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Indicadores del periodoResumen gerencial de indicadores.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación proyectadaPredicción vigente por punto, con su margen de error.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosQA-editado-003231QA-editado-0028052-20261-20262-2025",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO · Biblioteca central y áreas comunesFCEE · Facultad de Ciencias Económicas y EmpresarialesFCET · Facultad de Ciencias Exactas y TecnologíaFICCT · Facultad de Ciencias de la Computación y TelecomunicacionesQA003036 · Sector GUI editado 003",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO-P1 · Punto 1 BIBLIOBIBLIO-P2 · Punto 2 BIBLIOBIBLIO-P3 · Punto 3 BIBLIOFCEE-P1 · Punto 1 FCEEFCEE-P2 · Punto 2 FCEEFCEE-P3 · Punto 3 FCEEFCET-P1 · Punto 1 FCETFCET-P2 · Punto 2 FCETFCET-P3 · Punto 3 FCETFICCT-P1 · Punto 1 FICCTFICCT-P2 · ",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosOrgánicoPapel y cartónPlástico PETResiduo GUI 002805Residuo GUI 003036Residuo GUI 003231Residuo comúnResiduo peligrosoVidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Restablecer",
+        "aria": "Restablecer filtros",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  }
+]

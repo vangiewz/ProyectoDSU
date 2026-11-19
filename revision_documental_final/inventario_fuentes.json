@@ -1,0 +1,17 @@
+[
+  {
+    "tipo": "actual",
+    "archivo": "C:\\Users\\usuario\\Downloads\\dsu\\ProyectoDSU\\DocumentoSoftware2\\Documento_Software_2_DSU.docx",
+    "sha256": "f2e209a406da2f56a81aa42f5fb015d4377841159b79015e36699029ed7b181a"
+  },
+  {
+    "tipo": "modelo",
+    "archivo": "C:\\Users\\usuario\\Downloads\\fotos de sw2\\modelo de documebto sw2.docx",
+    "sha256": "ad2e6e97c0e9e45d745ba60b3daa6a32a5dcef2c7017bc3afc73f3ddc9139e5a"
+  },
+  {
+    "tipo": "guia",
+    "archivo": "C:\\Users\\usuario\\Downloads\\Ingenieria Software 2.pdf",
+    "sha256": "5abb71f64082427cc46edfdc8cf52ef8f4644004c5a7d9b02a07ee4daf6f35c4"
+  }
+]

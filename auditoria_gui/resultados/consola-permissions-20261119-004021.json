@@ -1,0 +1,128 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "caso": "PERM-sintetico",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-inactivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Desactivar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "tipo": "http",
+    "estado": 401,
+    "ruta": "/api/auth/me/"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "caso": "PERM-inactivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "tipo": "http",
+    "estado": 401,
+    "ruta": "/api/auth/me/"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "caso": "PERM-inactivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "tipo": "http",
+    "estado": 401,
+    "ruta": "/api/auth/refresh/"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "caso": "PERM-inactivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "caso": "PERM-inactivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "tipo": "http",
+    "estado": 401,
+    "ruta": "/api/auth/login/"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "caso": "PERM-inactivo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-inactivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Activar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "qa_gui_003231",
+    "caso": "PERM-inactivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-conexion",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-conexion",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-conexion",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-conexion",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-conexion",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Cerrar sesión\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-conexion",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "PERM-prediction",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/roles\",\"texto\":\"Nuevo rol\",\"tipo\":\"BUTTON\"}"
+  }
+]

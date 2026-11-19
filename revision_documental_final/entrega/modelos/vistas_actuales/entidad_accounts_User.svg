@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1055" viewBox="0 0 2700 1055"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">accounts.User — relaciones persistentes</text>
+<text x="55" y="105" font-family="Arial" font-size="40" font-weight="400">Tabla: accounts_user</text>
+<rect x="55" y="140" width="1190" height="865" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="194" font-family="Arial" font-size="42" font-weight="700">User</text>
+<text x="75" y="255" font-family="Arial" font-size="40" font-weight="400">id: BigAutoField PK</text>
+<text x="75" y="304" font-family="Arial" font-size="40" font-weight="400">password: CharField</text>
+<text x="75" y="353" font-family="Arial" font-size="40" font-weight="400">last_login: DateTimeField</text>
+<text x="75" y="402" font-family="Arial" font-size="40" font-weight="400">is_superuser: BooleanField</text>
+<text x="75" y="451" font-family="Arial" font-size="40" font-weight="400">username: CharField</text>
+<text x="75" y="500" font-family="Arial" font-size="40" font-weight="400">first_name: CharField</text>
+<text x="75" y="549" font-family="Arial" font-size="40" font-weight="400">last_name: CharField</text>
+<text x="75" y="598" font-family="Arial" font-size="40" font-weight="400">email: EmailField</text>
+<text x="75" y="647" font-family="Arial" font-size="40" font-weight="400">is_staff: BooleanField</text>
+<text x="75" y="696" font-family="Arial" font-size="40" font-weight="400">is_active: BooleanField</text>
+<text x="75" y="745" font-family="Arial" font-size="40" font-weight="400">date_joined: DateTimeField</text>
+<text x="75" y="794" font-family="Arial" font-size="40" font-weight="400">ci: CharField</text>
+<text x="75" y="843" font-family="Arial" font-size="40" font-weight="400">telefono: CharField</text>
+<text x="75" y="892" font-family="Arial" font-size="40" font-weight="400">groups: ManyToManyField M:N</text>
+<text x="75" y="941" font-family="Arial" font-size="40" font-weight="400">user_permissions: ManyToManyField M:N</text>
+<rect x="1950" y="180.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="227.0" font-family="Arial" font-size="40" font-weight="400">auth.Group</text>
+<line x1="1245" y1="887" x2="1950" y2="235.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1941.2220769371731" y2="257.3371454466118" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1927.0462684108397" y2="242.00900892657353" stroke="#444" stroke-width="3"/>
+<text x="1260" y="877" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="225.0" font-family="Arial" font-size="40" font-weight="400">*</text>
+<rect x="1950" y="557.5" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="604.5" font-family="Arial" font-size="40" font-weight="400">auth.Permission</text>
+<line x1="1245" y1="936" x2="1950" y2="612.5" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="612.5" x2="1934.712105034152" y2="631.0008180228118" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="612.5" x2="1926.0047034879644" y2="612.0248733858341" stroke="#444" stroke-width="3"/>
+<text x="1260" y="926" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="602.5" font-family="Arial" font-size="40" font-weight="400">*</text>
+</svg>

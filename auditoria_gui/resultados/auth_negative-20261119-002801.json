@@ -1,0 +1,16 @@
+[
+  {
+    "id": "AUTH-invalid",
+    "titulo": "Vacíos bloqueados e ingreso incorrecto rechazado",
+    "rol": "anónimo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:28:02.249649+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth_negative-AUTH-invalid.png",
+    "segundos": 2.66
+  }
+]

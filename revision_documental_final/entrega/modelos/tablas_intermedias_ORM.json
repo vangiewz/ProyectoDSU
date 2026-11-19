@@ -1,0 +1,107 @@
+[
+  {
+    "origen": "auth.Group",
+    "campo": "permissions",
+    "tabla": "auth_group_permissions",
+    "unicidad": [
+      [
+        "group",
+        "permission"
+      ]
+    ],
+    "claves": [
+      {
+        "campo": "group",
+        "destino": "auth.Group"
+      },
+      {
+        "campo": "permission",
+        "destino": "auth.Permission"
+      }
+    ]
+  },
+  {
+    "origen": "accounts.User",
+    "campo": "groups",
+    "tabla": "accounts_user_groups",
+    "unicidad": [
+      [
+        "user",
+        "group"
+      ]
+    ],
+    "claves": [
+      {
+        "campo": "user",
+        "destino": "accounts.User"
+      },
+      {
+        "campo": "group",
+        "destino": "auth.Group"
+      }
+    ]
+  },
+  {
+    "origen": "accounts.User",
+    "campo": "user_permissions",
+    "tabla": "accounts_user_user_permissions",
+    "unicidad": [
+      [
+        "user",
+        "permission"
+      ]
+    ],
+    "claves": [
+      {
+        "campo": "user",
+        "destino": "accounts.User"
+      },
+      {
+        "campo": "permission",
+        "destino": "auth.Permission"
+      }
+    ]
+  },
+  {
+    "origen": "operations.Jornada",
+    "campo": "personal",
+    "tabla": "operations_jornada_personal",
+    "unicidad": [
+      [
+        "jornada",
+        "user"
+      ]
+    ],
+    "claves": [
+      {
+        "campo": "jornada",
+        "destino": "operations.Jornada"
+      },
+      {
+        "campo": "user",
+        "destino": "accounts.User"
+      }
+    ]
+  },
+  {
+    "origen": "operations.Jornada",
+    "campo": "vehiculos",
+    "tabla": "operations_jornada_vehiculos",
+    "unicidad": [
+      [
+        "jornada",
+        "vehiculo"
+      ]
+    ],
+    "claves": [
+      {
+        "campo": "jornada",
+        "destino": "operations.Jornada"
+      },
+      {
+        "campo": "vehiculo",
+        "destino": "operations.Vehiculo"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+﻿{
+  "location": "mexicocentral",
+  "name": "dsu-api",
+  "powerState": "VM running",
+  "provisioningState": "Succeeded",
+  "size": "Standard_B2als_v2"
+}

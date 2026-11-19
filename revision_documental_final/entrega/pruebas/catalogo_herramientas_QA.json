@@ -1,0 +1,138 @@
+[
+  {
+    "herramienta": "Lighthouse",
+    "version": "12.8.2",
+    "fecha_original": "2026-11-18T23:50:43.989Z",
+    "url": "https://dsu-uagrm.vercel.app/",
+    "configuracion": {
+      "formFactor": "mobile",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "throttlingMethod": "simulate",
+      "locale": "en-US"
+    },
+    "resultados": {
+      "performance": 0.95,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "archivo": "pruebas\\QA_URL_historico\\lighthouse-app-corregido.json",
+    "limite": "Ejecución histórica conservada; no medición nueva de producción"
+  },
+  {
+    "herramienta": "Lighthouse",
+    "version": "12.8.2",
+    "fecha_original": "2026-11-18T23:46:41.411Z",
+    "url": "https://dsu-uagrm.vercel.app/",
+    "configuracion": {
+      "formFactor": "mobile",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "throttlingMethod": "simulate",
+      "locale": "en-US"
+    },
+    "resultados": {
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.82
+    },
+    "archivo": "pruebas\\QA_URL_historico\\lighthouse-app.json",
+    "limite": "Ejecución histórica conservada; no medición nueva de producción"
+  },
+  {
+    "herramienta": "Lighthouse",
+    "version": "12.8.2",
+    "fecha_original": "2026-11-18T23:50:26.166Z",
+    "url": "https://residata-bolivia.vercel.app/",
+    "configuracion": {
+      "formFactor": "mobile",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "throttlingMethod": "simulate",
+      "locale": "en-US"
+    },
+    "resultados": {
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "archivo": "pruebas\\QA_URL_historico\\lighthouse-sitio-corregido.json",
+    "limite": "Ejecución histórica conservada; no medición nueva de producción"
+  },
+  {
+    "herramienta": "Lighthouse",
+    "version": "12.8.2",
+    "fecha_original": "2026-11-18T23:46:23.386Z",
+    "url": "https://residata-bolivia.vercel.app/",
+    "configuracion": {
+      "formFactor": "mobile",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "throttlingMethod": "simulate",
+      "locale": "en-US"
+    },
+    "resultados": {
+      "performance": 0.99,
+      "accessibility": 0.96,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "archivo": "pruebas\\QA_URL_historico\\lighthouse-sitio.json",
+    "limite": "Ejecución histórica conservada; no medición nueva de producción"
+  },
+  {
+    "herramienta": "Nu HTML Checker / W3C",
+    "archivo": "pruebas\\QA_URL_historico\\w3c-app.json",
+    "errores": 0,
+    "limite": "Conservar el contexto y fecha del informe original"
+  },
+  {
+    "herramienta": "Nu HTML Checker / W3C",
+    "archivo": "pruebas\\QA_URL_historico\\w3c-sitio.json",
+    "errores": 0,
+    "limite": "Conservar el contexto y fecha del informe original"
+  },
+  {
+    "herramienta": "HTTP Observatory",
+    "archivo": "pruebas\\QA_URL_historico\\observatory-app.json",
+    "resultado": {
+      "grade": "A+",
+      "score": 135,
+      "end_time": null
+    },
+    "limite": "Histórico; no certificación ni nueva ejecución"
+  },
+  {
+    "herramienta": "HTTP Observatory",
+    "archivo": "pruebas\\QA_URL_historico\\observatory-sitio.json",
+    "resultado": {
+      "grade": "A+",
+      "score": 125,
+      "end_time": null
+    },
+    "limite": "Histórico; no certificación ni nueva ejecución"
+  }
+]

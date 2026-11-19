@@ -1,0 +1,76 @@
+[
+  {
+    "id": "FINAL-plan-admin",
+    "titulo": "Planificación y asignación por Administrador",
+    "rol": "administrativo",
+    "cu": [
+      14,
+      15
+    ],
+    "inicio_utc": "2026-11-19T05:06:09.523176+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Administrador planifica, asigna y confirma; no puede abrir ni registrar campo",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-plan-admin.png",
+    "segundos": 3.22
+  },
+  {
+    "id": "FINAL-fecha",
+    "titulo": "Apertura futura rechazada",
+    "rol": "operario1",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T05:06:14.892489+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-fecha.png",
+    "segundos": 0.91
+  },
+  {
+    "id": "FINAL-responsive-1440",
+    "titulo": "Interacciones a 1440 px",
+    "rol": "administrativo",
+    "cu": [
+      3,
+      19
+    ],
+    "inicio_utc": "2026-11-19T05:06:17.863474+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Menú, navegación, formulario, cancelar, paginación; sin desborde de página",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-1440.png",
+    "segundos": 2.59
+  },
+  {
+    "id": "FINAL-responsive-820",
+    "titulo": "Interacciones a 820 px",
+    "rol": "administrativo",
+    "cu": [
+      3,
+      19
+    ],
+    "inicio_utc": "2026-11-19T05:06:22.650361+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Menú, navegación, formulario, cancelar, paginación; sin desborde de página",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-820.png",
+    "segundos": 3.05
+  },
+  {
+    "id": "FINAL-responsive-390",
+    "titulo": "Interacciones a 390 px",
+    "rol": "administrativo",
+    "cu": [
+      3,
+      19
+    ],
+    "inicio_utc": "2026-11-19T05:06:27.843115+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Menú, navegación, formulario, cancelar, paginación; sin desborde de página",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-390.png",
+    "segundos": 3.11
+  }
+]

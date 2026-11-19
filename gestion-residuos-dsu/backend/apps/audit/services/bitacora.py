@@ -6,10 +6,13 @@ Op = AuditLog.Operacion
 
 
 def snapshot(instance) -> dict:
-    """Valores de los campos simples de una instancia, aptos para guardar en la bitácora."""
-    data = model_to_dict(instance)
-    for campo in ("password", "groups", "user_permissions"):
-        data.pop(campo, None)
+    """Valores JSON: relaciones por identificador; nunca contraseñas ni sus hashes."""
+    data = model_to_dict(instance, exclude=["password"])
+    # model_to_dict devuelve instancias para M2M (p. ej. Permission en un rol).
+    # Sus identificadores permiten auditar cambios de permisos sin serializar modelos.
+    for campo in instance._meta.many_to_many:
+        if campo.name in data:
+            data[campo.name] = sorted(getattr(instance, campo.name).values_list("pk", flat=True))
     return data
 
 

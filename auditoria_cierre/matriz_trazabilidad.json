@@ -1,0 +1,1078 @@
+{
+  "rf": [
+    {
+      "rf": "RF1",
+      "nombre": "Gestionar Usuarios",
+      "casos_uso": [
+        "CU3"
+      ],
+      "app": "accounts",
+      "api": "/api/{usuarios,roles,permisos,auth}/",
+      "pantallas": "Admin.tsx; Login.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/accounts/models; accounts/views; accounts/permissions",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF2",
+      "nombre": "Gestionar Roles y Permisos",
+      "casos_uso": [
+        "CU4"
+      ],
+      "app": "accounts",
+      "api": "/api/{usuarios,roles,permisos,auth}/",
+      "pantallas": "Admin.tsx; Login.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/accounts/models; accounts/views; accounts/permissions",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF3",
+      "nombre": "Autenticar y Controlar el Acceso",
+      "casos_uso": [
+        "CU1",
+        "CU2"
+      ],
+      "app": "accounts",
+      "api": "/api/{usuarios,roles,permisos,auth}/",
+      "pantallas": "Admin.tsx; Login.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/accounts/models; accounts/views; accounts/permissions",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF4",
+      "nombre": "Gestionar Sectores y Facultades",
+      "casos_uso": [
+        "CU5"
+      ],
+      "app": "campus",
+      "api": "/api/{sectores,puntos,contenedores}/",
+      "pantallas": "Maestros.tsx; MapaCampus.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/campus/models; campus/serializers; campus/views",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py",
+        "apps/analytics/tests/test_analitica.py",
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF5",
+      "nombre": "Gestionar Puntos de Recolección Georreferenciados",
+      "casos_uso": [
+        "CU6"
+      ],
+      "app": "campus",
+      "api": "/api/{sectores,puntos,contenedores}/",
+      "pantallas": "Maestros.tsx; MapaCampus.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/campus/models; campus/serializers; campus/views",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py",
+        "apps/analytics/tests/test_analitica.py",
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF6",
+      "nombre": "Gestionar Tipos de Residuo y Unidades de Medida",
+      "casos_uso": [
+        "CU8"
+      ],
+      "app": "catalogs",
+      "api": "/api/{unidades,tipos-residuo,periodos,parametros}/",
+      "pantallas": "Maestros.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/catalogs/models; catalogs/views",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py",
+        "apps/analytics/tests/test_analitica.py",
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF7",
+      "nombre": "Gestionar Contenedores",
+      "casos_uso": [
+        "CU7"
+      ],
+      "app": "campus",
+      "api": "/api/{sectores,puntos,contenedores}/",
+      "pantallas": "Maestros.tsx; MapaCampus.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/campus/models; campus/serializers; campus/views",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py",
+        "apps/analytics/tests/test_analitica.py",
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF8",
+      "nombre": "Registrar Generación y Vaciado de Residuos",
+      "casos_uso": [
+        "CU9"
+      ],
+      "app": "operations",
+      "api": "/api/{vehiculos,jornadas,registros,incidencias}/",
+      "pantallas": "Jornadas.tsx; Campo.tsx; Registros.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/operations/models; operations/services; operations/views",
+      "pruebas_relacionadas": [
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF9",
+      "nombre": "Consultar el Histórico de Residuos",
+      "casos_uso": [
+        "CU12"
+      ],
+      "app": "operations",
+      "api": "/api/{vehiculos,jornadas,registros,incidencias}/",
+      "pantallas": "Jornadas.tsx; Campo.tsx; Registros.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/operations/models; operations/services; operations/views",
+      "pruebas_relacionadas": [
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF10",
+      "nombre": "Registrar Incidencias Operativas",
+      "casos_uso": [
+        "CU10",
+        "CU11"
+      ],
+      "app": "operations",
+      "api": "/api/{vehiculos,jornadas,registros,incidencias}/",
+      "pantallas": "Jornadas.tsx; Campo.tsx; Registros.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/operations/models; operations/services; operations/views",
+      "pruebas_relacionadas": [
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF11",
+      "nombre": "Planificar Jornadas y Rutas de Recolección",
+      "casos_uso": [
+        "CU14"
+      ],
+      "app": "operations",
+      "api": "/api/{vehiculos,jornadas,registros,incidencias}/",
+      "pantallas": "Jornadas.tsx; Campo.tsx; Registros.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/operations/models; operations/services; operations/views",
+      "pruebas_relacionadas": [
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF12",
+      "nombre": "Registrar la Ejecución de la Recolección",
+      "casos_uso": [
+        "CU16",
+        "CU17",
+        "CU18"
+      ],
+      "app": "operations",
+      "api": "/api/{vehiculos,jornadas,registros,incidencias}/",
+      "pantallas": "Jornadas.tsx; Campo.tsx; Registros.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/operations/models; operations/services; operations/views",
+      "pruebas_relacionadas": [
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF13",
+      "nombre": "Asignar Personal y Vehículos a las Jornadas",
+      "casos_uso": [
+        "CU13",
+        "CU15"
+      ],
+      "app": "operations",
+      "api": "/api/{vehiculos,jornadas,registros,incidencias}/",
+      "pantallas": "Jornadas.tsx; Campo.tsx; Registros.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/operations/models; operations/services; operations/views",
+      "pruebas_relacionadas": [
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF14",
+      "nombre": "Consultar el Historial de Recolecciones",
+      "casos_uso": [
+        "CU19"
+      ],
+      "app": "operations",
+      "api": "/api/{vehiculos,jornadas,registros,incidencias}/",
+      "pantallas": "Jornadas.tsx; Campo.tsx; Registros.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/operations/models; operations/services; operations/views",
+      "pruebas_relacionadas": [
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF15",
+      "nombre": "Ejecutar los Procesos de Extracción, Transformación y Carga",
+      "casos_uso": [
+        "CU20"
+      ],
+      "app": "analytics",
+      "api": "/api/{etl,analitica,reportes}/",
+      "pantallas": "Tablero.tsx; MapaCampus.tsx; Reportes.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/analytics/models; analytics/services; analytics/views",
+      "pruebas_relacionadas": [
+        "apps/analytics/tests/test_analitica.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF16",
+      "nombre": "Calcular los Indicadores Clave de Rendimiento",
+      "casos_uso": [
+        "CU21"
+      ],
+      "app": "analytics",
+      "api": "/api/{etl,analitica,reportes}/",
+      "pantallas": "Tablero.tsx; MapaCampus.tsx; Reportes.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/analytics/models; analytics/services; analytics/views",
+      "pruebas_relacionadas": [
+        "apps/analytics/tests/test_analitica.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF17",
+      "nombre": "Visualizar los Tableros Interactivos",
+      "casos_uso": [
+        "CU21"
+      ],
+      "app": "analytics",
+      "api": "/api/{etl,analitica,reportes}/",
+      "pantallas": "Tablero.tsx; MapaCampus.tsx; Reportes.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/analytics/models; analytics/services; analytics/views",
+      "pruebas_relacionadas": [
+        "apps/analytics/tests/test_analitica.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF18",
+      "nombre": "Comparar Periodos e Identificar Tendencias",
+      "casos_uso": [
+        "CU22"
+      ],
+      "app": "analytics",
+      "api": "/api/{etl,analitica,reportes}/",
+      "pantallas": "Tablero.tsx; MapaCampus.tsx; Reportes.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/analytics/models; analytics/services; analytics/views",
+      "pruebas_relacionadas": [
+        "apps/analytics/tests/test_analitica.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF19",
+      "nombre": "Visualizar los Puntos de Recolección en el Mapa Interactivo",
+      "casos_uso": [
+        "CU23"
+      ],
+      "app": "analytics",
+      "api": "/api/{etl,analitica,reportes}/",
+      "pantallas": "Tablero.tsx; MapaCampus.tsx; Reportes.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/analytics/models; analytics/services; analytics/views",
+      "pruebas_relacionadas": [
+        "apps/analytics/tests/test_analitica.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF20",
+      "nombre": "Generar el Mapa de Calor de Zonas Críticas",
+      "casos_uso": [
+        "CU24"
+      ],
+      "app": "analytics",
+      "api": "/api/{etl,analitica,reportes}/",
+      "pantallas": "Tablero.tsx; MapaCampus.tsx; Reportes.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/analytics/models; analytics/services; analytics/views",
+      "pruebas_relacionadas": [
+        "apps/analytics/tests/test_analitica.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF21",
+      "nombre": "Filtrar el Mapa por Periodo, Sector y Tipo de Residuo",
+      "casos_uso": [
+        "CU25"
+      ],
+      "app": "analytics",
+      "api": "/api/{etl,analitica,reportes}/",
+      "pantallas": "Tablero.tsx; MapaCampus.tsx; Reportes.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/analytics/models; analytics/services; analytics/views",
+      "pruebas_relacionadas": [
+        "apps/analytics/tests/test_analitica.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF22",
+      "nombre": "Entrenar y Evaluar el Modelo Random Forest Regressor",
+      "casos_uso": [
+        "CU26",
+        "CU27"
+      ],
+      "app": "prediction",
+      "api": "/api/{modelos,predicciones,recomendaciones}/",
+      "pantallas": "Modelo.tsx; Prediccion.tsx; Recomendaciones.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/prediction/models; prediction/services; prediction/views",
+      "pruebas_relacionadas": [
+        "apps/prediction/tests/test_prediccion.py",
+        "apps/prediction/tests/test_prediccion_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF23",
+      "nombre": "Predecir la Generación Futura de Residuos",
+      "casos_uso": [
+        "CU28"
+      ],
+      "app": "prediction",
+      "api": "/api/{modelos,predicciones,recomendaciones}/",
+      "pantallas": "Modelo.tsx; Prediccion.tsx; Recomendaciones.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/prediction/models; prediction/services; prediction/views",
+      "pruebas_relacionadas": [
+        "apps/prediction/tests/test_prediccion.py",
+        "apps/prediction/tests/test_prediccion_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF24",
+      "nombre": "Generar Alertas y Recomendaciones Logísticas",
+      "casos_uso": [
+        "CU28",
+        "CU29",
+        "CU30"
+      ],
+      "app": "prediction",
+      "api": "/api/{modelos,predicciones,recomendaciones}/",
+      "pantallas": "Modelo.tsx; Prediccion.tsx; Recomendaciones.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/prediction/models; prediction/services; prediction/views",
+      "pruebas_relacionadas": [
+        "apps/prediction/tests/test_prediccion.py",
+        "apps/prediction/tests/test_prediccion_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF25",
+      "nombre": "Administrar Catálogos y Parámetros del Modelo",
+      "casos_uso": [
+        "CU31"
+      ],
+      "app": "catalogs",
+      "api": "/api/{unidades,tipos-residuo,periodos,parametros}/",
+      "pantallas": "Maestros.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/catalogs/models; catalogs/views",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py",
+        "apps/analytics/tests/test_analitica.py",
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF26",
+      "nombre": "Registrar y Consultar la Bitácora de Auditoría",
+      "casos_uso": [
+        "CU32"
+      ],
+      "app": "audit",
+      "api": "/api/{bitacora}/",
+      "pantallas": "Admin.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/audit/models; audit/services; audit/views",
+      "pruebas_relacionadas": [
+        "apps/accounts/tests/test_acceso.py",
+        "apps/accounts/tests/test_auditoria_atomica.py",
+        "apps/accounts/tests/test_cabeceras_seguridad.py",
+        "apps/accounts/tests/test_concurrencia_cierre.py",
+        "apps/accounts/tests/test_roles_y_sesion.py",
+        "apps/analytics/tests/test_analitica.py",
+        "apps/operations/tests/test_asignacion_caminos.py",
+        "apps/operations/tests/test_integridad_cierre.py",
+        "apps/operations/tests/test_jornada.py",
+        "apps/operations/tests/test_registro_caminos.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    },
+    {
+      "rf": "RF27",
+      "nombre": "Generar, Exportar e Imprimir Reportes",
+      "casos_uso": [
+        "CU33",
+        "CU34"
+      ],
+      "app": "analytics",
+      "api": "/api/{etl,analitica,reportes}/",
+      "pantallas": "Tablero.tsx; MapaCampus.tsx; Reportes.tsx; Sistema.tsx",
+      "fuentes": "gestion-residuos-dsu/backend/apps/analytics/models; analytics/services; analytics/views",
+      "pruebas_relacionadas": [
+        "apps/analytics/tests/test_analitica.py"
+      ],
+      "estado": "Implementado; cobertura relacionada aprobada, no aceptación integral del RF"
+    }
+  ],
+  "no_funcionales": [
+    {
+      "id": "RNF1",
+      "descripcion": "El sistema deberá responder en un tiempo máximo de 2 segundos en las operaciones de búsqueda de puntos, sectores o tipos de residuo.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF2",
+      "descripcion": "El sistema deberá confirmar el registro de un vaciado en un tiempo máximo de 3 segundos desde un dispositivo móvil conectado a la red institucional.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF3",
+      "descripcion": "El sistema deberá renderizar el mapa de calor del campus en un tiempo máximo de 6 segundos para un periodo de hasta doce meses.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF4",
+      "descripcion": "El sistema deberá soportar al menos 12 usuarios concurrentes durante la jornada de recolección sin degradación crítica del servicio.",
+      "evidencia": "carga_12_usuarios.txt: 12 hilos, 60 s, 531 peticiones sin errores y 156 vaciados confirmados/persistidos; identidades compartidas de prueba. No mide la VM productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RNF5",
+      "descripcion": "La ejecución del entrenamiento del modelo predictivo no deberá afectar la disponibilidad ni el tiempo de respuesta de las funciones transaccionales.",
+      "evidencia": "Hilos web y separación de modelos: riesgo de interrupción al reiniciar; no hay cola durable.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF6",
+      "descripcion": "El sistema deberá presentar una interfaz clara y comprensible, considerando que el personal operativo no necesariamente posee conocimientos técnicos avanzados.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF7",
+      "descripcion": "Las interfaces de captura en campo deberán ser completamente responsivas y operables desde teléfonos móviles y tabletas.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF8",
+      "descripcion": "El registro de un vaciado no deberá requerir más de cuatro interacciones del usuario en el caso de uso más frecuente.",
+      "evidencia": "Interfaz Campo implementada; cuatro interacciones no instrumentadas de nuevo en todas las variantes.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF9",
+      "descripcion": "El sistema deberá mostrar mensajes de validación y error comprensibles cuando existan datos incompletos, cantidades inválidas o puntos inexistentes.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF10",
+      "descripcion": "El sistema deberá validar la consistencia entre sectores, puntos, registros de residuos y jornadas antes de almacenar cualquier operación.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF11",
+      "descripcion": "El sistema deberá conservar íntegramente los registros históricos, que constituyen la base del componente predictivo, sin permitir su eliminación física.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF12",
+      "descripcion": "El sistema deberá realizar respaldos automáticos de la información al menos una vez por día.",
+      "evidencia": "scripts/respaldo.sh y restauracion.json sintética; copia externa y recuperación productiva no demostradas.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF13",
+      "descripcion": "Las predicciones y recomendaciones deberán presentarse siempre como herramientas de apoyo y nunca deberán reemplazar automáticamente el criterio de los responsables de la dirección.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF14",
+      "descripcion": "El sistema deberá requerir autenticación mediante usuario y contraseña para el acceso a todas sus funcionalidades.",
+      "evidencia": "JUnit accounts/acceso/roles/bitácora y capturas de Directivo sin acceso.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF15",
+      "descripcion": "Las contraseñas deberán almacenarse protegidas mediante un algoritmo de resumen criptográfico con sal, sin posibilidad de recuperación en texto plano.",
+      "evidencia": "JUnit accounts/acceso/roles/bitácora y capturas de Directivo sin acceso.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF16",
+      "descripcion": "El sistema deberá aplicar control de acceso por roles y permisos tanto en la interfaz como en los servicios del servidor.",
+      "evidencia": "JUnit accounts/acceso/roles/bitácora y capturas de Directivo sin acceso.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF17",
+      "descripcion": "Las comunicaciones entre el cliente y el servidor deberán realizarse sobre un canal cifrado.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF18",
+      "descripcion": "El sistema deberá ser accesible desde navegadores web modernos, como Google Chrome, Microsoft Edge y Mozilla Firefox, sin requerir software adicional.",
+      "evidencia": "Chrome aislado y perfiles móviles históricos; no se acredita toda la matriz de navegadores/equipos.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF19",
+      "descripcion": "El sistema deberá funcionar correctamente en equipos de escritorio, portátiles, tabletas y teléfonos móviles.",
+      "evidencia": "Chrome aislado y perfiles móviles históricos; no se acredita toda la matriz de navegadores/equipos.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF20",
+      "descripcion": "El sistema deberá desarrollarse con una estructura modular que separe el plano transaccional del plano analítico y facilite la incorporación de nuevos módulos.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF21",
+      "descripcion": "Los umbrales, parámetros del modelo y definiciones del calendario académico deberán ser configurables sin modificar el código fuente.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF22",
+      "descripcion": "El sistema deberá contar con documentación técnica y funcional suficiente para facilitar su mantenimiento y su evolución futura.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF23",
+      "descripcion": "Las cantidades de residuos deberán almacenarse mediante tipos decimales de precisión fija, evitando cálculos con tipos de coma flotante que introduzcan diferencias en los agregados.",
+      "evidencia": "test_etl_convierte_cantidades_sin_error_binario; conversión persistida Decimal, floats solo para estadísticas.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF24",
+      "descripcion": "Las coordenadas geográficas deberán almacenarse con al menos seis decimales, precisión suficiente para distinguir puntos contiguos dentro del campus.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF25",
+      "descripcion": "El sistema deberá conservar el historial de las operaciones críticas, de las ejecuciones del proceso de carga y de las versiones del modelo predictivo, con su usuario, fecha y resultado.",
+      "evidencia": "JUnit accounts/acceso/roles/bitácora y capturas de Directivo sin acceso.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RNF26",
+      "descripcion": "El sistema deberá exponer su información depurada mediante interfaces que permitan su consumo desde la herramienta de visualización seleccionada.",
+      "evidencia": "Power BI: vistas/modelo disponibles y lectura SQL comprobada previamente; publicación/enlace/RLS pendientes.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RTR1",
+      "descripcion": "Menor o igual a 2 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR2",
+      "descripcion": "Menor o igual a 3 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR3",
+      "descripcion": "Menor o igual a 2 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR4",
+      "descripcion": "Menor o igual a 3 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR5",
+      "descripcion": "Menor o igual a 3 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR6",
+      "descripcion": "Menor o igual a 4 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR7",
+      "descripcion": "Menor o igual a 4 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR8",
+      "descripcion": "Menor o igual a 6 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR9",
+      "descripcion": "Menor o igual a 5 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR10",
+      "descripcion": "Menor o igual a 8 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR11",
+      "descripcion": "Menor o igual a 15 segundos",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RTR12",
+      "descripcion": "Menor o igual a 10 minutos, ejecutado de forma asíncrona",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RCM1",
+      "descripcion": "El sistema deberá soportar al menos 12 usuarios concurrentes durante la jornada de recolección sin degradación crítica del servicio.",
+      "evidencia": "carga_12_usuarios.txt: 12 hilos, 60 s, 531 peticiones sin errores y 156 vaciados confirmados/persistidos; identidades compartidas de prueba. No mide la VM productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RCM2",
+      "descripcion": "El sistema deberá admitir el registro simultáneo de vaciados por parte de distintas cuadrillas sin pérdida de información ni bloqueos.",
+      "evidencia": "carga_12_usuarios.txt: 12 hilos, 60 s, 531 peticiones sin errores y 156 vaciados confirmados/persistidos; identidades compartidas de prueba. No mide la VM productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RCM3",
+      "descripcion": "El sistema deberá soportar el manejo de al menos 500 puntos de recolección georreferenciados manteniendo tiempos de respuesta aceptables.",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RCM4",
+      "descripcion": "El componente cartográfico deberá representar simultáneamente la totalidad de los puntos activos sin degradar la fluidez de la navegación.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RCM5",
+      "descripcion": "El sistema deberá almacenar y procesar el histórico acumulado de registros de residuos sin afectar su funcionamiento general.",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RCM6",
+      "descripcion": "El sistema deberá soportar la generación de reportes por día, semana, mes, semestre o periodo académico.",
+      "evidencia": "Código y pruebas de dominio; no acredita aceptación institucional de todas las condiciones.",
+      "estado": "PARCIAL"
+    },
+    {
+      "id": "RCM7",
+      "descripcion": "El componente predictivo deberá entrenar correctamente sobre conjuntos de al menos cien mil observaciones históricas.",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    },
+    {
+      "id": "RCM8",
+      "descripcion": "El sistema deberá generar predicciones para un horizonte configurable de hasta treinta días.",
+      "evidencia": "rendimiento_local.txt/json: API en proceso local, datos sintéticos y rollback; no mide latencia productiva.",
+      "estado": "CUMPLE EN ENTORNO LOCAL"
+    }
+  ],
+  "testcases_junit": [
+    {
+      "classname": "apps.accounts.tests.test_acceso",
+      "name": "test_login_emite_tokens_y_registra_bitacora",
+      "time": "6.794"
+    },
+    {
+      "classname": "apps.accounts.tests.test_acceso",
+      "name": "test_cuenta_desactivada_no_ingresa",
+      "time": "3.559"
+    },
+    {
+      "classname": "apps.accounts.tests.test_acceso",
+      "name": "test_operativo_no_administra_usuarios",
+      "time": "2.890"
+    },
+    {
+      "classname": "apps.accounts.tests.test_acceso",
+      "name": "test_crear_usuario_valida_politica_de_contrasena",
+      "time": "3.576"
+    },
+    {
+      "classname": "apps.accounts.tests.test_acceso",
+      "name": "test_bitacora_es_inalterable",
+      "time": "2.911"
+    },
+    {
+      "classname": "apps.accounts.tests.test_auditoria_atomica",
+      "name": "test_fallo_bitacora_revierte_alta",
+      "time": "2.941"
+    },
+    {
+      "classname": "apps.accounts.tests.test_cabeceras_seguridad",
+      "name": "test_cors_del_cliente_autorizado_no_se_rompe",
+      "time": "2.939"
+    },
+    {
+      "classname": "apps.accounts.tests.test_roles_y_sesion",
+      "name": "test_logout_revoca_refresh_y_conserva_evidencia",
+      "time": "3.630"
+    },
+    {
+      "classname": "apps.accounts.tests.test_roles_y_sesion",
+      "name": "test_directivo_consulta_sin_escribir_y_admin_no_registra_campo",
+      "time": "3.565"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_etl_estandariza_deriva_variables_y_excluye_duplicados",
+      "time": "2.951"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_etl_no_permite_ejecuciones_simultaneas",
+      "time": "2.887"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_etl_detecta_reenvio_en_tanda_posterior",
+      "time": "3.019"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_etl_convierte_cantidades_sin_error_binario",
+      "time": "2.891"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_indicadores_exigen_etl_y_calculan_kpis",
+      "time": "2.849"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_punto_critico_segun_umbral_configurable",
+      "time": "2.890"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_comparacion_rechaza_periodos_superpuestos",
+      "time": "2.829"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_reportes_exportan_y_quedan_en_bitacora[xlsx-PK]",
+      "time": "2.952"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_reportes_exportan_y_quedan_en_bitacora[pdf-%PDF]",
+      "time": "3.009"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_etl_bajo_demanda_requiere_permiso",
+      "time": "2.943"
+    },
+    {
+      "classname": "apps.analytics.tests.test_analitica",
+      "name": "test_enlace_powerbi_solo_de_app_powerbi",
+      "time": "2.933"
+    },
+    {
+      "classname": "apps.operations.tests.test_asignacion_caminos",
+      "name": "test_caminos_asignacion[estado]",
+      "time": "2.977"
+    },
+    {
+      "classname": "apps.operations.tests.test_asignacion_caminos",
+      "name": "test_caminos_asignacion[sin_responsable]",
+      "time": "2.783"
+    },
+    {
+      "classname": "apps.operations.tests.test_asignacion_caminos",
+      "name": "test_caminos_asignacion[fuera_personal]",
+      "time": "2.866"
+    },
+    {
+      "classname": "apps.operations.tests.test_asignacion_caminos",
+      "name": "test_caminos_asignacion[inactivo]",
+      "time": "2.823"
+    },
+    {
+      "classname": "apps.operations.tests.test_asignacion_caminos",
+      "name": "test_caminos_asignacion[vehiculo_fuera]",
+      "time": "2.964"
+    },
+    {
+      "classname": "apps.operations.tests.test_asignacion_caminos",
+      "name": "test_caminos_asignacion[personal_ocupado]",
+      "time": "2.917"
+    },
+    {
+      "classname": "apps.operations.tests.test_asignacion_caminos",
+      "name": "test_caminos_asignacion[vehiculo_ocupado]",
+      "time": "2.902"
+    },
+    {
+      "classname": "apps.operations.tests.test_asignacion_caminos",
+      "name": "test_caminos_asignacion[valido]",
+      "time": "3.216"
+    },
+    {
+      "classname": "apps.operations.tests.test_integridad_cierre",
+      "name": "test_cambio_sector_revalida_ruta_existente",
+      "time": "3.092"
+    },
+    {
+      "classname": "apps.operations.tests.test_jornada",
+      "name": "test_flujo_completo_de_jornada",
+      "time": "3.137"
+    },
+    {
+      "classname": "apps.operations.tests.test_jornada",
+      "name": "test_supervisor_no_opera_sectores_ajenos",
+      "time": "2.938"
+    },
+    {
+      "classname": "apps.operations.tests.test_jornada",
+      "name": "test_operario_solo_ve_jornadas_asignadas",
+      "time": "2.948"
+    },
+    {
+      "classname": "apps.operations.tests.test_jornada",
+      "name": "test_administrador_no_opera_en_campo",
+      "time": "2.851"
+    },
+    {
+      "classname": "apps.operations.tests.test_registro_caminos",
+      "name": "test_caminos_registro[no_asignado]",
+      "time": "2.819"
+    },
+    {
+      "classname": "apps.operations.tests.test_registro_caminos",
+      "name": "test_caminos_registro[estado]",
+      "time": "2.910"
+    },
+    {
+      "classname": "apps.operations.tests.test_registro_caminos",
+      "name": "test_caminos_registro[fuera_ruta]",
+      "time": "2.793"
+    },
+    {
+      "classname": "apps.operations.tests.test_registro_caminos",
+      "name": "test_caminos_registro[sin_generacion_con_detalle]",
+      "time": "2.860"
+    },
+    {
+      "classname": "apps.operations.tests.test_registro_caminos",
+      "name": "test_caminos_registro[sin_detalle]",
+      "time": "2.975"
+    },
+    {
+      "classname": "apps.operations.tests.test_registro_caminos",
+      "name": "test_caminos_registro[excede_kg]",
+      "time": "2.853"
+    },
+    {
+      "classname": "apps.operations.tests.test_registro_caminos",
+      "name": "test_caminos_registro[excede_litros]",
+      "time": "2.822"
+    },
+    {
+      "classname": "apps.operations.tests.test_registro_caminos",
+      "name": "test_caminos_registro[valido]",
+      "time": "2.937"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion",
+      "name": "test_entrenamiento_sin_volumen_minimo_no_publica",
+      "time": "0.019"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion",
+      "name": "test_entrena_publica_predice_y_revierte",
+      "time": "3.399"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion",
+      "name": "test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+      "time": "3.246"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_rechazos_prediccion[horizonte_cero]",
+      "time": "2.909"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_rechazos_prediccion[horizonte_excesivo]",
+      "time": "2.953"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_rechazos_prediccion[sin_puntos]",
+      "time": "2.799"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_rechazos_prediccion[sin_historia]",
+      "time": "2.861"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_rechazos_prediccion[sin_dias]",
+      "time": "2.775"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_rechazos_prediccion[sector_ajeno]",
+      "time": "2.793"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_prediccion_con_filtros[sector]",
+      "time": "3.110"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_prediccion_con_filtros[punto]",
+      "time": "3.250"
+    },
+    {
+      "classname": "apps.prediction.tests.test_prediccion_caminos",
+      "name": "test_prediccion_con_filtros[ambos]",
+      "time": "3.297"
+    },
+    {
+      "classname": "apps.accounts.tests.test_concurrencia_cierre",
+      "name": "test_inicio_realmente_concurrente[apps.analytics.services.etl-EjecucionETL]",
+      "time": "0.510"
+    },
+    {
+      "classname": "apps.accounts.tests.test_concurrencia_cierre",
+      "name": "test_inicio_realmente_concurrente[apps.prediction.services.entrenamiento-ModeloEntrenado]",
+      "time": "0.639"
+    },
+    {
+      "classname": "apps.accounts.tests.test_concurrencia_cierre",
+      "name": "test_asignacion_concurrente_no_duplica_recurso[personal]",
+      "time": "4.170"
+    },
+    {
+      "classname": "apps.accounts.tests.test_concurrencia_cierre",
+      "name": "test_asignacion_concurrente_no_duplica_recurso[vehiculo]",
+      "time": "4.164"
+    },
+    {
+      "classname": "apps.accounts.tests.test_cabeceras_seguridad",
+      "name": "test_respuestas_rechazadas_y_no_encontradas_tienen_cabeceras",
+      "time": "0.010"
+    }
+  ]
+}

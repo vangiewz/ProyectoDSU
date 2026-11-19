@@ -1,0 +1,44 @@
+[
+  {
+    "rol": "supervisor",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055\",\"texto\":\"Editar planificación\",\"tipo\":\"A\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055/editar\",\"texto\":\"FCET-P1Punto 1 FCET\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055/editar\",\"texto\":\"Guardar cambios de planificación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055\",\"texto\":\"Editar planificación\",\"tipo\":\"A\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055/editar\",\"texto\":\"FCEE-P1Punto 1 FCEE\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "J-crear-FICCT",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055/editar\",\"texto\":\"Guardar cambios de planificación\",\"tipo\":\"BUTTON\"}"
+  }
+]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1500" viewBox="0 0 2700 1500"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">Identificación de los ocho paquetes</text>
+<rect x="55" y="110" width="1280" height="295" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="164" font-family="Arial" font-size="42" font-weight="700">1. Gestión de Usuarios y Control de Acceso</text>
+<text x="75" y="337" font-family="Arial" font-size="40" font-weight="400">RF1–RF3</text>
+<rect x="1395" y="110" width="1280" height="295" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1415" y="164" font-family="Arial" font-size="42" font-weight="700">2. Gestión Topológica y Puntos de Recolección</text>
+<text x="1415" y="337" font-family="Arial" font-size="40" font-weight="400">RF4–RF7</text>
+<rect x="55" y="440" width="1280" height="295" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="494" font-family="Arial" font-size="42" font-weight="700">3. Gestión de Residuos</text>
+<text x="75" y="667" font-family="Arial" font-size="40" font-weight="400">RF8–RF10</text>
+<rect x="1395" y="440" width="1280" height="295" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1415" y="494" font-family="Arial" font-size="42" font-weight="700">4. Gestión de Recolecciones y Logística</text>
+<text x="1415" y="667" font-family="Arial" font-size="40" font-weight="400">RF11–RF14</text>
+<rect x="55" y="770" width="1280" height="295" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="824" font-family="Arial" font-size="42" font-weight="700">5. Inteligencia de Negocios y Analítica Visual</text>
+<text x="75" y="997" font-family="Arial" font-size="40" font-weight="400">RF15–RF18</text>
+<rect x="1395" y="770" width="1280" height="295" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1415" y="824" font-family="Arial" font-size="42" font-weight="700">6. Componente Cartográfico y Análisis Espacial</text>
+<text x="1415" y="997" font-family="Arial" font-size="40" font-weight="400">RF19–RF21</text>
+<rect x="55" y="1100" width="1280" height="295" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="1154" font-family="Arial" font-size="42" font-weight="700">7. Predicción mediante Random Forest Regressor</text>
+<text x="75" y="1327" font-family="Arial" font-size="40" font-weight="400">RF22–RF24</text>
+<rect x="1395" y="1100" width="1280" height="295" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1415" y="1154" font-family="Arial" font-size="42" font-weight="700">8. Administración de la Plataforma y Auditoría</text>
+<text x="1415" y="1327" font-family="Arial" font-size="40" font-weight="400">RF25–RF27</text>
+</svg>

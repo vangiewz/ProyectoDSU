@@ -1,0 +1,178 @@
+[
+  {
+    "id": "ETL-1",
+    "titulo": "ETL desde UI y reintento incremental",
+    "rol": "administrativo",
+    "cu": [
+      20
+    ],
+    "inicio_utc": "2026-11-19T04:44:47.651857+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Ejecución 1: 19 nov 2026 · 00:44\tExitosa\t15498\t15407\t91(0 dup. · 91 atíp.)\t3.7 s\tAdministración QA\t15498 registro(s) cargados al plano analítico.",
+    "evidencia": "capturas\\analytics-20261119-004444-ETL-1.png",
+    "segundos": 7.11
+  },
+  {
+    "id": "ETL-2",
+    "titulo": "ETL desde UI y reintento incremental",
+    "rol": "administrativo",
+    "cu": [
+      20
+    ],
+    "inicio_utc": "2026-11-19T04:44:54.766152+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "",
+    "evidencia": "capturas\\analytics-20261119-004444-ETL-2.png",
+    "segundos": 0.86
+  },
+  {
+    "id": "A-tablero",
+    "titulo": "Indicadores y filtros del directivo",
+    "rol": "directivo",
+    "cu": [
+      21
+    ],
+    "inicio_utc": "2026-11-19T04:44:57.698473+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_text(\"Generación por sector\").first\n",
+    "evidencia": "capturas\\analytics-20261119-004444-A-tablero.png",
+    "segundos": 6.88
+  },
+  {
+    "id": "A-comparar",
+    "titulo": "Comparación y tendencias",
+    "rol": "directivo",
+    "cu": [
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:45:04.570854+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Comparación septiembre/octubre: sector, punto y tipo con tablas no vacías",
+    "evidencia": "capturas\\analytics-20261119-004444-A-comparar.png",
+    "segundos": 1.31
+  },
+  {
+    "id": "A-powerbi",
+    "titulo": "Power BI sin configuración responde correctamente",
+    "rol": "directivo",
+    "cu": [
+      21
+    ],
+    "inicio_utc": "2026-11-19T04:45:05.894649+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Ausencia de configuración informada; informe remoto no comprobado",
+    "evidencia": "capturas\\analytics-20261119-004444-A-powerbi.png",
+    "segundos": 0.64
+  },
+  {
+    "id": "A-mapa",
+    "titulo": "Mapa interactivo observado",
+    "rol": "directivo",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:45:06.539742+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "",
+    "evidencia": "capturas\\analytics-20261119-004444-A-mapa.png",
+    "segundos": 2.23
+  },
+  {
+    "id": "REP-Generaci-n-por-sector",
+    "titulo": "Vista y descarga Excel/PDF: Generación por sector",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:45:08.783342+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "{'filas_ui': ['Facultad de Ciencias Económicas y Empresariales7.763,8205273', 'Facultad de Ciencias Exactas y Tecnología4.443,1705083', 'Facultad de Ciencias de la Computación y Telecomunicaciones4.342,1105293', 'Biblioteca central y áreas comunes3.855,0805203'], 'archivos': ['descargas\\\\Generaci-n-por-sector-20261119-004444.xlsx', 'descargas\\\\Generaci-n-por-sector-20261119-004444.pdf'], 'limite': 'Correspondencia de celdas se verifica por separado sobre los archivos descargados'}",
+    "evidencia": "capturas\\analytics-20261119-004444-REP-Generaci-n-por-sector.png",
+    "segundos": 2.14
+  },
+  {
+    "id": "REP-Generaci-n-por-tipo-de-residuo",
+    "titulo": "Vista y descarga Excel/PDF: Generación por tipo de residuo",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:45:10.924111+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "{'filas_ui': ['Orgánico7.862,58041112', 'Papel y cartón4.160,48041112', 'Residuo común3.943,14040712', 'Plástico PET3.347,2040712', 'Vidrio1.049,78040712', 'Residuo peligroso4104111'], 'archivos': ['descargas\\\\Generaci-n-por-tipo-de-residuo-20261119-004444.xlsx', 'descargas\\\\Generaci-n-por-tipo-de-residuo-20261119-004444.pdf'], 'limite': 'Correspondencia de celdas se verifica por separado sobre los archivos descargados'}",
+    "evidencia": "capturas\\analytics-20261119-004444-REP-Generaci-n-por-tipo-de-residuo.png",
+    "segundos": 2.11
+  },
+  {
+    "id": "REP-Cumplimiento-de-jornadas",
+    "titulo": "Vista y descarga Excel/PDF: Cumplimiento de jornadas",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:45:13.025515+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "{'filas_ui': ['01 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '01 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '01 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '01 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '02 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '02 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '02 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada32166,7', '02 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '05 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '05 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '05 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '05 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '06 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '06 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '06 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada32166,7', '06 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '07 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '07 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '07 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '07 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '08 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '08 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '08 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '08 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '09 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '09 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '09 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '09 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '12 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada32166,7', '12 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '12 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '12 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '13 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '13 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '13 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '13 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '14 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '14 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '14 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '14 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '15 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '15 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '15 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '15 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '16 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '16 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '16 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '16 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '19 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada32166,7', '19 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '19 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '19 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '20 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '20 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '20 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '20 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '21 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '21 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '21 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '21 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '22 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '22 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '22 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada32166,7', '22 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '23 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '23 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada32166,7', '23 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '23 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '26 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada32166,7', '26 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '26 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '26 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada32166,7', '27 oct 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '27 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '27 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '27 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '28 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada32166,7', '28 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada32166,7', '28 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '28 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '29 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '29 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '29 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '29 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '30 oct 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '30 oct 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '30 oct 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada32166,7', '30 oct 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '02 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '02 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '02 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '02 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '03 nov 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '03 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '03 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '03 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '04 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '04 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '04 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada32166,7', '04 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '05 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '05 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '05 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '05 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '06 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '06 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '06 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '06 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '09 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '09 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '09 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '09 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '10 nov 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '10 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesÓscar OperarioCerrada330100', '10 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '10 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada32166,7', '11 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '11 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '11 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '11 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '12 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '12 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '12 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada330100', '12 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '13 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '13 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '13 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '13 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '16 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '16 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '16 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '16 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '17 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '17 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '17 nov 2026MañanaBiblioteca central y áreas comunesÓscar OperarioCerrada330100', '17 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada330100', '18 nov 2026MañanaFacultad de Ciencias Exactas y TecnologíaÓscar OperarioCerrada330100', '18 nov 2026MañanaBiblioteca central y áreas comunesOlga OperariaCerrada330100', '18 nov 2026MañanaFacultad de Ciencias Económicas y EmpresarialesOlga OperariaCerrada330100', '18 nov 2026MañanaFacultad de Ciencias de la Computación y TelecomunicacionesOlga OperariaCerrada330100', '19 nov 2026NocheFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada32166,7', '19 nov 2026NocheFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada32166,7', '19 nov 2026TardeFacultad de Ciencias de la Computación y TelecomunicacionesÓscar OperarioCerrada32166,7', '19 nov 2026TardeFacultad de Ciencias Exactas y TecnologíaOlga OperariaCerrada32166,7'], 'archivos': ['descargas\\\\Cumplimiento-de-jornadas-20261119-004444.xlsx', 'descargas\\\\Cumplimiento-de-jornadas-20261119-004444.pdf'], 'limite': 'Correspondencia de celdas se verifica por separado sobre los archivos descargados'}",
+    "evidencia": "capturas\\analytics-20261119-004444-REP-Cumplimiento-de-jornadas.png",
+    "segundos": 3.69
+  },
+  {
+    "id": "REP-Incidencias-registradas",
+    "titulo": "Vista y descarga Excel/PDF: Incidencias registradas",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:45:16.713156+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "{'filas_ui': ['19/11/2026 00:40FICCT-P1Facultad de Ciencias de la Computación y TelecomunicacionesDesbordeAltaAtendidaÓscar OperarioResuelto GUI operario1 20261119-004037', '19/11/2026 00:41FCET-P1Facultad de Ciencias Exactas y TecnologíaDesbordeAltaAtendidaOlga OperariaResuelto GUI operario2 20261119-004037', '19/11/2026 00:43FICCT-P1Facultad de Ciencias de la Computación y TelecomunicacionesDesbordeAltaAtendidaÓscar OperarioResuelto GUI operario1 20261119-004328', '19/11/2026 00:44FCET-P1Facultad de Ciencias Exactas y TecnologíaDesbordeAltaAtendidaOlga OperariaResuelto GUI operario2 20261119-004328'], 'archivos': ['descargas\\\\Incidencias-registradas-20261119-004444.xlsx', 'descargas\\\\Incidencias-registradas-20261119-004444.pdf'], 'limite': 'Correspondencia de celdas se verifica por separado sobre los archivos descargados'}",
+    "evidencia": "capturas\\analytics-20261119-004444-REP-Incidencias-registradas.png",
+    "segundos": 2.09
+  },
+  {
+    "id": "REP-Indicadores-del-periodo",
+    "titulo": "Vista y descarga Excel/PDF: Indicadores del periodo",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:45:18.820874+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "{'filas_ui': ['Total recolectado (kg)20.404,18', 'Total recolectado (L)0', 'Variación respecto del periodo anterior (%)-2,5', 'Generación promedio por punto (kg)1.700,35', 'Generación promedio por sector (kg)5.101,04', 'Sector de mayor generaciónFacultad de Ciencias Económicas y Empresariales (7.763,82 kg)', 'Tipo de residuo predominanteOrgánico', 'Recolecciones realizadas (jornadas cerradas)144', 'Frecuencia de atención por punto (veces/semana)4,15', 'Cobertura de las jornadas (%)96,1', 'Puntos críticos (> 20,00 kg/día)12'], 'archivos': ['descargas\\\\Indicadores-del-periodo-20261119-004444.xlsx', 'descargas\\\\Indicadores-del-periodo-20261119-004444.pdf'], 'limite': 'Correspondencia de celdas se verifica por separado sobre los archivos descargados'}",
+    "evidencia": "capturas\\analytics-20261119-004444-REP-Indicadores-del-periodo.png",
+    "segundos": 2.0
+  },
+  {
+    "id": "REP-Generaci-n-proyectada",
+    "titulo": "Vista y descarga Excel/PDF: Generación proyectada",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:45:20.822420+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "{'filas_ui': ['Facultad de Ciencias Económicas y Empresariales4.596,1603153', 'Facultad de Ciencias Exactas y Tecnología2.655,5803033', 'Facultad de Ciencias de la Computación y Telecomunicaciones2.603,803163', 'Biblioteca central y áreas comunes2.336,7803153'], 'archivos': ['descargas\\\\Generaci-n-proyectada-20261119-004444.xlsx', 'descargas\\\\Generaci-n-proyectada-20261119-004444.pdf'], 'limite': 'Correspondencia de celdas se verifica por separado sobre los archivos descargados'}",
+    "evidencia": "capturas\\analytics-20261119-004444-REP-Generaci-n-proyectada.png",
+    "segundos": 2.0
+  }
+]

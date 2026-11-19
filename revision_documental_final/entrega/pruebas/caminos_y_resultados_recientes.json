@@ -1,0 +1,352 @@
+[
+  {
+    "cu": 9,
+    "prueba": 1,
+    "camino": "1-2-10-11",
+    "datos_y_condicion": "Operario fuera de la cuadrilla",
+    "esperado": "403; sin registros",
+    "test": "test_caminos_registro[no_asignado]",
+    "testcases": [
+      "test_caminos_registro[no_asignado]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 9,
+    "prueba": 2,
+    "camino": "1-2-3-10-11",
+    "datos_y_condicion": "Jornada PLANIFICADA",
+    "esperado": "400; sin registros",
+    "test": "test_caminos_registro[estado]",
+    "testcases": [
+      "test_caminos_registro[estado]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 9,
+    "prueba": 3,
+    "camino": "1-2-3-4-10-11",
+    "datos_y_condicion": "Punto que no está en la ruta",
+    "esperado": "400; sin registros",
+    "test": "test_caminos_registro[fuera_ruta]",
+    "testcases": [
+      "test_caminos_registro[fuera_ruta]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 9,
+    "prueba": 4,
+    "camino": "1-2-3-4-5-10-11",
+    "datos_y_condicion": "Sin generación con un detalle",
+    "esperado": "400; sin registros",
+    "test": "test_caminos_registro[sin_generacion_con_detalle]",
+    "testcases": [
+      "test_caminos_registro[sin_generacion_con_detalle]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 9,
+    "prueba": 5,
+    "camino": "1-2-3-4-5-6-10-11",
+    "datos_y_condicion": "Vaciado sin detalle",
+    "esperado": "400; sin registros",
+    "test": "test_caminos_registro[sin_detalle]",
+    "testcases": [
+      "test_caminos_registro[sin_detalle]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 9,
+    "prueba": 6,
+    "camino": "1-2-3-4-5-6-7-10-11",
+    "datos_y_condicion": "151 kg en un punto de 100 kg",
+    "esperado": "400; sin registros",
+    "test": "test_caminos_registro[excede_kg]",
+    "testcases": [
+      "test_caminos_registro[excede_kg]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 9,
+    "prueba": 7,
+    "camino": "1-2-3-4-5-6-7-8-10-11",
+    "datos_y_condicion": "301 L en un punto de 200 L",
+    "esperado": "400; sin registros",
+    "test": "test_caminos_registro[excede_litros]",
+    "testcases": [
+      "test_caminos_registro[excede_litros]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 9,
+    "prueba": 8,
+    "camino": "1-2-3-4-5-6-7-8-9-11",
+    "datos_y_condicion": "35,5 kg de orgánico en P1",
+    "esperado": "201; registro y parada atendida",
+    "test": "test_caminos_registro[valido]",
+    "testcases": [
+      "test_caminos_registro[valido]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 15,
+    "prueba": 1,
+    "camino": "1-2-10-11",
+    "datos_y_condicion": "Jornada CERRADA",
+    "esperado": "400; asignación intacta",
+    "test": "test_caminos_asignacion[estado]",
+    "testcases": [
+      "test_caminos_asignacion[estado]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 15,
+    "prueba": 2,
+    "camino": "1-2-3-10-11",
+    "datos_y_condicion": "Sin responsable",
+    "esperado": "400; asignación intacta",
+    "test": "test_caminos_asignacion[sin_responsable]",
+    "testcases": [
+      "test_caminos_asignacion[sin_responsable]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 15,
+    "prueba": 3,
+    "camino": "1-2-3-4-10-11",
+    "datos_y_condicion": "Responsable que no está en el personal",
+    "esperado": "400; asignación intacta",
+    "test": "test_caminos_asignacion[fuera_personal]",
+    "testcases": [
+      "test_caminos_asignacion[fuera_personal]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 15,
+    "prueba": 4,
+    "camino": "1-2-3-4-5-10-11",
+    "datos_y_condicion": "Operario inactivo",
+    "esperado": "400; asignación intacta",
+    "test": "test_caminos_asignacion[inactivo]",
+    "testcases": [
+      "test_caminos_asignacion[inactivo]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 15,
+    "prueba": 5,
+    "camino": "1-2-3-4-5-6-10-11",
+    "datos_y_condicion": "Vehículo fuera de servicio",
+    "esperado": "400; asignación intacta",
+    "test": "test_caminos_asignacion[vehiculo_fuera]",
+    "testcases": [
+      "test_caminos_asignacion[vehiculo_fuera]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 15,
+    "prueba": 6,
+    "camino": "1-2-3-4-5-6-7-10-11",
+    "datos_y_condicion": "Operario en otra jornada del turno",
+    "esperado": "400; asignación intacta",
+    "test": "test_caminos_asignacion[personal_ocupado]",
+    "testcases": [
+      "test_caminos_asignacion[personal_ocupado]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 15,
+    "prueba": 7,
+    "camino": "1-2-3-4-5-6-7-8-10-11",
+    "datos_y_condicion": "Vehículo en otra jornada del turno",
+    "esperado": "400; asignación intacta",
+    "test": "test_caminos_asignacion[vehiculo_ocupado]",
+    "testcases": [
+      "test_caminos_asignacion[vehiculo_ocupado]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 15,
+    "prueba": 8,
+    "camino": "1-2-3-4-5-6-7-8-9-11",
+    "datos_y_condicion": "Cuadrilla, vehículo y responsable válidos",
+    "esperado": "200; asignación persistida y auditada",
+    "test": "test_caminos_asignacion[valido]",
+    "testcases": [
+      "test_caminos_asignacion[valido]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 1,
+    "camino": "1-2-13-14",
+    "datos_y_condicion": "Horizonte de 0 días (límite inferior)",
+    "esperado": "400; sin lote",
+    "test": "test_rechazos_prediccion[horizonte_cero]",
+    "testcases": [
+      "test_rechazos_prediccion[horizonte_cero]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 2,
+    "camino": "1-2-3-13-14",
+    "datos_y_condicion": "Sin modelo entrenado",
+    "esperado": "400; sin lote",
+    "test": "test_entrena_publica_predice_y_revierte",
+    "testcases": [
+      "test_entrena_publica_predice_y_revierte"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 3,
+    "camino": "1-2-3-4-13-14",
+    "datos_y_condicion": "Supervisor de otro sector",
+    "esperado": "403; sin lote",
+    "test": "test_rechazos_prediccion[sector_ajeno]",
+    "testcases": [
+      "test_rechazos_prediccion[sector_ajeno]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 4,
+    "camino": "1-2-3-4-5-7-9-13-14",
+    "datos_y_condicion": "Todos los puntos inactivos",
+    "esperado": "400; sin lote",
+    "test": "test_rechazos_prediccion[sin_puntos]",
+    "testcases": [
+      "test_rechazos_prediccion[sin_puntos]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 5,
+    "camino": "1-2-3-4-5-7-9-10-13-14",
+    "datos_y_condicion": "Puntos sin historial",
+    "esperado": "400; sin lote",
+    "test": "test_rechazos_prediccion[sin_historia]",
+    "testcases": [
+      "test_rechazos_prediccion[sin_historia]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 6,
+    "camino": "1-2-3-4-5-7-9-10-11-13-14",
+    "datos_y_condicion": "Sin días habituales en el horizonte",
+    "esperado": "400; sin lote",
+    "test": "test_rechazos_prediccion[sin_dias]",
+    "testcases": [
+      "test_rechazos_prediccion[sin_dias]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 7,
+    "camino": "1-2-3-4-5-7-9-10-11-12-14",
+    "datos_y_condicion": "Horizonte 7 sin filtros",
+    "esperado": "201; lote con margen",
+    "test": "test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+    "testcases": [
+      "test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 8,
+    "camino": "1-2-3-4-5-6-7-9-10-11-12-14",
+    "datos_y_condicion": "Horizonte 7 con sector",
+    "esperado": "201; lote del sector",
+    "test": "test_prediccion_con_filtros[sector]",
+    "testcases": [
+      "test_prediccion_con_filtros[sector]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  },
+  {
+    "cu": 28,
+    "prueba": 9,
+    "camino": "1-2-3-4-5-7-8-9-10-11-12-14",
+    "datos_y_condicion": "Horizonte 7 con punto",
+    "esperado": "201; lote del punto",
+    "test": "test_prediccion_con_filtros[punto]",
+    "testcases": [
+      "test_prediccion_con_filtros[punto]"
+    ],
+    "resultado": "APROBADO",
+    "evidencia": "auditoria_gui/regresion/gui-completa.xml",
+    "limite": "Vínculo al testcase; sin instrumentación automática de aristas del diagrama"
+  }
+]

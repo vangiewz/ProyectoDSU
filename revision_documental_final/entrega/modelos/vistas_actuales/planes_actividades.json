@@ -1,0 +1,2152 @@
+[
+  {
+    "figura": 8,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El supervisor define los sectores a atender en la jornada",
+        "carril": "Supervisor de Recolección",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "accion",
+        "texto": "El supervisor asigna las cuadrillas y los vehículos",
+        "carril": "Supervisor de Recolección",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 3,
+        "rama": 0,
+        "dec": null,
+        "lazo": true
+      },
+      {
+        "id": 4,
+        "tipo": "accion",
+        "texto": "La cuadrilla se desplaza al siguiente punto del recorrido",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 4,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 5,
+        "tipo": "accion",
+        "texto": "El operario verifica visualmente el estado del contenedor",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 5,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 6,
+        "tipo": "decision",
+        "texto": "¿El contenedor requiere vaciado?",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 6,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 7,
+        "tipo": "accion",
+        "texto": "La cuadrilla continúa el recorrido",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 7,
+        "rama": 1,
+        "dec": 6
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El operario vacía el contenedor",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 7,
+        "rama": 2,
+        "dec": 6
+      },
+      {
+        "id": 9,
+        "tipo": "accion",
+        "texto": "El operario carga los residuos en el vehículo",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 8,
+        "rama": 2,
+        "dec": 6
+      },
+      {
+        "id": 10,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 9,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 11,
+        "tipo": "decision",
+        "texto": "¿Quedan puntos por recorrer?",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 10,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 12,
+        "tipo": "accion",
+        "texto": "La cuadrilla avanza al siguiente punto",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 11,
+        "rama": 1,
+        "dec": 11
+      },
+      {
+        "id": 13,
+        "tipo": "accion",
+        "texto": "La cuadrilla traslada los residuos al área de acopio",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 11,
+        "rama": 2,
+        "dec": 11
+      },
+      {
+        "id": 14,
+        "tipo": "accion",
+        "texto": "El supervisor consolida manualmente el reporte de la jornada",
+        "carril": "Supervisor de Recolección",
+        "fila": 12,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 15,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Supervisor de Recolección",
+        "fila": 13,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        4,
+        ""
+      ],
+      [
+        4,
+        5,
+        ""
+      ],
+      [
+        5,
+        6,
+        ""
+      ],
+      [
+        6,
+        7,
+        "No"
+      ],
+      [
+        6,
+        8,
+        "Sí"
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        7,
+        10,
+        ""
+      ],
+      [
+        9,
+        10,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ],
+      [
+        11,
+        12,
+        "Sí"
+      ],
+      [
+        12,
+        3,
+        ""
+      ],
+      [
+        11,
+        13,
+        "No"
+      ],
+      [
+        13,
+        14,
+        ""
+      ],
+      [
+        14,
+        15,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_008_parte_1.png",
+        "titulo": "Flujo operativo: flujo ampliado, parte 1/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_008_parte_2.png",
+        "titulo": "Flujo operativo: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_008_parte_3.png",
+        "titulo": "Flujo operativo: flujo ampliado, parte 3/3"
+      }
+    ]
+  },
+  {
+    "figura": 9,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El operario accede al módulo de registro de residuos",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "accion",
+        "texto": "El sistema muestra los puntos asignados a la jornada",
+        "carril": "Sistema",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "accion",
+        "texto": "El operario selecciona el punto atendido",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 3,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 4,
+        "tipo": "decision",
+        "texto": "¿El punto presenta residuos para retirar?",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 4,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 5,
+        "tipo": "accion",
+        "texto": "El sistema registra la visita sin generación",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 1,
+        "dec": 4
+      },
+      {
+        "id": 6,
+        "tipo": "accion",
+        "texto": "El operario selecciona el tipo de residuo",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 5,
+        "rama": 2,
+        "dec": 4
+      },
+      {
+        "id": 7,
+        "tipo": "accion",
+        "texto": "El operario ingresa la cantidad y la unidad",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 6,
+        "rama": 2,
+        "dec": 4
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El operario registra las observaciones",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 7,
+        "rama": 2,
+        "dec": 4
+      },
+      {
+        "id": 9,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 8,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 10,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 9,
+        "rama": 0,
+        "dec": null,
+        "lazo": true
+      },
+      {
+        "id": 11,
+        "tipo": "accion",
+        "texto": "El sistema valida la cantidad y la coherencia del registro",
+        "carril": "Sistema",
+        "fila": 10,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 12,
+        "tipo": "decision",
+        "texto": "¿La validación es correcta?",
+        "carril": "Sistema",
+        "fila": 11,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 13,
+        "tipo": "accion",
+        "texto": "El sistema muestra el mensaje de error",
+        "carril": "Sistema",
+        "fila": 12,
+        "rama": 1,
+        "dec": 12
+      },
+      {
+        "id": 14,
+        "tipo": "accion",
+        "texto": "El operario corrige los datos",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 13,
+        "rama": 1,
+        "dec": 12
+      },
+      {
+        "id": 15,
+        "tipo": "accion",
+        "texto": "El sistema registra fecha, hora, usuario y jornada",
+        "carril": "Sistema",
+        "fila": 12,
+        "rama": 2,
+        "dec": 12
+      },
+      {
+        "id": 16,
+        "tipo": "accion",
+        "texto": "El sistema almacena el registro y confirma la operación",
+        "carril": "Sistema",
+        "fila": 14,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 17,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 15,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        4,
+        ""
+      ],
+      [
+        4,
+        5,
+        "No"
+      ],
+      [
+        4,
+        6,
+        "Sí"
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        ""
+      ],
+      [
+        5,
+        9,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        9,
+        10,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ],
+      [
+        11,
+        12,
+        ""
+      ],
+      [
+        12,
+        13,
+        "No"
+      ],
+      [
+        13,
+        14,
+        ""
+      ],
+      [
+        14,
+        10,
+        ""
+      ],
+      [
+        12,
+        15,
+        "Sí"
+      ],
+      [
+        15,
+        16,
+        ""
+      ],
+      [
+        16,
+        17,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_009_parte_1.png",
+        "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 1/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_009_parte_2.png",
+        "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_009_parte_3.png",
+        "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 3/3"
+      }
+    ]
+  },
+  {
+    "figura": 10,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El supervisor abre la jornada planificada",
+        "carril": "Supervisor de Recolección",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "accion",
+        "texto": "El sistema registra la hora de inicio y habilita la captura",
+        "carril": "Sistema",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 3,
+        "rama": 0,
+        "dec": null,
+        "lazo": true
+      },
+      {
+        "id": 4,
+        "tipo": "accion",
+        "texto": "El sistema presenta el siguiente punto de la ruta",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 5,
+        "tipo": "decision",
+        "texto": "¿El punto pudo ser atendido?",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 6,
+        "tipo": "accion",
+        "texto": "El operario registra el motivo de la omisión",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 6,
+        "rama": 1,
+        "dec": 5
+      },
+      {
+        "id": 7,
+        "tipo": "accion",
+        "texto": "El operario registra el vaciado del punto",
+        "carril": "Personal Operativo de Limpieza",
+        "fila": 6,
+        "rama": 2,
+        "dec": 5
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El sistema actualiza el avance de la jornada",
+        "carril": "Sistema",
+        "fila": 7,
+        "rama": 2,
+        "dec": 5
+      },
+      {
+        "id": 9,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 8,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 10,
+        "tipo": "decision",
+        "texto": "¿Quedan puntos pendientes en la ruta?",
+        "carril": "Sistema",
+        "fila": 9,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 11,
+        "tipo": "accion",
+        "texto": "El sistema avanza al siguiente punto",
+        "carril": "Sistema",
+        "fila": 10,
+        "rama": 1,
+        "dec": 10
+      },
+      {
+        "id": 12,
+        "tipo": "accion",
+        "texto": "El sistema totaliza las cantidades recolectadas",
+        "carril": "Sistema",
+        "fila": 10,
+        "rama": 2,
+        "dec": 10
+      },
+      {
+        "id": 13,
+        "tipo": "accion",
+        "texto": "El sistema contrasta lo ejecutado con lo planificado",
+        "carril": "Sistema",
+        "fila": 11,
+        "rama": 2,
+        "dec": 10
+      },
+      {
+        "id": 14,
+        "tipo": "accion",
+        "texto": "El supervisor revisa el resumen y registra observaciones",
+        "carril": "Supervisor de Recolección",
+        "fila": 12,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 15,
+        "tipo": "accion",
+        "texto": "El sistema cierra la jornada y registra la hora de fin",
+        "carril": "Sistema",
+        "fila": 13,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 16,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 14,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        4,
+        ""
+      ],
+      [
+        4,
+        5,
+        ""
+      ],
+      [
+        5,
+        6,
+        "No"
+      ],
+      [
+        5,
+        7,
+        "Sí"
+      ],
+      [
+        7,
+        8,
+        ""
+      ],
+      [
+        6,
+        9,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        9,
+        10,
+        ""
+      ],
+      [
+        10,
+        11,
+        "Sí"
+      ],
+      [
+        11,
+        3,
+        ""
+      ],
+      [
+        10,
+        12,
+        "No"
+      ],
+      [
+        12,
+        13,
+        ""
+      ],
+      [
+        13,
+        14,
+        ""
+      ],
+      [
+        14,
+        15,
+        ""
+      ],
+      [
+        15,
+        16,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_010_parte_1.png",
+        "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 1/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_010_parte_2.png",
+        "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_010_parte_3.png",
+        "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 3/3"
+      }
+    ]
+  },
+  {
+    "figura": 11,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El proceso se dispara de forma programada o manual",
+        "carril": "Sistema",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "accion",
+        "texto": "El sistema extrae los registros transaccionales del periodo",
+        "carril": "Sistema",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "decision",
+        "texto": "¿Existen registros nuevos por procesar?",
+        "carril": "Sistema",
+        "fila": 3,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 4,
+        "tipo": "accion",
+        "texto": "El sistema finaliza y registra la ejecución sin cambios",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 1,
+        "dec": 3
+      },
+      {
+        "id": 5,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 1,
+        "dec": 3
+      },
+      {
+        "id": 6,
+        "tipo": "accion",
+        "texto": "El sistema elimina duplicados y corrige formatos",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 7,
+        "tipo": "accion",
+        "texto": "El sistema estandariza las unidades de medida",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El sistema deriva las variables temporales",
+        "carril": "Sistema",
+        "fila": 6,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 9,
+        "tipo": "accion",
+        "texto": "El sistema marca los valores atípicos detectados",
+        "carril": "Sistema",
+        "fila": 7,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 10,
+        "tipo": "decision",
+        "texto": "¿Los registros observados superan el umbral?",
+        "carril": "Sistema",
+        "fila": 8,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 11,
+        "tipo": "accion",
+        "texto": "El sistema notifica al administrador",
+        "carril": "Sistema",
+        "fila": 9,
+        "rama": 1,
+        "dec": 10
+      },
+      {
+        "id": 12,
+        "tipo": "accion",
+        "texto": "El sistema suspende la carga",
+        "carril": "Sistema",
+        "fila": 10,
+        "rama": 1,
+        "dec": 10
+      },
+      {
+        "id": 13,
+        "tipo": "accion",
+        "texto": "El sistema carga los datos en las estructuras analíticas",
+        "carril": "Sistema",
+        "fila": 9,
+        "rama": 2,
+        "dec": 10
+      },
+      {
+        "id": 14,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 11,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 15,
+        "tipo": "accion",
+        "texto": "El sistema genera la bitácora del proceso",
+        "carril": "Sistema",
+        "fila": 12,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 16,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 13,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        4,
+        "No"
+      ],
+      [
+        4,
+        5,
+        ""
+      ],
+      [
+        3,
+        6,
+        "Sí"
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        9,
+        10,
+        ""
+      ],
+      [
+        10,
+        11,
+        "Sí"
+      ],
+      [
+        11,
+        12,
+        ""
+      ],
+      [
+        10,
+        13,
+        "No"
+      ],
+      [
+        12,
+        14,
+        ""
+      ],
+      [
+        13,
+        14,
+        ""
+      ],
+      [
+        14,
+        15,
+        ""
+      ],
+      [
+        15,
+        16,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_011_parte_1.png",
+        "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 1/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_011_parte_2.png",
+        "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_011_parte_3.png",
+        "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 3/3"
+      }
+    ]
+  },
+  {
+    "figura": 12,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El usuario define el periodo y los filtros de análisis",
+        "carril": "Usuario",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "accion",
+        "texto": "El sistema recupera la información analítica del periodo",
+        "carril": "Sistema",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "decision",
+        "texto": "¿Existe información para el periodo?",
+        "carril": "Sistema",
+        "fila": 3,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 4,
+        "tipo": "accion",
+        "texto": "El sistema informa que no hay datos disponibles",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 1,
+        "dec": 3
+      },
+      {
+        "id": 5,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 1,
+        "dec": 3
+      },
+      {
+        "id": 6,
+        "tipo": "accion",
+        "texto": "El sistema calcula totales, promedios y frecuencias",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 7,
+        "tipo": "accion",
+        "texto": "El sistema compara con el periodo anterior",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El sistema identifica los puntos críticos",
+        "carril": "Sistema",
+        "fila": 6,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 9,
+        "tipo": "accion",
+        "texto": "El sistema presenta los indicadores calculados",
+        "carril": "Sistema",
+        "fila": 7,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 10,
+        "tipo": "accion",
+        "texto": "El usuario profundiza en el indicador seleccionado",
+        "carril": "Usuario",
+        "fila": 8,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 11,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Usuario",
+        "fila": 9,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        4,
+        "No"
+      ],
+      [
+        4,
+        5,
+        ""
+      ],
+      [
+        3,
+        6,
+        "Sí"
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        9,
+        10,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_012_parte_1.png",
+        "titulo": "RF16 · Calcular los Indicadores Clave de Rendimiento: flujo ampliado, parte 1/2"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_012_parte_2.png",
+        "titulo": "RF16 · Calcular los Indicadores Clave de Rendimiento: flujo ampliado, parte 2/2"
+      }
+    ]
+  },
+  {
+    "figura": 13,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El usuario activa la capa de calor sobre el mapa",
+        "carril": "Usuario",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "accion",
+        "texto": "El usuario selecciona periodo, sector y tipo de residuo",
+        "carril": "Usuario",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "decision",
+        "texto": "¿Qué capa se desea visualizar?",
+        "carril": "Usuario",
+        "fila": 3,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 4,
+        "tipo": "accion",
+        "texto": "El sistema recupera las cantidades históricas",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 1,
+        "dec": 3
+      },
+      {
+        "id": 5,
+        "tipo": "accion",
+        "texto": "El sistema recupera las predicciones vigentes",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 6,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Usuario",
+        "fila": 5,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 7,
+        "tipo": "decision",
+        "texto": "¿Existen datos para el alcance definido?",
+        "carril": "Usuario",
+        "fila": 6,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El sistema informa que no hay datos disponibles",
+        "carril": "Sistema",
+        "fila": 7,
+        "rama": 1,
+        "dec": 7
+      },
+      {
+        "id": 9,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 8,
+        "rama": 1,
+        "dec": 7
+      },
+      {
+        "id": 10,
+        "tipo": "accion",
+        "texto": "El sistema normaliza las cantidades por punto",
+        "carril": "Sistema",
+        "fila": 7,
+        "rama": 2,
+        "dec": 7
+      },
+      {
+        "id": 11,
+        "tipo": "accion",
+        "texto": "El sistema asigna el peso relativo a cada punto",
+        "carril": "Sistema",
+        "fila": 8,
+        "rama": 2,
+        "dec": 7
+      },
+      {
+        "id": 12,
+        "tipo": "accion",
+        "texto": "El sistema renderiza el gradiente de intensidad",
+        "carril": "Sistema",
+        "fila": 9,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 13,
+        "tipo": "accion",
+        "texto": "El sistema resalta los puntos que superan el umbral crítico",
+        "carril": "Sistema",
+        "fila": 10,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 14,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 11,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        4,
+        "Observada"
+      ],
+      [
+        3,
+        5,
+        "Proyectada"
+      ],
+      [
+        4,
+        6,
+        ""
+      ],
+      [
+        5,
+        6,
+        ""
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        "No"
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        7,
+        10,
+        "Sí"
+      ],
+      [
+        10,
+        11,
+        ""
+      ],
+      [
+        11,
+        12,
+        ""
+      ],
+      [
+        12,
+        13,
+        ""
+      ],
+      [
+        13,
+        14,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_013_parte_1.png",
+        "titulo": "RF20 · Generar el Mapa de Calor de Zonas Críticas: flujo ampliado, parte 1/2"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_013_parte_2.png",
+        "titulo": "RF20 · Generar el Mapa de Calor de Zonas Críticas: flujo ampliado, parte 2/2"
+      }
+    ]
+  },
+  {
+    "figura": 14,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El administrador solicita el entrenamiento del modelo",
+        "carril": "Administrador del Sistema",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "accion",
+        "texto": "El sistema recupera la información analítica depurada",
+        "carril": "Sistema",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "decision",
+        "texto": "¿El volumen de registros es suficiente?",
+        "carril": "Sistema",
+        "fila": 3,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 4,
+        "tipo": "accion",
+        "texto": "El sistema informa que no hay datos suficientes",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 1,
+        "dec": 3
+      },
+      {
+        "id": 5,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 1,
+        "dec": 3
+      },
+      {
+        "id": 6,
+        "tipo": "accion",
+        "texto": "El sistema construye las variables predictoras y el objetivo",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 7,
+        "tipo": "accion",
+        "texto": "El sistema codifica las variables categóricas",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El sistema divide los datos respetando el orden cronológico",
+        "carril": "Sistema",
+        "fila": 6,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 9,
+        "tipo": "accion",
+        "texto": "El sistema entrena el modelo Random Forest Regressor",
+        "carril": "Sistema",
+        "fila": 7,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 10,
+        "tipo": "accion",
+        "texto": "El sistema calcula MAE, MSE, RMSE y R² sobre el conjunto de prueba",
+        "carril": "Sistema",
+        "fila": 8,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 11,
+        "tipo": "decision",
+        "texto": "¿Las métricas superan el umbral configurado?",
+        "carril": "Sistema",
+        "fila": 9,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 12,
+        "tipo": "accion",
+        "texto": "El sistema conserva la versión anterior del modelo",
+        "carril": "Sistema",
+        "fila": 10,
+        "rama": 1,
+        "dec": 11
+      },
+      {
+        "id": 13,
+        "tipo": "accion",
+        "texto": "El sistema versiona y publica el nuevo modelo",
+        "carril": "Sistema",
+        "fila": 10,
+        "rama": 2,
+        "dec": 11
+      },
+      {
+        "id": 14,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 11,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 15,
+        "tipo": "accion",
+        "texto": "El sistema registra la ejecución con sus parametros y métricas",
+        "carril": "Sistema",
+        "fila": 12,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 16,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 13,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        4,
+        "No"
+      ],
+      [
+        4,
+        5,
+        ""
+      ],
+      [
+        3,
+        6,
+        "Sí"
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        9,
+        10,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ],
+      [
+        11,
+        12,
+        "No"
+      ],
+      [
+        11,
+        13,
+        "Sí"
+      ],
+      [
+        12,
+        14,
+        ""
+      ],
+      [
+        13,
+        14,
+        ""
+      ],
+      [
+        14,
+        15,
+        ""
+      ],
+      [
+        15,
+        16,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_014_parte_1.png",
+        "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 1/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_014_parte_2.png",
+        "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_014_parte_3.png",
+        "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 3/3"
+      }
+    ]
+  },
+  {
+    "figura": 15,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El usuario define el horizonte temporal y el alcance",
+        "carril": "Usuario",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "decision",
+        "texto": "¿Existe un modelo publicado vigente?",
+        "carril": "Usuario",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "accion",
+        "texto": "El sistema informa que debe entrenarse el modelo",
+        "carril": "Sistema",
+        "fila": 3,
+        "rama": 1,
+        "dec": 2
+      },
+      {
+        "id": 4,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 1,
+        "dec": 2
+      },
+      {
+        "id": 5,
+        "tipo": "accion",
+        "texto": "El sistema recupera el estado histórico de cada punto",
+        "carril": "Sistema",
+        "fila": 3,
+        "rama": 2,
+        "dec": 2
+      },
+      {
+        "id": 6,
+        "tipo": "accion",
+        "texto": "El sistema genera las variables temporales futuras",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 2,
+        "dec": 2
+      },
+      {
+        "id": 7,
+        "tipo": "accion",
+        "texto": "El sistema aplica el modelo sobre las variables construidas",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El sistema obtiene la cantidad estimada por punto y fecha",
+        "carril": "Sistema",
+        "fila": 6,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 9,
+        "tipo": "accion",
+        "texto": "El sistema agrega las estimaciones por sector y tipo de residuo",
+        "carril": "Sistema",
+        "fila": 7,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 10,
+        "tipo": "accion",
+        "texto": "El sistema almacena las predicciones con su margen de error",
+        "carril": "Sistema",
+        "fila": 8,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 11,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 9,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "No"
+      ],
+      [
+        3,
+        4,
+        ""
+      ],
+      [
+        2,
+        5,
+        "Sí"
+      ],
+      [
+        5,
+        6,
+        ""
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        9,
+        10,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_015_parte_1.png",
+        "titulo": "RF23 · Predecir la Generación Futura de Residuos: flujo ampliado, parte 1/2"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_015_parte_2.png",
+        "titulo": "RF23 · Predecir la Generación Futura de Residuos: flujo ampliado, parte 2/2"
+      }
+    ]
+  },
+  {
+    "figura": 16,
+    "nodos": [
+      {
+        "id": 0,
+        "tipo": "inicio",
+        "texto": "",
+        "carril": null,
+        "fila": 0,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 1,
+        "tipo": "accion",
+        "texto": "El sistema recupera las predicciones vigentes y los indicadores",
+        "carril": "Sistema",
+        "fila": 1,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 2,
+        "tipo": "accion",
+        "texto": "El sistema evalúa tendencia, capacidad y cantidad proyectada",
+        "carril": "Sistema",
+        "fila": 2,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 3,
+        "tipo": "decision",
+        "texto": "¿La cantidad proyectada supera la capacidad instalada?",
+        "carril": "Sistema",
+        "fila": 3,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 4,
+        "tipo": "accion",
+        "texto": "El sistema mantiene la frecuencia planificada",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 1,
+        "dec": 3
+      },
+      {
+        "id": 5,
+        "tipo": "accion",
+        "texto": "El sistema emite la alerta temprana",
+        "carril": "Sistema",
+        "fila": 4,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 6,
+        "tipo": "accion",
+        "texto": "El sistema clasifica el nivel de urgencia",
+        "carril": "Sistema",
+        "fila": 5,
+        "rama": 2,
+        "dec": 3
+      },
+      {
+        "id": 7,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 6,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 8,
+        "tipo": "accion",
+        "texto": "El sistema formula la recomendación y adjunta su evidencia",
+        "carril": "Sistema",
+        "fila": 7,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 9,
+        "tipo": "accion",
+        "texto": "El sistema presenta la recomendación al supervisor",
+        "carril": "Sistema",
+        "fila": 8,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 10,
+        "tipo": "decision",
+        "texto": "¿El supervisor acepta la recomendación?",
+        "carril": "Sistema",
+        "fila": 9,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 11,
+        "tipo": "accion",
+        "texto": "El supervisor registra el motivo del descarte",
+        "carril": "Supervisor de Recolección",
+        "fila": 10,
+        "rama": 1,
+        "dec": 10
+      },
+      {
+        "id": 12,
+        "tipo": "accion",
+        "texto": "El sistema la incorpora a la siguiente jornada",
+        "carril": "Sistema",
+        "fila": 10,
+        "rama": 2,
+        "dec": 10
+      },
+      {
+        "id": 13,
+        "tipo": "merge",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 11,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 14,
+        "tipo": "accion",
+        "texto": "El sistema registra la decisión adoptada",
+        "carril": "Sistema",
+        "fila": 12,
+        "rama": 0,
+        "dec": null
+      },
+      {
+        "id": 15,
+        "tipo": "fin",
+        "texto": "",
+        "carril": "Sistema",
+        "fila": 13,
+        "rama": 0,
+        "dec": null
+      }
+    ],
+    "aristas": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        4,
+        "No"
+      ],
+      [
+        3,
+        5,
+        "Sí"
+      ],
+      [
+        5,
+        6,
+        ""
+      ],
+      [
+        4,
+        7,
+        ""
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        9,
+        10,
+        ""
+      ],
+      [
+        10,
+        11,
+        "No"
+      ],
+      [
+        10,
+        12,
+        "Sí"
+      ],
+      [
+        11,
+        13,
+        ""
+      ],
+      [
+        12,
+        13,
+        ""
+      ],
+      [
+        13,
+        14,
+        ""
+      ],
+      [
+        14,
+        15,
+        ""
+      ]
+    ],
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_016_parte_1.png",
+        "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 1/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_016_parte_2.png",
+        "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_016_parte_3.png",
+        "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 3/3"
+      }
+    ]
+  }
+]

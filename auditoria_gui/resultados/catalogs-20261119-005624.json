@@ -1,0 +1,100 @@
+[
+  {
+    "id": "SUP-sectores",
+    "titulo": "Consulta territorial y ausencia de alta no autorizada",
+    "rol": "supervisor",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:56:28.467262+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Supervisor consulta sus sectores; crear sectores se reserva a Administrador, según permisos vigentes",
+    "evidencia": "capturas\\catalogs-20261119-005624-SUP-sectores.png",
+    "segundos": 0.52
+  },
+  {
+    "id": "CRUD-vehiculo",
+    "titulo": "Formulario y ciclo CRUD vehiculo",
+    "rol": "supervisor",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:56:28.976420+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-005624-CRUD-vehiculo.png",
+    "segundos": 4.66
+  },
+  {
+    "id": "CRUD-punto",
+    "titulo": "Formulario y ciclo CRUD punto",
+    "rol": "supervisor",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:56:33.643150+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-005624-CRUD-punto.png",
+    "segundos": 5.86
+  },
+  {
+    "id": "CRUD-contenedor",
+    "titulo": "Formulario y ciclo CRUD contenedor",
+    "rol": "supervisor",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:56:39.501416+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Alta, edición, búsqueda; estados De baja y Bueno persistidos. No tiene is_active.",
+    "evidencia": "capturas\\catalogs-20261119-005624-CRUD-contenedor.png",
+    "segundos": 5.84
+  },
+  {
+    "id": "DUP-vehiculo",
+    "titulo": "Duplicado rechazado vehiculo",
+    "rol": "supervisor",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:56:45.351002+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-005624-DUP-vehiculo.png",
+    "segundos": 1.47
+  },
+  {
+    "id": "DUP-punto",
+    "titulo": "Duplicado rechazado punto",
+    "rol": "supervisor",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:56:46.835102+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-005624-DUP-punto.png",
+    "segundos": 2.02
+  },
+  {
+    "id": "DUP-contenedor",
+    "titulo": "Duplicado rechazado contenedor",
+    "rol": "supervisor",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:56:48.859900+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-005624-DUP-contenedor.png",
+    "segundos": 1.75
+  }
+]

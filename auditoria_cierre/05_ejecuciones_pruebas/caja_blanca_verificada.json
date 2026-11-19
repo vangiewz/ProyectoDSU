@@ -1,0 +1,29 @@
+[
+  {
+    "CU": 9,
+    "N": 11,
+    "E": 17,
+    "V": 8,
+    "rango_caminos": 8,
+    "resultado": "APROBADO",
+    "limite": "Modelo de mensajes; no equivale a cobertura completa del c\u00f3digo Python"
+  },
+  {
+    "CU": 15,
+    "N": 11,
+    "E": 17,
+    "V": 8,
+    "rango_caminos": 8,
+    "resultado": "APROBADO",
+    "limite": "Modelo de mensajes; no equivale a cobertura completa del c\u00f3digo Python"
+  },
+  {
+    "CU": 28,
+    "N": 14,
+    "E": 21,
+    "V": 9,
+    "rango_caminos": 9,
+    "resultado": "APROBADO",
+    "limite": "Modelo de mensajes; no equivale a cobertura completa del c\u00f3digo Python"
+  }
+]

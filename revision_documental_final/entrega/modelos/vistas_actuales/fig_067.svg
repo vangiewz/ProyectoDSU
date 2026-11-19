@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1970" viewBox="0 0 2700 1970"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">Predicción mediante Random Forest Regressor</text>
+<rect x="800" y="180" width="1830" height="1300" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="830" y="254" font-family="Arial" font-size="58" font-weight="700">«package» 7</text>
+<ellipse cx="1780" cy="330" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1221.5" y="320.0" font-family="Arial" font-size="56" font-weight="400">CU26. Entrenar y evaluar el modelo Random</text>
+<text x="1563.5" y="382.0" font-family="Arial" font-size="56" font-weight="400">Forest Regressor</text>
+<ellipse cx="1780" cy="580" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1231.0" y="601.0" font-family="Arial" font-size="56" font-weight="400">CU27. Publicar o revertir versión del modelo</text>
+<ellipse cx="1780" cy="830" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1264.5" y="820.0" font-family="Arial" font-size="56" font-weight="400">CU28. Predecir generación futura y emitir</text>
+<text x="1696.0" y="882.0" font-family="Arial" font-size="56" font-weight="400">alertas</text>
+<ellipse cx="1780" cy="1080" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1231.0" y="1070.0" font-family="Arial" font-size="56" font-weight="400">CU29. Consultar alertas y recomendaciones</text>
+<text x="1663.5" y="1132.0" font-family="Arial" font-size="56" font-weight="400">logísticas</text>
+<ellipse cx="1780" cy="1330" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1285.5234375" y="1351.0" font-family="Arial" font-size="56" font-weight="400">CU30. Atender recomendación logística</text>
+<rect x="55" y="300" width="510" height="160" fill="white" stroke="#444" stroke-width="3"/>
+<text x="133.515625" y="403.0" font-family="Arial" font-size="58" font-weight="700">«actor» ADM</text>
+<line x1="565" y1="380" x2="1005" y2="330" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="380" x2="1005" y2="580" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="380" x2="1005" y2="830" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="380" x2="1005" y2="1080" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="380" x2="1005" y2="1330" stroke="#444" stroke-width="3"/>
+<rect x="55" y="550" width="510" height="160" fill="white" stroke="#444" stroke-width="3"/>
+<text x="139.5" y="653.0" font-family="Arial" font-size="58" font-weight="700">«actor» SUP</text>
+<line x1="565" y1="630" x2="1005" y2="830" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="630" x2="1005" y2="1080" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="630" x2="1005" y2="1330" stroke="#444" stroke-width="3"/>
+<rect x="55" y="800" width="510" height="160" fill="white" stroke="#444" stroke-width="3"/>
+<text x="136.5" y="903.0" font-family="Arial" font-size="58" font-weight="700">«actor» CDD</text>
+<line x1="565" y1="880" x2="1005" y2="830" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="880" x2="1005" y2="1080" stroke="#444" stroke-width="3"/>
+<text x="55" y="1722" font-family="Arial" font-size="56" font-weight="400">ADM: Administrador del Sistema</text>
+<text x="55" y="1786" font-family="Arial" font-size="56" font-weight="400">SUP: Supervisor de Recolección</text>
+<text x="55" y="1850" font-family="Arial" font-size="56" font-weight="400">CDD: Cuerpo Directivo de la DSU</text>
+</svg>

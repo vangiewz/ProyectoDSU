@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1510" viewBox="0 0 2700 1510"><rect width="100%" height="100%" fill="white"/>
+<text x="60" y="64" font-family="Arial" font-size="42" font-weight="700">Catálogo implementado: tablas ORM</text>
+<rect x="60.0" y="110.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="157.0" font-family="Arial" font-size="42" font-weight="700">auth_permission</text>
+<line x1="60.0" y1="168.0" x2="675.0" y2="168.0" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="212.0" font-family="Arial" font-size="40" font-weight="400">auth</text>
+<rect x="705.0" y="110.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="157.0" font-family="Arial" font-size="42" font-weight="700">auth_group</text>
+<line x1="705.0" y1="168.0" x2="1320.0" y2="168.0" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="212.0" font-family="Arial" font-size="40" font-weight="400">auth</text>
+<rect x="1350.0" y="110.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="157.0" font-family="Arial" font-size="42" font-weight="700">accounts_user</text>
+<line x1="1350.0" y1="168.0" x2="1965.0" y2="168.0" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="212.0" font-family="Arial" font-size="40" font-weight="400">accounts</text>
+<rect x="1995.0" y="110.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="157.0" font-family="Arial" font-size="42" font-weight="700">audit_auditlog</text>
+<line x1="1995.0" y1="168.0" x2="2610.0" y2="168.0" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="212.0" font-family="Arial" font-size="40" font-weight="400">audit</text>
+<rect x="60.0" y="330.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="377.0" font-family="Arial" font-size="42" font-weight="700">catalogs_parametrossistema</text>
+<line x1="60.0" y1="388.0" x2="675.0" y2="388.0" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="432.0" font-family="Arial" font-size="40" font-weight="400">catalogs</text>
+<rect x="705.0" y="330.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="377.0" font-family="Arial" font-size="42" font-weight="700">catalogs_periodoacademico</text>
+<line x1="705.0" y1="388.0" x2="1320.0" y2="388.0" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="432.0" font-family="Arial" font-size="40" font-weight="400">catalogs</text>
+<rect x="1350.0" y="330.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="377.0" font-family="Arial" font-size="42" font-weight="700">catalogs_unidadmedida</text>
+<line x1="1350.0" y1="388.0" x2="1965.0" y2="388.0" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="432.0" font-family="Arial" font-size="40" font-weight="400">catalogs</text>
+<rect x="1995.0" y="330.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="377.0" font-family="Arial" font-size="42" font-weight="700">catalogs_tiporesiduo</text>
+<line x1="1995.0" y1="388.0" x2="2610.0" y2="388.0" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="432.0" font-family="Arial" font-size="40" font-weight="400">catalogs</text>
+<rect x="60.0" y="550.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="597.0" font-family="Arial" font-size="42" font-weight="700">campus_sector</text>
+<line x1="60.0" y1="608.0" x2="675.0" y2="608.0" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="652.0" font-family="Arial" font-size="40" font-weight="400">campus</text>
+<rect x="705.0" y="550.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="597.0" font-family="Arial" font-size="42" font-weight="700">campus_puntorecoleccion</text>
+<line x1="705.0" y1="608.0" x2="1320.0" y2="608.0" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="652.0" font-family="Arial" font-size="40" font-weight="400">campus</text>
+<rect x="1350.0" y="550.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="597.0" font-family="Arial" font-size="42" font-weight="700">campus_contenedor</text>
+<line x1="1350.0" y1="608.0" x2="1965.0" y2="608.0" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="652.0" font-family="Arial" font-size="40" font-weight="400">campus</text>
+<rect x="1995.0" y="550.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="597.0" font-family="Arial" font-size="42" font-weight="700">operations_vehiculo</text>
+<line x1="1995.0" y1="608.0" x2="2610.0" y2="608.0" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="652.0" font-family="Arial" font-size="40" font-weight="400">operations</text>
+<rect x="60.0" y="770.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="817.0" font-family="Arial" font-size="42" font-weight="700">operations_jornada</text>
+<line x1="60.0" y1="828.0" x2="675.0" y2="828.0" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="872.0" font-family="Arial" font-size="40" font-weight="400">operations</text>
+<rect x="705.0" y="770.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="817.0" font-family="Arial" font-size="42" font-weight="700">operations_jornadapunto</text>
+<line x1="705.0" y1="828.0" x2="1320.0" y2="828.0" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="872.0" font-family="Arial" font-size="40" font-weight="400">operations</text>
+<rect x="1350.0" y="770.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="817.0" font-family="Arial" font-size="42" font-weight="700">operations_incidencia</text>
+<line x1="1350.0" y1="828.0" x2="1965.0" y2="828.0" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="872.0" font-family="Arial" font-size="40" font-weight="400">operations</text>
+<rect x="1995.0" y="770.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="817.0" font-family="Arial" font-size="42" font-weight="700">operations_registroresiduo</text>
+<line x1="1995.0" y1="828.0" x2="2610.0" y2="828.0" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="872.0" font-family="Arial" font-size="40" font-weight="400">operations</text>
+<rect x="60.0" y="990.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="1037.0" font-family="Arial" font-size="42" font-weight="700">analytics_ejecucionetl</text>
+<line x1="60.0" y1="1048.0" x2="675.0" y2="1048.0" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="1092.0" font-family="Arial" font-size="40" font-weight="400">analytics</text>
+<rect x="705.0" y="990.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="1037.0" font-family="Arial" font-size="42" font-weight="700">analytics_hechoresiduo</text>
+<line x1="705.0" y1="1048.0" x2="1320.0" y2="1048.0" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="1092.0" font-family="Arial" font-size="40" font-weight="400">analytics</text>
+<rect x="1350.0" y="990.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="1037.0" font-family="Arial" font-size="42" font-weight="700">analytics_registrodescarta</text>
+<text x="1365.0" y="1086.0" font-family="Arial" font-size="42" font-weight="700">do</text>
+<line x1="1350.0" y1="1098.0" x2="1965.0" y2="1098.0" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="1142.0" font-family="Arial" font-size="40" font-weight="400">analytics</text>
+<rect x="1995.0" y="990.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="1037.0" font-family="Arial" font-size="42" font-weight="700">prediction_modeloentrenado</text>
+<line x1="1995.0" y1="1048.0" x2="2610.0" y2="1048.0" stroke="#444" stroke-width="3"/>
+<text x="2010.0" y="1092.0" font-family="Arial" font-size="40" font-weight="400">prediction</text>
+<rect x="60.0" y="1210.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="1257.0" font-family="Arial" font-size="42" font-weight="700">prediction_loteprediccion</text>
+<line x1="60.0" y1="1268.0" x2="675.0" y2="1268.0" stroke="#444" stroke-width="3"/>
+<text x="75.0" y="1312.0" font-family="Arial" font-size="40" font-weight="400">prediction</text>
+<rect x="705.0" y="1210.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="1257.0" font-family="Arial" font-size="42" font-weight="700">prediction_prediccion</text>
+<line x1="705.0" y1="1268.0" x2="1320.0" y2="1268.0" stroke="#444" stroke-width="3"/>
+<text x="720.0" y="1312.0" font-family="Arial" font-size="40" font-weight="400">prediction</text>
+<rect x="1350.0" y="1210.0" width="615.0" height="200.0" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="1257.0" font-family="Arial" font-size="42" font-weight="700">prediction_recomendacion</text>
+<line x1="1350.0" y1="1268.0" x2="1965.0" y2="1268.0" stroke="#444" stroke-width="3"/>
+<text x="1365.0" y="1312.0" font-family="Arial" font-size="40" font-weight="400">prediction</text>
+</svg>

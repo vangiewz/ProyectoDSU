@@ -1,6 +1,7 @@
 """Modelo financiero de Residata S.R.L. (cap. 8 estudio de mercado, cap. 11 puesta en marcha, cap. 13 financiamiento).
 Reproducible: python finanzas.py -> recursos/finanzas.json y gráficos en recursos/web/.
 Tarifas de nube consultadas el 18/11/2026: Azure Retail Prices API, AWS Price List API y páginas oficiales de GCP.
+Aportes patronales de planificación: 17,21 % = salud 10 % + SIP 7,21 % (Gestora, folleto Empleadores, consulta 19/11/2026).
 Los supuestos comerciales (clientes, precios, sueldos) se declaran en SUPUESTOS y se publican con el resultado."""
 import json
 from pathlib import Path
@@ -44,8 +45,9 @@ SAM = (MERCADO['municipios_relleno'] * PRECIO['Red'] + (MERCADO['universidades_c
 
 # ---------------------------------------------------------------- supuestos de la proyección
 SUPUESTOS = dict(
+    fraccion_clientes_anuales=0.5, meses_cobrados_plan_anual=10,
     clientes_fin_de_anio={'Campus': [2, 5, 9, 13, 17], 'Red': [1, 2, 4, 6, 8]},
-    iva=0.13, it=0.03, iue=0.25, cargas_sociales=0.1671, aguinaldo=13 / 12, tasa_descuento=0.15,
+    iva=0.13, it=0.03, iue=0.25, cargas_sociales=0.1721, aguinaldo=13 / 12, tasa_descuento=0.15,
     personal_mensual=[  # (rol, Bs/mes, años activos 1..5)
         ('Fundador: dirección y desarrollo', [4500, 7000, 9000, 9000, 9000]),
         ('Fundador: desarrollo y calidad', [4500, 7000, 9000, 9000, 9000]),
@@ -58,14 +60,15 @@ SUPUESTOS = dict(
     clientes_por_vm=8, neon_por_cliente_usd=round(0.106 * 50 + 0.35 * 2, 2))
 
 
-def proyeccion():
-    s = SUPUESTOS; anios = []
+def proyeccion(ajustes=None):
+    s = dict(SUPUESTOS, **(ajustes or {})); anios = []
     prev = {'Campus': 0, 'Red': 0}
     for a in range(5):
         fin = {p: s['clientes_fin_de_anio'][p][a] for p in PRECIO}
         prom = {p: (prev[p] + fin[p]) / 2 for p in PRECIO}
         nuevos = {p: fin[p] - prev[p] for p in PRECIO}
-        bruto_sus = sum(prom[p] * PRECIO[p] * 12 for p in PRECIO)
+        meses_equivalentes = 12 * (1 - s['fraccion_clientes_anuales']) + s['meses_cobrados_plan_anual'] * s['fraccion_clientes_anuales']
+        bruto_sus = sum(prom[p] * PRECIO[p] * meses_equivalentes for p in PRECIO)
         bruto_impl = sum(nuevos[p] * IMPL[p] for p in PRECIO)
         bruto = bruto_sus + bruto_impl
         neto = bruto * (1 - s['iva'])
@@ -107,7 +110,8 @@ def equilibrio():
     s = SUPUESTOS
     fijos = (sum(m[2] for _, m in s['personal_mensual']) * (1 + s['cargas_sociales']) * s['aguinaldo'] + s['marketing_anual'][2] / 12
              + s['contador_mensual'] + PLAT_USD * TC)
-    margen = PRECIO['Campus'] * (1 - s['iva'] - s['it']) - s['neon_por_cliente_usd'] * TC
+    factor = (12 * (1 - s['fraccion_clientes_anuales']) + s['meses_cobrados_plan_anual'] * s['fraccion_clientes_anuales']) / 12
+    margen = PRECIO['Campus'] * factor * (1 - s['iva'] - s['it']) - s['neon_por_cliente_usd'] * TC
     return dict(costos_fijos_mensuales=round(fijos), margen_por_cliente=round(margen), clientes=round(fijos / margen, 1))
 
 
@@ -123,11 +127,13 @@ def graficos(anios):
     fig, ax = plt.subplots(figsize=(7.2, 3.6), dpi=220, facecolor=fondo); ax.set_facecolor(fondo)
     w = 0.36; pos = range(len(x))
     ax.bar([p - w / 2 - 0.01 for p in pos], [a['ingreso_neto'] for a in anios], w, color=azul, label='Ingresos netos de IVA')
-    ax.bar([p + w / 2 + 0.01 for p in pos], [a['egresos'] for a in anios], w, color=naranja, label='Egresos')
+    ax.bar([p + w / 2 + 0.01 for p in pos], [a['egresos'] for a in anios], w, color=naranja, label='Egresos sin IUE')
     ax.set_xticks(list(pos), x); ax.yaxis.set_major_formatter(fmt); ax.set_ylabel('Bs por año')
     ax.grid(axis='y', color='#e6e5e0', linewidth=.6); ax.set_axisbelow(True)
     ax.legend(frameon=False, loc='upper left', labelcolor=tinta)
-    fig.tight_layout(); fig.savefig(R / 'recursos/web/finanzas_ingresos_egresos.png', facecolor=fondo); plt.close(fig)
+    fig.tight_layout(); fig.savefig(R / 'recursos/web/finanzas_ingresos_egresos.png', facecolor=fondo)
+    fig.savefig(R.parent / 'sitio-residata/img/finanzas.webp', format='webp', facecolor=fondo)
+    plt.close(fig)
     fig, ax = plt.subplots(figsize=(7.2, 3.4), dpi=220, facecolor=fondo); ax.set_facecolor(fondo)
     ac = [0] + [a['acumulado'] for a in anios]
     ax.plot(['Inicio'] + x, ac, color=azul, linewidth=2, marker='o', markersize=6)
@@ -167,8 +173,30 @@ if __name__ == '__main__':
     partes = {'Equipo (sueldos y cargas)': sum(a['personal'] for a in a12), 'Marketing y ventas': sum(a['marketing'] for a in a12),
               'Infraestructura en la nube': sum(a['nube'] for a in a12), 'Constitución, contabilidad e impuestos': sum(a['administracion'] + a['it'] for a in a12)}
     uso = [dict(destino=k, bs=round(deficit * v / tot)) for k, v in partes.items()]
-    uso.append(dict(destino='Contingencia (20 %)', bs=int(monto) - sum(u['bs'] for u in uso)))
+    uso.append(dict(destino='Contingencia (20 % y redondeo)', bs=int(monto) - sum(u['bs'] for u in uso)))
     res['uso_fondos'] = uso
+    res['escenarios'] = {}
+    for nombre, factor in [('conservador', 0.7), ('base', 1.0), ('optimista', 1.3)]:
+        clientes = {p: [max(0, round(n * factor)) for n in ns] for p, ns in SUPUESTOS['clientes_fin_de_anio'].items()}
+        serie = proyeccion({'clientes_fin_de_anio': clientes})
+        res['escenarios'][nombre] = dict(clientes=clientes, anios=serie,
+            van=round(sum(a['flujo'] / (1 + r) ** a['anio'] for a in serie)),
+            deficit_maximo=-min(0, min(a['acumulado'] for a in serie)))
+    # Ilustración de salida de un ángel; no es un compromiso de recompra ni retorno garantizado.
+    participacion, multiplo = 0.15, 3
+    caja = monto + anios[-1]['acumulado']
+    valor_salida = max(0, anios[-1]['resultado_antes_iue'] * multiplo + caja)
+    cobro = valor_salida * participacion
+    res['inversionista_ilustrativo'] = dict(aporte=int(monto), participacion=participacion,
+        valoracion_post_money=round(monto / participacion), multiplo_resultado_antes_iue=multiplo,
+        deuda_asumida=0, dividendos_asumidos=0, salida_anio=5, cobro_estimado=round(cobro),
+        tir_anual_pct=round(((cobro / monto) ** (1 / 5) - 1) * 100, 1),
+        advertencia='Escenario hipotético sin comprador acreditado; puede perderse el capital. No es la TIR operativa del proyecto.')
+    res['limitaciones'] = ['Demanda y precios por validar: no hay entrevistas ni ventas acreditadas.',
+        'Ocho clientes por VM es supuesto pendiente de prueba de capacidad.',
+        'Tarifas y cambio Bs/USD son referencias de planificación del 18/11/2026, no facturas ni cotizaciones vigentes garantizadas.',
+        'Impuestos simplificados para planificación: requiere revisión contable; no incluye compensaciones ni intereses de un crédito.',
+        'VAN/TIR del proyecto consideran los flujos operativos negativos de años iniciales; no restar otra vez el capital que los financia.']
     (R / 'recursos/finanzas.json').write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding='utf-8')
     graficos(anios)
     for n in NUBE: print(n['proveedor'], n['total_usd'], 'USD', n['total_bs'], 'Bs')

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="604" viewBox="0 0 2700 604"><rect width="100%" height="100%" fill="white"/>
+<text x="40" y="43" font-family="Arial" font-size="36">CU28: interacción ampliada — parte 3/3</text>
+<text x="40" y="103" font-family="Arial" font-size="36">Actor autorizado</text>
+<line x1="160" y1="120" x2="160" y2="564" stroke="#555" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="600" y="103" font-family="Arial" font-size="36">Interfaz React</text>
+<line x1="720" y1="120" x2="720" y2="564" stroke="#555" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1130" y="103" font-family="Arial" font-size="36">ViewSet DRF</text>
+<line x1="1250" y1="120" x2="1250" y2="564" stroke="#555" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="1670" y="103" font-family="Arial" font-size="36">Servicio de dominio</text>
+<line x1="1790" y1="120" x2="1790" y2="564" stroke="#555" stroke-width="3" stroke-dasharray="8 8"/>
+<text x="2330" y="103" font-family="Arial" font-size="36">ORM / auditoría</text>
+<line x1="2450" y1="120" x2="2450" y2="564" stroke="#555" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="25" y="156" width="2650" height="72" fill="white"/>
+<text x="35" y="188" font-family="Arial" font-size="36">19. lote</text>
+<line x1="1790" y1="228" x2="1250" y2="228" stroke="#555" stroke-width="3"/>
+<line x1="1250" y1="228" x2="1268" y2="218" stroke="#555" stroke-width="3"/>
+<line x1="1250" y1="228" x2="1268" y2="238" stroke="#555" stroke-width="3"/>
+<rect x="25" y="264" width="2650" height="72" fill="white"/>
+<text x="35" y="296" font-family="Arial" font-size="36">20. 201 lote con margen de error</text>
+<line x1="1250" y1="336" x2="720" y2="336" stroke="#555" stroke-width="3"/>
+<line x1="720" y1="336" x2="738" y2="326" stroke="#555" stroke-width="3"/>
+<line x1="720" y1="336" x2="738" y2="346" stroke="#555" stroke-width="3"/>
+<rect x="25" y="372" width="2650" height="72" fill="white"/>
+<text x="35" y="404" font-family="Arial" font-size="36">21. mostrarPrediccion()</text>
+<line x1="720" y1="444" x2="160" y2="444" stroke="#555" stroke-width="3"/>
+<line x1="160" y1="444" x2="178" y2="434" stroke="#555" stroke-width="3"/>
+<line x1="160" y1="444" x2="178" y2="454" stroke="#555" stroke-width="3"/>
+</svg>

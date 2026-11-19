@@ -1,0 +1,2362 @@
+[
+  [
+    0,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    5,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    7,
+    "Heading 8",
+    "Integrantes:"
+  ],
+  [
+    14,
+    "Heading 8",
+    "Santa Cruz - Bolivia"
+  ],
+  [
+    15,
+    "Heading 8",
+    ""
+  ],
+  [
+    19,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    23,
+    "Heading 5",
+    "PLAN DE PROYECTO PAPS"
+  ],
+  [
+    30,
+    "Heading 8",
+    "Integrantes:"
+  ],
+  [
+    41,
+    "Heading 2",
+    "PLAN DE ADMINISTRACIÓN DE PROYECTOS DE SOFTWARE"
+  ],
+  [
+    42,
+    "Heading 4",
+    "Introducción"
+  ],
+  [
+    50,
+    "Heading 5",
+    "Métricas"
+  ],
+  [
+    52,
+    "Heading 5",
+    "Métricas Orientadas al tamaño"
+  ],
+  [
+    57,
+    "Heading 5",
+    "Métricas Orientadas a la función"
+  ],
+  [
+    62,
+    "Heading 5",
+    "Alcance"
+  ],
+  [
+    63,
+    "Heading 8",
+    "Entrenamiento en programación competitiva:"
+  ],
+  [
+    65,
+    "Heading 8",
+    "Simulación de concursos:"
+  ],
+  [
+    67,
+    "Heading 8",
+    "Evaluación automática:"
+  ],
+  [
+    69,
+    "Heading 8",
+    "Organización de equipos:"
+  ],
+  [
+    72,
+    "Heading 8",
+    "Seguimiento de rendimiento:"
+  ],
+  [
+    75,
+    "Heading 8",
+    "Acceso educativo:"
+  ],
+  [
+    77,
+    "Heading 5",
+    "Licencias"
+  ],
+  [
+    80,
+    "Heading 5",
+    "Desarrolladores"
+  ],
+  [
+    83,
+    "Heading 5",
+    "Interfaces"
+  ],
+  [
+    103,
+    "Heading 5",
+    "Codeforces.com"
+  ],
+  [
+    106,
+    "Heading 5",
+    "Alcance"
+  ],
+  [
+    107,
+    "Heading 8",
+    "Amplia colección de problemas:"
+  ],
+  [
+    110,
+    "Heading 8",
+    "Concursos en línea:"
+  ],
+  [
+    113,
+    "Heading 8",
+    "Sistema de ranking:"
+  ],
+  [
+    116,
+    "Heading 8",
+    "Comunidad activa:"
+  ],
+  [
+    119,
+    "Heading 8",
+    "Herramientas de aprendizaje:"
+  ],
+  [
+    122,
+    "Heading 8",
+    "Acceso global:"
+  ],
+  [
+    125,
+    "Heading 5",
+    "Licencia"
+  ],
+  [
+    129,
+    "Heading 5",
+    "Desarrolladores"
+  ],
+  [
+    131,
+    "Heading 5",
+    "Interfaces"
+  ],
+  [
+    146,
+    "Heading 5",
+    "Tools.icpc.global"
+  ],
+  [
+    149,
+    "Heading 5",
+    "Alcance"
+  ],
+  [
+    150,
+    "Heading 8",
+    "Gestión de concursos:"
+  ],
+  [
+    153,
+    "Heading 8",
+    "Visualización en tiempo real:"
+  ],
+  [
+    155,
+    "Heading 8",
+    "Evaluación automática:"
+  ],
+  [
+    158,
+    "Heading 8",
+    "Herramientas para jueces:"
+  ],
+  [
+    161,
+    "Heading 8",
+    "Integración con sistemas ICPC:"
+  ],
+  [
+    164,
+    "Heading 8",
+    "Uso institucional:"
+  ],
+  [
+    167,
+    "Heading 5",
+    "Licencia"
+  ],
+  [
+    172,
+    "Heading 5",
+    "Desarrolladores"
+  ],
+  [
+    174,
+    "Heading 5",
+    "Interfaces"
+  ],
+  [
+    190,
+    "Heading 4",
+    "Gestión del Proyecto"
+  ],
+  [
+    192,
+    "Heading 5",
+    "Tamaño"
+  ],
+  [
+    195,
+    "Heading 4",
+    "Complejidad"
+  ],
+  [
+    196,
+    "Heading 8",
+    "Procesamiento de Datos:"
+  ],
+  [
+    201,
+    "Heading 8",
+    "Experiencia del Usuario:"
+  ],
+  [
+    206,
+    "Heading 8",
+    "Seguridad del Sistema:"
+  ],
+  [
+    212,
+    "Heading 8",
+    "Limitaciones del Equipo:"
+  ],
+  [
+    218,
+    "Heading 5",
+    "Estructuración del Cliente"
+  ],
+  [
+    222,
+    "Heading 4",
+    "Ámbito del Proyecto"
+  ],
+  [
+    224,
+    "Heading 5",
+    "Objetivos del Proyecto"
+  ],
+  [
+    225,
+    "Heading 6",
+    "Objetivo General"
+  ],
+  [
+    228,
+    "Heading 6",
+    "Objetivos Específicos"
+  ],
+  [
+    238,
+    "Heading 5",
+    "Requerimientos Principales"
+  ],
+  [
+    239,
+    "Heading 8",
+    "RP1. Gestión de Roles:"
+  ],
+  [
+    241,
+    "Heading 8",
+    "RP2. Gestión de Usuarios:"
+  ],
+  [
+    243,
+    "Heading 8",
+    "RP3. Gestión de Problemas de Programación:"
+  ],
+  [
+    245,
+    "Heading 8",
+    "RP4. Gestión del Banco de Problemas:"
+  ],
+  [
+    248,
+    "Heading 8",
+    "RP5. Gestión de Competencias:"
+  ],
+  [
+    250,
+    "Heading 8",
+    "RP6. Gestión de Envío de Soluciones (Submissions):"
+  ],
+  [
+    252,
+    "Heading 8",
+    "RP7. Evaluación Automática:"
+  ],
+  [
+    254,
+    "Heading 8",
+    "RP8. Gestión de Ranking / Scoreboard:"
+  ],
+  [
+    256,
+    "Heading 8",
+    "RP9. Gestión de Equipos:"
+  ],
+  [
+    258,
+    "Heading 8",
+    "RP10. Gestión de Entrenamientos:"
+  ],
+  [
+    260,
+    "Heading 8",
+    "RP11. Compatibilidad Multiplataforma:"
+  ],
+  [
+    262,
+    "Heading 8",
+    "RP12. Seguridad de Datos:"
+  ],
+  [
+    264,
+    "Heading 8",
+    "RP13. Seguimiento y Estadísticas:"
+  ],
+  [
+    267,
+    "Heading 5",
+    "Rendimiento"
+  ],
+  [
+    268,
+    "Heading 8",
+    "Tiempo de Respuesta:"
+  ],
+  [
+    270,
+    "Heading 8",
+    "Capacidad de Usuarios Concurrentes:"
+  ],
+  [
+    272,
+    "Heading 8",
+    "Escalabilidad:"
+  ],
+  [
+    274,
+    "Heading 8",
+    "Procesamiento de Datos:"
+  ],
+  [
+    277,
+    "Heading 5",
+    "Fiabilidad"
+  ],
+  [
+    279,
+    "Heading 8",
+    "Disponibilidad del Sistema (Uptime):"
+  ],
+  [
+    281,
+    "Heading 8",
+    "Integridad y Consistencia de Datos (ACID):"
+  ],
+  [
+    283,
+    "Heading 8",
+    "Tolerancia a Fallos:"
+  ],
+  [
+    286,
+    "Heading 3",
+    "Restricciones"
+  ],
+  [
+    287,
+    "Heading 6",
+    "Restricciones Técnicas"
+  ],
+  [
+    290,
+    "Heading 8",
+    "Compatibilidad:"
+  ],
+  [
+    292,
+    "Heading 8",
+    "Seguridad:"
+  ],
+  [
+    294,
+    "Heading 8",
+    "Interfaz de Usuario:"
+  ],
+  [
+    296,
+    "Heading 8",
+    "Rendimiento y Escalabilidad:"
+  ],
+  [
+    298,
+    "Heading 8",
+    "Integración:"
+  ],
+  [
+    301,
+    "Heading 6",
+    "Restricciones Legales"
+  ],
+  [
+    304,
+    "Heading 8",
+    "Protección de datos:"
+  ],
+  [
+    306,
+    "Heading 8",
+    "Gestión de información sensible:"
+  ],
+  [
+    309,
+    "Heading 8",
+    "Uso académico y ético:"
+  ],
+  [
+    312,
+    "Heading 6",
+    "Restricciones de Recursos"
+  ],
+  [
+    313,
+    "Heading 8",
+    "Tiempo:"
+  ],
+  [
+    315,
+    "Heading 8",
+    "Recursos Humanos:"
+  ],
+  [
+    317,
+    "Heading 8",
+    "Recursos Tecnológicos:"
+  ],
+  [
+    320,
+    "Heading 5",
+    "Interfaces Externas"
+  ],
+  [
+    322,
+    "Heading 6",
+    "Interacciones con Software"
+  ],
+  [
+    330,
+    "Heading 6",
+    "Interacciones con Personas"
+  ],
+  [
+    339,
+    "Heading 6",
+    "Interacciones con Hardware"
+  ],
+  [
+    347,
+    "Heading 3",
+    "Estimaciones"
+  ],
+  [
+    349,
+    "Heading 5",
+    "Valor Esperado"
+  ],
+  [
+    358,
+    "Heading 5",
+    "COCOMO II"
+  ],
+  [
+    365,
+    "Heading 5",
+    "Ecuación del software. Promedio de KLDC"
+  ],
+  [
+    405,
+    "Heading 5",
+    "Planning Póker"
+  ],
+  [
+    412,
+    "Heading 3",
+    "Planificación del Tiempo"
+  ],
+  [
+    418,
+    "Heading 5",
+    "Diagrama de Pert"
+  ],
+  [
+    421,
+    "Heading 3",
+    "Gestión del Riesgo"
+  ],
+  [
+    426,
+    "Heading 3",
+    "Tabla de Recursos"
+  ],
+  [
+    431,
+    "Heading 3",
+    "Organización Interna"
+  ],
+  [
+    436,
+    "Heading 3",
+    "Mecanismos de Seguimiento y Control"
+  ],
+  [
+    439,
+    "Heading 6",
+    "Formulario para el Sprint Retrospective"
+  ],
+  [
+    440,
+    "Heading 6",
+    ""
+  ],
+  [
+    445,
+    "Heading 5",
+    "Formulario del Sprint Review"
+  ],
+  [
+    448,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    452,
+    "Heading 5",
+    "PROCESO DE DESARROLLO DE SOFTWARE"
+  ],
+  [
+    472,
+    "Heading 2",
+    "MODELOS DE DESARROLLO"
+  ],
+  [
+    474,
+    "Heading 3",
+    "Sprint 0"
+  ],
+  [
+    476,
+    "Heading 5",
+    "Definiciones Iniciales"
+  ],
+  [
+    479,
+    "Heading 6",
+    "Equipo de Desarrollo"
+  ],
+  [
+    482,
+    "Heading 6",
+    "Objetivo de producto"
+  ],
+  [
+    485,
+    "Heading 6",
+    "Patron de arquitectura"
+  ],
+  [
+    486,
+    "Heading 8",
+    "Web:"
+  ],
+  [
+    492,
+    "Heading 6",
+    "Duración del Sprint"
+  ],
+  [
+    495,
+    "Heading 6",
+    "Lista de Casos de Uso"
+  ],
+  [
+    498,
+    "Heading 5",
+    "Diseño de Datos"
+  ],
+  [
+    500,
+    "Heading 6",
+    "Diseño de datos Conceptual"
+  ],
+  [
+    503,
+    "Heading 6",
+    "Diseño de datos lógico"
+  ],
+  [
+    521,
+    "Heading 6",
+    "Diseño de datos físico"
+  ],
+  [
+    800,
+    "Heading 6",
+    "Diagrama De Casos Uso"
+  ],
+  [
+    804,
+    "Heading 6",
+    "Diagrama de paquetes"
+  ],
+  [
+    807,
+    "Heading 6",
+    "Diagrama de Despliegue"
+  ],
+  [
+    810,
+    "Heading 6",
+    "C4"
+  ],
+  [
+    822,
+    "Heading 5",
+    "Product Backlog"
+  ],
+  [
+    825,
+    "Heading 3",
+    "Sprint 1"
+  ],
+  [
+    827,
+    "Heading 5",
+    "Objetivo"
+  ],
+  [
+    830,
+    "Heading 5",
+    "Sprint Planning"
+  ],
+  [
+    834,
+    "Heading 5",
+    "Sprint BackLog"
+  ],
+  [
+    837,
+    "Heading 5",
+    "Historia de usuarios"
+  ],
+  [
+    845,
+    "Heading 5",
+    "Pruebas ( Reporte)"
+  ],
+  [
+    849,
+    "Heading 5",
+    "Reunion Revision del Sprint (Sprint Review)"
+  ],
+  [
+    852,
+    "Heading 5",
+    "Reunión de Retrospectiva (Sprint Retrospective)"
+  ],
+  [
+    855,
+    "Heading 3",
+    "Sprint 2"
+  ],
+  [
+    857,
+    "Heading 5",
+    "Objetivo"
+  ],
+  [
+    860,
+    "Heading 5",
+    "Sprint Planning"
+  ],
+  [
+    864,
+    "Heading 5",
+    "Sprint BackLog"
+  ],
+  [
+    867,
+    "Heading 5",
+    "Historia de usuarios"
+  ],
+  [
+    880,
+    "Heading 5",
+    "Pruebas ( Reporte)"
+  ],
+  [
+    883,
+    "Heading 5",
+    "Reunion Revision del Sprint (Sprint Review)"
+  ],
+  [
+    886,
+    "Heading 5",
+    "Reunión de Retrospectiva (Sprint Retrospective)"
+  ],
+  [
+    893,
+    "Heading 3",
+    "Sprint 3"
+  ],
+  [
+    895,
+    "Heading 5",
+    "Objetivo"
+  ],
+  [
+    898,
+    "Heading 5",
+    "Sprint Planning"
+  ],
+  [
+    901,
+    "Heading 5",
+    "Sprint BackLog"
+  ],
+  [
+    904,
+    "Heading 5",
+    "Historia de usuarios"
+  ],
+  [
+    915,
+    "Heading 5",
+    "Pruebas ( Reporte)"
+  ],
+  [
+    919,
+    "Heading 5",
+    "Reunion Revision del Sprint (Sprint Review)"
+  ],
+  [
+    922,
+    "Heading 5",
+    "Reunión de Retrospectiva (Sprint Retrospective)"
+  ],
+  [
+    935,
+    "Heading 5",
+    "Diagrama de Secuencia"
+  ],
+  [
+    936,
+    "Heading 8",
+    "CU6: Gestionar Envió de Soluciones"
+  ],
+  [
+    939,
+    "Heading 8",
+    "CU7 : Gestionar Revisión de Soluciones"
+  ],
+  [
+    942,
+    "Heading 8",
+    "CU8: Gestionar Ranking"
+  ],
+  [
+    945,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    949,
+    "Heading 2",
+    "MANUAL DE CALIDAD SQAP"
+  ],
+  [
+    950,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    969,
+    "Heading 2",
+    "MANUAL DE CALIDAD SQAP"
+  ],
+  [
+    971,
+    "Heading 5",
+    "Introducción"
+  ],
+  [
+    980,
+    "Heading 5",
+    "Antecedentes"
+  ],
+  [
+    989,
+    "Heading 5",
+    "Objetivos"
+  ],
+  [
+    991,
+    "Heading 5",
+    "Objetivo General"
+  ],
+  [
+    994,
+    "Heading 5",
+    "Objetivos Específicos"
+  ],
+  [
+    1008,
+    "Heading 5",
+    "Misión"
+  ],
+  [
+    1011,
+    "Heading 5",
+    "Visión"
+  ],
+  [
+    1014,
+    "Heading 5",
+    "Valores"
+  ],
+  [
+    1027,
+    "Heading 7",
+    "SLOGAN"
+  ],
+  [
+    1029,
+    "Heading 5",
+    "Estándares"
+  ],
+  [
+    1051,
+    "Heading 5",
+    "Organigrama"
+  ],
+  [
+    1058,
+    "Heading 5",
+    "Gestión"
+  ],
+  [
+    1060,
+    "Heading 8",
+    "Organización"
+  ],
+  [
+    1070,
+    "Heading 8",
+    "Organización del Grupo de Desarrollo"
+  ],
+  [
+    1075,
+    "Heading 8",
+    "Organización del Cliente"
+  ],
+  [
+    1080,
+    "Heading 8",
+    "Organización del Grupo SQA"
+  ],
+  [
+    1086,
+    "Heading 8",
+    "Tareas y Actividades"
+  ],
+  [
+    1089,
+    "Heading 5",
+    "producto de software:"
+  ],
+  [
+    1092,
+    "Heading 3",
+    "Actividades del Grupo SQA"
+  ],
+  [
+    1096,
+    "Heading 8",
+    "Actividades de Calidad Por Realizar"
+  ],
+  [
+    1100,
+    "Heading 8",
+    "Revisar cada producto"
+  ],
+  [
+    1105,
+    "Heading 8",
+    "Revisar el ajuste al proceso"
+  ],
+  [
+    1109,
+    "Heading 8",
+    "Realizar Revisión Técnica Formal (RTF)"
+  ],
+  [
+    1113,
+    "Heading 8",
+    "Relación Entre las Actividades de SQA y la Planificación"
+  ],
+  [
+    1116,
+    "Heading 5",
+    "Roles y Responsabilidades"
+  ],
+  [
+    1118,
+    "Heading 8",
+    "Responsabilidades del Grupo de Desarrollo"
+  ],
+  [
+    1126,
+    "Heading 8",
+    "Responsabilidad del Cliente"
+  ],
+  [
+    1133,
+    "Heading 8",
+    "Responsabilidades de la SQA Actividades del grupo SQA:"
+  ],
+  [
+    1142,
+    "Heading 8",
+    "Responsabilidades del consultor:"
+  ],
+  [
+    1166,
+    "Heading 8",
+    "Evolución del SQAP"
+  ],
+  [
+    1169,
+    "Heading 5",
+    "Control de Cambio"
+  ],
+  [
+    1176,
+    "Heading 5",
+    "Cuando Hacer Modificaciones"
+  ],
+  [
+    1183,
+    "Heading 8",
+    "Implementación de Modificaciones"
+  ],
+  [
+    1193,
+    "Heading 5",
+    "Publicación del SQAP"
+  ],
+  [
+    1196,
+    "Heading 5",
+    "Documentación"
+  ],
+  [
+    1197,
+    "Heading 8",
+    "Propósito"
+  ],
+  [
+    1206,
+    "Heading 8",
+    "Documentación Mínima Requerida Especificación de Requisitos de Software"
+  ],
+  [
+    1214,
+    "Heading 5",
+    "Descripción del Diseño de Software (SDD)"
+  ],
+  [
+    1227,
+    "Heading 5",
+    "Plan de Verificación y Validación"
+  ],
+  [
+    1230,
+    "Heading 7",
+    "MODELO A USAR PARA EL CONTENIDO DEL SWP:"
+  ],
+  [
+    1233,
+    "Heading 7",
+    "OBJETIVO"
+  ],
+  [
+    1236,
+    "Heading 7",
+    "ALCANCE"
+  ],
+  [
+    1239,
+    "Heading 5",
+    "DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES"
+  ],
+  [
+    1242,
+    "Heading 5",
+    "ORGANIZACIÓN RESPONSABLE"
+  ],
+  [
+    1245,
+    "Heading 5",
+    "CICLO DE VIDA DE VERIFICACIÓN Y VALIDACIÓN"
+  ],
+  [
+    1248,
+    "Heading 5",
+    "APÉNDICE"
+  ],
+  [
+    1251,
+    "Heading 5",
+    "ÍNDICE"
+  ],
+  [
+    1255,
+    "Heading 5",
+    "Plan para el Ciclo de Vida de Verificación y Validación"
+  ],
+  [
+    1265,
+    "Heading 5",
+    "Documento de Usuario"
+  ],
+  [
+    1281,
+    "Heading 8",
+    "Estándares, Prácticas y Convenciones Estándar de Documentación"
+  ],
+  [
+    1285,
+    "Heading 8",
+    "Plantillas de Documentos"
+  ],
+  [
+    1291,
+    "Heading 8",
+    "Adecuación para el Mantenimiento"
+  ],
+  [
+    1295,
+    "Heading 8",
+    "Estándar de Verificación y Prácticas"
+  ],
+  [
+    1298,
+    "Heading 8",
+    "Nomenclatura de Codificación Nomenclatura"
+  ],
+  [
+    1302,
+    "Heading 8",
+    "Nombres de Interfaces"
+  ],
+  [
+    1305,
+    "Heading 8",
+    "Nombres de Clases"
+  ],
+  [
+    1308,
+    "Heading 8",
+    "Métodos"
+  ],
+  [
+    1311,
+    "Heading 8",
+    "Responsable de Verificar el Rendimiento"
+  ],
+  [
+    1319,
+    "Heading 5",
+    "Revisiones y Auditoria"
+  ],
+  [
+    1320,
+    "Heading 6",
+    "Objetivo"
+  ],
+  [
+    1325,
+    "Heading 5",
+    "Requerimientos Mínimos"
+  ],
+  [
+    1326,
+    "Heading 8",
+    "Revisión de Requerimientos"
+  ],
+  [
+    1329,
+    "Heading 8",
+    "Revisión de Diseño Preliminar"
+  ],
+  [
+    1332,
+    "Heading 8",
+    "Revisión de Diseño Crítico"
+  ],
+  [
+    1335,
+    "Heading 8",
+    "Revisión del Plan de Verificación y Validación"
+  ],
+  [
+    1338,
+    "Heading 8",
+    "Auditoría Funcional"
+  ],
+  [
+    1343,
+    "Heading 8",
+    "Auditoría Física"
+  ],
+  [
+    1346,
+    "Heading 8",
+    "Auditorías Internas al Proceso"
+  ],
+  [
+    1349,
+    "Heading 8",
+    "Revisiones de Gestión"
+  ],
+  [
+    1352,
+    "Heading 8",
+    "Revisión del Plan de Gestión de Configuración"
+  ],
+  [
+    1355,
+    "Heading 8",
+    "Agenda"
+  ],
+  [
+    1360,
+    "Heading 8",
+    "Iteración I"
+  ],
+  [
+    1366,
+    "Heading 8",
+    "Iteración N"
+  ],
+  [
+    1371,
+    "Heading 8",
+    "Iteración N"
+  ],
+  [
+    1376,
+    "Heading 8",
+    "Iteración N"
+  ],
+  [
+    1390,
+    "Heading 8",
+    "Verificación"
+  ],
+  [
+    1397,
+    "Heading 3",
+    "Reporte de Problemas y Acciones Correctivas"
+  ],
+  [
+    1398,
+    "Heading 8",
+    "Reporte de Sumario de Fase V&V"
+  ],
+  [
+    1403,
+    "Heading 8",
+    "Reporte de Anomalia"
+  ],
+  [
+    1407,
+    "Heading 8",
+    "Reporte Final de V&V"
+  ],
+  [
+    1415,
+    "Heading 3",
+    "Herramientas, Técnicas y Metodología"
+  ],
+  [
+    1417,
+    "Heading 5",
+    "Herramientas"
+  ],
+  [
+    1422,
+    "Heading 8",
+    "Sistema Operativo:"
+  ],
+  [
+    1425,
+    "Heading 8",
+    "Proyecto Backend (Django REST API) Lenguaje de Programación (Backend):"
+  ],
+  [
+    1427,
+    "Heading 8",
+    "Framework y Herramientas de Django:"
+  ],
+  [
+    1432,
+    "Heading 8",
+    "Base de Datos:"
+  ],
+  [
+    1435,
+    "Heading 8",
+    "Herramientas de Gestión de Dependencias:"
+  ],
+  [
+    1441,
+    "Heading 8",
+    "Documentación y Manual de Ayuda (Backend):"
+  ],
+  [
+    1445,
+    "Heading 8",
+    "Proyecto Frontend (React SPA) Lenguaje de Programación (Frontend):"
+  ],
+  [
+    1447,
+    "Heading 8",
+    "Framework y Herramientas de React:"
+  ],
+  [
+    1451,
+    "Heading 8",
+    "Herramientas de Construcción y Gestión de Dependencias:"
+  ],
+  [
+    1456,
+    "Heading 8",
+    "Sistema Operativo (Frontend):"
+  ],
+  [
+    1459,
+    "Heading 8",
+    "Documentación y Manual de Ayuda (Frontend):"
+  ],
+  [
+    1462,
+    "Heading 8",
+    "Técnicas"
+  ],
+  [
+    1473,
+    "Heading 5",
+    "Metodología"
+  ],
+  [
+    1483,
+    "Heading 8",
+    "Control de Código"
+  ],
+  [
+    1496,
+    "Heading 8",
+    "Control de Medios"
+  ],
+  [
+    1506,
+    "Heading 8",
+    "Control de Proveedores"
+  ],
+  [
+    1510,
+    "Heading 8",
+    "Recolección, Mantenimiento y Retención de Registros"
+  ],
+  [
+    1532,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    1536,
+    "Heading 3",
+    "Productividad Basada En Herramientas Case"
+  ],
+  [
+    1537,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    1556,
+    "Heading 2",
+    "PROCESO DE DESARROLLO DE SOFTWARE BASADO EN HERRAMIENTAS CASE"
+  ],
+  [
+    1557,
+    "Heading 5",
+    "GitHub Copilot"
+  ],
+  [
+    1584,
+    "Heading 5",
+    "Enterprise Architect"
+  ],
+  [
+    1624,
+    "Heading 5",
+    "Draw io"
+  ],
+  [
+    1628,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    1632,
+    "Heading 2",
+    "ASPECTOS LEGALES"
+  ],
+  [
+    1633,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    1652,
+    "Heading 2",
+    "ASPECTOS LEGALES PARA CREAR UNA EMPRESA DE DESARROLLO"
+  ],
+  [
+    1653,
+    "Heading 5",
+    "Requisitos para crear una empresa en Bolivia"
+  ],
+  [
+    1663,
+    "Heading 5",
+    "SEPREC"
+  ],
+  [
+    1668,
+    "Heading 7",
+    "PASOS PARA SU INSCRIPCIÓN SEPREC"
+  ],
+  [
+    1674,
+    "Heading 5",
+    "SERVICIO NACIONAL DE IMPUESTOS NACIONALES"
+  ],
+  [
+    1681,
+    "Heading 7",
+    "REQUISITOS PARA CADA UNO DE LOS REGIMENES RÉGIMEN GENERAL"
+  ],
+  [
+    1689,
+    "Heading 5",
+    "Requisitos para Personas Jurídicas (Sociedades, Asociaciones Cooperativas, ONG y otros)"
+  ],
+  [
+    1693,
+    "Heading 5",
+    "Registro en SEPREC"
+  ],
+  [
+    1694,
+    "Heading 8",
+    "Inscripción de Comerciante Individual o Empresa Unipersonal"
+  ],
+  [
+    1710,
+    "Heading 8",
+    "Inscripción de Sociedad de Responsabilidad Limitada (S.R.L.), Sociedad Colectiva o Sociedad en Comandita Simple"
+  ],
+  [
+    1723,
+    "Heading 7",
+    "REQUISITOS: REQUISITOS TRÁMITE PRESENCIAL"
+  ],
+  [
+    1732,
+    "Heading 7",
+    "REQUISITOS TRÁMITE VIRTUAL"
+  ],
+  [
+    1740,
+    "Heading 7",
+    "PROCEDIMIENTO UNICO: PROCEDIMIENTO TRÁMITE PRESENCIAL"
+  ],
+  [
+    1769,
+    "Heading 7",
+    "PROCEDIMIENTO TRÁMITE VIRTUAL"
+  ],
+  [
+    1808,
+    "Heading 7",
+    "RÉGIMEN TRIBUTARIO SIMPLIFICADO\\"
+  ],
+  [
+    1813,
+    "Heading 7",
+    "REQUISITOS"
+  ],
+  [
+    1832,
+    "Heading 7",
+    "RÉGIMEN AGROPECUARIO UNIFICADO"
+  ],
+  [
+    1834,
+    "Heading 8",
+    "Personas Naturales"
+  ],
+  [
+    1838,
+    "Heading 8",
+    "Organizaciones de Pequeños Productores"
+  ],
+  [
+    1845,
+    "Heading 7",
+    "PROCEDIMIENTO DE INSCRIPCIÓN PARA TODOS LOS REGIMENES"
+  ],
+  [
+    1857,
+    "Heading 5",
+    "LICENCIA DE FUNCIONAMIENTO"
+  ],
+  [
+    1864,
+    "Heading 7",
+    "REQUISITOS"
+  ],
+  [
+    1871,
+    "Heading 5",
+    "CAJA NACIONAL DE SALUD"
+  ],
+  [
+    1877,
+    "Heading 7",
+    "REQUISITOS PARA EMPRESAS"
+  ],
+  [
+    1891,
+    "Heading 7",
+    "REQUISITOS PARA AFILIACION DEL TRABAJADOR"
+  ],
+  [
+    1898,
+    "Heading 5",
+    "GESTORA"
+  ],
+  [
+    1908,
+    "Heading 7",
+    "GESTORA"
+  ],
+  [
+    1913,
+    "Heading 7",
+    "¿CÓMO DEBEN REGISTRARSE LOS EMPLEADORES AL SISTEMA INTEGRAL DE PENSIONES -SIP?"
+  ],
+  [
+    1914,
+    "Heading 7",
+    ""
+  ],
+  [
+    1927,
+    "Heading 7",
+    "REGISTRO DE PERSONAS DEPENDIENTES"
+  ],
+  [
+    1931,
+    "Heading 7",
+    "¿QUIÉNES SON TRABAJADORES DEPENDIENTES?"
+  ],
+  [
+    1935,
+    "Heading 7",
+    "¿CÓMO SE REGISTRA UN TRABAJADOR DEPENDIENTE AL SISTEMA INTEGRAL DE PENSIONES – SIP?"
+  ],
+  [
+    1941,
+    "Heading 7",
+    "¿EN QUÉ PLAZO DEBEN REGISTRARSE LOS TRABAJADORES DEPENDIENTES AL SIP?"
+  ],
+  [
+    1949,
+    "Heading 5",
+    "MINISTERIO DE TRABAJO"
+  ],
+  [
+    1956,
+    "Heading 7",
+    "REQUISITOS:"
+  ],
+  [
+    1962,
+    "Heading 7",
+    "INSTITUCIÓN DONDE SE TRAMITA"
+  ],
+  [
+    1967,
+    "Heading 8",
+    "Aspectos Legales de Producto"
+  ],
+  [
+    1980,
+    "Heading 8",
+    "¿Qué No Puedo Proteger como marca?"
+  ],
+  [
+    1997,
+    "Heading 8",
+    "¿Quién Puede Pedir el Registro de la Marca?"
+  ],
+  [
+    2000,
+    "Heading 8",
+    "¿Qué Gano al Registrar una Marca en Bolivia?"
+  ],
+  [
+    2007,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    2011,
+    "Heading 3",
+    "Infraestructura Para La Producción Del Software"
+  ],
+  [
+    2012,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    2031,
+    "Heading 2",
+    "INFRAESTRUCTURA PARA LA PRODUCCIÓN DEL SOFTWARE"
+  ],
+  [
+    2032,
+    "Heading 5",
+    "Gestión para la configuración del software"
+  ],
+  [
+    2035,
+    "Heading 8",
+    "React"
+  ],
+  [
+    2040,
+    "Heading 8",
+    "Python FastAPI"
+  ],
+  [
+    2062,
+    "Heading 8",
+    "Git y GitHub"
+  ],
+  [
+    2070,
+    "Heading 8",
+    "Trello"
+  ],
+  [
+    2080,
+    "Heading 7",
+    "AWS"
+  ],
+  [
+    2087,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    2091,
+    "Heading 3",
+    "Sitio Web Corporativo"
+  ],
+  [
+    2092,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    2111,
+    "Heading 2",
+    "DESARROLLAR SU SITIO WEB CORPORATIVO"
+  ],
+  [
+    2115,
+    "Heading 5",
+    "Inicio"
+  ],
+  [
+    2121,
+    "Heading 5",
+    "Servicios"
+  ],
+  [
+    2126,
+    "Heading 5",
+    "Nosotros"
+  ],
+  [
+    2131,
+    "Heading 5",
+    "Contactos"
+  ],
+  [
+    2135,
+    "Heading 5",
+    "Chatbot"
+  ],
+  [
+    2139,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    2143,
+    "Heading 3",
+    "Estudio de Mercado"
+  ],
+  [
+    2144,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    2163,
+    "Heading 2",
+    "ESTUDIO DE MERCADO"
+  ],
+  [
+    2165,
+    "Heading 5",
+    "Estudio de Mercado"
+  ],
+  [
+    2172,
+    "Heading 5",
+    "Área del Mercado"
+  ],
+  [
+    2173,
+    "Heading 8",
+    "Extensión Geográfica"
+  ],
+  [
+    2176,
+    "Heading 8",
+    "Población Objetivo"
+  ],
+  [
+    2186,
+    "Heading 8",
+    "Área Demandada para el Estudio de Mercado"
+  ],
+  [
+    2196,
+    "Heading 5",
+    "Estudio de la Demanda"
+  ],
+  [
+    2212,
+    "Heading 5",
+    "Estudio de la Oferta"
+  ],
+  [
+    2227,
+    "Heading 5",
+    "Límites Generales"
+  ],
+  [
+    2228,
+    "Heading 8",
+    "Alcance institucional"
+  ],
+  [
+    2231,
+    "Heading 8",
+    "Alcance funcional"
+  ],
+  [
+    2241,
+    "Heading 8",
+    "Periodo de análisis"
+  ],
+  [
+    2244,
+    "Heading 5",
+    "Metodología"
+  ],
+  [
+    2246,
+    "Heading 8",
+    "Análisis de información secundaria"
+  ],
+  [
+    2248,
+    "Heading 8",
+    "Encuestas a estudiantes y docentes"
+  ],
+  [
+    2255,
+    "Heading 8",
+    "Entrevistas semiestructuradas"
+  ],
+  [
+    2257,
+    "Heading 8",
+    "Observación de procesos"
+  ],
+  [
+    2260,
+    "Heading 5",
+    "Tipo de Mercado"
+  ],
+  [
+    2265,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    2269,
+    "Heading 3",
+    "Pruebas En El Software"
+  ],
+  [
+    2270,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    2289,
+    "Heading 2",
+    "PRUEBAS EN EL SOFTWARE"
+  ],
+  [
+    2291,
+    "Heading 5",
+    "Proceso unificado de pruebas aplicado al proyecto"
+  ],
+  [
+    2299,
+    "Heading 7",
+    "ESTUDIANTE"
+  ],
+  [
+    2302,
+    "Heading 7",
+    "ADMINISTRADOR"
+  ],
+  [
+    2305,
+    "Heading 7",
+    "COACH"
+  ],
+  [
+    2322,
+    "Heading 5",
+    "Listas de comprobación (checklists) aplicadas al software"
+  ],
+  [
+    2325,
+    "Heading 8",
+    "Checklist de funcionalidad"
+  ],
+  [
+    2330,
+    "Heading 8",
+    "Checklist de interfaz y usabilidad"
+  ],
+  [
+    2333,
+    "Heading 5",
+    "Pruebas de Caja Blanca CU5: Gestionar Competencias"
+  ],
+  [
+    2338,
+    "Heading 5",
+    "Matriz de Conexiones"
+  ],
+  [
+    2340,
+    "Heading 5",
+    "Caminos Independientes"
+  ],
+  [
+    2342,
+    "Heading 5",
+    "Casos de Prueba"
+  ],
+  [
+    2350,
+    "Heading 5",
+    "Matriz de Conexiones"
+  ],
+  [
+    2352,
+    "Heading 5",
+    "Caminos Independientes"
+  ],
+  [
+    2354,
+    "Heading 5",
+    "Casos de Prueba"
+  ],
+  [
+    2357,
+    "Heading 5",
+    "CU7: Gestionar Revisiones de Soluciones"
+  ],
+  [
+    2362,
+    "Heading 5",
+    "Matriz de Conexiones"
+  ],
+  [
+    2364,
+    "Heading 5",
+    "Caminos Independientes"
+  ],
+  [
+    2366,
+    "Heading 5",
+    "Casos de Prueba"
+  ],
+  [
+    2369,
+    "Heading 5",
+    "CU8:Gestionar Ranking"
+  ],
+  [
+    2374,
+    "Heading 5",
+    "Matriz de Conexiones"
+  ],
+  [
+    2376,
+    "Heading 5",
+    "Caminos Independientes"
+  ],
+  [
+    2378,
+    "Heading 5",
+    "Casos de Prueba"
+  ],
+  [
+    2381,
+    "Heading 5",
+    "PageSpeed Insights"
+  ],
+  [
+    2390,
+    "Heading 5",
+    "Aplicación en el proyecto"
+  ],
+  [
+    2393,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    2397,
+    "Heading 2",
+    "MARKETING"
+  ],
+  [
+    2398,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    2417,
+    "Heading 2",
+    "MARKETING"
+  ],
+  [
+    2419,
+    "Heading 5",
+    "Introducción"
+  ],
+  [
+    2430,
+    "Heading 5",
+    "Estrategias de Marketing"
+  ],
+  [
+    2432,
+    "Heading 8",
+    "Publicidad en Redes Sociales"
+  ],
+  [
+    2445,
+    "Heading 8",
+    "Objetivos de la Estrategia"
+  ],
+  [
+    2453,
+    "Heading 8",
+    "Público Objetivo"
+  ],
+  [
+    2461,
+    "Heading 8",
+    "Plataformas de Redes Sociales"
+  ],
+  [
+    2470,
+    "Heading 8",
+    "Formatos de Publicidad"
+  ],
+  [
+    2481,
+    "Heading 8",
+    "Métricas"
+  ],
+  [
+    2492,
+    "Heading 8",
+    "Sitio Web"
+  ],
+  [
+    2502,
+    "Heading 8",
+    "Contenido del Sitio Web"
+  ],
+  [
+    2516,
+    "Heading 8",
+    "Análisis y Seguimiento"
+  ],
+  [
+    2561,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    2565,
+    "Heading 3",
+    "Aspectos Para La Puesta En Marcha"
+  ],
+  [
+    2566,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    2585,
+    "Heading 2",
+    "ASPECTOS PARA LA PUESTA EN MARCHA"
+  ],
+  [
+    2587,
+    "Heading 5",
+    "Introducción"
+  ],
+  [
+    2600,
+    "Heading 5",
+    "Puesta en Marcha del Software"
+  ],
+  [
+    2602,
+    "Heading 8",
+    "Configuración de la Infraestructura Tecnológica"
+  ],
+  [
+    2605,
+    "Heading 8",
+    "Asignación de Servidores"
+  ],
+  [
+    2618,
+    "Heading 8",
+    "Configuración de Red"
+  ],
+  [
+    2626,
+    "Heading 8",
+    "Requisitos Técnicos"
+  ],
+  [
+    2628,
+    "Heading 8",
+    "Servidor Backend"
+  ],
+  [
+    2634,
+    "Heading 8",
+    "Servidor Frontend"
+  ],
+  [
+    2638,
+    "Heading 8",
+    "Infraestructura Cloud"
+  ],
+  [
+    2642,
+    "Heading 8",
+    "Requisitos Cliente"
+  ],
+  [
+    2649,
+    "Heading 8",
+    "Instalación del Backend"
+  ],
+  [
+    2660,
+    "Heading 8",
+    "Instalación del Frontend"
+  ],
+  [
+    2669,
+    "Heading 8",
+    "Configuración de la Base de Datos"
+  ],
+  [
+    2685,
+    "Heading 8",
+    "Integración de Módulos"
+  ],
+  [
+    2696,
+    "Heading 8",
+    "Pruebas y Ajustes"
+  ],
+  [
+    2698,
+    "Heading 8",
+    "Pruebas Funcionales"
+  ],
+  [
+    2707,
+    "Heading 8",
+    "Pruebas de Rendimiento"
+  ],
+  [
+    2715,
+    "Heading 8",
+    "Ajustes Finales"
+  ],
+  [
+    2722,
+    "Heading 8",
+    "Capacitación y Documentación"
+  ],
+  [
+    2724,
+    "Heading 8",
+    "Capacitación"
+  ],
+  [
+    2736,
+    "Heading 8",
+    "Documentación"
+  ],
+  [
+    2744,
+    "Heading 5",
+    "Tipo de Licencia"
+  ],
+  [
+    2746,
+    "Heading 8",
+    "Propiedad Intelectual"
+  ],
+  [
+    2749,
+    "Heading 8",
+    "Restricciones de Uso"
+  ],
+  [
+    2755,
+    "Heading 8",
+    "Soporte Técnico"
+  ],
+  [
+    2761,
+    "Heading 5",
+    "Políticas de Privacidad"
+  ],
+  [
+    2763,
+    "Heading 8",
+    "Datos Recopilados"
+  ],
+  [
+    2771,
+    "Heading 8",
+    "Uso de Datos"
+  ],
+  [
+    2778,
+    "Heading 8",
+    "Protección de Información"
+  ],
+  [
+    2785,
+    "Heading 5",
+    "Términos y Condiciones"
+  ],
+  [
+    2787,
+    "Heading 8",
+    "Uso Académico"
+  ],
+  [
+    2793,
+    "Heading 8",
+    "Responsabilidad del Usuario"
+  ],
+  [
+    2799,
+    "Heading 8",
+    "Actualizaciones del Sistema"
+  ],
+  [
+    2806,
+    "Heading 1",
+    "Universidad Autónoma Gabriel René Moreno"
+  ],
+  [
+    2810,
+    "Heading 3",
+    "Software Terminado En Calidad De Producto"
+  ],
+  [
+    2811,
+    "Heading 5",
+    "Grupo Nro. 48"
+  ],
+  [
+    2830,
+    "Heading 2",
+    "SOFTWARE COMO PRODUCTO 100%"
+  ],
+  [
+    2832,
+    "Heading 5",
+    "Aspecto de puesta en marcha"
+  ],
+  [
+    2836,
+    "Heading 8",
+    "Siete Puntos de Calidad del Software Funcionalidad"
+  ],
+  [
+    2838,
+    "Heading 8",
+    "Enfoque en CodeFicct:"
+  ],
+  [
+    2849,
+    "Heading 8",
+    "Ejemplo:"
+  ],
+  [
+    2859,
+    "Heading 8",
+    "Fiabilidad"
+  ],
+  [
+    2861,
+    "Heading 8",
+    "Enfoque en CodeFicct:"
+  ],
+  [
+    2867,
+    "Heading 8",
+    "Ejemplo:"
+  ],
+  [
+    2873,
+    "Heading 8",
+    "Mantenibilidad"
+  ],
+  [
+    2875,
+    "Heading 8",
+    "Enfoque en CodeFicct:"
+  ],
+  [
+    2887,
+    "Heading 8",
+    "Ejemplo:"
+  ],
+  [
+    2894,
+    "Heading 8",
+    "Usabilidad"
+  ],
+  [
+    2896,
+    "Heading 8",
+    "Enfoque en CodeFicct:"
+  ],
+  [
+    2904,
+    "Heading 8",
+    "Ejemplo:"
+  ],
+  [
+    2915,
+    "Heading 8",
+    "Eficiencia"
+  ],
+  [
+    2917,
+    "Heading 8",
+    "Enfoque en CodeFicct:"
+  ],
+  [
+    2925,
+    "Heading 8",
+    "Ejemplo:"
+  ],
+  [
+    2935,
+    "Heading 8",
+    "Portabilidad"
+  ],
+  [
+    2937,
+    "Heading 8",
+    "Enfoque en CodeFicct:"
+  ],
+  [
+    2944,
+    "Heading 8",
+    "Ejemplo:"
+  ],
+  [
+    2955,
+    "Heading 8",
+    "Adaptabilidad"
+  ],
+  [
+    2957,
+    "Heading 8",
+    "Enfoque en CodeFicct:"
+  ],
+  [
+    2964,
+    "Heading 8",
+    "Ejemplo:"
+  ],
+  [
+    2972,
+    "Heading 2",
+    "BIBLIOGRAFIA"
+  ],
+  [
+    3024,
+    "Heading 2",
+    "ANEXO"
+  ],
+  [
+    3025,
+    "Heading 8",
+    "repositorio"
+  ],
+  [
+    3030,
+    "Heading 8",
+    "sitio corporativo"
+  ],
+  [
+    3035,
+    "Heading 8",
+    "manual de usuario"
+  ],
+  [
+    3043,
+    "Heading 8",
+    "QR Trellotrello"
+  ],
+  [
+    3048,
+    "Heading 8",
+    "Caratula del Proyecto Aceptado"
+  ],
+  [
+    3051,
+    "Heading 8",
+    "Carta de Aceptación del Proyecto"
+  ],
+  [
+    3054,
+    "Heading 8",
+    "Plan de Proyecto PAPS"
+  ],
+  [
+    3136,
+    "Heading 8",
+    "Métricas Aplicadas al Proyecto de SW1"
+  ],
+  [
+    3140,
+    "Heading 5",
+    "Métricas orientas a la función"
+  ],
+  [
+    3149,
+    "Heading 5",
+    "Métricas orientadas al tamaño(kldc-mot)"
+  ]
+]

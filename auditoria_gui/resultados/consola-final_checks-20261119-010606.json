@@ -1,0 +1,182 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-plan-admin",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"FCEE-P1Punto 1 FCEE\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-plan-admin",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/nueva\",\"texto\":\"Guardar planificación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-plan-admin",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055\",\"texto\":\"Asignar cuadrilla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-plan-admin",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055\",\"texto\":\"Guardar asignación\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-plan-admin",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas/1055\",\"texto\":\"Confirmar y publicar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "FINAL-plan-admin",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "caso": "FINAL-fecha",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/campo\",\"texto\":\"Abrir jornada\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "operario1",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/jornadas/1055/abrir/"
+  },
+  {
+    "rol": "operario1",
+    "caso": "FINAL-fecha",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-fecha",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-1440",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Usuarios\",\"tipo\":\"A\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-1440",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-1440",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Cancelar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-1440",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Página siguiente\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-1440",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Página anterior\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-1440",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-820",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Abrir menú\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-820",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Usuarios\",\"tipo\":\"A\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-820",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-820",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Cancelar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-820",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Página siguiente\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-820",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Página anterior\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-820",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-390",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Abrir menú\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-390",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Usuarios\",\"tipo\":\"A\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-390",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-390",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Cancelar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-390",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Página siguiente\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "FINAL-responsive-390",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/jornadas\",\"texto\":\"Página anterior\",\"tipo\":\"BUTTON\"}"
+  }
+]

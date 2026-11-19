@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1000" viewBox="0 0 2700 1000"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">operations.Incidencia — relaciones persistentes</text>
+<text x="55" y="105" font-family="Arial" font-size="40" font-weight="400">Tabla: operations_incidencia</text>
+<rect x="55" y="140" width="1190" height="810" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="194" font-family="Arial" font-size="42" font-weight="700">Incidencia</text>
+<text x="75" y="255" font-family="Arial" font-size="40" font-weight="400">id: BigAutoField PK</text>
+<text x="75" y="304" font-family="Arial" font-size="40" font-weight="400">jornada: ForeignKey FK</text>
+<text x="75" y="353" font-family="Arial" font-size="40" font-weight="400">punto: ForeignKey FK</text>
+<text x="75" y="402" font-family="Arial" font-size="40" font-weight="400">tipo: CharField</text>
+<text x="75" y="451" font-family="Arial" font-size="40" font-weight="400">gravedad: CharField</text>
+<text x="75" y="500" font-family="Arial" font-size="40" font-weight="400">descripcion: TextField</text>
+<text x="75" y="549" font-family="Arial" font-size="40" font-weight="400">estado: CharField</text>
+<text x="75" y="598" font-family="Arial" font-size="40" font-weight="400">reportada_por: ForeignKey FK</text>
+<text x="75" y="647" font-family="Arial" font-size="40" font-weight="400">fecha_hora: DateTimeField</text>
+<text x="75" y="696" font-family="Arial" font-size="40" font-weight="400">atendida_por: ForeignKey FK</text>
+<text x="75" y="745" font-family="Arial" font-size="40" font-weight="400">accion_adoptada: TextField</text>
+<text x="75" y="794" font-family="Arial" font-size="40" font-weight="400">atendida_en: DateTimeField</text>
+<rect x="1950" y="180.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="227.0" font-family="Arial" font-size="40" font-weight="400">operations.Jornada</text>
+<line x1="1245" y1="299" x2="1950" y2="235.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1929.4215589693943" y2="247.3502131459293" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1927.533981627064" y2="226.5573689843213" stroke="#444" stroke-width="3"/>
+<text x="1260" y="289" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="225.0" font-family="Arial" font-size="40" font-weight="400">0..1</text>
+<rect x="1950" y="355.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="402.0" font-family="Arial" font-size="40" font-weight="400">campus.PuntoRecoleccion</text>
+<line x1="1245" y1="348" x2="1950" y2="410.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="410.0" x2="1927.5578315381101" y2="418.50582592863014" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="410.0" x2="1929.3868820359767" y2="397.70775171902005" stroke="#444" stroke-width="3"/>
+<text x="1260" y="338" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="400.0" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="530.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="577.0" font-family="Arial" font-size="40" font-weight="400">accounts.User</text>
+<line x1="1245" y1="593" x2="1950" y2="585.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="585.0" x2="1928.509111847205" y2="595.6837131374843" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="585.0" x2="1928.2722097019005" y2="574.8067115825257" stroke="#444" stroke-width="3"/>
+<text x="1260" y="583" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="575.0" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="705.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="752.0" font-family="Arial" font-size="40" font-weight="400">accounts.User</text>
+<line x1="1245" y1="691" x2="1950" y2="760.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="760.0" x2="1927.4751886738961" y2="768.2844960452294" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="760.0" x2="1929.508884061347" y2="747.5054344777944" stroke="#444" stroke-width="3"/>
+<text x="1260" y="681" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="750.0" font-family="Arial" font-size="40" font-weight="400">0..1</text>
+</svg>

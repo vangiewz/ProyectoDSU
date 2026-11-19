@@ -1,0 +1,62 @@
+[
+  {
+    "ruta": "/campo",
+    "nombre": "Registro en campo"
+  },
+  {
+    "ruta": "/jornadas",
+    "nombre": "Jornadas"
+  },
+  {
+    "ruta": "/historico",
+    "nombre": "Histórico de residuos"
+  },
+  {
+    "ruta": "/incidencias",
+    "nombre": "Incidencias"
+  },
+  {
+    "ruta": "/tablero",
+    "nombre": "Tablero"
+  },
+  {
+    "ruta": "/mapa",
+    "nombre": "Mapa del campus"
+  },
+  {
+    "ruta": "/predicciones",
+    "nombre": "Predicción"
+  },
+  {
+    "ruta": "/recomendaciones",
+    "nombre": "Alertas y recomendaciones"
+  },
+  {
+    "ruta": "/reportes",
+    "nombre": "Reportes"
+  },
+  {
+    "ruta": "/sectores",
+    "nombre": "Sectores"
+  },
+  {
+    "ruta": "/puntos",
+    "nombre": "Puntos de recolección"
+  },
+  {
+    "ruta": "/contenedores",
+    "nombre": "Contenedores"
+  },
+  {
+    "ruta": "/tipos-residuo",
+    "nombre": "Tipos y unidades"
+  },
+  {
+    "ruta": "/vehiculos",
+    "nombre": "Vehículos"
+  },
+  {
+    "ruta": "/usuarios",
+    "nombre": "Usuarios"
+  }
+]

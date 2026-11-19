@@ -1,0 +1,100 @@
+[
+  {
+    "categoria": "Requisitos",
+    "criterio": "Cada RF debe enlazar CU, recorrido, resultado y evidencia.",
+    "resultado": "PARCIAL",
+    "evidencia": "matriz_requisitos.json y matriz_casos_uso.json del paquete GUI.",
+    "observaciones": "Hay 27 RF trazados; flujo principal no significa todas las excepciones."
+  },
+  {
+    "categoria": "Interfaces",
+    "criterio": "Controles legibles, estados visibles y navegación por rol en las vistas examinadas.",
+    "resultado": "APROBADO EN MUESTRA",
+    "evidencia": "Capturas y videos; comprobaciones móviles históricas y 33 recorridos corporativos.",
+    "observaciones": "Emulación no equivale a certificación en todos los equipos físicos."
+  },
+  {
+    "categoria": "Formularios",
+    "criterio": "Las entradas inválidas se rechazan antes de persistir; el mensaje identifica el campo.",
+    "resultado": "APROBADO EN MUESTRA",
+    "evidencia": "Pruebas de validaciones, regresion_74_pruebas.xml y recorridos gráficos.",
+    "observaciones": "No se agotaron todas las combinaciones ni fallos de red."
+  },
+  {
+    "categoria": "Base de datos",
+    "criterio": "Migraciones y restricciones permiten operar sin referencias inválidas ni escrituras parciales.",
+    "resultado": "APROBADO EN QA",
+    "evidencia": "PostgreSQL 18 aislado; JUnit; metadatos ORM y verificacion_EA_metadatos.json.",
+    "observaciones": "No es una inspección de todos los datos de producción."
+  },
+  {
+    "categoria": "Autenticación",
+    "criterio": "Inicio, cierre y nuevo ingreso funcionan; las peticiones sin autorización se rechazan.",
+    "resultado": "APROBADO EN MUESTRA",
+    "evidencia": "Recorridos de cinco cuentas, auth y pruebas de sesión.",
+    "observaciones": "No se declara resistencia a todas las técnicas de ataque."
+  },
+  {
+    "categoria": "Autorización",
+    "criterio": "Permisos y alcance territorial coinciden con cada tarea y rol exigidos.",
+    "resultado": "PARCIAL",
+    "evidencia": "matriz_permisos_y_roles.json; 71/75 combinaciones CU/rol con evidencia.",
+    "observaciones": "Diferencias: alta de sectores del Supervisor y resolución de recomendaciones del Administrador."
+  },
+  {
+    "categoria": "Integridad",
+    "criterio": "Un rechazo no deja altas parciales y las asignaciones concurrentes conservan consistencia.",
+    "resultado": "APROBADO EN QA",
+    "evidencia": "Tests de caminos, integridad y concurrencia; JUnit.",
+    "observaciones": "Las carreras usan conexiones PostgreSQL independientes; no prueban toda falla posible."
+  },
+  {
+    "categoria": "Validación de entradas",
+    "criterio": "Cantidades y capacidades positivas, horizonte y coordenadas dentro de límites definidos.",
+    "resultado": "APROBADO EN MUESTRA",
+    "evidencia": "Tests de catálogos, caminos de registro/predicción y bordes decimales.",
+    "observaciones": "El alcance de la prueba se conserva por testcase, no como garantía universal."
+  },
+  {
+    "categoria": "Reportes",
+    "criterio": "Tabla y descarga mantienen filtros, títulos, unidades, filas y totales.",
+    "resultado": "APROBADO EN MUESTRA",
+    "evidencia": "Nueve parejas PDF/Excel; descargas/verificacion.json del paquete GUI.",
+    "observaciones": "169 filas en seis tipos iniciales; reportes proyectados posteriores de 12 filas."
+  },
+  {
+    "categoria": "Rendimiento",
+    "criterio": "Contrastar tiempos, carga y volumen con el requisito y un entorno representativo.",
+    "resultado": "PARCIAL",
+    "evidencia": "rendimiento_local.json y carga_12_usuarios.txt, conservados en pruebas.",
+    "observaciones": "El resultado local no acredita latencia de Azure ni ocho clientes por VM."
+  },
+  {
+    "categoria": "Manejo de errores",
+    "criterio": "Rechazos 400/403/404 comprensibles, sin detalles internos innecesarios y sin cambios parciales.",
+    "resultado": "APROBADO EN ALCANCE",
+    "evidencia": "Regresión de validaciones y 404 en español; evidencia gráfica.",
+    "observaciones": "No se agotaron fallos de infraestructura ni todas las interrupciones."
+  },
+  {
+    "categoria": "Mantenibilidad",
+    "criterio": "Análisis estático y compilación sin errores bloqueantes; fuentes identificadas.",
+    "resultado": "APROBADO ESTÁTICO",
+    "evidencia": "Ruff de archivos modificados; TypeScript/Vite; controles de cierre conservados.",
+    "observaciones": "Oxlint mantiene nueve advertencias previas; no mide mantenibilidad futura por sí solo."
+  },
+  {
+    "categoria": "Seguridad",
+    "criterio": "Revisar configuración, permisos, exposición de credenciales y alertas de herramientas.",
+    "resultado": "PARCIAL",
+    "evidencia": "QA_URL_historico, Seguridad_historica y revisión de secretos de la entrega.",
+    "observaciones": "ZAP fue pasivo en HTTP local; los análisis TLS/URL son históricos y no son un pentest completo."
+  },
+  {
+    "categoria": "Despliegue",
+    "criterio": "Preparar versión, configuración, respaldo, prueba y reversión antes de publicar.",
+    "resultado": "PREPARADO / PARCIAL",
+    "evidencia": "Runbook, CI y sitio-residata/dist preparado localmente.",
+    "observaciones": "El titular publicará; no se afirma ejecución de CI remoto ni despliegue de esta revisión."
+  }
+]

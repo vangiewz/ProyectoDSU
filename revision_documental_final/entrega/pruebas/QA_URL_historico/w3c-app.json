@@ -1,0 +1,46 @@
+{
+  "url": "https://dsu-uagrm.vercel.app/",
+  "version": "26.11.17",
+  "messages": [
+    {
+      "type": "info",
+      "lastLine": 4,
+      "lastColumn": 28,
+      "firstColumn": 5,
+      "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+      "extract": "head>\n    <meta charset=\"UTF-8\" />\n    <",
+      "hiliteStart": 10,
+      "hiliteLength": 24
+    },
+    {
+      "type": "info",
+      "lastLine": 5,
+      "lastColumn": 64,
+      "firstColumn": 5,
+      "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+      "extract": "8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n    <",
+      "hiliteStart": 10,
+      "hiliteLength": 60
+    },
+    {
+      "type": "info",
+      "lastLine": 6,
+      "lastColumn": 76,
+      "firstColumn": 5,
+      "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+      "extract": "g\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <",
+      "hiliteStart": 10,
+      "hiliteLength": 72
+    },
+    {
+      "type": "info",
+      "lastLine": 7,
+      "lastColumn": 49,
+      "firstColumn": 5,
+      "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+      "extract": "0\" />\n    <meta name=\"theme-color\" content=\"#C4122F\" />\n    <",
+      "hiliteStart": 10,
+      "hiliteLength": 45
+    }
+  ]
+}

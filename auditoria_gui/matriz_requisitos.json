@@ -1,0 +1,200 @@
+[
+  {
+    "rf": "RF1",
+    "casos": [
+      "CU03"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF2",
+    "casos": [
+      "CU04"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF3",
+    "casos": [
+      "CU01",
+      "CU02"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF4",
+    "casos": [
+      "CU05"
+    ],
+    "estado": "PARCIAL"
+  },
+  {
+    "rf": "RF5",
+    "casos": [
+      "CU06"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF6",
+    "casos": [
+      "CU08"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF7",
+    "casos": [
+      "CU07"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF8",
+    "casos": [
+      "CU09"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF9",
+    "casos": [
+      "CU12"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF10",
+    "casos": [
+      "CU10",
+      "CU11"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF11",
+    "casos": [
+      "CU14"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF12",
+    "casos": [
+      "CU16",
+      "CU17",
+      "CU18"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF13",
+    "casos": [
+      "CU13",
+      "CU15"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF14",
+    "casos": [
+      "CU19"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF15",
+    "casos": [
+      "CU20"
+    ],
+    "estado": "PARCIAL"
+  },
+  {
+    "rf": "RF16",
+    "casos": [
+      "CU21"
+    ],
+    "estado": "PARCIAL"
+  },
+  {
+    "rf": "RF17",
+    "casos": [
+      "CU21"
+    ],
+    "estado": "PARCIAL"
+  },
+  {
+    "rf": "RF18",
+    "casos": [
+      "CU22"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF19",
+    "casos": [
+      "CU23"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF20",
+    "casos": [
+      "CU24"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF21",
+    "casos": [
+      "CU25"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF22",
+    "casos": [
+      "CU26",
+      "CU27"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF23",
+    "casos": [
+      "CU28"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF24",
+    "casos": [
+      "CU28",
+      "CU29",
+      "CU30"
+    ],
+    "estado": "PARCIAL"
+  },
+  {
+    "rf": "RF25",
+    "casos": [
+      "CU31"
+    ],
+    "estado": "PARCIAL"
+  },
+  {
+    "rf": "RF26",
+    "casos": [
+      "CU32"
+    ],
+    "estado": "FLUJO_PRINCIPAL_COMPROBADO"
+  },
+  {
+    "rf": "RF27",
+    "casos": [
+      "CU33",
+      "CU34"
+    ],
+    "estado": "PARCIAL"
+  }
+]

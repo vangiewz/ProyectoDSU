@@ -18,6 +18,7 @@ from apps.audit.models import AuditLog
 from apps.audit.services import registrar
 from apps.catalogs.models import ParametrosSistema, PeriodoAcademico
 from apps.operations.models import RegistroResiduo
+from config.concurrencia import bloquear_proceso
 
 from ..models import EjecucionETL, HechoResiduo, RegistroDescartado
 
@@ -49,14 +50,21 @@ def extraer() -> pd.DataFrame:
 
 
 def marcar_duplicados(df: pd.DataFrame) -> pd.Series:
-    """Mismo operario, punto, tipo, unidad y cantidad dentro del mismo minuto: doble envío.
-
-    ponytail: solo compara dentro de la tanda; un reenvío que cae en la tanda siguiente no se detecta.
-    """
+    """Misma clave en el minuto: compara la tanda y los registros aceptados en tandas anteriores."""
     clave = df.assign(minuto=df["fecha_hora"].dt.floor("min"))
-    return clave.duplicated(
-        subset=["registrado_por_id", "punto_id", "tipo_residuo_id", "unidad_id", "cantidad", "minuto"], keep="first"
+    campos = ["registrado_por_id", "punto_id", "tipo_residuo_id", "unidad_id", "cantidad", "minuto"]
+    duplicados = clave.duplicated(subset=campos, keep="first")
+    anteriores = pd.DataFrame.from_records(
+        RegistroResiduo.objects.filter(
+            hecho__isnull=False,
+            fecha_hora__gte=clave["minuto"].min(),
+            fecha_hora__lt=clave["minuto"].max() + timedelta(minutes=1),
+        ).values(*campos[:-1], "fecha_hora")
     )
+    if not anteriores.empty:
+        anteriores["minuto"] = pd.to_datetime(anteriores["fecha_hora"], utc=True).dt.floor("min")
+        duplicados |= pd.MultiIndex.from_frame(clave[campos]).isin(pd.MultiIndex.from_frame(anteriores[campos]))
+    return duplicados
 
 
 def asignar_periodo(fechas: pd.Series, periodos: list[tuple[int, object, object]]) -> pd.Series:
@@ -68,14 +76,17 @@ def asignar_periodo(fechas: pd.Series, periodos: list[tuple[int, object, object]
 
 def marcar_atipicos(df: pd.DataFrame, historico: pd.DataFrame) -> pd.Series:
     """IQR por punto, tipo y magnitud sobre el histórico ya cargado más los registros nuevos."""
-    base = pd.concat([historico, df[["punto_id", "tipo_residuo_id", "magnitud", "cantidad_base"]]], ignore_index=True)
+    estadisticas = df[["punto_id", "tipo_residuo_id", "magnitud", "cantidad_base"]].copy()
+    # Float solo para cuantiles estadísticos; nunca se persiste esta representación.
+    estadisticas["cantidad_base"] = estadisticas["cantidad_base"].astype(float)
+    base = pd.concat([historico, estadisticas], ignore_index=True)
     grupos = base.groupby(["punto_id", "tipo_residuo_id", "magnitud"])["cantidad_base"]
     limites = (grupos.quantile(0.75) + 1.5 * (grupos.quantile(0.75) - grupos.quantile(0.25))).rename("limite")
     conteo = grupos.size().rename("n")
     unido = df.join(limites, on=["punto_id", "tipo_residuo_id", "magnitud"]).join(
         conteo, on=["punto_id", "tipo_residuo_id", "magnitud"]
     )
-    return (unido["n"] >= MIN_MUESTRAS_ATIPICO) & (unido["cantidad_base"] > unido["limite"])
+    return (unido["n"] >= MIN_MUESTRAS_ATIPICO) & (unido["cantidad_base"].astype(float) > unido["limite"])
 
 
 def transformar(df: pd.DataFrame) -> pd.DataFrame:
@@ -84,7 +95,10 @@ def transformar(df: pd.DataFrame) -> pd.DataFrame:
     df["duplicado"] = marcar_duplicados(df)
     # Estandarización a la base de la magnitud (kg o L) con el factor registrado (RBD9).
     df["magnitud"] = df["unidad__magnitud"]
-    df["cantidad_base"] = (df["cantidad"].astype(float) * df["unidad__factor_conversion"].astype(float)).round(3)
+    df["cantidad_base"] = [
+        (cantidad * factor).quantize(Decimal("0.001"))
+        for cantidad, factor in zip(df["cantidad"], df["unidad__factor_conversion"], strict=True)
+    ]
     # Variables temporales (RBD11).
     df["fecha"] = df["fecha_hora"].dt.date
     df["dia_semana"] = df["fecha_hora"].dt.dayofweek
@@ -140,6 +154,7 @@ def cargar(df: pd.DataFrame, ejecucion: EjecucionETL) -> int:
 def iniciar(usuario=None) -> EjecucionETL | None:
     """Registra una ejecución EN_CURSO, o None si ya hay otra activa (evita ejecuciones simultáneas)."""
     with transaction.atomic():
+        bloquear_proceso(1)
         activas = EjecucionETL.objects.select_for_update().filter(estado=E.EN_CURSO)
         activas.filter(inicio__lt=timezone.now() - VENCIMIENTO_EN_CURSO).update(
             estado=E.FALLIDA, fin=timezone.now(), mensaje="Ejecución abandonada (tiempo de espera agotado)."

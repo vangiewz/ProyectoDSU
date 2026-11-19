@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ML-sin-modelo",
+    "titulo": "Inferencia con fixture sin modelo vigente",
+    "rol": "administrativo",
+    "cu": [
+      28
+    ],
+    "inicio_utc": "2026-11-19T04:54:46.343179+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Fixture reversible sin vigente; inferencia solicitada con formulario rechazada con indicación para entrenar/publicar",
+    "evidencia": "capturas\\model_absent-20261119-005443-ML-sin-modelo.png",
+    "segundos": 1.14
+  }
+]

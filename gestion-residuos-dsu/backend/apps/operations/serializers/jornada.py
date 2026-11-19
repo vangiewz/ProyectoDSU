@@ -74,6 +74,8 @@ class JornadaSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("La jornada ya está en ejecución o cerrada; no puede modificarse.")
         sector = attrs.get("sector", getattr(self.instance, "sector", None))
         puntos = attrs.get("puntos")
+        if puntos is None and self.instance is not None and "sector" in attrs:
+            puntos = [parada.punto for parada in self.instance.ruta.select_related("punto")]
         if puntos is not None:
             if not puntos:
                 raise serializers.ValidationError({"puntos": "La ruta debe incluir al menos un punto."})

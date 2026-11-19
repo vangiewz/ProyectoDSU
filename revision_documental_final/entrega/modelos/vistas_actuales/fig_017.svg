@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1850" viewBox="0 0 2700 1850"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">Roles independientes del sistema</text>
+<rect x="55" y="130" width="2580" height="380" fill="white" stroke="#444" stroke-width="3"/>
+<text x="80" y="199" font-family="Arial" font-size="58" font-weight="700">POL · Personal Operativo de Limpieza</text>
+<text x="80" y="282" font-family="Arial" font-size="56" font-weight="400">Ejecuta la recolección en campo. Desde el teléfono registra el vaciado de cada punto</text>
+<text x="80" y="346" font-family="Arial" font-size="56" font-weight="400">de su jornada, las cantidades por tipo de residuo y las incidencias que encuentra, y</text>
+<text x="80" y="410" font-family="Arial" font-size="56" font-weight="400">consulta sus propias jornadas y registros.</text>
+<rect x="55" y="535" width="2580" height="380" fill="white" stroke="#444" stroke-width="3"/>
+<text x="80" y="604" font-family="Arial" font-size="58" font-weight="700">SUP · Supervisor de Recolección</text>
+<text x="80" y="687" font-family="Arial" font-size="56" font-weight="400">Planifica las jornadas y rutas de sus sectores, asigna personal y vehículos, controla</text>
+<text x="80" y="751" font-family="Arial" font-size="56" font-weight="400">la ejecución, atiende las incidencias y resuelve las recomendaciones del sistema.</text>
+<rect x="55" y="940" width="2580" height="380" fill="white" stroke="#444" stroke-width="3"/>
+<text x="80" y="1009" font-family="Arial" font-size="58" font-weight="700">CDD · Cuerpo Directivo de la DSU</text>
+<text x="80" y="1092" font-family="Arial" font-size="56" font-weight="400">Consume la información analítica, cartográfica y predictiva (tableros, mapas,</text>
+<text x="80" y="1156" font-family="Arial" font-size="56" font-weight="400">predicciones y reportes) para la toma de decisiones institucionales, sin registrar</text>
+<text x="80" y="1220" font-family="Arial" font-size="56" font-weight="400">datos operativos.</text>
+<rect x="55" y="1345" width="2580" height="380" fill="white" stroke="#444" stroke-width="3"/>
+<text x="80" y="1414" font-family="Arial" font-size="58" font-weight="700">ADM · Administrador del Sistema</text>
+<text x="80" y="1497" font-family="Arial" font-size="56" font-weight="400">Administra usuarios, roles, catálogos y parámetros; ejecuta el proceso ETL, entrena,</text>
+<text x="80" y="1561" font-family="Arial" font-size="56" font-weight="400">publica y revierte el modelo predictivo, revisa la bitácora de auditoría y elabora los</text>
+<text x="80" y="1625" font-family="Arial" font-size="56" font-weight="400">reportes. No registra la operación de campo.</text>
+</svg>

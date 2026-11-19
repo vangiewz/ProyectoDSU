@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1920" viewBox="0 0 2700 1920"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">RF16 · Calcular los Indicadores Clave de Rendimiento — parte 2/2</text>
+<line x1="1350" y1="385" x2="1350" y2="465" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="465" x2="1339.5608271813305" y2="443.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="465" x2="1360.4391728186695" y2="443.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="735" x2="1350" y2="815" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="815" x2="1339.5608271813305" y2="793.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="815" x2="1360.4391728186695" y2="793.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1085" x2="1350" y2="1255" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1255" x2="1339.5608271813305" y2="1233.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1255" x2="1360.4391728186695" y2="1233.3892695435356" stroke="#444" stroke-width="3"/>
+<rect x="775" y="115" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="166" font-family="Arial" font-size="44" font-weight="400">N8 · Sistema</text>
+<text x="795" y="240" font-family="Arial" font-size="56" font-weight="400">El sistema identifica los puntos</text>
+<text x="795" y="300" font-family="Arial" font-size="56" font-weight="400">críticos</text>
+<rect x="775" y="465" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="516" font-family="Arial" font-size="44" font-weight="400">N9 · Sistema</text>
+<text x="795" y="590" font-family="Arial" font-size="56" font-weight="400">El sistema presenta los indicadores</text>
+<text x="795" y="650" font-family="Arial" font-size="56" font-weight="400">calculados</text>
+<rect x="775" y="815" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="866" font-family="Arial" font-size="44" font-weight="400">N10 · Usuario</text>
+<text x="795" y="940" font-family="Arial" font-size="56" font-weight="400">El usuario profundiza en el indicador</text>
+<text x="795" y="1000" font-family="Arial" font-size="56" font-weight="400">seleccionado</text>
+<circle cx="1350" cy="1300" r="45" fill="black"/>
+<text x="1415" y="1327" font-family="Arial" font-size="56" font-weight="400">N11 fin</text>
+</svg>

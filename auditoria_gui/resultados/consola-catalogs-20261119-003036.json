@@ -1,0 +1,626 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/sectores/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-sector",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Desactivar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Activar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Unidades de medida\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/unidades/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Unidades de medida\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Desactivar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Activar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Unidades de medida\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Tipos de residuo\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/tipos-residuo/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Tipos de residuo\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Desactivar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Activar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Tipos de residuo\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/vehiculos/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-vehiculo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Desactivar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Activar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-periodo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Periodos académicos\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-periodo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-periodo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/periodos/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-periodo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-periodo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/periodos/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-periodo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/puntos/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-punto",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Desactivar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Activar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-contenedor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-contenedor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/contenedores/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-contenedor",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-contenedor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-contenedor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-contenedor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/usuarios/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-usuario",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Desactivar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CRUD-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Activar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-sector",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/sectores/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-sector",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Unidades de medida\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-unidad",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/unidades/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-unidad",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Tipos de residuo\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-tipo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 401,
+    "ruta": "/api/tipos-residuo/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-tipo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/tipos-residuo/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-tipo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/vehiculos/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-vehiculo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/puntos/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-punto",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-usuario",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/usuarios\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/usuarios/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "DUP-usuario",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  }
+]

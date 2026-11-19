@@ -1,0 +1,17 @@
+{
+  "solicitudes_bloqueadas": [
+    {
+      "metodo": "GET",
+      "url": "https://dsu-uagrm.vercel.app/"
+    },
+    {
+      "metodo": "GET",
+      "url": "https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com/api/"
+    },
+    {
+      "metodo": "POST",
+      "url": "https://formsubmit.co/ajax/rekteado@gmail.com"
+    }
+  ],
+  "errores_js": []
+}

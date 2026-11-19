@@ -1,0 +1,14 @@
+12 usuarios simultáneos durante 60 s contra http://127.0.0.1:58772…
+
+531 peticiones, 0 errores de servidor o conexión
+
+| Operación | Peticiones | Mediana | p95 | Máximo | Límite | Cumple (p95) |
+|---|---|---|---|---|---|---|
+| RTR2 jornadas | 79 | 0.12 s | 0.23 s | 0.27 s | ≤ 3 s | ✅ |
+| RTR3 búsqueda de puntos | 69 | 0.06 s | 0.17 s | 0.22 s | ≤ 2 s | ✅ |
+| RTR4 registro de vaciado | 156 | 0.10 s | 0.21 s | 0.36 s | ≤ 3 s | ✅ |
+| RTR6 histórico | 78 | 0.14 s | 0.25 s | 0.41 s | ≤ 4 s | ✅ |
+| RTR7 mapa 30 días | 74 | 0.09 s | 0.19 s | 0.37 s | ≤ 4 s | ✅ |
+| RTR9 indicadores 30 días | 75 | 0.11 s | 0.22 s | 0.33 s | ≤ 5 s | ✅ |
+
+RCM2: 156 vaciados confirmados, 156 guardados → sin pérdida ✅

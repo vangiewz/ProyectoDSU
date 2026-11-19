@@ -1,0 +1,6 @@
+{
+  "origen": "Preparación por ORM, exclusivamente PostgreSQL dsu_gui local; no cuenta como operación GUI",
+  "registros": 2000,
+  "duplicados_esperados": 1999,
+  "tag": "FIXTURE GUI DUPLICADOS 2026-11-19T04:50:00+00:00"
+}

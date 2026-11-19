@@ -1,0 +1,236 @@
+FFFFF                                                                    [100%]
+================================== FAILURES ===================================
+_________________ test_cambio_sector_revalida_ruta_existente __________________
+
+usuarios = {'admin': <User: admin_t>, 'operario': <User: oper_t>, 'otro_supervisor': <User: super2_t>, 'supervisor': <User: super_t>}
+campus = {'kg': <UnidadMedida: kg>, 'puntos': [<PuntoRecoleccion: P1 - Punto 1>, <PuntoRecoleccion: P2 - Punto 2>], 'sector': <Sector: S1 - Sector 1>, 'tipo': <TipoResiduo: Orgánico>}
+hoy = '2026-11-18'
+cliente = <function cliente.<locals>._cliente at 0x0000023587BC77E0>
+
+    def test_cambio_sector_revalida_ruta_existente(usuarios, campus, hoy, cliente):
+        sector = Sector.objects.create(codigo="NUEVO", nombre="Nuevo", supervisor=usuarios["supervisor"])
+        jornada = Jornada.objects.create(fecha=hoy, turno="MANANA", sector=campus["sector"],
+                                         planificada_por=usuarios["supervisor"])
+        JornadaPunto.objects.create(jornada=jornada, punto=campus["puntos"][0], orden=1)
+        r = cliente(usuarios["supervisor"]).patch(f"/api/jornadas/{jornada.pk}/", {"sector": sector.pk}, format="json")
+>       assert r.status_code == 400
+E       assert 200 == 400
+E        +  where 200 = <Response status_code=200, "application/json">.status_code
+
+apps\operations\tests\test_integridad_cierre.py:11: AssertionError
+---------------------------- Captured stderr setup ----------------------------
+Got an error creating the test database: database "test_postgres" already exists
+
+_________________ test_etl_detecta_reenvio_en_tanda_posterior _________________
+
+datos = {'jornada': <Jornada: 2026-09-01 Mañana - S1>, 'p1': <PuntoRecoleccion: P1 - Punto 1>, 'p2': <PuntoRecoleccion: P2 - Punto 2>}
+
+    def test_etl_detecta_reenvio_en_tanda_posterior(datos):
+        correr_etl()
+        original = RegistroResiduo.objects.filter(punto=datos["p1"]).first()
+        RegistroResiduo.objects.create(
+            jornada=original.jornada, punto=original.punto, tipo_residuo=original.tipo_residuo,
+            unidad=original.unidad, cantidad=original.cantidad, fecha_hora=original.fecha_hora,
+            registrado_por=original.registrado_por,
+        )
+        ejecucion = correr_etl()
+>       assert ejecucion.duplicados == 1
+E       assert 0 == 1
+E        +  where 0 = <EjecucionETL: ETL 2026-11-19 03:15 EXITOSA>.duplicados
+
+apps\analytics\tests\test_analitica.py:71: AssertionError
+_ test_inicio_realmente_concurrente[apps.analytics.services.etl-EjecucionETL] _
+
+servicio = <module 'apps.analytics.services.etl' from 'C:\\Users\\usuario\\Downloads\\dsu\\ProyectoDSU\\gestion-residuos-dsu\\backend\\apps\\analytics\\services\\etl.py'>
+modelo = <class 'apps.analytics.models.ejecucion_etl.EjecucionETL'>
+
+    @pytest.mark.parametrize("servicio,modelo", [(etl, EjecucionETL), (entrenamiento, ModeloEntrenado)])
+    def test_inicio_realmente_concurrente(servicio, modelo):
+        resultados = simultaneas([lambda: servicio.iniciar() is not None] * 6)
+>       assert sum(resultados) == 1
+E       assert 5 == 1
+E        +  where 5 = sum([True, True, False, True, True, True])
+
+apps\accounts\tests\test_concurrencia_cierre.py:65: AssertionError
+_ test_inicio_realmente_concurrente[apps.prediction.services.entrenamiento-ModeloEntrenado] _
+
+self = <django.db.backends.utils.CursorWrapper object at 0x00000235881FC1D0>
+sql = 'INSERT INTO "prediction_modeloentrenado" ("version", "estado", "vigente", "inicio", "fin", "entrenado_por_id", "hiper...s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) RETURNING "prediction_modeloentrenado"."id"'
+params = (Int4(1), ModeloEntrenado.Estado.EN_CURSO, False, datetime.datetime(2026, 11, 19, 3, 15, 43, 7967, tzinfo=datetime.timezone.utc), None, None, ...)
+ignored_wrapper_args = (False, {'connection': <DatabaseWrapper vendor='postgresql' alias='default'>, 'cursor': <django.db.backends.utils.CursorWrapper object at 0x00000235881FC1D0>})
+
+    def _execute(self, sql, params, *ignored_wrapper_args):
+        # Raise a warning during app initialization (stored_app_configs is only
+        # ever set during testing).
+        if not apps.ready and not apps.stored_app_configs:
+            warnings.warn(self.APPS_NOT_READY_WARNING_MSG, category=RuntimeWarning)
+        self.db.validate_no_broken_transaction()
+        with self.db.wrap_database_errors:
+            if params is None:
+                # params default might be backend specific.
+                return self.cursor.execute(sql)
+            else:
+>               return self.cursor.execute(sql, params)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.venv\Lib\site-packages\django\db\backends\utils.py:105: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <django.db.backends.postgresql.base.Cursor [closed] [BAD] at 0x23588202750>
+query = 'INSERT INTO "prediction_modeloentrenado" ("version", "estado", "vigente", "inicio", "fin", "entrenado_por_id", "hiper...s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) RETURNING "prediction_modeloentrenado"."id"'
+params = (Int4(1), ModeloEntrenado.Estado.EN_CURSO, False, datetime.datetime(2026, 11, 19, 3, 15, 43, 7967, tzinfo=datetime.timezone.utc), None, None, ...)
+
+    def execute(
+        self,
+        query: Query,
+        params: Params | None = None,
+        *,
+        prepare: bool | None = None,
+        binary: bool | None = None,
+    ) -> Self:
+        """
+        Execute a query or command to the database.
+        """
+        try:
+            with self._conn.lock:
+                self._conn.wait(
+                    self._execute_gen(query, params, prepare=prepare, binary=binary)
+                )
+        except e._NO_TRACEBACK as ex:
+>           raise ex.with_traceback(None)
+E           psycopg.errors.UniqueViolation: duplicate key value violates unique constraint "prediction_modeloentrenado_version_key"
+E           DETAIL:  Key (version)=(1) already exists.
+
+.venv\Lib\site-packages\psycopg\cursor.py:117: UniqueViolation
+
+The above exception was the direct cause of the following exception:
+
+servicio = <module 'apps.prediction.services.entrenamiento' from 'C:\\Users\\usuario\\Downloads\\dsu\\ProyectoDSU\\gestion-residuos-dsu\\backend\\apps\\prediction\\services\\entrenamiento.py'>
+modelo = <class 'apps.prediction.models.modelo_entrenado.ModeloEntrenado'>
+
+    @pytest.mark.parametrize("servicio,modelo", [(etl, EjecucionETL), (entrenamiento, ModeloEntrenado)])
+    def test_inicio_realmente_concurrente(servicio, modelo):
+>       resultados = simultaneas([lambda: servicio.iniciar() is not None] * 6)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+apps\accounts\tests\test_concurrencia_cierre.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+apps\accounts\tests\test_concurrencia_cierre.py:57: in simultaneas
+    resultados = list(pool.map(correr, funciones))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py:619: in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py:317: in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py:456: in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py:401: in __get_result
+    raise self._exception
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py:58: in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+apps\accounts\tests\test_concurrencia_cierre.py:52: in correr
+    return pid, fn()
+                ^^^^
+apps\accounts\tests\test_concurrencia_cierre.py:64: in <lambda>
+    resultados = simultaneas([lambda: servicio.iniciar() is not None] * 6)
+                                      ^^^^^^^^^^^^^^^^^^
+apps\prediction\services\entrenamiento.py:73: in iniciar
+    return ModeloEntrenado.objects.create(
+.venv\Lib\site-packages\django\db\models\manager.py:87: in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\django\db\models\query.py:665: in create
+    obj.save(force_insert=True, using=self.db)
+.venv\Lib\site-packages\django\db\models\base.py:902: in save
+    self.save_base(
+.venv\Lib\site-packages\django\db\models\base.py:1008: in save_base
+    updated = self._save_table(
+.venv\Lib\site-packages\django\db\models\base.py:1169: in _save_table
+    results = self._do_insert(
+.venv\Lib\site-packages\django\db\models\base.py:1210: in _do_insert
+    return manager._insert(
+.venv\Lib\site-packages\django\db\models\manager.py:87: in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\django\db\models\query.py:1873: in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\django\db\models\sql\compiler.py:1882: in execute_sql
+    cursor.execute(sql, params)
+.venv\Lib\site-packages\django\db\backends\utils.py:79: in execute
+    return self._execute_with_wrappers(
+.venv\Lib\site-packages\django\db\backends\utils.py:92: in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\django\db\backends\utils.py:100: in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv\Lib\site-packages\django\db\utils.py:91: in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+.venv\Lib\site-packages\django\db\backends\utils.py:105: in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <django.db.backends.postgresql.base.Cursor [closed] [BAD] at 0x23588202750>
+query = 'INSERT INTO "prediction_modeloentrenado" ("version", "estado", "vigente", "inicio", "fin", "entrenado_por_id", "hiper...s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) RETURNING "prediction_modeloentrenado"."id"'
+params = (Int4(1), ModeloEntrenado.Estado.EN_CURSO, False, datetime.datetime(2026, 11, 19, 3, 15, 43, 7967, tzinfo=datetime.timezone.utc), None, None, ...)
+
+    def execute(
+        self,
+        query: Query,
+        params: Params | None = None,
+        *,
+        prepare: bool | None = None,
+        binary: bool | None = None,
+    ) -> Self:
+        """
+        Execute a query or command to the database.
+        """
+        try:
+            with self._conn.lock:
+                self._conn.wait(
+                    self._execute_gen(query, params, prepare=prepare, binary=binary)
+                )
+        except e._NO_TRACEBACK as ex:
+>           raise ex.with_traceback(None)
+E           django.db.utils.IntegrityError: duplicate key value violates unique constraint "prediction_modeloentrenado_version_key"
+E           DETAIL:  Key (version)=(1) already exists.
+
+.venv\Lib\site-packages\psycopg\cursor.py:117: IntegrityError
+_______________ test_asignacion_concurrente_no_duplica_personal _______________
+
+usuarios = {'admin': <User: admin_t>, 'operario': <User: oper_t>, 'otro_supervisor': <User: super2_t>, 'supervisor': <User: super_t>}
+campus = {'kg': <UnidadMedida: kg>, 'puntos': [<PuntoRecoleccion: P1 - Punto 1>, <PuntoRecoleccion: P2 - Punto 2>], 'sector': <Sector: S1 - Sector 1>, 'tipo': <TipoResiduo: Orgánico>}
+hoy = '2026-11-18'
+
+    def test_asignacion_concurrente_no_duplica_personal(usuarios, campus, hoy):
+        sector2 = Sector.objects.create(codigo="S2", nombre="Segundo", supervisor=usuarios["supervisor"])
+        jornadas = [Jornada.objects.create(fecha=hoy, turno="MANANA", sector=s, planificada_por=usuarios["supervisor"])
+                    for s in [campus["sector"], sector2]]
+    
+        def intentar(j):
+            try:
+                asignar(SimpleNamespace(user=usuarios["supervisor"], META={}), j, [usuarios["operario"]], [], usuarios["operario"])
+                return True
+            except ValidationError:
+                return False
+    
+>       assert sum(simultaneas([lambda j=j: intentar(j) for j in jornadas])) == 1
+E       assert 2 == 1
+E        +  where 2 = sum([True, True])
+E        +    where [True, True] = simultaneas([<function test_asignacion_concurrente_no_duplica_personal.<locals>.<lambda> at 0x00000235882623E0>, <function test_asignacion_concurrente_no_duplica_personal.<locals>.<lambda> at 0x0000023588262520>])
+
+apps\accounts\tests\test_concurrencia_cierre.py:81: AssertionError
+- generated xml file: C:\Users\usuario\Downloads\dsu\ProyectoDSU\auditoria_cierre\05_ejecuciones_pruebas\reproduccion_controlada.xml -
+=========================== short test summary info ===========================
+FAILED apps/operations/tests/test_integridad_cierre.py::test_cambio_sector_revalida_ruta_existente
+FAILED apps/analytics/tests/test_analitica.py::test_etl_detecta_reenvio_en_tanda_posterior
+FAILED apps/accounts/tests/test_concurrencia_cierre.py::test_inicio_realmente_concurrente[apps.analytics.services.etl-EjecucionETL]
+FAILED apps/accounts/tests/test_concurrencia_cierre.py::test_inicio_realmente_concurrente[apps.prediction.services.entrenamiento-ModeloEntrenado]
+FAILED apps/accounts/tests/test_concurrencia_cierre.py::test_asignacion_concurrente_no_duplica_personal
+5 failed in 17.06s

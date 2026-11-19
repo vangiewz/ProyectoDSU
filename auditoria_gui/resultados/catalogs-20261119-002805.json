@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CRUD-sector",
+    "titulo": "Formulario y ciclo CRUD sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:28:08.765839+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator.select_option: Timeout 6000ms exceeded.\nCall log:\nwaiting for get_by_label(re.compile(r\"^Supervisor\\ responsable(?:\\s|$)\"))\n",
+    "evidencia": "capturas\\catalogs-CRUD-sector.png",
+    "segundos": 8.27
+  },
+  {
+    "id": "CRUD-unidad",
+    "titulo": "Formulario y ciclo CRUD unidad",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:28:17.025216+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-CRUD-unidad.png",
+    "segundos": 7.77
+  },
+  {
+    "id": "CRUD-tipo",
+    "titulo": "Formulario y ciclo CRUD tipo",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:28:24.793387+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator.fill: Timeout 6000ms exceeded.\nCall log:\nwaiting for get_by_label(re.compile(r\"^Descripción(?:\\s|$)\"))\n",
+    "evidencia": "capturas\\catalogs-CRUD-tipo.png",
+    "segundos": 9.72
+  },
+  {
+    "id": "CRUD-vehiculo",
+    "titulo": "Formulario y ciclo CRUD vehiculo",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:28:34.510103+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator.select_option: Timeout 6000ms exceeded.\nCall log:\nwaiting for get_by_label(re.compile(r\"^Condición(?:\\s|$)\"))\n",
+    "evidencia": "capturas\\catalogs-CRUD-vehiculo.png",
+    "segundos": 8.03
+  },
+  {
+    "id": "CRUD-periodo",
+    "titulo": "Formulario y ciclo CRUD periodo",
+    "rol": "administrativo",
+    "cu": [
+      31
+    ],
+    "inicio_utc": "2026-11-19T04:28:42.537906+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"tbody tr\").filter(has_text=\"QA-002805\").first\n",
+    "evidencia": "capturas\\catalogs-CRUD-periodo.png",
+    "segundos": 9.55
+  },
+  {
+    "id": "CRUD-punto",
+    "titulo": "Formulario y ciclo CRUD punto",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:28:52.088162+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator.select_option: Timeout 6000ms exceeded.\nCall log:\nwaiting for get_by_label(re.compile(r\"^Sector(?:\\s|$)\"))\n  -   locator resolved to <select required=\"\" class=\"min-h-10 w-full rounded-hoja border border-filete bg-hoja px-3 text-[0.95rem] text-boligrafo placeholder:text-grafito-2/70 hover:border-grafito-2 focus:border-boligrafo focus:outline-none disabled:bg-papel disabled:text-grafito-2 pr-8\">…</select>\n  - attempting select option action\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #1\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #2\n  -   waiting 20ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #3\n  -   waiting 100ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #4\n  -   waiting 100ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #5\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #6\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #7\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #8\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #9\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #10\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #11\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #12\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #13\n  -   waiting 500ms\n  -   waiting fo",
+    "evidencia": "capturas\\catalogs-CRUD-punto.png",
+    "segundos": 8.27
+  },
+  {
+    "id": "CRUD-contenedor",
+    "titulo": "Formulario y ciclo CRUD contenedor",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:29:00.359445+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator.select_option: Timeout 6000ms exceeded.\nCall log:\nwaiting for get_by_label(re.compile(r\"^Punto\\ de\\ recolección(?:\\s|$)\"))\n  -   locator resolved to <select required=\"\" class=\"min-h-10 w-full rounded-hoja border border-filete bg-hoja px-3 text-[0.95rem] text-boligrafo placeholder:text-grafito-2/70 hover:border-grafito-2 focus:border-boligrafo focus:outline-none disabled:bg-papel disabled:text-grafito-2 pr-8\">…</select>\n  - attempting select option action\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #1\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #2\n  -   waiting 20ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #3\n  -   waiting 100ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #4\n  -   waiting 100ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #5\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #6\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #7\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #8\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #9\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #10\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #11\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #12\n  -   waiting 500ms\n  -   waiting for element to be visible and enabled\n  -   did not find some options\n  - retrying select option action, attempt #13\n  -   waiting 500ms\n",
+    "evidencia": "capturas\\catalogs-CRUD-contenedor.png",
+    "segundos": 7.89
+  },
+  {
+    "id": "CRUD-usuario",
+    "titulo": "Formulario y ciclo CRUD usuario",
+    "rol": "administrativo",
+    "cu": [
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:29:08.251122+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Page.goto: Timeout 6000ms exceeded.\nCall log:\nnavigating to \"http://127.0.0.1:55364/usuarios\", waiting until \"networkidle\"\n",
+    "evidencia": "capturas\\catalogs-CRUD-usuario.png",
+    "segundos": 6.19
+  },
+  {
+    "id": "DUP-unidad",
+    "titulo": "Duplicado rechazado unidad",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:29:14.438015+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-DUP-unidad.png",
+    "segundos": 2.52
+  }
+]

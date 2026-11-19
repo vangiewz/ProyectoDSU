@@ -1,0 +1,5681 @@
+[
+  {
+    "id": "AUTH-supervisor",
+    "titulo": "Ingreso y navegación de supervisor",
+    "rol": "supervisor",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:22:59.968016+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Inicio correcto y pantalla inicial del rol",
+    "evidencia": "capturas\\auth-AUTH-supervisor.png",
+    "segundos": 2.72,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-campo",
+    "titulo": "Acceso directo /campo",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:02.724365+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-campo.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-jornadas",
+    "titulo": "Acceso directo /jornadas",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:03.829968+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-jornadas.png",
+    "segundos": 1.19,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-jornadas-nueva",
+    "titulo": "Acceso directo /jornadas/nueva",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:05.012031+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-jornadas-nueva.png",
+    "segundos": 0.97,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-historico",
+    "titulo": "Acceso directo /historico",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:05.978033+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-historico.png",
+    "segundos": 1.33,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-incidencias",
+    "titulo": "Acceso directo /incidencias",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:07.307869+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-incidencias.png",
+    "segundos": 0.97,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-tablero",
+    "titulo": "Acceso directo /tablero",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:08.277011+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-tablero.png",
+    "segundos": 1.11,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-mapa",
+    "titulo": "Acceso directo /mapa",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:09.387387+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-mapa.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-predicciones",
+    "titulo": "Acceso directo /predicciones",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:10.483800+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-predicciones.png",
+    "segundos": 1.02,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-recomendaciones",
+    "titulo": "Acceso directo /recomendaciones",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:11.503716+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-recomendaciones.png",
+    "segundos": 1.02,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-modelo",
+    "titulo": "Acceso directo /modelo",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:12.533106+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-modelo.png",
+    "segundos": 0.91,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-reportes",
+    "titulo": "Acceso directo /reportes",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:13.429886+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-reportes.png",
+    "segundos": 1.12,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-procesos",
+    "titulo": "Acceso directo /procesos",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:14.556336+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-procesos.png",
+    "segundos": 0.89,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-parametros",
+    "titulo": "Acceso directo /parametros",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:15.445765+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-parametros.png",
+    "segundos": 1.0,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-sectores",
+    "titulo": "Acceso directo /sectores",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:16.454961+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-sectores.png",
+    "segundos": 1.02,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-puntos",
+    "titulo": "Acceso directo /puntos",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:17.461739+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-puntos.png",
+    "segundos": 1.39,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-contenedores",
+    "titulo": "Acceso directo /contenedores",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:18.865923+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-contenedores.png",
+    "segundos": 0.97,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-tipos-residuo",
+    "titulo": "Acceso directo /tipos-residuo",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:19.839254+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-tipos-residuo.png",
+    "segundos": 0.98,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-vehiculos",
+    "titulo": "Acceso directo /vehiculos",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:20.834049+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-vehiculos.png",
+    "segundos": 0.95,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-usuarios",
+    "titulo": "Acceso directo /usuarios",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:21.791730+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-usuarios.png",
+    "segundos": 0.98,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-roles",
+    "titulo": "Acceso directo /roles",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:22.780959+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-roles.png",
+    "segundos": 0.97,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-supervisor-bitacora",
+    "titulo": "Acceso directo /bitacora",
+    "rol": "supervisor",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:23.738947+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-supervisor-bitacora.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-reload-supervisor",
+    "titulo": "Sesión persiste al recargar",
+    "rol": "supervisor",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:23:24.600776+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-reload-supervisor.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-logout-supervisor",
+    "titulo": "Logout, almacenamiento vacío y Atrás protegido",
+    "rol": "supervisor",
+    "cu": [
+      2
+    ],
+    "inicio_utc": "2026-11-19T04:23:25.461076+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-logout-supervisor.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-operario1",
+    "titulo": "Ingreso y navegación de operario1",
+    "rol": "operario1",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:23:26.862866+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Inicio correcto y pantalla inicial del rol",
+    "evidencia": "capturas\\auth-AUTH-operario1.png",
+    "segundos": 2.56,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-campo",
+    "titulo": "Acceso directo /campo",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:29.447619+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-campo.png",
+    "segundos": 0.98,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-jornadas",
+    "titulo": "Acceso directo /jornadas",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:30.440150+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-jornadas.png",
+    "segundos": 1.12,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-jornadas-nueva",
+    "titulo": "Acceso directo /jornadas/nueva",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:31.568200+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-jornadas-nueva.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-historico",
+    "titulo": "Acceso directo /historico",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:32.418307+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-historico.png",
+    "segundos": 1.14,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-incidencias",
+    "titulo": "Acceso directo /incidencias",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:33.575186+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-incidencias.png",
+    "segundos": 0.94,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-tablero",
+    "titulo": "Acceso directo /tablero",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:34.513751+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-tablero.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-mapa",
+    "titulo": "Acceso directo /mapa",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:35.359777+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-mapa.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-predicciones",
+    "titulo": "Acceso directo /predicciones",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:36.195789+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-predicciones.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-recomendaciones",
+    "titulo": "Acceso directo /recomendaciones",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:37.057278+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-recomendaciones.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-modelo",
+    "titulo": "Acceso directo /modelo",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:37.886409+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-modelo.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-reportes",
+    "titulo": "Acceso directo /reportes",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:38.729230+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-reportes.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-procesos",
+    "titulo": "Acceso directo /procesos",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:39.575181+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-procesos.png",
+    "segundos": 0.92,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-parametros",
+    "titulo": "Acceso directo /parametros",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:40.499526+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-parametros.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-sectores",
+    "titulo": "Acceso directo /sectores",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:41.339841+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-sectores.png",
+    "segundos": 1.05,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-puntos",
+    "titulo": "Acceso directo /puntos",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:42.386569+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-puntos.png",
+    "segundos": 1.2,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-contenedores",
+    "titulo": "Acceso directo /contenedores",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:43.596365+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-contenedores.png",
+    "segundos": 0.94,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-tipos-residuo",
+    "titulo": "Acceso directo /tipos-residuo",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:44.529590+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-tipos-residuo.png",
+    "segundos": 0.98,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-vehiculos",
+    "titulo": "Acceso directo /vehiculos",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:45.505001+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-vehiculos.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-usuarios",
+    "titulo": "Acceso directo /usuarios",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:46.366729+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-usuarios.png",
+    "segundos": 0.91,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-roles",
+    "titulo": "Acceso directo /roles",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:47.276295+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-roles.png",
+    "segundos": 0.81,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario1-bitacora",
+    "titulo": "Acceso directo /bitacora",
+    "rol": "operario1",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:48.096702+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario1-bitacora.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-reload-operario1",
+    "titulo": "Sesión persiste al recargar",
+    "rol": "operario1",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:23:48.930866+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-reload-operario1.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-logout-operario1",
+    "titulo": "Logout, almacenamiento vacío y Atrás protegido",
+    "rol": "operario1",
+    "cu": [
+      2
+    ],
+    "inicio_utc": "2026-11-19T04:23:49.779622+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-logout-operario1.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-operario2",
+    "titulo": "Ingreso y navegación de operario2",
+    "rol": "operario2",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:23:51.209044+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Inicio correcto y pantalla inicial del rol",
+    "evidencia": "capturas\\auth-AUTH-operario2.png",
+    "segundos": 2.52,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-campo",
+    "titulo": "Acceso directo /campo",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:53.759435+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-campo.png",
+    "segundos": 0.98,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-jornadas",
+    "titulo": "Acceso directo /jornadas",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:54.752227+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-jornadas.png",
+    "segundos": 1.17,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-jornadas-nueva",
+    "titulo": "Acceso directo /jornadas/nueva",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:55.926084+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-jornadas-nueva.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-historico",
+    "titulo": "Acceso directo /historico",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:56.789365+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-historico.png",
+    "segundos": 1.2,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-incidencias",
+    "titulo": "Acceso directo /incidencias",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:58.003394+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-incidencias.png",
+    "segundos": 1.0,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-tablero",
+    "titulo": "Acceso directo /tablero",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:59.018324+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-tablero.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-mapa",
+    "titulo": "Acceso directo /mapa",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:23:59.866098+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-mapa.png",
+    "segundos": 0.81,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-predicciones",
+    "titulo": "Acceso directo /predicciones",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:00.693264+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-predicciones.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-recomendaciones",
+    "titulo": "Acceso directo /recomendaciones",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:01.533717+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-recomendaciones.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-modelo",
+    "titulo": "Acceso directo /modelo",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:02.383852+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-modelo.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-reportes",
+    "titulo": "Acceso directo /reportes",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:03.225949+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-reportes.png",
+    "segundos": 0.81,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-procesos",
+    "titulo": "Acceso directo /procesos",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:04.044225+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-procesos.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-parametros",
+    "titulo": "Acceso directo /parametros",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:04.890831+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-parametros.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-sectores",
+    "titulo": "Acceso directo /sectores",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:05.732404+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-sectores.png",
+    "segundos": 0.95,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-puntos",
+    "titulo": "Acceso directo /puntos",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:06.691709+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-puntos.png",
+    "segundos": 1.19,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-contenedores",
+    "titulo": "Acceso directo /contenedores",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:07.899871+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-contenedores.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-tipos-residuo",
+    "titulo": "Acceso directo /tipos-residuo",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:08.754315+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-tipos-residuo.png",
+    "segundos": 0.92,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-vehiculos",
+    "titulo": "Acceso directo /vehiculos",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:09.693521+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-vehiculos.png",
+    "segundos": 0.81,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-usuarios",
+    "titulo": "Acceso directo /usuarios",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:10.524942+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-usuarios.png",
+    "segundos": 0.81,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-roles",
+    "titulo": "Acceso directo /roles",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:11.356243+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-roles.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-operario2-bitacora",
+    "titulo": "Acceso directo /bitacora",
+    "rol": "operario2",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:12.192356+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-operario2-bitacora.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-reload-operario2",
+    "titulo": "Sesión persiste al recargar",
+    "rol": "operario2",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:24:13.031298+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-reload-operario2.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-logout-operario2",
+    "titulo": "Logout, almacenamiento vacío y Atrás protegido",
+    "rol": "operario2",
+    "cu": [
+      2
+    ],
+    "inicio_utc": "2026-11-19T04:24:13.880053+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-logout-operario2.png",
+    "segundos": 1.08,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-directivo",
+    "titulo": "Ingreso y navegación de directivo",
+    "rol": "directivo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:24:15.274770+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Inicio correcto y pantalla inicial del rol",
+    "evidencia": "capturas\\auth-AUTH-directivo.png",
+    "segundos": 2.56,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-campo",
+    "titulo": "Acceso directo /campo",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:17.855757+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-campo.png",
+    "segundos": 0.95,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-jornadas",
+    "titulo": "Acceso directo /jornadas",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:18.817270+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-jornadas.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-jornadas-nueva",
+    "titulo": "Acceso directo /jornadas/nueva",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:19.932117+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-jornadas-nueva.png",
+    "segundos": 0.86,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-historico",
+    "titulo": "Acceso directo /historico",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:20.796587+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-historico.png",
+    "segundos": 1.17,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-incidencias",
+    "titulo": "Acceso directo /incidencias",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:21.967935+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-incidencias.png",
+    "segundos": 1.05,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-tablero",
+    "titulo": "Acceso directo /tablero",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:23.020589+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-tablero.png",
+    "segundos": 1.06,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-mapa",
+    "titulo": "Acceso directo /mapa",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:24.098026+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-mapa.png",
+    "segundos": 1.11,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-predicciones",
+    "titulo": "Acceso directo /predicciones",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:25.229268+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-predicciones.png",
+    "segundos": 1.03,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-recomendaciones",
+    "titulo": "Acceso directo /recomendaciones",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:26.260053+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-recomendaciones.png",
+    "segundos": 0.92,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-modelo",
+    "titulo": "Acceso directo /modelo",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:27.198277+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-modelo.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-reportes",
+    "titulo": "Acceso directo /reportes",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:28.048204+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-reportes.png",
+    "segundos": 1.08,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-procesos",
+    "titulo": "Acceso directo /procesos",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:29.132211+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-procesos.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-parametros",
+    "titulo": "Acceso directo /parametros",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:29.978852+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-parametros.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-sectores",
+    "titulo": "Acceso directo /sectores",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:30.828024+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-sectores.png",
+    "segundos": 0.95,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-puntos",
+    "titulo": "Acceso directo /puntos",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:31.792776+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-puntos.png",
+    "segundos": 1.27,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-contenedores",
+    "titulo": "Acceso directo /contenedores",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:33.077511+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-contenedores.png",
+    "segundos": 0.97,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-tipos-residuo",
+    "titulo": "Acceso directo /tipos-residuo",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:34.053457+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-tipos-residuo.png",
+    "segundos": 0.94,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-vehiculos",
+    "titulo": "Acceso directo /vehiculos",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:35.001770+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-vehiculos.png",
+    "segundos": 0.94,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-usuarios",
+    "titulo": "Acceso directo /usuarios",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:35.929313+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-usuarios.png",
+    "segundos": 0.88,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-roles",
+    "titulo": "Acceso directo /roles",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:36.823401+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-roles.png",
+    "segundos": 0.91,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-directivo-bitacora",
+    "titulo": "Acceso directo /bitacora",
+    "rol": "directivo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:37.729654+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-directivo-bitacora.png",
+    "segundos": 0.83,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-reload-directivo",
+    "titulo": "Sesión persiste al recargar",
+    "rol": "directivo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:24:38.577746+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-reload-directivo.png",
+    "segundos": 0.84,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-logout-directivo",
+    "titulo": "Logout, almacenamiento vacío y Atrás protegido",
+    "rol": "directivo",
+    "cu": [
+      2
+    ],
+    "inicio_utc": "2026-11-19T04:24:39.432762+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-logout-directivo.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-administrativo",
+    "titulo": "Ingreso y navegación de administrativo",
+    "rol": "administrativo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:24:40.861052+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Inicio correcto y pantalla inicial del rol",
+    "evidencia": "capturas\\auth-AUTH-administrativo.png",
+    "segundos": 2.66,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-campo",
+    "titulo": "Acceso directo /campo",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:43.546694+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por rol; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-campo.png",
+    "segundos": 0.89,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-jornadas",
+    "titulo": "Acceso directo /jornadas",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:44.434825+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-jornadas.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-jornadas-nueva",
+    "titulo": "Planificación autorizada para Administrador",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:29:19.557663+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Corrección del oráculo de prueba: Administrador tiene operations.add_jornada; no es un defecto del producto",
+    "evidencia": "capturas\\auth_extra-20261119-002916-ROUTE-administrativo-jornadas-nueva.png",
+    "segundos": 0.47,
+    "ejecucion": "auth_extra-20261119-002916.json"
+  },
+  {
+    "id": "ROUTE-administrativo-historico",
+    "titulo": "Acceso directo /historico",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:51.632505+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-historico.png",
+    "segundos": 1.2,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-incidencias",
+    "titulo": "Acceso directo /incidencias",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:52.848940+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-incidencias.png",
+    "segundos": 0.95,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-tablero",
+    "titulo": "Acceso directo /tablero",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:53.829157+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-tablero.png",
+    "segundos": 1.11,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-mapa",
+    "titulo": "Acceso directo /mapa",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:54.955573+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-mapa.png",
+    "segundos": 1.08,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-predicciones",
+    "titulo": "Acceso directo /predicciones",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:56.049640+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-predicciones.png",
+    "segundos": 1.0,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-recomendaciones",
+    "titulo": "Acceso directo /recomendaciones",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:57.069574+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-recomendaciones.png",
+    "segundos": 0.92,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-modelo",
+    "titulo": "Acceso directo /modelo",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:57.999999+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-modelo.png",
+    "segundos": 1.0,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-reportes",
+    "titulo": "Acceso directo /reportes",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:24:59.022968+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-reportes.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-procesos",
+    "titulo": "Acceso directo /procesos",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:00.134402+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-procesos.png",
+    "segundos": 1.0,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-parametros",
+    "titulo": "Acceso directo /parametros",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:01.165958+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-parametros.png",
+    "segundos": 1.0,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-sectores",
+    "titulo": "Acceso directo /sectores",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:02.177832+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-sectores.png",
+    "segundos": 0.97,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-puntos",
+    "titulo": "Acceso directo /puntos",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:03.158099+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-puntos.png",
+    "segundos": 1.38,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-contenedores",
+    "titulo": "Acceso directo /contenedores",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:04.548670+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-contenedores.png",
+    "segundos": 1.06,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-tipos-residuo",
+    "titulo": "Acceso directo /tipos-residuo",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:05.626977+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-tipos-residuo.png",
+    "segundos": 0.97,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-vehiculos",
+    "titulo": "Acceso directo /vehiculos",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:06.613107+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-vehiculos.png",
+    "segundos": 0.94,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-usuarios",
+    "titulo": "Acceso directo /usuarios",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:07.575396+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-usuarios.png",
+    "segundos": 0.95,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-roles",
+    "titulo": "Acceso directo /roles",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:08.537912+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-roles.png",
+    "segundos": 0.95,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "ROUTE-administrativo-bitacora",
+    "titulo": "Acceso directo /bitacora",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:09.497647+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Pantalla autorizada cargada; acceso URL directa",
+    "evidencia": "capturas\\auth-ROUTE-administrativo-bitacora.png",
+    "segundos": 1.0,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-reload-administrativo",
+    "titulo": "Sesión persiste al recargar",
+    "rol": "administrativo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:25:10.499314+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-reload-administrativo.png",
+    "segundos": 1.0,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-logout-administrativo",
+    "titulo": "Logout, almacenamiento vacío y Atrás protegido",
+    "rol": "administrativo",
+    "cu": [
+      2
+    ],
+    "inicio_utc": "2026-11-19T04:25:11.538506+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth-AUTH-logout-administrativo.png",
+    "segundos": 1.09,
+    "ejecucion": "auth-20261119-002258.json"
+  },
+  {
+    "id": "AUTH-invalid",
+    "titulo": "Campos vacíos bloqueados y credenciales incorrectas rechazadas",
+    "rol": "anónimo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:30:25.822115+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-invalid.png",
+    "segundos": 1.61,
+    "ejecucion": "auth_extra-20261119-002916.json"
+  },
+  {
+    "id": "AUTH-refresh",
+    "titulo": "Expiración real y renovación de sesión",
+    "rol": "administrativo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:29:20.030907+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Tras 65 s, access JWT de 1 minuto renovado automáticamente; pantalla conserva autenticación",
+    "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-refresh.png",
+    "segundos": 65.53,
+    "ejecucion": "auth_extra-20261119-002916.json"
+  },
+  {
+    "id": "AUTH-expired",
+    "titulo": "Sesión no renovable vuelve al ingreso",
+    "rol": "administrativo",
+    "cu": [
+      1,
+      2
+    ],
+    "inicio_utc": "2026-11-19T04:30:25.554701+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Inyección local de sesión inválida: regreso a ingreso, sin datos protegidos",
+    "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-expired.png",
+    "segundos": 0.27,
+    "ejecucion": "auth_extra-20261119-002916.json"
+  },
+  {
+    "id": "CRUD-sector",
+    "titulo": "Formulario y ciclo CRUD sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:32:33.945005+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-sector.png",
+    "segundos": 5.27,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "CRUD-unidad",
+    "titulo": "Formulario y ciclo CRUD unidad",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:32:39.221473+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-unidad.png",
+    "segundos": 5.89,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "CRUD-tipo",
+    "titulo": "Formulario y ciclo CRUD tipo",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:32:45.125323+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-tipo.png",
+    "segundos": 6.02,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "CRUD-vehiculo",
+    "titulo": "Formulario y ciclo CRUD vehiculo",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:32:51.138252+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-vehiculo.png",
+    "segundos": 4.66,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "CRUD-periodo",
+    "titulo": "Formulario y ciclo CRUD periodo",
+    "rol": "administrativo",
+    "cu": [
+      31
+    ],
+    "inicio_utc": "2026-11-19T04:32:55.806293+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición y persistencia. Periodo no ofrece baja lógica en la interfaz.",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-periodo.png",
+    "segundos": 3.22,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "CRUD-punto",
+    "titulo": "Formulario y ciclo CRUD punto",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:32:59.030963+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-punto.png",
+    "segundos": 5.88,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "CRUD-contenedor",
+    "titulo": "Formulario y ciclo CRUD contenedor",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:33:04.912014+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Alta, edición, búsqueda; estados De baja y Bueno persistidos. No tiene is_active.",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-contenedor.png",
+    "segundos": 5.8,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "CRUD-usuario",
+    "titulo": "Formulario y ciclo CRUD usuario",
+    "rol": "administrativo",
+    "cu": [
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:33:10.717275+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-usuario.png",
+    "segundos": 6.17,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "DUP-unidad",
+    "titulo": "Duplicado rechazado unidad",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:33:18.427627+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-unidad.png",
+    "segundos": 1.91,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "DUP-sector",
+    "titulo": "Duplicado rechazado sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:33:16.896756+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-sector.png",
+    "segundos": 1.52,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "DUP-tipo",
+    "titulo": "Duplicado rechazado tipo",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:33:20.337296+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-tipo.png",
+    "segundos": 1.94,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "DUP-vehiculo",
+    "titulo": "Duplicado rechazado vehiculo",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:33:22.280670+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-vehiculo.png",
+    "segundos": 1.41,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "DUP-punto",
+    "titulo": "Duplicado rechazado punto",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:33:25.397111+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-punto.png",
+    "segundos": 1.95,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "DUP-usuario",
+    "titulo": "Duplicado rechazado usuario",
+    "rol": "administrativo",
+    "cu": [
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:33:29.151633+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-usuario.png",
+    "segundos": 1.7,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "DUP-periodo",
+    "titulo": "Duplicado rechazado periodo",
+    "rol": "administrativo",
+    "cu": [
+      31
+    ],
+    "inicio_utc": "2026-11-19T04:33:23.695091+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-periodo.png",
+    "segundos": 1.69,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "DUP-contenedor",
+    "titulo": "Duplicado rechazado contenedor",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:33:27.372246+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-contenedor.png",
+    "segundos": 1.77,
+    "ejecucion": "catalogs-20261119-003231.json"
+  },
+  {
+    "id": "LIM-punto-0",
+    "titulo": "Capacidad/factor no positivo punto 0",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:39:13.176748+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-punto-0.png",
+    "segundos": 1.3,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-punto--1",
+    "titulo": "Capacidad/factor no positivo punto -1",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:39:14.481329+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-punto--1.png",
+    "segundos": 1.12,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-contenedor-0",
+    "titulo": "Capacidad/factor no positivo contenedor 0",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:39:15.609793+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-contenedor-0.png",
+    "segundos": 1.0,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-contenedor--1",
+    "titulo": "Capacidad/factor no positivo contenedor -1",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:39:16.603758+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-contenedor--1.png",
+    "segundos": 1.0,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-unidad-0",
+    "titulo": "Capacidad/factor no positivo unidad 0",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:39:17.604768+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-unidad-0.png",
+    "segundos": 1.12,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-unidad--1",
+    "titulo": "Capacidad/factor no positivo unidad -1",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:39:18.730738+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-unidad--1.png",
+    "segundos": 1.09,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-vehiculo-0",
+    "titulo": "Capacidad/factor no positivo vehiculo 0",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:39:19.829065+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-vehiculo-0.png",
+    "segundos": 1.08,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-vehiculo--1",
+    "titulo": "Capacidad/factor no positivo vehiculo -1",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:39:20.899636+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazado por validación del campo; HTTP 400",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-vehiculo--1.png",
+    "segundos": 1.19,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-geografia",
+    "titulo": "Geografía y precisión de coordenadas",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:39:22.088563+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Exterior rechazado, precisión >6 rechazada, esquina mínima BBOX aceptada y persistida; ubicación QA restituida",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-geografia.png",
+    "segundos": 3.12,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "LIM-longitud",
+    "titulo": "Longitudes y caracteres especiales de sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:39:25.210620+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Longitud máxima+1 rechazada; caracteres acentuados y HTML se conservan como texto",
+    "evidencia": "capturas\\administration-20261119-003910-LIM-longitud.png",
+    "segundos": 2.3,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "ADM-rol",
+    "titulo": "Crear y editar rol sintético, asignarlo a usuario",
+    "rol": "administrativo",
+    "cu": [
+      4,
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:39:27.510440+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rol sintético creado, permiso de consulta, edición y asignación a usuario sintético; cuentas originales intactas",
+    "evidencia": "capturas\\administration-20261119-003910-ADM-rol.png",
+    "segundos": 3.42,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "ADM-parametros",
+    "titulo": "Parámetros y validaciones con persistencia",
+    "rol": "administrativo",
+    "cu": [
+      31
+    ],
+    "inicio_utc": "2026-11-19T04:39:30.930558+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Tolerancia 0/6 rechazadas; límites 1/5 persistidos, valor original restituido; dominio Power BI inválido rechazado",
+    "evidencia": "capturas\\administration-20261119-003910-ADM-parametros.png",
+    "segundos": 4.52,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "ADM-bitacora",
+    "titulo": "Auditoría de cambios reales de GUI",
+    "rol": "administrativo",
+    "cu": [
+      32
+    ],
+    "inicio_utc": "2026-11-19T04:39:35.461110+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Actualización de parámetros visible con antes/después y sin controles de modificación",
+    "evidencia": "capturas\\administration-20261119-003910-ADM-bitacora.png",
+    "segundos": 0.73,
+    "ejecucion": "administration-20261119-003910.json"
+  },
+  {
+    "id": "PERM-sintetico",
+    "titulo": "Permisos del rol creado aplicados al nuevo usuario",
+    "rol": "qa_gui_003231",
+    "cu": [
+      4
+    ],
+    "inicio_utc": "2026-11-19T04:40:24.430663+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rol sintético habilita el módulo de sectores; sin rol territorial no recibe registros; sin alta/edición ni acceso a usuarios",
+    "evidencia": "capturas\\permissions-20261119-004021-PERM-sintetico.png",
+    "segundos": 2.41,
+    "ejecucion": "permissions-20261119-004021.json"
+  },
+  {
+    "id": "PERM-inactivo",
+    "titulo": "Sesión revocada y login de usuario desactivado",
+    "rol": "qa_gui_003231",
+    "cu": [
+      1,
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:40:26.848929+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Baja sintética revoca sesión existente e impide ingreso; reactivación recupera acceso",
+    "evidencia": "capturas\\permissions-20261119-004021-PERM-inactivo.png",
+    "segundos": 3.98,
+    "ejecucion": "permissions-20261119-004021.json"
+  },
+  {
+    "id": "PERM-conexion",
+    "titulo": "Error de conexión, reintento y persistencia entre sesiones",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:40:30.846507+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Sin red conserva formulario y mensaje claro; reintento guarda una vez y persiste tras logout/login",
+    "evidencia": "capturas\\permissions-20261119-004021-PERM-conexion.png",
+    "segundos": 4.11,
+    "ejecucion": "permissions-20261119-004021.json"
+  },
+  {
+    "id": "PERM-prediction",
+    "titulo": "Editor ofrece permisos de todos los módulos",
+    "rol": "administrativo",
+    "cu": [
+      4
+    ],
+    "inicio_utc": "2026-11-19T04:40:34.971979+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\permissions-20261119-004021-PERM-prediction.png",
+    "segundos": 0.86,
+    "ejecucion": "permissions-20261119-004021.json"
+  },
+  {
+    "id": "J-crear-FICCT",
+    "titulo": "Planificación y cambio de sector con ruta persistida",
+    "rol": "supervisor",
+    "cu": [
+      14
+    ],
+    "inicio_utc": "2026-11-19T05:07:12.928333+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Jornada confirmada editada en dos sectores; ruta anterior vaciada, nueva ruta persistida; se conserva estado confirmado",
+    "evidencia": "capturas\\final_edit-20261119-010709-J-crear-FICCT.png",
+    "segundos": 3.48,
+    "ejecucion": "final_edit-20261119-010709.json"
+  },
+  {
+    "id": "J-crear-FCET",
+    "titulo": "Planificar y reordenar ruta FCET",
+    "rol": "supervisor",
+    "cu": [
+      14
+    ],
+    "inicio_utc": "2026-11-19T04:54:33.848582+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "jornada": 1054,
+      "fecha": "2026-11-19",
+      "turno": "Mañana",
+      "sector": "FCET",
+      "ruta": "3 puntos, reordenada y persistida"
+    },
+    "evidencia": "capturas\\operations-20261119-005427-J-crear-FCET.png",
+    "segundos": 3.34,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-concurrencia",
+    "titulo": "Reservas incompatibles en dos sesiones gráficas",
+    "rol": "supervisor",
+    "cu": [
+      15
+    ],
+    "inicio_utc": "2026-11-19T04:54:39.187786+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Dos contextos gráficos; primer guardado aceptado, segundo rechazado, formulario conserva los datos",
+    "evidencia": "capturas\\operations-20261119-005427-J-concurrencia.png",
+    "segundos": 2.89,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-asignar2",
+    "titulo": "Asignación alternativa válida y persistencia",
+    "rol": "supervisor",
+    "cu": [
+      15
+    ],
+    "inicio_utc": "2026-11-19T04:54:42.072823+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-J-asignar2.png",
+    "segundos": 1.95,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-confirmar-1049",
+    "titulo": "Confirmar planificación publicada",
+    "rol": "supervisor",
+    "cu": [
+      14,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:40:53.562411+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-confirmar-1049.png",
+    "segundos": 1.2,
+    "ejecucion": "operations-20261119-004037.json"
+  },
+  {
+    "id": "J-confirmar-1050",
+    "titulo": "Confirmar planificación publicada",
+    "rol": "supervisor",
+    "cu": [
+      14,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:40:54.764477+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-confirmar-1050.png",
+    "segundos": 1.11,
+    "ejecucion": "operations-20261119-004037.json"
+  },
+  {
+    "id": "J-abrir-operario1",
+    "titulo": "Operativo abre su jornada desde campo",
+    "rol": "operario1",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:43:50.603345+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-J-abrir-operario1.png",
+    "segundos": 2.94,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "I-reportar-operario1",
+    "titulo": "Reportar incidencia en campo",
+    "rol": "operario1",
+    "cu": [
+      10
+    ],
+    "inicio_utc": "2026-11-19T04:43:55.147480+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-I-reportar-operario1.png",
+    "segundos": 1.41,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "R-vaciado-operario1",
+    "titulo": "Registro multirresiduo con persistencia",
+    "rol": "operario1",
+    "cu": [
+      9
+    ],
+    "inicio_utc": "2026-11-19T04:43:56.556256+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Negativo y cero bloqueados; dos tipos, cantidades decimales, observación; recarga confirma atendido",
+    "evidencia": "capturas\\operations-20261119-004328-R-vaciado-operario1.png",
+    "segundos": 3.14,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "R-sin-operario1",
+    "titulo": "Visita sin generación",
+    "rol": "operario1",
+    "cu": [
+      9,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:43:59.700600+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-R-sin-operario1.png",
+    "segundos": 1.05,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "R-omitir-operario1",
+    "titulo": "Omisión justificada y recorrido completo",
+    "rol": "operario1",
+    "cu": [
+      17
+    ],
+    "inicio_utc": "2026-11-19T04:44:00.750378+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-R-omitir-operario1.png",
+    "segundos": 1.53,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "S-alcance-operario1",
+    "titulo": "Operativo no accede a jornada ajena por URL",
+    "rol": "operario1",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:44:02.277362+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-S-alcance-operario1.png",
+    "segundos": 0.39,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "J-abrir-operario2",
+    "titulo": "Operativo abre su jornada desde campo",
+    "rol": "operario2",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:54:59.996296+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-J-abrir-operario2.png",
+    "segundos": 3.42,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "I-reportar-operario2",
+    "titulo": "Reportar incidencia en campo",
+    "rol": "operario2",
+    "cu": [
+      10
+    ],
+    "inicio_utc": "2026-11-19T04:55:03.427762+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-I-reportar-operario2.png",
+    "segundos": 1.42,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "R-vaciado-operario2",
+    "titulo": "Registro multirresiduo con persistencia",
+    "rol": "operario2",
+    "cu": [
+      9
+    ],
+    "inicio_utc": "2026-11-19T04:55:04.861755+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Negativo y cero bloqueados; dos tipos, cantidades decimales, observación; recarga confirma atendido",
+    "evidencia": "capturas\\operations-20261119-005427-R-vaciado-operario2.png",
+    "segundos": 3.52,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "R-sin-operario2",
+    "titulo": "Visita sin generación",
+    "rol": "operario2",
+    "cu": [
+      9,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:55:08.376999+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-R-sin-operario2.png",
+    "segundos": 0.84,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "R-omitir-operario2",
+    "titulo": "Omisión justificada y recorrido completo",
+    "rol": "operario2",
+    "cu": [
+      17
+    ],
+    "inicio_utc": "2026-11-19T04:55:09.212685+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-R-omitir-operario2.png",
+    "segundos": 1.77,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "S-alcance-operario2",
+    "titulo": "Operativo no accede a jornada ajena por URL",
+    "rol": "operario2",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:55:10.989702+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-S-alcance-operario2.png",
+    "segundos": 0.39,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "I-atender",
+    "titulo": "Supervisor atiende incidencias de ambos operativos",
+    "rol": "supervisor",
+    "cu": [
+      11
+    ],
+    "inicio_utc": "2026-11-19T04:55:11.397065+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-I-atender.png",
+    "segundos": 1.61,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-cerrar-1049",
+    "titulo": "Cierre, consolidado y bloqueo de nuevos registros",
+    "rol": "supervisor",
+    "cu": [
+      18,
+      19
+    ],
+    "inicio_utc": "2026-11-19T04:41:27.429215+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-cerrar-1049.png",
+    "segundos": 1.83,
+    "ejecucion": "operations-20261119-004037.json"
+  },
+  {
+    "id": "J-cerrar-1050",
+    "titulo": "Cierre, consolidado y bloqueo de nuevos registros",
+    "rol": "supervisor",
+    "cu": [
+      18,
+      19
+    ],
+    "inicio_utc": "2026-11-19T04:41:29.266749+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004037-J-cerrar-1050.png",
+    "segundos": 1.86,
+    "ejecucion": "operations-20261119-004037.json"
+  },
+  {
+    "id": "R-historico",
+    "titulo": "Buscar y filtrar residuos registrados gráficamente",
+    "rol": "supervisor",
+    "cu": [
+      12
+    ],
+    "inicio_utc": "2026-11-19T04:55:17.557825+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-R-historico.png",
+    "segundos": 1.92,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-confirmar-1051",
+    "titulo": "Confirmar planificación publicada",
+    "rol": "supervisor",
+    "cu": [
+      14,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:43:47.808106+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-J-confirmar-1051.png",
+    "segundos": 1.11,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "J-confirmar-1052",
+    "titulo": "Confirmar planificación publicada",
+    "rol": "supervisor",
+    "cu": [
+      14,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:43:48.916562+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-J-confirmar-1052.png",
+    "segundos": 1.44,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "J-cierre-prematuro",
+    "titulo": "Cierre con paradas pendientes rechazado",
+    "rol": "supervisor",
+    "cu": [
+      18
+    ],
+    "inicio_utc": "2026-11-19T04:54:50.847130+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-J-cierre-prematuro.png",
+    "segundos": 1.97,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-cerrar-1051",
+    "titulo": "Cierre, consolidado y bloqueo de nuevos registros",
+    "rol": "supervisor",
+    "cu": [
+      18,
+      19
+    ],
+    "inicio_utc": "2026-11-19T04:44:15.068343+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-J-cerrar-1051.png",
+    "segundos": 2.17,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "J-cerrar-1052",
+    "titulo": "Cierre, consolidado y bloqueo de nuevos registros",
+    "rol": "supervisor",
+    "cu": [
+      18,
+      19
+    ],
+    "inicio_utc": "2026-11-19T04:44:17.256531+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-004328-J-cerrar-1052.png",
+    "segundos": 2.17,
+    "ejecucion": "operations-20261119-004328.json"
+  },
+  {
+    "id": "ETL-1",
+    "titulo": "ETL desde UI y reintento incremental",
+    "rol": "administrativo",
+    "cu": [
+      20
+    ],
+    "inicio_utc": "2026-11-19T04:47:54.306229+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Ejecución 1: 19 nov 2026 · 00:47\tSin registros nuevos\t0\t0\t0\t0.1 s\tAdministración QA\tNo hay registros nuevos desde la última ejecución.",
+    "evidencia": "capturas\\analytics-20261119-004751-ETL-1.png",
+    "segundos": 4.09,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "ETL-2",
+    "titulo": "Repetición sin registros nuevos",
+    "rol": "administrativo",
+    "cu": [
+      20
+    ],
+    "inicio_utc": "2026-11-19T04:50:27.879162+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Ejecución incremental repetida sin datos nuevos: cero registros, sin duplicación",
+    "evidencia": "capturas\\etl_repeat-20261119-005025-ETL-2.png",
+    "segundos": 4.05,
+    "ejecucion": "etl_repeat-20261119-005025.json"
+  },
+  {
+    "id": "A-tablero",
+    "titulo": "Indicadores y filtros del directivo",
+    "rol": "directivo",
+    "cu": [
+      21
+    ],
+    "inicio_utc": "2026-11-19T04:48:27.021074+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Indicadores con combinación fecha/sector/tipo y restablecimiento",
+    "evidencia": "capturas\\analytics-20261119-004751-A-tablero.png",
+    "segundos": 2.27,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "A-comparar",
+    "titulo": "Comparación y tendencias",
+    "rol": "directivo",
+    "cu": [
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:48:29.301161+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Comparación septiembre/octubre: sector, punto y tipo con tablas no vacías",
+    "evidencia": "capturas\\analytics-20261119-004751-A-comparar.png",
+    "segundos": 1.22,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "A-powerbi",
+    "titulo": "Power BI sin configuración responde correctamente",
+    "rol": "directivo",
+    "cu": [
+      21
+    ],
+    "inicio_utc": "2026-11-19T04:48:30.531204+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Ausencia de configuración informada; informe remoto no comprobado",
+    "evidencia": "capturas\\analytics-20261119-004751-A-powerbi.png",
+    "segundos": 0.61,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "A-mapa",
+    "titulo": "Mapa interactivo observado",
+    "rol": "directivo",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:48:31.144665+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Marcadores, popup, mapa de calor, filtros combinados y restablecimiento",
+    "evidencia": "capturas\\analytics-20261119-004751-A-mapa.png",
+    "segundos": 2.77,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "REP-Generaci-n-por-sector",
+    "titulo": "Vista y descarga Excel/PDF: Generación por sector",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:33.924845+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "Facultad de Ciencias Económicas y Empresariales",
+          "7.763,82",
+          "0",
+          "527",
+          "3"
+        ],
+        [
+          "Facultad de Ciencias Exactas y Tecnología",
+          "4.443,17",
+          "0",
+          "508",
+          "3"
+        ],
+        [
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "4.342,11",
+          "0",
+          "529",
+          "3"
+        ],
+        [
+          "Biblioteca central y áreas comunes",
+          "3.855,08",
+          "0",
+          "520",
+          "3"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Generaci-n-por-sector-20261119-004751.xlsx",
+        "descargas\\Generaci-n-por-sector-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-por-sector.png",
+    "segundos": 2.06,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "REP-Generaci-n-por-tipo-de-residuo",
+    "titulo": "Vista y descarga Excel/PDF: Generación por tipo de residuo",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:36.000570+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "Orgánico",
+          "7.862,58",
+          "0",
+          "411",
+          "12"
+        ],
+        [
+          "Papel y cartón",
+          "4.160,48",
+          "0",
+          "411",
+          "12"
+        ],
+        [
+          "Residuo común",
+          "3.943,14",
+          "0",
+          "407",
+          "12"
+        ],
+        [
+          "Plástico PET",
+          "3.347,2",
+          "0",
+          "407",
+          "12"
+        ],
+        [
+          "Vidrio",
+          "1.049,78",
+          "0",
+          "407",
+          "12"
+        ],
+        [
+          "Residuo peligroso",
+          "41",
+          "0",
+          "41",
+          "11"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Generaci-n-por-tipo-de-residuo-20261119-004751.xlsx",
+        "descargas\\Generaci-n-por-tipo-de-residuo-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-por-tipo-de-residuo.png",
+    "segundos": 2.05,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "REP-Cumplimiento-de-jornadas",
+    "titulo": "Vista y descarga Excel/PDF: Cumplimiento de jornadas",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:38.047780+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "01 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "01 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "01 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "01 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "02 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "06 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "07 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "07 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "07 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "07 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "08 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "08 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "08 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "08 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "12 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "14 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "14 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "14 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "14 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "15 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "15 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "15 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "15 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "19 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "19 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "19 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "19 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "20 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "20 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "20 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "20 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "21 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "21 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "21 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "21 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "22 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "22 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "22 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "22 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "23 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "23 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "23 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "23 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "26 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "26 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "26 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "26 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "27 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "27 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "27 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "27 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "28 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "28 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "28 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "28 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "29 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "29 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "29 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "29 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "30 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "30 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "30 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "30 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "03 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "03 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "03 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "03 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "04 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "04 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "04 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "04 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "10 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "10 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "10 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "10 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "11 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "11 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "11 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "11 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "17 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "17 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "17 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "17 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "18 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "18 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "18 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "18 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "19 nov 2026",
+          "Noche",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "19 nov 2026",
+          "Noche",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "19 nov 2026",
+          "Tarde",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "19 nov 2026",
+          "Tarde",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Cumplimiento-de-jornadas-20261119-004751.xlsx",
+        "descargas\\Cumplimiento-de-jornadas-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Cumplimiento-de-jornadas.png",
+    "segundos": 3.58,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "REP-Incidencias-registradas",
+    "titulo": "Vista y descarga Excel/PDF: Incidencias registradas",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:41.633451+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "19/11/2026 00:40",
+          "FICCT-P1",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Desborde",
+          "Alta",
+          "Atendida",
+          "Óscar Operario",
+          "Resuelto GUI operario1 20261119-004037"
+        ],
+        [
+          "19/11/2026 00:41",
+          "FCET-P1",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Desborde",
+          "Alta",
+          "Atendida",
+          "Olga Operaria",
+          "Resuelto GUI operario2 20261119-004037"
+        ],
+        [
+          "19/11/2026 00:43",
+          "FICCT-P1",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Desborde",
+          "Alta",
+          "Atendida",
+          "Óscar Operario",
+          "Resuelto GUI operario1 20261119-004328"
+        ],
+        [
+          "19/11/2026 00:44",
+          "FCET-P1",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Desborde",
+          "Alta",
+          "Atendida",
+          "Olga Operaria",
+          "Resuelto GUI operario2 20261119-004328"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Incidencias-registradas-20261119-004751.xlsx",
+        "descargas\\Incidencias-registradas-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Incidencias-registradas.png",
+    "segundos": 2.09,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "REP-Indicadores-del-periodo",
+    "titulo": "Vista y descarga Excel/PDF: Indicadores del periodo",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:43.740785+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "Total recolectado (kg)",
+          "20.404,18"
+        ],
+        [
+          "Total recolectado (L)",
+          "0"
+        ],
+        [
+          "Variación respecto del periodo anterior (%)",
+          "-2,5"
+        ],
+        [
+          "Generación promedio por punto (kg)",
+          "1.700,35"
+        ],
+        [
+          "Generación promedio por sector (kg)",
+          "5.101,04"
+        ],
+        [
+          "Sector de mayor generación",
+          "Facultad de Ciencias Económicas y Empresariales (7.763,82 kg)"
+        ],
+        [
+          "Tipo de residuo predominante",
+          "Orgánico"
+        ],
+        [
+          "Recolecciones realizadas (jornadas cerradas)",
+          "144"
+        ],
+        [
+          "Frecuencia de atención por punto (veces/semana)",
+          "4,15"
+        ],
+        [
+          "Cobertura de las jornadas (%)",
+          "96,1"
+        ],
+        [
+          "Puntos críticos (> 20,00 kg/día)",
+          "12"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Indicadores-del-periodo-20261119-004751.xlsx",
+        "descargas\\Indicadores-del-periodo-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Indicadores-del-periodo.png",
+    "segundos": 2.03,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "REP-Generaci-n-proyectada",
+    "titulo": "Vista y descarga Excel/PDF: Generación proyectada",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:45.789604+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [],
+      "archivos": [
+        "descargas\\Generaci-n-proyectada-20261119-004751.xlsx",
+        "descargas\\Generaci-n-proyectada-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-proyectada.png",
+    "segundos": 2.0,
+    "ejecucion": "analytics-20261119-004751.json"
+  },
+  {
+    "id": "RACE-reportes",
+    "titulo": "Respuesta atrasada no mezcla tipos de reporte",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:47:48.567236+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Respuesta anterior liberada después de la nueva; no reemplaza la selección actual",
+    "evidencia": "capturas\\race-20261119-004745-RACE-reportes.png",
+    "segundos": 2.41,
+    "ejecucion": "race-20261119-004745.json"
+  },
+  {
+    "id": "ETL-concurrencia-duplicados",
+    "titulo": "ETL concurrente y duplicados visibles",
+    "rol": "administrativo",
+    "cu": [
+      20
+    ],
+    "inicio_utc": "2026-11-19T04:50:19.022160+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Dos sesiones gráficas; 2000 entradas de fixture procesadas, 1999 duplicados; segundo inicio bloqueado en curso",
+    "evidencia": "capturas\\etl_concurrent-20261119-005014-ETL-concurrencia-duplicados.png",
+    "segundos": 4.77,
+    "ejecucion": "etl_concurrent-20261119-005014.json"
+  },
+  {
+    "id": "ML-sin-modelo",
+    "titulo": "Inferencia con fixture sin modelo vigente",
+    "rol": "administrativo",
+    "cu": [
+      28
+    ],
+    "inicio_utc": "2026-11-19T04:54:46.343179+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Fixture reversible sin vigente; inferencia solicitada con formulario rechazada con indicación para entrenar/publicar",
+    "evidencia": "capturas\\model_absent-20261119-005443-ML-sin-modelo.png",
+    "segundos": 1.14,
+    "ejecucion": "model_absent-20261119-005443.json"
+  },
+  {
+    "id": "ML-rechazo-999999",
+    "titulo": "Modelo rechazado con Registros mínimos para entrenar",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:50:41.323316+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazo comprobado; parámetro original restituido por UI",
+    "evidencia": "capturas\\prediction_negative-20261119-005032-ML-rechazo-999999.png",
+    "segundos": 3.02,
+    "ejecucion": "prediction_negative-20261119-005032.json"
+  },
+  {
+    "id": "ML-rechazo-1",
+    "titulo": "Modelo rechazado con R² mínimo para publicar",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:50:44.339383+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazo comprobado; parámetro original restituido por UI",
+    "evidencia": "capturas\\prediction_negative-20261119-005032-ML-rechazo-1.png",
+    "segundos": 5.97,
+    "ejecucion": "prediction_negative-20261119-005032.json"
+  },
+  {
+    "id": "ML-hiper-limites",
+    "titulo": "Hiperparámetros fuera de rango",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:50:50.305252+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Límites n_estimators 9/501 bloqueados por validación nativa (rango 10..500)",
+    "evidencia": "capturas\\prediction_negative-20261119-005032-ML-hiper-limites.png",
+    "segundos": 1.48,
+    "ejecucion": "prediction_negative-20261119-005032.json"
+  },
+  {
+    "id": "ML-entrenar-1",
+    "titulo": "Entrenamiento y evaluación desde UI",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:50:55.151171+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Entrenamiento 1 completado, métricas visibles y versión vigente persiste",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-entrenar-1.png",
+    "segundos": 5.31,
+    "ejecucion": "prediction-20261119-005052.json"
+  },
+  {
+    "id": "ML-entrenar-2",
+    "titulo": "Entrenamiento y evaluación desde UI",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:51:00.461444+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Entrenamiento 2 completado, métricas visibles y versión vigente persiste",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-entrenar-2.png",
+    "segundos": 7.34,
+    "ejecucion": "prediction-20261119-005052.json"
+  },
+  {
+    "id": "ML-revertir",
+    "titulo": "Publicar versión anterior del modelo",
+    "rol": "administrativo",
+    "cu": [
+      27
+    ],
+    "inicio_utc": "2026-11-19T04:51:07.810558+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Reversión a v3 persistida",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-revertir.png",
+    "segundos": 1.12,
+    "ejecucion": "prediction-20261119-005052.json"
+  },
+  {
+    "id": "ML-predecir",
+    "titulo": "Inferencia y alertas con incertidumbre",
+    "rol": "supervisor",
+    "cu": [
+      28
+    ],
+    "inicio_utc": "2026-11-19T04:51:11.114464+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Lote de siete días solicitado por UI; versión y margen, persistencia al recargar",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-predecir.png",
+    "segundos": 1.92,
+    "ejecucion": "prediction-20261119-005052.json"
+  },
+  {
+    "id": "ML-resolver",
+    "titulo": "Consulta y resolución de recomendaciones",
+    "rol": "supervisor",
+    "cu": [
+      29,
+      30
+    ],
+    "inicio_utc": "2026-11-19T04:51:13.039715+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aceptar/descarte con motivo obligatorio; decisiones persistidas y visibles en Todas",
+    "evidencia": "capturas\\prediction-20261119-005052-ML-resolver.png",
+    "segundos": 1.5,
+    "ejecucion": "prediction-20261119-005052.json"
+  },
+  {
+    "id": "CRUD-sector",
+    "titulo": "Formulario y ciclo CRUD sector",
+    "rol": "supervisor",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:53:46.776287+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator.click: Timeout 10000ms exceeded.\nCall log:\nwaiting for get_by_role(\"button\", name=\"Nuevo\", exact=True)\n",
+    "evidencia": "capturas\\catalogs-20261119-005344-CRUD-sector.png",
+    "segundos": 10.59,
+    "ejecucion": "catalogs-20261119-005344.json"
+  },
+  {
+    "id": "CRUD-vehiculo",
+    "titulo": "Formulario y ciclo CRUD vehiculo",
+    "rol": "supervisor",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:56:28.976420+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-005624-CRUD-vehiculo.png",
+    "segundos": 4.66,
+    "ejecucion": "catalogs-20261119-005624.json"
+  },
+  {
+    "id": "CRUD-punto",
+    "titulo": "Formulario y ciclo CRUD punto",
+    "rol": "supervisor",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:56:33.643150+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-005624-CRUD-punto.png",
+    "segundos": 5.86,
+    "ejecucion": "catalogs-20261119-005624.json"
+  },
+  {
+    "id": "CRUD-contenedor",
+    "titulo": "Formulario y ciclo CRUD contenedor",
+    "rol": "supervisor",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:56:39.501416+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Alta, edición, búsqueda; estados De baja y Bueno persistidos. No tiene is_active.",
+    "evidencia": "capturas\\catalogs-20261119-005624-CRUD-contenedor.png",
+    "segundos": 5.84,
+    "ejecucion": "catalogs-20261119-005624.json"
+  },
+  {
+    "id": "DUP-vehiculo",
+    "titulo": "Duplicado rechazado vehiculo",
+    "rol": "supervisor",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:56:45.351002+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-005624-DUP-vehiculo.png",
+    "segundos": 1.47,
+    "ejecucion": "catalogs-20261119-005624.json"
+  },
+  {
+    "id": "J-confirmar-1053",
+    "titulo": "Confirmar planificación publicada",
+    "rol": "supervisor",
+    "cu": [
+      14,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:54:44.037242+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-J-confirmar-1053.png",
+    "segundos": 1.59,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-confirmar-1054",
+    "titulo": "Confirmar planificación publicada",
+    "rol": "supervisor",
+    "cu": [
+      14,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:54:45.636802+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-J-confirmar-1054.png",
+    "segundos": 1.52,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-abrir-supervisor",
+    "titulo": "Operativo abre su jornada desde campo",
+    "rol": "supervisor",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:54:47.386599+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-J-abrir-supervisor.png",
+    "segundos": 3.45,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "I-reportar-supervisor",
+    "titulo": "Reportar incidencia en campo",
+    "rol": "supervisor",
+    "cu": [
+      10
+    ],
+    "inicio_utc": "2026-11-19T04:54:52.825338+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-I-reportar-supervisor.png",
+    "segundos": 1.39,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "R-vaciado-supervisor",
+    "titulo": "Registro multirresiduo con persistencia",
+    "rol": "supervisor",
+    "cu": [
+      9
+    ],
+    "inicio_utc": "2026-11-19T04:54:54.217188+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Negativo y cero bloqueados; dos tipos, cantidades decimales, observación; recarga confirma atendido",
+    "evidencia": "capturas\\operations-20261119-005427-R-vaciado-supervisor.png",
+    "segundos": 3.28,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "ML-concurrencia",
+    "titulo": "Entrenamientos simultáneos y reversión de versión",
+    "rol": "administrativo",
+    "cu": [
+      26,
+      27
+    ],
+    "inicio_utc": "2026-11-19T04:54:54.477528+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Dos sesiones gráficas; inicio concurrente rechazado, primer entrenamiento termina; versión v3 restaurada por botón Publicar",
+    "evidencia": "capturas\\model_concurrent-20261119-005449-ML-concurrencia.png",
+    "segundos": 11.53,
+    "ejecucion": "model_concurrent-20261119-005449.json"
+  },
+  {
+    "id": "R-sin-supervisor",
+    "titulo": "Visita sin generación",
+    "rol": "supervisor",
+    "cu": [
+      9,
+      16
+    ],
+    "inicio_utc": "2026-11-19T04:54:57.497266+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-R-sin-supervisor.png",
+    "segundos": 0.81,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "R-omitir-supervisor",
+    "titulo": "Omisión justificada y recorrido completo",
+    "rol": "supervisor",
+    "cu": [
+      17
+    ],
+    "inicio_utc": "2026-11-19T04:54:58.313547+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-R-omitir-supervisor.png",
+    "segundos": 1.53,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-cerrar-1053",
+    "titulo": "Cierre, consolidado y bloqueo de nuevos registros",
+    "rol": "supervisor",
+    "cu": [
+      18,
+      19
+    ],
+    "inicio_utc": "2026-11-19T04:55:13.014791+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-J-cerrar-1053.png",
+    "segundos": 2.22,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "J-cerrar-1054",
+    "titulo": "Cierre, consolidado y bloqueo de nuevos registros",
+    "rol": "supervisor",
+    "cu": [
+      18,
+      19
+    ],
+    "inicio_utc": "2026-11-19T04:55:15.236578+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\operations-20261119-005427-J-cerrar-1054.png",
+    "segundos": 2.33,
+    "ejecucion": "operations-20261119-005427.json"
+  },
+  {
+    "id": "SUP-sectores",
+    "titulo": "Consulta territorial y ausencia de alta no autorizada",
+    "rol": "supervisor",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:56:28.467262+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Supervisor consulta sus sectores; crear sectores se reserva a Administrador, según permisos vigentes",
+    "evidencia": "capturas\\catalogs-20261119-005624-SUP-sectores.png",
+    "segundos": 0.52,
+    "ejecucion": "catalogs-20261119-005624.json"
+  },
+  {
+    "id": "DUP-punto",
+    "titulo": "Duplicado rechazado punto",
+    "rol": "supervisor",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:56:46.835102+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-005624-DUP-punto.png",
+    "segundos": 2.02,
+    "ejecucion": "catalogs-20261119-005624.json"
+  },
+  {
+    "id": "DUP-contenedor",
+    "titulo": "Duplicado rechazado contenedor",
+    "rol": "supervisor",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:56:48.859900+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-005624-DUP-contenedor.png",
+    "segundos": 1.75,
+    "ejecucion": "catalogs-20261119-005624.json"
+  },
+  {
+    "id": "CR-tablero-supervisor",
+    "titulo": "Tablero interactivo y comparación por rol",
+    "rol": "supervisor",
+    "cu": [
+      12,
+      21,
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:56:54.003793+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Periodo académico, fechas bloqueadas, filtros, cuatro gráficos/tablas, clic de sector y punto a histórico; comparación por tres dimensiones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-supervisor.png",
+    "segundos": 4.78,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-mapa-supervisor",
+    "titulo": "Cartografía observada y proyectada por rol",
+    "rol": "supervisor",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:56:58.795781+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Mapa observado filtrado a un punto; calor, marcadores/popup; capa proyectada por sector con margen",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-supervisor.png",
+    "segundos": 1.91,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-prediccion-supervisor",
+    "titulo": "Inferencia y consulta de recomendaciones por rol",
+    "rol": "supervisor",
+    "cu": [
+      28,
+      29
+    ],
+    "inicio_utc": "2026-11-19T04:57:00.706641+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Horizontes 0/31 bloqueados, límite 30 generado y persistido; consulta recomendaciones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-supervisor.png",
+    "segundos": 3.17,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-reporte-supervisor",
+    "titulo": "Reporte proyectado no vacío y descargas por rol",
+    "rol": "supervisor",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:57:03.895585+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "BIBLIO-P1",
+          "Punto 1 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "171,04",
+          "16,8",
+          "34,21",
+          "v3"
+        ],
+        [
+          "BIBLIO-P2",
+          "Punto 2 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "210,21",
+          "16,8",
+          "42,04",
+          "v3"
+        ],
+        [
+          "BIBLIO-P3",
+          "Punto 3 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "202,71",
+          "15,34",
+          "40,54",
+          "v3"
+        ],
+        [
+          "FCEE-P1",
+          "Punto 1 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "582,32",
+          "16,8",
+          "116,46",
+          "v3"
+        ],
+        [
+          "FCEE-P2",
+          "Punto 2 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "236,8",
+          "16,8",
+          "47,36",
+          "v3"
+        ],
+        [
+          "FCEE-P3",
+          "Punto 3 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "302,71",
+          "16,8",
+          "60,54",
+          "v3"
+        ],
+        [
+          "FCET-P1",
+          "Punto 1 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "229,37",
+          "15,34",
+          "45,87",
+          "v3"
+        ],
+        [
+          "FCET-P2",
+          "Punto 2 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "227,5",
+          "16,8",
+          "45,5",
+          "v3"
+        ],
+        [
+          "FCET-P3",
+          "Punto 3 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "218,65",
+          "16,8",
+          "43,73",
+          "v3"
+        ],
+        [
+          "FICCT-P1",
+          "Punto 1 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "18 dic 2026",
+          "645,56",
+          "34,43",
+          "30,74",
+          "v3"
+        ],
+        [
+          "FICCT-P2",
+          "Punto 2 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "18 dic 2026",
+          "805,49",
+          "34,43",
+          "38,36",
+          "v3"
+        ],
+        [
+          "FICCT-P3",
+          "Punto 3 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "18 dic 2026",
+          "896,11",
+          "34,43",
+          "42,67",
+          "v3"
+        ]
+      ],
+      "archivos": [
+        "descargas\\proyectado-supervisor-20261119-005651.xlsx",
+        "descargas\\proyectado-supervisor-20261119-005651.pdf"
+      ]
+    },
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-supervisor.png",
+    "segundos": 1.7,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-tablero-administrativo",
+    "titulo": "Tablero interactivo y comparación por rol",
+    "rol": "administrativo",
+    "cu": [
+      12,
+      21,
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:57:07.748997+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Periodo académico, fechas bloqueadas, filtros, cuatro gráficos/tablas, clic de sector y punto a histórico; comparación por tres dimensiones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-administrativo.png",
+    "segundos": 4.67,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-mapa-administrativo",
+    "titulo": "Cartografía observada y proyectada por rol",
+    "rol": "administrativo",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:57:12.417227+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Mapa observado filtrado a un punto; calor, marcadores/popup; capa proyectada por sector con margen",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-administrativo.png",
+    "segundos": 1.78,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-prediccion-administrativo",
+    "titulo": "Inferencia y consulta de recomendaciones por rol",
+    "rol": "administrativo",
+    "cu": [
+      28,
+      29
+    ],
+    "inicio_utc": "2026-11-19T04:57:14.194280+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Horizontes 0/31 bloqueados, límite 1 generado y persistido; consulta recomendaciones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-administrativo.png",
+    "segundos": 2.89,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-reporte-administrativo",
+    "titulo": "Reporte proyectado no vacío y descargas por rol",
+    "rol": "administrativo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:57:17.096015+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "BIBLIO-P1",
+          "Punto 1 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "171,04",
+          "16,8",
+          "34,21",
+          "v3"
+        ],
+        [
+          "BIBLIO-P2",
+          "Punto 2 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "210,21",
+          "16,8",
+          "42,04",
+          "v3"
+        ],
+        [
+          "BIBLIO-P3",
+          "Punto 3 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "202,71",
+          "15,34",
+          "40,54",
+          "v3"
+        ],
+        [
+          "FCEE-P1",
+          "Punto 1 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "582,32",
+          "16,8",
+          "116,46",
+          "v3"
+        ],
+        [
+          "FCEE-P2",
+          "Punto 2 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "236,8",
+          "16,8",
+          "47,36",
+          "v3"
+        ],
+        [
+          "FCEE-P3",
+          "Punto 3 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "302,71",
+          "16,8",
+          "60,54",
+          "v3"
+        ],
+        [
+          "FCET-P1",
+          "Punto 1 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "229,37",
+          "15,34",
+          "45,87",
+          "v3"
+        ],
+        [
+          "FCET-P2",
+          "Punto 2 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "227,5",
+          "16,8",
+          "45,5",
+          "v3"
+        ],
+        [
+          "FCET-P3",
+          "Punto 3 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "218,65",
+          "16,8",
+          "43,73",
+          "v3"
+        ],
+        [
+          "FICCT-P1",
+          "Punto 1 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "32,09",
+          "7,51",
+          "32,09",
+          "v3"
+        ],
+        [
+          "FICCT-P2",
+          "Punto 2 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "36,67",
+          "7,51",
+          "36,67",
+          "v3"
+        ],
+        [
+          "FICCT-P3",
+          "Punto 3 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "42,92",
+          "7,51",
+          "42,92",
+          "v3"
+        ]
+      ],
+      "archivos": [
+        "descargas\\proyectado-administrativo-20261119-005651.xlsx",
+        "descargas\\proyectado-administrativo-20261119-005651.pdf"
+      ]
+    },
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-administrativo.png",
+    "segundos": 1.78,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-resolver-administrativo",
+    "titulo": "Administrador resuelve recomendación autorizada",
+    "rol": "administrativo",
+    "cu": [
+      30
+    ],
+    "inicio_utc": "2026-11-19T04:57:18.875784+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_role(\"button\", name=\"Aceptar\", exact=True).first\n",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-resolver-administrativo.png",
+    "segundos": 5.39,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-tablero-directivo",
+    "titulo": "Tablero interactivo y comparación por rol",
+    "rol": "directivo",
+    "cu": [
+      12,
+      21,
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:57:26.830544+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Periodo académico, fechas bloqueadas, filtros, cuatro gráficos/tablas, clic de sector y punto a histórico; comparación por tres dimensiones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-directivo.png",
+    "segundos": 4.59,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-mapa-directivo",
+    "titulo": "Cartografía observada y proyectada por rol",
+    "rol": "directivo",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:57:31.419397+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Mapa observado filtrado a un punto; calor, marcadores/popup; capa proyectada por sector con margen",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-directivo.png",
+    "segundos": 1.8,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-prediccion-directivo",
+    "titulo": "Inferencia y consulta de recomendaciones por rol",
+    "rol": "directivo",
+    "cu": [
+      28,
+      29
+    ],
+    "inicio_utc": "2026-11-19T04:57:33.213582+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Horizontes 0/31 bloqueados, límite 1 generado y persistido; consulta recomendaciones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-directivo.png",
+    "segundos": 2.97,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "CR-reporte-directivo",
+    "titulo": "Reporte proyectado no vacío y descargas por rol",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:57:36.193084+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "BIBLIO-P1",
+          "Punto 1 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "171,04",
+          "16,8",
+          "34,21",
+          "v3"
+        ],
+        [
+          "BIBLIO-P2",
+          "Punto 2 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "210,21",
+          "16,8",
+          "42,04",
+          "v3"
+        ],
+        [
+          "BIBLIO-P3",
+          "Punto 3 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "202,71",
+          "15,34",
+          "40,54",
+          "v3"
+        ],
+        [
+          "FCEE-P1",
+          "Punto 1 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "582,32",
+          "16,8",
+          "116,46",
+          "v3"
+        ],
+        [
+          "FCEE-P2",
+          "Punto 2 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "236,8",
+          "16,8",
+          "47,36",
+          "v3"
+        ],
+        [
+          "FCEE-P3",
+          "Punto 3 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "302,71",
+          "16,8",
+          "60,54",
+          "v3"
+        ],
+        [
+          "FCET-P1",
+          "Punto 1 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "229,37",
+          "15,34",
+          "45,87",
+          "v3"
+        ],
+        [
+          "FCET-P2",
+          "Punto 2 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "227,5",
+          "16,8",
+          "45,5",
+          "v3"
+        ],
+        [
+          "FCET-P3",
+          "Punto 3 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "218,65",
+          "16,8",
+          "43,73",
+          "v3"
+        ],
+        [
+          "FICCT-P1",
+          "Punto 1 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "32,09",
+          "7,51",
+          "32,09",
+          "v3"
+        ],
+        [
+          "FICCT-P2",
+          "Punto 2 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "36,67",
+          "7,51",
+          "36,67",
+          "v3"
+        ],
+        [
+          "FICCT-P3",
+          "Punto 3 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "42,92",
+          "7,51",
+          "42,92",
+          "v3"
+        ]
+      ],
+      "archivos": [
+        "descargas\\proyectado-directivo-20261119-005651.xlsx",
+        "descargas\\proyectado-directivo-20261119-005651.pdf"
+      ]
+    },
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-directivo.png",
+    "segundos": 1.58,
+    "ejecucion": "crossrole-20261119-005651.json"
+  },
+  {
+    "id": "FINAL-plan-admin",
+    "titulo": "Planificación y asignación por Administrador",
+    "rol": "administrativo",
+    "cu": [
+      14,
+      15
+    ],
+    "inicio_utc": "2026-11-19T05:06:09.523176+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Administrador planifica, asigna y confirma; no puede abrir ni registrar campo",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-plan-admin.png",
+    "segundos": 3.22,
+    "ejecucion": "final_checks-20261119-010606.json"
+  },
+  {
+    "id": "FINAL-fecha",
+    "titulo": "Apertura futura rechazada",
+    "rol": "operario1",
+    "cu": [
+      16
+    ],
+    "inicio_utc": "2026-11-19T05:06:14.892489+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-fecha.png",
+    "segundos": 0.91,
+    "ejecucion": "final_checks-20261119-010606.json"
+  },
+  {
+    "id": "FINAL-responsive-1440",
+    "titulo": "Interacciones a 1440 px",
+    "rol": "administrativo",
+    "cu": [
+      3,
+      19
+    ],
+    "inicio_utc": "2026-11-19T05:06:17.863474+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Menú, navegación, formulario, cancelar, paginación; sin desborde de página",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-1440.png",
+    "segundos": 2.59,
+    "ejecucion": "final_checks-20261119-010606.json"
+  },
+  {
+    "id": "FINAL-responsive-820",
+    "titulo": "Interacciones a 820 px",
+    "rol": "administrativo",
+    "cu": [
+      3,
+      19
+    ],
+    "inicio_utc": "2026-11-19T05:06:22.650361+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Menú, navegación, formulario, cancelar, paginación; sin desborde de página",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-820.png",
+    "segundos": 3.05,
+    "ejecucion": "final_checks-20261119-010606.json"
+  },
+  {
+    "id": "FINAL-responsive-390",
+    "titulo": "Interacciones a 390 px",
+    "rol": "administrativo",
+    "cu": [
+      3,
+      19
+    ],
+    "inicio_utc": "2026-11-19T05:06:27.843115+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Menú, navegación, formulario, cancelar, paginación; sin desborde de página",
+    "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-390.png",
+    "segundos": 3.11,
+    "ejecucion": "final_checks-20261119-010606.json"
+  }
+]

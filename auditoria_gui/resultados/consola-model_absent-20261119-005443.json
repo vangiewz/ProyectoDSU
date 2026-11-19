@@ -1,0 +1,26 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-sin-modelo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/predicciones/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-sin-modelo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  }
+]

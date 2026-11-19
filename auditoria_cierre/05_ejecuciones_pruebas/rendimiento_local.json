@@ -1,0 +1,21 @@
+{
+  "inicio_utc": "2026-11-19T03:54:48.282209+00:00",
+  "fin_utc": "2026-11-19T03:55:54.173031+00:00",
+  "exit_code": 0,
+  "antes": {
+    "operations_registroresiduo": 15650,
+    "operations_jornada": 1052,
+    "campus_puntorecoleccion": 18,
+    "audit_auditlog": 220,
+    "prediction_modeloentrenado": 6
+  },
+  "despues": {
+    "operations_registroresiduo": 15650,
+    "operations_jornada": 1052,
+    "campus_puntorecoleccion": 18,
+    "audit_auditlog": 220,
+    "prediction_modeloentrenado": 6
+  },
+  "rollback_verificado": true,
+  "entorno": "Windows PostgreSQL 18 loopback; API en el mismo proceso, sin latencia de red productiva"
+}

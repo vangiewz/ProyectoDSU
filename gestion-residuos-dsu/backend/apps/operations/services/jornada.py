@@ -6,6 +6,7 @@ from rest_framework.exceptions import PermissionDenied, ValidationError
 from apps.accounts.models import Rol
 from apps.audit.models import AuditLog
 from apps.audit.services import registrar
+from config.concurrencia import bloquear_proceso
 
 from ..models import Jornada, Vehiculo
 
@@ -38,6 +39,8 @@ def _transicion(request, jornada, nuevo_estado, **campos):
 @transaction.atomic
 def asignar(request, jornada, personal, vehiculos, responsable):
     """RF13: asigna personal y vehículos validando superposición en el mismo turno."""
+    bloquear_proceso(3)  # Recursos compartidos por jornadas de distintos sectores y workers.
+    jornada = Jornada.objects.select_for_update().get(pk=jornada.pk)
     exigir_estado(jornada, E.PLANIFICADA, E.CONFIRMADA)
     if responsable is None:
         raise ValidationError({"responsable": "Debe designar un responsable de la jornada."})

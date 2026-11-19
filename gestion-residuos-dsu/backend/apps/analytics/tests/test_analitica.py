@@ -59,6 +59,41 @@ def test_etl_no_permite_ejecuciones_simultaneas(datos):
     assert etl.iniciar() is None
 
 
+def test_etl_detecta_reenvio_en_tanda_posterior(datos):
+    correr_etl()
+    original = RegistroResiduo.objects.filter(punto=datos["p1"]).first()
+    RegistroResiduo.objects.create(
+        jornada=original.jornada,
+        punto=original.punto,
+        tipo_residuo=original.tipo_residuo,
+        unidad=original.unidad,
+        cantidad=original.cantidad,
+        fecha_hora=original.fecha_hora,
+        registrado_por=original.registrado_por,
+    )
+    ejecucion = correr_etl()
+    assert ejecucion.duplicados == 1
+    assert HechoResiduo.objects.count() == 2
+
+
+def test_etl_convierte_cantidades_sin_error_binario(datos):
+    original = RegistroResiduo.objects.filter(punto=datos["p1"]).first()
+    unidad = UnidadMedida.objects.create(
+        nombre="Unidad de peso QA", simbolo="qa", magnitud="PESO", factor_conversion=Decimal("0.7")
+    )
+    nuevo = RegistroResiduo.objects.create(
+        jornada=original.jornada,
+        punto=original.punto,
+        tipo_residuo=original.tipo_residuo,
+        unidad=unidad,
+        cantidad=Decimal("0.005"),
+        fecha_hora=original.fecha_hora,
+        registrado_por=original.registrado_por,
+    )
+    correr_etl()
+    assert HechoResiduo.objects.get(registro=nuevo).cantidad_base == Decimal("0.004")
+
+
 def test_indicadores_exigen_etl_y_calculan_kpis(usuarios, datos, cliente):
     sup = cliente(usuarios["supervisor"])
     q = {"desde": "2026-09-01", "hasta": "2026-09-30"}

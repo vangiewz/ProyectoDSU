@@ -1,0 +1,1963 @@
+[
+  {
+    "id": "ETL-1",
+    "titulo": "ETL desde UI y reintento incremental",
+    "rol": "administrativo",
+    "cu": [
+      20
+    ],
+    "inicio_utc": "2026-11-19T04:47:54.306229+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Ejecución 1: 19 nov 2026 · 00:47\tSin registros nuevos\t0\t0\t0\t0.1 s\tAdministración QA\tNo hay registros nuevos desde la última ejecución.",
+    "evidencia": "capturas\\analytics-20261119-004751-ETL-1.png",
+    "segundos": 4.09
+  },
+  {
+    "id": "ETL-2",
+    "titulo": "ETL desde UI y reintento incremental",
+    "rol": "administrativo",
+    "cu": [
+      20
+    ],
+    "inicio_utc": "2026-11-19T04:47:58.397939+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to contain text 'Sin cambios'\nActual value: 19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución. \nCall log:\nLocatorAssertions.to_contain_text with timeout 20000ms\n  - waiting for locator(\"tbody tr\").first\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suave last:border-0\">…</tr>\n  -   unexpected value \"19 nov 2026 · 00:47Sin registros nuevos0000.1 sAdministración QANo hay registros nuevos desde la última ejecución.\"\n  -   locator resolved to <tr class=\"border-b border-filete-suav",
+    "evidencia": "capturas\\analytics-20261119-004751-ETL-2.png",
+    "segundos": 23.69
+  },
+  {
+    "id": "A-tablero",
+    "titulo": "Indicadores y filtros del directivo",
+    "rol": "directivo",
+    "cu": [
+      21
+    ],
+    "inicio_utc": "2026-11-19T04:48:27.021074+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Indicadores con combinación fecha/sector/tipo y restablecimiento",
+    "evidencia": "capturas\\analytics-20261119-004751-A-tablero.png",
+    "segundos": 2.27
+  },
+  {
+    "id": "A-comparar",
+    "titulo": "Comparación y tendencias",
+    "rol": "directivo",
+    "cu": [
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:48:29.301161+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Comparación septiembre/octubre: sector, punto y tipo con tablas no vacías",
+    "evidencia": "capturas\\analytics-20261119-004751-A-comparar.png",
+    "segundos": 1.22
+  },
+  {
+    "id": "A-powerbi",
+    "titulo": "Power BI sin configuración responde correctamente",
+    "rol": "directivo",
+    "cu": [
+      21
+    ],
+    "inicio_utc": "2026-11-19T04:48:30.531204+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Ausencia de configuración informada; informe remoto no comprobado",
+    "evidencia": "capturas\\analytics-20261119-004751-A-powerbi.png",
+    "segundos": 0.61
+  },
+  {
+    "id": "A-mapa",
+    "titulo": "Mapa interactivo observado",
+    "rol": "directivo",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:48:31.144665+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Marcadores, popup, mapa de calor, filtros combinados y restablecimiento",
+    "evidencia": "capturas\\analytics-20261119-004751-A-mapa.png",
+    "segundos": 2.77
+  },
+  {
+    "id": "REP-Generaci-n-por-sector",
+    "titulo": "Vista y descarga Excel/PDF: Generación por sector",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:33.924845+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "Facultad de Ciencias Económicas y Empresariales",
+          "7.763,82",
+          "0",
+          "527",
+          "3"
+        ],
+        [
+          "Facultad de Ciencias Exactas y Tecnología",
+          "4.443,17",
+          "0",
+          "508",
+          "3"
+        ],
+        [
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "4.342,11",
+          "0",
+          "529",
+          "3"
+        ],
+        [
+          "Biblioteca central y áreas comunes",
+          "3.855,08",
+          "0",
+          "520",
+          "3"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Generaci-n-por-sector-20261119-004751.xlsx",
+        "descargas\\Generaci-n-por-sector-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-por-sector.png",
+    "segundos": 2.06
+  },
+  {
+    "id": "REP-Generaci-n-por-tipo-de-residuo",
+    "titulo": "Vista y descarga Excel/PDF: Generación por tipo de residuo",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:36.000570+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "Orgánico",
+          "7.862,58",
+          "0",
+          "411",
+          "12"
+        ],
+        [
+          "Papel y cartón",
+          "4.160,48",
+          "0",
+          "411",
+          "12"
+        ],
+        [
+          "Residuo común",
+          "3.943,14",
+          "0",
+          "407",
+          "12"
+        ],
+        [
+          "Plástico PET",
+          "3.347,2",
+          "0",
+          "407",
+          "12"
+        ],
+        [
+          "Vidrio",
+          "1.049,78",
+          "0",
+          "407",
+          "12"
+        ],
+        [
+          "Residuo peligroso",
+          "41",
+          "0",
+          "41",
+          "11"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Generaci-n-por-tipo-de-residuo-20261119-004751.xlsx",
+        "descargas\\Generaci-n-por-tipo-de-residuo-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-por-tipo-de-residuo.png",
+    "segundos": 2.05
+  },
+  {
+    "id": "REP-Cumplimiento-de-jornadas",
+    "titulo": "Vista y descarga Excel/PDF: Cumplimiento de jornadas",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:38.047780+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "01 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "01 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "01 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "01 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "02 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "06 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "07 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "07 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "07 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "07 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "08 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "08 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "08 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "08 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "12 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "14 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "14 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "14 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "14 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "15 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "15 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "15 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "15 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "19 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "19 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "19 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "19 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "20 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "20 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "20 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "20 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "21 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "21 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "21 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "21 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "22 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "22 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "22 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "22 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "23 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "23 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "23 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "23 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "26 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "26 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "26 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "26 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "27 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "27 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "27 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "27 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "28 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "28 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "28 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "28 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "29 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "29 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "29 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "29 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "30 oct 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "30 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "30 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "30 oct 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "02 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "03 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "03 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "03 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "03 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "04 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "04 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "04 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "04 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "05 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "06 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "09 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "10 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "10 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "10 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "10 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "11 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "11 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "11 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "11 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "12 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "13 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "16 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "17 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "17 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "17 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "17 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "18 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "18 nov 2026",
+          "Mañana",
+          "Biblioteca central y áreas comunes",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "18 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "18 nov 2026",
+          "Mañana",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "3",
+          "0",
+          "100"
+        ],
+        [
+          "19 nov 2026",
+          "Noche",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "19 nov 2026",
+          "Noche",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "19 nov 2026",
+          "Tarde",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Óscar Operario",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ],
+        [
+          "19 nov 2026",
+          "Tarde",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Olga Operaria",
+          "Cerrada",
+          "3",
+          "2",
+          "1",
+          "66,7"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Cumplimiento-de-jornadas-20261119-004751.xlsx",
+        "descargas\\Cumplimiento-de-jornadas-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Cumplimiento-de-jornadas.png",
+    "segundos": 3.58
+  },
+  {
+    "id": "REP-Incidencias-registradas",
+    "titulo": "Vista y descarga Excel/PDF: Incidencias registradas",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:41.633451+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "19/11/2026 00:40",
+          "FICCT-P1",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Desborde",
+          "Alta",
+          "Atendida",
+          "Óscar Operario",
+          "Resuelto GUI operario1 20261119-004037"
+        ],
+        [
+          "19/11/2026 00:41",
+          "FCET-P1",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Desborde",
+          "Alta",
+          "Atendida",
+          "Olga Operaria",
+          "Resuelto GUI operario2 20261119-004037"
+        ],
+        [
+          "19/11/2026 00:43",
+          "FICCT-P1",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "Desborde",
+          "Alta",
+          "Atendida",
+          "Óscar Operario",
+          "Resuelto GUI operario1 20261119-004328"
+        ],
+        [
+          "19/11/2026 00:44",
+          "FCET-P1",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "Desborde",
+          "Alta",
+          "Atendida",
+          "Olga Operaria",
+          "Resuelto GUI operario2 20261119-004328"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Incidencias-registradas-20261119-004751.xlsx",
+        "descargas\\Incidencias-registradas-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Incidencias-registradas.png",
+    "segundos": 2.09
+  },
+  {
+    "id": "REP-Indicadores-del-periodo",
+    "titulo": "Vista y descarga Excel/PDF: Indicadores del periodo",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:43.740785+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "Total recolectado (kg)",
+          "20.404,18"
+        ],
+        [
+          "Total recolectado (L)",
+          "0"
+        ],
+        [
+          "Variación respecto del periodo anterior (%)",
+          "-2,5"
+        ],
+        [
+          "Generación promedio por punto (kg)",
+          "1.700,35"
+        ],
+        [
+          "Generación promedio por sector (kg)",
+          "5.101,04"
+        ],
+        [
+          "Sector de mayor generación",
+          "Facultad de Ciencias Económicas y Empresariales (7.763,82 kg)"
+        ],
+        [
+          "Tipo de residuo predominante",
+          "Orgánico"
+        ],
+        [
+          "Recolecciones realizadas (jornadas cerradas)",
+          "144"
+        ],
+        [
+          "Frecuencia de atención por punto (veces/semana)",
+          "4,15"
+        ],
+        [
+          "Cobertura de las jornadas (%)",
+          "96,1"
+        ],
+        [
+          "Puntos críticos (> 20,00 kg/día)",
+          "12"
+        ]
+      ],
+      "archivos": [
+        "descargas\\Indicadores-del-periodo-20261119-004751.xlsx",
+        "descargas\\Indicadores-del-periodo-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Indicadores-del-periodo.png",
+    "segundos": 2.03
+  },
+  {
+    "id": "REP-Generaci-n-proyectada",
+    "titulo": "Vista y descarga Excel/PDF: Generación proyectada",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:48:45.789604+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [],
+      "archivos": [
+        "descargas\\Generaci-n-proyectada-20261119-004751.xlsx",
+        "descargas\\Generaci-n-proyectada-20261119-004751.pdf"
+      ],
+      "limite": "Correspondencia de celdas se verifica por separado sobre los archivos descargados"
+    },
+    "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-proyectada.png",
+    "segundos": 2.0
+  }
+]

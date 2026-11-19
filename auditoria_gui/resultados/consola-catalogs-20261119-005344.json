@@ -1,0 +1,134 @@
+[
+  {
+    "rol": "supervisor",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/vehiculos/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-vehiculo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Desactivar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Activar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-punto",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/puntos/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-punto",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-contenedor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-contenedor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/contenedores/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CRUD-contenedor",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "DUP-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Nuevo\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "DUP-vehiculo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/vehiculos/"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "DUP-vehiculo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  }
+]

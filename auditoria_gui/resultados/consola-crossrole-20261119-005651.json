@@ -1,0 +1,482 @@
+[
+  {
+    "rol": "supervisor",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Restablecer filtros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"FCEE4.596,16\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Restablecer filtros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"FCEE-P12.411,96\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-tablero-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Comparar periodos\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-mapa-supervisor",
+    "tipo": "warning",
+    "mensaje": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-mapa-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Marcadores\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-mapa-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Mapa de calor\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-mapa-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Proyectada\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-mapa-supervisor",
+    "tipo": "warning",
+    "mensaje": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-mapa-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Marcadores\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-prediccion-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-prediccion-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-prediccion-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-prediccion-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/recomendaciones\",\"texto\":\"Todas\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-reporte-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Generación proyectadaPredicción vigente por punto, con su margen de error.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-reporte-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "supervisor",
+    "caso": "CR-reporte-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-reporte-supervisor",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Restablecer filtros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"FCEE4.596,16\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Restablecer filtros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"FCEE-P12.411,96\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-tablero-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Comparar periodos\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-mapa-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Marcadores\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-mapa-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Mapa de calor\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-mapa-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Proyectada\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-mapa-administrativo",
+    "tipo": "warning",
+    "mensaje": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-mapa-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Marcadores\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-prediccion-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-prediccion-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-prediccion-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-prediccion-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/recomendaciones\",\"texto\":\"Todas\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-reporte-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Generación proyectadaPredicción vigente por punto, con su margen de error.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-reporte-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "CR-reporte-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-resolver-administrativo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver tabla\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Ver gráfico\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Restablecer filtros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"FCEE4.596,16\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Restablecer filtros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"FCEE-P12.411,96\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-tablero-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tablero\",\"texto\":\"Comparar periodos\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-mapa-directivo",
+    "tipo": "warning",
+    "mensaje": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-mapa-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Marcadores\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-mapa-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Mapa de calor\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-mapa-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Proyectada\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-mapa-directivo",
+    "tipo": "warning",
+    "mensaje": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-mapa-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/mapa\",\"texto\":\"Marcadores\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-prediccion-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-prediccion-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-prediccion-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/predicciones\",\"texto\":\"Generar predicción\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-prediccion-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/recomendaciones\",\"texto\":\"Todas\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-reporte-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Generación proyectadaPredicción vigente por punto, con su margen de error.\",\"tipo\":\"radio\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-reporte-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Excel\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "CR-reporte-directivo",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"PDF\",\"tipo\":\"BUTTON\"}"
+  }
+]

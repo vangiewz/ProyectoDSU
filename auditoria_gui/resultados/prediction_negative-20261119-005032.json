@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ML-sin-modelo",
+    "titulo": "Inferencia sin modelo disponible",
+    "rol": "administrativo",
+    "cu": [
+      28
+    ],
+    "inicio_utc": "2026-11-19T04:50:35.420632+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_text(\"modelo vigente\").first\n",
+    "evidencia": "capturas\\prediction_negative-20261119-005032-ML-sin-modelo.png",
+    "segundos": 5.91
+  },
+  {
+    "id": "ML-rechazo-999999",
+    "titulo": "Modelo rechazado con Registros mínimos para entrenar",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:50:41.323316+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazo comprobado; parámetro original restituido por UI",
+    "evidencia": "capturas\\prediction_negative-20261119-005032-ML-rechazo-999999.png",
+    "segundos": 3.02
+  },
+  {
+    "id": "ML-rechazo-1",
+    "titulo": "Modelo rechazado con R² mínimo para publicar",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:50:44.339383+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Rechazo comprobado; parámetro original restituido por UI",
+    "evidencia": "capturas\\prediction_negative-20261119-005032-ML-rechazo-1.png",
+    "segundos": 5.97
+  },
+  {
+    "id": "ML-hiper-limites",
+    "titulo": "Hiperparámetros fuera de rango",
+    "rol": "administrativo",
+    "cu": [
+      26
+    ],
+    "inicio_utc": "2026-11-19T04:50:50.305252+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Límites n_estimators 9/501 bloqueados por validación nativa (rango 10..500)",
+    "evidencia": "capturas\\prediction_negative-20261119-005032-ML-hiper-limites.png",
+    "segundos": 1.48
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "inicio_utc": "2026-11-19T03:43:05.424172+00:00",
+  "fin_utc": "2026-11-19T03:43:16.317929+00:00",
+  "commit": "2af03120920bacc397351bdff527b1f4adb12204",
+  "cambios_locales": true,
+  "entorno": "Windows PostgreSQL 18 aislado en loopback",
+  "exit_code": 1,
+  "comando": "python auditoria_cierre/ejecutar_aislado.py apps/analytics/tests/test_analitica.py::test_etl_convierte_cantidades_sin_error_binario",
+  "datos": "Fixtures sint\u00e9ticas; no Neon"
+}

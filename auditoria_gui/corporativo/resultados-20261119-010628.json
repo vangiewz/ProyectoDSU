@@ -1,0 +1,2270 @@
+[
+  {
+    "id": "contacto-html-1440",
+    "inicio_utc": "2026-11-19T05:06:30.002945+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "contacto.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-contacto-html-1440.png"
+  },
+  {
+    "id": "index-html-1440",
+    "inicio_utc": "2026-11-19T05:06:30.654217+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "index.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Ver planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Comparar planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Hablar con el equipo",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Preguntar al asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-index-html-1440.png"
+  },
+  {
+    "id": "marketing-index-html-1440",
+    "inicio_utc": "2026-11-19T05:06:33.331728+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "marketing/index.html",
+      "ancho": 1440,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-marketing-index-html-1440.png"
+  },
+  {
+    "id": "novedades-html-1440",
+    "inicio_utc": "2026-11-19T05:06:34.909491+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "novedades.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-novedades-html-1440.png"
+  },
+  {
+    "id": "pitch-index-html-1440",
+    "inicio_utc": "2026-11-19T05:06:35.410298+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "pitch/index.html",
+      "ancho": 1440,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-pitch-index-html-1440.png"
+  },
+  {
+    "id": "planes-html-1440",
+    "inicio_utc": "2026-11-19T05:06:37.902302+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "planes.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Solicitar demostración",
+          "href": "contacto.html?plan=campus"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-planes-html-1440.png"
+  },
+  {
+    "id": "privacidad-html-1440",
+    "inicio_utc": "2026-11-19T05:06:39.173277+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "privacidad.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-privacidad-html-1440.png"
+  },
+  {
+    "id": "soporte-html-1440",
+    "inicio_utc": "2026-11-19T05:06:39.664432+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "soporte.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Abrir el asistente",
+          "href": "#"
+        },
+        {
+          "texto": "Escribir al correo",
+          "href": "mailto:rekteado@gmail.com?subject=Soporte%20Residata"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-soporte-html-1440.png"
+  },
+  {
+    "id": "terminos-html-1440",
+    "inicio_utc": "2026-11-19T05:06:40.838431+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "terminos.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-terminos-html-1440.png"
+  },
+  {
+    "id": "contacto-validacion-error-1440",
+    "inicio_utc": "2026-11-19T05:06:41.349532+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": "Preselección Campus, vacíos rechazados y error de envío controlado; petición externa abortada, sin correo real",
+    "evidencia": "20261119-010628-contacto-validacion-error-1440.png"
+  },
+  {
+    "id": "calendario-1440",
+    "inicio_utc": "2026-11-19T05:06:42.556828+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "inicio": "Semana del 05/01/2026: 1 049 kg, Receso de verano",
+      "fin": "Semana del 20/10/2026: aproximadamente 2 896 kg, Pronóstico del modelo v2 · semana 20–26 oct",
+      "control": "Teclado en deslizador de calendario"
+    },
+    "evidencia": "20261119-010628-calendario-1440.png"
+  },
+  {
+    "id": "contacto-html-820",
+    "inicio_utc": "2026-11-19T05:06:44.003163+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "contacto.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-contacto-html-820.png"
+  },
+  {
+    "id": "index-html-820",
+    "inicio_utc": "2026-11-19T05:06:44.555141+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "index.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Ver planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Comparar planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Hablar con el equipo",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Preguntar al asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-index-html-820.png"
+  },
+  {
+    "id": "marketing-index-html-820",
+    "inicio_utc": "2026-11-19T05:06:47.121688+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "marketing/index.html",
+      "ancho": 820,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-marketing-index-html-820.png"
+  },
+  {
+    "id": "novedades-html-820",
+    "inicio_utc": "2026-11-19T05:06:48.370598+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "novedades.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-novedades-html-820.png"
+  },
+  {
+    "id": "pitch-index-html-820",
+    "inicio_utc": "2026-11-19T05:06:48.865394+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "pitch/index.html",
+      "ancho": 820,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-pitch-index-html-820.png"
+  },
+  {
+    "id": "planes-html-820",
+    "inicio_utc": "2026-11-19T05:06:50.924874+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "planes.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Solicitar demostración",
+          "href": "contacto.html?plan=campus"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-planes-html-820.png"
+  },
+  {
+    "id": "privacidad-html-820",
+    "inicio_utc": "2026-11-19T05:06:52.148401+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "privacidad.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-privacidad-html-820.png"
+  },
+  {
+    "id": "soporte-html-820",
+    "inicio_utc": "2026-11-19T05:06:52.607654+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "soporte.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Abrir el asistente",
+          "href": "#"
+        },
+        {
+          "texto": "Escribir al correo",
+          "href": "mailto:rekteado@gmail.com?subject=Soporte%20Residata"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-soporte-html-820.png"
+  },
+  {
+    "id": "terminos-html-820",
+    "inicio_utc": "2026-11-19T05:06:53.765442+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "terminos.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-terminos-html-820.png"
+  },
+  {
+    "id": "contacto-validacion-error-820",
+    "inicio_utc": "2026-11-19T05:06:54.273835+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": "Preselección Campus, vacíos rechazados y error de envío controlado; petición externa abortada, sin correo real",
+    "evidencia": "20261119-010628-contacto-validacion-error-820.png"
+  },
+  {
+    "id": "calendario-820",
+    "inicio_utc": "2026-11-19T05:06:55.462757+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "inicio": "Semana del 05/01/2026: 1 049 kg, Receso de verano",
+      "fin": "Semana del 20/10/2026: aproximadamente 2 896 kg, Pronóstico del modelo v2 · semana 20–26 oct",
+      "control": "Teclado en deslizador de calendario"
+    },
+    "evidencia": "20261119-010628-calendario-820.png"
+  },
+  {
+    "id": "contacto-html-390",
+    "inicio_utc": "2026-11-19T05:06:56.735270+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "contacto.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-contacto-html-390.png"
+  },
+  {
+    "id": "index-html-390",
+    "inicio_utc": "2026-11-19T05:06:57.519792+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "index.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Ver planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Comparar planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Hablar con el equipo",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Preguntar al asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-index-html-390.png"
+  },
+  {
+    "id": "marketing-index-html-390",
+    "inicio_utc": "2026-11-19T05:07:00.261106+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "marketing/index.html",
+      "ancho": 390,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-marketing-index-html-390.png"
+  },
+  {
+    "id": "novedades-html-390",
+    "inicio_utc": "2026-11-19T05:07:01.313945+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "novedades.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-novedades-html-390.png"
+  },
+  {
+    "id": "pitch-index-html-390",
+    "inicio_utc": "2026-11-19T05:07:02.021174+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "pitch/index.html",
+      "ancho": 390,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-pitch-index-html-390.png"
+  },
+  {
+    "id": "planes-html-390",
+    "inicio_utc": "2026-11-19T05:07:04.362483+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "planes.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Solicitar demostración",
+          "href": "contacto.html?plan=campus"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-planes-html-390.png"
+  },
+  {
+    "id": "privacidad-html-390",
+    "inicio_utc": "2026-11-19T05:07:05.863994+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "privacidad.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-privacidad-html-390.png"
+  },
+  {
+    "id": "soporte-html-390",
+    "inicio_utc": "2026-11-19T05:07:06.544648+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "soporte.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Abrir el asistente",
+          "href": "#"
+        },
+        {
+          "texto": "Escribir al correo",
+          "href": "mailto:rekteado@gmail.com?subject=Soporte%20Residata"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-soporte-html-390.png"
+  },
+  {
+    "id": "terminos-html-390",
+    "inicio_utc": "2026-11-19T05:07:07.890656+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "terminos.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010628-terminos-html-390.png"
+  },
+  {
+    "id": "contacto-validacion-error-390",
+    "inicio_utc": "2026-11-19T05:07:08.609970+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": "Preselección Campus, vacíos rechazados y error de envío controlado; petición externa abortada, sin correo real",
+    "evidencia": "20261119-010628-contacto-validacion-error-390.png"
+  },
+  {
+    "id": "calendario-390",
+    "inicio_utc": "2026-11-19T05:07:09.748494+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "inicio": "Semana del 05/01/2026: 1 049 kg, Receso de verano",
+      "fin": "Semana del 20/10/2026: aproximadamente 2 896 kg, Pronóstico del modelo v2 · semana 20–26 oct",
+      "control": "Teclado en deslizador de calendario"
+    },
+    "evidencia": "20261119-010628-calendario-390.png"
+  }
+]

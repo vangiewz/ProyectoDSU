@@ -1,0 +1,44 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-concurrencia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/modelo\",\"texto\":\"Entrenar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-concurrencia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/modelo\",\"texto\":\"Entrenar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 409,
+    "ruta": "/api/modelos/entrenar/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-concurrencia",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 409 (Conflict)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ML-concurrencia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/modelo\",\"texto\":\"Publicar esta versión\",\"tipo\":\"BUTTON\"}"
+  }
+]

@@ -1,0 +1,3 @@
+...............                                                          [100%]
+- generated xml file: C:\Users\usuario\Downloads\dsu\ProyectoDSU\auditoria_cierre\05_ejecuciones_pruebas\gui-regresion.xml -
+15 passed in 48.20s

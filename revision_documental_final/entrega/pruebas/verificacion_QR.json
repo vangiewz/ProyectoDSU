@@ -1,0 +1,52 @@
+[
+  {
+    "pagina": 1,
+    "destino": "https://github.com/vangiewz/ProyectoDSU",
+    "http": 404,
+    "url_final": null,
+    "decodificado_desde_imagen_embebida_pdf": true,
+    "limite": "HTTP no acredita autorización ni acceso efectivo al contenido privado. No se verificó impresión física.",
+    "http_decodificador_anterior": "URLError",
+    "cliente_HTTP": "Python 3.13 urllib; sin autenticación"
+  },
+  {
+    "pagina": 1,
+    "destino": "https://drive.google.com/drive/folders/1GtrE_rtlimZ3zcj4aZsuvZf6RaErTHqg?usp=sharing",
+    "http": 200,
+    "url_final": "https://drive.google.com/drive/folders/1GtrE_rtlimZ3zcj4aZsuvZf6RaErTHqg?usp=sharing",
+    "decodificado_desde_imagen_embebida_pdf": true,
+    "limite": "HTTP no acredita autorización ni acceso efectivo al contenido privado. No se verificó impresión física.",
+    "http_decodificador_anterior": 200,
+    "cliente_HTTP": "Python 3.13 urllib; sin autenticación"
+  },
+  {
+    "pagina": 262,
+    "destino": "https://residata-bolivia.vercel.app/",
+    "http": 200,
+    "url_final": "https://residata-bolivia.vercel.app/",
+    "decodificado_desde_imagen_embebida_pdf": true,
+    "limite": "HTTP no acredita autorización ni acceso efectivo al contenido privado. No se verificó impresión física.",
+    "http_decodificador_anterior": 200,
+    "cliente_HTTP": "Python 3.13 urllib; sin autenticación"
+  },
+  {
+    "pagina": 332,
+    "destino": "https://residata-bolivia.vercel.app/pitch/Residata_pitch.pdf",
+    "http": 200,
+    "url_final": "https://residata-bolivia.vercel.app/pitch/Residata_pitch.pdf",
+    "decodificado_desde_imagen_embebida_pdf": true,
+    "limite": "HTTP no acredita autorización ni acceso efectivo al contenido privado. No se verificó impresión física.",
+    "http_decodificador_anterior": 200,
+    "cliente_HTTP": "Python 3.13 urllib; sin autenticación"
+  },
+  {
+    "pagina": 340,
+    "destino": "https://dsu-uagrm.vercel.app/",
+    "http": 200,
+    "url_final": "https://dsu-uagrm.vercel.app/",
+    "decodificado_desde_imagen_embebida_pdf": true,
+    "limite": "HTTP no acredita autorización ni acceso efectivo al contenido privado. No se verificó impresión física.",
+    "http_decodificador_anterior": 200,
+    "cliente_HTTP": "Python 3.13 urllib; sin autenticación"
+  }
+]

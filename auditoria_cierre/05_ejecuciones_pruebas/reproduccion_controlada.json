@@ -1,0 +1,10 @@
+{
+  "inicio_utc": "2026-11-19T03:15:28.411799+00:00",
+  "fin_utc": "2026-11-19T03:15:47.766476+00:00",
+  "commit": "2af03120920bacc397351bdff527b1f4adb12204",
+  "cambios_locales": true,
+  "entorno": "Windows PostgreSQL 18 aislado en loopback",
+  "exit_code": 1,
+  "comando": "python auditoria_cierre/ejecutar_aislado.py apps/operations/tests/test_integridad_cierre.py apps/accounts/tests/test_concurrencia_cierre.py apps/analytics/tests/test_analitica.py::test_etl_detecta_reenvio_en_tanda_posterior",
+  "datos": "Fixtures sint\u00e9ticas; no Neon"
+}

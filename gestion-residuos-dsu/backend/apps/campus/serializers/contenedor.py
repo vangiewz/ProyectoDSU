@@ -1,3 +1,5 @@
+from decimal import Decimal
+
 from rest_framework import serializers
 
 from apps.accounts.permissions import exigir_sector
@@ -12,6 +14,7 @@ class ContenedorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contenedor
         fields = "__all__"
+        extra_kwargs = {"capacidad_litros": {"min_value": Decimal("0.01")}}
 
     def validate_punto(self, punto):
         if not punto.is_active:

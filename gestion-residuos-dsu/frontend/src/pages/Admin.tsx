@@ -1,7 +1,7 @@
 import { Plus } from 'lucide-react'
 import { useMemo, useState } from 'react'
 
-import { CrudPage, type CrudConfig, type Fila } from '../components/Crud'
+import { CrudPage, opcionesDe, type CrudConfig, type Fila } from '../components/Crud'
 import { Aviso, Boton, Campo, Cargando, Encabezado, Entrada, Paginacion, Seleccion, Tabla, cx } from '../components/ui'
 import { api, type Pagina } from '../lib/api'
 import { useAuth } from '../lib/auth'
@@ -42,7 +42,20 @@ const cfgUsuarios: CrudConfig = {
   ],
 }
 
-export const Usuarios = () => <CrudPage config={cfgUsuarios} />
+export function Usuarios() {
+  const { puede } = useAuth()
+  const veRoles = puede('auth.view_group')
+  const { data } = useCarga(
+    () => veRoles ? opcionesDe('roles/', (r) => String(r.name)).then((roles) => roles.map((r) => ({ valor: r.texto, texto: r.texto }))) : Promise.resolve(null),
+    [veRoles],
+  )
+  const config = useMemo<CrudConfig>(() => ({
+    ...cfgUsuarios,
+    campos: cfgUsuarios.campos.map((c) => c.nombre === 'roles' ? { ...c, opciones: data ?? ROLES.map((r) => ({ valor: r, texto: r })) } : c),
+    filtros: cfgUsuarios.filtros?.map((f) => f.nombre === 'groups__name' ? { ...f, opciones: data ?? f.opciones } : f),
+  }), [data])
+  return <CrudPage config={config} />
+}
 
 type Permiso = { id: number; codename: string; name: string; modulo: string; entidad: string }
 type Rol = { id: number; name: string; permissions: number[]; usuarios: number }
@@ -55,6 +68,7 @@ const MODULOS: Record<string, string> = {
   campus: 'Campus',
   operations: 'Operación',
   analytics: 'Análisis',
+  prediction: 'Predicción',
 }
 
 export function Roles() {

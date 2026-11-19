@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1400" viewBox="0 0 2700 1400"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">CU11: actores y relaciones del caso de uso</text>
+<rect x="55" y="210" width="650" height="210" fill="white" stroke="#444" stroke-width="3"/>
+<text x="106.0" y="305.0" font-family="Arial" font-size="56" font-weight="400">«actor» Supervisor de</text>
+<text x="228.5" y="367.0" font-family="Arial" font-size="56" font-weight="400">Recolección</text>
+<line x1="705" y1="315" x2="850" y2="310.0" stroke="#444" stroke-width="3"/>
+<ellipse cx="1350" cy="310.0" rx="500.0" ry="220.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1002.5390625" y="333.0" font-family="Arial" font-size="58" font-weight="700">CU11. Atender incidencia</text>
+<text x="55" y="1252" font-family="Arial" font-size="56" font-weight="400">Relaciones normativas; los permisos observados se contrastan en el capítulo 9.</text>
+</svg>

@@ -2,6 +2,28 @@
 
 Última actualización de contexto: 2026-11-16. Este archivo vive en la carpeta backend del repositorio unificado ProyectoDSU y cubre todo el sistema (backend y frontend). Las verificaciones anteriores conservan sus fechas; las comprobaciones nuevas se detallan a continuación.
 
+## Cierre local de Software II (18–19/11/2026)
+
+Se trabaja en rama cierre-software2-20261118, con respaldo privado verificable de los cambios anteriores y sin commits/push. Bitácora y auditoría: ../../../auditoria_cierre/04_bitacora_cambios.md y 09_auditoria_final.md. La hoja del examen era de otro grupo, no es nota de DSU.
+
+- Regresión nueva: 58 pruebas aprobadas en PostgreSQL 18 local aislado, incluyendo cambio de sector/ruta, concurrencia real de ETL/modelo y asignación de personal/vehículo, reenvíos entre tandas, precisión Decimal y reversión ante fallo de bitácora. Se preservaron las reproducciones fallidas anteriores.
+- Demo aislada: 16 pantallas y flujo API completo con persistencia; carga 12 hilos por 60 s, 531 peticiones sin errores, 156 vaciados confirmados y guardados. No es una prueba de doce personas ni de la VM productiva.
+- Medición local con más de 500 puntos y 100.000 registros cumplió límites medidos, con rollback comprobado; no incluye red Azure–Neon. Dump/restauración exclusivamente sintéticos con recuentos, claves y trigger comprobados.
+- Sitio local: 16 recorridos responsive, salud sin falsos positivos 404/500 y oferta comercial marcada propuesta. La URL pública devolvió inicialmente 404 y luego 200 en once rutas/recursos, sin despliegue del agente; aún publica cifras/oferta anteriores. El titular decidió publicar personalmente.
+- Se leyeron por API nativa los tres modelos EA, sin guardarlos. Word/PDF de Software II integra trece capítulos, matrices, evidencias y financiamiento; Taller no se regeneró ni se modificó.
+- Proyección revisada: mezcla mitad anual (diez meses), mitad mensual. Capital propuesto Bs 200.000, VAN operativo Bs 120.674, TIR operativa 42,7 %. No son inversión conseguida ni rendimiento garantizado.
+- Permanecen internos: hilos web sin cola durable, verificación productiva completa y revisión de obligaciones de terceros. Pendientes externos: publicación por titular, Power BI publicado, trámites/firmas y validación institucional. No se escribió en Neon ni se desplegó esta rama.
+
+## Arranque y comprobaciones locales (18/11/2026)
+
+- Se guardó `backend/.env` con los valores proporcionados expresamente por el titular, sin reproducirlos en documentación. Se preparó `.venv` local con Python 3.13 disponible en este equipo (el stack documentado usa Python 3.12), se instalaron dependencias y se recopilaron estáticos. Backend en `127.0.0.1:8000` y frontend en `127.0.0.1:5173`.
+- Django `check`, `migrate --check` (solo comprobación, sin aplicar migraciones) y `pip check` terminaron correctamente. Neon respondió a consultas; el usuario Power BI leyó 15.430 hechos. El modelo vigente v2 cargó sin advertencias y ejecutó una inferencia local sin persistir predicciones.
+- Comprobaciones por HTTP a través del proxy Vite: login y perfil de los cinco usuarios demo, consulta de jornadas por rol, 23 consultas de módulos con Administrador, seis vistas previas de reportes, exportaciones PDF/XLSX válidas y comparación con fechas explícitas. Respuestas esperadas: 403 para Usuarios con Directivo y 401 sin autenticación. Los accesos y exportaciones generan su auditoría normal; no se ejecutaron seed, ETL, entrenamiento ni cambios de datos operativos.
+- `npm audit fix` actualizó el lockfile, incluido Vite de 8.3.2 a 8.3.8. Build y lint finalizaron correctamente y npm audit informó cero vulnerabilidades. Persisten nueve advertencias de lint y el aviso de tamaño del bundle; Node 22.16.0 local es anterior al mínimo 22.22.0 declarado por React Router, aunque el arranque y build comprobados funcionaron.
+- Chrome abrió la aplicación y mostró el formulario de acceso. La automatización no pudo completar el clic por `coordinate input geometry is unavailable`; no se acredita una revisión visual de todos los módulos ni de los flujos de escritura. Las comprobaciones funcionales anteriores son de API y lectura.
+- Power BI: credenciales SQL verificadas, pero el enlace del informe publicado en Parámetros está vacío; sigue pendiente publicar/configurar el informe insertado.
+- Azure CLI autenticado en Azure for Students; consulta de la VM `dsu-api` en `residata-dsu-rg`, México Central, con aprovisionamiento `Succeeded`. No se realizaron commits ni despliegues en esta sesión.
+
 ## Despliegue en producción (18/11/2026)
 
 - API desplegada en **Azure VM** `dsu-api` (Standard_B2als_v2, Ubuntu 24.04, Mexico Central): `deploy/compose.azure.yml` (app Gunicorn, Caddy con Let's Encrypt, respaldo pg_dump diario 14 días), `.env` de producción solo en la VM (`~/dsu/backend/.env`), cron horario del ETL. URL: https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com. AWS quedó descartado (la suscripción disponible es Azure for Students; regiones permitidas: EE. UU., Canadá, México).
@@ -115,3 +137,10 @@ Tests: `backend/apps/accounts/tests/`, `backend/apps/operations/tests/`, `backen
 `python manage.py seed --demo` creó: usuarios `supervisor`, `operario1`, `operario2`, `administrativo` (desde el 30/10/2026 con rol Administrador), `directivo` (contraseña demo documentada en el README), 4 sectores con 3 puntos cada uno y coordenadas **aproximadas no oficiales**, 2 vehículos y la jornada 1 (FICCT, 05/10/2026) en ejecución con un vaciado registrado. El usuario `admin` tiene contraseña propia (no versionada).
 
 `python manage.py seed --historico` agregó (05/10/2026) un año **sintético**: 1040 jornadas cerradas, 15 428 vaciados, periodos académicos 2-2025, 1-2026 y 2-2026, y una jornada PLANIFICADA por sector para el 06/10/2026. Luego `etl` y `entrenar` dejaron las versiones v1 y v2 del modelo (v2 vigente) y se generaron dos lotes de predicción del supervisor (alerta de desborde en FCEE-P1, el "comedor" que el histórico hace crecer).
+
+
+## Validación gráfica local — 19/11/2026
+
+Chrome visible, cinco cuentas y PostgreSQL 18 propio: evidencias independientes en `../../../auditoria_gui/INFORME_FINAL.md`. Se recorrieron 34 CU; 28 flujos principales aprobados y 6 parciales. No se acredita cobertura exhaustiva. Se corrigieron validaciones de cantidades, auditoría M2M, límites BBOX, roles dinámicos y predictivos, mensajes 404, edición gráfica de planificación y respuestas asíncronas atrasadas. `npm run build` pasa; lint conserva nueve advertencias previas. No se modificó Neon ni se publicó. Consultar matrices y pendientes antes de sostener un 100 %.
+
+Regresión final de esta validación: 74 pruebas aprobadas en PostgreSQL aislado (236,50 s). Evidencias: `auditoria_gui/regresion/`.

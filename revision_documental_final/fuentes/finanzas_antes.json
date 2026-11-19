@@ -1,0 +1,677 @@
+{
+  "tipo_cambio": 11.67,
+  "nube": [
+    {
+      "proveedor": "Microsoft Azure (adoptado)",
+      "region": "Mexico Central",
+      "vm": "B2als v2",
+      "vm_h": 0.0414,
+      "disco": "SSD Premium P4 32 GB",
+      "disco_mes": 5.81,
+      "ip_h": 0.005,
+      "fuente": "Azure Retail Prices API",
+      "vm_mes": 30.22,
+      "ip_mes": 3.65,
+      "total_usd": 39.68,
+      "total_bs": 463.07
+    },
+    {
+      "proveedor": "Amazon Web Services",
+      "region": "São Paulo (sa-east-1)",
+      "vm": "t3.medium",
+      "vm_h": 0.0672,
+      "disco": "EBS gp3 32 GB",
+      "disco_mes": 4.86,
+      "ip_h": 0.005,
+      "fuente": "AWS Price List API",
+      "vm_mes": 49.06,
+      "ip_mes": 3.65,
+      "total_usd": 57.57,
+      "total_bs": 671.84
+    },
+    {
+      "proveedor": "Google Cloud",
+      "region": "São Paulo (southamerica-east1)",
+      "vm": "e2-medium",
+      "vm_h": 0.0531852,
+      "disco": "PD balanceado 32 GB",
+      "disco_mes": 4.8,
+      "ip_h": 0.005,
+      "fuente": "cloud.google.com, páginas de precios de Compute Engine, discos y red",
+      "vm_mes": 38.83,
+      "ip_mes": 3.65,
+      "total_usd": 47.28,
+      "total_bs": 551.76
+    }
+  ],
+  "plataforma": [
+    {
+      "concepto": "Azure: VM, disco e IP de la API",
+      "usd": 39.68,
+      "bs": 463.07,
+      "fuente": "Azure Retail Prices API"
+    },
+    {
+      "concepto": "Neon Launch: 100 CU-h y 2 GB",
+      "usd": 11.3,
+      "bs": 131.87,
+      "fuente": "neon.com/pricing"
+    },
+    {
+      "concepto": "Vercel Pro: un puesto (uso comercial)",
+      "usd": 20.0,
+      "bs": 233.4,
+      "fuente": "vercel.com/pricing"
+    },
+    {
+      "concepto": "Azure Monitor: disponibilidad de la API, 5 840 ejecuciones",
+      "usd": 3.21,
+      "bs": 37.46,
+      "fuente": "Azure Retail Prices API (USD 0,00055 por ejecución)"
+    }
+  ],
+  "plataforma_usd": 74.19,
+  "plataforma_bs": 865.8,
+  "mercado": {
+    "municipios": 343,
+    "municipios_relleno": 43,
+    "universidades_ceub": 15,
+    "universidades_privadas": 33,
+    "fuentes": [
+      "Diagnóstico Nacional de la Gestión Integral de Residuos Sólidos (MMAyA, 2025) e Inventario Nacional de Botaderos, citados por Correo del Sur (2026)",
+      "Comité Ejecutivo de la Universidad Boliviana (CEUB), universidades del sistema",
+      "Decretos de jerarquización de 33 universidades privadas (eju.tv)"
+    ]
+  },
+  "precios": {
+    "Campus": 2900,
+    "Red": 7500
+  },
+  "implementacion": {
+    "Campus": 9000,
+    "Red": 18000
+  },
+  "tam_bs": 32540400,
+  "sam_bs": 5540400,
+  "som_bs_anio5": 1128000,
+  "supuestos": {
+    "fraccion_clientes_anuales": 0.5,
+    "meses_cobrados_plan_anual": 10,
+    "clientes_fin_de_anio": {
+      "Campus": [
+        2,
+        5,
+        9,
+        13,
+        17
+      ],
+      "Red": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "iva": 0.13,
+    "it": 0.03,
+    "iue": 0.25,
+    "cargas_sociales": 0.1671,
+    "aguinaldo": 1.0833333333333333,
+    "tasa_descuento": 0.15,
+    "personal_mensual": [
+      [
+        "Fundador: dirección y desarrollo",
+        [
+          4500,
+          7000,
+          9000,
+          9000,
+          9000
+        ]
+      ],
+      [
+        "Fundador: desarrollo y calidad",
+        [
+          4500,
+          7000,
+          9000,
+          9000,
+          9000
+        ]
+      ],
+      [
+        "Agente de soporte",
+        [
+          0,
+          3500,
+          3500,
+          3500,
+          3500
+        ]
+      ],
+      [
+        "Desarrollador adicional",
+        [
+          0,
+          0,
+          0,
+          9000,
+          9000
+        ]
+      ]
+    ],
+    "marketing_anual": [
+      18000,
+      24000,
+      30000,
+      30000,
+      30000
+    ],
+    "contador_mensual": 700,
+    "constitucion": [
+      [
+        "SEPREC: matrícula y gaceta",
+        647
+      ],
+      [
+        "SENAPI: búsqueda de signo PI-112",
+        75
+      ],
+      [
+        "SENAPI: registro de programa de ordenador y gaceta",
+        210
+      ],
+      [
+        "Escritura de constitución (honorario notarial estimado)",
+        2000
+      ]
+    ],
+    "clientes_por_vm": 8,
+    "neon_por_cliente_usd": 6.0
+  },
+  "anios": [
+    {
+      "anio": 1,
+      "clientes_campus": 2,
+      "clientes_red": 1,
+      "ingreso_bruto": 109150,
+      "ingreso_neto": 94960,
+      "nube": 11650,
+      "personal": 136551,
+      "marketing": 18000,
+      "administracion": 11332,
+      "it": 3274,
+      "egresos": 180807,
+      "resultado_antes_iue": -85847,
+      "iue": 0,
+      "flujo": -85847,
+      "vms": 1,
+      "acumulado": -85847
+    },
+    {
+      "anio": 2,
+      "clientes_campus": 5,
+      "clientes_red": 2,
+      "ingreso_bruto": 280400,
+      "ingreso_neto": 243948,
+      "nube": 14591,
+      "personal": 265515,
+      "marketing": 24000,
+      "administracion": 8400,
+      "it": 8412,
+      "egresos": 320918,
+      "resultado_antes_iue": -76970,
+      "iue": 0,
+      "flujo": -76970,
+      "vms": 1,
+      "acumulado": -162817
+    },
+    {
+      "anio": 3,
+      "clientes_campus": 9,
+      "clientes_red": 4,
+      "ingreso_bruto": 542800,
+      "ingreso_neto": 472236,
+      "nube": 24349,
+      "personal": 326204,
+      "marketing": 30000,
+      "administracion": 8400,
+      "it": 16284,
+      "egresos": 405237,
+      "resultado_antes_iue": 66999,
+      "iue": 16750,
+      "flujo": 50249,
+      "vms": 2,
+      "acumulado": -112568
+    },
+    {
+      "anio": 4,
+      "clientes_campus": 13,
+      "clientes_red": 6,
+      "ingreso_bruto": 835400,
+      "ingreso_neto": 726798,
+      "nube": 34947,
+      "personal": 462755,
+      "marketing": 30000,
+      "administracion": 8400,
+      "it": 25062,
+      "egresos": 561164,
+      "resultado_antes_iue": 165634,
+      "iue": 41408,
+      "flujo": 124225,
+      "vms": 3,
+      "acumulado": 11657
+    },
+    {
+      "anio": 5,
+      "clientes_campus": 17,
+      "clientes_red": 8,
+      "ingreso_bruto": 1128000,
+      "ingreso_neto": 981360,
+      "nube": 45545,
+      "personal": 462755,
+      "marketing": 30000,
+      "administracion": 8400,
+      "it": 33840,
+      "egresos": 580540,
+      "resultado_antes_iue": 400820,
+      "iue": 100205,
+      "flujo": 300615,
+      "vms": 4,
+      "acumulado": 312272
+    }
+  ],
+  "equilibrio": {
+    "costos_fijos_mensuales": 31250,
+    "margen_por_cliente": 2163,
+    "clientes": 14.4
+  },
+  "financiamiento": {
+    "deficit_maximo": 162817,
+    "monto_solicitado": 200000
+  },
+  "van": 120674,
+  "tir": 42.7,
+  "anio_flujo_positivo": 3,
+  "anio_recuperacion": 4,
+  "uso_fondos": [
+    {
+      "destino": "Equipo (sueldos y cargas)",
+      "bs": 130476
+    },
+    {
+      "destino": "Marketing y ventas",
+      "bs": 13630
+    },
+    {
+      "destino": "Infraestructura en la nube",
+      "bs": 8516
+    },
+    {
+      "destino": "Constitución, contabilidad e impuestos",
+      "bs": 10196
+    },
+    {
+      "destino": "Contingencia (20 % y redondeo)",
+      "bs": 37182
+    }
+  ],
+  "escenarios": {
+    "conservador": {
+      "clientes": {
+        "Campus": [
+          1,
+          4,
+          6,
+          9,
+          12
+        ],
+        "Red": [
+          1,
+          1,
+          3,
+          4,
+          6
+        ]
+      },
+      "anios": [
+        {
+          "anio": 1,
+          "clientes_campus": 1,
+          "clientes_red": 1,
+          "ingreso_bruto": 84200,
+          "ingreso_neto": 73254,
+          "nube": 11230,
+          "personal": 136551,
+          "marketing": 18000,
+          "administracion": 11332,
+          "it": 2526,
+          "egresos": 179639,
+          "resultado_antes_iue": -106385,
+          "iue": 0,
+          "flujo": -106385,
+          "vms": 1,
+          "acumulado": -106385
+        },
+        {
+          "anio": 2,
+          "clientes_campus": 4,
+          "clientes_red": 1,
+          "ingreso_bruto": 189250,
+          "ingreso_neto": 164648,
+          "nube": 13330,
+          "personal": 265515,
+          "marketing": 24000,
+          "administracion": 8400,
+          "it": 5678,
+          "egresos": 316923,
+          "resultado_antes_iue": -152276,
+          "iue": 0,
+          "flujo": -152276,
+          "vms": 1,
+          "acumulado": -258661
+        },
+        {
+          "anio": 3,
+          "clientes_campus": 6,
+          "clientes_red": 3,
+          "ingreso_bruto": 378500,
+          "ingreso_neto": 329295,
+          "nube": 21828,
+          "personal": 326204,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 11355,
+          "egresos": 397787,
+          "resultado_antes_iue": -68492,
+          "iue": 0,
+          "flujo": -68492,
+          "vms": 2,
+          "acumulado": -327153
+        },
+        {
+          "anio": 4,
+          "clientes_campus": 9,
+          "clientes_red": 4,
+          "ingreso_bruto": 573000,
+          "ingreso_neto": 498510,
+          "nube": 25189,
+          "personal": 462755,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 17190,
+          "egresos": 543534,
+          "resultado_antes_iue": -45024,
+          "iue": 0,
+          "flujo": -45024,
+          "vms": 2,
+          "acumulado": -372177
+        },
+        {
+          "anio": 5,
+          "clientes_campus": 12,
+          "clientes_red": 6,
+          "ingreso_bruto": 810450,
+          "ingreso_neto": 705092,
+          "nube": 34527,
+          "personal": 462755,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 24314,
+          "egresos": 559996,
+          "resultado_antes_iue": 145096,
+          "iue": 36274,
+          "flujo": 108822,
+          "vms": 3,
+          "acumulado": -263355
+        }
+      ],
+      "van": -224325,
+      "deficit_maximo": 372177
+    },
+    "base": {
+      "clientes": {
+        "Campus": [
+          2,
+          5,
+          9,
+          13,
+          17
+        ],
+        "Red": [
+          1,
+          2,
+          4,
+          6,
+          8
+        ]
+      },
+      "anios": [
+        {
+          "anio": 1,
+          "clientes_campus": 2,
+          "clientes_red": 1,
+          "ingreso_bruto": 109150,
+          "ingreso_neto": 94960,
+          "nube": 11650,
+          "personal": 136551,
+          "marketing": 18000,
+          "administracion": 11332,
+          "it": 3274,
+          "egresos": 180807,
+          "resultado_antes_iue": -85847,
+          "iue": 0,
+          "flujo": -85847,
+          "vms": 1,
+          "acumulado": -85847
+        },
+        {
+          "anio": 2,
+          "clientes_campus": 5,
+          "clientes_red": 2,
+          "ingreso_bruto": 280400,
+          "ingreso_neto": 243948,
+          "nube": 14591,
+          "personal": 265515,
+          "marketing": 24000,
+          "administracion": 8400,
+          "it": 8412,
+          "egresos": 320918,
+          "resultado_antes_iue": -76970,
+          "iue": 0,
+          "flujo": -76970,
+          "vms": 1,
+          "acumulado": -162817
+        },
+        {
+          "anio": 3,
+          "clientes_campus": 9,
+          "clientes_red": 4,
+          "ingreso_bruto": 542800,
+          "ingreso_neto": 472236,
+          "nube": 24349,
+          "personal": 326204,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 16284,
+          "egresos": 405237,
+          "resultado_antes_iue": 66999,
+          "iue": 16750,
+          "flujo": 50249,
+          "vms": 2,
+          "acumulado": -112568
+        },
+        {
+          "anio": 4,
+          "clientes_campus": 13,
+          "clientes_red": 6,
+          "ingreso_bruto": 835400,
+          "ingreso_neto": 726798,
+          "nube": 34947,
+          "personal": 462755,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 25062,
+          "egresos": 561164,
+          "resultado_antes_iue": 165634,
+          "iue": 41408,
+          "flujo": 124225,
+          "vms": 3,
+          "acumulado": 11657
+        },
+        {
+          "anio": 5,
+          "clientes_campus": 17,
+          "clientes_red": 8,
+          "ingreso_bruto": 1128000,
+          "ingreso_neto": 981360,
+          "nube": 45545,
+          "personal": 462755,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 33840,
+          "egresos": 580540,
+          "resultado_antes_iue": 400820,
+          "iue": 100205,
+          "flujo": 300615,
+          "vms": 4,
+          "acumulado": 312272
+        }
+      ],
+      "van": 120674,
+      "deficit_maximo": 162817
+    },
+    "optimista": {
+      "clientes": {
+        "Campus": [
+          3,
+          6,
+          12,
+          17,
+          22
+        ],
+        "Red": [
+          1,
+          3,
+          5,
+          8,
+          10
+        ]
+      },
+      "anios": [
+        {
+          "anio": 1,
+          "clientes_campus": 3,
+          "clientes_red": 1,
+          "ingreso_bruto": 134100,
+          "ingreso_neto": 116667,
+          "nube": 12070,
+          "personal": 136551,
+          "marketing": 18000,
+          "administracion": 11332,
+          "it": 4023,
+          "egresos": 181976,
+          "resultado_antes_iue": -65309,
+          "iue": 0,
+          "flujo": -65309,
+          "vms": 1,
+          "acumulado": -65309
+        },
+        {
+          "anio": 2,
+          "clientes_campus": 6,
+          "clientes_red": 3,
+          "ingreso_bruto": 371550,
+          "ingreso_neto": 323248,
+          "nube": 21408,
+          "personal": 265515,
+          "marketing": 24000,
+          "administracion": 8400,
+          "it": 11146,
+          "egresos": 330470,
+          "resultado_antes_iue": -7221,
+          "iue": 0,
+          "flujo": -7221,
+          "vms": 2,
+          "acumulado": -72530
+        },
+        {
+          "anio": 3,
+          "clientes_campus": 12,
+          "clientes_red": 5,
+          "ingreso_bruto": 707100,
+          "ingreso_neto": 615177,
+          "nube": 32426,
+          "personal": 326204,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 21213,
+          "egresos": 418244,
+          "resultado_antes_iue": 196933,
+          "iue": 49233,
+          "flujo": 147700,
+          "vms": 3,
+          "acumulado": 75170
+        },
+        {
+          "anio": 4,
+          "clientes_campus": 17,
+          "clientes_red": 8,
+          "ingreso_bruto": 1097800,
+          "ingreso_neto": 955086,
+          "nube": 44705,
+          "personal": 462755,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 32934,
+          "egresos": 578794,
+          "resultado_antes_iue": 376292,
+          "iue": 94073,
+          "flujo": 282219,
+          "vms": 4,
+          "acumulado": 357389
+        },
+        {
+          "anio": 5,
+          "clientes_campus": 22,
+          "clientes_red": 10,
+          "ingreso_bruto": 1445550,
+          "ingreso_neto": 1257628,
+          "nube": 51007,
+          "personal": 462755,
+          "marketing": 30000,
+          "administracion": 8400,
+          "it": 43366,
+          "egresos": 595528,
+          "resultado_antes_iue": 662100,
+          "iue": 165525,
+          "flujo": 496575,
+          "vms": 4,
+          "acumulado": 853964
+        }
+      ],
+      "van": 443110,
+      "deficit_maximo": 72530
+    }
+  },
+  "inversionista_ilustrativo": {
+    "aporte": 200000,
+    "participacion": 0.15,
+    "valoracion_post_money": 1333333,
+    "multiplo_resultado_antes_iue": 3,
+    "deuda_asumida": 0,
+    "dividendos_asumidos": 0,
+    "salida_anio": 5,
+    "cobro_estimado": 257210,
+    "tir_anual_pct": 5.2,
+    "advertencia": "Escenario hipotético sin comprador acreditado; puede perderse el capital. No es la TIR operativa del proyecto."
+  },
+  "limitaciones": [
+    "Demanda y precios por validar: no hay entrevistas ni ventas acreditadas.",
+    "Ocho clientes por VM es supuesto pendiente de prueba de capacidad.",
+    "Tarifas y cambio Bs/USD son referencias de planificación del 18/11/2026, no facturas ni cotizaciones vigentes garantizadas.",
+    "Impuestos simplificados para planificación: requiere revisión contable; no incluye compensaciones ni intereses de un crédito.",
+    "VAN/TIR del proyecto consideran los flujos operativos negativos de años iniciales; no restar otra vez el capital que los financia."
+  ]
+}

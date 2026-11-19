@@ -1,0 +1,3992 @@
+[
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Editar planificación",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1051/editar"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Asignar cuadrilla",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Confirmar y publicar",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Editar planificación",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1052/editar"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Asignar cuadrilla",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Confirmar y publicar",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Editar planificación",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1051/editar"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Asignar cuadrilla",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Confirmar y publicar",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Editar planificación",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1052/editar"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Asignar cuadrilla",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Confirmar y publicar",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Editar planificación",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1051/editar"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Asignar cuadrilla",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Abrir jornada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Editar planificación",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1052/editar"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Asignar cuadrilla",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Abrir jornada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario1",
+    "ruta": "/campo?jornada=1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Orgánico",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Papel y cartón",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Plástico PET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 002805",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003036",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003231",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo común",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo peligroso",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Vidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Registrar vaciado",
+        "aria": null,
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Sin residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "No pude",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FICCT-P1Punto 1 FICCTAhora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FICCT-P2Punto 2 FICCT",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FICCT-P3Punto 3 FICCT",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo?jornada=1051"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Cerrar jornada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario1",
+    "ruta": "/campo?jornada=1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Orgánico",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Papel y cartón",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Plástico PET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 002805",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003036",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003231",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo común",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo peligroso",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Vidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Registrar vaciado",
+        "aria": null,
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Sin residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "No pude",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FICCT-P1Punto 1 FICCTAhora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FICCT-P2Punto 2 FICCT",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FICCT-P3Punto 3 FICCT",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario1",
+    "ruta": "/campo?jornada=1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Orgánico",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Papel y cartón",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Plástico PET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 002805",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003036",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003231",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo común",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo peligroso",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Vidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Registrar vaciado",
+        "aria": null,
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Sin residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "No pude",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FICCT-P1Punto 1 FICCTATENDIDO00:43",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FICCT-P2Punto 2 FICCTAhora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FICCT-P3Punto 3 FICCT",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario1",
+    "ruta": "/campo?jornada=1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Orgánico",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Papel y cartón",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Plástico PET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 002805",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003036",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003231",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo común",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo peligroso",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Vidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Registrar vaciado",
+        "aria": null,
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Sin residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "No pude",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FICCT-P1Punto 1 FICCTATENDIDO00:43",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FICCT-P2Punto 2 FICCTSIN RESIDUOS00:43",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FICCT-P3Punto 3 FICCTAhora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario1",
+    "ruta": "/campo?jornada=1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FICCT-P1Punto 1 FICCTATENDIDO00:43",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FICCT-P2Punto 2 FICCTSIN RESIDUOS00:43",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FICCT-P3Punto 3 FICCTOMITIDO",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario1",
+    "ruta": "/campo?jornada=1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      }
+    ]
+  },
+  {
+    "rol": "operario2",
+    "ruta": "/campo?jornada=1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Orgánico",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Papel y cartón",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Plástico PET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 002805",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003036",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003231",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo común",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo peligroso",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Vidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Registrar vaciado",
+        "aria": null,
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Sin residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "No pude",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FCET-P1Punto 1 FCETAhora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FCET-P2Punto 2 FCET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FCET-P3Punto 3 FCET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario2",
+    "ruta": "/campo?jornada=1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Orgánico",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Papel y cartón",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Plástico PET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 002805",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003036",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003231",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo común",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo peligroso",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Vidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Registrar vaciado",
+        "aria": null,
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Sin residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "No pude",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FCET-P1Punto 1 FCETAhora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FCET-P2Punto 2 FCET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FCET-P3Punto 3 FCET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario2",
+    "ruta": "/campo?jornada=1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Orgánico",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Papel y cartón",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Plástico PET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 002805",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003036",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003231",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo común",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo peligroso",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Vidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Registrar vaciado",
+        "aria": null,
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Sin residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "No pude",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FCET-P1Punto 1 FCETATENDIDO00:44",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FCET-P2Punto 2 FCETAhora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FCET-P3Punto 3 FCET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario2",
+    "ruta": "/campo?jornada=1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Orgánico",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Papel y cartón",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Plástico PET",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 002805",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003036",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo GUI 003231",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo común",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Residuo peligroso",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Vidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Registrar vaciado",
+        "aria": null,
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Sin residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "No pude",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FCET-P1Punto 1 FCETATENDIDO00:44",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FCET-P2Punto 2 FCETSIN RESIDUOS00:44",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FCET-P3Punto 3 FCETAhora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario2",
+    "ruta": "/campo?jornada=1052",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "1FCET-P1Punto 1 FCETATENDIDO00:44",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "2FCET-P2Punto 2 FCETSIN RESIDUOS00:44",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "3FCET-P3Punto 3 FCETOMITIDO",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "operario2",
+    "ruta": "/campo?jornada=1051",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/incidencias",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Reportar incidencia",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosPendientesAtendidas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "Todosbajamediaaltacritica",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1051/editar",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/jornadas/1052/editar",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/historico",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO · Biblioteca central y áreas comunesFCEE · Facultad de Ciencias Económicas y EmpresarialesFCET · Facultad de Ciencias Exactas y TecnologíaFICCT · Facultad de Ciencias de la Computación y TelecomunicacionesQA003036 · Sector GUI editado 003",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosOrgánicoPapel y cartónPlástico PETResiduo GUI 002805Residuo GUI 003036Residuo GUI 003231Residuo comúnResiduo peligrosoVidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "search",
+        "texto": "",
+        "aria": null,
+        "placeholder": "Código o nombre",
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "",
+        "aria": "Página anterior",
+        "placeholder": null,
+        "disabled": true,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "",
+        "aria": "Página siguiente",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  }
+]

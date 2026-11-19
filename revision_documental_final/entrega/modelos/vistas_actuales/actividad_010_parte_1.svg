@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2620" viewBox="0 0 2700 2620"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">RF12 · Registrar la Ejecución de la Recolección — parte 1/3</text>
+<line x1="1350" y1="295" x2="1350" y2="465" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="465" x2="1339.5608271813305" y2="443.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="465" x2="1360.4391728186695" y2="443.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="735" x2="1350" y2="815" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="815" x2="1339.5608271813305" y2="793.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="815" x2="1360.4391728186695" y2="793.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1085" x2="1350" y2="1255" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1255" x2="1339.5608271813305" y2="1233.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1255" x2="1360.4391728186695" y2="1233.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1345" x2="1350" y2="1515" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1515" x2="1339.5608271813305" y2="1493.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1515" x2="1360.4391728186695" y2="1493.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1785" x2="1350" y2="1865" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1865" x2="1339.5608271813305" y2="1843.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1865" x2="1360.4391728186695" y2="1843.3892695435356" stroke="#444" stroke-width="3"/>
+<circle cx="1350" cy="250" r="45" fill="black"/>
+<text x="1415" y="277" font-family="Arial" font-size="56" font-weight="400">N0 inicio</text>
+<rect x="775" y="465" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="516" font-family="Arial" font-size="44" font-weight="400">N1 · Supervisor</text>
+<text x="795" y="590" font-family="Arial" font-size="56" font-weight="400">El supervisor abre la jornada</text>
+<text x="795" y="650" font-family="Arial" font-size="56" font-weight="400">planificada</text>
+<rect x="775" y="815" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="866" font-family="Arial" font-size="44" font-weight="400">N2 · Sistema</text>
+<text x="795" y="940" font-family="Arial" font-size="56" font-weight="400">El sistema registra la hora de inicio y</text>
+<text x="795" y="1000" font-family="Arial" font-size="56" font-weight="400">habilita la captura</text>
+<polygon points="1350,1255 1405,1300 1350,1345 1295,1300" fill="white" stroke="black" stroke-width="3"/>
+<text x="1425" y="1327" font-family="Arial" font-size="56" font-weight="400">N3 unión</text>
+<rect x="775" y="1515" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="1566" font-family="Arial" font-size="44" font-weight="400">N4 · Sistema</text>
+<text x="795" y="1640" font-family="Arial" font-size="56" font-weight="400">El sistema presenta el siguiente punto</text>
+<text x="795" y="1700" font-family="Arial" font-size="56" font-weight="400">de la ruta</text>
+<polygon points="1350,1865 1940,2000 1350,2135 760,2000" fill="white" stroke="black" stroke-width="3"/>
+<text x="1090.0" y="1990" font-family="Arial" font-size="52" font-weight="400">N5 ¿El punto pudo ser</text>
+<text x="1235.5" y="2048" font-family="Arial" font-size="52" font-weight="400">atendido?</text>
+<text x="55" y="2311" font-family="Arial" font-size="44" font-weight="400">N5 → N6 (No; parte 2)</text>
+<text x="55" y="2363" font-family="Arial" font-size="44" font-weight="400">N5 → N7 (Sí; parte 2)</text>
+</svg>

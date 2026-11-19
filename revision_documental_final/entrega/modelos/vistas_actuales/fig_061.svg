@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2470" viewBox="0 0 2700 2470"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">Gestión de Recolecciones y Logística</text>
+<rect x="800" y="180" width="1830" height="1800" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="830" y="254" font-family="Arial" font-size="58" font-weight="700">«package» 4</text>
+<ellipse cx="1780" cy="330" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1445.5" y="351.0" font-family="Arial" font-size="56" font-weight="400">CU13. Gestionar vehículos</text>
+<ellipse cx="1780" cy="580" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1360.0" y="570.0" font-family="Arial" font-size="56" font-weight="400">CU14. Planificar jornada y ruta de</text>
+<text x="1639.0" y="632.0" font-family="Arial" font-size="56" font-weight="400">recolección</text>
+<ellipse cx="1780" cy="830" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1282.5234375" y="820.0" font-family="Arial" font-size="56" font-weight="400">CU15. Asignar personal y vehículos a la</text>
+<text x="1687.0" y="882.0" font-family="Arial" font-size="56" font-weight="400">jornada</text>
+<ellipse cx="1780" cy="1080" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1301.5" y="1101.0" font-family="Arial" font-size="56" font-weight="400">CU16. Ejecutar jornada de recolección</text>
+<ellipse cx="1780" cy="1330" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1415.0" y="1351.0" font-family="Arial" font-size="56" font-weight="400">CU17. Omitir punto de la ruta</text>
+<ellipse cx="1780" cy="1580" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1324.5" y="1601.0" font-family="Arial" font-size="56" font-weight="400">CU18. Cerrar jornada de recolección</text>
+<ellipse cx="1780" cy="1830" rx="775.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1252.0" y="1851.0" font-family="Arial" font-size="56" font-weight="400">CU19. Consultar historial de recolecciones</text>
+<rect x="55" y="300" width="510" height="160" fill="white" stroke="#444" stroke-width="3"/>
+<text x="133.515625" y="403.0" font-family="Arial" font-size="58" font-weight="700">«actor» ADM</text>
+<line x1="565" y1="380" x2="1005" y2="330" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="380" x2="1005" y2="580" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="380" x2="1005" y2="830" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="380" x2="1005" y2="1830" stroke="#444" stroke-width="3"/>
+<rect x="55" y="550" width="510" height="160" fill="white" stroke="#444" stroke-width="3"/>
+<text x="139.5" y="653.0" font-family="Arial" font-size="58" font-weight="700">«actor» SUP</text>
+<line x1="565" y1="630" x2="1005" y2="330" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="630" x2="1005" y2="580" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="630" x2="1005" y2="830" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="630" x2="1005" y2="1080" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="630" x2="1005" y2="1330" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="630" x2="1005" y2="1580" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="630" x2="1005" y2="1830" stroke="#444" stroke-width="3"/>
+<rect x="55" y="800" width="510" height="160" fill="white" stroke="#444" stroke-width="3"/>
+<text x="140.0" y="903.0" font-family="Arial" font-size="58" font-weight="700">«actor» POL</text>
+<line x1="565" y1="880" x2="1005" y2="1080" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="880" x2="1005" y2="1330" stroke="#444" stroke-width="3"/>
+<line x1="565" y1="880" x2="1005" y2="1830" stroke="#444" stroke-width="3"/>
+<rect x="55" y="1050" width="510" height="160" fill="white" stroke="#444" stroke-width="3"/>
+<text x="136.5" y="1153.0" font-family="Arial" font-size="58" font-weight="700">«actor» CDD</text>
+<line x1="565" y1="1130" x2="1005" y2="1830" stroke="#444" stroke-width="3"/>
+<text x="55" y="2222" font-family="Arial" font-size="56" font-weight="400">ADM: Administrador del Sistema</text>
+<text x="55" y="2286" font-family="Arial" font-size="56" font-weight="400">SUP: Supervisor de Recolección</text>
+<text x="55" y="2350" font-family="Arial" font-size="56" font-weight="400">POL: Personal Operativo de Limpieza</text>
+<text x="55" y="2414" font-family="Arial" font-size="56" font-weight="400">CDD: Cuerpo Directivo de la DSU</text>
+</svg>

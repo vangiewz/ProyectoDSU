@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2150" viewBox="0 0 2700 2150"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">Ocho áreas funcionales y persistencia compartida</text>
+<rect x="55" y="170" width="1100" height="280" fill="white" stroke="#444" stroke-width="3"/>
+<text x="90" y="269" font-family="Arial" font-size="58" font-weight="700">1. Usuarios y control de</text>
+<text x="90" y="334" font-family="Arial" font-size="58" font-weight="700">acceso</text>
+<line x1="1155" y1="310" x2="1325" y2="310" stroke="#444" stroke-width="3"/>
+<line x1="1325" y1="310" x2="1303.3892695435356" y2="320.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="1325" y1="310" x2="1303.3892695435356" y2="299.56082718133047" stroke="#444" stroke-width="3"/>
+<rect x="55" y="525" width="1100" height="280" fill="white" stroke="#444" stroke-width="3"/>
+<text x="90" y="624" font-family="Arial" font-size="58" font-weight="700">2. Topología y puntos de</text>
+<text x="90" y="689" font-family="Arial" font-size="58" font-weight="700">recolección</text>
+<line x1="1155" y1="665" x2="1325" y2="665" stroke="#444" stroke-width="3"/>
+<line x1="1325" y1="665" x2="1303.3892695435356" y2="675.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1325" y1="665" x2="1303.3892695435356" y2="654.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="55" y="880" width="1100" height="280" fill="white" stroke="#444" stroke-width="3"/>
+<text x="90" y="979" font-family="Arial" font-size="58" font-weight="700">3. Residuos y registro de</text>
+<text x="90" y="1044" font-family="Arial" font-size="58" font-weight="700">campo</text>
+<line x1="1155" y1="1020" x2="1325" y2="1020" stroke="#444" stroke-width="3"/>
+<line x1="1325" y1="1020" x2="1303.3892695435356" y2="1030.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1325" y1="1020" x2="1303.3892695435356" y2="1009.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="55" y="1235" width="1100" height="280" fill="white" stroke="#444" stroke-width="3"/>
+<text x="90" y="1334" font-family="Arial" font-size="58" font-weight="700">4. Recolecciones y logística</text>
+<line x1="1155" y1="1375" x2="1325" y2="1375" stroke="#444" stroke-width="3"/>
+<line x1="1325" y1="1375" x2="1303.3892695435356" y2="1385.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1325" y1="1375" x2="1303.3892695435356" y2="1364.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="1530" y="170" width="1100" height="280" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1565" y="269" font-family="Arial" font-size="58" font-weight="700">5. Analítica e indicadores</text>
+<line x1="1530" y1="310" x2="1375" y2="310" stroke="#444" stroke-width="3"/>
+<line x1="1375" y1="310" x2="1396.6107304564644" y2="299.56082718133047" stroke="#444" stroke-width="3"/>
+<line x1="1375" y1="310" x2="1396.6107304564644" y2="320.43917281866953" stroke="#444" stroke-width="3"/>
+<rect x="1530" y="525" width="1100" height="280" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1565" y="624" font-family="Arial" font-size="58" font-weight="700">6. Cartografía y mapas</text>
+<line x1="1530" y1="665" x2="1375" y2="665" stroke="#444" stroke-width="3"/>
+<line x1="1375" y1="665" x2="1396.6107304564644" y2="654.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="1375" y1="665" x2="1396.6107304564644" y2="675.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="1530" y="880" width="1100" height="280" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1565" y="979" font-family="Arial" font-size="58" font-weight="700">7. Predicción y</text>
+<text x="1565" y="1044" font-family="Arial" font-size="58" font-weight="700">recomendaciones</text>
+<line x1="1530" y1="1020" x2="1375" y2="1020" stroke="#444" stroke-width="3"/>
+<line x1="1375" y1="1020" x2="1396.6107304564644" y2="1009.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="1375" y1="1020" x2="1396.6107304564644" y2="1030.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="1530" y="1235" width="1100" height="280" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1565" y="1334" font-family="Arial" font-size="58" font-weight="700">8. Administración y</text>
+<text x="1565" y="1399" font-family="Arial" font-size="58" font-weight="700">auditoría</text>
+<line x1="1530" y1="1375" x2="1375" y2="1375" stroke="#444" stroke-width="3"/>
+<line x1="1375" y1="1375" x2="1396.6107304564644" y2="1364.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="1375" y1="1375" x2="1396.6107304564644" y2="1385.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="310" x2="1350" y2="1670" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1670" x2="1350" y2="1750" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1750" x2="1339.5608271813305" y2="1728.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1750" x2="1360.4391728186695" y2="1728.3892695435356" stroke="#444" stroke-width="3"/>
+<rect x="450" y="1750" width="1800" height="210" fill="white" stroke="#444" stroke-width="3"/>
+<text x="500" y="1834" font-family="Arial" font-size="58" font-weight="700">API modular Django → PostgreSQL en Neon</text>
+<text x="500" y="1900" font-family="Arial" font-size="54" font-weight="400">Datos operativos, HechoResiduo, vistas bi_* y predicción</text>
+<text x="55" y="2060" font-family="Arial" font-size="54" font-weight="400">Áreas funcionales; React consume la API. No son ocho bases de datos.</text>
+</svg>

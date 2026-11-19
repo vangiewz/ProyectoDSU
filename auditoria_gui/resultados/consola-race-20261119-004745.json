@@ -1,0 +1,14 @@
+[
+  {
+    "rol": "directivo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "directivo",
+    "caso": "RACE-reportes",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/reportes\",\"texto\":\"Generación proyectadaPredicción vigente por punto, con su margen de error.\",\"tipo\":\"radio\"}"
+  }
+]

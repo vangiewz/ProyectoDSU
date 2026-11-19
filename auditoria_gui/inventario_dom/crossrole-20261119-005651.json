@@ -1,0 +1,3131 @@
+[
+  {
+    "rol": "supervisor",
+    "ruta": "/tablero",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Indicadores del periodo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Comparar periodos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Power BI",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "SectorPuntoTipo de residuo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/mapa",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosQA-editado-003231QA-editado-0028052-20261-20262-2025",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO · Biblioteca central y áreas comunesFCEE · Facultad de Ciencias Económicas y EmpresarialesFCET · Facultad de Ciencias Exactas y TecnologíaFICCT · Facultad de Ciencias de la Computación y TelecomunicacionesQA003036 · Sector GUI editado 003",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosFICCT-P1 · Punto 1 FICCTFICCT-P2 · Punto 2 FICCTFICCT-P3 · Punto 3 FICCTPQA005624 · Punto GUI editado 005624",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosOrgánicoPapel y cartónPlástico PETResiduo GUI 002805Residuo GUI 003036Residuo GUI 003231Residuo comúnResiduo peligrosoVidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Restablecer",
+        "aria": "Restablecer filtros",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Mapa de calor",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Marcadores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Proyectada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "×",
+        "aria": "Close popup",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#close"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "+",
+        "aria": "Zoom in",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "−",
+        "aria": "Zoom out",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Leaflet",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "https://leafletjs.com"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "OpenStreetMap",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "https://www.openstreetmap.org/copyright"
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/recomendaciones",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Por resolver",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Todas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incorporada a la jornada del 20 nov 2026",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1046"
+      }
+    ]
+  },
+  {
+    "rol": "supervisor",
+    "ruta": "/reportes",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Registro en campo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/campo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Excel",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "PDF",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Imprimir",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación por sectorKilos y litros por sector, con registros y puntos.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación por tipo de residuoTotales por tipo en el periodo.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Cumplimiento de jornadasPlanificado frente a ejecutado, con cobertura.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencias registradasTipo, gravedad, estado y acción adoptada.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Indicadores del periodoResumen gerencial de indicadores.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación proyectadaPredicción vigente por punto, con su margen de error.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosQA-editado-003231QA-editado-0028052-20261-20262-2025",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO · Biblioteca central y áreas comunesFCEE · Facultad de Ciencias Económicas y EmpresarialesFCET · Facultad de Ciencias Exactas y TecnologíaFICCT · Facultad de Ciencias de la Computación y TelecomunicacionesQA003036 · Sector GUI editado 003",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO-P1 · Punto 1 BIBLIOBIBLIO-P2 · Punto 2 BIBLIOBIBLIO-P3 · Punto 3 BIBLIOFCEE-P1 · Punto 1 FCEEFCEE-P2 · Punto 2 FCEEFCEE-P3 · Punto 3 FCEEFCET-P1 · Punto 1 FCETFCET-P2 · Punto 2 FCETFCET-P3 · Punto 3 FCETFICCT-P1 · Punto 1 FICCTFICCT-P2 · ",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosOrgánicoPapel y cartónPlástico PETResiduo GUI 002805Residuo GUI 003036Residuo GUI 003231Residuo comúnResiduo peligrosoVidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Restablecer",
+        "aria": "Restablecer filtros",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "administrativo",
+    "ruta": "/tablero",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Roles y permisos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/roles"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Procesamiento ETL",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/procesos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Modelo predictivo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/modelo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Parámetros",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/parametros"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Bitácora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/bitacora"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Indicadores del periodo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Comparar periodos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Power BI",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "SectorPuntoTipo de residuo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "administrativo",
+    "ruta": "/mapa",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Roles y permisos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/roles"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Procesamiento ETL",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/procesos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Modelo predictivo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/modelo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Parámetros",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/parametros"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Bitácora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/bitacora"
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosQA-editado-003231QA-editado-0028052-20261-20262-2025",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO · Biblioteca central y áreas comunesFCEE · Facultad de Ciencias Económicas y EmpresarialesFCET · Facultad de Ciencias Exactas y TecnologíaFICCT · Facultad de Ciencias de la Computación y TelecomunicacionesQA003036 · Sector GUI editado 003",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosFICCT-P1 · Punto 1 FICCTFICCT-P2 · Punto 2 FICCTFICCT-P3 · Punto 3 FICCTPQA005624 · Punto GUI editado 005624",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosOrgánicoPapel y cartónPlástico PETResiduo GUI 002805Residuo GUI 003036Residuo GUI 003231Residuo comúnResiduo peligrosoVidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Restablecer",
+        "aria": "Restablecer filtros",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Mapa de calor",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Marcadores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Proyectada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "×",
+        "aria": "Close popup",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#close"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "+",
+        "aria": "Zoom in",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "−",
+        "aria": "Zoom out",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Leaflet",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "https://leafletjs.com"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "OpenStreetMap",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "https://www.openstreetmap.org/copyright"
+      }
+    ]
+  },
+  {
+    "rol": "administrativo",
+    "ruta": "/recomendaciones",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Roles y permisos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/roles"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Procesamiento ETL",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/procesos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Modelo predictivo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/modelo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Parámetros",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/parametros"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Bitácora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/bitacora"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Por resolver",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Todas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incorporada a la jornada del 20 nov 2026",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1046"
+      }
+    ]
+  },
+  {
+    "rol": "administrativo",
+    "ruta": "/reportes",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Roles y permisos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/roles"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Procesamiento ETL",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/procesos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Modelo predictivo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/modelo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Parámetros",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/parametros"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Bitácora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/bitacora"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Excel",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "PDF",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Imprimir",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación por sectorKilos y litros por sector, con registros y puntos.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación por tipo de residuoTotales por tipo en el periodo.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Cumplimiento de jornadasPlanificado frente a ejecutado, con cobertura.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencias registradasTipo, gravedad, estado y acción adoptada.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Indicadores del periodoResumen gerencial de indicadores.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación proyectadaPredicción vigente por punto, con su margen de error.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosQA-editado-003231QA-editado-0028052-20261-20262-2025",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO · Biblioteca central y áreas comunesFCEE · Facultad de Ciencias Económicas y EmpresarialesFCET · Facultad de Ciencias Exactas y TecnologíaFICCT · Facultad de Ciencias de la Computación y TelecomunicacionesQA003036 · Sector GUI editado 003",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO-P1 · Punto 1 BIBLIOBIBLIO-P2 · Punto 2 BIBLIOBIBLIO-P3 · Punto 3 BIBLIOFCEE-P1 · Punto 1 FCEEFCEE-P2 · Punto 2 FCEEFCEE-P3 · Punto 3 FCEEFCET-P1 · Punto 1 FCETFCET-P2 · Punto 2 FCETFCET-P3 · Punto 3 FCETFICCT-P1 · Punto 1 FICCTFICCT-P2 · ",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosOrgánicoPapel y cartónPlástico PETResiduo GUI 002805Residuo GUI 003036Residuo GUI 003231Residuo comúnResiduo peligrosoVidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Restablecer",
+        "aria": "Restablecer filtros",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "administrativo",
+    "ruta": "/recomendaciones",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Usuarios",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/usuarios"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Roles y permisos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/roles"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Procesamiento ETL",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/procesos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Modelo predictivo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/modelo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Parámetros",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/parametros"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Bitácora",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/bitacora"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Por resolver",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Todas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      }
+    ]
+  },
+  {
+    "rol": "directivo",
+    "ruta": "/tablero",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Indicadores del periodo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Comparar periodos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Power BI",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "SectorPuntoTipo de residuo",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  },
+  {
+    "rol": "directivo",
+    "ruta": "/mapa",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosQA-editado-003231QA-editado-0028052-20261-20262-2025",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO · Biblioteca central y áreas comunesFCEE · Facultad de Ciencias Económicas y EmpresarialesFCET · Facultad de Ciencias Exactas y TecnologíaFICCT · Facultad de Ciencias de la Computación y TelecomunicacionesQA003036 · Sector GUI editado 003",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosFICCT-P1 · Punto 1 FICCTFICCT-P2 · Punto 2 FICCTFICCT-P3 · Punto 3 FICCTPQA005624 · Punto GUI editado 005624",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosOrgánicoPapel y cartónPlástico PETResiduo GUI 002805Residuo GUI 003036Residuo GUI 003231Residuo comúnResiduo peligrosoVidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Restablecer",
+        "aria": "Restablecer filtros",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Mapa de calor",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Marcadores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Observada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Proyectada",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "×",
+        "aria": "Close popup",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#close"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "+",
+        "aria": "Zoom in",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "−",
+        "aria": "Zoom out",
+        "placeholder": null,
+        "disabled": false,
+        "href": "#"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Leaflet",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "https://leafletjs.com"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "OpenStreetMap",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "https://www.openstreetmap.org/copyright"
+      }
+    ]
+  },
+  {
+    "rol": "directivo",
+    "ruta": "/recomendaciones",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Por resolver",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Todas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incorporada a la jornada del 20 nov 2026",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas/1046"
+      }
+    ]
+  },
+  {
+    "rol": "directivo",
+    "ruta": "/reportes",
+    "controles": [
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Jornadas",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/jornadas"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Histórico de residuos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/historico"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Incidencias",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/incidencias"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tablero",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tablero"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Mapa del campus",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/mapa"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Predicción",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/predicciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Alertas y recomendaciones",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/recomendaciones"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Reportes",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/reportes"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Sectores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/sectores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Puntos de recolección",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/puntos"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Contenedores",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/contenedores"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Tipos y unidades",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/tipos-residuo"
+      },
+      {
+        "tag": "A",
+        "tipo": "",
+        "texto": "Vehículos",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": "/vehiculos"
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Excel",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "PDF",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Imprimir",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación por sectorKilos y litros por sector, con registros y puntos.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación por tipo de residuoTotales por tipo en el periodo.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Cumplimiento de jornadasPlanificado frente a ejecutado, con cobertura.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Incidencias registradasTipo, gravedad, estado y acción adoptada.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Indicadores del periodoResumen gerencial de indicadores.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Generación proyectadaPredicción vigente por punto, con su margen de error.",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "INPUT",
+        "tipo": "date",
+        "texto": "",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosQA-editado-003231QA-editado-0028052-20261-20262-2025",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO · Biblioteca central y áreas comunesFCEE · Facultad de Ciencias Económicas y EmpresarialesFCET · Facultad de Ciencias Exactas y TecnologíaFICCT · Facultad de Ciencias de la Computación y TelecomunicacionesQA003036 · Sector GUI editado 003",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosBIBLIO-P1 · Punto 1 BIBLIOBIBLIO-P2 · Punto 2 BIBLIOBIBLIO-P3 · Punto 3 BIBLIOFCEE-P1 · Punto 1 FCEEFCEE-P2 · Punto 2 FCEEFCEE-P3 · Punto 3 FCEEFCET-P1 · Punto 1 FCETFCET-P2 · Punto 2 FCETFCET-P3 · Punto 3 FCETFICCT-P1 · Punto 1 FICCTFICCT-P2 · ",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "SELECT",
+        "tipo": "select-one",
+        "texto": "TodosOrgánicoPapel y cartónPlástico PETResiduo GUI 002805Residuo GUI 003036Residuo GUI 003231Residuo comúnResiduo peligrosoVidrio",
+        "aria": null,
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      },
+      {
+        "tag": "BUTTON",
+        "tipo": "submit",
+        "texto": "Restablecer",
+        "aria": "Restablecer filtros",
+        "placeholder": null,
+        "disabled": false,
+        "href": null
+      }
+    ]
+  }
+]

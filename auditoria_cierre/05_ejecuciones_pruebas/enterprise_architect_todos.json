@@ -1,0 +1,29 @@
+[
+  {
+    "modelo": "modelo_uml\\DSU-FaseFinal.eapx",
+    "conteos": {
+      "paquetes": 18,
+      "elementos": 343,
+      "diagramas": 18
+    },
+    "resultado": "Lectura nativa correcta; sin guardar cambios"
+  },
+  {
+    "modelo": "modelo_uml\\DSU-Residuos.eapx",
+    "conteos": {
+      "paquetes": 96,
+      "elementos": 516,
+      "diagramas": 124
+    },
+    "resultado": "Lectura nativa correcta; sin guardar cambios"
+  },
+  {
+    "modelo": "modelo_uml\\DSU-RevisionVisual.eapx",
+    "conteos": {
+      "paquetes": 96,
+      "elementos": 525,
+      "diagramas": 125
+    },
+    "resultado": "Lectura nativa correcta; sin guardar cambios"
+  }
+]

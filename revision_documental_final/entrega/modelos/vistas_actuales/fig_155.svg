@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1605" viewBox="0 0 2700 1605"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">CU15: participantes y guardas de la secuencia</text>
+<rect x="55" y="110" width="850" height="145" fill="white" stroke="#444" stroke-width="3"/>
+<text x="70" y="162" font-family="Arial" font-size="40" font-weight="400">Supervisor de Recolección</text>
+<rect x="935" y="110" width="850" height="145" fill="white" stroke="#444" stroke-width="3"/>
+<text x="950" y="162" font-family="Arial" font-size="40" font-weight="400">JornadasView</text>
+<rect x="1815" y="110" width="850" height="145" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1830" y="162" font-family="Arial" font-size="40" font-weight="400">JornadaController</text>
+<rect x="55" y="270" width="850" height="145" fill="white" stroke="#444" stroke-width="3"/>
+<text x="70" y="322" font-family="Arial" font-size="40" font-weight="400">JornadaService</text>
+<rect x="935" y="270" width="850" height="145" fill="white" stroke="#444" stroke-width="3"/>
+<text x="950" y="322" font-family="Arial" font-size="40" font-weight="400">Jornada</text>
+<rect x="1815" y="270" width="850" height="145" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1830" y="322" font-family="Arial" font-size="40" font-weight="400">User</text>
+<rect x="55" y="430" width="850" height="145" fill="white" stroke="#444" stroke-width="3"/>
+<text x="70" y="482" font-family="Arial" font-size="40" font-weight="400">Vehiculo</text>
+<rect x="935" y="430" width="850" height="145" fill="white" stroke="#444" stroke-width="3"/>
+<text x="950" y="482" font-family="Arial" font-size="40" font-weight="400">BitacoraService</text>
+<text x="55" y="689" font-family="Arial" font-size="42" font-weight="700">Las láminas siguientes amplían los mensajes en orden. Guardas modeladas:</text>
+<text x="55" y="772" font-family="Arial" font-size="40" font-weight="400">1. break: estado no es PLANIFICADA ni CONFIRMADA</text>
+<text x="55" y="847" font-family="Arial" font-size="40" font-weight="400">2. break: responsable ausente</text>
+<text x="55" y="922" font-family="Arial" font-size="40" font-weight="400">3. break: responsable fuera del personal</text>
+<text x="55" y="997" font-family="Arial" font-size="40" font-weight="400">4. break: personal no operativo o inactivo</text>
+<text x="55" y="1072" font-family="Arial" font-size="40" font-weight="400">5. break: vehículo fuera de servicio</text>
+<text x="55" y="1147" font-family="Arial" font-size="40" font-weight="400">6. break: personal ocupado en el turno</text>
+<text x="55" y="1222" font-family="Arial" font-size="40" font-weight="400">7. break: vehículo ocupado en el turno</text>
+<text x="55" y="1482" font-family="Arial" font-size="40" font-weight="400">Los participantes son responsabilidades de diseño; no nuevas clases de Python.</text>
+<text x="55" y="1562" font-family="Arial" font-size="40" font-weight="400">El grafo posterior conserva la correspondencia entre nodos y números de mensaje.</text>
+</svg>

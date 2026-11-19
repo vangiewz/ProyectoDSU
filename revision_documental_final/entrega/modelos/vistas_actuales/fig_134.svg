@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1600" viewBox="0 0 2700 1600"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="59" font-family="Arial" font-size="42" font-weight="700">Subsistema 6: cliente, API y persistencia</text>
+<rect x="50" y="150" width="850" height="1250" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="70" y="214" font-family="Arial" font-size="42" font-weight="700">Cliente React / Vercel</text>
+<text x="70" y="292" font-family="Arial" font-size="40" font-weight="400">pages/MapaCampus.tsx</text>
+<text x="70" y="356" font-family="Arial" font-size="40" font-weight="400">components/Mapa.tsx</text>
+<rect x="940" y="150" width="850" height="1250" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="960" y="214" font-family="Arial" font-size="42" font-weight="700">API Django / Azure VM</text>
+<text x="960" y="292" font-family="Arial" font-size="40" font-weight="400">views: analytics/analitica.py</text>
+<text x="960" y="356" font-family="Arial" font-size="40" font-weight="400">views:</text>
+<text x="960" y="402" font-family="Arial" font-size="40" font-weight="400">prediction/lote_prediccion.py</text>
+<text x="960" y="466" font-family="Arial" font-size="40" font-weight="400">services: analytics/indicadores.py</text>
+<text x="960" y="530" font-family="Arial" font-size="40" font-weight="400">services: prediction/prediccion.py</text>
+<rect x="1830" y="150" width="850" height="1250" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1850" y="214" font-family="Arial" font-size="42" font-weight="700">PostgreSQL / Neon</text>
+<text x="1850" y="292" font-family="Arial" font-size="40" font-weight="400">campus_puntorecoleccion</text>
+<text x="1850" y="356" font-family="Arial" font-size="40" font-weight="400">prediction_prediccion</text>
+<text x="1850" y="420" font-family="Arial" font-size="40" font-weight="400">analytics_hechoresiduo</text>
+<line x1="650" y1="1470" x2="1130" y2="1470" stroke="#444" stroke-width="3"/>
+<line x1="1130" y1="1470" x2="1108.3892695435356" y2="1480.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1130" y1="1470" x2="1108.3892695435356" y2="1459.5608271813305" stroke="#444" stroke-width="3"/>
+<text x="55" y="1467" font-family="Arial" font-size="40" font-weight="400">HTTPS /api/</text>
+<line x1="1800" y1="1470" x2="2250" y2="1470" stroke="#444" stroke-width="3"/>
+<line x1="2250" y1="1470" x2="2228.3892695435356" y2="1480.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="2250" y1="1470" x2="2228.3892695435356" y2="1459.5608271813305" stroke="#444" stroke-width="3"/>
+<text x="1450" y="1467" font-family="Arial" font-size="40" font-weight="400">ORM · TLS</text>
+<text x="55" y="1567" font-family="Arial" font-size="40" font-weight="400">Integraciones: OpenStreetMap</text>
+</svg>

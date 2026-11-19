@@ -1,0 +1,1793 @@
+[
+  {
+    "id": "CU01",
+    "nombre": "Iniciar sesión",
+    "rf": "RF3",
+    "roles": [
+      "POL",
+      "SUP",
+      "CDD",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario accede al formulario de inicio de sesión.",
+      "2. El usuario ingresa su nombre de usuario y contraseña.",
+      "3. El sistema verifica las credenciales contra la información almacenada (contraseña cifrada).",
+      "4. El sistema verifica que la cuenta esté activa.",
+      "5. El sistema emite el token de acceso y el de renovación.",
+      "6. El sistema registra el evento en la bitácora de auditoría (inicio de sesión).",
+      "7. El sistema presenta el menú con los módulos habilitados para el rol del usuario."
+    ],
+    "excepciones": [
+      "1. Las credenciales son incorrectas: el sistema registra el intento fallido en la bitácora, muestra un mensaje y permite reintentar (con límite de intentos por minuto).",
+      "2. La cuenta está desactivada: el sistema rechaza el acceso.",
+      "3. Faltan datos obligatorios en el formulario."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "AUTH-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\auth-AUTH-supervisor.png"
+      },
+      {
+        "id": "AUTH-reload-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\auth-AUTH-reload-supervisor.png"
+      },
+      {
+        "id": "AUTH-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\auth-AUTH-operario1.png"
+      },
+      {
+        "id": "AUTH-reload-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\auth-AUTH-reload-operario1.png"
+      },
+      {
+        "id": "AUTH-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\auth-AUTH-operario2.png"
+      },
+      {
+        "id": "AUTH-reload-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\auth-AUTH-reload-operario2.png"
+      },
+      {
+        "id": "AUTH-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\auth-AUTH-directivo.png"
+      },
+      {
+        "id": "AUTH-reload-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\auth-AUTH-reload-directivo.png"
+      },
+      {
+        "id": "AUTH-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\auth-AUTH-administrativo.png"
+      },
+      {
+        "id": "AUTH-reload-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\auth-AUTH-reload-administrativo.png"
+      },
+      {
+        "id": "AUTH-invalid",
+        "rol": "anónimo",
+        "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-invalid.png"
+      },
+      {
+        "id": "AUTH-refresh",
+        "rol": "administrativo",
+        "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-refresh.png"
+      },
+      {
+        "id": "AUTH-expired",
+        "rol": "administrativo",
+        "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-expired.png"
+      },
+      {
+        "id": "PERM-inactivo",
+        "rol": "qa_gui_003231",
+        "evidencia": "capturas\\permissions-20261119-004021-PERM-inactivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU02",
+    "nombre": "Cerrar sesión",
+    "rf": "RF3",
+    "roles": [
+      "POL",
+      "SUP",
+      "CDD",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario selecciona la opción Cerrar sesión.",
+      "2. El sistema invalida el token de renovación (lista negra).",
+      "3. El sistema registra el evento en la bitácora de auditoría.",
+      "4. El sistema elimina las credenciales guardadas en el navegador.",
+      "5. El sistema retorna al formulario de inicio de sesión.",
+      "5.a. Si la sesión expira por inactividad, el sistema ejecuta los pasos 4 y 5 sin intervención del usuario."
+    ],
+    "excepciones": [
+      "1. El token ya había expirado: el sistema retorna igualmente al formulario de acceso."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "AUTH-logout-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\auth-AUTH-logout-supervisor.png"
+      },
+      {
+        "id": "AUTH-logout-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\auth-AUTH-logout-operario1.png"
+      },
+      {
+        "id": "AUTH-logout-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\auth-AUTH-logout-operario2.png"
+      },
+      {
+        "id": "AUTH-logout-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\auth-AUTH-logout-directivo.png"
+      },
+      {
+        "id": "AUTH-logout-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\auth-AUTH-logout-administrativo.png"
+      },
+      {
+        "id": "AUTH-expired",
+        "rol": "administrativo",
+        "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-expired.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU03",
+    "nombre": "Gestionar usuarios",
+    "rf": "RF1",
+    "roles": [
+      "ADM"
+    ],
+    "proceso": [
+      "1. El administrador accede al módulo de usuarios.",
+      "2. El sistema muestra la lista de usuarios registrados.",
+      "3. Registrar: el administrador ingresa los datos personales, el nombre de usuario, la contraseña y los roles.",
+      "3.1. El sistema valida los datos, la unicidad del nombre de usuario y la política de contraseñas.",
+      "3.2. El sistema almacena la cuenta con la contraseña cifrada.",
+      "4. Actualizar: el administrador selecciona un usuario, modifica sus datos o roles y el sistema los guarda.",
+      "5. Desactivar o reactivar: el administrador cambia el estado de la cuenta; el sistema impide nuevos accesos y conserva el historial del usuario.",
+      "6. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. El nombre de usuario ya se encuentra registrado.",
+      "2. Existen datos obligatorios incompletos.",
+      "3. La contraseña no cumple la política de seguridad.",
+      "4. El usuario no cuenta con permisos suficientes."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "CRUD-usuario",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-CRUD-usuario.png"
+      },
+      {
+        "id": "DUP-usuario",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-DUP-usuario.png"
+      },
+      {
+        "id": "ADM-rol",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-ADM-rol.png"
+      },
+      {
+        "id": "PERM-inactivo",
+        "rol": "qa_gui_003231",
+        "evidencia": "capturas\\permissions-20261119-004021-PERM-inactivo.png"
+      },
+      {
+        "id": "FINAL-responsive-1440",
+        "rol": "administrativo",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-1440.png"
+      },
+      {
+        "id": "FINAL-responsive-820",
+        "rol": "administrativo",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-820.png"
+      },
+      {
+        "id": "FINAL-responsive-390",
+        "rol": "administrativo",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-390.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU04",
+    "nombre": "Gestionar roles y permisos",
+    "rf": "RF2",
+    "roles": [
+      "ADM"
+    ],
+    "proceso": [
+      "1. El administrador accede al módulo de roles.",
+      "2. El sistema muestra los roles y sus permisos.",
+      "3. Registrar: el administrador ingresa el nombre del rol y selecciona sus permisos; el sistema lo almacena.",
+      "4. Modificar: el administrador selecciona un rol y agrega o quita permisos; el sistema guarda la configuración.",
+      "5. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. El rol ya existe.",
+      "2. No se seleccionó ningún permiso.",
+      "3. El usuario no cuenta con permisos suficientes."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "ADM-rol",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-ADM-rol.png"
+      },
+      {
+        "id": "PERM-sintetico",
+        "rol": "qa_gui_003231",
+        "evidencia": "capturas\\permissions-20261119-004021-PERM-sintetico.png"
+      },
+      {
+        "id": "PERM-prediction",
+        "rol": "administrativo",
+        "evidencia": "capturas\\permissions-20261119-004021-PERM-prediction.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU05",
+    "nombre": "Gestionar sectores y facultades",
+    "rf": "RF4",
+    "roles": [
+      "ADM",
+      "SUP"
+    ],
+    "proceso": [
+      "1. El usuario accede al módulo de sectores (Maestros).",
+      "2. El sistema muestra los sectores con sus puntos asociados.",
+      "3. Registrar: el usuario ingresa código, nombre, descripción y supervisor; el sistema valida que el código no esté duplicado y lo almacena.",
+      "4. Actualizar: el usuario modifica los datos y el sistema los guarda.",
+      "5. Desactivar: el sistema cambia el estado y excluye el sector de nuevas planificaciones, conservando su historial.",
+      "6. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. El código del sector ya existe.",
+      "2. Existen datos obligatorios incompletos.",
+      "3. Se intenta desactivar un sector con puntos activos.",
+      "4. El supervisor intenta modificar un sector que no tiene asignado."
+    ],
+    "estado": "PARCIAL",
+    "pruebas": [
+      {
+        "id": "CRUD-sector",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-CRUD-sector.png"
+      },
+      {
+        "id": "DUP-sector",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-DUP-sector.png"
+      },
+      {
+        "id": "LIM-longitud",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-longitud.png"
+      },
+      {
+        "id": "SUP-sectores",
+        "rol": "supervisor",
+        "evidencia": "capturas\\catalogs-20261119-005624-SUP-sectores.png"
+      }
+    ],
+    "limite": "Supervisor solo consulta sectores; el CU documental describe gestión más amplia."
+  },
+  {
+    "id": "CU06",
+    "nombre": "Gestionar puntos de recolección",
+    "rf": "RF5",
+    "roles": [
+      "ADM",
+      "SUP"
+    ],
+    "proceso": [
+      "1. El usuario accede al módulo de puntos de recolección.",
+      "2. El sistema muestra los puntos filtrables por sector, código o estado.",
+      "3. Registrar: el usuario selecciona el sector e ingresa el código, la referencia y la capacidad.",
+      "4. El usuario ubica el punto haciendo clic en el mapa o ingresa la latitud y longitud.",
+      "5. El sistema valida que las coordenadas estén dentro del área del campus y que el código sea único, y almacena el punto.",
+      "6. Desactivar: el usuario indica el motivo; el sistema excluye el punto de nuevas jornadas y conserva su historial.",
+      "7. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. El código del punto ya existe.",
+      "2. Las coordenadas están fuera del área del campus.",
+      "3. El sector está desactivado.",
+      "4. Falta el motivo de desactivación."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "CRUD-punto",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-CRUD-punto.png"
+      },
+      {
+        "id": "DUP-punto",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-DUP-punto.png"
+      },
+      {
+        "id": "LIM-punto-0",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-punto-0.png"
+      },
+      {
+        "id": "LIM-punto--1",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-punto--1.png"
+      },
+      {
+        "id": "LIM-geografia",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-geografia.png"
+      },
+      {
+        "id": "CRUD-punto",
+        "rol": "supervisor",
+        "evidencia": "capturas\\catalogs-20261119-005624-CRUD-punto.png"
+      },
+      {
+        "id": "DUP-punto",
+        "rol": "supervisor",
+        "evidencia": "capturas\\catalogs-20261119-005624-DUP-punto.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU07",
+    "nombre": "Gestionar contenedores",
+    "rf": "RF7",
+    "roles": [
+      "ADM",
+      "SUP"
+    ],
+    "proceso": [
+      "1. El usuario selecciona el punto de recolección.",
+      "2. El sistema muestra sus contenedores y la capacidad total.",
+      "3. Registrar: el usuario ingresa código, tipo, capacidad en litros y fecha de instalación; el sistema valida y almacena.",
+      "4. Actualizar estado: el usuario registra el cambio y el sistema lo guarda.",
+      "5. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. El punto está desactivado.",
+      "2. La capacidad ingresada no es válida."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "CRUD-contenedor",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-CRUD-contenedor.png"
+      },
+      {
+        "id": "DUP-contenedor",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-DUP-contenedor.png"
+      },
+      {
+        "id": "LIM-contenedor-0",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-contenedor-0.png"
+      },
+      {
+        "id": "LIM-contenedor--1",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-contenedor--1.png"
+      },
+      {
+        "id": "CRUD-contenedor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\catalogs-20261119-005624-CRUD-contenedor.png"
+      },
+      {
+        "id": "DUP-contenedor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\catalogs-20261119-005624-DUP-contenedor.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU08",
+    "nombre": "Gestionar tipos de residuo y unidades de medida",
+    "rf": "RF6",
+    "roles": [
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario accede al módulo de catálogos.",
+      "2. El sistema muestra los tipos de residuo y las unidades.",
+      "3. Registrar tipo: el usuario ingresa nombre, clasificación, condición de aprovechable y unidad; el sistema valida que no esté duplicado y lo almacena.",
+      "4. Registrar unidad: el usuario ingresa nombre, símbolo, magnitud y factor de conversión; el sistema valida el factor.",
+      "5. Actualizar: el sistema bloquea el cambio de factor si la unidad ya tiene registros históricos.",
+      "6. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. El tipo de residuo o la unidad ya existe.",
+      "2. Se intenta cambiar el factor de una unidad con registros.",
+      "3. El factor de conversión no es positivo."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "CRUD-unidad",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-CRUD-unidad.png"
+      },
+      {
+        "id": "CRUD-tipo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-CRUD-tipo.png"
+      },
+      {
+        "id": "DUP-unidad",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-DUP-unidad.png"
+      },
+      {
+        "id": "DUP-tipo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-DUP-tipo.png"
+      },
+      {
+        "id": "LIM-unidad-0",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-unidad-0.png"
+      },
+      {
+        "id": "LIM-unidad--1",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-unidad--1.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU09",
+    "nombre": "Registrar vaciado de residuos",
+    "rf": "RF8",
+    "roles": [
+      "POL",
+      "SUP"
+    ],
+    "proceso": [
+      "1. El sistema muestra el siguiente punto de la ruta de la jornada.",
+      "2. El operario indica si el punto presenta residuos.",
+      "2.a. Si no presenta, el sistema registra la visita sin generación y pasa al siguiente punto.",
+      "3. El operario selecciona el tipo de residuo; el sistema propone la unidad asociada.",
+      "4. El operario ingresa la cantidad y, si corresponde, agrega otros tipos a la misma visita y observaciones.",
+      "5. El sistema valida que la cantidad sea positiva y coherente con la capacidad del punto.",
+      "6. El sistema almacena el registro con fecha, hora, usuario y jornada, y actualiza el avance de la ruta.",
+      "7. Si el operario detecta un problema, extiende con CU10 Registrar incidencia operativa."
+    ],
+    "excepciones": [
+      "1. El punto no pertenece a la jornada.",
+      "2. La cantidad es nula, negativa o excede la capacidad del punto.",
+      "3. No hay conexión: el sistema informa el error y conserva el formulario.",
+      "4. La jornada no está en ejecución."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "R-vaciado-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\operations-20261119-004328-R-vaciado-operario1.png"
+      },
+      {
+        "id": "R-sin-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\operations-20261119-004328-R-sin-operario1.png"
+      },
+      {
+        "id": "R-vaciado-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\operations-20261119-005427-R-vaciado-operario2.png"
+      },
+      {
+        "id": "R-sin-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\operations-20261119-005427-R-sin-operario2.png"
+      },
+      {
+        "id": "R-vaciado-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-R-vaciado-supervisor.png"
+      },
+      {
+        "id": "R-sin-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-R-sin-supervisor.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU10",
+    "nombre": "Registrar incidencia operativa",
+    "rf": "RF10",
+    "roles": [
+      "POL",
+      "SUP"
+    ],
+    "proceso": [
+      "1. El usuario selecciona el punto afectado.",
+      "2. El sistema solicita tipo, descripción y gravedad.",
+      "3. El usuario registra la información.",
+      "4. El sistema almacena la incidencia como pendiente y la muestra en el panel del supervisor del sector."
+    ],
+    "excepciones": [
+      "1. El punto indicado no existe.",
+      "2. Existen datos obligatorios incompletos."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "I-reportar-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\operations-20261119-004328-I-reportar-operario1.png"
+      },
+      {
+        "id": "I-reportar-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\operations-20261119-005427-I-reportar-operario2.png"
+      },
+      {
+        "id": "I-reportar-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-I-reportar-supervisor.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU11",
+    "nombre": "Atender incidencia",
+    "rf": "RF10",
+    "roles": [
+      "SUP"
+    ],
+    "proceso": [
+      "1. El supervisor accede a las incidencias pendientes.",
+      "2. El sistema muestra las incidencias de sus sectores.",
+      "3. El supervisor selecciona una y registra la acción adoptada.",
+      "4. El sistema la marca como atendida con fecha y usuario.",
+      "5. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. La incidencia ya está atendida.",
+      "2. El sector no está asignado al supervisor."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "I-atender",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-I-atender.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU12",
+    "nombre": "Consultar histórico de residuos",
+    "rf": "RF9",
+    "roles": [
+      "SUP",
+      "ADM",
+      "CDD",
+      "POL"
+    ],
+    "proceso": [
+      "1. El usuario accede al módulo de registros.",
+      "2. El usuario define el rango de fechas y los filtros.",
+      "3. El sistema recupera los registros (el supervisor solo ve sus sectores).",
+      "4. El sistema muestra los resultados paginados y los totales por tipo de residuo.",
+      "5. El usuario puede consultar el detalle de un registro."
+    ],
+    "excepciones": [
+      "1. No existen registros para los filtros.",
+      "2. El rango de fechas es inválido."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "R-historico",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-R-historico.png"
+      },
+      {
+        "id": "CR-tablero-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-supervisor.png"
+      },
+      {
+        "id": "CR-tablero-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-administrativo.png"
+      },
+      {
+        "id": "CR-tablero-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-directivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU13",
+    "nombre": "Gestionar vehículos",
+    "rf": "RF13",
+    "roles": [
+      "ADM",
+      "SUP"
+    ],
+    "proceso": [
+      "1. El usuario accede al módulo de vehículos.",
+      "2. El sistema muestra los vehículos registrados.",
+      "3. Registrar o actualizar: el usuario ingresa placa, descripción, capacidad y estado; el sistema valida que la placa sea única y guarda.",
+      "4. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. La placa ya está registrada.",
+      "2. Existen datos obligatorios incompletos."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "CRUD-vehiculo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-CRUD-vehiculo.png"
+      },
+      {
+        "id": "DUP-vehiculo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-DUP-vehiculo.png"
+      },
+      {
+        "id": "LIM-vehiculo-0",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-vehiculo-0.png"
+      },
+      {
+        "id": "LIM-vehiculo--1",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-LIM-vehiculo--1.png"
+      },
+      {
+        "id": "PERM-conexion",
+        "rol": "administrativo",
+        "evidencia": "capturas\\permissions-20261119-004021-PERM-conexion.png"
+      },
+      {
+        "id": "CRUD-vehiculo",
+        "rol": "supervisor",
+        "evidencia": "capturas\\catalogs-20261119-005624-CRUD-vehiculo.png"
+      },
+      {
+        "id": "DUP-vehiculo",
+        "rol": "supervisor",
+        "evidencia": "capturas\\catalogs-20261119-005624-DUP-vehiculo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU14",
+    "nombre": "Planificar jornada y ruta de recolección",
+    "rf": "RF11",
+    "roles": [
+      "SUP",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El supervisor accede al módulo de jornadas y elige Nueva jornada.",
+      "2. El sistema solicita fecha, turno y sector.",
+      "3. El sistema propone los puntos priorizados por las recomendaciones aceptadas.",
+      "4. El supervisor agrega, quita y ordena los puntos de la ruta.",
+      "5. El sistema ejecuta CU15 Asignar personal y vehículos a la jornada.",
+      "6. El supervisor confirma la jornada; el sistema la publica para el personal asignado.",
+      "7. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. Ya existe una jornada para la misma fecha, turno y sector.",
+      "2. La ruta no tiene puntos.",
+      "3. Un punto de la ruta está desactivado.",
+      "4. El sector no está asignado al supervisor."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "J-crear-FICCT",
+        "rol": "supervisor",
+        "evidencia": "capturas\\final_edit-20261119-010709-J-crear-FICCT.png"
+      },
+      {
+        "id": "J-crear-FCET",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-crear-FCET.png"
+      },
+      {
+        "id": "J-confirmar-1049",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004037-J-confirmar-1049.png"
+      },
+      {
+        "id": "J-confirmar-1050",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004037-J-confirmar-1050.png"
+      },
+      {
+        "id": "J-confirmar-1051",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004328-J-confirmar-1051.png"
+      },
+      {
+        "id": "J-confirmar-1052",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004328-J-confirmar-1052.png"
+      },
+      {
+        "id": "J-confirmar-1053",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-confirmar-1053.png"
+      },
+      {
+        "id": "J-confirmar-1054",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-confirmar-1054.png"
+      },
+      {
+        "id": "FINAL-plan-admin",
+        "rol": "administrativo",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-plan-admin.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU15",
+    "nombre": "Asignar personal y vehículos a la jornada",
+    "rf": "RF13",
+    "roles": [
+      "SUP",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El sistema muestra el personal y los vehículos disponibles para el turno.",
+      "2. El supervisor selecciona los recursos y designa al responsable.",
+      "3. El sistema valida que no exista superposición de turno y que los vehículos estén en servicio.",
+      "4. El sistema registra la asignación."
+    ],
+    "excepciones": [
+      "1. Una persona ya está asignada a otra jornada en el mismo turno.",
+      "2. No se designó responsable.",
+      "3. Un vehículo está fuera de servicio."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "J-concurrencia",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-concurrencia.png"
+      },
+      {
+        "id": "J-asignar2",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-asignar2.png"
+      },
+      {
+        "id": "FINAL-plan-admin",
+        "rol": "administrativo",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-plan-admin.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU16",
+    "nombre": "Ejecutar jornada de recolección",
+    "rf": "RF12",
+    "roles": [
+      "SUP",
+      "POL"
+    ],
+    "proceso": [
+      "1. El supervisor u operario responsable abre la jornada.",
+      "2. El sistema registra la hora de inicio y habilita la captura.",
+      "3. Para cada punto de la ruta, el sistema ejecuta CU9 Registrar vaciado de residuos.",
+      "4. Si un punto no puede atenderse, extiende con CU17 Omitir punto de la ruta.",
+      "5. El sistema actualiza el avance hasta agotar la ruta."
+    ],
+    "excepciones": [
+      "1. La fecha de la jornada no corresponde.",
+      "2. El usuario no forma parte del personal asignado.",
+      "3. La jornada no está confirmada."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "J-confirmar-1049",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004037-J-confirmar-1049.png"
+      },
+      {
+        "id": "J-confirmar-1050",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004037-J-confirmar-1050.png"
+      },
+      {
+        "id": "J-abrir-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\operations-20261119-004328-J-abrir-operario1.png"
+      },
+      {
+        "id": "R-sin-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\operations-20261119-004328-R-sin-operario1.png"
+      },
+      {
+        "id": "S-alcance-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\operations-20261119-004328-S-alcance-operario1.png"
+      },
+      {
+        "id": "J-abrir-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\operations-20261119-005427-J-abrir-operario2.png"
+      },
+      {
+        "id": "R-sin-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\operations-20261119-005427-R-sin-operario2.png"
+      },
+      {
+        "id": "S-alcance-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\operations-20261119-005427-S-alcance-operario2.png"
+      },
+      {
+        "id": "J-confirmar-1051",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004328-J-confirmar-1051.png"
+      },
+      {
+        "id": "J-confirmar-1052",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004328-J-confirmar-1052.png"
+      },
+      {
+        "id": "J-confirmar-1053",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-confirmar-1053.png"
+      },
+      {
+        "id": "J-confirmar-1054",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-confirmar-1054.png"
+      },
+      {
+        "id": "J-abrir-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-abrir-supervisor.png"
+      },
+      {
+        "id": "R-sin-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-R-sin-supervisor.png"
+      },
+      {
+        "id": "FINAL-fecha",
+        "rol": "operario1",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-fecha.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU17",
+    "nombre": "Omitir punto de la ruta",
+    "rf": "RF12",
+    "roles": [
+      "POL",
+      "SUP"
+    ],
+    "proceso": [
+      "1. El usuario selecciona Omitir en el punto actual.",
+      "2. El sistema solicita el motivo.",
+      "3. El sistema marca el punto como omitido y presenta el siguiente."
+    ],
+    "excepciones": [
+      "1. No se indicó el motivo.",
+      "2. El punto ya fue visitado."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "R-omitir-operario1",
+        "rol": "operario1",
+        "evidencia": "capturas\\operations-20261119-004328-R-omitir-operario1.png"
+      },
+      {
+        "id": "R-omitir-operario2",
+        "rol": "operario2",
+        "evidencia": "capturas\\operations-20261119-005427-R-omitir-operario2.png"
+      },
+      {
+        "id": "R-omitir-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-R-omitir-supervisor.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU18",
+    "nombre": "Cerrar jornada de recolección",
+    "rf": "RF12",
+    "roles": [
+      "SUP"
+    ],
+    "proceso": [
+      "1. El supervisor solicita el cierre de la jornada.",
+      "2. El sistema totaliza las cantidades por tipo de residuo y contrasta lo ejecutado con lo planificado.",
+      "3. El supervisor revisa el resumen y registra observaciones.",
+      "4. El sistema cierra la jornada con la hora de finalización e impide nuevas modificaciones.",
+      "5. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. La jornada ya está cerrada.",
+      "2. Existen puntos sin registro ni motivo de omisión."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "J-cerrar-1049",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004037-J-cerrar-1049.png"
+      },
+      {
+        "id": "J-cerrar-1050",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004037-J-cerrar-1050.png"
+      },
+      {
+        "id": "J-cierre-prematuro",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-cierre-prematuro.png"
+      },
+      {
+        "id": "J-cerrar-1051",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004328-J-cerrar-1051.png"
+      },
+      {
+        "id": "J-cerrar-1052",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004328-J-cerrar-1052.png"
+      },
+      {
+        "id": "J-cerrar-1053",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-cerrar-1053.png"
+      },
+      {
+        "id": "J-cerrar-1054",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-cerrar-1054.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU19",
+    "nombre": "Consultar historial de recolecciones",
+    "rf": "RF14",
+    "roles": [
+      "SUP",
+      "ADM",
+      "CDD",
+      "POL"
+    ],
+    "proceso": [
+      "1. El usuario accede al historial de jornadas.",
+      "2. El usuario aplica los filtros.",
+      "3. El sistema muestra las jornadas con su porcentaje de cobertura y totales.",
+      "4. El usuario selecciona una jornada y el sistema despliega su recorrido, registros e incidencias."
+    ],
+    "excepciones": [
+      "1. No existen jornadas para los filtros.",
+      "2. El rango de fechas es inválido."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "J-cerrar-1049",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004037-J-cerrar-1049.png"
+      },
+      {
+        "id": "J-cerrar-1050",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004037-J-cerrar-1050.png"
+      },
+      {
+        "id": "J-cerrar-1051",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004328-J-cerrar-1051.png"
+      },
+      {
+        "id": "J-cerrar-1052",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-004328-J-cerrar-1052.png"
+      },
+      {
+        "id": "J-cerrar-1053",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-cerrar-1053.png"
+      },
+      {
+        "id": "J-cerrar-1054",
+        "rol": "supervisor",
+        "evidencia": "capturas\\operations-20261119-005427-J-cerrar-1054.png"
+      },
+      {
+        "id": "FINAL-responsive-1440",
+        "rol": "administrativo",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-1440.png"
+      },
+      {
+        "id": "FINAL-responsive-820",
+        "rol": "administrativo",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-820.png"
+      },
+      {
+        "id": "FINAL-responsive-390",
+        "rol": "administrativo",
+        "evidencia": "capturas\\final_checks-20261119-010606-FINAL-responsive-390.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU20",
+    "nombre": "Ejecutar proceso ETL",
+    "rf": "RF15",
+    "roles": [
+      "ADM"
+    ],
+    "proceso": [
+      "1. El administrador selecciona Ejecutar ETL (o la tarea programada del servidor lo inicia al cumplirse la periodicidad).",
+      "2. El sistema crea la ejecución y extrae los registros pendientes.",
+      "3. El sistema elimina duplicados, corrige formatos y estandariza las cantidades a kilogramos.",
+      "4. El sistema deriva día, semana, mes y periodo académico y marca los valores atípicos.",
+      "5. El sistema carga los hechos depurados y guarda los descartados con su motivo.",
+      "6. El sistema registra el resultado (procesados, aceptados, observados, duración).",
+      "7. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. No hay registros nuevos.",
+      "2. Ya hay una ejecución en curso.",
+      "3. Falla la conexión con la base de datos: la ejecución queda como fallida."
+    ],
+    "estado": "PARCIAL",
+    "pruebas": [
+      {
+        "id": "ETL-1",
+        "rol": "administrativo",
+        "evidencia": "capturas\\analytics-20261119-004751-ETL-1.png"
+      },
+      {
+        "id": "ETL-2",
+        "rol": "administrativo",
+        "evidencia": "capturas\\etl_repeat-20261119-005025-ETL-2.png"
+      },
+      {
+        "id": "ETL-concurrencia-duplicados",
+        "rol": "administrativo",
+        "evidencia": "capturas\\etl_concurrent-20261119-005014-ETL-concurrencia-duplicados.png"
+      }
+    ],
+    "limite": "No se simuló caída de base durante el ETL."
+  },
+  {
+    "id": "CU21",
+    "nombre": "Visualizar tablero interactivo",
+    "rf": "RF16, RF17",
+    "roles": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario accede al tablero.",
+      "2. El sistema recupera los hechos del periodo con los filtros por defecto.",
+      "3. El sistema calcula totales, promedios y frecuencias, la variación respecto del periodo anterior y los puntos que superan el umbral crítico configurado.",
+      "4. El sistema presenta indicadores, series y gráficos.",
+      "5. El usuario modifica los filtros o hace clic en un elemento.",
+      "6. El sistema recalcula y actualiza todas las visualizaciones.",
+      "7. Opcionalmente, el usuario abre la pestaña Power BI.",
+      "8. Si desea comparar periodos, extiende con CU22."
+    ],
+    "excepciones": [
+      "1. No hay datos para la combinación de filtros.",
+      "2. El periodo anterior no tiene datos para la variación.",
+      "3. El informe de Power BI no está configurado."
+    ],
+    "estado": "PARCIAL",
+    "pruebas": [
+      {
+        "id": "A-tablero",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-A-tablero.png"
+      },
+      {
+        "id": "A-powerbi",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-A-powerbi.png"
+      },
+      {
+        "id": "CR-tablero-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-supervisor.png"
+      },
+      {
+        "id": "CR-tablero-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-administrativo.png"
+      },
+      {
+        "id": "CR-tablero-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-directivo.png"
+      }
+    ],
+    "limite": "Power BI publicado sin configuración externa verificable."
+  },
+  {
+    "id": "CU22",
+    "nombre": "Comparar periodos e identificar tendencias",
+    "rf": "RF18",
+    "roles": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario selecciona el periodo base y el de comparación.",
+      "2. El sistema calcula la variación absoluta y porcentual.",
+      "3. El sistema evalúa la tendencia (cuatro meses consecutivos al alza).",
+      "4. El sistema muestra la comparación y destaca las tendencias crecientes."
+    ],
+    "excepciones": [
+      "1. Un periodo no tiene datos.",
+      "2. Los periodos se superponen."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "A-comparar",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-A-comparar.png"
+      },
+      {
+        "id": "CR-tablero-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-supervisor.png"
+      },
+      {
+        "id": "CR-tablero-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-administrativo.png"
+      },
+      {
+        "id": "CR-tablero-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-directivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU23",
+    "nombre": "Visualizar puntos en el mapa interactivo",
+    "rf": "RF19",
+    "roles": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario accede al mapa del campus.",
+      "2. El sistema carga la cartografía base (OpenStreetMap).",
+      "3. El sistema posiciona los marcadores según latitud y longitud, diferenciados por nivel de generación.",
+      "4. El usuario selecciona un marcador y el sistema muestra código, sector, capacidad, generación y última atención.",
+      "5. El usuario puede extender con CU24 o CU25."
+    ],
+    "excepciones": [
+      "1. No hay puntos con coordenadas.",
+      "2. El servicio de cartografía no está disponible."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "A-mapa",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-A-mapa.png"
+      },
+      {
+        "id": "CR-mapa-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-supervisor.png"
+      },
+      {
+        "id": "CR-mapa-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-administrativo.png"
+      },
+      {
+        "id": "CR-mapa-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-directivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU24",
+    "nombre": "Generar mapa de calor",
+    "rf": "RF20",
+    "roles": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario activa la capa de calor y elige observada o proyectada.",
+      "2. El sistema recupera las cantidades por punto del alcance.",
+      "3. El sistema normaliza las cantidades y asigna el peso relativo.",
+      "4. El sistema dibuja el gradiente y la leyenda.",
+      "5. El sistema resalta los puntos que superan el umbral crítico."
+    ],
+    "excepciones": [
+      "1. No hay datos para el alcance.",
+      "2. Se pide la capa proyectada sin predicciones vigentes."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "A-mapa",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-A-mapa.png"
+      },
+      {
+        "id": "CR-mapa-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-supervisor.png"
+      },
+      {
+        "id": "CR-mapa-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-administrativo.png"
+      },
+      {
+        "id": "CR-mapa-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-directivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU25",
+    "nombre": "Filtrar mapa por periodo, sector y tipo de residuo",
+    "rf": "RF21",
+    "roles": [
+      "CDD",
+      "SUP",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario modifica fechas, periodo, sector, punto o tipo.",
+      "2. El sistema recupera la información del nuevo alcance.",
+      "3. El sistema actualiza marcadores y capa de calor.",
+      "4. El usuario puede restablecer los filtros."
+    ],
+    "excepciones": [
+      "1. La combinación no arroja resultados.",
+      "2. El rango de fechas es inválido."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "A-mapa",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-A-mapa.png"
+      },
+      {
+        "id": "CR-mapa-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-supervisor.png"
+      },
+      {
+        "id": "CR-mapa-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-administrativo.png"
+      },
+      {
+        "id": "CR-mapa-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-directivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU26",
+    "nombre": "Entrenar y evaluar el modelo Random Forest Regressor",
+    "rf": "RF22",
+    "roles": [
+      "ADM"
+    ],
+    "proceso": [
+      "1. El administrador accede al módulo del modelo.",
+      "2. El sistema propone hiperparámetros (árboles, profundidad, muestras por hoja).",
+      "3. El administrador acepta o ajusta y selecciona Entrenar.",
+      "4. El sistema construye las variables y el objetivo, y codifica las categóricas.",
+      "5. El sistema separa entrenamiento y prueba respetando el orden cronológico.",
+      "6. El sistema entrena el Random Forest Regressor.",
+      "7. El sistema evalúa MAE, RMSE y R² e importancias.",
+      "8. El sistema guarda la versión como candidata si supera el umbral.",
+      "9. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. Volumen de datos insuficiente.",
+      "2. Las métricas no alcanzan el umbral: la versión queda rechazada.",
+      "3. Hiperparámetros fuera de rango.",
+      "4. Ya hay un entrenamiento en curso."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "ML-rechazo-999999",
+        "rol": "administrativo",
+        "evidencia": "capturas\\prediction_negative-20261119-005032-ML-rechazo-999999.png"
+      },
+      {
+        "id": "ML-rechazo-1",
+        "rol": "administrativo",
+        "evidencia": "capturas\\prediction_negative-20261119-005032-ML-rechazo-1.png"
+      },
+      {
+        "id": "ML-hiper-limites",
+        "rol": "administrativo",
+        "evidencia": "capturas\\prediction_negative-20261119-005032-ML-hiper-limites.png"
+      },
+      {
+        "id": "ML-entrenar-1",
+        "rol": "administrativo",
+        "evidencia": "capturas\\prediction-20261119-005052-ML-entrenar-1.png"
+      },
+      {
+        "id": "ML-entrenar-2",
+        "rol": "administrativo",
+        "evidencia": "capturas\\prediction-20261119-005052-ML-entrenar-2.png"
+      },
+      {
+        "id": "ML-concurrencia",
+        "rol": "administrativo",
+        "evidencia": "capturas\\model_concurrent-20261119-005449-ML-concurrencia.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU27",
+    "nombre": "Publicar o revertir versión del modelo",
+    "rf": "RF22",
+    "roles": [
+      "ADM"
+    ],
+    "proceso": [
+      "1. El sistema lista las versiones con sus métricas.",
+      "2. El administrador elige una versión y selecciona Publicar.",
+      "3. El sistema la marca vigente y retira la anterior.",
+      "4. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. La versión no superó el umbral.",
+      "2. La versión ya es la vigente."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "ML-revertir",
+        "rol": "administrativo",
+        "evidencia": "capturas\\prediction-20261119-005052-ML-revertir.png"
+      },
+      {
+        "id": "ML-concurrencia",
+        "rol": "administrativo",
+        "evidencia": "capturas\\model_concurrent-20261119-005449-ML-concurrencia.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU28",
+    "nombre": "Predecir generación futura y emitir alertas",
+    "rf": "RF23, RF24",
+    "roles": [
+      "SUP",
+      "CDD",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario accede al módulo de predicción.",
+      "2. El usuario define el horizonte (días) y el sector o punto y ejecuta la predicción.",
+      "3. El sistema construye las variables con el estado histórico y las fechas futuras.",
+      "4. El sistema aplica el modelo vigente.",
+      "5. El sistema agrega por sector y tipo y calcula el margen de error.",
+      "6. El sistema guarda el lote con la versión del modelo.",
+      "7. El sistema evalúa cada punto: si se desbordaría antes de la próxima atención emite una alerta de priorización; si el máximo diario alcanza la capacidad recomienda contenedores; si el crecimiento supera el umbral recomienda aumentar la frecuencia; si el porcentaje no aprovechable supera el umbral recomienda reforzar la separación.",
+      "8. El sistema guarda cada recomendación con su evidencia, pendiente de resolución.",
+      "9. El sistema muestra las estimaciones siempre con su margen."
+    ],
+    "excepciones": [
+      "1. No hay modelo vigente.",
+      "2. El horizonte excede el máximo configurado.",
+      "3. Un punto carece de historial suficiente.",
+      "4. Un punto no tiene capacidad instalada registrada: no se evalúa el desborde."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "ML-sin-modelo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\model_absent-20261119-005443-ML-sin-modelo.png"
+      },
+      {
+        "id": "ML-predecir",
+        "rol": "supervisor",
+        "evidencia": "capturas\\prediction-20261119-005052-ML-predecir.png"
+      },
+      {
+        "id": "CR-prediccion-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-supervisor.png"
+      },
+      {
+        "id": "CR-prediccion-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-administrativo.png"
+      },
+      {
+        "id": "CR-prediccion-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-directivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU29",
+    "nombre": "Consultar alertas y recomendaciones logísticas",
+    "rf": "RF24",
+    "roles": [
+      "SUP",
+      "CDD",
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario accede a Alertas y recomendaciones.",
+      "2. El sistema muestra las alertas y recomendaciones de su alcance ordenadas por urgencia.",
+      "3. El usuario filtra por estado, sector o tipo.",
+      "4. El usuario abre una recomendación y el sistema muestra su evidencia (predicción, capacidad y tendencia).",
+      "5. Si tiene permiso para resolverla, puede extender con CU30."
+    ],
+    "excepciones": [
+      "1. No hay recomendaciones para los filtros."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "ML-resolver",
+        "rol": "supervisor",
+        "evidencia": "capturas\\prediction-20261119-005052-ML-resolver.png"
+      },
+      {
+        "id": "CR-prediccion-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-supervisor.png"
+      },
+      {
+        "id": "CR-prediccion-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-administrativo.png"
+      },
+      {
+        "id": "CR-prediccion-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-directivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU30",
+    "nombre": "Atender recomendación logística",
+    "rf": "RF24",
+    "roles": [
+      "SUP",
+      "ADM"
+    ],
+    "proceso": [
+      "1. Desde CU29, el supervisor selecciona una recomendación pendiente.",
+      "2. El sistema muestra su evidencia.",
+      "3. El supervisor acepta o descarta e indica el motivo.",
+      "4. Si acepta, el sistema incorpora el punto a la próxima jornada planificada del sector.",
+      "5. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. La recomendación ya fue resuelta.",
+      "2. Falta el motivo.",
+      "3. El sector no está asignado al supervisor."
+    ],
+    "estado": "PARCIAL",
+    "pruebas": [
+      {
+        "id": "ML-resolver",
+        "rol": "supervisor",
+        "evidencia": "capturas\\prediction-20261119-005052-ML-resolver.png"
+      }
+    ],
+    "limite": "Documento incluye Administrador como resolutor; interfaz vigente no le ofrece Aceptar/Descartar."
+  },
+  {
+    "id": "CU31",
+    "nombre": "Configurar periodos académicos y parámetros",
+    "rf": "RF25",
+    "roles": [
+      "ADM"
+    ],
+    "proceso": [
+      "1. El administrador accede a Parámetros.",
+      "2. El sistema muestra los valores vigentes.",
+      "3. El administrador modifica un parámetro; el sistema valida el rango y lo aplica.",
+      "4. El administrador registra un periodo académico con sus fechas; el sistema valida que no se superponga.",
+      "5. El sistema registra el evento en la bitácora de auditoría."
+    ],
+    "excepciones": [
+      "1. Valor fuera de rango.",
+      "2. Periodos superpuestos."
+    ],
+    "estado": "PARCIAL",
+    "pruebas": [
+      {
+        "id": "CRUD-periodo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-CRUD-periodo.png"
+      },
+      {
+        "id": "DUP-periodo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\catalogs-20261119-003231-DUP-periodo.png"
+      },
+      {
+        "id": "ADM-parametros",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-ADM-parametros.png"
+      }
+    ],
+    "limite": "No se agotaron todos los límites de los once parámetros."
+  },
+  {
+    "id": "CU32",
+    "nombre": "Consultar bitácora de auditoría",
+    "rf": "RF26",
+    "roles": [
+      "ADM"
+    ],
+    "proceso": [
+      "1. El usuario accede a la bitácora.",
+      "2. El usuario aplica los filtros.",
+      "3. El sistema muestra los registros.",
+      "4. El usuario selecciona uno y el sistema muestra los valores anteriores y nuevos."
+    ],
+    "excepciones": [
+      "1. No hay registros para los filtros.",
+      "2. Se intenta modificar o borrar un registro: la base de datos lo rechaza (disparador)."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "ADM-bitacora",
+        "rol": "administrativo",
+        "evidencia": "capturas\\administration-20261119-003910-ADM-bitacora.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  },
+  {
+    "id": "CU33",
+    "nombre": "Generar reporte",
+    "rf": "RF27",
+    "roles": [
+      "ADM",
+      "SUP",
+      "CDD"
+    ],
+    "proceso": [
+      "1. El usuario accede a Reportes y elige el tipo.",
+      "2. El usuario define fechas y filtros.",
+      "3. El sistema consolida la información (el supervisor solo sus sectores).",
+      "4. El sistema presenta el reporte en pantalla.",
+      "5. El usuario puede imprimirlo o extender con CU34 Exportar reporte a Excel o PDF."
+    ],
+    "excepciones": [
+      "1. No hay información para el periodo.",
+      "2. El rango de fechas es inválido."
+    ],
+    "estado": "PARCIAL",
+    "pruebas": [
+      {
+        "id": "REP-Generaci-n-por-sector",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-por-sector.png"
+      },
+      {
+        "id": "REP-Generaci-n-por-tipo-de-residuo",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-por-tipo-de-residuo.png"
+      },
+      {
+        "id": "REP-Cumplimiento-de-jornadas",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Cumplimiento-de-jornadas.png"
+      },
+      {
+        "id": "REP-Incidencias-registradas",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Incidencias-registradas.png"
+      },
+      {
+        "id": "REP-Indicadores-del-periodo",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Indicadores-del-periodo.png"
+      },
+      {
+        "id": "REP-Generaci-n-proyectada",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-proyectada.png"
+      },
+      {
+        "id": "RACE-reportes",
+        "rol": "directivo",
+        "evidencia": "capturas\\race-20261119-004745-RACE-reportes.png"
+      },
+      {
+        "id": "CR-reporte-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-supervisor.png"
+      },
+      {
+        "id": "CR-reporte-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-administrativo.png"
+      },
+      {
+        "id": "CR-reporte-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-directivo.png"
+      }
+    ],
+    "limite": "Botón Imprimir y vista nativa de impresión sin comprobar."
+  },
+  {
+    "id": "CU34",
+    "nombre": "Exportar reporte a Excel o PDF",
+    "rf": "RF27",
+    "roles": [
+      "ADM",
+      "SUP",
+      "CDD"
+    ],
+    "proceso": [
+      "1. El usuario selecciona el formato (Excel o PDF).",
+      "2. El sistema escribe el encabezado institucional y la tabla con sus totales.",
+      "3. En PDF, el sistema numera las páginas.",
+      "4. El sistema registra la emisión en la bitácora de auditoría.",
+      "5. El navegador descarga el archivo."
+    ],
+    "excepciones": [
+      "1. El volumen excede el máximo admitido para exportar.",
+      "2. Error al generar el archivo."
+    ],
+    "estado": "FLUJO_PRINCIPAL_APROBADO",
+    "pruebas": [
+      {
+        "id": "REP-Generaci-n-por-sector",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-por-sector.png"
+      },
+      {
+        "id": "REP-Generaci-n-por-tipo-de-residuo",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-por-tipo-de-residuo.png"
+      },
+      {
+        "id": "REP-Cumplimiento-de-jornadas",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Cumplimiento-de-jornadas.png"
+      },
+      {
+        "id": "REP-Incidencias-registradas",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Incidencias-registradas.png"
+      },
+      {
+        "id": "REP-Indicadores-del-periodo",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Indicadores-del-periodo.png"
+      },
+      {
+        "id": "REP-Generaci-n-proyectada",
+        "rol": "directivo",
+        "evidencia": "capturas\\analytics-20261119-004751-REP-Generaci-n-proyectada.png"
+      },
+      {
+        "id": "RACE-reportes",
+        "rol": "directivo",
+        "evidencia": "capturas\\race-20261119-004745-RACE-reportes.png"
+      },
+      {
+        "id": "CR-reporte-supervisor",
+        "rol": "supervisor",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-supervisor.png"
+      },
+      {
+        "id": "CR-reporte-administrativo",
+        "rol": "administrativo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-administrativo.png"
+      },
+      {
+        "id": "CR-reporte-directivo",
+        "rol": "directivo",
+        "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-directivo.png"
+      }
+    ],
+    "limite": "Resultado del flujo principal; no acredita todas las combinaciones y excepciones."
+  }
+]

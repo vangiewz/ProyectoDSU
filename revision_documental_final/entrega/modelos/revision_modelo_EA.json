@@ -1,0 +1,145 @@
+{
+  "original_sha256": "e70f2cb0d1bddda4377656f9720ac8c61259b56d8b1b948b816cbafbedda2b0f",
+  "copia": "DSU-ModeloImplementado-20261119.eapx",
+  "diagramas": [
+    {
+      "modelo": "auth.Permission",
+      "diagrama": 19,
+      "campos": 4,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "auth.Group",
+      "diagrama": 20,
+      "campos": 3,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "accounts.User",
+      "diagrama": 21,
+      "campos": 15,
+      "asociaciones": 2
+    },
+    {
+      "modelo": "audit.AuditLog",
+      "diagrama": 22,
+      "campos": 11,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "catalogs.ParametrosSistema",
+      "diagrama": 23,
+      "campos": 14,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "catalogs.PeriodoAcademico",
+      "diagrama": 24,
+      "campos": 4,
+      "asociaciones": 0
+    },
+    {
+      "modelo": "catalogs.UnidadMedida",
+      "diagrama": 25,
+      "campos": 6,
+      "asociaciones": 0
+    },
+    {
+      "modelo": "catalogs.TipoResiduo",
+      "diagrama": 26,
+      "campos": 7,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "campus.Sector",
+      "diagrama": 27,
+      "campos": 7,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "campus.PuntoRecoleccion",
+      "diagrama": 28,
+      "campos": 11,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "campus.Contenedor",
+      "diagrama": 29,
+      "campos": 8,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "operations.Vehiculo",
+      "diagrama": 30,
+      "campos": 6,
+      "asociaciones": 0
+    },
+    {
+      "modelo": "operations.Jornada",
+      "diagrama": 31,
+      "campos": 14,
+      "asociaciones": 5
+    },
+    {
+      "modelo": "operations.JornadaPunto",
+      "diagrama": 32,
+      "campos": 8,
+      "asociaciones": 2
+    },
+    {
+      "modelo": "operations.Incidencia",
+      "diagrama": 33,
+      "campos": 12,
+      "asociaciones": 4
+    },
+    {
+      "modelo": "operations.RegistroResiduo",
+      "diagrama": 34,
+      "campos": 9,
+      "asociaciones": 5
+    },
+    {
+      "modelo": "analytics.EjecucionETL",
+      "diagrama": 35,
+      "campos": 11,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "analytics.HechoResiduo",
+      "diagrama": 36,
+      "campos": 19,
+      "asociaciones": 8
+    },
+    {
+      "modelo": "analytics.RegistroDescartado",
+      "diagrama": 37,
+      "campos": 4,
+      "asociaciones": 2
+    },
+    {
+      "modelo": "prediction.ModeloEntrenado",
+      "diagrama": 38,
+      "campos": 21,
+      "asociaciones": 1
+    },
+    {
+      "modelo": "prediction.LotePrediccion",
+      "diagrama": 39,
+      "campos": 9,
+      "asociaciones": 4
+    },
+    {
+      "modelo": "prediction.Prediccion",
+      "diagrama": 40,
+      "campos": 8,
+      "asociaciones": 4
+    },
+    {
+      "modelo": "prediction.Recomendacion",
+      "diagrama": 41,
+      "campos": 14,
+      "asociaciones": 5
+    }
+  ],
+  "alcance": "Paquete nuevo de clases y asociaciones del ORM; campos en el modelo nativo y vistas ampliadas SVG/PNG en el PDF; no modifica modelos anteriores ni base de datos"
+}

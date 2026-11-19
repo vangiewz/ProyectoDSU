@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ROUTE-administrativo-jornadas-nueva",
+    "titulo": "Planificación autorizada para Administrador",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:29:19.557663+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Corrección del oráculo de prueba: Administrador tiene operations.add_jornada; no es un defecto del producto",
+    "evidencia": "capturas\\auth_extra-20261119-002916-ROUTE-administrativo-jornadas-nueva.png",
+    "segundos": 0.47
+  },
+  {
+    "id": "AUTH-refresh",
+    "titulo": "Expiración real y renovación de sesión",
+    "rol": "administrativo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:29:20.030907+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Tras 65 s, access JWT de 1 minuto renovado automáticamente; pantalla conserva autenticación",
+    "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-refresh.png",
+    "segundos": 65.53
+  },
+  {
+    "id": "AUTH-expired",
+    "titulo": "Sesión no renovable vuelve al ingreso",
+    "rol": "administrativo",
+    "cu": [
+      1,
+      2
+    ],
+    "inicio_utc": "2026-11-19T04:30:25.554701+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Inyección local de sesión inválida: regreso a ingreso, sin datos protegidos",
+    "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-expired.png",
+    "segundos": 0.27
+  },
+  {
+    "id": "AUTH-invalid",
+    "titulo": "Campos vacíos bloqueados y credenciales incorrectas rechazadas",
+    "rol": "anónimo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:30:25.822115+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\auth_extra-20261119-002916-AUTH-invalid.png",
+    "segundos": 1.61
+  }
+]

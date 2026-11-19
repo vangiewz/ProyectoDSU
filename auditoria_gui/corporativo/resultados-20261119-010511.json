@@ -1,0 +1,1400 @@
+[
+  {
+    "id": "contacto-html-1440",
+    "inicio_utc": "2026-11-19T05:05:17.645472+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "contacto.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-contacto-html-1440.png"
+  },
+  {
+    "id": "index-html-1440",
+    "inicio_utc": "2026-11-19T05:05:18.283126+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Imagen rota",
+    "evidencia": "20261119-010511-index-html-1440.png"
+  },
+  {
+    "id": "marketing-index-html-1440",
+    "inicio_utc": "2026-11-19T05:05:19.123632+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "marketing/index.html",
+      "ancho": 1440,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-marketing-index-html-1440.png"
+  },
+  {
+    "id": "novedades-html-1440",
+    "inicio_utc": "2026-11-19T05:05:19.583713+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "novedades.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-novedades-html-1440.png"
+  },
+  {
+    "id": "pitch-index-html-1440",
+    "inicio_utc": "2026-11-19T05:05:20.103872+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "pitch/index.html",
+      "ancho": 1440,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-pitch-index-html-1440.png"
+  },
+  {
+    "id": "planes-html-1440",
+    "inicio_utc": "2026-11-19T05:05:20.928137+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: False \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"details\").first.locator(\"p\").first\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n",
+    "evidencia": "20261119-010511-planes-html-1440.png"
+  },
+  {
+    "id": "privacidad-html-1440",
+    "inicio_utc": "2026-11-19T05:05:26.646587+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "privacidad.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-privacidad-html-1440.png"
+  },
+  {
+    "id": "soporte-html-1440",
+    "inicio_utc": "2026-11-19T05:05:27.166324+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: False \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"details\").first.locator(\"p\").first\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n",
+    "evidencia": "20261119-010511-soporte-html-1440.png"
+  },
+  {
+    "id": "terminos-html-1440",
+    "inicio_utc": "2026-11-19T05:05:32.799192+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "terminos.html",
+      "ancho": 1440,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-terminos-html-1440.png"
+  },
+  {
+    "id": "contacto-validacion-error-1440",
+    "inicio_utc": "2026-11-19T05:05:33.350087+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator.evaluate: Error: strict mode violation: locator(\"form\") resolved to 2 elements:\n    1) <form novalidate=\"\" data-envio=\"Contacto desde el sitio\">…</form> aka get_by_text(\"Nombre Cargo Institución\")\n    2) <form class=\"escribir\">…</form> aka get_by_text(\"Escriba su preguntaEnviar\")\n\nCall log:\nwaiting for locator(\"form\")\n",
+    "evidencia": "20261119-010511-contacto-validacion-error-1440.png"
+  },
+  {
+    "id": "calendario-1440",
+    "inicio_utc": "2026-11-19T05:05:33.893497+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "inicio": "Semana del 05/01/2026: 1 049 kg, Receso de verano",
+      "fin": "Semana del 20/10/2026: aproximadamente 2 896 kg, Pronóstico del modelo v2 · semana 20–26 oct",
+      "control": "Teclado en deslizador de calendario"
+    },
+    "evidencia": "20261119-010511-calendario-1440.png"
+  },
+  {
+    "id": "contacto-html-820",
+    "inicio_utc": "2026-11-19T05:05:35.403384+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "contacto.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-contacto-html-820.png"
+  },
+  {
+    "id": "index-html-820",
+    "inicio_utc": "2026-11-19T05:05:36.010941+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Imagen rota",
+    "evidencia": "20261119-010511-index-html-820.png"
+  },
+  {
+    "id": "marketing-index-html-820",
+    "inicio_utc": "2026-11-19T05:05:36.815623+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "marketing/index.html",
+      "ancho": 820,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-marketing-index-html-820.png"
+  },
+  {
+    "id": "novedades-html-820",
+    "inicio_utc": "2026-11-19T05:05:37.252078+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "novedades.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-novedades-html-820.png"
+  },
+  {
+    "id": "pitch-index-html-820",
+    "inicio_utc": "2026-11-19T05:05:37.799727+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "pitch/index.html",
+      "ancho": 820,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-pitch-index-html-820.png"
+  },
+  {
+    "id": "planes-html-820",
+    "inicio_utc": "2026-11-19T05:05:38.406205+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: False \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"details\").first.locator(\"p\").first\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n",
+    "evidencia": "20261119-010511-planes-html-820.png"
+  },
+  {
+    "id": "privacidad-html-820",
+    "inicio_utc": "2026-11-19T05:05:44.074269+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "privacidad.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-privacidad-html-820.png"
+  },
+  {
+    "id": "soporte-html-820",
+    "inicio_utc": "2026-11-19T05:05:44.565699+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: False \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"details\").first.locator(\"p\").first\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n",
+    "evidencia": "20261119-010511-soporte-html-820.png"
+  },
+  {
+    "id": "terminos-html-820",
+    "inicio_utc": "2026-11-19T05:05:50.155406+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "terminos.html",
+      "ancho": 820,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-terminos-html-820.png"
+  },
+  {
+    "id": "contacto-validacion-error-820",
+    "inicio_utc": "2026-11-19T05:05:50.659356+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator.evaluate: Error: strict mode violation: locator(\"form\") resolved to 2 elements:\n    1) <form novalidate=\"\" data-envio=\"Contacto desde el sitio\">…</form> aka get_by_text(\"Nombre Cargo Institución\")\n    2) <form class=\"escribir\">…</form> aka get_by_text(\"Escriba su preguntaEnviar\")\n\nCall log:\nwaiting for locator(\"form\")\n",
+    "evidencia": "20261119-010511-contacto-validacion-error-820.png"
+  },
+  {
+    "id": "calendario-820",
+    "inicio_utc": "2026-11-19T05:05:51.194143+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "inicio": "Semana del 05/01/2026: 1 049 kg, Receso de verano",
+      "fin": "Semana del 20/10/2026: aproximadamente 2 896 kg, Pronóstico del modelo v2 · semana 20–26 oct",
+      "control": "Teclado en deslizador de calendario"
+    },
+    "evidencia": "20261119-010511-calendario-820.png"
+  },
+  {
+    "id": "contacto-html-390",
+    "inicio_utc": "2026-11-19T05:05:52.409221+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "contacto.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "asistente",
+          "href": "#"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-contacto-html-390.png"
+  },
+  {
+    "id": "index-html-390",
+    "inicio_utc": "2026-11-19T05:05:53.189135+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Imagen rota",
+    "evidencia": "20261119-010511-index-html-390.png"
+  },
+  {
+    "id": "marketing-index-html-390",
+    "inicio_utc": "2026-11-19T05:05:53.780530+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "marketing/index.html",
+      "ancho": 390,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-marketing-index-html-390.png"
+  },
+  {
+    "id": "novedades-html-390",
+    "inicio_utc": "2026-11-19T05:05:54.167246+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "novedades.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-novedades-html-390.png"
+  },
+  {
+    "id": "pitch-index-html-390",
+    "inicio_utc": "2026-11-19T05:05:54.836432+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "pitch/index.html",
+      "ancho": 390,
+      "enlaces": [],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-pitch-index-html-390.png"
+  },
+  {
+    "id": "planes-html-390",
+    "inicio_utc": "2026-11-19T05:05:55.408610+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: False \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"details\").first.locator(\"p\").first\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>Carga de sectores, puntos de recolección con su u…</p>\n  -   unexpected value \"hidden\"\n",
+    "evidencia": "20261119-010511-planes-html-390.png"
+  },
+  {
+    "id": "privacidad-html-390",
+    "inicio_utc": "2026-11-19T05:06:01.287925+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "privacidad.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-privacidad-html-390.png"
+  },
+  {
+    "id": "soporte-html-390",
+    "inicio_utc": "2026-11-19T05:06:01.982656+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: False \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"details\").first.locator(\"p\").first\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n  -   locator resolved to <p>El Administrador de su institución la restablece …</p>\n  -   unexpected value \"hidden\"\n",
+    "evidencia": "20261119-010511-soporte-html-390.png"
+  },
+  {
+    "id": "terminos-html-390",
+    "inicio_utc": "2026-11-19T05:06:07.897010+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "ruta": "terminos.html",
+      "ancho": 390,
+      "enlaces": [
+        {
+          "texto": "Saltar al contenido",
+          "href": "#contenido"
+        },
+        {
+          "texto": "RESIDATAS.R.L. · Santa Cruz",
+          "href": "index.html"
+        },
+        {
+          "texto": "Producto",
+          "href": "index.html"
+        },
+        {
+          "texto": "Planes",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "rekteado@gmail.com",
+          "href": "mailto:rekteado@gmail.com"
+        },
+        {
+          "texto": "Cómo funciona",
+          "href": "index.html#como-funciona"
+        },
+        {
+          "texto": "Pronóstico",
+          "href": "index.html#pronostico"
+        },
+        {
+          "texto": "Planes y precios",
+          "href": "planes.html"
+        },
+        {
+          "texto": "Acceso clientes",
+          "href": "https://dsu-uagrm.vercel.app/"
+        },
+        {
+          "texto": "Soporte",
+          "href": "soporte.html"
+        },
+        {
+          "texto": "Estado del servicio",
+          "href": "soporte.html#estado"
+        },
+        {
+          "texto": "Novedades",
+          "href": "novedades.html"
+        },
+        {
+          "texto": "RSS",
+          "href": "feed.xml"
+        },
+        {
+          "texto": "Términos y condiciones",
+          "href": "terminos.html"
+        },
+        {
+          "texto": "Privacidad",
+          "href": "privacidad.html"
+        },
+        {
+          "texto": "Contacto",
+          "href": "contacto.html"
+        }
+      ],
+      "errores_js": []
+    },
+    "evidencia": "20261119-010511-terminos-html-390.png"
+  },
+  {
+    "id": "contacto-validacion-error-390",
+    "inicio_utc": "2026-11-19T05:06:08.609484+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "FALLIDO",
+    "detalle": "Locator.evaluate: Error: strict mode violation: locator(\"form\") resolved to 2 elements:\n    1) <form novalidate=\"\" data-envio=\"Contacto desde el sitio\">…</form> aka get_by_text(\"Nombre Cargo Institución\")\n    2) <form class=\"escribir\">…</form> aka get_by_text(\"Escriba su preguntaEnviar\")\n\nCall log:\nwaiting for locator(\"form\")\n",
+    "evidencia": "20261119-010511-contacto-validacion-error-390.png"
+  },
+  {
+    "id": "calendario-390",
+    "inicio_utc": "2026-11-19T05:06:09.146267+00:00",
+    "entorno": "Sitio local, Chrome visible; conexiones externas interceptadas",
+    "estado": "APROBADO",
+    "detalle": {
+      "inicio": "Semana del 05/01/2026: 1 049 kg, Receso de verano",
+      "fin": "Semana del 20/10/2026: aproximadamente 2 896 kg, Pronóstico del modelo v2 · semana 20–26 oct",
+      "control": "Teclado en deslizador de calendario"
+    },
+    "evidencia": "20261119-010511-calendario-390.png"
+  }
+]

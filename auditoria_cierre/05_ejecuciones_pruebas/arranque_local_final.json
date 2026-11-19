@@ -1,0 +1,22 @@
+{
+  "fecha_utc": "2026-11-19T04:04:36.357222+00:00",
+  "resultado": "APROBADO",
+  "metodo": "GET sin autenticaci\u00f3n; no escribe datos",
+  "resultados": [
+    {
+      "url": "http://127.0.0.1:5173/",
+      "http": 200,
+      "esperado": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/auth/me/",
+      "http": 401,
+      "esperado": 401
+    },
+    {
+      "url": "http://127.0.0.1:5173/api/auth/me/",
+      "http": 401,
+      "esperado": 401
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+from django.db import transaction
 from rest_framework import mixins, viewsets
 from rest_framework.decorators import action
 from rest_framework.exceptions import ValidationError
@@ -18,10 +19,12 @@ class AuditedViewSet(
 ):
     """CRUD sin borrado físico (RNF11, RBD20); toda escritura queda en la bitácora (RF26)."""
 
+    @transaction.atomic
     def perform_create(self, serializer):
         obj = serializer.save()
         registrar(self.request, Op.CREAR, obj, despues=snapshot(obj))
 
+    @transaction.atomic
     def perform_update(self, serializer):
         antes = snapshot(serializer.instance)
         obj = serializer.save()

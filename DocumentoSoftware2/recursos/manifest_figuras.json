@@ -1011,7 +1011,7 @@
     "titulo": "Componentes de Gestión de Usuarios y Control de Acceso",
     "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
-    "sha256": "29e36387d385add58bf50fe4fc459ad0ad66a6415ac9aaa67ac5fb2881d382e3"
+    "sha256": "171a3d4a4bd05fe8ca1a7375b0211fae042516785ced5c52c559e4d26da11ead"
   },
   {
     "figura": 130,
@@ -1019,7 +1019,7 @@
     "titulo": "Componentes de Gestión Topológica y Puntos de Recolección",
     "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
-    "sha256": "d5e18d2d9f0aa38a1d27eb9d7606f2d6ae50aba8020b496b29746dc1f60825cb"
+    "sha256": "0ab66a56c5681652e2f1990469768b54934c532419c1956ac449cc8842c7f03f"
   },
   {
     "figura": 131,
@@ -1027,7 +1027,7 @@
     "titulo": "Componentes de Gestión de Residuos",
     "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
-    "sha256": "71c0b912b7c800ba6327c09d4ed4f06a81b03541c8a3035a2ba20d83dd935103"
+    "sha256": "e55117e5ecd0f8c73692392a9c31e296382c288d41ca5d09c0fe96bfa7303111"
   },
   {
     "figura": 132,
@@ -1035,7 +1035,7 @@
     "titulo": "Componentes de Gestión de Recolecciones y Logística",
     "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
-    "sha256": "452af74ae1d275b16fe50395dae3c8ca8658f91454fef68fda840ad58edc3b4f"
+    "sha256": "16162c8cad3b003fceaebec7f373e9070e533adf14684f600ce8ccef5a379c77"
   },
   {
     "figura": 133,
@@ -1043,7 +1043,7 @@
     "titulo": "Componentes de Inteligencia de Negocios y Analítica Visual",
     "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
-    "sha256": "31a6ce762a132d251cd4a2e408b7856a1dd435d11216942584f99e18746593ef"
+    "sha256": "bfe429833e956354041629c19ba71f906098f58dd649fbfc67173c36c8c720e9"
   },
   {
     "figura": 134,
@@ -1051,7 +1051,7 @@
     "titulo": "Componentes de Componente Cartográfico y Análisis Espacial",
     "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
-    "sha256": "9ab9de5c419b4f751d9203a8dbd6a6b4264b83d6004a3f817bfc68ecc0a56f07"
+    "sha256": "c3a7dbb57e27ec74fd7d200b09af8dbff4ef3dd409973083c11228853ac487ed"
   },
   {
     "figura": 135,
@@ -1059,7 +1059,7 @@
     "titulo": "Componentes de Predicción mediante Random Forest Regressor",
     "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
-    "sha256": "fa098f72dcb3819ac80d84cad67823a796ac7d2ee74d55ef4d4ff7e33a03b1b2"
+    "sha256": "2d97adb40b7a12551af2c2d99f8b846a9e28147b68105146218a37f052402a8c"
   },
   {
     "figura": 136,
@@ -1067,7 +1067,7 @@
     "titulo": "Componentes de Administración de la Plataforma y Auditoría",
     "grupo": "3.15. Componentes de los subsistemas",
     "formato": "a3",
-    "sha256": "b77fac2c514c4a1fec7360a2b06a7865b30e9232a5dbe545dc61670067deb1bf"
+    "sha256": "806bfcbd63fabf774999aa69c3339b90e47aae25208eff9da5ce38a5261539cb"
   },
   {
     "figura": 137,
@@ -1121,192 +1121,221 @@
   },
   {
     "figura": 147,
-    "fuente": "DocumentoSoftware2\\recursos\\web\\github.png",
-    "sha256": "ebbd538c5acee9a788baf3f2897f8b5103b40bcbe39c6d8cc05017308efcba45"
+    "fuente": "DocumentoSoftware2\\recursos\\sitio\\inicio-1440.png",
+    "sha256": "1d91ce71a2088bf2f03c634b398658308691eb11c4b1fc1d55da0fb989ec556e"
   },
   {
     "figura": 148,
-    "fuente": "DocumentoSoftware2\\recursos\\web\\neon.png",
-    "sha256": "b083501701b824eb912f1f62d5fd8513998f3e03fd2a7ef284102552e7c6f5b6"
+    "fuente": "DocumentoSoftware2\\recursos\\sitio\\asistente-1440.png",
+    "sha256": "d218a477b088ba48b1eea9cf010e73c6fc3054ff8f55b051b8f31e0add6b64d7"
   },
   {
     "figura": 149,
-    "fuente": "DocumentoSoftware2\\recursos\\web\\vercel.png",
-    "sha256": "8117a0f67f21cee9831b0a5eb4173af244e88bb4303bda997632b38554bb5180"
+    "fuente": "DocumentoSoftware2\\recursos\\qr_sitio.png",
+    "sha256": "4f9f82cd8e972c0edf0e55966415e5162b091852515954499002dfe8e551cd53"
   },
   {
     "figura": 150,
-    "fuente": "docs\\auditoria-fase-final\\ui\\login-anon-1440.png",
-    "sha256": "52832733f7f8f2d6204ccc52d8dcb5b66ad63e432742477ad1de3b596f8c2de0"
-  },
-  {
-    "figura": 151,
-    "fuente": "docs\\auditoria-fase-final\\ui\\login-anon-390.png",
-    "sha256": "82e60e95bc7091bca1d07bcdd1485e33cd9dc9721c4cec6ceabb1638478e8a74"
-  },
-  {
-    "figura": 152,
-    "fuente": "docs\\auditoria-fase-final\\ui\\tablero-super_ui-390.png",
-    "sha256": "04c06b215e58a4a30036d10acf0e65ca554eaea6d0ca54b3edebad9749e5afdb"
-  },
-  {
-    "figura": 153,
-    "fuente": "docs\\auditoria-fase-final\\ui\\puntos-super_ui-1440.png",
-    "sha256": "5eed5cce6d5ab359435da2d32defc38722e0331f915138d9f4c9dbf331bbbb33"
-  },
-  {
-    "figura": 154,
     "fuente": "DocumentoSoftware2\\recursos\\web\\mercado_pf.png",
     "sha256": "269cf7f776419b60c26ff3218b240828ea2d579902496b0d141cc3c06e6f45b3"
   },
   {
+    "figura": 151,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\finanzas_ingresos_egresos.png",
+    "sha256": "6a20ce4cfc905264c66bc0cf815f2bf020ecddcce98c3253c6232e9e3efa0ce1"
+  },
+  {
+    "figura": 152,
+    "fuente": "DocumentoSoftware2\\recursos\\web\\finanzas_flujo_acumulado.png",
+    "sha256": "9f4e0e0158aeb5fdb3012d0c55524a4acb8f6b1c8737e85edc543c4e7a9c9a8b"
+  },
+  {
+    "figura": 153,
+    "fuente": "generador\\figuras\\fase_final\\c9_seq_cu09.png",
+    "sha256": "28ed1d3e2b225ae29403ea9e77858d950b6166ead5a2774b742600dafdd5469f"
+  },
+  {
+    "figura": 154,
+    "fuente": "generador\\figuras\\fase_final\\c9_grafo_cu09.png",
+    "sha256": "bf796491e0ac5841d2d09b87bed1f80ca650451178efc869077f34939ead30ea"
+  },
+  {
     "figura": 155,
-    "fuente": "generador/figuras/fase_final/c9_asignar.png",
-    "titulo": "Grafo de control de asignación de recursos",
-    "grupo": "Grafos del análisis estructural",
-    "formato": "carta",
-    "sha256": "f651e066935c9b3a4fd85cbb3f4a517b2d611e95b4b28edc2ffd3e92e1b2fc94"
+    "fuente": "generador\\figuras\\fase_final\\c9_seq_cu15.png",
+    "sha256": "e6dbea980e05ed8c03c009059f176fa0b7eb4e40760b40637f65f1447fdf1eda"
   },
   {
     "figura": 156,
-    "fuente": "generador/figuras/fase_final/c9_generar.png",
-    "titulo": "Grafo de control de generación predictiva",
-    "grupo": "Grafos del análisis estructural",
-    "formato": "carta",
-    "sha256": "c4dc3865fd517cbec3a2771f83b7150df68639a5ce16b6f1efa5bd0df909c0db"
+    "fuente": "generador\\figuras\\fase_final\\c9_grafo_cu15.png",
+    "sha256": "9387089b3f53688d0924edea58f4410a503f4db11ff16ef963e25e744b628c38"
   },
   {
     "figura": 157,
-    "fuente": "docs\\auditoria-fase-final\\ui\\tablero-super_ui-1440.png",
-    "sha256": "4c46ec814c075eca7923c2a7d383c6ee87b83eb3904894861aa56bd3f48374f0"
+    "fuente": "generador\\figuras\\fase_final\\c9_seq_cu28.png",
+    "sha256": "050ae202ec37646d080e7480c462f1d36899869c5723060d84773de3af6105c3"
   },
   {
     "figura": 158,
+    "fuente": "generador\\figuras\\fase_final\\c9_grafo_cu28.png",
+    "sha256": "ab3c4c55eb5e5d76ce45d3e86ef499a99ea1ceae202be0c8c724c427b5478dc2"
+  },
+  {
+    "figura": 159,
     "fuente": "DocumentoSoftware2\\recursos\\web\\afiche_campana.png",
     "sha256": "2e0a8fee14ef65c31e91db7d375c6ceeb3753b717ad3108c195a8e1f5dfad573"
   },
   {
-    "figura": 159,
-    "fuente": "generador\\figuras\\fase_final\\c7_despliegue.png",
-    "sha256": "f46918e948e67ed75c63988f5b500a45be3366fe83cdcde1c3d705333f12383d"
+    "figura": 160,
+    "fuente": "DocumentoSoftware2\\recursos\\sitio\\marketing-banner.png",
+    "sha256": "1a27ec8a7ee94922f6896bb7ba015218a880aa1010911bc66ad5c173ada4bb15"
   },
   {
-    "figura": 160,
+    "figura": 161,
+    "fuente": "DocumentoSoftware2\\recursos\\sitio\\marketing-post-kilos.png",
+    "sha256": "d79110b2f92f9038fce740cd999b1119175225c86d3716313eb478e76f747fe7"
+  },
+  {
+    "figura": 162,
+    "fuente": "generador\\figuras\\fase_final\\c7_despliegue.png",
+    "sha256": "41a691dea73c845a330e5f4dee9cd2227d2cd1c1397c79703e7d9f3f12106c67"
+  },
+  {
+    "figura": 163,
     "fuente": "docs\\auditoria-fase-final\\ui\\login-anon-1440.png",
     "sha256": "52832733f7f8f2d6204ccc52d8dcb5b66ad63e432742477ad1de3b596f8c2de0"
   },
   {
-    "figura": 161,
+    "figura": 164,
     "fuente": "docs\\auditoria-fase-final\\ui\\campo-oper_ui-390.png",
     "sha256": "ed84dd4bca4053b76d43d1c4a3d6f9c72d5aac784ce68a3ed1653486d42dbffd"
   },
   {
-    "figura": 162,
+    "figura": 165,
     "fuente": "docs\\auditoria-fase-final\\ui\\campo-oper_ui-390-error.png",
     "sha256": "ed84dd4bca4053b76d43d1c4a3d6f9c72d5aac784ce68a3ed1653486d42dbffd"
   },
   {
-    "figura": 163,
+    "figura": 166,
     "fuente": "docs\\auditoria-fase-final\\ui\\historico-oper_ui-1440.png",
     "sha256": "3b34b5a2e4c8662f1771b80146c1b9945569c4fb3c5934ea0fb582e24fd055cd"
   },
   {
-    "figura": 164,
+    "figura": 167,
     "fuente": "docs\\auditoria-fase-final\\ui\\jornadas-super_ui-1440.png",
     "sha256": "5687f3d0cc186911406cb3d91c484889b2913343413e0452cc2a605c8a1fc3b3"
   },
   {
-    "figura": 165,
+    "figura": 168,
     "fuente": "docs\\auditoria-fase-final\\ui\\jornadas-nueva-super_ui-1440.png",
     "sha256": "7a0a5cfeffb578aa01eca27ade8feb08a15767c05637ca00482a7260000974fb"
   },
   {
-    "figura": 166,
+    "figura": 169,
     "fuente": "docs\\auditoria-fase-final\\ui\\jornadas-107-super_ui-1440.png",
     "sha256": "ae738dfbe15063782de36ad6ed6b363ed9fa52abf00122a4ee5d3a145cc55e48"
   },
   {
-    "figura": 167,
+    "figura": 170,
     "fuente": "docs\\auditoria-fase-final\\ui\\incidencias-super_ui-1440.png",
     "sha256": "03ed692717d8d54be6be36b79a1c8a97a577ab758a23e6cd2f28ac244cecf032"
   },
   {
-    "figura": 168,
+    "figura": 171,
     "fuente": "docs\\auditoria-fase-final\\ui\\recomendaciones-super_ui-1440.png",
     "sha256": "f06dd9cb8cf6a5890fbdbe898dcf7108bf0f1d3153420dcb596ea484e23d696b"
   },
   {
-    "figura": 169,
+    "figura": 172,
     "fuente": "docs\\auditoria-fase-final\\ui\\tablero-dir_ui-1440.png",
     "sha256": "ee0e9c212633806832e4df365c26020e6fcea1db8bb14f132ff15c862295f585"
   },
   {
-    "figura": 170,
+    "figura": 173,
     "fuente": "docs\\auditoria-fase-final\\ui\\mapa-super_ui-1440.png",
     "sha256": "0b24019ae284a0e9082e0f5bdeaf1d5ac5a6b30d3c1814ce6fa24a05429ffbce"
   },
   {
-    "figura": 171,
+    "figura": 174,
     "fuente": "docs\\auditoria-fase-final\\ui\\predicciones-super_ui-1440.png",
     "sha256": "b87aaddbc9cced9b293dd039b20545b81c2bdf472a7557abf72e608c1f8f2bbd"
   },
   {
-    "figura": 172,
+    "figura": 175,
     "fuente": "docs\\auditoria-fase-final\\ui\\reportes-super_ui-1440.png",
     "sha256": "0e94e56a438d9979a92d90b74907df8812446e8700a8307873a2a40e6703ba64"
   },
   {
-    "figura": 173,
+    "figura": 176,
     "fuente": "docs\\auditoria-fase-final\\ui\\usuarios-admin_ui-1440.png",
     "sha256": "9b4472220a99cf8672fc9161b516453724135d235917d56f5385a131a7e27779"
   },
   {
-    "figura": 174,
+    "figura": 177,
     "fuente": "docs\\auditoria-fase-final\\ui\\roles-admin_ui-1440.png",
     "sha256": "dec2c6d19b1d01eb8145aa409231d62ee439ec022304947c02f28bd7ab81392d"
   },
   {
-    "figura": 175,
+    "figura": 178,
     "fuente": "docs\\auditoria-fase-final\\ui\\parametros-admin_ui-1440.png",
     "sha256": "f8b0f64cab247435a9b50025cc97b4fc7e7546711b1ff69ea3c7ef50a582ec7c"
   },
   {
-    "figura": 176,
+    "figura": 179,
     "fuente": "docs\\auditoria-fase-final\\ui\\procesos-admin_ui-1440.png",
     "sha256": "65f0a039a93659917f4507ed27a4c994b9986e915baa41852dd78cdc914f4e1f"
   },
   {
-    "figura": 177,
+    "figura": 180,
     "fuente": "docs\\auditoria-fase-final\\ui\\modelo-admin_ui-1440.png",
     "sha256": "e4c4f7a146690ec158a21df18737e0405a183274125283ee8d600c9a40f8120d"
   },
   {
-    "figura": 178,
+    "figura": 181,
     "fuente": "docs\\auditoria-fase-final\\ui\\bitacora-admin_ui-1440.png",
     "sha256": "7c3ba8b06e3a6b74d9e582caca6f66b2e642f7b34d29f605e43c17035200bdb1"
   },
   {
-    "figura": 179,
+    "figura": 182,
     "fuente": "DocumentoSoftware2\\recursos\\qr_drive.png",
     "sha256": "306462f464c61e2a3ae586f48312499fb98344f36a5e52a7a21691cca9a8a8c7"
   },
   {
-    "figura": 180,
+    "figura": 183,
+    "fuente": "DocumentoSoftware2\\recursos\\qr_pitch.png",
+    "sha256": "7ba7c7b0ebf113ebf096432b8c9b3ca891a5dd1afc51aa4624fc9e5d8088b0e0"
+  },
+  {
+    "figura": 184,
     "fuente": "DocumentoSoftware2\\recursos\\qr_repositorio.png",
     "sha256": "7f3acd69495f311f6b2815d3123e297fcff26f850673b56ab0f868401bca4c4e"
   },
   {
-    "figura": 181,
+    "figura": 185,
     "fuente": "DocumentoSoftware2\\recursos\\qr_drive.png",
     "sha256": "306462f464c61e2a3ae586f48312499fb98344f36a5e52a7a21691cca9a8a8c7"
   },
   {
-    "figura": 182,
+    "figura": 186,
+    "fuente": "DocumentoSoftware2\\recursos\\qr_app.png",
+    "sha256": "ef058a6ad2594c75f3473120e83ea74f7994ea21f083ff317879ed33a83a3e2e"
+  },
+  {
+    "figura": 187,
+    "fuente": "DocumentoSoftware2\\recursos\\qr_sitio.png",
+    "sha256": "4f9f82cd8e972c0edf0e55966415e5162b091852515954499002dfe8e551cd53"
+  },
+  {
+    "figura": 188,
+    "fuente": "DocumentoSoftware2\\recursos\\qr_pitch.png",
+    "sha256": "7ba7c7b0ebf113ebf096432b8c9b3ca891a5dd1afc51aa4624fc9e5d8088b0e0"
+  },
+  {
+    "figura": 189,
     "fuente": "DocumentoSoftware2\\recursos\\caratula_firmada.jpg",
     "sha256": "8c9e3fb0991d939ea9aab209fff55825d7e8dca890d488d2c4c26beff5f59e5c"
   },
   {
-    "figura": 183,
+    "figura": 190,
     "fuente": "DocumentoSoftware2\\recursos\\carta_dsu.jpg",
     "sha256": "26cdb127c3ab0593bbfe2fd8f94b79e4c919973cfd4eec2b97abeec3567f65b4"
   }

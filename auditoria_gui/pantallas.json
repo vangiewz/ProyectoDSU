@@ -1,0 +1,90 @@
+[
+  {
+    "ruta": "/campo",
+    "permiso": "operations.ejecutar_jornada"
+  },
+  {
+    "ruta": "/jornadas",
+    "permiso": "operations.view_jornada"
+  },
+  {
+    "ruta": "/jornadas/nueva",
+    "permiso": "operations.add_jornada"
+  },
+  {
+    "ruta": "/jornadas/:id",
+    "permiso": "operations.view_jornada"
+  },
+  {
+    "ruta": "/historico",
+    "permiso": "operations.view_registroresiduo"
+  },
+  {
+    "ruta": "/incidencias",
+    "permiso": "operations.view_incidencia"
+  },
+  {
+    "ruta": "/tablero",
+    "permiso": "analytics.view_hechoresiduo"
+  },
+  {
+    "ruta": "/mapa",
+    "permiso": "analytics.view_hechoresiduo"
+  },
+  {
+    "ruta": "/predicciones",
+    "permiso": "prediction.view_prediccion"
+  },
+  {
+    "ruta": "/recomendaciones",
+    "permiso": "prediction.view_recomendacion"
+  },
+  {
+    "ruta": "/modelo",
+    "permiso": "prediction.view_modeloentrenado"
+  },
+  {
+    "ruta": "/reportes",
+    "permiso": "analytics.generar_reporte"
+  },
+  {
+    "ruta": "/procesos",
+    "permiso": "analytics.view_ejecucionetl"
+  },
+  {
+    "ruta": "/parametros",
+    "permiso": "catalogs.view_parametrossistema"
+  },
+  {
+    "ruta": "/sectores",
+    "permiso": "campus.view_sector"
+  },
+  {
+    "ruta": "/puntos",
+    "permiso": "campus.view_puntorecoleccion"
+  },
+  {
+    "ruta": "/contenedores",
+    "permiso": "campus.view_contenedor"
+  },
+  {
+    "ruta": "/tipos-residuo",
+    "permiso": "catalogs.view_tiporesiduo"
+  },
+  {
+    "ruta": "/vehiculos",
+    "permiso": "operations.view_vehiculo"
+  },
+  {
+    "ruta": "/usuarios",
+    "permiso": "accounts.view_user"
+  },
+  {
+    "ruta": "/roles",
+    "permiso": "auth.view_group"
+  },
+  {
+    "ruta": "/bitacora",
+    "permiso": "audit.view_auditlog"
+  }
+]

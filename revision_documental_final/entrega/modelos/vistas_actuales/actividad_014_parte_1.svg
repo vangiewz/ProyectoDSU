@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="2620" viewBox="0 0 2700 2620"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor — parte 1/3</text>
+<line x1="1350" y1="295" x2="1350" y2="465" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="465" x2="1339.5608271813305" y2="443.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="465" x2="1360.4391728186695" y2="443.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="735" x2="1350" y2="815" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="815" x2="1339.5608271813305" y2="793.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="815" x2="1360.4391728186695" y2="793.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1085" x2="1350" y2="1165" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1165" x2="1339.5608271813305" y2="1143.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1165" x2="1360.4391728186695" y2="1143.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1435" x2="700" y2="1515" stroke="#444" stroke-width="3"/>
+<line x1="700" y1="1515" x2="720.1736886744061" y2="1501.9991429025567" stroke="#444" stroke-width="3"/>
+<line x1="700" y1="1515" x2="722.7240871894485" y2="1522.7211308372764" stroke="#444" stroke-width="3"/>
+<text x="945.0" y="1490.0" font-family="Arial" font-size="48" font-weight="400">No</text>
+<line x1="700" y1="1785" x2="700" y2="1955" stroke="#444" stroke-width="3"/>
+<line x1="700" y1="1955" x2="689.5608271813305" y2="1933.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="700" y1="1955" x2="710.4391728186695" y2="1933.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="1435" x2="2000" y2="1515" stroke="#444" stroke-width="3"/>
+<line x1="2000" y1="1515" x2="1977.2759128105515" y2="1522.7211308372764" stroke="#444" stroke-width="3"/>
+<line x1="2000" y1="1515" x2="1979.826311325594" y2="1501.9991429025567" stroke="#444" stroke-width="3"/>
+<text x="1710.0" y="1490.0" font-family="Arial" font-size="48" font-weight="400">Sí</text>
+<line x1="2000" y1="1785" x2="2000" y2="1865" stroke="#444" stroke-width="3"/>
+<line x1="2000" y1="1865" x2="1989.5608271813305" y2="1843.3892695435356" stroke="#444" stroke-width="3"/>
+<line x1="2000" y1="1865" x2="2010.4391728186695" y2="1843.3892695435356" stroke="#444" stroke-width="3"/>
+<circle cx="1350" cy="250" r="45" fill="black"/>
+<text x="1415" y="277" font-family="Arial" font-size="56" font-weight="400">N0 inicio</text>
+<rect x="775" y="465" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="516" font-family="Arial" font-size="44" font-weight="400">N1 · Administrador</text>
+<text x="795" y="590" font-family="Arial" font-size="56" font-weight="400">El administrador solicita el</text>
+<text x="795" y="650" font-family="Arial" font-size="56" font-weight="400">entrenamiento del modelo</text>
+<rect x="775" y="815" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="866" font-family="Arial" font-size="44" font-weight="400">N2 · Sistema</text>
+<text x="795" y="940" font-family="Arial" font-size="56" font-weight="400">El sistema recupera la información</text>
+<text x="795" y="1000" font-family="Arial" font-size="56" font-weight="400">analítica depurada</text>
+<polygon points="1350,1165 1940,1300 1350,1435 760,1300" fill="white" stroke="black" stroke-width="3"/>
+<text x="987.5" y="1290" font-family="Arial" font-size="52" font-weight="400">N3 ¿El volumen de registros es</text>
+<text x="1225.5" y="1348" font-family="Arial" font-size="52" font-weight="400">suficiente?</text>
+<rect x="125" y="1515" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="145" y="1566" font-family="Arial" font-size="44" font-weight="400">N4 · Sistema</text>
+<text x="145" y="1640" font-family="Arial" font-size="56" font-weight="400">El sistema informa que no hay datos</text>
+<text x="145" y="1700" font-family="Arial" font-size="56" font-weight="400">suficientes</text>
+<circle cx="700" cy="2000" r="45" fill="black"/>
+<text x="765" y="2027" font-family="Arial" font-size="56" font-weight="400">N5 fin</text>
+<rect x="1425" y="1515" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1445" y="1566" font-family="Arial" font-size="44" font-weight="400">N6 · Sistema</text>
+<text x="1445" y="1640" font-family="Arial" font-size="56" font-weight="400">El sistema construye las variables</text>
+<text x="1445" y="1700" font-family="Arial" font-size="56" font-weight="400">predictoras y el objetivo</text>
+<rect x="1425" y="1865" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1445" y="1916" font-family="Arial" font-size="44" font-weight="400">N7 · Sistema</text>
+<text x="1445" y="1990" font-family="Arial" font-size="56" font-weight="400">El sistema codifica las variables</text>
+<text x="1445" y="2050" font-family="Arial" font-size="56" font-weight="400">categóricas</text>
+<text x="55" y="2311" font-family="Arial" font-size="44" font-weight="400">N7 → N8 (continúa; parte 2)</text>
+</svg>

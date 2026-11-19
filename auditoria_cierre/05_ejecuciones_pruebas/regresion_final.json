@@ -1,0 +1,10 @@
+{
+  "inicio_utc": "2026-11-19T03:44:40.699406+00:00",
+  "fin_utc": "2026-11-19T03:47:35.417568+00:00",
+  "commit": "2af03120920bacc397351bdff527b1f4adb12204",
+  "cambios_locales": true,
+  "entorno": "Windows PostgreSQL 18 aislado en loopback",
+  "exit_code": 0,
+  "comando": "python auditoria_cierre/ejecutar_aislado.py ",
+  "datos": "Fixtures sint\u00e9ticas; no Neon"
+}

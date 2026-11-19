@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1006" viewBox="0 0 2700 1006"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">operations.Jornada — relaciones persistentes</text>
+<text x="55" y="105" font-family="Arial" font-size="40" font-weight="400">Tabla: operations_jornada</text>
+<rect x="55" y="140" width="1190" height="816" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="194" font-family="Arial" font-size="42" font-weight="700">Jornada</text>
+<text x="75" y="255" font-family="Arial" font-size="40" font-weight="400">id: BigAutoField PK</text>
+<text x="75" y="304" font-family="Arial" font-size="40" font-weight="400">fecha: DateField</text>
+<text x="75" y="353" font-family="Arial" font-size="40" font-weight="400">turno: CharField</text>
+<text x="75" y="402" font-family="Arial" font-size="40" font-weight="400">sector: ForeignKey FK</text>
+<text x="75" y="451" font-family="Arial" font-size="40" font-weight="400">estado: CharField</text>
+<text x="75" y="500" font-family="Arial" font-size="40" font-weight="400">descripcion: CharField</text>
+<text x="75" y="549" font-family="Arial" font-size="40" font-weight="400">planificada_por: ForeignKey FK</text>
+<text x="75" y="598" font-family="Arial" font-size="40" font-weight="400">responsable: ForeignKey FK</text>
+<text x="75" y="647" font-family="Arial" font-size="40" font-weight="400">hora_inicio: DateTimeField</text>
+<text x="75" y="696" font-family="Arial" font-size="40" font-weight="400">hora_fin: DateTimeField</text>
+<text x="75" y="745" font-family="Arial" font-size="40" font-weight="400">observaciones_cierre: TextField</text>
+<text x="75" y="794" font-family="Arial" font-size="40" font-weight="400">creada_en: DateTimeField</text>
+<text x="75" y="843" font-family="Arial" font-size="40" font-weight="400">personal: ManyToManyField M:N</text>
+<text x="75" y="892" font-family="Arial" font-size="40" font-weight="400">vehiculos: ManyToManyField M:N</text>
+<rect x="1950" y="180.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="227.0" font-family="Arial" font-size="40" font-weight="400">campus.Sector</text>
+<line x1="1245" y1="397" x2="1950" y2="235.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1931.276032604251" y2="250.0137618524782" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1926.6003115474427" y2="229.6657165126645" stroke="#444" stroke-width="3"/>
+<text x="1260" y="387" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="225.0" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="321.2" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="368.2" font-family="Arial" font-size="40" font-weight="400">accounts.User</text>
+<line x1="1245" y1="544" x2="1950" y2="376.2" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="376.2" x2="1931.3937109418478" y2="391.3593537950826" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="376.2" x2="1926.5594154886755" y2="371.04839852400704" stroke="#444" stroke-width="3"/>
+<text x="1260" y="534" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="366.2" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="462.4" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="509.4" font-family="Arial" font-size="40" font-weight="400">accounts.User</text>
+<line x1="1245" y1="593" x2="1950" y2="517.4" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="517.4" x2="1929.6255139355449" y2="530.0838605167877" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="517.4" x2="1927.3994071031816" y2="509.32453092927216" stroke="#444" stroke-width="3"/>
+<text x="1260" y="583" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="507.4" font-family="Arial" font-size="40" font-weight="400">0..1</text>
+<rect x="1950" y="603.5999999999999" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="650.5999999999999" font-family="Arial" font-size="40" font-weight="400">accounts.User</text>
+<line x1="1245" y1="838" x2="1950" y2="658.5999999999999" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="658.5999999999999" x2="1931.6311074199955" y2="674.046157625256" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="658.5999999999999" x2="1926.4823223479652" y2="653.8126376933649" stroke="#444" stroke-width="3"/>
+<text x="1260" y="828" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="648.5999999999999" font-family="Arial" font-size="40" font-weight="400">*</text>
+<rect x="1950" y="744.8" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="791.8" font-family="Arial" font-size="40" font-weight="400">operations.Vehiculo</text>
+<line x1="1245" y1="887" x2="1950" y2="799.8" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="799.8" x2="1929.8341396480973" y2="812.8129964369302" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="799.8" x2="1927.271269902569" y2="792.0925472328312" stroke="#444" stroke-width="3"/>
+<text x="1260" y="877" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="789.8" font-family="Arial" font-size="40" font-weight="400">*</text>
+</svg>

@@ -1,0 +1,619 @@
+[
+  {
+    "id": "CR-tablero-supervisor",
+    "titulo": "Tablero interactivo y comparación por rol",
+    "rol": "supervisor",
+    "cu": [
+      12,
+      21,
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:56:54.003793+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Periodo académico, fechas bloqueadas, filtros, cuatro gráficos/tablas, clic de sector y punto a histórico; comparación por tres dimensiones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-supervisor.png",
+    "segundos": 4.78
+  },
+  {
+    "id": "CR-mapa-supervisor",
+    "titulo": "Cartografía observada y proyectada por rol",
+    "rol": "supervisor",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:56:58.795781+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Mapa observado filtrado a un punto; calor, marcadores/popup; capa proyectada por sector con margen",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-supervisor.png",
+    "segundos": 1.91
+  },
+  {
+    "id": "CR-prediccion-supervisor",
+    "titulo": "Inferencia y consulta de recomendaciones por rol",
+    "rol": "supervisor",
+    "cu": [
+      28,
+      29
+    ],
+    "inicio_utc": "2026-11-19T04:57:00.706641+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Horizontes 0/31 bloqueados, límite 30 generado y persistido; consulta recomendaciones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-supervisor.png",
+    "segundos": 3.17
+  },
+  {
+    "id": "CR-reporte-supervisor",
+    "titulo": "Reporte proyectado no vacío y descargas por rol",
+    "rol": "supervisor",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:57:03.895585+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "BIBLIO-P1",
+          "Punto 1 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "171,04",
+          "16,8",
+          "34,21",
+          "v3"
+        ],
+        [
+          "BIBLIO-P2",
+          "Punto 2 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "210,21",
+          "16,8",
+          "42,04",
+          "v3"
+        ],
+        [
+          "BIBLIO-P3",
+          "Punto 3 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "202,71",
+          "15,34",
+          "40,54",
+          "v3"
+        ],
+        [
+          "FCEE-P1",
+          "Punto 1 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "582,32",
+          "16,8",
+          "116,46",
+          "v3"
+        ],
+        [
+          "FCEE-P2",
+          "Punto 2 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "236,8",
+          "16,8",
+          "47,36",
+          "v3"
+        ],
+        [
+          "FCEE-P3",
+          "Punto 3 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "302,71",
+          "16,8",
+          "60,54",
+          "v3"
+        ],
+        [
+          "FCET-P1",
+          "Punto 1 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "229,37",
+          "15,34",
+          "45,87",
+          "v3"
+        ],
+        [
+          "FCET-P2",
+          "Punto 2 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "227,5",
+          "16,8",
+          "45,5",
+          "v3"
+        ],
+        [
+          "FCET-P3",
+          "Punto 3 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "218,65",
+          "16,8",
+          "43,73",
+          "v3"
+        ],
+        [
+          "FICCT-P1",
+          "Punto 1 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "18 dic 2026",
+          "645,56",
+          "34,43",
+          "30,74",
+          "v3"
+        ],
+        [
+          "FICCT-P2",
+          "Punto 2 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "18 dic 2026",
+          "805,49",
+          "34,43",
+          "38,36",
+          "v3"
+        ],
+        [
+          "FICCT-P3",
+          "Punto 3 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "18 dic 2026",
+          "896,11",
+          "34,43",
+          "42,67",
+          "v3"
+        ]
+      ],
+      "archivos": [
+        "descargas\\proyectado-supervisor-20261119-005651.xlsx",
+        "descargas\\proyectado-supervisor-20261119-005651.pdf"
+      ]
+    },
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-supervisor.png",
+    "segundos": 1.7
+  },
+  {
+    "id": "CR-tablero-administrativo",
+    "titulo": "Tablero interactivo y comparación por rol",
+    "rol": "administrativo",
+    "cu": [
+      12,
+      21,
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:57:07.748997+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Periodo académico, fechas bloqueadas, filtros, cuatro gráficos/tablas, clic de sector y punto a histórico; comparación por tres dimensiones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-administrativo.png",
+    "segundos": 4.67
+  },
+  {
+    "id": "CR-mapa-administrativo",
+    "titulo": "Cartografía observada y proyectada por rol",
+    "rol": "administrativo",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:57:12.417227+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Mapa observado filtrado a un punto; calor, marcadores/popup; capa proyectada por sector con margen",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-administrativo.png",
+    "segundos": 1.78
+  },
+  {
+    "id": "CR-prediccion-administrativo",
+    "titulo": "Inferencia y consulta de recomendaciones por rol",
+    "rol": "administrativo",
+    "cu": [
+      28,
+      29
+    ],
+    "inicio_utc": "2026-11-19T04:57:14.194280+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Horizontes 0/31 bloqueados, límite 1 generado y persistido; consulta recomendaciones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-administrativo.png",
+    "segundos": 2.89
+  },
+  {
+    "id": "CR-reporte-administrativo",
+    "titulo": "Reporte proyectado no vacío y descargas por rol",
+    "rol": "administrativo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:57:17.096015+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "BIBLIO-P1",
+          "Punto 1 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "171,04",
+          "16,8",
+          "34,21",
+          "v3"
+        ],
+        [
+          "BIBLIO-P2",
+          "Punto 2 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "210,21",
+          "16,8",
+          "42,04",
+          "v3"
+        ],
+        [
+          "BIBLIO-P3",
+          "Punto 3 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "202,71",
+          "15,34",
+          "40,54",
+          "v3"
+        ],
+        [
+          "FCEE-P1",
+          "Punto 1 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "582,32",
+          "16,8",
+          "116,46",
+          "v3"
+        ],
+        [
+          "FCEE-P2",
+          "Punto 2 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "236,8",
+          "16,8",
+          "47,36",
+          "v3"
+        ],
+        [
+          "FCEE-P3",
+          "Punto 3 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "302,71",
+          "16,8",
+          "60,54",
+          "v3"
+        ],
+        [
+          "FCET-P1",
+          "Punto 1 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "229,37",
+          "15,34",
+          "45,87",
+          "v3"
+        ],
+        [
+          "FCET-P2",
+          "Punto 2 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "227,5",
+          "16,8",
+          "45,5",
+          "v3"
+        ],
+        [
+          "FCET-P3",
+          "Punto 3 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "218,65",
+          "16,8",
+          "43,73",
+          "v3"
+        ],
+        [
+          "FICCT-P1",
+          "Punto 1 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "32,09",
+          "7,51",
+          "32,09",
+          "v3"
+        ],
+        [
+          "FICCT-P2",
+          "Punto 2 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "36,67",
+          "7,51",
+          "36,67",
+          "v3"
+        ],
+        [
+          "FICCT-P3",
+          "Punto 3 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "42,92",
+          "7,51",
+          "42,92",
+          "v3"
+        ]
+      ],
+      "archivos": [
+        "descargas\\proyectado-administrativo-20261119-005651.xlsx",
+        "descargas\\proyectado-administrativo-20261119-005651.pdf"
+      ]
+    },
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-administrativo.png",
+    "segundos": 1.78
+  },
+  {
+    "id": "CR-resolver-administrativo",
+    "titulo": "Administrador resuelve recomendación autorizada",
+    "rol": "administrativo",
+    "cu": [
+      30
+    ],
+    "inicio_utc": "2026-11-19T04:57:18.875784+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_role(\"button\", name=\"Aceptar\", exact=True).first\n",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-resolver-administrativo.png",
+    "segundos": 5.39
+  },
+  {
+    "id": "CR-tablero-directivo",
+    "titulo": "Tablero interactivo y comparación por rol",
+    "rol": "directivo",
+    "cu": [
+      12,
+      21,
+      22
+    ],
+    "inicio_utc": "2026-11-19T04:57:26.830544+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Periodo académico, fechas bloqueadas, filtros, cuatro gráficos/tablas, clic de sector y punto a histórico; comparación por tres dimensiones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-tablero-directivo.png",
+    "segundos": 4.59
+  },
+  {
+    "id": "CR-mapa-directivo",
+    "titulo": "Cartografía observada y proyectada por rol",
+    "rol": "directivo",
+    "cu": [
+      23,
+      24,
+      25
+    ],
+    "inicio_utc": "2026-11-19T04:57:31.419397+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Mapa observado filtrado a un punto; calor, marcadores/popup; capa proyectada por sector con margen",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-mapa-directivo.png",
+    "segundos": 1.8
+  },
+  {
+    "id": "CR-prediccion-directivo",
+    "titulo": "Inferencia y consulta de recomendaciones por rol",
+    "rol": "directivo",
+    "cu": [
+      28,
+      29
+    ],
+    "inicio_utc": "2026-11-19T04:57:33.213582+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Horizontes 0/31 bloqueados, límite 1 generado y persistido; consulta recomendaciones",
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-prediccion-directivo.png",
+    "segundos": 2.97
+  },
+  {
+    "id": "CR-reporte-directivo",
+    "titulo": "Reporte proyectado no vacío y descargas por rol",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:57:36.193084+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": {
+      "filas_ui": [
+        [
+          "BIBLIO-P1",
+          "Punto 1 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "171,04",
+          "16,8",
+          "34,21",
+          "v3"
+        ],
+        [
+          "BIBLIO-P2",
+          "Punto 2 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "210,21",
+          "16,8",
+          "42,04",
+          "v3"
+        ],
+        [
+          "BIBLIO-P3",
+          "Punto 3 BIBLIO",
+          "Biblioteca central y áreas comunes",
+          "20 nov 2026",
+          "26 nov 2026",
+          "202,71",
+          "15,34",
+          "40,54",
+          "v3"
+        ],
+        [
+          "FCEE-P1",
+          "Punto 1 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "582,32",
+          "16,8",
+          "116,46",
+          "v3"
+        ],
+        [
+          "FCEE-P2",
+          "Punto 2 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "236,8",
+          "16,8",
+          "47,36",
+          "v3"
+        ],
+        [
+          "FCEE-P3",
+          "Punto 3 FCEE",
+          "Facultad de Ciencias Económicas y Empresariales",
+          "20 nov 2026",
+          "26 nov 2026",
+          "302,71",
+          "16,8",
+          "60,54",
+          "v3"
+        ],
+        [
+          "FCET-P1",
+          "Punto 1 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "229,37",
+          "15,34",
+          "45,87",
+          "v3"
+        ],
+        [
+          "FCET-P2",
+          "Punto 2 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "227,5",
+          "16,8",
+          "45,5",
+          "v3"
+        ],
+        [
+          "FCET-P3",
+          "Punto 3 FCET",
+          "Facultad de Ciencias Exactas y Tecnología",
+          "20 nov 2026",
+          "26 nov 2026",
+          "218,65",
+          "16,8",
+          "43,73",
+          "v3"
+        ],
+        [
+          "FICCT-P1",
+          "Punto 1 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "32,09",
+          "7,51",
+          "32,09",
+          "v3"
+        ],
+        [
+          "FICCT-P2",
+          "Punto 2 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "36,67",
+          "7,51",
+          "36,67",
+          "v3"
+        ],
+        [
+          "FICCT-P3",
+          "Punto 3 FICCT",
+          "Facultad de Ciencias de la Computación y Telecomunicaciones",
+          "20 nov 2026",
+          "20 nov 2026",
+          "42,92",
+          "7,51",
+          "42,92",
+          "v3"
+        ]
+      ],
+      "archivos": [
+        "descargas\\proyectado-directivo-20261119-005651.xlsx",
+        "descargas\\proyectado-directivo-20261119-005651.pdf"
+      ]
+    },
+    "evidencia": "capturas\\crossrole-20261119-005651-CR-reporte-directivo.png",
+    "segundos": 1.58
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "cu": "CU01",
+    "rf": "RF3",
+    "rol_documental": "POL",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU01",
+    "rf": "RF3",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU01",
+    "rf": "RF3",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU01",
+    "rf": "RF3",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU02",
+    "rf": "RF3",
+    "rol_documental": "POL",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU02",
+    "rf": "RF3",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU02",
+    "rf": "RF3",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU02",
+    "rf": "RF3",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU03",
+    "rf": "RF1",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU04",
+    "rf": "RF2",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU05",
+    "rf": "RF4",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU05",
+    "rf": "RF4",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU06",
+    "rf": "RF5",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU06",
+    "rf": "RF5",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU07",
+    "rf": "RF7",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU07",
+    "rf": "RF7",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU08",
+    "rf": "RF6",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU09",
+    "rf": "RF8",
+    "rol_documental": "POL",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU09",
+    "rf": "RF8",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU10",
+    "rf": "RF10",
+    "rol_documental": "POL",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU10",
+    "rf": "RF10",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU11",
+    "rf": "RF10",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU12",
+    "rf": "RF9",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU12",
+    "rf": "RF9",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU12",
+    "rf": "RF9",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU12",
+    "rf": "RF9",
+    "rol_documental": "POL",
+    "recorrido_gui_aprobado": false
+  },
+  {
+    "cu": "CU13",
+    "rf": "RF13",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU13",
+    "rf": "RF13",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU14",
+    "rf": "RF11",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU14",
+    "rf": "RF11",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU15",
+    "rf": "RF13",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU15",
+    "rf": "RF13",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU16",
+    "rf": "RF12",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU16",
+    "rf": "RF12",
+    "rol_documental": "POL",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU17",
+    "rf": "RF12",
+    "rol_documental": "POL",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU17",
+    "rf": "RF12",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU18",
+    "rf": "RF12",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU19",
+    "rf": "RF14",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU19",
+    "rf": "RF14",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU19",
+    "rf": "RF14",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": false
+  },
+  {
+    "cu": "CU19",
+    "rf": "RF14",
+    "rol_documental": "POL",
+    "recorrido_gui_aprobado": false
+  },
+  {
+    "cu": "CU20",
+    "rf": "RF15",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU21",
+    "rf": "RF16, RF17",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU21",
+    "rf": "RF16, RF17",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU21",
+    "rf": "RF16, RF17",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU22",
+    "rf": "RF18",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU22",
+    "rf": "RF18",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU22",
+    "rf": "RF18",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU23",
+    "rf": "RF19",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU23",
+    "rf": "RF19",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU23",
+    "rf": "RF19",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU24",
+    "rf": "RF20",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU24",
+    "rf": "RF20",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU24",
+    "rf": "RF20",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU25",
+    "rf": "RF21",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU25",
+    "rf": "RF21",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU25",
+    "rf": "RF21",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU26",
+    "rf": "RF22",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU27",
+    "rf": "RF22",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU28",
+    "rf": "RF23, RF24",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU28",
+    "rf": "RF23, RF24",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU28",
+    "rf": "RF23, RF24",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU29",
+    "rf": "RF24",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU29",
+    "rf": "RF24",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU29",
+    "rf": "RF24",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU30",
+    "rf": "RF24",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU30",
+    "rf": "RF24",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": false
+  },
+  {
+    "cu": "CU31",
+    "rf": "RF25",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU32",
+    "rf": "RF26",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU33",
+    "rf": "RF27",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU33",
+    "rf": "RF27",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU33",
+    "rf": "RF27",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU34",
+    "rf": "RF27",
+    "rol_documental": "ADM",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU34",
+    "rf": "RF27",
+    "rol_documental": "SUP",
+    "recorrido_gui_aprobado": true
+  },
+  {
+    "cu": "CU34",
+    "rf": "RF27",
+    "rol_documental": "CDD",
+    "recorrido_gui_aprobado": true
+  }
+]

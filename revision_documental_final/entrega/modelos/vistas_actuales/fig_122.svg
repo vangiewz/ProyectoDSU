@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1380" viewBox="0 0 2700 1380"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="49" font-family="Arial" font-size="42" font-weight="700">CU9: interacción de diseño (nombres conceptuales)</text>
+<text x="171.5" y="107" font-family="Arial" font-size="40" font-weight="400">Personal</text>
+<text x="136.5" y="150" font-family="Arial" font-size="40" font-weight="400">Operativo de</text>
+<text x="170.5" y="193" font-family="Arial" font-size="40" font-weight="400">Limpieza</text>
+<line x1="250.0" y1="230" x2="250.0" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="509.17447916666674" y="107" font-family="Arial" font-size="40" font-weight="400">CampoView</text>
+<line x1="616.6666666666667" y1="230" x2="616.6666666666667" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="847.8333333333334" y="107" font-family="Arial" font-size="40" font-weight="400">JornadaControl</text>
+<text x="961.3333333333334" y="150" font-family="Arial" font-size="40" font-weight="400">ler</text>
+<line x1="983.3333333333334" y1="230" x2="983.3333333333334" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1234.5078125" y="107" font-family="Arial" font-size="40" font-weight="400">VisitaService</text>
+<line x1="1350.0" y1="230" x2="1350.0" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1578.1666666666667" y="107" font-family="Arial" font-size="40" font-weight="400">PuntoRecolecci</text>
+<text x="1694.6666666666667" y="150" font-family="Arial" font-size="40" font-weight="400">on</text>
+<line x1="1716.6666666666667" y1="230" x2="1716.6666666666667" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="1947.333333333333" y="107" font-family="Arial" font-size="40" font-weight="400">RegistroResidu</text>
+<text x="2072.333333333333" y="150" font-family="Arial" font-size="40" font-weight="400">o</text>
+<line x1="2083.333333333333" y1="230" x2="2083.333333333333" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<text x="2326.5" y="107" font-family="Arial" font-size="40" font-weight="400">JornadaPunto</text>
+<line x1="2450.0" y1="230" x2="2450.0" y2="1355" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<rect x="25" y="240" width="2650" height="60" fill="white"/>
+<text x="35" y="277" font-family="Arial" font-size="40" font-weight="400">1. registrarVaciado(tipo, cantidad)</text>
+<line x1="250.0" y1="323" x2="616.6666666666667" y2="323" stroke="#444" stroke-width="3"/>
+<line x1="616.6666666666667" y1="323" x2="595.0559362102025" y2="333.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="616.6666666666667" y1="323" x2="595.0559362102025" y2="312.56082718133047" stroke="#444" stroke-width="3"/>
+<rect x="25" y="352" width="2650" height="60" fill="white"/>
+<text x="35" y="389" font-family="Arial" font-size="40" font-weight="400">2. POST /jornadas/{id}/visitas/</text>
+<line x1="616.6666666666667" y1="435" x2="983.3333333333334" y2="435" stroke="#444" stroke-width="3"/>
+<line x1="983.3333333333334" y1="435" x2="961.7226028768691" y2="445.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="983.3333333333334" y1="435" x2="961.7226028768691" y2="424.56082718133047" stroke="#444" stroke-width="3"/>
+<rect x="25" y="464" width="2650" height="60" fill="white"/>
+<text x="35" y="501" font-family="Arial" font-size="40" font-weight="400">3. registrar_visita(jornada, punto, detalles)</text>
+<line x1="983.3333333333334" y1="547" x2="1350.0" y2="547" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="547" x2="1328.3892695435356" y2="557.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="547" x2="1328.3892695435356" y2="536.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="576" width="2650" height="60" fill="white"/>
+<text x="35" y="613" font-family="Arial" font-size="40" font-weight="400">4. capacidad()</text>
+<line x1="1350.0" y1="659" x2="1716.6666666666667" y2="659" stroke="#444" stroke-width="3"/>
+<line x1="1716.6666666666667" y1="659" x2="1695.0559362102024" y2="669.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="1716.6666666666667" y1="659" x2="1695.0559362102024" y2="648.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="688" width="2650" height="60" fill="white"/>
+<text x="35" y="725" font-family="Arial" font-size="40" font-weight="400">5. capacidad_kg</text>
+<line x1="1716.6666666666667" y1="771" x2="1350.0" y2="771" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1350.0" y1="771" x2="1371.6107304564644" y2="760.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="1350.0" y1="771" x2="1371.6107304564644" y2="781.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="25" y="800" width="2650" height="60" fill="white"/>
+<text x="35" y="837" font-family="Arial" font-size="40" font-weight="400">6. [loop: por cada tipo de residuo] create(detalle)</text>
+<line x1="1350.0" y1="883" x2="2083.333333333333" y2="883" stroke="#444" stroke-width="3"/>
+<line x1="2083.333333333333" y1="883" x2="2061.7226028768687" y2="893.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="2083.333333333333" y1="883" x2="2061.7226028768687" y2="872.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="912" width="2650" height="60" fill="white"/>
+<text x="35" y="949" font-family="Arial" font-size="40" font-weight="400">7. marcarVisitado()</text>
+<line x1="1350.0" y1="995" x2="2450.0" y2="995" stroke="#444" stroke-width="3"/>
+<line x1="2450.0" y1="995" x2="2428.3892695435356" y2="1005.4391728186695" stroke="#444" stroke-width="3"/>
+<line x1="2450.0" y1="995" x2="2428.3892695435356" y2="984.5608271813305" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1024" width="2650" height="60" fill="white"/>
+<text x="35" y="1061" font-family="Arial" font-size="40" font-weight="400">8. registros</text>
+<line x1="1350.0" y1="1107" x2="983.3333333333334" y2="1107" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="983.3333333333334" y1="1107" x2="1004.9440637897976" y2="1096.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="983.3333333333334" y1="1107" x2="1004.9440637897976" y2="1117.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1136" width="2650" height="60" fill="white"/>
+<text x="35" y="1173" font-family="Arial" font-size="40" font-weight="400">9. 201 Created</text>
+<line x1="983.3333333333334" y1="1219" x2="616.6666666666667" y2="1219" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="616.6666666666667" y1="1219" x2="638.277397123131" y2="1208.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="616.6666666666667" y1="1219" x2="638.277397123131" y2="1229.4391728186695" stroke="#444" stroke-width="3"/>
+<rect x="25" y="1248" width="2650" height="60" fill="white"/>
+<text x="35" y="1285" font-family="Arial" font-size="40" font-weight="400">10. mostrarSiguientePunto()</text>
+<line x1="616.6666666666667" y1="1331" x2="250.0" y2="1331" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="250.0" y1="1331" x2="271.61073045646424" y2="1320.5608271813305" stroke="#444" stroke-width="3"/>
+<line x1="250.0" y1="1331" x2="271.61073045646424" y2="1341.4391728186695" stroke="#444" stroke-width="3"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1006" viewBox="0 0 2700 1006"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">prediction.Recomendacion — relaciones persistentes</text>
+<text x="55" y="105" font-family="Arial" font-size="40" font-weight="400">Tabla: prediction_recomendacion</text>
+<rect x="55" y="140" width="1190" height="816" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="194" font-family="Arial" font-size="42" font-weight="700">Recomendacion</text>
+<text x="75" y="255" font-family="Arial" font-size="40" font-weight="400">id: BigAutoField PK</text>
+<text x="75" y="304" font-family="Arial" font-size="40" font-weight="400">lote: ForeignKey FK</text>
+<text x="75" y="353" font-family="Arial" font-size="40" font-weight="400">punto: ForeignKey FK</text>
+<text x="75" y="402" font-family="Arial" font-size="40" font-weight="400">sector: ForeignKey FK</text>
+<text x="75" y="451" font-family="Arial" font-size="40" font-weight="400">tipo: CharField</text>
+<text x="75" y="500" font-family="Arial" font-size="40" font-weight="400">urgencia: CharField</text>
+<text x="75" y="549" font-family="Arial" font-size="40" font-weight="400">mensaje: TextField</text>
+<text x="75" y="598" font-family="Arial" font-size="40" font-weight="400">evidencia: JSONField</text>
+<text x="75" y="647" font-family="Arial" font-size="40" font-weight="400">estado: CharField</text>
+<text x="75" y="696" font-family="Arial" font-size="40" font-weight="400">creada_en: DateTimeField</text>
+<text x="75" y="745" font-family="Arial" font-size="40" font-weight="400">resuelta_por: ForeignKey FK</text>
+<text x="75" y="794" font-family="Arial" font-size="40" font-weight="400">resuelta_en: DateTimeField</text>
+<text x="75" y="843" font-family="Arial" font-size="40" font-weight="400">motivo_decision: TextField</text>
+<text x="75" y="892" font-family="Arial" font-size="40" font-weight="400">jornada: ForeignKey FK</text>
+<rect x="1950" y="180.0" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="227.0" font-family="Arial" font-size="40" font-weight="400">prediction.LotePrediccion</text>
+<line x1="1245" y1="299" x2="1950" y2="235.0" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1929.4215589693943" y2="247.3502131459293" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="235.0" x2="1927.533981627064" y2="226.5573689843213" stroke="#444" stroke-width="3"/>
+<text x="1260" y="289" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="225.0" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="321.2" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="368.2" font-family="Arial" font-size="40" font-weight="400">campus.PuntoRecoleccion</text>
+<line x1="1245" y1="348" x2="1950" y2="376.2" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="376.2" x2="1927.9893041496757" y2="385.7670929850459" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="376.2" x2="1928.8237706687698" y2="364.90543000769185" stroke="#444" stroke-width="3"/>
+<text x="1260" y="338" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="366.2" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="462.4" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="509.4" font-family="Arial" font-size="40" font-weight="400">campus.Sector</text>
+<line x1="1245" y1="397" x2="1950" y2="517.4" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="517.4" x2="1926.940326853909" y2="524.0521781692505" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="517.4" x2="1930.455047139716" y2="503.47179775817136" stroke="#444" stroke-width="3"/>
+<text x="1260" y="387" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="507.4" font-family="Arial" font-size="40" font-weight="400">1</text>
+<rect x="1950" y="603.5999999999999" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="650.5999999999999" font-family="Arial" font-size="40" font-weight="400">accounts.User</text>
+<line x1="1245" y1="740" x2="1950" y2="658.5999999999999" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="658.5999999999999" x2="1929.7292565415678" y2="671.4490061733361" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="658.5999999999999" x2="1927.3345315044373" y2="650.7084514905717" stroke="#444" stroke-width="3"/>
+<text x="1260" y="730" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="648.5999999999999" font-family="Arial" font-size="40" font-weight="400">0..1</text>
+<rect x="1950" y="744.8" width="680" height="110" fill="white" stroke="#444" stroke-width="3"/>
+<text x="1970" y="791.8" font-family="Arial" font-size="40" font-weight="400">operations.Jornada</text>
+<line x1="1245" y1="887" x2="1950" y2="799.8" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="799.8" x2="1929.8341396480973" y2="812.8129964369302" stroke="#444" stroke-width="3"/>
+<line x1="1950" y1="799.8" x2="1927.271269902569" y2="792.0925472328312" stroke="#444" stroke-width="3"/>
+<text x="1260" y="877" font-family="Arial" font-size="40" font-weight="400">*</text>
+<text x="1800" y="789.8" font-family="Arial" font-size="40" font-weight="400">0..1</text>
+</svg>

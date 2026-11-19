@@ -1,0 +1,1357 @@
+[
+  {
+    "ecosistema": "Python backend",
+    "componente": "asgiref",
+    "version": "3.13.0",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "asgiref-3.13.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "cloudpickle",
+    "version": "3.1.3",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "cloudpickle-3.1.3.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "colorama",
+    "version": "0.4.6",
+    "licencia_declarada": "NO DECLARADA; revisar archivo de licencia",
+    "archivos_licencia": [
+      "colorama-0.4.6.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "Django",
+    "version": "5.2.19",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "django-5.2.19.dist-info/licenses/AUTHORS",
+      "django-5.2.19.dist-info/licenses/LICENSE",
+      "django-5.2.19.dist-info/licenses/LICENSE.python",
+      "django/contrib/admin/static/admin/css/vendor/select2/LICENSE-SELECT2.md",
+      "django/contrib/admin/static/admin/img/LICENSE",
+      "django/contrib/admin/static/admin/js/vendor/jquery/LICENSE.txt",
+      "django/contrib/admin/static/admin/js/vendor/select2/LICENSE.md",
+      "django/contrib/admin/static/admin/js/vendor/xregexp/LICENSE.txt",
+      "django/contrib/gis/gdal/LICENSE",
+      "django/contrib/gis/geos/LICENSE",
+      "django/dispatch/license.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "djangorestframework",
+    "version": "3.18.3",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "djangorestframework-3.18.3.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "djangorestframework_simplejwt",
+    "version": "5.5.1",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "djangorestframework_simplejwt-5.5.1.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "django-cors-headers",
+    "version": "4.9.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "django_cors_headers-4.9.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "django-environ",
+    "version": "0.14.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "django_environ-0.14.0.dist-info/licenses/AUTHORS.rst",
+      "django_environ-0.14.0.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "django-filter",
+    "version": "25.2",
+    "licencia_declarada": "NO DECLARADA; revisar archivo de licencia",
+    "archivos_licencia": [
+      "django_filter-25.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "et_xmlfile",
+    "version": "2.0.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": []
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "flatbuffers",
+    "version": "25.12.19",
+    "licencia_declarada": "Apache 2.0",
+    "archivos_licencia": []
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "fonttools",
+    "version": "4.68.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "fonttools-4.68.0.dist-info/licenses/LICENSE",
+      "fonttools-4.68.0.dist-info/licenses/LICENSE.external"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "fpdf2",
+    "version": "2.9.0",
+    "licencia_declarada": "LGPL-3.0-only",
+    "archivos_licencia": [
+      "fpdf/data/color_profiles/sRGB2014.icc.LICENSE",
+      "fpdf2-2.9.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "gunicorn",
+    "version": "23.0.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "gunicorn-23.0.0.dist-info/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "iniconfig",
+    "version": "2.3.1",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "iniconfig-2.3.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "joblib",
+    "version": "1.6.0",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "joblib-1.6.0.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "narwhals",
+    "version": "2.29.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "narwhals-2.29.0.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "networkx",
+    "version": "3.7",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "networkx-3.7.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "numpy",
+    "version": "2.5.5",
+    "licencia_declarada": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "archivos_licencia": [
+      "numpy-2.5.5.dist-info/licenses/LICENSE.txt",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "numpy-2.5.5.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "numpy-2.5.5.dist-info/licenses/numpy/ma/LICENSE",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "numpy-2.5.5.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "numpy/_core/include/numpy/random/LICENSE.txt",
+      "numpy/ma/LICENSE",
+      "numpy/random/LICENSE.md"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "onnxruntime",
+    "version": "1.32.0",
+    "licencia_declarada": "MIT License",
+    "archivos_licencia": [
+      "onnxruntime/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "openpyxl",
+    "version": "3.1.5",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": []
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "packaging",
+    "version": "26.3",
+    "licencia_declarada": "Apache-2.0 OR BSD-2-Clause",
+    "archivos_licencia": [
+      "packaging-26.3.dist-info/licenses/LICENSE",
+      "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+      "packaging-26.3.dist-info/licenses/LICENSE.BSD",
+      "packaging/licenses/__init__.py",
+      "packaging/licenses/__pycache__/__init__.cpython-313.pyc",
+      "packaging/licenses/__pycache__/_spdx.cpython-313.pyc",
+      "packaging/licenses/_spdx.py"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pandas",
+    "version": "2.3.3",
+    "licencia_declarada": "BSD 3-Clause License   Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team  All rights reserved.   Copyright (c) 2011-2023, Open ",
+    "archivos_licencia": [
+      "pandas-2.3.3.dist-info/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pillow",
+    "version": "13.0.0",
+    "licencia_declarada": "MIT-CMU",
+    "archivos_licencia": [
+      "pillow-13.0.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pip",
+    "version": "24.2",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "pip-24.2.dist-info/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pluggy",
+    "version": "1.7.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "pluggy-1.7.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "protobuf",
+    "version": "7.36.2",
+    "licencia_declarada": "3-Clause BSD License",
+    "archivos_licencia": [
+      "protobuf-7.36.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "psutil",
+    "version": "7.2.2",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "psutil-7.2.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "psycopg",
+    "version": "3.3.9",
+    "licencia_declarada": "LGPL-3.0-only",
+    "archivos_licencia": [
+      "psycopg-3.3.9.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "psycopg-binary",
+    "version": "3.3.9",
+    "licencia_declarada": "LGPL-3.0-only",
+    "archivos_licencia": [
+      "psycopg_binary-3.3.9.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "Pygments",
+    "version": "2.21.0",
+    "licencia_declarada": "BSD-2-Clause",
+    "archivos_licencia": [
+      "pygments-2.21.0.dist-info/licenses/AUTHORS",
+      "pygments-2.21.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "PyJWT",
+    "version": "2.15.1",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "pyjwt-2.15.1.dist-info/licenses/AUTHORS.rst",
+      "pyjwt-2.15.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pymupdf",
+    "version": "2.1",
+    "licencia_declarada": "Dual Licensed - GNU AFFERO GPL 3.0 or Artifex Commercial License",
+    "archivos_licencia": [
+      "pymupdf-2.1.dist-info/COPYING"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pymupdf4llm",
+    "version": "2.1",
+    "licencia_declarada": "NO DECLARADA; revisar archivo de licencia",
+    "archivos_licencia": []
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pymupdf_layout",
+    "version": "2.1",
+    "licencia_declarada": "NO DECLARADA; revisar archivo de licencia",
+    "archivos_licencia": []
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pytest",
+    "version": "8.4.2",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "pytest-8.4.2.dist-info/licenses/AUTHORS",
+      "pytest-8.4.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pytest-django",
+    "version": "4.14.0",
+    "licencia_declarada": "pytest-django is released under the BSD (3-clause) license ---------------------------------------------------------- Copyright (c) 2015-2018, pytest-django authors (see AUTHORS fi",
+    "archivos_licencia": [
+      "pytest_django-4.14.0.dist-info/licenses/AUTHORS",
+      "pytest_django-4.14.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "python-dateutil",
+    "version": "4.0.0",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "python_dateutil-4.0.0.dist-info/licenses/AUTHORS.md",
+      "python_dateutil-4.0.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "pytz",
+    "version": "2026.6",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "pytz-2026.6.dist-info/LICENSE.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "PyYAML",
+    "version": "6.0.3",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "pyyaml-6.0.3.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "ruff",
+    "version": "0.17.5",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "ruff-0.17.5.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "scikit-learn",
+    "version": "1.9.1",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "scikit_learn-1.9.1.dist-info/licenses/COPYING",
+      "sklearn/externals/array_api_compat/LICENSE",
+      "sklearn/externals/array_api_extra/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "scipy",
+    "version": "1.18.1",
+    "licencia_declarada": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.  All rights reserved.   Redistribution and use in source and binary forms, with or without  modification, are permit",
+    "archivos_licencia": [
+      "scipy-1.18.1.dist-info/LICENSE.txt",
+      "scipy/_lib/_uarray/LICENSE",
+      "scipy/fft/_duccfft/LICENSE.md",
+      "scipy/integrate/LICENSE_DOP",
+      "scipy/spatial/qhull_src/COPYING_QHULL.txt"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "sqlparse",
+    "version": "0.6.1",
+    "licencia_declarada": "NO DECLARADA; revisar archivo de licencia",
+    "archivos_licencia": [
+      "sqlparse-0.6.1.dist-info/licenses/AUTHORS",
+      "sqlparse-0.6.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "tabulate",
+    "version": "0.10.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "tabulate-0.10.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "threadpoolctl",
+    "version": "3.8.0",
+    "licencia_declarada": "BSD-3-Clause",
+    "archivos_licencia": [
+      "threadpoolctl-3.8.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "tzdata",
+    "version": "2026.6",
+    "licencia_declarada": "Apache-2.0",
+    "archivos_licencia": [
+      "tzdata-2026.6.dist-info/licenses/LICENSE",
+      "tzdata-2026.6.dist-info/licenses/licenses/LICENSE_APACHE"
+    ]
+  },
+  {
+    "ecosistema": "Python backend",
+    "componente": "whitenoise",
+    "version": "6.12.0",
+    "licencia_declarada": "MIT",
+    "archivos_licencia": [
+      "whitenoise-6.12.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@emnapi/core",
+    "version": "2.0.0-beta.2",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@emnapi/runtime",
+    "version": "2.0.0-beta.2",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@emnapi/wasi-threads",
+    "version": "2.2.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@fontsource-variable/archivo",
+    "version": "5.3.0",
+    "licencia_declarada": "OFL-1.1",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@jridgewell/gen-mapping",
+    "version": "0.3.13",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@jridgewell/remapping",
+    "version": "2.3.5",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@jridgewell/resolve-uri",
+    "version": "3.1.2",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@jridgewell/sourcemap-codec",
+    "version": "1.6.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@jridgewell/trace-mapping",
+    "version": "0.3.31",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@napi-rs/wasm-runtime",
+    "version": "1.2.6",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxc-project/types",
+    "version": "0.156.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-android-arm-eabi",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-android-arm64",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-darwin-arm64",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-darwin-x64",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-freebsd-x64",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-arm-gnueabihf",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-arm-musleabihf",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-arm64-gnu",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-arm64-musl",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-ppc64-gnu",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-riscv64-gnu",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-riscv64-musl",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-s390x-gnu",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-x64-gnu",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-linux-x64-musl",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-openharmony-arm64",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-win32-arm64-msvc",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-win32-ia32-msvc",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@oxlint/binding-win32-x64-msvc",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@react-leaflet/core",
+    "version": "3.0.0",
+    "licencia_declarada": "Hippocratic-2.1",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@remix-run/route-pattern",
+    "version": "0.22.1",
+    "licencia_declarada": "MIT",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-android-arm-eabi",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-android-arm64",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-darwin-arm64",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-darwin-x64",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-freebsd-x64",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-linux-arm-gnueabihf",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-linux-arm64-gnu",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-linux-arm64-musl",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-linux-ppc64-gnu",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-linux-s390x-gnu",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-linux-x64-gnu",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-linux-x64-musl",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-openharmony-arm64",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-wasm32-wasi",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-win32-arm64-msvc",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/binding-win32-x64-msvc",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@rolldown/pluginutils",
+    "version": "1.0.1",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-android-arm64",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-darwin-arm64",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-darwin-x64",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-freebsd-x64",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-linux-arm-gnueabihf",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-linux-arm64-gnu",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-linux-arm64-musl",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-linux-x64-gnu",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-linux-x64-musl",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-win32-arm64-msvc",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/node/node_modules/lightningcss-win32-x64-msvc",
+    "version": "1.32.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-android-arm64",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-darwin-arm64",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-darwin-x64",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-freebsd-x64",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-linux-arm-gnueabihf",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-linux-arm64-gnu",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-linux-arm64-musl",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-linux-x64-gnu",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-linux-x64-musl",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-wasm32-wasi",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-win32-arm64-msvc",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/oxide-win32-x64-msvc",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tailwindcss/vite",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@tybys/wasm-util",
+    "version": "0.10.5",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@types/geojson",
+    "version": "7946.0.16",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@types/leaflet",
+    "version": "1.9.22",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@types/node",
+    "version": "24.19.1",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@types/react",
+    "version": "19.3.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@types/react-dom",
+    "version": "19.3.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/@vitejs/plugin-react",
+    "version": "6.1.1",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/cookie-es",
+    "version": "3.1.1",
+    "licencia_declarada": "MIT",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/csstype",
+    "version": "3.2.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/detect-libc",
+    "version": "2.1.2",
+    "licencia_declarada": "Apache-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/enhanced-resolve",
+    "version": "5.26.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/fdir",
+    "version": "6.5.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/fsevents",
+    "version": "2.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/graceful-fs",
+    "version": "4.2.11",
+    "licencia_declarada": "ISC",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/jiti",
+    "version": "2.7.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/leaflet",
+    "version": "1.9.4",
+    "licencia_declarada": "BSD-2-Clause",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/leaflet.heat",
+    "version": "0.2.0",
+    "licencia_declarada": "NO DECLARADA; revisar paquete",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-android-arm64",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-darwin-arm64",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-darwin-x64",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-freebsd-x64",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-linux-arm-gnueabihf",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-linux-arm64-gnu",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-linux-arm64-musl",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-linux-x64-gnu",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-linux-x64-musl",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-win32-arm64-msvc",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lightningcss-win32-x64-msvc",
+    "version": "1.33.0",
+    "licencia_declarada": "MPL-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/lucide-react",
+    "version": "1.52.0",
+    "licencia_declarada": "ISC",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/magic-string",
+    "version": "0.30.21",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/nanoid",
+    "version": "3.3.20",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/oxlint",
+    "version": "1.86.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/picocolors",
+    "version": "1.1.1",
+    "licencia_declarada": "ISC",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/picomatch",
+    "version": "4.0.7",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/postcss",
+    "version": "8.5.33",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/react",
+    "version": "19.3.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/react-dom",
+    "version": "19.3.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/react-leaflet",
+    "version": "5.0.0",
+    "licencia_declarada": "Hippocratic-2.1",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/react-router",
+    "version": "8.4.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/rolldown",
+    "version": "1.2.19",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/scheduler",
+    "version": "0.28.0",
+    "licencia_declarada": "MIT",
+    "desarrollo": false
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/source-map-js",
+    "version": "1.2.2",
+    "licencia_declarada": "BSD-3-Clause",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/tailwindcss",
+    "version": "4.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/tapable",
+    "version": "2.3.3",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/tinyglobby",
+    "version": "0.2.17",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/tslib",
+    "version": "2.9.1",
+    "licencia_declarada": "0BSD",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/typescript",
+    "version": "6.0.3",
+    "licencia_declarada": "Apache-2.0",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/undici-types",
+    "version": "7.24.6",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  },
+  {
+    "ecosistema": "npm frontend",
+    "componente": "node_modules/vite",
+    "version": "8.3.8",
+    "licencia_declarada": "MIT",
+    "desarrollo": true
+  }
+]

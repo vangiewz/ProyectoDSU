@@ -1,0 +1,4 @@
+05_ejecuciones_pruebas/.postgres/
+05_ejecuciones_pruebas/.postgres.log
+05_ejecuciones_pruebas/.modelos/
+05_ejecuciones_pruebas/*.dump

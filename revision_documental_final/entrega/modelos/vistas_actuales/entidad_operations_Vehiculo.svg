@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1000" viewBox="0 0 2700 1000"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="54" font-family="Arial" font-size="42" font-weight="700">operations.Vehiculo — relaciones persistentes</text>
+<text x="55" y="105" font-family="Arial" font-size="40" font-weight="400">Tabla: operations_vehiculo</text>
+<rect x="55" y="140" width="1190" height="810" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="75" y="194" font-family="Arial" font-size="42" font-weight="700">Vehiculo</text>
+<text x="75" y="255" font-family="Arial" font-size="40" font-weight="400">id: BigAutoField PK</text>
+<text x="75" y="304" font-family="Arial" font-size="40" font-weight="400">placa: CharField</text>
+<text x="75" y="353" font-family="Arial" font-size="40" font-weight="400">descripcion: CharField</text>
+<text x="75" y="402" font-family="Arial" font-size="40" font-weight="400">capacidad_kg: DecimalField</text>
+<text x="75" y="451" font-family="Arial" font-size="40" font-weight="400">estado: CharField</text>
+<text x="75" y="500" font-family="Arial" font-size="40" font-weight="400">is_active: BooleanField</text>
+</svg>

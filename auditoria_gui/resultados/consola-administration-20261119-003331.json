@@ -1,0 +1,404 @@
+[
+  {
+    "rol": "administrativo",
+    "caso": "",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/\",\"texto\":\"Ingresar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-punto-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-punto-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 500,
+    "ruta": "/api/puntos/14/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-punto-0",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-punto--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-punto--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 500,
+    "ruta": "/api/puntos/14/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-punto--1",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-contenedor-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-contenedor-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 500,
+    "ruta": "/api/contenedores/14/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-contenedor-0",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-contenedor--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-contenedor--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/contenedores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 500,
+    "ruta": "/api/contenedores/14/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-contenedor--1",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-unidad-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Unidades de medida\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-unidad-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-unidad-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 500,
+    "ruta": "/api/unidades/7/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-unidad-0",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-unidad--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Unidades de medida\",\"tipo\":\"tab\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-unidad--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-unidad--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/tipos-residuo\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 500,
+    "ruta": "/api/unidades/7/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-unidad--1",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-vehiculo-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-vehiculo-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-vehiculo-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-vehiculo-0",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-vehiculo--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-vehiculo--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-vehiculo--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-vehiculo--1",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/vehiculos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-geografia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-geografia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/puntos/14/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-geografia",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-geografia",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/puntos\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/puntos/14/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-geografia",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-longitud",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Editar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-longitud",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/sectores/6/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-longitud",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-longitud",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/sectores/6/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-longitud",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "LIM-longitud",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/sectores\",\"texto\":\"Guardar\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-rol",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/roles\",\"texto\":\"Nuevo rol\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-rol",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/roles\",\"texto\":\"Guardar rol\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 500,
+    "ruta": "/api/roles/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-rol",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/parametros\",\"texto\":\"Guardar parámetros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/parametros/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/parametros\",\"texto\":\"Guardar parámetros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/parametros/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/parametros\",\"texto\":\"Guardar parámetros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/parametros\",\"texto\":\"Guardar parámetros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/parametros\",\"texto\":\"Guardar parámetros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/parametros\",\"texto\":\"Guardar parámetros\",\"tipo\":\"BUTTON\"}"
+  },
+  {
+    "rol": "administrativo",
+    "tipo": "http",
+    "estado": 400,
+    "ruta": "/api/parametros/"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  },
+  {
+    "rol": "administrativo",
+    "caso": "ADM-parametros",
+    "tipo": "debug",
+    "mensaje": "__QA_CLICK__{\"ruta\":\"/parametros\",\"texto\":\"Guardar parámetros\",\"tipo\":\"BUTTON\"}"
+  }
+]

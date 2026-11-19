@@ -1,0 +1,18 @@
+{
+  "fecha_utc": "2026-11-19T03:58:13.535764+00:00",
+  "solo_lectura": true,
+  "resultados": [
+    {
+      "url": "https://residata-bolivia.vercel.app/",
+      "resultado": 200
+    },
+    {
+      "url": "https://dsu-uagrm.vercel.app/",
+      "resultado": 200
+    },
+    {
+      "url": "https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com/api/",
+      "resultado": 401
+    }
+  ]
+}

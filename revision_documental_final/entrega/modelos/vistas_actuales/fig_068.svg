@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1470" viewBox="0 0 2700 1470"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">Administración de la Plataforma y Auditoría</text>
+<rect x="55" y="220" width="750" height="330" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="294.0" y="408.0" font-family="Arial" font-size="58" font-weight="700">Paquete 8</text>
+<ellipse cx="1810" cy="325" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1298.5" y="315.0" font-family="Arial" font-size="56" font-weight="400">CU31. Configurar periodos académicos y</text>
+<text x="1668.0" y="377.0" font-family="Arial" font-size="56" font-weight="400">parámetros</text>
+<line x1="805" y1="385" x2="1020" y2="325" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="325" x2="1001.9906632337124" y2="340.86391468832466" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="325" x2="996.3785854767328" y2="320.75396939248134" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="585" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1340.0" y="606.0" font-family="Arial" font-size="56" font-weight="400">CU32. Consultar bitácora de auditoría</text>
+<line x1="805" y1="385" x2="1020" y2="585" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="585" x2="997.0667479947623" y2="577.9242701815106" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="585" x2="1011.2870715207574" y2="562.6374223910658" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="845" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1523.0" y="866.0" font-family="Arial" font-size="56" font-weight="400">CU33. Generar reporte</text>
+<line x1="805" y1="385" x2="1020" y2="845" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="845" x2="1001.3923134635611" y2="829.8423616034149" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="845" x2="1020.3066626049416" y2="821.0019592873349" stroke="#444" stroke-width="3"/>
+<ellipse cx="1810" cy="1105" rx="790.0" ry="105.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="1333.5" y="1126.0" font-family="Arial" font-size="56" font-weight="400">CU34. Exportar reporte a Excel o PDF</text>
+<line x1="805" y1="385" x2="1020" y2="1105" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="1020" y1="1105" x2="1003.8138630233248" y2="1087.2797017583703" stroke="#444" stroke-width="3"/>
+<line x1="1020" y1="1105" x2="1023.8193223667975" y2="1081.3058493155277" stroke="#444" stroke-width="3"/>
+<text x="55" y="1442" font-family="Arial" font-size="56" font-weight="400">«trace»: pertenencia y trazabilidad del paquete a sus casos de uso.</text>
+</svg>

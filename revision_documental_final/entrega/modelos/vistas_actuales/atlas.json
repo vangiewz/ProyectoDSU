@@ -1,0 +1,163 @@
+[
+  {
+    "modelo": "auth.Permission",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_auth_Permission.png",
+    "origen": "Django auth",
+    "campos": 4,
+    "relaciones": 1
+  },
+  {
+    "modelo": "auth.Group",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_auth_Group.png",
+    "origen": "Django auth",
+    "campos": 3,
+    "relaciones": 1
+  },
+  {
+    "modelo": "accounts.User",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_accounts_User.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\accounts\\models\\user.py",
+    "campos": 15,
+    "relaciones": 2
+  },
+  {
+    "modelo": "audit.AuditLog",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_audit_AuditLog.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\audit\\models\\audit_log.py",
+    "campos": 11,
+    "relaciones": 1
+  },
+  {
+    "modelo": "catalogs.ParametrosSistema",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_catalogs_ParametrosSistema.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\catalogs\\models\\parametros.py",
+    "campos": 14,
+    "relaciones": 1
+  },
+  {
+    "modelo": "catalogs.PeriodoAcademico",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_catalogs_PeriodoAcademico.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\catalogs\\models\\periodo_academico.py",
+    "campos": 4,
+    "relaciones": 0
+  },
+  {
+    "modelo": "catalogs.UnidadMedida",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_catalogs_UnidadMedida.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\catalogs\\models\\unidad_medida.py",
+    "campos": 6,
+    "relaciones": 0
+  },
+  {
+    "modelo": "catalogs.TipoResiduo",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_catalogs_TipoResiduo.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\catalogs\\models\\tipo_residuo.py",
+    "campos": 7,
+    "relaciones": 1
+  },
+  {
+    "modelo": "campus.Sector",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_campus_Sector.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\campus\\models\\sector.py",
+    "campos": 7,
+    "relaciones": 1
+  },
+  {
+    "modelo": "campus.PuntoRecoleccion",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_campus_PuntoRecoleccion.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\campus\\models\\punto_recoleccion.py",
+    "campos": 11,
+    "relaciones": 1
+  },
+  {
+    "modelo": "campus.Contenedor",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_campus_Contenedor.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\campus\\models\\contenedor.py",
+    "campos": 8,
+    "relaciones": 1
+  },
+  {
+    "modelo": "operations.Vehiculo",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_operations_Vehiculo.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\vehiculo.py",
+    "campos": 6,
+    "relaciones": 0
+  },
+  {
+    "modelo": "operations.Jornada",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_operations_Jornada.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\jornada.py",
+    "campos": 14,
+    "relaciones": 5
+  },
+  {
+    "modelo": "operations.JornadaPunto",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_operations_JornadaPunto.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\jornada.py",
+    "campos": 8,
+    "relaciones": 2
+  },
+  {
+    "modelo": "operations.Incidencia",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_operations_Incidencia.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\incidencia.py",
+    "campos": 12,
+    "relaciones": 4
+  },
+  {
+    "modelo": "operations.RegistroResiduo",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_operations_RegistroResiduo.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\operations\\models\\registro_residuo.py",
+    "campos": 9,
+    "relaciones": 5
+  },
+  {
+    "modelo": "analytics.EjecucionETL",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_analytics_EjecucionETL.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\analytics\\models\\ejecucion_etl.py",
+    "campos": 11,
+    "relaciones": 1
+  },
+  {
+    "modelo": "analytics.HechoResiduo",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_analytics_HechoResiduo.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\analytics\\models\\hecho_residuo.py",
+    "campos": 19,
+    "relaciones": 8
+  },
+  {
+    "modelo": "analytics.RegistroDescartado",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_analytics_RegistroDescartado.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\analytics\\models\\registro_descartado.py",
+    "campos": 4,
+    "relaciones": 2
+  },
+  {
+    "modelo": "prediction.ModeloEntrenado",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_prediction_ModeloEntrenado.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\prediction\\models\\modelo_entrenado.py",
+    "campos": 21,
+    "relaciones": 1
+  },
+  {
+    "modelo": "prediction.LotePrediccion",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_prediction_LotePrediccion.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\prediction\\models\\lote_prediccion.py",
+    "campos": 9,
+    "relaciones": 4
+  },
+  {
+    "modelo": "prediction.Prediccion",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_prediction_Prediccion.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\prediction\\models\\prediccion.py",
+    "campos": 8,
+    "relaciones": 4
+  },
+  {
+    "modelo": "prediction.Recomendacion",
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\entidad_prediction_Recomendacion.png",
+    "origen": "gestion-residuos-dsu\\backend\\apps\\prediction\\models\\recomendacion.py",
+    "campos": 14,
+    "relaciones": 5
+  }
+]

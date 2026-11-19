@@ -1,0 +1,4373 @@
+{
+  "pdf_sha256": "9b98130ccfeaf5193549a446f34925ea40fcf82bede0195d6448c8122bee9ff7",
+  "paginas": 377,
+  "ronda_inicial": {
+    "paginas": 377,
+    "planchas": 48,
+    "revisadas": true
+  },
+  "ronda_cambios": {
+    "paginas": 377,
+    "identicas": 312,
+    "cambiadas": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      22,
+      27,
+      28,
+      40,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      52,
+      53,
+      206,
+      209,
+      218,
+      219,
+      224,
+      225,
+      240,
+      241,
+      243,
+      255,
+      260,
+      264,
+      265,
+      267,
+      268,
+      269,
+      274,
+      275,
+      280,
+      281,
+      282,
+      283,
+      288,
+      289,
+      290,
+      291,
+      297,
+      299,
+      310,
+      320,
+      331,
+      332,
+      334,
+      348,
+      372,
+      373,
+      374,
+      375,
+      377
+    ],
+    "planchas_cambios": 9,
+    "detalle": [
+      {
+        "pagina": 1,
+        "identica_a_pagina_previa": 1,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 2,
+        "identica_a_pagina_previa": 2,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 3,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 4,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 5,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 6,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 7,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 8,
+        "identica_a_pagina_previa": 8,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 9,
+        "identica_a_pagina_previa": 9,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 10,
+        "identica_a_pagina_previa": 10,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 11,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 12,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 13,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 14,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 15,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 16,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 17,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 18,
+        "identica_a_pagina_previa": 18,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 19,
+        "identica_a_pagina_previa": 19,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 20,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 21,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 22,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 23,
+        "identica_a_pagina_previa": 23,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 24,
+        "identica_a_pagina_previa": 24,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 25,
+        "identica_a_pagina_previa": 25,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 26,
+        "identica_a_pagina_previa": 26,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 27,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 28,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 29,
+        "identica_a_pagina_previa": 29,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 30,
+        "identica_a_pagina_previa": 30,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 31,
+        "identica_a_pagina_previa": 31,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 32,
+        "identica_a_pagina_previa": 32,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 33,
+        "identica_a_pagina_previa": 33,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 34,
+        "identica_a_pagina_previa": 34,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 35,
+        "identica_a_pagina_previa": 35,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 36,
+        "identica_a_pagina_previa": 36,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 37,
+        "identica_a_pagina_previa": 37,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 38,
+        "identica_a_pagina_previa": 38,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 39,
+        "identica_a_pagina_previa": 39,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 40,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 41,
+        "identica_a_pagina_previa": 41,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 42,
+        "identica_a_pagina_previa": 42,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 43,
+        "identica_a_pagina_previa": 43,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 44,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 45,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 46,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 47,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 48,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 49,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 50,
+        "identica_a_pagina_previa": 49,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 51,
+        "identica_a_pagina_previa": 50,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 52,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 53,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 54,
+        "identica_a_pagina_previa": 53,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 55,
+        "identica_a_pagina_previa": 54,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 56,
+        "identica_a_pagina_previa": 55,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 57,
+        "identica_a_pagina_previa": 56,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 58,
+        "identica_a_pagina_previa": 57,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 59,
+        "identica_a_pagina_previa": 58,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 60,
+        "identica_a_pagina_previa": 59,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 61,
+        "identica_a_pagina_previa": 60,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 62,
+        "identica_a_pagina_previa": 61,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 63,
+        "identica_a_pagina_previa": 62,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 64,
+        "identica_a_pagina_previa": 63,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 65,
+        "identica_a_pagina_previa": 64,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 66,
+        "identica_a_pagina_previa": 65,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 67,
+        "identica_a_pagina_previa": 66,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 68,
+        "identica_a_pagina_previa": 67,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 69,
+        "identica_a_pagina_previa": 68,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 70,
+        "identica_a_pagina_previa": 69,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 71,
+        "identica_a_pagina_previa": 70,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 72,
+        "identica_a_pagina_previa": 71,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 73,
+        "identica_a_pagina_previa": 72,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 74,
+        "identica_a_pagina_previa": 73,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 75,
+        "identica_a_pagina_previa": 74,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 76,
+        "identica_a_pagina_previa": 75,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 77,
+        "identica_a_pagina_previa": 76,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 78,
+        "identica_a_pagina_previa": 77,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 79,
+        "identica_a_pagina_previa": 78,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 80,
+        "identica_a_pagina_previa": 79,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 81,
+        "identica_a_pagina_previa": 80,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 82,
+        "identica_a_pagina_previa": 81,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 83,
+        "identica_a_pagina_previa": 82,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 84,
+        "identica_a_pagina_previa": 83,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 85,
+        "identica_a_pagina_previa": 84,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 86,
+        "identica_a_pagina_previa": 85,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 87,
+        "identica_a_pagina_previa": 86,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 88,
+        "identica_a_pagina_previa": 87,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 89,
+        "identica_a_pagina_previa": 88,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 90,
+        "identica_a_pagina_previa": 89,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 91,
+        "identica_a_pagina_previa": 90,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 92,
+        "identica_a_pagina_previa": 91,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 93,
+        "identica_a_pagina_previa": 92,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 94,
+        "identica_a_pagina_previa": 93,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 95,
+        "identica_a_pagina_previa": 94,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 96,
+        "identica_a_pagina_previa": 95,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 97,
+        "identica_a_pagina_previa": 96,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 98,
+        "identica_a_pagina_previa": 97,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 99,
+        "identica_a_pagina_previa": 98,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 100,
+        "identica_a_pagina_previa": 99,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 101,
+        "identica_a_pagina_previa": 100,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 102,
+        "identica_a_pagina_previa": 101,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 103,
+        "identica_a_pagina_previa": 102,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 104,
+        "identica_a_pagina_previa": 103,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 105,
+        "identica_a_pagina_previa": 104,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 106,
+        "identica_a_pagina_previa": 105,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 107,
+        "identica_a_pagina_previa": 106,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 108,
+        "identica_a_pagina_previa": 107,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 109,
+        "identica_a_pagina_previa": 108,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 110,
+        "identica_a_pagina_previa": 109,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 111,
+        "identica_a_pagina_previa": 110,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 112,
+        "identica_a_pagina_previa": 111,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 113,
+        "identica_a_pagina_previa": 112,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 114,
+        "identica_a_pagina_previa": 113,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 115,
+        "identica_a_pagina_previa": 114,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 116,
+        "identica_a_pagina_previa": 115,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 117,
+        "identica_a_pagina_previa": 116,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 118,
+        "identica_a_pagina_previa": 117,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 119,
+        "identica_a_pagina_previa": 118,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 120,
+        "identica_a_pagina_previa": 119,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 121,
+        "identica_a_pagina_previa": 120,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 122,
+        "identica_a_pagina_previa": 121,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 123,
+        "identica_a_pagina_previa": 122,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 124,
+        "identica_a_pagina_previa": 123,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 125,
+        "identica_a_pagina_previa": 124,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 126,
+        "identica_a_pagina_previa": 125,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 127,
+        "identica_a_pagina_previa": 126,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 128,
+        "identica_a_pagina_previa": 127,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 129,
+        "identica_a_pagina_previa": 128,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 130,
+        "identica_a_pagina_previa": 129,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 131,
+        "identica_a_pagina_previa": 130,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 132,
+        "identica_a_pagina_previa": 131,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 133,
+        "identica_a_pagina_previa": 132,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 134,
+        "identica_a_pagina_previa": 133,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 135,
+        "identica_a_pagina_previa": 134,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 136,
+        "identica_a_pagina_previa": 135,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 137,
+        "identica_a_pagina_previa": 136,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 138,
+        "identica_a_pagina_previa": 137,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 139,
+        "identica_a_pagina_previa": 138,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 140,
+        "identica_a_pagina_previa": 139,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 141,
+        "identica_a_pagina_previa": 140,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 142,
+        "identica_a_pagina_previa": 141,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 143,
+        "identica_a_pagina_previa": 142,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 144,
+        "identica_a_pagina_previa": 143,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 145,
+        "identica_a_pagina_previa": 144,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 146,
+        "identica_a_pagina_previa": 145,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 147,
+        "identica_a_pagina_previa": 146,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 148,
+        "identica_a_pagina_previa": 147,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 149,
+        "identica_a_pagina_previa": 148,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 150,
+        "identica_a_pagina_previa": 149,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 151,
+        "identica_a_pagina_previa": 150,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 152,
+        "identica_a_pagina_previa": 151,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 153,
+        "identica_a_pagina_previa": 152,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 154,
+        "identica_a_pagina_previa": 153,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 155,
+        "identica_a_pagina_previa": 154,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 156,
+        "identica_a_pagina_previa": 155,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 157,
+        "identica_a_pagina_previa": 156,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 158,
+        "identica_a_pagina_previa": 157,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 159,
+        "identica_a_pagina_previa": 158,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 160,
+        "identica_a_pagina_previa": 159,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 161,
+        "identica_a_pagina_previa": 160,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 162,
+        "identica_a_pagina_previa": 161,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 163,
+        "identica_a_pagina_previa": 162,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 164,
+        "identica_a_pagina_previa": 163,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 165,
+        "identica_a_pagina_previa": 164,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 166,
+        "identica_a_pagina_previa": 165,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 167,
+        "identica_a_pagina_previa": 166,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 168,
+        "identica_a_pagina_previa": 167,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 169,
+        "identica_a_pagina_previa": 168,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 170,
+        "identica_a_pagina_previa": 169,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 171,
+        "identica_a_pagina_previa": 170,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 172,
+        "identica_a_pagina_previa": 171,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 173,
+        "identica_a_pagina_previa": 172,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 174,
+        "identica_a_pagina_previa": 173,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 175,
+        "identica_a_pagina_previa": 174,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 176,
+        "identica_a_pagina_previa": 175,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 177,
+        "identica_a_pagina_previa": 176,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 178,
+        "identica_a_pagina_previa": 177,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 179,
+        "identica_a_pagina_previa": 178,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 180,
+        "identica_a_pagina_previa": 179,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 181,
+        "identica_a_pagina_previa": 180,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 182,
+        "identica_a_pagina_previa": 181,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 183,
+        "identica_a_pagina_previa": 182,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 184,
+        "identica_a_pagina_previa": 183,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 185,
+        "identica_a_pagina_previa": 184,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 186,
+        "identica_a_pagina_previa": 185,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 187,
+        "identica_a_pagina_previa": 186,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 188,
+        "identica_a_pagina_previa": 187,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 189,
+        "identica_a_pagina_previa": 188,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 190,
+        "identica_a_pagina_previa": 189,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 191,
+        "identica_a_pagina_previa": 190,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 192,
+        "identica_a_pagina_previa": 191,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 193,
+        "identica_a_pagina_previa": 192,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 194,
+        "identica_a_pagina_previa": 193,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 195,
+        "identica_a_pagina_previa": 194,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 196,
+        "identica_a_pagina_previa": 195,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 197,
+        "identica_a_pagina_previa": 196,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 198,
+        "identica_a_pagina_previa": 197,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 199,
+        "identica_a_pagina_previa": 198,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 200,
+        "identica_a_pagina_previa": 199,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 201,
+        "identica_a_pagina_previa": 200,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 202,
+        "identica_a_pagina_previa": 201,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 203,
+        "identica_a_pagina_previa": 202,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 204,
+        "identica_a_pagina_previa": 203,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 205,
+        "identica_a_pagina_previa": 204,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 206,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 207,
+        "identica_a_pagina_previa": 206,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 208,
+        "identica_a_pagina_previa": 207,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 209,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 210,
+        "identica_a_pagina_previa": 209,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 211,
+        "identica_a_pagina_previa": 210,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 212,
+        "identica_a_pagina_previa": 211,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 213,
+        "identica_a_pagina_previa": 212,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 214,
+        "identica_a_pagina_previa": 213,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 215,
+        "identica_a_pagina_previa": 214,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 216,
+        "identica_a_pagina_previa": 215,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 217,
+        "identica_a_pagina_previa": 216,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 218,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 219,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 220,
+        "identica_a_pagina_previa": 219,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 221,
+        "identica_a_pagina_previa": 220,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 222,
+        "identica_a_pagina_previa": 221,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 223,
+        "identica_a_pagina_previa": 222,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 224,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 225,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 226,
+        "identica_a_pagina_previa": 225,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 227,
+        "identica_a_pagina_previa": 226,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 228,
+        "identica_a_pagina_previa": 227,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 229,
+        "identica_a_pagina_previa": 228,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 230,
+        "identica_a_pagina_previa": 229,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 231,
+        "identica_a_pagina_previa": 230,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 232,
+        "identica_a_pagina_previa": 231,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 233,
+        "identica_a_pagina_previa": 232,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 234,
+        "identica_a_pagina_previa": 233,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 235,
+        "identica_a_pagina_previa": 234,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 236,
+        "identica_a_pagina_previa": 235,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 237,
+        "identica_a_pagina_previa": 236,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 238,
+        "identica_a_pagina_previa": 237,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 239,
+        "identica_a_pagina_previa": 238,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 240,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 241,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 242,
+        "identica_a_pagina_previa": 241,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 243,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 244,
+        "identica_a_pagina_previa": 243,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 245,
+        "identica_a_pagina_previa": 244,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 246,
+        "identica_a_pagina_previa": 245,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 247,
+        "identica_a_pagina_previa": 246,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 248,
+        "identica_a_pagina_previa": 247,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 249,
+        "identica_a_pagina_previa": 248,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 250,
+        "identica_a_pagina_previa": 249,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 251,
+        "identica_a_pagina_previa": 250,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 252,
+        "identica_a_pagina_previa": 251,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 253,
+        "identica_a_pagina_previa": 252,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 254,
+        "identica_a_pagina_previa": 253,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 255,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 256,
+        "identica_a_pagina_previa": 255,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 257,
+        "identica_a_pagina_previa": 256,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 258,
+        "identica_a_pagina_previa": 257,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 259,
+        "identica_a_pagina_previa": 258,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 260,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 261,
+        "identica_a_pagina_previa": 260,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 262,
+        "identica_a_pagina_previa": 261,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 263,
+        "identica_a_pagina_previa": 262,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 264,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 265,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 266,
+        "identica_a_pagina_previa": 265,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 267,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 268,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 269,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 270,
+        "identica_a_pagina_previa": 270,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 271,
+        "identica_a_pagina_previa": 271,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 272,
+        "identica_a_pagina_previa": 272,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 273,
+        "identica_a_pagina_previa": 273,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 274,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 275,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 276,
+        "identica_a_pagina_previa": 276,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 277,
+        "identica_a_pagina_previa": 277,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 278,
+        "identica_a_pagina_previa": 278,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 279,
+        "identica_a_pagina_previa": 279,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 280,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 281,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 282,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 283,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 284,
+        "identica_a_pagina_previa": 284,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 285,
+        "identica_a_pagina_previa": 285,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 286,
+        "identica_a_pagina_previa": 286,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 287,
+        "identica_a_pagina_previa": 287,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 288,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 289,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 290,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 291,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 292,
+        "identica_a_pagina_previa": 292,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 293,
+        "identica_a_pagina_previa": 293,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 294,
+        "identica_a_pagina_previa": 294,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 295,
+        "identica_a_pagina_previa": 295,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 296,
+        "identica_a_pagina_previa": 296,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 297,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 298,
+        "identica_a_pagina_previa": 298,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 299,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 300,
+        "identica_a_pagina_previa": 300,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 301,
+        "identica_a_pagina_previa": 301,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 302,
+        "identica_a_pagina_previa": 302,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 303,
+        "identica_a_pagina_previa": 303,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 304,
+        "identica_a_pagina_previa": 304,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 305,
+        "identica_a_pagina_previa": 305,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 306,
+        "identica_a_pagina_previa": 306,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 307,
+        "identica_a_pagina_previa": 307,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 308,
+        "identica_a_pagina_previa": 308,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 309,
+        "identica_a_pagina_previa": 309,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 310,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 311,
+        "identica_a_pagina_previa": 311,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 312,
+        "identica_a_pagina_previa": 312,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 313,
+        "identica_a_pagina_previa": 313,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 314,
+        "identica_a_pagina_previa": 314,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 315,
+        "identica_a_pagina_previa": 315,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 316,
+        "identica_a_pagina_previa": 316,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 317,
+        "identica_a_pagina_previa": 317,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 318,
+        "identica_a_pagina_previa": 318,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 319,
+        "identica_a_pagina_previa": 319,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 320,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 321,
+        "identica_a_pagina_previa": 321,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 322,
+        "identica_a_pagina_previa": 322,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 323,
+        "identica_a_pagina_previa": 323,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 324,
+        "identica_a_pagina_previa": 324,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 325,
+        "identica_a_pagina_previa": 325,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 326,
+        "identica_a_pagina_previa": 326,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 327,
+        "identica_a_pagina_previa": 327,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 328,
+        "identica_a_pagina_previa": 328,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 329,
+        "identica_a_pagina_previa": 329,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 330,
+        "identica_a_pagina_previa": 330,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 331,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 332,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 333,
+        "identica_a_pagina_previa": 333,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 334,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 335,
+        "identica_a_pagina_previa": 335,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 336,
+        "identica_a_pagina_previa": 336,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 337,
+        "identica_a_pagina_previa": 337,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 338,
+        "identica_a_pagina_previa": 338,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 339,
+        "identica_a_pagina_previa": 339,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 340,
+        "identica_a_pagina_previa": 340,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 341,
+        "identica_a_pagina_previa": 341,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 342,
+        "identica_a_pagina_previa": 342,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 343,
+        "identica_a_pagina_previa": 343,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 344,
+        "identica_a_pagina_previa": 344,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 345,
+        "identica_a_pagina_previa": 345,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 346,
+        "identica_a_pagina_previa": 346,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 347,
+        "identica_a_pagina_previa": 347,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 348,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 349,
+        "identica_a_pagina_previa": 349,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 350,
+        "identica_a_pagina_previa": 350,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 351,
+        "identica_a_pagina_previa": 351,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 352,
+        "identica_a_pagina_previa": 352,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 353,
+        "identica_a_pagina_previa": 353,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 354,
+        "identica_a_pagina_previa": 354,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 355,
+        "identica_a_pagina_previa": 355,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 356,
+        "identica_a_pagina_previa": 356,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 357,
+        "identica_a_pagina_previa": 357,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 358,
+        "identica_a_pagina_previa": 358,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 359,
+        "identica_a_pagina_previa": 359,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 360,
+        "identica_a_pagina_previa": 360,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 361,
+        "identica_a_pagina_previa": 361,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 362,
+        "identica_a_pagina_previa": 362,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 363,
+        "identica_a_pagina_previa": 363,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 364,
+        "identica_a_pagina_previa": 364,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 365,
+        "identica_a_pagina_previa": 365,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 366,
+        "identica_a_pagina_previa": 366,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 367,
+        "identica_a_pagina_previa": 367,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 368,
+        "identica_a_pagina_previa": 368,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 369,
+        "identica_a_pagina_previa": 369,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 370,
+        "identica_a_pagina_previa": 370,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 371,
+        "identica_a_pagina_previa": 371,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 372,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 373,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 374,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 375,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      },
+      {
+        "pagina": 376,
+        "identica_a_pagina_previa": 376,
+        "revision": "Ronda previa 377 páginas; cuerpo idéntico salvo folio"
+      },
+      {
+        "pagina": 377,
+        "identica_a_pagina_previa": null,
+        "revision": "Revisión visual de cambios requerida"
+      }
+    ],
+    "planchas_inspeccionadas": 9,
+    "revision_visual_cambios": "65 páginas revisadas en las nueve planchas; sin incidencias adicionales de composición observadas"
+  },
+  "paginas_ampliadas": [
+    98,
+    268,
+    279,
+    291,
+    296,
+    310,
+    368
+  ],
+  "figuras": [
+    {
+      "numero": 1,
+      "titulo": "Plataforma de gestión de Sensoneo",
+      "paginas": [
+        29
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 2,
+      "titulo": "Plataforma CleanCityNetworks de Ecube Labs",
+      "paginas": [
+        31
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 3,
+      "titulo": "Estación inteligente de Bigbelly",
+      "paginas": [
+        32
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 4,
+      "titulo": "Cronograma de referencia: fases y semanas ampliadas",
+      "paginas": [
+        46
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 5,
+      "titulo": "Organización interna del equipo",
+      "paginas": [
+        48
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 6,
+      "titulo": "Organización funcional: ocho áreas y persistencia compartida",
+      "paginas": [
+        52
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 7,
+      "titulo": "Entidades persistentes del sistema implementado; relaciones ampliadas en el anexo K",
+      "paginas": [
+        58
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 8,
+      "titulo": "Flujo operativo: flujo ampliado, parte 1/3",
+      "paginas": [
+        59
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 9,
+      "titulo": "Flujo operativo: flujo ampliado, parte 2/3",
+      "paginas": [
+        60
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 10,
+      "titulo": "Flujo operativo: flujo ampliado, parte 3/3",
+      "paginas": [
+        61
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 11,
+      "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 1/3",
+      "paginas": [
+        62
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 12,
+      "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 2/3",
+      "paginas": [
+        63
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 13,
+      "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 3/3",
+      "paginas": [
+        64
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 14,
+      "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 1/3",
+      "paginas": [
+        65
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 15,
+      "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 2/3",
+      "paginas": [
+        66
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 16,
+      "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 3/3",
+      "paginas": [
+        67
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 17,
+      "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 1/3",
+      "paginas": [
+        68
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 18,
+      "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 2/3",
+      "paginas": [
+        69
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 19,
+      "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 3/3",
+      "paginas": [
+        70
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 20,
+      "titulo": "RF16 · Calcular los Indicadores Clave de Rendimiento: flujo ampliado, parte 1/2",
+      "paginas": [
+        71
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 21,
+      "titulo": "RF16 · Calcular los Indicadores Clave de Rendimiento: flujo ampliado, parte 2/2",
+      "paginas": [
+        72
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 22,
+      "titulo": "RF20 · Generar el Mapa de Calor de Zonas Críticas: flujo ampliado, parte 1/2",
+      "paginas": [
+        73
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 23,
+      "titulo": "RF20 · Generar el Mapa de Calor de Zonas Críticas: flujo ampliado, parte 2/2",
+      "paginas": [
+        74
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 24,
+      "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 1/3",
+      "paginas": [
+        75
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 25,
+      "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 2/3",
+      "paginas": [
+        76
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 26,
+      "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 3/3",
+      "paginas": [
+        77
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 27,
+      "titulo": "RF23 · Predecir la Generación Futura de Residuos: flujo ampliado, parte 1/2",
+      "paginas": [
+        78
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 28,
+      "titulo": "RF23 · Predecir la Generación Futura de Residuos: flujo ampliado, parte 2/2",
+      "paginas": [
+        79
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 29,
+      "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 1/3",
+      "paginas": [
+        80
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 30,
+      "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 2/3",
+      "paginas": [
+        81
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 31,
+      "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 3/3",
+      "paginas": [
+        82
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 32,
+      "titulo": "Actores y responsabilidades del catálogo de requisitos",
+      "paginas": [
+        83
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 33,
+      "titulo": "Modelo general de los 34 CU mediante identificadores; nombres en las vistas individuales",
+      "paginas": [
+        84
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 34,
+      "titulo": "CU1. Iniciar sesión: actores y relaciones",
+      "paginas": [
+        85
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 35,
+      "titulo": "CU2. Cerrar sesión: actores y relaciones",
+      "paginas": [
+        86
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 36,
+      "titulo": "CU3. Gestionar usuarios: actores y relaciones",
+      "paginas": [
+        87
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 37,
+      "titulo": "CU4. Gestionar roles y permisos: actores y relaciones",
+      "paginas": [
+        88
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 38,
+      "titulo": "CU5. Gestionar sectores y facultades: actores y relaciones",
+      "paginas": [
+        89
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 39,
+      "titulo": "CU6. Gestionar puntos de recolección: actores y relaciones",
+      "paginas": [
+        90
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 40,
+      "titulo": "CU7. Gestionar contenedores: actores y relaciones",
+      "paginas": [
+        91
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 41,
+      "titulo": "CU8. Gestionar tipos de residuo y unidades de medida: actores y relaciones",
+      "paginas": [
+        92
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 42,
+      "titulo": "CU9. Registrar vaciado de residuos: actores y relaciones",
+      "paginas": [
+        93
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 43,
+      "titulo": "CU10. Registrar incidencia operativa: actores y relaciones",
+      "paginas": [
+        94
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 44,
+      "titulo": "CU11. Atender incidencia: actores y relaciones",
+      "paginas": [
+        95
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 45,
+      "titulo": "CU12. Consultar histórico de residuos: actores y relaciones",
+      "paginas": [
+        96
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 46,
+      "titulo": "CU13. Gestionar vehículos: actores y relaciones",
+      "paginas": [
+        97
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 47,
+      "titulo": "CU14. Planificar jornada y ruta de recolección: actores y relaciones",
+      "paginas": [
+        98
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": true,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 48,
+      "titulo": "CU15. Asignar personal y vehículos a la jornada: actores y relaciones",
+      "paginas": [
+        99
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 49,
+      "titulo": "CU16. Ejecutar jornada de recolección: actores y relaciones",
+      "paginas": [
+        100
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 50,
+      "titulo": "CU17. Omitir punto de la ruta: actores y relaciones",
+      "paginas": [
+        101
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 51,
+      "titulo": "CU18. Cerrar jornada de recolección: actores y relaciones",
+      "paginas": [
+        102
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 52,
+      "titulo": "CU19. Consultar historial de recolecciones: actores y relaciones",
+      "paginas": [
+        103
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 53,
+      "titulo": "CU20. Ejecutar proceso ETL: actores y relaciones",
+      "paginas": [
+        104
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 54,
+      "titulo": "CU21. Visualizar tablero interactivo: actores y relaciones",
+      "paginas": [
+        105
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 55,
+      "titulo": "CU22. Comparar periodos e identificar tendencias: actores y relaciones",
+      "paginas": [
+        106
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 56,
+      "titulo": "CU23. Visualizar puntos en el mapa interactivo: actores y relaciones",
+      "paginas": [
+        107
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 57,
+      "titulo": "CU24. Generar mapa de calor: actores y relaciones",
+      "paginas": [
+        108
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 58,
+      "titulo": "CU25. Filtrar mapa por periodo, sector y tipo de residuo: actores y relaciones",
+      "paginas": [
+        109
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 59,
+      "titulo": "CU26. Entrenar y evaluar el modelo Random Forest Regressor: actores y relaciones",
+      "paginas": [
+        110
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 60,
+      "titulo": "CU27. Publicar o revertir versión del modelo: actores y relaciones",
+      "paginas": [
+        111
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 61,
+      "titulo": "CU28. Predecir generación futura y emitir alertas: actores y relaciones",
+      "paginas": [
+        112
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 62,
+      "titulo": "CU29. Consultar alertas y recomendaciones logísticas: actores y relaciones",
+      "paginas": [
+        113
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 63,
+      "titulo": "CU30. Atender recomendación logística: actores y relaciones",
+      "paginas": [
+        114
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 64,
+      "titulo": "CU31. Configurar periodos académicos y parámetros: actores y relaciones",
+      "paginas": [
+        115
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 65,
+      "titulo": "CU32. Consultar bitácora de auditoría: actores y relaciones",
+      "paginas": [
+        116
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 66,
+      "titulo": "CU33. Generar reporte: actores y relaciones",
+      "paginas": [
+        117
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 67,
+      "titulo": "CU34. Exportar reporte a Excel o PDF: actores y relaciones",
+      "paginas": [
+        118
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 68,
+      "titulo": "Identificación y requisitos asociados a los ocho paquetes",
+      "paginas": [
+        119
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 69,
+      "titulo": "Trazabilidad del paquete 1 hacia sus casos de uso",
+      "paginas": [
+        120
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 70,
+      "titulo": "Encapsulamiento del paquete 1 y asociaciones de los roles",
+      "paginas": [
+        121
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 71,
+      "titulo": "Trazabilidad del paquete 2 hacia sus casos de uso",
+      "paginas": [
+        122
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 72,
+      "titulo": "Encapsulamiento del paquete 2 y asociaciones de los roles",
+      "paginas": [
+        123
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 73,
+      "titulo": "Trazabilidad del paquete 3 hacia sus casos de uso",
+      "paginas": [
+        124
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 74,
+      "titulo": "Encapsulamiento del paquete 3 y asociaciones de los roles",
+      "paginas": [
+        125
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 75,
+      "titulo": "Trazabilidad del paquete 4 hacia sus casos de uso",
+      "paginas": [
+        126
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 76,
+      "titulo": "Encapsulamiento del paquete 4 y asociaciones de los roles",
+      "paginas": [
+        127
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 77,
+      "titulo": "Trazabilidad del paquete 5 hacia sus casos de uso",
+      "paginas": [
+        128
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 78,
+      "titulo": "Encapsulamiento del paquete 5 y asociaciones de los roles",
+      "paginas": [
+        129
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 79,
+      "titulo": "Trazabilidad del paquete 6 hacia sus casos de uso",
+      "paginas": [
+        130
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 80,
+      "titulo": "Encapsulamiento del paquete 6 y asociaciones de los roles",
+      "paginas": [
+        131
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 81,
+      "titulo": "Trazabilidad del paquete 7 hacia sus casos de uso",
+      "paginas": [
+        132
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 82,
+      "titulo": "Encapsulamiento del paquete 7 y asociaciones de los roles",
+      "paginas": [
+        133
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 83,
+      "titulo": "Trazabilidad del paquete 8 hacia sus casos de uso",
+      "paginas": [
+        134
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 84,
+      "titulo": "Encapsulamiento del paquete 8 y asociaciones de los roles",
+      "paginas": [
+        135
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 85,
+      "titulo": "Dependencias de los paquetes: matriz de lectura del modelo de análisis",
+      "paginas": [
+        136
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 86,
+      "titulo": "Realización de análisis del CU1: responsabilidades y mensajes numerados",
+      "paginas": [
+        137
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 87,
+      "titulo": "Realización de análisis del CU2: responsabilidades y mensajes numerados",
+      "paginas": [
+        138
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 88,
+      "titulo": "Realización de análisis del CU3: responsabilidades y mensajes numerados",
+      "paginas": [
+        139
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 89,
+      "titulo": "Realización de análisis del CU4: responsabilidades y mensajes numerados",
+      "paginas": [
+        140
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 90,
+      "titulo": "Realización de análisis del CU5: responsabilidades y mensajes numerados",
+      "paginas": [
+        141
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 91,
+      "titulo": "Realización de análisis del CU6: responsabilidades y mensajes numerados",
+      "paginas": [
+        142
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 92,
+      "titulo": "Realización de análisis del CU7: responsabilidades y mensajes numerados",
+      "paginas": [
+        143
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 93,
+      "titulo": "Realización de análisis del CU8: responsabilidades y mensajes numerados",
+      "paginas": [
+        144
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 94,
+      "titulo": "Realización de análisis del CU9: responsabilidades y mensajes numerados",
+      "paginas": [
+        145
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 95,
+      "titulo": "Realización de análisis del CU10: responsabilidades y mensajes numerados",
+      "paginas": [
+        146
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 96,
+      "titulo": "Realización de análisis del CU11: responsabilidades y mensajes numerados",
+      "paginas": [
+        147
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 97,
+      "titulo": "Realización de análisis del CU12: responsabilidades y mensajes numerados",
+      "paginas": [
+        148
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 98,
+      "titulo": "Realización de análisis del CU13: responsabilidades y mensajes numerados",
+      "paginas": [
+        149
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 99,
+      "titulo": "Realización de análisis del CU14: responsabilidades y mensajes numerados",
+      "paginas": [
+        150
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 100,
+      "titulo": "Realización de análisis del CU15: responsabilidades y mensajes numerados",
+      "paginas": [
+        151
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 101,
+      "titulo": "Realización de análisis del CU16: responsabilidades y mensajes numerados",
+      "paginas": [
+        152
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 102,
+      "titulo": "Realización de análisis del CU17: responsabilidades y mensajes numerados",
+      "paginas": [
+        153
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 103,
+      "titulo": "Realización de análisis del CU18: responsabilidades y mensajes numerados",
+      "paginas": [
+        154
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 104,
+      "titulo": "Realización de análisis del CU19: responsabilidades y mensajes numerados",
+      "paginas": [
+        155
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 105,
+      "titulo": "Realización de análisis del CU20: responsabilidades y mensajes numerados",
+      "paginas": [
+        156
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 106,
+      "titulo": "Realización de análisis del CU21: responsabilidades y mensajes numerados",
+      "paginas": [
+        157
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 107,
+      "titulo": "Realización de análisis del CU22: responsabilidades y mensajes numerados",
+      "paginas": [
+        158
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 108,
+      "titulo": "Realización de análisis del CU23: responsabilidades y mensajes numerados",
+      "paginas": [
+        159
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 109,
+      "titulo": "Realización de análisis del CU24: responsabilidades y mensajes numerados",
+      "paginas": [
+        160
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 110,
+      "titulo": "Realización de análisis del CU25: responsabilidades y mensajes numerados",
+      "paginas": [
+        161
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 111,
+      "titulo": "Realización de análisis del CU26: responsabilidades y mensajes numerados",
+      "paginas": [
+        162
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 112,
+      "titulo": "Realización de análisis del CU27: responsabilidades y mensajes numerados",
+      "paginas": [
+        163
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 113,
+      "titulo": "Realización de análisis del CU28: responsabilidades y mensajes numerados",
+      "paginas": [
+        164
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 114,
+      "titulo": "Realización de análisis del CU29: responsabilidades y mensajes numerados",
+      "paginas": [
+        165
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 115,
+      "titulo": "Realización de análisis del CU30: responsabilidades y mensajes numerados",
+      "paginas": [
+        166
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 116,
+      "titulo": "Realización de análisis del CU31: responsabilidades y mensajes numerados",
+      "paginas": [
+        167
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 117,
+      "titulo": "Realización de análisis del CU32: responsabilidades y mensajes numerados",
+      "paginas": [
+        168
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 118,
+      "titulo": "Realización de análisis del CU33: responsabilidades y mensajes numerados",
+      "paginas": [
+        169
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 119,
+      "titulo": "Realización de análisis del CU34: responsabilidades y mensajes numerados",
+      "paginas": [
+        170
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 120,
+      "titulo": "Arquitectura lógica de la implementación y sus tres entornos",
+      "paginas": [
+        171
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 121,
+      "titulo": "Entidades persistentes del sistema implementado; relaciones ampliadas en el anexo K",
+      "paginas": [
+        172
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 122,
+      "titulo": "Clases de seguridad; claves y relaciones en el anexo K",
+      "paginas": [
+        173
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 123,
+      "titulo": "Clases de campus; claves y relaciones en el anexo K",
+      "paginas": [
+        174
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 124,
+      "titulo": "Clases de operacion; claves y relaciones en el anexo K",
+      "paginas": [
+        175
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 125,
+      "titulo": "Clases de analitica; claves y relaciones en el anexo K",
+      "paginas": [
+        176
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 126,
+      "titulo": "Clases de prediccion; claves y relaciones en el anexo K",
+      "paginas": [
+        177
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 127,
+      "titulo": "Controladores concretos de accounts, campus, catalogs, audit (extracción del código)",
+      "paginas": [
+        178
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 128,
+      "titulo": "Controladores concretos de operations (extracción del código)",
+      "paginas": [
+        179
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 129,
+      "titulo": "Controladores concretos de analytics, prediction (extracción del código)",
+      "paginas": [
+        180
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 130,
+      "titulo": "Catálogo de tablas del ORM; relaciones ampliadas en el anexo K",
+      "paginas": [
+        182
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 131,
+      "titulo": "Tablas de seguridad; claves y relaciones en el anexo K",
+      "paginas": [
+        183
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 132,
+      "titulo": "Tablas de campus; claves y relaciones en el anexo K",
+      "paginas": [
+        184
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 133,
+      "titulo": "Tablas de operacion; claves y relaciones en el anexo K",
+      "paginas": [
+        185
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 134,
+      "titulo": "Tablas de analitica; claves y relaciones en el anexo K",
+      "paginas": [
+        186
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 135,
+      "titulo": "Tablas de prediccion; claves y relaciones en el anexo K",
+      "paginas": [
+        187
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 136,
+      "titulo": "Secuencia de diseño ampliada del CU1; interacción conceptual",
+      "paginas": [
+        188
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 137,
+      "titulo": "Secuencia de diseño ampliada del CU9; interacción conceptual",
+      "paginas": [
+        189
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 138,
+      "titulo": "Secuencia de diseño ampliada del CU14; interacción conceptual",
+      "paginas": [
+        190
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 139,
+      "titulo": "Secuencia de diseño ampliada del CU18; interacción conceptual",
+      "paginas": [
+        191
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 140,
+      "titulo": "Secuencia de diseño ampliada del CU20; interacción conceptual",
+      "paginas": [
+        192
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 141,
+      "titulo": "Secuencia de diseño ampliada del CU26; interacción conceptual",
+      "paginas": [
+        193
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 142,
+      "titulo": "Secuencia de diseño ampliada del CU28; interacción conceptual",
+      "paginas": [
+        194
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 143,
+      "titulo": "Secuencia de diseño ampliada del CU30; interacción conceptual",
+      "paginas": [
+        195
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 144,
+      "titulo": "Componentes del subsistema 1: archivos y servicios reales",
+      "paginas": [
+        197
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 145,
+      "titulo": "Componentes del subsistema 2: archivos y servicios reales",
+      "paginas": [
+        198
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 146,
+      "titulo": "Componentes del subsistema 3: archivos y servicios reales",
+      "paginas": [
+        199
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 147,
+      "titulo": "Componentes del subsistema 4: archivos y servicios reales",
+      "paginas": [
+        200
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 148,
+      "titulo": "Componentes del subsistema 5: archivos y servicios reales",
+      "paginas": [
+        201
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 149,
+      "titulo": "Componentes del subsistema 6: archivos y servicios reales",
+      "paginas": [
+        202
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 150,
+      "titulo": "Componentes del subsistema 7: archivos y servicios reales",
+      "paginas": [
+        203
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 151,
+      "titulo": "Componentes del subsistema 8: archivos y servicios reales",
+      "paginas": [
+        204
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 152,
+      "titulo": "Planes de Docker",
+      "paginas": [
+        237
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 153,
+      "titulo": "Planes de Microsoft Power BI",
+      "paginas": [
+        238
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 154,
+      "titulo": "Sitio oficial de OWASP ZAP",
+      "paginas": [
+        239
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 155,
+      "titulo": "Ficha del SEPREC para la inscripción de una S.R.L.",
+      "paginas": [
+        246
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 156,
+      "titulo": "Portal del Servicio de Impuestos Nacionales",
+      "paginas": [
+        247
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 157,
+      "titulo": "Pasos del SENAPI para la búsqueda de signos distintivos",
+      "paginas": [
+        249
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 158,
+      "titulo": "Solicitud de registro de marca: síntesis orientativa del procedimiento oficial",
+      "paginas": [
+        250
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 159,
+      "titulo": "Pasos del registro virtual de derecho de autor en el SENAPI",
+      "paginas": [
+        252
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 160,
+      "titulo": "Registro de software: revisión y resultado: síntesis orientativa del procedimiento oficial",
+      "paginas": [
+        253
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 161,
+      "titulo": "Tasas del SENAPI para el registro de derecho de autor",
+      "paginas": [
+        254
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 162,
+      "titulo": "Portal corporativo en su captura histórica del 18 de noviembre",
+      "paginas": [
+        261
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 163,
+      "titulo": "Asistente de reglas y derivación por correo",
+      "paginas": [
+        262
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 164,
+      "titulo": "URL pública del portal; actualización de contenido pendiente por el titular",
+      "paginas": [
+        262
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 165,
+      "titulo": "Puntos de función ajustados de las soluciones comparadas",
+      "paginas": [
+        266
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 166,
+      "titulo": "Proyección financiera recalculada: ingresos netos y egresos sin IUE",
+      "paginas": [
+        269
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 167,
+      "titulo": "Proyección financiera recalculada: flujo acumulado del escenario base",
+      "paginas": [
+        269
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 168,
+      "titulo": "Secuencia de CU9 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes",
+      "paginas": [
+        275
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 169,
+      "titulo": "CU9 ampliación 1",
+      "paginas": [
+        276
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 170,
+      "titulo": "CU9 ampliación 2",
+      "paginas": [
+        277
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 171,
+      "titulo": "CU9 ampliación 3",
+      "paginas": [
+        278
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 172,
+      "titulo": "Grafo de mensajes del CU9",
+      "paginas": [
+        279
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": true,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 173,
+      "titulo": "Secuencia de CU15 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes",
+      "paginas": [
+        283
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 174,
+      "titulo": "CU15 ampliación 1",
+      "paginas": [
+        284
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 175,
+      "titulo": "CU15 ampliación 2",
+      "paginas": [
+        285
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 176,
+      "titulo": "CU15 ampliación 3",
+      "paginas": [
+        286
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 177,
+      "titulo": "Grafo de mensajes del CU15",
+      "paginas": [
+        287
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 178,
+      "titulo": "Secuencia de CU28 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes",
+      "paginas": [
+        291
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": true,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 179,
+      "titulo": "CU28 ampliación 1",
+      "paginas": [
+        292
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 180,
+      "titulo": "CU28 ampliación 2",
+      "paginas": [
+        293
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 181,
+      "titulo": "CU28 ampliación 3",
+      "paginas": [
+        294
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 182,
+      "titulo": "Grafo de mensajes del CU28",
+      "paginas": [
+        295
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 183,
+      "titulo": "Afiche de la campaña «Campus limpio, gestión inteligente»",
+      "paginas": [
+        304
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 184,
+      "titulo": "Banner comercial con interfaz de demostración",
+      "paginas": [
+        306
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 185,
+      "titulo": "Publicación de demostración sin atribuir resultados institucionales",
+      "paginas": [
+        307
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 186,
+      "titulo": "Topología productiva ampliada: Azure, Vercel, Neon y servicios externos",
+      "paginas": [
+        310
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": true,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 187,
+      "titulo": "Pantalla de inicio de sesión",
+      "paginas": [
+        314
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 188,
+      "titulo": "Registro de campo en el teléfono del operativo",
+      "paginas": [
+        315
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 189,
+      "titulo": "Mensaje de validación en el registro de campo",
+      "paginas": [
+        316
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 190,
+      "titulo": "Histórico de registros de residuos",
+      "paginas": [
+        317
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 191,
+      "titulo": "Listado de jornadas de recolección",
+      "paginas": [
+        318
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 192,
+      "titulo": "Planificación de una jornada nueva",
+      "paginas": [
+        319
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 193,
+      "titulo": "Detalle y seguimiento de una jornada",
+      "paginas": [
+        319
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 194,
+      "titulo": "Incidencias operativas",
+      "paginas": [
+        320
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 195,
+      "titulo": "Topología comprobada de Azure, Vercel y Neon; servicios externos y límites",
+      "paginas": [
+        320
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 196,
+      "titulo": "Tablero de indicadores del directivo",
+      "paginas": [
+        321
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 197,
+      "titulo": "Mapa del campus con puntos de recolección",
+      "paginas": [
+        322
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 198,
+      "titulo": "Predicción de generación de residuos",
+      "paginas": [
+        323
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 199,
+      "titulo": "Generación y exportación de reportes",
+      "paginas": [
+        324
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 200,
+      "titulo": "Gestión de usuarios",
+      "paginas": [
+        325
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 201,
+      "titulo": "Roles y permisos",
+      "paginas": [
+        325
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 202,
+      "titulo": "Parámetros del sistema",
+      "paginas": [
+        326
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 203,
+      "titulo": "Procesos ETL",
+      "paginas": [
+        327
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 204,
+      "titulo": "Entrenamiento y versiones del modelo",
+      "paginas": [
+        327
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 205,
+      "titulo": "Bitácora de auditoría",
+      "paginas": [
+        328
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 206,
+      "titulo": "Código QR del material del proyecto",
+      "paginas": [
+        329
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 207,
+      "titulo": "Enlace público del pitch; actualización pendiente por el titular",
+      "paginas": [
+        332
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 208,
+      "titulo": "Repositorio del proyecto",
+      "paginas": [
+        340
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 209,
+      "titulo": "Material del proyecto",
+      "paginas": [
+        340
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 210,
+      "titulo": "Aplicación DSU del piloto",
+      "paginas": [
+        340
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 211,
+      "titulo": "Portal corporativo; actualización local pendiente de publicación",
+      "paginas": [
+        341
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 212,
+      "titulo": "Pitch público; actualización de las cifras pendiente de publicación",
+      "paginas": [
+        341
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 213,
+      "titulo": "Carátula de la propuesta revisada por el docente",
+      "paginas": [
+        342
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 214,
+      "titulo": "Oficio de solicitud con sello de recepción de la DSU",
+      "paginas": [
+        343
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 215,
+      "titulo": "Edición de una planificación confirmada y nueva ruta persistida",
+      "paginas": [
+        347
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 216,
+      "titulo": "Jornada cerrada con consolidado de la captura gráfica",
+      "paginas": [
+        348
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 217,
+      "titulo": "auth.Permission: atributos y asociaciones del ORM",
+      "paginas": [
+        349
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 218,
+      "titulo": "auth.Group: atributos y asociaciones del ORM",
+      "paginas": [
+        350
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 219,
+      "titulo": "accounts.User: atributos y asociaciones del ORM",
+      "paginas": [
+        351
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 220,
+      "titulo": "audit.AuditLog: atributos y asociaciones del ORM",
+      "paginas": [
+        352
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 221,
+      "titulo": "catalogs.ParametrosSistema: atributos y asociaciones del ORM",
+      "paginas": [
+        353
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 222,
+      "titulo": "catalogs.PeriodoAcademico: atributos y asociaciones del ORM",
+      "paginas": [
+        354
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 223,
+      "titulo": "catalogs.UnidadMedida: atributos y asociaciones del ORM",
+      "paginas": [
+        355
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 224,
+      "titulo": "catalogs.TipoResiduo: atributos y asociaciones del ORM",
+      "paginas": [
+        356
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 225,
+      "titulo": "campus.Sector: atributos y asociaciones del ORM",
+      "paginas": [
+        357
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 226,
+      "titulo": "campus.PuntoRecoleccion: atributos y asociaciones del ORM",
+      "paginas": [
+        358
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 227,
+      "titulo": "campus.Contenedor: atributos y asociaciones del ORM",
+      "paginas": [
+        359
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 228,
+      "titulo": "operations.Vehiculo: atributos y asociaciones del ORM",
+      "paginas": [
+        360
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 229,
+      "titulo": "operations.Jornada: atributos y asociaciones del ORM",
+      "paginas": [
+        361
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 230,
+      "titulo": "operations.JornadaPunto: atributos y asociaciones del ORM",
+      "paginas": [
+        362
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 231,
+      "titulo": "operations.Incidencia: atributos y asociaciones del ORM",
+      "paginas": [
+        363
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 232,
+      "titulo": "operations.RegistroResiduo: atributos y asociaciones del ORM",
+      "paginas": [
+        364
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 233,
+      "titulo": "analytics.EjecucionETL: atributos y asociaciones del ORM",
+      "paginas": [
+        365
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 234,
+      "titulo": "analytics.HechoResiduo: atributos y asociaciones del ORM",
+      "paginas": [
+        366
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 235,
+      "titulo": "analytics.RegistroDescartado: atributos y asociaciones del ORM",
+      "paginas": [
+        367
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 236,
+      "titulo": "prediction.ModeloEntrenado: atributos y asociaciones del ORM",
+      "paginas": [
+        368
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": true,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 237,
+      "titulo": "prediction.LotePrediccion: atributos y asociaciones del ORM",
+      "paginas": [
+        369
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 238,
+      "titulo": "prediction.Prediccion: atributos y asociaciones del ORM",
+      "paginas": [
+        370
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    },
+    {
+      "numero": 239,
+      "titulo": "prediction.Recomendacion: atributos y asociaciones del ORM",
+      "paginas": [
+        371
+      ],
+      "revision_visual": "Representación final revisada en planchas; composición, rótulo, orientación, continuidad y ausencia de recortes aparentes",
+      "detalle_ampliado": false,
+      "limite": "Control digital. Las capturas y fotografías son vistas generales; consultar el PNG de origen para detalles pequeños. Sin impresión física."
+    }
+  ],
+  "metodo": "Renderizado 0,9x para todas las páginas; ampliación 2x en páginas críticas. Comparación raster del cuerpo excluyendo los 60 píxeles inferiores del folio; las páginas modificadas se revisaron de nuevo.",
+  "limite": "La revisión digital no reemplaza el control del papel ni certifica legibilidad de cada texto microscópico de una captura histórica."
+}

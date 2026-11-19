@@ -1,0 +1,13 @@
+[
+  {
+    "rol": "anónimo",
+    "tipo": "http",
+    "estado": 401,
+    "ruta": "/api/auth/login/"
+  },
+  {
+    "rol": "anónimo",
+    "tipo": "error",
+    "mensaje": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+  }
+]

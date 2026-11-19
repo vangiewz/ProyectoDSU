@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1570" viewBox="0 0 2700 1570"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">RF12 · Registrar la Ejecución de la Recolección — parte 3/3</text>
+<line x1="1350" y1="385" x2="1350" y2="465" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="465" x2="1339.5608271813305" y2="443.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="465" x2="1360.4391728186695" y2="443.38926954353576" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="735" x2="1350" y2="905" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="905" x2="1339.5608271813305" y2="883.3892695435358" stroke="#444" stroke-width="3"/>
+<line x1="1350" y1="905" x2="1360.4391728186695" y2="883.3892695435358" stroke="#444" stroke-width="3"/>
+<rect x="775" y="115" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="166" font-family="Arial" font-size="44" font-weight="400">N14 · Supervisor</text>
+<text x="795" y="240" font-family="Arial" font-size="56" font-weight="400">El supervisor revisa el resumen y</text>
+<text x="795" y="300" font-family="Arial" font-size="56" font-weight="400">registra observaciones</text>
+<rect x="775" y="465" width="1150" height="270" fill="white" stroke="#444" stroke-width="3"/>
+<text x="795" y="516" font-family="Arial" font-size="44" font-weight="400">N15 · Sistema</text>
+<text x="795" y="590" font-family="Arial" font-size="56" font-weight="400">El sistema cierra la jornada y registra</text>
+<text x="795" y="650" font-family="Arial" font-size="56" font-weight="400">la hora de fin</text>
+<circle cx="1350" cy="950" r="45" fill="black"/>
+<text x="1415" y="977" font-family="Arial" font-size="56" font-weight="400">N16 fin</text>
+</svg>

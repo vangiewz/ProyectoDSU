@@ -1,0 +1,785 @@
+{
+  "7": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_007.png",
+    "titulo": "Entidades persistentes del sistema implementado; relaciones ampliadas en el anexo K",
+    "fuente": "modelos_reales_Django.json; metadatos de Django sin consultas a la base"
+  },
+  "106": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_106.png",
+    "titulo": "Entidades persistentes del sistema implementado; relaciones ampliadas en el anexo K",
+    "fuente": "modelos_reales_Django.json; metadatos de Django sin consultas a la base"
+  },
+  "115": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_115.png",
+    "titulo": "Catálogo de tablas del ORM; relaciones ampliadas en el anexo K",
+    "fuente": "modelos_reales_Django.json; metadatos de Django sin consultas a la base"
+  },
+  "107": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_107.png",
+    "titulo": "Clases de seguridad; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "116": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_116.png",
+    "titulo": "Tablas de seguridad; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "108": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_108.png",
+    "titulo": "Clases de campus; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "117": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_117.png",
+    "titulo": "Tablas de campus; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "109": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_109.png",
+    "titulo": "Clases de operacion; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "118": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_118.png",
+    "titulo": "Tablas de operacion; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "110": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_110.png",
+    "titulo": "Clases de analitica; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "119": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_119.png",
+    "titulo": "Tablas de analitica; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "111": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_111.png",
+    "titulo": "Clases de prediccion; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "120": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_120.png",
+    "titulo": "Tablas de prediccion; claves y relaciones en el anexo K",
+    "fuente": "modelos_reales_Django.json; claves reales del ORM, sin métodos conceptuales"
+  },
+  "129": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_129.png",
+    "titulo": "Componentes del subsistema 1: archivos y servicios reales",
+    "fuente": "generador/fase_final/componentes.py; rutas y tablas comprobadas por validar()"
+  },
+  "130": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_130.png",
+    "titulo": "Componentes del subsistema 2: archivos y servicios reales",
+    "fuente": "generador/fase_final/componentes.py; rutas y tablas comprobadas por validar()"
+  },
+  "131": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_131.png",
+    "titulo": "Componentes del subsistema 3: archivos y servicios reales",
+    "fuente": "generador/fase_final/componentes.py; rutas y tablas comprobadas por validar()"
+  },
+  "132": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_132.png",
+    "titulo": "Componentes del subsistema 4: archivos y servicios reales",
+    "fuente": "generador/fase_final/componentes.py; rutas y tablas comprobadas por validar()"
+  },
+  "133": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_133.png",
+    "titulo": "Componentes del subsistema 5: archivos y servicios reales",
+    "fuente": "generador/fase_final/componentes.py; rutas y tablas comprobadas por validar()"
+  },
+  "134": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_134.png",
+    "titulo": "Componentes del subsistema 6: archivos y servicios reales",
+    "fuente": "generador/fase_final/componentes.py; rutas y tablas comprobadas por validar()"
+  },
+  "135": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_135.png",
+    "titulo": "Componentes del subsistema 7: archivos y servicios reales",
+    "fuente": "generador/fase_final/componentes.py; rutas y tablas comprobadas por validar()"
+  },
+  "136": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_136.png",
+    "titulo": "Componentes del subsistema 8: archivos y servicios reales",
+    "fuente": "generador/fase_final/componentes.py; rutas y tablas comprobadas por validar()"
+  },
+  "121": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_121.png",
+    "titulo": "Secuencia de diseño ampliada del CU1; interacción conceptual",
+    "fuente": "generador/fase2/disenio.py, SECUENCIAS y FRAGMENTOS; nombres conceptuales conservados"
+  },
+  "122": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_122.png",
+    "titulo": "Secuencia de diseño ampliada del CU9; interacción conceptual",
+    "fuente": "generador/fase2/disenio.py, SECUENCIAS y FRAGMENTOS; nombres conceptuales conservados"
+  },
+  "123": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_123.png",
+    "titulo": "Secuencia de diseño ampliada del CU14; interacción conceptual",
+    "fuente": "generador/fase2/disenio.py, SECUENCIAS y FRAGMENTOS; nombres conceptuales conservados"
+  },
+  "124": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_124.png",
+    "titulo": "Secuencia de diseño ampliada del CU18; interacción conceptual",
+    "fuente": "generador/fase2/disenio.py, SECUENCIAS y FRAGMENTOS; nombres conceptuales conservados"
+  },
+  "125": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_125.png",
+    "titulo": "Secuencia de diseño ampliada del CU20; interacción conceptual",
+    "fuente": "generador/fase2/disenio.py, SECUENCIAS y FRAGMENTOS; nombres conceptuales conservados"
+  },
+  "126": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_126.png",
+    "titulo": "Secuencia de diseño ampliada del CU26; interacción conceptual",
+    "fuente": "generador/fase2/disenio.py, SECUENCIAS y FRAGMENTOS; nombres conceptuales conservados"
+  },
+  "127": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_127.png",
+    "titulo": "Secuencia de diseño ampliada del CU28; interacción conceptual",
+    "fuente": "generador/fase2/disenio.py, SECUENCIAS y FRAGMENTOS; nombres conceptuales conservados"
+  },
+  "128": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_128.png",
+    "titulo": "Secuencia de diseño ampliada del CU30; interacción conceptual",
+    "fuente": "generador/fase2/disenio.py, SECUENCIAS y FRAGMENTOS; nombres conceptuales conservados"
+  },
+  "105": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_105.png",
+    "titulo": "Arquitectura lógica de la implementación y sus tres entornos",
+    "fuente": "config/settings.py, frontend/src/lib/api.ts y backend/deploy/compose.azure.yml"
+  },
+  "112": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_112.png",
+    "titulo": "Controladores concretos de accounts, campus, catalogs, audit (extracción del código)",
+    "fuente": "AST de apps/*/views/*.py; lista abreviada de métodos, fuente completa en el código"
+  },
+  "113": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_113.png",
+    "titulo": "Controladores concretos de operations (extracción del código)",
+    "fuente": "AST de apps/*/views/*.py; lista abreviada de métodos, fuente completa en el código"
+  },
+  "114": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_114.png",
+    "titulo": "Controladores concretos de analytics, prediction (extracción del código)",
+    "fuente": "AST de apps/*/views/*.py; lista abreviada de métodos, fuente completa en el código"
+  },
+  "71": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_071.png",
+    "titulo": "Realización de análisis del CU1: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "72": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_072.png",
+    "titulo": "Realización de análisis del CU2: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "73": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_073.png",
+    "titulo": "Realización de análisis del CU3: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "74": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_074.png",
+    "titulo": "Realización de análisis del CU4: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "75": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_075.png",
+    "titulo": "Realización de análisis del CU5: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "76": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_076.png",
+    "titulo": "Realización de análisis del CU6: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "77": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_077.png",
+    "titulo": "Realización de análisis del CU7: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "78": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_078.png",
+    "titulo": "Realización de análisis del CU8: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "79": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_079.png",
+    "titulo": "Realización de análisis del CU9: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "80": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_080.png",
+    "titulo": "Realización de análisis del CU10: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "81": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_081.png",
+    "titulo": "Realización de análisis del CU11: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "82": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_082.png",
+    "titulo": "Realización de análisis del CU12: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "83": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_083.png",
+    "titulo": "Realización de análisis del CU13: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "84": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_084.png",
+    "titulo": "Realización de análisis del CU14: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "85": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_085.png",
+    "titulo": "Realización de análisis del CU15: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "86": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_086.png",
+    "titulo": "Realización de análisis del CU16: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "87": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_087.png",
+    "titulo": "Realización de análisis del CU17: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "88": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_088.png",
+    "titulo": "Realización de análisis del CU18: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "89": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_089.png",
+    "titulo": "Realización de análisis del CU19: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "90": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_090.png",
+    "titulo": "Realización de análisis del CU20: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "91": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_091.png",
+    "titulo": "Realización de análisis del CU21: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "92": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_092.png",
+    "titulo": "Realización de análisis del CU22: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "93": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_093.png",
+    "titulo": "Realización de análisis del CU23: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "94": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_094.png",
+    "titulo": "Realización de análisis del CU24: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "95": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_095.png",
+    "titulo": "Realización de análisis del CU25: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "96": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_096.png",
+    "titulo": "Realización de análisis del CU26: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "97": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_097.png",
+    "titulo": "Realización de análisis del CU27: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "98": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_098.png",
+    "titulo": "Realización de análisis del CU28: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "99": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_099.png",
+    "titulo": "Realización de análisis del CU29: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "100": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_100.png",
+    "titulo": "Realización de análisis del CU30: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "101": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_101.png",
+    "titulo": "Realización de análisis del CU31: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "102": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_102.png",
+    "titulo": "Realización de análisis del CU32: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "103": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_103.png",
+    "titulo": "Realización de análisis del CU33: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "104": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_104.png",
+    "titulo": "Realización de análisis del CU34: responsabilidades y mensajes numerados",
+    "fuente": "generador/fase2/analisis.py, R; mensajes de análisis conservados, no firmas literales del código"
+  },
+  "18": {
+    "archivo": "generador/figuras/fase_final/c5_general_legible.png",
+    "titulo": "Modelo general de los 34 CU mediante identificadores; nombres en las vistas individuales",
+    "fuente": "modelo_uml/DSU-RevisionVisual.eapx; alias CU1–CU34; actores y conexiones originales"
+  },
+  "8": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_008_parte_1.png",
+    "titulo": "Flujo operativo: flujo ampliado, parte 1/3",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_008_parte_2.png",
+        "titulo": "Flujo operativo: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_008_parte_3.png",
+        "titulo": "Flujo operativo: flujo ampliado, parte 3/3"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "9": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_009_parte_1.png",
+    "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 1/3",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_009_parte_2.png",
+        "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_009_parte_3.png",
+        "titulo": "RF8 · Registrar Generación y Vaciado de Residuos: flujo ampliado, parte 3/3"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "10": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_010_parte_1.png",
+    "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 1/3",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_010_parte_2.png",
+        "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_010_parte_3.png",
+        "titulo": "RF12 · Registrar la Ejecución de la Recolección: flujo ampliado, parte 3/3"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "11": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_011_parte_1.png",
+    "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 1/3",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_011_parte_2.png",
+        "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_011_parte_3.png",
+        "titulo": "RF15 · Ejecutar los Procesos de Extracción, Transformación y Carga: flujo ampliado, parte 3/3"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "12": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_012_parte_1.png",
+    "titulo": "RF16 · Calcular los Indicadores Clave de Rendimiento: flujo ampliado, parte 1/2",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_012_parte_2.png",
+        "titulo": "RF16 · Calcular los Indicadores Clave de Rendimiento: flujo ampliado, parte 2/2"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "13": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_013_parte_1.png",
+    "titulo": "RF20 · Generar el Mapa de Calor de Zonas Críticas: flujo ampliado, parte 1/2",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_013_parte_2.png",
+        "titulo": "RF20 · Generar el Mapa de Calor de Zonas Críticas: flujo ampliado, parte 2/2"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "14": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_014_parte_1.png",
+    "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 1/3",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_014_parte_2.png",
+        "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_014_parte_3.png",
+        "titulo": "RF22 · Entrenar y Evaluar el Modelo Random Forest Regressor: flujo ampliado, parte 3/3"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "15": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_015_parte_1.png",
+    "titulo": "RF23 · Predecir la Generación Futura de Residuos: flujo ampliado, parte 1/2",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_015_parte_2.png",
+        "titulo": "RF23 · Predecir la Generación Futura de Residuos: flujo ampliado, parte 2/2"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "16": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_016_parte_1.png",
+    "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 1/3",
+    "partes": [
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_016_parte_2.png",
+        "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 2/3"
+      },
+      {
+        "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\actividad_016_parte_3.png",
+        "titulo": "RF24 · Generar Alertas y Recomendaciones Logísticas: flujo ampliado, parte 3/3"
+      }
+    ],
+    "fuente": "generador/fase2/ea_fase1.py, _plan; nodos y flujos originales conservados; continuidad mediante N y número de parte"
+  },
+  "19": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_019.png",
+    "titulo": "CU1. Iniciar sesión: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "20": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_020.png",
+    "titulo": "CU2. Cerrar sesión: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "21": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_021.png",
+    "titulo": "CU3. Gestionar usuarios: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "22": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_022.png",
+    "titulo": "CU4. Gestionar roles y permisos: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "23": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_023.png",
+    "titulo": "CU5. Gestionar sectores y facultades: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "24": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_024.png",
+    "titulo": "CU6. Gestionar puntos de recolección: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "25": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_025.png",
+    "titulo": "CU7. Gestionar contenedores: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "26": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_026.png",
+    "titulo": "CU8. Gestionar tipos de residuo y unidades de medida: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "27": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_027.png",
+    "titulo": "CU9. Registrar vaciado de residuos: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "28": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_028.png",
+    "titulo": "CU10. Registrar incidencia operativa: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "29": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_029.png",
+    "titulo": "CU11. Atender incidencia: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "30": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_030.png",
+    "titulo": "CU12. Consultar histórico de residuos: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "31": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_031.png",
+    "titulo": "CU13. Gestionar vehículos: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "32": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_032.png",
+    "titulo": "CU14. Planificar jornada y ruta de recolección: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "33": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_033.png",
+    "titulo": "CU15. Asignar personal y vehículos a la jornada: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "34": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_034.png",
+    "titulo": "CU16. Ejecutar jornada de recolección: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "35": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_035.png",
+    "titulo": "CU17. Omitir punto de la ruta: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "36": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_036.png",
+    "titulo": "CU18. Cerrar jornada de recolección: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "37": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_037.png",
+    "titulo": "CU19. Consultar historial de recolecciones: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "38": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_038.png",
+    "titulo": "CU20. Ejecutar proceso ETL: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "39": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_039.png",
+    "titulo": "CU21. Visualizar tablero interactivo: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "40": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_040.png",
+    "titulo": "CU22. Comparar periodos e identificar tendencias: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "41": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_041.png",
+    "titulo": "CU23. Visualizar puntos en el mapa interactivo: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "42": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_042.png",
+    "titulo": "CU24. Generar mapa de calor: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "43": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_043.png",
+    "titulo": "CU25. Filtrar mapa por periodo, sector y tipo de residuo: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "44": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_044.png",
+    "titulo": "CU26. Entrenar y evaluar el modelo Random Forest Regressor: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "45": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_045.png",
+    "titulo": "CU27. Publicar o revertir versión del modelo: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "46": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_046.png",
+    "titulo": "CU28. Predecir generación futura y emitir alertas: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "47": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_047.png",
+    "titulo": "CU29. Consultar alertas y recomendaciones logísticas: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "48": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_048.png",
+    "titulo": "CU30. Atender recomendación logística: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "49": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_049.png",
+    "titulo": "CU31. Configurar periodos académicos y parámetros: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "50": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_050.png",
+    "titulo": "CU32. Consultar bitácora de auditoría: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "51": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_051.png",
+    "titulo": "CU33. Generar reporte: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "52": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_052.png",
+    "titulo": "CU34. Exportar reporte a Excel o PDF: actores y relaciones",
+    "fuente": "generador/fase2/datos.py, CU; asociaciones y dirección include/extend conservadas"
+  },
+  "17": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_017.png",
+    "titulo": "Actores y responsabilidades del catálogo de requisitos",
+    "fuente": "generador/fase2/datos.py, ACTORES; roles independientes"
+  },
+  "54": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_054.png",
+    "titulo": "Trazabilidad del paquete 1 hacia sus casos de uso",
+    "fuente": "generador/fase2/datos.py; CU.paq y PAQUETES, sin cambios de alcance"
+  },
+  "55": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_055.png",
+    "titulo": "Encapsulamiento del paquete 1 y asociaciones de los roles",
+    "fuente": "generador/fase2/datos.py; CU.actores, CU.paq y PAQUETES; alcance normativo"
+  },
+  "56": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_056.png",
+    "titulo": "Trazabilidad del paquete 2 hacia sus casos de uso",
+    "fuente": "generador/fase2/datos.py; CU.paq y PAQUETES, sin cambios de alcance"
+  },
+  "57": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_057.png",
+    "titulo": "Encapsulamiento del paquete 2 y asociaciones de los roles",
+    "fuente": "generador/fase2/datos.py; CU.actores, CU.paq y PAQUETES; alcance normativo"
+  },
+  "58": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_058.png",
+    "titulo": "Trazabilidad del paquete 3 hacia sus casos de uso",
+    "fuente": "generador/fase2/datos.py; CU.paq y PAQUETES, sin cambios de alcance"
+  },
+  "59": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_059.png",
+    "titulo": "Encapsulamiento del paquete 3 y asociaciones de los roles",
+    "fuente": "generador/fase2/datos.py; CU.actores, CU.paq y PAQUETES; alcance normativo"
+  },
+  "60": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_060.png",
+    "titulo": "Trazabilidad del paquete 4 hacia sus casos de uso",
+    "fuente": "generador/fase2/datos.py; CU.paq y PAQUETES, sin cambios de alcance"
+  },
+  "61": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_061.png",
+    "titulo": "Encapsulamiento del paquete 4 y asociaciones de los roles",
+    "fuente": "generador/fase2/datos.py; CU.actores, CU.paq y PAQUETES; alcance normativo"
+  },
+  "62": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_062.png",
+    "titulo": "Trazabilidad del paquete 5 hacia sus casos de uso",
+    "fuente": "generador/fase2/datos.py; CU.paq y PAQUETES, sin cambios de alcance"
+  },
+  "63": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_063.png",
+    "titulo": "Encapsulamiento del paquete 5 y asociaciones de los roles",
+    "fuente": "generador/fase2/datos.py; CU.actores, CU.paq y PAQUETES; alcance normativo"
+  },
+  "64": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_064.png",
+    "titulo": "Trazabilidad del paquete 6 hacia sus casos de uso",
+    "fuente": "generador/fase2/datos.py; CU.paq y PAQUETES, sin cambios de alcance"
+  },
+  "65": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_065.png",
+    "titulo": "Encapsulamiento del paquete 6 y asociaciones de los roles",
+    "fuente": "generador/fase2/datos.py; CU.actores, CU.paq y PAQUETES; alcance normativo"
+  },
+  "66": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_066.png",
+    "titulo": "Trazabilidad del paquete 7 hacia sus casos de uso",
+    "fuente": "generador/fase2/datos.py; CU.paq y PAQUETES, sin cambios de alcance"
+  },
+  "67": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_067.png",
+    "titulo": "Encapsulamiento del paquete 7 y asociaciones de los roles",
+    "fuente": "generador/fase2/datos.py; CU.actores, CU.paq y PAQUETES; alcance normativo"
+  },
+  "68": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_068.png",
+    "titulo": "Trazabilidad del paquete 8 hacia sus casos de uso",
+    "fuente": "generador/fase2/datos.py; CU.paq y PAQUETES, sin cambios de alcance"
+  },
+  "69": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_069.png",
+    "titulo": "Encapsulamiento del paquete 8 y asociaciones de los roles",
+    "fuente": "generador/fase2/datos.py; CU.actores, CU.paq y PAQUETES; alcance normativo"
+  },
+  "53": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_053.png",
+    "titulo": "Identificación y requisitos asociados a los ocho paquetes",
+    "fuente": "generador/fase2/datos.py, PAQUETES"
+  },
+  "70": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_070.png",
+    "titulo": "Dependencias de los paquetes: matriz de lectura del modelo de análisis",
+    "fuente": "generador/fase2/ea_modelo.py, DEP_PAQUETES; mismas relaciones que el modelo EA"
+  },
+  "153": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_153.png",
+    "titulo": "Secuencia de CU9 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes",
+    "fuente": "generador/fase_final/secuencias_caja_blanca.py, SPECS; mapa de lectura de la secuencia"
+  },
+  "155": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_155.png",
+    "titulo": "Secuencia de CU15 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes",
+    "fuente": "generador/fase_final/secuencias_caja_blanca.py, SPECS; mapa de lectura de la secuencia"
+  },
+  "157": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_157.png",
+    "titulo": "Secuencia de CU28 y sus rechazos: participantes y guardas; mensajes en las láminas siguientes",
+    "fuente": "generador/fase_final/secuencias_caja_blanca.py, SPECS; mapa de lectura de la secuencia"
+  },
+  "171": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_171.png",
+    "titulo": "Topología comprobada de Azure, Vercel y Neon; servicios externos y límites",
+    "fuente": "backend/deploy/compose.azure.yml; configuración y evidencias de producción existentes"
+  },
+  "143": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_143.png",
+    "titulo": "Solicitud de registro de marca: síntesis orientativa del procedimiento oficial",
+    "fuente": "https://www.gob.bo/tramites/embed/registro-de-signo-distintivo; elaboración de síntesis, no captura oficial ni constancia de registro"
+  },
+  "145": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_145.png",
+    "titulo": "Registro de software: revisión y resultado: síntesis orientativa del procedimiento oficial",
+    "fuente": "https://www.gob.bo/tramites/registro-de-programas-de-ordenador-o-software; elaboración de síntesis, no captura oficial ni constancia de registro"
+  },
+  "151": {
+    "archivo": "DocumentoSoftware2/recursos/web/finanzas_ingresos_egresos.png",
+    "titulo": "Proyección financiera recalculada: ingresos netos y egresos sin IUE",
+    "fuente": "DocumentoSoftware2/finanzas.py; cargas 17,21 %, mezcla 50 % mensual y 50 % anual; escenario sin ventas acreditadas"
+  },
+  "152": {
+    "archivo": "DocumentoSoftware2/recursos/web/finanzas_flujo_acumulado.png",
+    "titulo": "Proyección financiera recalculada: flujo acumulado del escenario base",
+    "fuente": "DocumentoSoftware2/finanzas.py; cargas 17,21 %, mezcla 50 % mensual y 50 % anual; escenario sin ventas acreditadas"
+  },
+  "4": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_004.png",
+    "titulo": "Cronograma de referencia: fases y semanas ampliadas",
+    "fuente": "generador/figuras/gantt.png; mismas ocho fases e intervalos; planificación, no registro de ejecución"
+  },
+  "6": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_006.png",
+    "titulo": "Organización funcional: ocho áreas y persistencia compartida",
+    "fuente": "catálogo de paquetes y componentes; backend/apps y frontend/src; vista de síntesis implementada"
+  },
+  "162": {
+    "archivo": "revision_documental_final\\entrega\\modelos\\vistas_actuales\\fig_171.png",
+    "titulo": "Topología productiva ampliada: Azure, Vercel, Neon y servicios externos",
+    "fuente": "backend/deploy/compose.azure.yml; configuración y evidencias de producción existentes"
+  }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1525" viewBox="0 0 2700 1525"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="69" font-family="Arial" font-size="58" font-weight="700">CU14: actores y relaciones del caso de uso</text>
+<rect x="55" y="210" width="650" height="210" fill="white" stroke="#444" stroke-width="3"/>
+<text x="106.0" y="305.0" font-family="Arial" font-size="56" font-weight="400">«actor» Supervisor de</text>
+<text x="228.5" y="367.0" font-family="Arial" font-size="56" font-weight="400">Recolección</text>
+<line x1="705" y1="315" x2="850" y2="440.0" stroke="#444" stroke-width="3"/>
+<rect x="55" y="470" width="650" height="210" fill="white" stroke="#444" stroke-width="3"/>
+<text x="106.0234375" y="565.0" font-family="Arial" font-size="56" font-weight="400">«actor» Administrador</text>
+<text x="234.0" y="627.0" font-family="Arial" font-size="56" font-weight="400">del Sistema</text>
+<line x1="705" y1="575" x2="850" y2="440.0" stroke="#444" stroke-width="3"/>
+<ellipse cx="1350" cy="440.0" rx="500.0" ry="220.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="994.0" y="432.0" font-family="Arial" font-size="58" font-weight="700">CU14. Planificar jornada y</text>
+<text x="1086.0" y="494.0" font-family="Arial" font-size="58" font-weight="700">ruta de recolección</text>
+<ellipse cx="2400" cy="160" rx="250.0" ry="115.0" fill="white" stroke="black" stroke-width="3"/>
+<text x="2326.0" y="183.0" font-family="Arial" font-size="58" font-weight="700">CU15</text>
+<line x1="1850" y1="440.0" x2="2150" y2="160" stroke="#444" stroke-width="3" stroke-dasharray="10 10"/>
+<line x1="2150" y1="160" x2="2141.3241997820655" y2="182.37700807924261" stroke="#444" stroke-width="3"/>
+<line x1="2150" y1="160" x2="2127.078523516385" y2="167.11378350887037" stroke="#444" stroke-width="3"/>
+<text x="1930" y="312.0" font-family="Arial" font-size="56" font-weight="400">R1</text>
+<text x="55" y="1252" font-family="Arial" font-size="56" font-weight="400">Relaciones normativas; los permisos observados se contrastan en el capítulo 9.</text>
+<text x="55" y="1362" font-family="Arial" font-size="56" font-weight="400">R1. CU14 → CU15: «include». CU15: Asignar personal y vehículos a la jornada</text>
+</svg>

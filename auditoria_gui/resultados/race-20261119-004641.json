@@ -1,0 +1,17 @@
+[
+  {
+    "id": "RACE-reportes",
+    "titulo": "Respuesta atrasada no mezcla tipos de reporte",
+    "rol": "directivo",
+    "cu": [
+      33,
+      34
+    ],
+    "inicio_utc": "2026-11-19T04:46:44.444335+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_role(\"heading\", name=\"Generación proyectada por punto\", exact=True)\n",
+    "evidencia": "capturas\\race-20261119-004641-RACE-reportes.png",
+    "segundos": 7.59
+  }
+]

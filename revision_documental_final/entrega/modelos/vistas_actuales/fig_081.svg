@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2700" height="1110" viewBox="0 0 2700 1110"><rect width="100%" height="100%" fill="white"/>
+<text x="55" y="49" font-family="Arial" font-size="42" font-weight="700">CU11: colaboración de análisis y mensajes</text>
+<rect x="55" y="160" width="560" height="290" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="70" y="214" font-family="Arial" font-size="42" font-weight="700">A · Actor(es)</text>
+<text x="70" y="292" font-family="Arial" font-size="40" font-weight="400">SUP</text>
+<rect x="700" y="160" width="560" height="290" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="715" y="214" font-family="Arial" font-size="42" font-weight="700">V · Interfaz</text>
+<text x="715" y="292" font-family="Arial" font-size="40" font-weight="400">IncidenciasView</text>
+<rect x="1345" y="160" width="560" height="290" fill="#f7f7f7" stroke="#444" stroke-width="3"/>
+<text x="1360" y="214" font-family="Arial" font-size="42" font-weight="700">C · Control</text>
+<text x="1360" y="292" font-family="Arial" font-size="40" font-weight="400">IncidenciaController</text>
+<line x1="615" y1="300" x2="700" y2="300" stroke="#444" stroke-width="3"/>
+<line x1="700" y1="300" x2="678.3892695435358" y2="310.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="700" y1="300" x2="678.3892695435358" y2="289.56082718133047" stroke="#444" stroke-width="3"/>
+<line x1="1260" y1="300" x2="1345" y2="300" stroke="#444" stroke-width="3"/>
+<line x1="1345" y1="300" x2="1323.3892695435356" y2="310.43917281866953" stroke="#444" stroke-width="3"/>
+<line x1="1345" y1="300" x2="1323.3892695435356" y2="289.56082718133047" stroke="#444" stroke-width="3"/>
+<rect x="2070" y="110" width="575" height="78" fill="white" stroke="#444" stroke-width="3"/>
+<text x="2090" y="159" font-family="Arial" font-size="40" font-weight="400">E1 Incidencia</text>
+<line x1="1905" y1="300" x2="2070" y2="149" stroke="#444" stroke-width="3"/>
+<line x1="2070" y1="149" x2="2061.105197190145" y2="171.2908609742602" stroke="#444" stroke-width="3"/>
+<line x1="2070" y1="149" x2="2047.009870667689" y2="155.88868298614614" stroke="#444" stroke-width="3"/>
+<rect x="2070" y="195" width="575" height="78" fill="white" stroke="#444" stroke-width="3"/>
+<text x="2090" y="244" font-family="Arial" font-size="40" font-weight="400">E2 BitacoraController</text>
+<line x1="1905" y1="300" x2="2070" y2="234" stroke="#444" stroke-width="3"/>
+<line x1="2070" y1="234" x2="2053.811951951872" y2="251.7185524349901" stroke="#444" stroke-width="3"/>
+<line x1="2070" y1="234" x2="2046.0579290444657" y2="232.33349516647485" stroke="#444" stroke-width="3"/>
+<text x="55" y="649" font-family="Arial" font-size="42" font-weight="700">A/V/C son responsabilidades de análisis; E identifica cada entidad o control referido.</text>
+<text x="55" y="722" font-family="Arial" font-size="40" font-weight="400">1. A → V: listarPendientes()</text>
+<text x="55" y="817" font-family="Arial" font-size="40" font-weight="400">1.1. V → C: findAll(PENDIENTE)</text>
+<text x="55" y="912" font-family="Arial" font-size="40" font-weight="400">1.2. C → E1: find(sector)</text>
+<text x="55" y="1007" font-family="Arial" font-size="40" font-weight="400">2. A → V: atender(id, accion)</text>
+<text x="1395" y="722" font-family="Arial" font-size="40" font-weight="400">2.1. V → C: atender(id, accion)</text>
+<text x="1395" y="817" font-family="Arial" font-size="40" font-weight="400">2.2. C → E1: atender(accion, usuario)</text>
+<text x="1395" y="912" font-family="Arial" font-size="40" font-weight="400">2.3. C → E2: registrar(MODIFICACION)</text>
+</svg>

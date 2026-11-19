@@ -1,0 +1,32 @@
+F                                                                        [100%]
+================================== FAILURES ===================================
+_______________ test_etl_convierte_cantidades_sin_error_binario _______________
+
+datos = {'jornada': <Jornada: 2026-09-01 Mañana - S1>, 'p1': <PuntoRecoleccion: P1 - Punto 1>, 'p2': <PuntoRecoleccion: P2 - Punto 2>}
+
+    def test_etl_convierte_cantidades_sin_error_binario(datos):
+        original = RegistroResiduo.objects.filter(punto=datos["p1"]).first()
+        unidad = UnidadMedida.objects.create(nombre="Unidad de peso QA", simbolo="qa", magnitud="PESO",
+                                            factor_conversion=Decimal("0.7"))
+        nuevo = RegistroResiduo.objects.create(
+            jornada=original.jornada, punto=original.punto, tipo_residuo=original.tipo_residuo,
+            unidad=unidad, cantidad=Decimal("0.005"), fecha_hora=original.fecha_hora,
+            registrado_por=original.registrado_por,
+        )
+        correr_etl()
+>       assert HechoResiduo.objects.get(registro=nuevo).cantidad_base == Decimal("0.004")
+E       AssertionError: assert Decimal('0.003') == Decimal('0.004')
+E        +  where Decimal('0.003') = <HechoResiduo: 1 2026-09-01 0.003>.cantidad_base
+E        +    where <HechoResiduo: 1 2026-09-01 0.003> = get(registro=<RegistroResiduo: P1 0.005 qa>)
+E        +      where get = <django.db.models.manager.Manager object at 0x000002582BC52ED0>.get
+E        +        where <django.db.models.manager.Manager object at 0x000002582BC52ED0> = HechoResiduo.objects
+E        +  and   Decimal('0.004') = Decimal('0.004')
+
+apps\analytics\tests\test_analitica.py:89: AssertionError
+---------------------------- Captured stderr setup ----------------------------
+Got an error creating the test database: database "test_postgres" already exists
+
+- generated xml file: C:\Users\usuario\Downloads\dsu\ProyectoDSU\auditoria_cierre\05_ejecuciones_pruebas\reproduccion_precision.xml -
+=========================== short test summary info ===========================
+FAILED apps/analytics/tests/test_analitica.py::test_etl_convierte_cantidades_sin_error_binario
+1 failed in 8.79s

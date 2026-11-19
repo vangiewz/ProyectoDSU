@@ -23,9 +23,25 @@
   .lista-p{list-style:none;padding:0;margin:0;font-size:2rem}
   .lista-p li{padding:18px 0;border-bottom:1px solid var(--mostrador-3);display:flex;justify-content:space-between;gap:20px}
   .lista-p li b{font-family:var(--dato);font-weight:600}
+  @media(max-width:1232px){
+    .cuadrada{width:min(1080px,calc(100vw - 32px));height:auto;min-height:0;padding:clamp(20px,6vw,80px)}
+    .banner{width:min(1200px,calc(100vw - 32px));height:auto;padding:clamp(20px,5vw,56px);grid-template-columns:1fr;gap:24px}
+    .pieza p{font-size:clamp(1rem,3vw,1.9rem)}
+    .pieza h2,.pieza h2[style]{font-size:clamp(2rem,6vw,5.4rem)!important}
+    .marca-p{font-size:clamp(.65rem,1.7vw,1.2rem);gap:12px}
+    .marca-p b{font-size:clamp(1.4rem,3vw,2.6rem)}
+    .tira{padding:clamp(12px,3vw,40px)}
+    .tira .cifra{font-size:clamp(3rem,10vw,9rem)}
+    .tira .linea{font-size:clamp(.8rem,2vw,1.25rem);flex-wrap:wrap;gap:8px}
+    .tira .dato[style]{font-size:clamp(.8rem,2vw,1.2rem)!important}
+    .banner img{width:100%;max-width:100%;height:auto}
+    .cta{font-size:clamp(.9rem,2vw,1.5rem);overflow-wrap:anywhere}
+    .lista-p{font-size:clamp(1rem,2.7vw,2rem)}
+  }
 </style>
 </head>
 <body>
+<h1 class="sr">Material digital de Residata con datos de demostración</h1>
 <section class="pieza cuadrada" id="post-kilos" aria-label="Publicación: cada vaciado pesado">
   <div class="marca-p"><b>RESIDATA</b><span>Software boliviano</span></div>
   <div style="align-self:center">

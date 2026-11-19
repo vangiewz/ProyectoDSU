@@ -1,0 +1,16 @@
+{
+  "fecha": "2026-11-19T01:08:30.849835",
+  "cu_total": 34,
+  "cu_con_recorrido_gui": 34,
+  "flujos_principales_aprobados": 28,
+  "cu_parciales": 6,
+  "combinaciones_cu_rol_total": 75,
+  "combinaciones_con_prueba": 71,
+  "recorridos_ultimo_resultado": 242,
+  "aprobados": 240,
+  "no_aprobados": 2,
+  "corporativo_aprobados": 33,
+  "corporativo_total": 33,
+  "correcciones": 11,
+  "cobertura_exhaustiva": "NO ACREDITADA"
+}

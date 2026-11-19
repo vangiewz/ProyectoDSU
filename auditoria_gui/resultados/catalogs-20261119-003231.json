@@ -1,0 +1,226 @@
+[
+  {
+    "id": "CRUD-sector",
+    "titulo": "Formulario y ciclo CRUD sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:32:33.945005+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-sector.png",
+    "segundos": 5.27
+  },
+  {
+    "id": "CRUD-unidad",
+    "titulo": "Formulario y ciclo CRUD unidad",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:32:39.221473+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-unidad.png",
+    "segundos": 5.89
+  },
+  {
+    "id": "CRUD-tipo",
+    "titulo": "Formulario y ciclo CRUD tipo",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:32:45.125323+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-tipo.png",
+    "segundos": 6.02
+  },
+  {
+    "id": "CRUD-vehiculo",
+    "titulo": "Formulario y ciclo CRUD vehiculo",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:32:51.138252+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-vehiculo.png",
+    "segundos": 4.66
+  },
+  {
+    "id": "CRUD-periodo",
+    "titulo": "Formulario y ciclo CRUD periodo",
+    "rol": "administrativo",
+    "cu": [
+      31
+    ],
+    "inicio_utc": "2026-11-19T04:32:55.806293+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición y persistencia. Periodo no ofrece baja lógica en la interfaz.",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-periodo.png",
+    "segundos": 3.22
+  },
+  {
+    "id": "CRUD-punto",
+    "titulo": "Formulario y ciclo CRUD punto",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:32:59.030963+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-punto.png",
+    "segundos": 5.88
+  },
+  {
+    "id": "CRUD-contenedor",
+    "titulo": "Formulario y ciclo CRUD contenedor",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:33:04.912014+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Alta, edición, búsqueda; estados De baja y Bueno persistidos. No tiene is_active.",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-contenedor.png",
+    "segundos": 5.8
+  },
+  {
+    "id": "CRUD-usuario",
+    "titulo": "Formulario y ciclo CRUD usuario",
+    "rol": "administrativo",
+    "cu": [
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:33:10.717275+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Vacíos rechazados; alta, edición, búsqueda, baja lógica, reactivación y persistencia tras recarga",
+    "evidencia": "capturas\\catalogs-20261119-003231-CRUD-usuario.png",
+    "segundos": 6.17
+  },
+  {
+    "id": "DUP-sector",
+    "titulo": "Duplicado rechazado sector",
+    "rol": "administrativo",
+    "cu": [
+      5
+    ],
+    "inicio_utc": "2026-11-19T04:33:16.896756+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-sector.png",
+    "segundos": 1.52
+  },
+  {
+    "id": "DUP-unidad",
+    "titulo": "Duplicado rechazado unidad",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:33:18.427627+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-unidad.png",
+    "segundos": 1.91
+  },
+  {
+    "id": "DUP-tipo",
+    "titulo": "Duplicado rechazado tipo",
+    "rol": "administrativo",
+    "cu": [
+      8
+    ],
+    "inicio_utc": "2026-11-19T04:33:20.337296+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-tipo.png",
+    "segundos": 1.94
+  },
+  {
+    "id": "DUP-vehiculo",
+    "titulo": "Duplicado rechazado vehiculo",
+    "rol": "administrativo",
+    "cu": [
+      13
+    ],
+    "inicio_utc": "2026-11-19T04:33:22.280670+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-vehiculo.png",
+    "segundos": 1.41
+  },
+  {
+    "id": "DUP-periodo",
+    "titulo": "Duplicado rechazado periodo",
+    "rol": "administrativo",
+    "cu": [
+      31
+    ],
+    "inicio_utc": "2026-11-19T04:33:23.695091+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-periodo.png",
+    "segundos": 1.69
+  },
+  {
+    "id": "DUP-punto",
+    "titulo": "Duplicado rechazado punto",
+    "rol": "administrativo",
+    "cu": [
+      6
+    ],
+    "inicio_utc": "2026-11-19T04:33:25.397111+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-punto.png",
+    "segundos": 1.95
+  },
+  {
+    "id": "DUP-contenedor",
+    "titulo": "Duplicado rechazado contenedor",
+    "rol": "administrativo",
+    "cu": [
+      7
+    ],
+    "inicio_utc": "2026-11-19T04:33:27.372246+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-contenedor.png",
+    "segundos": 1.77
+  },
+  {
+    "id": "DUP-usuario",
+    "titulo": "Duplicado rechazado usuario",
+    "rol": "administrativo",
+    "cu": [
+      3
+    ],
+    "inicio_utc": "2026-11-19T04:33:29.151633+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Aserciones de interfaz satisfechas",
+    "evidencia": "capturas\\catalogs-20261119-003231-DUP-usuario.png",
+    "segundos": 1.7
+  }
+]

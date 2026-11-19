@@ -1,0 +1,41 @@
+Creando 500 puntos y 100000 vaciados sintéticos…
+  datos creados en 10 s
+Midiendo…
+  ETL: Exitosa, 100156 registros
+  RTR1 Autenticación: 0.73 s
+  RTR2 Datos de la interfaz principal (sesión + jornadas): 0.16 s
+  RTR3 Búsqueda de un punto: 0.01 s
+  RTR3 Búsqueda de un sector: 0.00 s
+  RTR4 Registro de un vaciado: 0.02 s
+  RTR5 Registro de una incidencia: 0.01 s
+  RTR6 Histórico con filtros (12 meses, un sector): 0.20 s
+  RTR7 Mapa con los 500+ puntos activos (30 días): 0.07 s
+  RTR8 Capa de calor de 12 meses: 0.11 s
+  RTR9 Indicadores del periodo (30 días): 0.15 s
+  RTR9 Indicadores del periodo (12 meses): 0.68 s
+  RTR10 Reporte exportable PDF (12 meses): 0.25 s
+  RTR10 Reporte exportable Excel (12 meses): 0.47 s
+  entrenamiento: R² = 0,909, RMSE = 3,21 kg. Versión publicada.
+  RTR11 / RCM8 Predicción a 30 días de todos los puntos: 3.12 s
+RCM3: 518 puntos activos durante la medición.
+
+| Requisito | Operación | Límite | Medido | Cumple |
+|---|---|---|---|---|
+| RCM5 | ETL sobre el histórico nuevo (100156 registros) | — | 15.90 s | — |
+| RTR1 | Autenticación | ≤ 2 s | 0.73 s | ✅ |
+| RTR2 | Datos de la interfaz principal (sesión + jornadas) | ≤ 3 s | 0.16 s | ✅ |
+| RTR3 | Búsqueda de un punto | ≤ 2 s | 0.01 s | ✅ |
+| RTR3 | Búsqueda de un sector | ≤ 2 s | 0.00 s | ✅ |
+| RTR4 | Registro de un vaciado | ≤ 3 s | 0.02 s | ✅ |
+| RTR5 | Registro de una incidencia | ≤ 3 s | 0.01 s | ✅ |
+| RTR6 | Histórico con filtros (12 meses, un sector) | ≤ 4 s | 0.20 s | ✅ |
+| RTR7 | Mapa con los 500+ puntos activos (30 días) | ≤ 4 s | 0.07 s | ✅ |
+| RTR8 | Capa de calor de 12 meses | ≤ 6 s | 0.11 s | ✅ |
+| RTR9 | Indicadores del periodo (30 días) | ≤ 5 s | 0.15 s | ✅ |
+| RTR9 | Indicadores del periodo (12 meses) | ≤ 5 s | 0.68 s | ✅ |
+| RTR10 | Reporte exportable PDF (12 meses) | ≤ 8 s | 0.25 s | ✅ |
+| RTR10 | Reporte exportable Excel (12 meses) | ≤ 8 s | 0.47 s | ✅ |
+| RTR12 / RCM7 | Entrenamiento completo (112280 observaciones, R² 0.909, aprobado) | ≤ 600 s | 21.56 s | ✅ |
+| RTR11 / RCM8 | Predicción a 30 días de todos los puntos (515 puntos) | ≤ 15 s | 3.12 s | ✅ |
+
+Todo lo creado para la medición se deshizo (rollback).

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "ROUTE-administrativo-jornadas-nueva",
+    "titulo": "Planificación autorizada para Administrador",
+    "rol": "administrativo",
+    "cu": [],
+    "inicio_utc": "2026-11-19T04:25:38.999440+00:00",
+    "interfaz": true,
+    "estado": "APROBADO",
+    "detalle": "Corrección del oráculo de prueba: Administrador tiene operations.add_jornada; no es un defecto del producto",
+    "evidencia": "capturas\\auth_extra-ROUTE-administrativo-jornadas-nueva.png",
+    "segundos": 1.03
+  },
+  {
+    "id": "AUTH-refresh",
+    "titulo": "Expiración real y renovación de sesión",
+    "rol": "administrativo",
+    "cu": [
+      1
+    ],
+    "inicio_utc": "2026-11-19T04:25:40.024736+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Page.goto: Timeout 6000ms exceeded.\nCall log:\nnavigating to \"http://127.0.0.1:55364/usuarios\", waiting until \"networkidle\"\n",
+    "evidencia": "capturas\\auth_extra-AUTH-refresh.png",
+    "segundos": 71.2
+  },
+  {
+    "id": "AUTH-expired",
+    "titulo": "Sesión no renovable vuelve al ingreso",
+    "rol": "administrativo",
+    "cu": [
+      1,
+      2
+    ],
+    "inicio_utc": "2026-11-19T04:26:51.231654+00:00",
+    "interfaz": true,
+    "estado": "FALLIDO",
+    "detalle": "Page.reload: Timeout 6000ms exceeded.\nCall log:\nwaiting for navigation until \"networkidle\"\n  -   navigated to \"http://127.0.0.1:55364/usuarios\"\n",
+    "evidencia": "capturas\\auth_extra-AUTH-expired.png",
+    "segundos": 6.17
+  }
+]
