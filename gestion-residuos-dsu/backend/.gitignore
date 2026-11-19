@@ -8,7 +8,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
-!/.env
 
 # Generados
 staticfiles/
@@ -29,3 +28,8 @@ powerbi/**/.pbi/cache.abf
 .DS_Store
 Thumbs.db
 respaldos/
+
+# Configuración privada: la excepción histórica fue revocada.
+.env
+.env.*
+!.env.example

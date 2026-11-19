@@ -17,11 +17,10 @@
 **/htmlcov/
 **/.coverage
 
-# Secretos: única excepción solicitada para ProyectoDSU PRIVADO
+# Secretos: configuraciones locales, nunca versionadas
 .env
 .env.*
 !.env.example
-!/gestion-residuos-dsu/backend/.env
 *.pem
 *.key
 
@@ -52,3 +51,35 @@ Thumbs.db
 # Paquetes reconstruibles para Drive; las fuentes y el APK demo se conservan en Git.
 /Entregables/Drive_Actualizado_20261119/
 /Entregables/Entrega_Final_DSU_20261119.zip
+
+/Entregables/Drive_Organizado_20261119/
+
+# Antecedentes y generadores académicos conservados solo localmente.
+/generador/
+/clases/
+/cap8-10/
+/modelo_uml/
+/docs/versiones/
+/DocumentoSoftware2/versiones/
+/DocumentoSoftware2/Ejemplos/
+/Entregables/versiones/
+/Entregables/Software2_Final_20261119.zip.partes/
+/auditoria_cierre/08_paquete_entrega/
+/auditoria_gui/Evidencias_GUI_DSU_Residata.zip.partes/
+/revision_documental_final/entrega/reproducir/
+/revision_documental_final/revision_paginas/
+/*.pdf
+/GUIA_FASE2.md
+/GUIA_FASE_FINAL.md
+/docs/Documento_Taller*
+/DocumentoSoftware2/*.docx
+/revision_documental_final/*.py
+/revision_documental_final/entrega/*_Final.docx
+/revision_documental_final/entrega/*_Final.pdf
+/DocumentoSoftware2/ensamblar.py
+/DocumentoSoftware2/generar.py
+/DocumentoSoftware2/modelos.py
+/DocumentoSoftware2/material.py
+/DocumentoSoftware2/renderizar_revision.py
+/DocumentoSoftware2/publicar.ps1
+/DocumentoSoftware2/revisar.ps1

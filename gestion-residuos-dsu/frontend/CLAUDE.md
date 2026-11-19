@@ -1,6 +1,6 @@
 # CLAUDE.md — Frontend del Sistema de Gestión de Residuos DSU-UAGRM
 
-SPA React del sistema web real (irá a producción) de la Dirección de Servicios Universitarios de la UAGRM: captura en campo de vaciados, jornadas, incidencias, tablero, mapa, predicción y alertas. Proyecto compartido de Taller de Grado I (Grupo 8) y Software 2 (PUDS). Leer [AGENTS.md](../../AGENTS.md).
+SPA React del sistema web real (irá a producción) de la Dirección de Servicios Universitarios de la UAGRM: captura en campo de vaciados, jornadas, incidencias, tablero, mapa, predicción y alertas. Entrega de Software 2 (PUDS). Leer [AGENTS.md](../../AGENTS.md).
 
 ## Carpetas del repositorio unificado ProyectoDSU
 
@@ -14,7 +14,7 @@ ProyectoDSU/gestion-residuos-dsu/
 - En desarrollo Vite hace proxy de `/api` a `http://127.0.0.1:8000` (levantar `../backend` con `python manage.py runserver`). El backend ya no sirve este build: se despliega aparte (Vercel). `VITE_API_URL` (build) apunta al backend; vacío = mismo origen/proxy de Vite. El backend necesita esa URL del frontend en `CORS_ALLOWED_ORIGINS`.
 - **Estado, decisiones y trazabilidad RF de todo el sistema:** `../backend/docs/ESTADO.md`. Leerlo al empezar y actualizarlo al terminar trabajo relevante.
 - **Manual de usuario por rol:** [docs/MANUAL_USUARIO.md](docs/MANUAL_USUARIO.md). Actualizarlo si cambia un flujo o el texto de un botón.
-- **Requisitos:** documento del taller, capítulo 4 (RF1–RF27, RNF, RI). Versionado en `../../docs/Documento_Taller_de_Grado_I_Grupo_8.docx`.
+- **Requisitos:** entrega canónica de Software 2 y trazabilidad de RF1–RF27, RNF y RI. Los antecedentes originales se conservan localmente.
 
 ## Stack (fijado por el documento)
 

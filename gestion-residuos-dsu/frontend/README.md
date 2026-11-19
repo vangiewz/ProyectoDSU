@@ -1,6 +1,6 @@
 # Gestión de Residuos DSU-UAGRM — Frontend
 
-Interfaz web del sistema de gestión de residuos sólidos de la Dirección de Servicios Universitarios (DSU) de la Universidad Autónoma Gabriel René Moreno: captura en campo desde el celular, jornadas de recolección, incidencias, tablero de indicadores, mapa de calor, predicción con Random Forest y alertas logísticas. Taller de Grado I — Grupo 8 y Software 2 — PUDS.
+Interfaz web del sistema de gestión de residuos sólidos de la Dirección de Servicios Universitarios (DSU) de la Universidad Autónoma Gabriel René Moreno: captura en campo desde el celular, jornadas de recolección, incidencias, tablero de indicadores, mapa de calor, predicción con Random Forest y alertas logísticas. Software 2 — PUDS.
 
 La API (Django) está en la carpeta hermana del mismo repositorio ProyectoDSU. Clonar la raíz una sola vez:
 

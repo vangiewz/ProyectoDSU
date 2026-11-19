@@ -1,6 +1,6 @@
 # CLAUDE.md — Backend del Sistema de Gestión de Residuos DSU-UAGRM
 
-API Django del sistema web real (irá a producción) de la Dirección de Servicios Universitarios de la UAGRM: registro en campo de vaciados, jornadas de recolección, incidencias, analítica, predicción con Random Forest y alertas logísticas. Proyecto compartido de Taller de Grado I (Grupo 8) y Software 2 (PUDS). Leer [AGENTS.md](../../AGENTS.md).
+API Django del sistema web real (irá a producción) de la Dirección de Servicios Universitarios de la UAGRM: registro en campo de vaciados, jornadas de recolección, incidencias, analítica, predicción con Random Forest y alertas logísticas. Entrega de Software 2 (PUDS). Leer [AGENTS.md](../../AGENTS.md).
 
 ## Repositorio unificado
 
@@ -14,7 +14,7 @@ ProyectoDSU/gestion-residuos-dsu/
 
 El backend no sabe nada del frontend: el `Dockerfile` y el compose solo empaquetan esta carpeta. Si trabajas en el frontend, su contexto está en `../frontend/CLAUDE.md`.
 
-- **Requisitos (fuente de verdad):** documento del taller, capítulo 4 (IEEE 830): RF1–RF27, RNF, RI, RBD, RD. Está versionado en `../../docs/Documento_Taller_de_Grado_I_Grupo_8.docx` (leer con python-docx recorriendo `document.element.body`). No hay historias de usuario; se trabaja por RF.
+- **Requisitos (fuente de verdad):** entrega canónica de Software 2 y trazabilidad de RF1–RF27, RNF, RI, RBD y RD. Los antecedentes originales se conservan localmente; no cambiar los requisitos por retirar esos archivos de GitHub. No hay historias de usuario; se trabaja por RF.
 - **Estado, decisiones, trazabilidad RF y próximos pasos (de todo el sistema):** [docs/ESTADO.md](docs/ESTADO.md). Leerlo al empezar una sesión y actualizarlo al terminar trabajo relevante, también si el cambio fue en el frontend.
 - **Puesta en marcha y despliegue:** [README.md](README.md).
 
@@ -24,7 +24,7 @@ Django 5.2 LTS + Django REST Framework + JWT (simplejwt) · Python 3.12 · Postg
 
 ## Arquitectura: MVC, todo centralizado en el backend
 
-- `.env` concentra toda la configuración (SECRET_KEY, DATABASE_URL de Neon, JWT, CAMPUS_BBOX, MODELOS_DIR). Por instrucción explícita del usuario, este archivo se versiona en ProyectoDSU privado como única excepción. No copiar sus valores a otros archivos, a `.env.example`, ni imprimirlos (p. ej. `docker compose config` los muestra).
+- `.env` concentra toda la configuración (SECRET_KEY, DATABASE_URL de Neon, JWT, CAMPUS_BBOX, MODELOS_DIR). La configuración es privada y local; la antigua excepción de versionarla fue revocada. No copiar sus valores a otros archivos, a `.env.example`, ni imprimirlos (p. ej. `docker compose config` los muestra).
 - Django solo sirve la API (`/api/`) y los estáticos del admin/DRF; ya no sirve el SPA. En desarrollo Vite hace proxy de `/api` a `:8000`. El frontend va aparte (Vercel): el backend lee `CORS_ALLOWED_ORIGINS` del `.env` (django-cors-headers) y el frontend `VITE_API_URL`.
 - **Cada app de `apps/` usa paquetes por entidad** (preferencia explícita del usuario): `models/`, `serializers/`, `views/`, y cuando aplica `services/`, `filters/`, `permissions/`, `management/commands/`, `tests/`. Un archivo por entidad y un `__init__.py` que reexporta con `__all__`. Nunca crear `models.py` o `views.py` planos.
   - Modelo = `models/` · Vista = `serializers/` + SPA React · Controlador = `views/` (ViewSets) + `accounts/permissions/`.
@@ -80,7 +80,7 @@ docker compose up -d --build   # producción (app + respaldo diario), solo backe
 # El hook SessionStart de Claude es local y no se distribuye en otros clones.
 ```
 
-Para la auditoría sin afectar la demo compartida: desde la raíz del proyecto, `python generador/fase_final/pruebas_aisladas.py` crea su propio PostgreSQL desechable; `pruebas_linux.py` repite la suite sobre la imagen Linux preparada. No ejecutar pytest, migraciones, ETL ni entrenamiento contra Neon por preparar otro clon. Configuración productiva propuesta: `deploy/README.md`; su existencia no acredita despliegue remoto.
+Para la auditoría sin afectar la demo compartida: desde la raíz del proyecto, `python herramientas/pruebas/pruebas_aisladas.py` crea su propio PostgreSQL desechable; `pruebas_linux.py` repite la suite sobre la imagen Linux preparada. No ejecutar pytest, migraciones, ETL ni entrenamiento contra Neon por preparar otro clon. Configuración productiva propuesta: `deploy/README.md`; su existencia no acredita despliegue remoto.
 
 ## Cuidado con
 

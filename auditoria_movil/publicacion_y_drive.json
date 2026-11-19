@@ -3,7 +3,7 @@
   "sitio_deployment": "dpl_BgufweeQgd9sUvXFesynf2ZgJ8Y4",
   "frontend_deployment": "dpl_8PFzwj9CBJRrDCeVmBDZAZEj9o6X",
   "backend_revision_verificada": "4980f79",
-  "drive_carpeta": "https://drive.google.com/drive/folders/1KCQmT9a4rUACiiD9031Aj2gKKeEi1Ew9",
+  "drive_carpeta": "https://drive.google.com/drive/folders/1GtrE_rtlimZ3zcj4aZsuvZf6RaErTHqg",
   "drive_subidas_completadas": 9,
   "resultados_http": [
     {
@@ -54,5 +54,29 @@
     }
   ],
   "limites": "Comprobaciones puntuales; no miden disponibilidad mensual ni prueban recepción de correo.",
-  "drive_organizacion": "En reorganizacion por tipo de material a pedido del usuario"
+  "drive_organizacion": "12 carpetas específicas, documento reemplazado conservando enlaces y permisos, sin carpeta de entrega mezclada",
+  "carpeta_entrega_actualizada_retirada": true,
+  "firmas_cartas_preservadas": true,
+  "drive_carpetas": [
+    "01_Documento",
+    "02_PAPS",
+    "03_Calidad",
+    "04_Manual_de_Usuario",
+    "05_Capturas_del_sistema",
+    "06_Diagramas_UML",
+    "07_Pruebas",
+    "08_Codigo_Fuente",
+    "09_App_Android",
+    "10_Marketing_y_Pitch",
+    "11_Defensa",
+    "12_Respaldo_Documental"
+  ],
+  "copias_viejas_retiradas_drive": {
+    "diagramas": 135,
+    "capturas": 53,
+    "resultados_pruebas": 3,
+    "elementos_duplicados_raiz": 4
+  },
+  "documentos_drive_version": 2,
+  "documentos_drive_carpeta": "https://drive.google.com/drive/folders/1S1inUlV50sxUSDlWSGKZwJrQxdW7Z2c-"
 }

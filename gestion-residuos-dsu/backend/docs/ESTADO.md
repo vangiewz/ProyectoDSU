@@ -155,3 +155,12 @@ Ocho pruebas automáticas aprobadas y análisis Flutter sin incidencias. En Sams
 CI ampliado a la rama `cierre-software2-20261118`, con análisis, pruebas y APK demo ARM64. El CD de API continúa limitado a main. Azure se inspeccionó por SSH: contenedor en ejecución identificado como 4980f79. La revisión de Residata aún requiere publicar los cambios desde la cuenta propietaria; no confundir un despliegue intentado con uno aprobado.
 
 Se retiraron 980 copias idénticas solo de Entregables/versiones (109,9 MiB del árbol actual), preservando cada contenido único y el documento vigente. Índice SHA-256 y reconstrucción en esa carpeta. No se reescribió Git ni se retiraron las credenciales autorizadas del repositorio privado. Se preparó folleto PDF complementario y guía de Android. Las pruebas de frontend pasan con nueve advertencias previas de lint; no equivalen a una nueva prueba exhaustiva de producción.
+
+
+## Configuración de publicación y alcance de GitHub — cierre del 19/11/2026
+
+Vercel frontend: raíz gestion-residuos-dsu/frontend, Node 22, npm ci, npm run build, salida dist. Se corrigió la raíz anterior que provocaba vite: command not found al desplegar desde GitHub. VITE_API_URL apunta a Azure en producción y preview. El sitio usa raíz sitio-residata y python3 preparar_publicacion.py --solo-publico, salida dist. Configuración esperada en despliegue/vercel_proyectos.json; publicaciones y alias se verifican por HTTP.
+
+El usuario solicitó retirar .env del historial y presentar solo Software 2 en GitHub, sin generadores académicos. Se conservan originales locales y respaldo privado verificado. Las copias convencionales del documento se alinearon con el Word/PDF canónicos sin cambiar su contenido. Herramientas de materiales en herramientas/entrega; runners aislados en herramientas/pruebas. .env permanece local y en la VM, ignorado por Git. Las credenciales históricas requieren rotación y los clones anteriores deben sustituirse tras la reescritura.
+
+La app móvil se probó con Supervisor en Samsung Galaxy S23: GPS, sugerencia, dictado confirmado por el usuario y envío controlado (incidencia 11, ATENDIDA). La prueba adicional de Operario no se completó; no se declara cobertura de todas las cuentas. El teléfono ya no es necesario para terminar publicación e historial.

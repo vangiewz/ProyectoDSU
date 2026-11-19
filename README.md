@@ -1,61 +1,43 @@
-# Proyecto DSU — Taller de Grado y Software 2
+# DSU y Residata — Software 2
 
-Sistema web de gestión de residuos sólidos de la Dirección de Servicios Universitarios de la UAGRM, con analítica y predicción mediante Random Forest Regressor. El equipo desarrolla **un mismo sistema para las dos materias**, con entregables académicos propios de cada una. Para Software 2 se eligió **PUDS**.
+Sistema de gestión de residuos sólidos para la DSU-UAGRM, con aplicación web, API Django en Azure y predicción mediante Random Forest Regressor. Entrega académica de Software 2 con metodología PUDS y trece puntos. El complemento Flutter Android usa los mismos usuarios, permisos y API.
 
-Este es el repositorio compartido: [vangiewz/ProyectoDSU](https://github.com/vangiewz/ProyectoDSU). Backend y frontend están incluidos como carpetas normales; no es necesario clonar los repositorios anteriores.
+## Contenido vigente
 
-## Organización
-
-| Ruta | Contenido |
+| Carpeta | Contenido |
 |---|---|
-| [AGENTS.md](AGENTS.md) | Contexto y decisiones para cualquier agente |
-| [CLAUDE.md](CLAUDE.md) | Guía del material de Taller y cuidados de generación |
-| [gestion-residuos-dsu/backend](gestion-residuos-dsu/backend/README.md) | API Django, ETL, Random Forest, Power BI y despliegue |
-| [gestion-residuos-dsu/frontend](gestion-residuos-dsu/frontend/README.md) | Aplicación React y Vite |
-| [docs](docs/) | Documento vigente de Taller, auditorías y versiones |
-| [DocumentoSoftware2](DocumentoSoftware2/CONTEXTO.md) | Contexto de Software 2 y ejemplos de referencia; entregables pendientes |
-| [generador](generador/) y [modelo_uml](modelo_uml/) | Fuentes del documento, figuras y modelo de Enterprise Architect |
-| [clases](clases/), [cap8-10](cap8-10/) y PDF de la raíz | Material docente y referencias |
+| gestion-residuos-dsu/backend | API, reglas de negocio, ETL, predicción, pruebas y despliegue Azure |
+| gestion-residuos-dsu/frontend | Aplicación React/Vite publicada en Vercel |
+| gestion-residuos-dsu/movil | Flutter Android: puntos cercanos por GPS e incidencias con dictado |
+| sitio-residata | Sitio corporativo, marketing y pitch |
+| revision_documental_final/entrega | Word/PDF canónicos, diagramas, modelos EA, pruebas y defensa |
+| DocumentoSoftware2 | Contexto, textos de apoyo, recursos y modelo financiero |
+| Entregables | Manuales y materiales distribuibles, APK y folleto |
+| auditoria_gui, auditoria_movil, auditoria_cierre, docs/auditoria-fase-final | Evidencias con sus fechas, alcance y límites |
+| herramientas | Preparación de materiales y pruebas aisladas; sin generadores del documento académico |
+| despliegue | Configuración esperada de los proyectos Vercel y cierre del repositorio |
 
-## Inicio rápido en Windows
+**Documento vigente:** [PDF para imprimir](revision_documental_final/entrega/Documento_Software_2_DSU_Entrega.pdf) y Word editable del mismo nombre. El contenido académico se conserva; Flutter no se añadió al documento. El manual está en el capítulo 12 y los estándares en 3.9.3 y el anexo I.
 
-Requisitos: Git, Python 3.12, Node.js compatible con el Vite instalado (22.12 o superior dentro de la rama 22, o 24 LTS) y acceso a Internet para Neon y la instalación de dependencias. Word y Enterprise Architect solo se necesitan para el flujo de generación de documentos y diagramas, no para ejecutar el sistema.
+**Material compartido:** [carpeta del QR de Drive](https://drive.google.com/drive/folders/1GtrE_rtlimZ3zcj4aZsuvZf6RaErTHqg), organizada por tipo de material. [Índice local](Entregables/INDICE_ENTREGA_ACTUAL.md).
 
-```powershell
-git clone https://github.com/vangiewz/ProyectoDSU.git
-cd ProyectoDSU
-cd gestion-residuos-dsu/backend
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
-.\.venv\Scripts\python.exe manage.py runserver
-```
+## Servicios
 
-En otra terminal, desde la raíz del clon:
+- App web: https://dsu-uagrm.vercel.app/
+- API: https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com/api/
+- Sitio: https://residata-bolivia.vercel.app/
+- Datos: PostgreSQL en Neon; no se cambia de proveedor.
 
-```powershell
-cd gestion-residuos-dsu/frontend
-npm ci
-npm run dev
-```
+## Desarrollo
 
-Abrir `http://localhost:5173`. Vite dirige `/api` al backend en `http://127.0.0.1:8000`. En Linux/macOS, usar `.venv/bin/python` en lugar de `.venv\Scripts\python.exe`.
+Usar Python 3.12, PostgreSQL y Node.js 22 actualizado; para Android, Flutter 3.41.7 y Android SDK. Consultar los README de cada componente. Crear la configuración local desde .env.example y obtener las credenciales del titular por un canal privado. .env no forma parte del repositorio ni de Drive.
 
-## Base compartida y datos cargados
+La base demo es compartida. No ejecutar seed, restauraciones, limpieza, ETL ni entrenamiento para preparar un clon. Las pruebas de backend usan PostgreSQL aislado: `python herramientas/pruebas/pruebas_aisladas.py`, o el servicio PostgreSQL definido en CI. Las pruebas de Flutter se ejecutan con `flutter analyze` y `flutter test` dentro de movil.
 
-**Se mantiene PostgreSQL en Neon.** El `.env` del backend está incluido por decisión del equipo mientras el repositorio sea privado. No reemplazarlo por `.env.example` al clonar. Ambos integrantes acceden a la misma base demo: no necesitan instalar PostgreSQL, restaurar un dump, generar histórico ni entrenar de nuevo para comenzar.
+Las capturas y métricas de demo usan datos sintéticos y mantienen sus límites. No acreditan aceptación institucional, ventas ni cobertura exhaustiva.
 
-El estado documentado incluye usuarios de demostración, sectores y puntos, histórico sintético, datos analíticos y modelos entrenados. Usuarios demo: `supervisor`, `operario1`, `operario2`, `administrativo` (rol Administrador) y `directivo`; contraseña demo: `Residuos.2026`. El usuario `admin` tiene una contraseña distinta, no documentada aquí.
+## Alcance del repositorio y credenciales
 
-Los registros de campo dependen de jornadas asignadas a la fecha actual y las predicciones de historia reciente: los datos antiguos pueden dejar algunas pantallas sin resultados. Coordinar con el equipo las jornadas de prueba y cualquier actualización de la demo. Las métricas sobre datos sintéticos no son resultados reales de la DSU.
+Por instrucción del titular del 19/11/2026, el material de la otra materia, los ejemplos ajenos, las versiones documentales antiguas y los generadores académicos se conservan localmente, fuera del seguimiento de Git. El código de negocio sigue siendo el mismo sistema DSU.
 
-**Las escrituras son compartidas.** No ejecutar `seed`, limpiezas, restauraciones o cargas masivas como parte de la instalación. Si se agregan migraciones, revisar `manage.py showmigrations --plan` y coordinar quién ejecuta `manage.py migrate`. Las pruebas deben usar la base de test, nunca restaurar ni vaciar la base compartida.
-
-## Trabajo en equipo y despliegue
-
-Trabajar con ramas y pull requests en este repositorio, coordinando cambios en el Word y el modelo `.eapx`, que no se fusionan como texto. El documento fuente y las precauciones de generación están en [CLAUDE.md](CLAUDE.md); el estado del sistema está en [ESTADO.md](gestion-residuos-dsu/backend/docs/ESTADO.md).
-
-Backend y frontend siguen desplegándose por separado: configurar la raíz del backend como `gestion-residuos-dsu/backend` (Docker) y la del frontend como `gestion-residuos-dsu/frontend` (Vercel). Se mantienen Neon, CORS y `VITE_API_URL`; consultar las guías de cada componente. El `.env` de demostración no sustituye la configuración de producción.
-
-## Antes de hacer público el repositorio
-
-El `.env` versionado contiene credenciales. **Rotarlas/revocarlas, retirar el archivo del seguimiento, volver a excluirlo y limpiar el historial Git antes de cambiar la visibilidad.** Revisar ramas, etiquetas y otros archivos; coordinar nuevos clones tras la limpieza. Borrar el archivo o esta nota no elimina las credenciales de los commits anteriores. No copiar valores del `.env` en documentación, incidencias ni registros.
+La limpieza del historial retira .env y busca los valores sensibles de sus versiones. Esto no revoca las credenciales antiguas: deben rotarse antes de una publicación abierta. Mantener el repositorio privado y usar clones nuevos después de la reescritura; un clon anterior puede reintroducir el historial retirado.

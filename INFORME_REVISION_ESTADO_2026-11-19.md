@@ -78,3 +78,16 @@ La excepción autorizada de `backend/.env` se mantiene en el repositorio privado
 5. Organizar duplicados e históricos preservando trazabilidad y el documento canónico.
 
 Fuentes internas: `revision_documental_final/entrega/Informe_validacion_final.md`, `auditoria_gui/INFORME_FINAL.md`, `gestion-residuos-dsu/backend/docs/ESTADO.md`, Word canónico, archivos de frontend, manifiesto de evidencias y workflow CI/CD. Las comprobaciones en línea se detallan arriba con su alcance.
+
+
+## Actualización posterior a la implementación y publicación
+
+Se creó Flutter Android en gestion-residuos-dsu/movil sin cambiar los hashes del Word/PDF canónicos. GPS y orden por cercanía sobre puntos permitidos, confirmación del código, dictado y envío de incidencias a Azure. En Samsung Galaxy S23 se verificaron login, restauración de sesión, mapa, GPS/sugerencia y el usuario confirmó el dictado. La incidencia controlada 11 se comprobó por GET y quedó ATENDIDA. Ocho pruebas automáticas aprobadas y análisis Flutter sin incidencias. Sin cámara, fotos, cola offline ni prueba exhaustiva de dispositivos/roles.
+
+Se publicaron frontend y sitio; el pitch público ahora contiene VAN Bs 117027, TIR operativa 41,8 % y capital propuesto Bs 200000. Azure ya ejecutaba el código base 4980f79; este cierre no requirió cambios de esquema ni de lógica backend. Los HTTP puntuales y los identificadores de despliegue están en auditoria_movil/publicacion_y_drive.json.
+
+La carpeta del QR de Drive se reorganizó en carpetas específicas numeradas: documento, PAPS, calidad, manual, capturas, UML, pruebas/videos, código fuente, Android, marketing/pitch, defensa y respaldo documental. El PDF y Word de 01_Documento se reemplazaron conservando sus enlaces/permisos. La carpeta mezclada de entrega actualizada y los tres PDF antiguos sueltos se enviaron a la papelera; sus versiones vigentes están en cada carpeta correspondiente. Cartas y carátulas firmadas se preservaron en 12_Respaldo_Documental.
+
+La limpieza de Git retiró 980 copias idénticas de Entregables/versiones, con índice SHA-256 y script de reconstrucción. Se añadió folleto PDF complementario y APK demo ARM64 firmado para pruebas. El repositorio continúa privado, con la excepción .env autorizada, sin trasladarla a Drive.
+
+El CI de GitHub aprobó backend, frontend y sitio. El análisis y los ocho tests Flutter también pasaron en el primer job; la compilación remota encontró un fallo al instalar NDK. Se corrigió la preparación de Android/Java y la reserva de disco del runner. El estado vigente se comprueba en GitHub Actions; los resultados locales no sustituyen el chequeo del último commit.

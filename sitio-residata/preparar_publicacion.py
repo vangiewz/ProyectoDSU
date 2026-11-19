@@ -13,6 +13,8 @@ for filename in [*ROOT.glob("*.html"), ROOT / "feed.xml", ROOT / "vercel.json"]:
 for dirname in ["css", "fonts", "img", "js", "marketing", "pitch"]:
     shutil.copytree(ROOT / dirname, out / dirname, dirs_exist_ok=True)
 print("Publicación preparada en", out)
+if "--solo-publico" in sys.argv:
+    sys.exit(0)
 
 # El proyecto Vercel existente tiene Root Directory = sitio-residata.
 # La raíz del envío debe conservar esa estructura, aun al publicar solo recursos públicos.

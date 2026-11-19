@@ -1,6 +1,6 @@
 # Gestión de Residuos DSU-UAGRM — Backend
 
-API del sistema web de gestión de residuos sólidos de la Dirección de Servicios Universitarios (DSU) de la Universidad Autónoma Gabriel René Moreno: registro en campo de vaciados, jornadas de recolección, incidencias, analítica, predicción con Random Forest Regressor y alertas logísticas. Taller de Grado I — Grupo 8 y Software 2 — PUDS.
+API del sistema web de gestión de residuos sólidos de la Dirección de Servicios Universitarios (DSU) de la Universidad Autónoma Gabriel René Moreno: registro en campo de vaciados, jornadas de recolección, incidencias, analítica, predicción con Random Forest Regressor y alertas logísticas. Software 2 — PUDS.
 
 El frontend (React) está en la carpeta hermana del mismo repositorio ProyectoDSU. Clonar la raíz una sola vez; Vite hace proxy de `/api` a `:8000`:
 
@@ -50,7 +50,7 @@ apps/
 python -m venv .venv
 .venv/Scripts/activate            # Windows  (Linux/macOS: source .venv/bin/activate)
 pip install -r requirements-dev.txt
-# El .env incluido conecta con la demo compartida de Neon; no sobrescribirlo.
+# Crear .env desde .env.example y obtener los valores del titular; no se versiona.
 # No ejecutar seed ni migrate como parte del primer arranque.
 python manage.py runserver        # http://localhost:8000/api/
 ```
