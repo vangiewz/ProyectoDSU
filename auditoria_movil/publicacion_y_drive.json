@@ -1,0 +1,58 @@
+{
+  "fecha": "2026-11-19",
+  "sitio_deployment": "dpl_BgufweeQgd9sUvXFesynf2ZgJ8Y4",
+  "frontend_deployment": "dpl_8PFzwj9CBJRrDCeVmBDZAZEj9o6X",
+  "backend_revision_verificada": "4980f79",
+  "drive_carpeta": "https://drive.google.com/drive/folders/1KCQmT9a4rUACiiD9031Aj2gKKeEi1Ew9",
+  "drive_subidas_completadas": 9,
+  "resultados_http": [
+    {
+      "url": "https://dsu-uagrm.vercel.app/",
+      "status": 200,
+      "bytes": 713
+    },
+    {
+      "url": "https://residata-bolivia.vercel.app/",
+      "status": 200,
+      "bytes": 18260,
+      "csp_presente": true
+    },
+    {
+      "url": "https://residata-bolivia.vercel.app/planes.html",
+      "status": 200,
+      "bytes": 9601,
+      "csp_presente": true
+    },
+    {
+      "url": "https://residata-bolivia.vercel.app/soporte.html",
+      "status": 200,
+      "bytes": 7267,
+      "csp_presente": true
+    },
+    {
+      "url": "https://residata-bolivia.vercel.app/marketing/",
+      "status": 200,
+      "bytes": 4855,
+      "csp_presente": true
+    },
+    {
+      "url": "https://residata-bolivia.vercel.app/pitch/",
+      "status": 200,
+      "bytes": 12720,
+      "cifras_117027_418_200000": true,
+      "csp_presente": true
+    },
+    {
+      "url": "https://residata-bolivia.vercel.app/pitch/Residata_pitch.pdf",
+      "status": 200,
+      "bytes": 588790,
+      "csp_presente": true
+    },
+    {
+      "url": "https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com/api/auth/me/",
+      "status": 401
+    }
+  ],
+  "limites": "Comprobaciones puntuales; no miden disponibilidad mensual ni prueban recepción de correo.",
+  "drive_organizacion": "En reorganizacion por tipo de material a pedido del usuario"
+}
