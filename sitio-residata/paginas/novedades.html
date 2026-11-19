@@ -1,0 +1,23 @@
+<!-- titulo: Novedades — Residata | descripcion: Versiones publicadas de la plataforma Residata y sus cambios, con suscripción por RSS y correo. -->
+<section class="seccion densa">
+  <div class="marco">
+    <h1>Novedades</h1>
+    <p class="entrada">Cada versión de la plataforma, con su fecha y lo que cambia para el personal de campo, los supervisores y los directivos. Siga las actualizaciones por <a href="feed.xml">RSS</a> o reciba un aviso por correo.</p>
+    <ol class="registro">{{novedades}}</ol>
+  </div>
+</section>
+<section class="seccion densa" aria-labelledby="t-aviso">
+  <div class="marco">
+    <div class="papel ambos lectura-larga" style="max-width:640px">
+      <h2 id="t-aviso" style="margin-top:0">Aviso de nuevas versiones</h2>
+      <p class="entrada">Le escribimos cuando publiquemos una versión. Un correo por versión, sin publicidad.</p>
+      <form data-envio="Suscripción a novedades" data-gracias="Suscripción registrada. Le avisaremos de la próxima versión." novalidate>
+        <input class="trampa" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="campo"><label for="s-correo">Correo</label><input id="s-correo" name="email" type="email" required autocomplete="email"></div>
+        <div class="campo"><label for="s-inst">Institución (opcional)</label><input id="s-inst" name="institucion" autocomplete="organization"></div>
+        <button class="boton primario" type="submit">Suscribirme</button>
+        <p class="resultado" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>

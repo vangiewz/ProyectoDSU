@@ -1,0 +1,149 @@
+{
+  "fecha": "2026-11-18T19:52:58-04:00",
+  "casos": [
+    {
+      "dispositivo": "iPhone 13",
+      "usuario": "operario1",
+      "ruta": "campo",
+      "login_s": 6.94,
+      "carga_s": 3.77,
+      "ancho_documento": 390,
+      "ancho_vista": 390,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "iPhone_13-campo-operario1.png"
+    },
+    {
+      "dispositivo": "iPhone 13",
+      "usuario": "supervisor",
+      "ruta": "jornadas",
+      "login_s": 4.83,
+      "carga_s": 4.21,
+      "ancho_documento": 390,
+      "ancho_vista": 390,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "iPhone_13-jornadas-supervisor.png"
+    },
+    {
+      "dispositivo": "iPhone 13",
+      "usuario": "supervisor",
+      "ruta": "predicciones",
+      "login_s": 4.83,
+      "carga_s": 5.82,
+      "ancho_documento": 390,
+      "ancho_vista": 390,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "iPhone_13-predicciones-supervisor.png"
+    },
+    {
+      "dispositivo": "iPhone 13",
+      "usuario": "supervisor",
+      "ruta": "mapa",
+      "login_s": 4.83,
+      "carga_s": 4.9,
+      "ancho_documento": 390,
+      "ancho_vista": 390,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "iPhone_13-mapa-supervisor.png"
+    },
+    {
+      "dispositivo": "iPhone 13",
+      "usuario": "directivo",
+      "ruta": "tablero",
+      "login_s": 4.77,
+      "carga_s": 6.27,
+      "ancho_documento": 390,
+      "ancho_vista": 390,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "iPhone_13-tablero-directivo.png"
+    },
+    {
+      "dispositivo": "iPhone 13",
+      "usuario": "supervisor",
+      "ruta": "reportes",
+      "login_s": 4.83,
+      "carga_s": 4.62,
+      "ancho_documento": 390,
+      "ancho_vista": 390,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "iPhone_13-reportes-supervisor.png"
+    },
+    {
+      "dispositivo": "Pixel 7",
+      "usuario": "operario1",
+      "ruta": "campo",
+      "login_s": 5.24,
+      "carga_s": 3.43,
+      "ancho_documento": 412,
+      "ancho_vista": 412,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "Pixel_7-campo-operario1.png"
+    },
+    {
+      "dispositivo": "Pixel 7",
+      "usuario": "supervisor",
+      "ruta": "jornadas",
+      "login_s": 6.44,
+      "carga_s": 5.17,
+      "ancho_documento": 412,
+      "ancho_vista": 412,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "Pixel_7-jornadas-supervisor.png"
+    },
+    {
+      "dispositivo": "Pixel 7",
+      "usuario": "supervisor",
+      "ruta": "predicciones",
+      "login_s": 6.44,
+      "carga_s": 5.73,
+      "ancho_documento": 412,
+      "ancho_vista": 412,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "Pixel_7-predicciones-supervisor.png"
+    },
+    {
+      "dispositivo": "Pixel 7",
+      "usuario": "supervisor",
+      "ruta": "mapa",
+      "login_s": 6.44,
+      "carga_s": 4.89,
+      "ancho_documento": 412,
+      "ancho_vista": 412,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "Pixel_7-mapa-supervisor.png"
+    },
+    {
+      "dispositivo": "Pixel 7",
+      "usuario": "directivo",
+      "ruta": "tablero",
+      "login_s": 4.92,
+      "carga_s": 7.31,
+      "ancho_documento": 412,
+      "ancho_vista": 412,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "Pixel_7-tablero-directivo.png"
+    },
+    {
+      "dispositivo": "Pixel 7",
+      "usuario": "supervisor",
+      "ruta": "reportes",
+      "login_s": 6.44,
+      "carga_s": 4.67,
+      "ancho_documento": 412,
+      "ancho_vista": 412,
+      "sin_desborde": true,
+      "resultado": "Aprobado",
+      "captura": "Pixel_7-reportes-supervisor.png"
+    }
+  ]
+}

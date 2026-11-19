@@ -1,0 +1,1258 @@
+[
+  {
+    "cu": 9,
+    "nombre": "Registrar vaciado de residuos",
+    "rf": "RF8",
+    "servicio": "operations/services/visita.py · registrar_visita",
+    "N": 11,
+    "E": 17,
+    "P": 7,
+    "V": 8,
+    "regiones": 8,
+    "predicados": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "matriz": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "nodos": [
+      [
+        1,
+        "Solicitud y personal asignado",
+        "1–4"
+      ],
+      [
+        2,
+        "¿Operario no asignado?",
+        "5"
+      ],
+      [
+        3,
+        "¿Jornada no está en ejecución?",
+        "6–7"
+      ],
+      [
+        4,
+        "¿Punto fuera de la ruta?",
+        "8–9"
+      ],
+      [
+        5,
+        "¿Sin generación con detalle?",
+        "10"
+      ],
+      [
+        6,
+        "¿Sin detalle de residuos?",
+        "11"
+      ],
+      [
+        7,
+        "¿Excede la capacidad en kg?",
+        "12–13"
+      ],
+      [
+        8,
+        "¿Excede la capacidad en litros?",
+        "14"
+      ],
+      [
+        9,
+        "Registrar, marcar parada y auditar",
+        "15–19"
+      ],
+      [
+        10,
+        "Rechazo y mensaje al operario",
+        "5, 7, 9, 10, 11, 13, 14"
+      ],
+      [
+        11,
+        "Fin",
+        "20"
+      ]
+    ],
+    "aristas": [
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        10,
+        "sí"
+      ],
+      [
+        2,
+        3,
+        "no"
+      ],
+      [
+        3,
+        10,
+        "sí"
+      ],
+      [
+        3,
+        4,
+        "no"
+      ],
+      [
+        4,
+        10,
+        "sí"
+      ],
+      [
+        4,
+        5,
+        "no"
+      ],
+      [
+        5,
+        10,
+        "sí"
+      ],
+      [
+        5,
+        6,
+        "no"
+      ],
+      [
+        6,
+        10,
+        "sí"
+      ],
+      [
+        6,
+        7,
+        "no"
+      ],
+      [
+        7,
+        10,
+        "sí"
+      ],
+      [
+        7,
+        8,
+        "no"
+      ],
+      [
+        8,
+        10,
+        "sí"
+      ],
+      [
+        8,
+        9,
+        "no"
+      ],
+      [
+        9,
+        11,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ]
+    ],
+    "suma_matriz": 8,
+    "caminos": [
+      {
+        "n": 1,
+        "camino": "1–2–10–11",
+        "entrada": "Operario fuera de la cuadrilla",
+        "salida": "403; sin registros",
+        "prueba": "test_caminos_registro[no_asignado]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 2,
+        "camino": "1–2–3–10–11",
+        "entrada": "Jornada PLANIFICADA",
+        "salida": "400; sin registros",
+        "prueba": "test_caminos_registro[estado]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 3,
+        "camino": "1–2–3–4–10–11",
+        "entrada": "Punto que no está en la ruta",
+        "salida": "400; sin registros",
+        "prueba": "test_caminos_registro[fuera_ruta]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 4,
+        "camino": "1–2–3–4–5–10–11",
+        "entrada": "Sin generación con un detalle",
+        "salida": "400; sin registros",
+        "prueba": "test_caminos_registro[sin_generacion_con_detalle]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 5,
+        "camino": "1–2–3–4–5–6–10–11",
+        "entrada": "Vaciado sin detalle",
+        "salida": "400; sin registros",
+        "prueba": "test_caminos_registro[sin_detalle]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 6,
+        "camino": "1–2–3–4–5–6–7–10–11",
+        "entrada": "151 kg en un punto de 100 kg",
+        "salida": "400; sin registros",
+        "prueba": "test_caminos_registro[excede_kg]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 7,
+        "camino": "1–2–3–4–5–6–7–8–10–11",
+        "entrada": "301 L en un punto de 200 L",
+        "salida": "400; sin registros",
+        "prueba": "test_caminos_registro[excede_litros]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 8,
+        "camino": "1–2–3–4–5–6–7–8–9–11",
+        "entrada": "35,5 kg de orgánico en P1",
+        "salida": "201; registro y parada atendida",
+        "prueba": "test_caminos_registro[valido]",
+        "resultado": "Aprobado"
+      }
+    ],
+    "rango_caminos": 8
+  },
+  {
+    "cu": 15,
+    "nombre": "Asignar personal y vehículos a la jornada",
+    "rf": "RF13",
+    "servicio": "operations/services/jornada.py · asignar",
+    "N": 11,
+    "E": 17,
+    "P": 7,
+    "V": 8,
+    "regiones": 8,
+    "predicados": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "matriz": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "nodos": [
+      [
+        1,
+        "Solicitud y estado de la jornada",
+        "1–4"
+      ],
+      [
+        2,
+        "¿Estado no admite asignación?",
+        "5"
+      ],
+      [
+        3,
+        "¿Responsable ausente?",
+        "6"
+      ],
+      [
+        4,
+        "¿Responsable fuera del personal?",
+        "7"
+      ],
+      [
+        5,
+        "¿Personal no operativo o inactivo?",
+        "8–9"
+      ],
+      [
+        6,
+        "¿Vehículo fuera de servicio?",
+        "10–11"
+      ],
+      [
+        7,
+        "¿Personal ocupado en el turno?",
+        "12–13"
+      ],
+      [
+        8,
+        "¿Vehículo ocupado en el turno?",
+        "14"
+      ],
+      [
+        9,
+        "Persistir asignación y auditar",
+        "15–18"
+      ],
+      [
+        10,
+        "Rechazo y mensaje al supervisor",
+        "5, 6, 7, 9, 11, 13, 14"
+      ],
+      [
+        11,
+        "Fin",
+        "19"
+      ]
+    ],
+    "aristas": [
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        10,
+        "sí"
+      ],
+      [
+        2,
+        3,
+        "no"
+      ],
+      [
+        3,
+        10,
+        "sí"
+      ],
+      [
+        3,
+        4,
+        "no"
+      ],
+      [
+        4,
+        10,
+        "sí"
+      ],
+      [
+        4,
+        5,
+        "no"
+      ],
+      [
+        5,
+        10,
+        "sí"
+      ],
+      [
+        5,
+        6,
+        "no"
+      ],
+      [
+        6,
+        10,
+        "sí"
+      ],
+      [
+        6,
+        7,
+        "no"
+      ],
+      [
+        7,
+        10,
+        "sí"
+      ],
+      [
+        7,
+        8,
+        "no"
+      ],
+      [
+        8,
+        10,
+        "sí"
+      ],
+      [
+        8,
+        9,
+        "no"
+      ],
+      [
+        9,
+        11,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ]
+    ],
+    "suma_matriz": 8,
+    "caminos": [
+      {
+        "n": 1,
+        "camino": "1–2–10–11",
+        "entrada": "Jornada CERRADA",
+        "salida": "400; asignación intacta",
+        "prueba": "test_caminos_asignacion[estado]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 2,
+        "camino": "1–2–3–10–11",
+        "entrada": "Sin responsable",
+        "salida": "400; asignación intacta",
+        "prueba": "test_caminos_asignacion[sin_responsable]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 3,
+        "camino": "1–2–3–4–10–11",
+        "entrada": "Responsable que no está en el personal",
+        "salida": "400; asignación intacta",
+        "prueba": "test_caminos_asignacion[fuera_personal]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 4,
+        "camino": "1–2–3–4–5–10–11",
+        "entrada": "Operario inactivo",
+        "salida": "400; asignación intacta",
+        "prueba": "test_caminos_asignacion[inactivo]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 5,
+        "camino": "1–2–3–4–5–6–10–11",
+        "entrada": "Vehículo fuera de servicio",
+        "salida": "400; asignación intacta",
+        "prueba": "test_caminos_asignacion[vehiculo_fuera]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 6,
+        "camino": "1–2–3–4–5–6–7–10–11",
+        "entrada": "Operario en otra jornada del turno",
+        "salida": "400; asignación intacta",
+        "prueba": "test_caminos_asignacion[personal_ocupado]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 7,
+        "camino": "1–2–3–4–5–6–7–8–10–11",
+        "entrada": "Vehículo en otra jornada del turno",
+        "salida": "400; asignación intacta",
+        "prueba": "test_caminos_asignacion[vehiculo_ocupado]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 8,
+        "camino": "1–2–3–4–5–6–7–8–9–11",
+        "entrada": "Cuadrilla, vehículo y responsable válidos",
+        "salida": "200; asignación persistida y auditada",
+        "prueba": "test_caminos_asignacion[valido]",
+        "resultado": "Aprobado"
+      }
+    ],
+    "rango_caminos": 8
+  },
+  {
+    "cu": 28,
+    "nombre": "Predecir generación futura y emitir alertas",
+    "rf": "RF23, RF24",
+    "servicio": "prediction/services/prediccion.py · generar",
+    "N": 14,
+    "E": 21,
+    "P": 8,
+    "V": 9,
+    "regiones": 9,
+    "predicados": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "matriz": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "nodos": [
+      [
+        1,
+        "Solicitud y horizonte máximo",
+        "1–4"
+      ],
+      [
+        2,
+        "¿Horizonte fuera de rango?",
+        "5"
+      ],
+      [
+        3,
+        "¿Sin modelo publicado?",
+        "6–7"
+      ],
+      [
+        4,
+        "¿Alcance sin permiso?",
+        "8"
+      ],
+      [
+        5,
+        "¿Se indicó sector?",
+        "guarda opt"
+      ],
+      [
+        6,
+        "Filtrar por sector",
+        "9"
+      ],
+      [
+        7,
+        "¿Se indicó punto?",
+        "guarda opt"
+      ],
+      [
+        8,
+        "Filtrar por punto",
+        "10"
+      ],
+      [
+        9,
+        "¿Sin puntos activos?",
+        "11"
+      ],
+      [
+        10,
+        "¿Sin historial reciente?",
+        "12–13"
+      ],
+      [
+        11,
+        "¿Sin días de recolección?",
+        "14–15"
+      ],
+      [
+        12,
+        "Inferir, guardar lote y evaluar alertas",
+        "16–20"
+      ],
+      [
+        13,
+        "Rechazo y mensaje al supervisor",
+        "5, 7, 8, 11, 13, 15"
+      ],
+      [
+        14,
+        "Fin",
+        "21"
+      ]
+    ],
+    "aristas": [
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        13,
+        "sí"
+      ],
+      [
+        2,
+        3,
+        "no"
+      ],
+      [
+        3,
+        13,
+        "sí"
+      ],
+      [
+        3,
+        4,
+        "no"
+      ],
+      [
+        4,
+        13,
+        "sí"
+      ],
+      [
+        4,
+        5,
+        "no"
+      ],
+      [
+        5,
+        6,
+        "sí"
+      ],
+      [
+        5,
+        7,
+        "no"
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        "sí"
+      ],
+      [
+        7,
+        9,
+        "no"
+      ],
+      [
+        8,
+        9,
+        ""
+      ],
+      [
+        9,
+        13,
+        "sí"
+      ],
+      [
+        9,
+        10,
+        "no"
+      ],
+      [
+        10,
+        13,
+        "sí"
+      ],
+      [
+        10,
+        11,
+        "no"
+      ],
+      [
+        11,
+        13,
+        "sí"
+      ],
+      [
+        11,
+        12,
+        "no"
+      ],
+      [
+        12,
+        14,
+        ""
+      ],
+      [
+        13,
+        14,
+        ""
+      ]
+    ],
+    "suma_matriz": 9,
+    "caminos": [
+      {
+        "n": 1,
+        "camino": "1–2–13–14",
+        "entrada": "Horizonte 0 y 999 días",
+        "salida": "400; sin lote",
+        "prueba": "test_rechazos_prediccion[horizonte_cero]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 2,
+        "camino": "1–2–3–13–14",
+        "entrada": "Sin modelo entrenado",
+        "salida": "400; sin lote",
+        "prueba": "test_entrena_publica_predice_y_revierte",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 3,
+        "camino": "1–2–3–4–13–14",
+        "entrada": "Supervisor de otro sector",
+        "salida": "403; sin lote",
+        "prueba": "test_rechazos_prediccion[sector_ajeno]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 4,
+        "camino": "1–2–3–4–5–7–9–13–14",
+        "entrada": "Todos los puntos inactivos",
+        "salida": "400; sin lote",
+        "prueba": "test_rechazos_prediccion[sin_puntos]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 5,
+        "camino": "1–2–3–4–5–7–9–10–13–14",
+        "entrada": "Puntos sin historial",
+        "salida": "400; sin lote",
+        "prueba": "test_rechazos_prediccion[sin_historia]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 6,
+        "camino": "1–2–3–4–5–7–9–10–11–13–14",
+        "entrada": "Sin días habituales en el horizonte",
+        "salida": "400; sin lote",
+        "prueba": "test_rechazos_prediccion[sin_dias]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 7,
+        "camino": "1–2–3–4–5–7–9–10–11–12–14",
+        "entrada": "Horizonte 7 sin filtros",
+        "salida": "201; lote con margen",
+        "prueba": "test_alerta_de_desborde_se_resuelve_y_entra_en_la_jornada",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 8,
+        "camino": "1–2–3–4–5–6–7–9–10–11–12–14",
+        "entrada": "Horizonte 7 con sector",
+        "salida": "201; lote del sector",
+        "prueba": "test_prediccion_con_filtros[sector]",
+        "resultado": "Aprobado"
+      },
+      {
+        "n": 9,
+        "camino": "1–2–3–4–5–7–8–9–10–11–12–14",
+        "entrada": "Horizonte 7 con punto",
+        "salida": "201; lote del punto",
+        "prueba": "test_prediccion_con_filtros[punto]",
+        "resultado": "Aprobado"
+      }
+    ],
+    "rango_caminos": 9
+  }
+]

@@ -1,4 +1,4 @@
-# Producción AWS EC2. Sin puertos públicos de Gunicorn ni PostgreSQL.
+# Producción en Azure VM (Mexico Central). Sin puertos públicos de Gunicorn ni PostgreSQL.
 # Ejecutar desde backend/deploy con --env-file ../.env; nunca imprimir config expandido.
 services:
   app:

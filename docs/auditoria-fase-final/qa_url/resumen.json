@@ -1,0 +1,70 @@
+{
+  "fecha": "2026-11-18T19:44:17-04:00",
+  "resultados": {
+    "sitio": {
+      "url": "https://residata-bolivia.vercel.app/",
+      "observatory": {
+        "grado": "A+",
+        "puntaje": 125,
+        "pruebas_fallidas": 0,
+        "pruebas_superadas": 12
+      },
+      "ssllabs": [
+        {
+          "ip": "216.198.79.3",
+          "grado": "A+",
+          "advertencias": false
+        },
+        {
+          "ip": "64.29.17.3",
+          "grado": "A",
+          "advertencias": false
+        }
+      ],
+      "w3c": {
+        "errores": 0,
+        "advertencias": 0,
+        "detalle": []
+      },
+      "lighthouse_movil": {
+        "performance": 99,
+        "accessibility": 96,
+        "best-practices": 100,
+        "seo": 100
+      }
+    },
+    "app": {
+      "url": "https://dsu-uagrm.vercel.app/",
+      "observatory": {
+        "grado": "A+",
+        "puntaje": 135,
+        "pruebas_fallidas": 0,
+        "pruebas_superadas": 12
+      },
+      "w3c": {
+        "errores": 0,
+        "advertencias": 0,
+        "detalle": []
+      },
+      "lighthouse_movil": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 82
+      }
+    },
+    "api": {
+      "url": "https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com/api/",
+      "observatory": {
+        "error": "HTTP Error 422: unknown"
+      },
+      "ssllabs": [
+        {
+          "ip": "68.155.156.170",
+          "grado": "A+",
+          "advertencias": false
+        }
+      ]
+    }
+  }
+}

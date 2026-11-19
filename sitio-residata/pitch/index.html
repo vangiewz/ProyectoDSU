@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es-BO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Residata — pitch para inversionistas</title>
+<meta name="description" content="Presentación para inversionistas de Residata S.R.L.: problema, solución, tracción, mercado, modelo de negocio, proyección y ronda de Bs 170 000.">
+<link rel="icon" href="../img/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/site.css">
+<style>
+  body{background:var(--mostrador)}
+  .lamina{width:min(1280px,100vw);aspect-ratio:16/9;margin:0 auto 28px;position:relative;overflow:hidden;background:var(--mostrador);color:var(--sobre-mostrador);
+    padding:clamp(24px,4.4vw,56px) clamp(24px,5vw,72px);display:grid;grid-template-rows:auto 1fr auto;border-bottom:1px solid var(--mostrador-3)}
+  .lamina.clara{background:var(--papel);color:var(--tinta)}
+  .lamina.clara .entrada{color:var(--tinta-2)}
+  .lamina header{display:flex;justify-content:space-between;align-items:baseline;font:500 .78rem/1 var(--dato);text-transform:uppercase;letter-spacing:.1em;color:var(--sobre-mostrador-2)}
+  .lamina.clara header{color:var(--tinta-2)}
+  .lamina h2{font-size:clamp(2rem,4.2vw,3.4rem);margin:0 0 18px}
+  .lamina .cuerpo{align-self:center}
+  .lamina footer{font:400 .72rem/1.4 var(--dato);color:var(--sobre-mostrador-2)}
+  .lamina.clara footer{color:var(--tinta-2)}
+  .dos{display:grid;grid-template-columns:1.1fr 1fr;gap:44px;align-items:center}
+  .grande{font:900 clamp(3rem,7vw,5.6rem)/.9 var(--cifra)}
+  .lista{list-style:none;padding:0;margin:0;font-size:1.15rem}
+  .lista li{padding:10px 0;border-bottom:1px dotted var(--pauta)}
+  .lamina:not(.clara) .lista li{border-color:var(--mostrador-3)}
+  .lista b{font-family:var(--dato);font-weight:600}
+  .cifras{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:2px solid currentColor}
+  .cifras div{padding:18px 18px 0 0}
+  .cifras span{display:block;font:500 .78rem/1.3 var(--dato);text-transform:uppercase;letter-spacing:.06em;opacity:.75;margin-top:8px}
+  .cifras b{font:900 clamp(2rem,4vw,3.2rem)/1 var(--cifra)}
+  .lamina img{border-radius:3px}
+  .portada-pitch h1{font-size:clamp(3rem,7.4vw,6rem);margin:12px 0 18px}
+  table.t{width:100%;border-collapse:collapse;font-size:1rem}
+  table.t th,table.t td{text-align:left;padding:9px 8px;border-bottom:1px dotted var(--pauta)}
+  table.t td.n,table.t th.n{text-align:right;font-family:var(--dato);font-stretch:87.5%}
+  table.t thead th{font:700 .74rem/1.2 var(--dato);text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid var(--tinta)}
+  @media print{@page{size:1280px 720px;margin:0}.lamina{width:1280px;height:720px;margin:0;page-break-after:always;border:0}body{background:#17191c}}
+  @media (max-width:760px){.dos{grid-template-columns:1fr}.lamina{aspect-ratio:auto;min-height:100vh}}
+</style>
+</head>
+<body>
+<main>
+<section class="lamina portada-pitch" aria-label="Portada">
+  <header><span>Residata S.R.L. · Santa Cruz, Bolivia</span><span>Pitch para inversionistas · noviembre 2026</span></header>
+  <div class="cuerpo">
+    <h1>Cada vaciado, pesado. Cada semana, anticipada.</h1>
+    <p class="entrada" style="font-size:1.35rem">Software boliviano para gestionar la recolección de residuos sólidos y predecir su generación con Random Forest, sin sensores importados.</p>
+    <span class="estampa" style="color:#5fc29d;border-color:#5fc29d;margin-top:8px">En producción desde el 18/11/2026</span>
+  </div>
+  <footer>residata-bolivia.vercel.app · rekteado@gmail.com</footer>
+</section>
+
+<section class="lamina clara" aria-label="Problema">
+  <header><span>01 · El problema</span><span>Residata</span></header>
+  <div class="cuerpo dos">
+    <div><h2>La recolección se planifica a ojo</h2>
+      <ul class="lista"><li>Pesajes en libretas y planillas sueltas: nadie sabe cuántos kilos genera cada punto.</li><li>Rutas por costumbre: viajes a contenedores a medio llenar y desbordes en horas pico.</li><li>Sin pronóstico, el presupuesto de recolección no se puede justificar con datos.</li></ul></div>
+    <div><span class="grande">300 / 343</span><p style="margin-top:14px;font-size:1.1rem">municipios de Bolivia siguen depositando sus residuos en botaderos; solo 43 tienen relleno sanitario.</p></div>
+  </div>
+  <footer>Fuente: Diagnóstico Nacional de la Gestión Integral de Residuos Sólidos (MMAyA, 2025) e Inventario Nacional de Botaderos, citados por Correo del Sur (2026).</footer>
+</section>
+
+<section class="lamina" aria-label="Solución">
+  <header><span>02 · La solución</span><span>Residata</span></header>
+  <div class="cuerpo dos">
+    <div><h2>Kilos registrados, rutas planificadas, semanas anticipadas</h2>
+      <ul class="lista"><li>El operario registra el peso desde el teléfono, en el punto.</li><li>El supervisor planifica jornadas, cuadrillas y vehículos.</li><li>Un Random Forest pronostica kilos por punto con su margen de error y emite alertas de desborde.</li></ul></div>
+    <img src="../img/prediccion-recorte.webp" alt="Pantalla de predicción de Residata" width="1192" height="900">
+  </div>
+  <footer>Captura del sistema en producción con el histórico sintético del entorno de demostración.</footer>
+</section>
+
+<section class="lamina clara" aria-label="Diferenciación">
+  <header><span>03 · Por qué Residata</span><span>Residata</span></header>
+  <div class="cuerpo">
+    <h2>Lo que la competencia internacional no puede ofrecer aquí</h2>
+    <table class="t"><thead><tr><th>Criterio</th><th>Sensoneo · Ecube Labs · Bigbelly</th><th>Residata</th></tr></thead>
+      <tbody><tr><td>Hardware</td><td>Sensores o estaciones propias, importadas</td><td>Ninguno: teléfono y balanza existentes</td></tr>
+      <tr><td>Dato base</td><td>Volumen estimado por llenado</td><td>Peso real en kilogramos</td></tr>
+      <tr><td>Pronóstico</td><td>Umbrales de llenado</td><td>Random Forest con calendario académico o municipal</td></tr>
+      <tr><td>Precio y soporte</td><td>En dólares o euros, soporte remoto</td><td>En bolivianos, soporte local y factura nacional</td></tr></tbody></table>
+  </div>
+  <footer>Comparación funcional del estudio de mercado (capítulo 8 del documento del proyecto).</footer>
+</section>
+
+<section class="lamina" aria-label="Tracción">
+  <header><span>04 · Tracción</span><span>Residata</span></header>
+  <div class="cuerpo">
+    <h2>Un piloto real, en producción</h2>
+    <div class="cifras">
+      <div><b>DSU</b><span>Universidad Autónoma Gabriel René Moreno, cliente piloto</span></div>
+      <div><b>50/50</b><span>pruebas automáticas aprobadas</span></div>
+      <div><b>A+</b><span>Mozilla Observatory y Qualys SSL Labs</span></div>
+    </div>
+    <ul class="lista" style="margin-top:26px"><li>27 requisitos funcionales y 34 casos de uso implementados, 4 roles.</li><li>API en Microsoft Azure con TLS, respaldo diario y monitoreo de disponibilidad.</li><li>Lighthouse móvil: 100 en accesibilidad y buenas prácticas.</li></ul>
+  </div>
+  <footer>Evidencias: docs/auditoria-fase-final (JUnit, qa_url, movil) del repositorio del proyecto, 18/11/2026.</footer>
+</section>
+
+<section class="lamina clara" aria-label="Mercado">
+  <header><span>05 · Mercado</span><span>Residata</span></header>
+  <div class="cuerpo">
+    <h2>391 instituciones en Bolivia</h2>
+    <div class="cifras">
+      <div><b>Bs 32,5 M</b><span>TAM anual: 343 municipios en plan Red y 48 universidades en plan Campus</span></div>
+      <div><b>Bs 5,5 M</b><span>SAM anual: 43 municipios con relleno sanitario y 48 universidades</span></div>
+      <div><b>Bs 1,2 M</b><span>SOM al año 5: 17 clientes Campus y 8 clientes Red</span></div>
+    </div>
+  </div>
+  <footer>Fuentes: MMAyA (2025), CEUB y decretos de jerarquización de universidades privadas. Cálculo en DocumentoSoftware2/finanzas.py.</footer>
+</section>
+
+<section class="lamina" aria-label="Modelo de negocio">
+  <header><span>06 · Modelo de negocio</span><span>Residata</span></header>
+  <div class="cuerpo dos">
+    <div><h2>Suscripción mensual con entrada gratuita</h2><p class="entrada" style="font-size:1.15rem">El plan Inicial sin costo deja medir una sede; la predicción y el mapa se pagan. El pago anual equivale a diez meses.</p></div>
+    <table class="t" style="color:var(--sobre-mostrador)"><thead><tr><th style="color:var(--sobre-mostrador);border-color:var(--sobre-mostrador)">Plan</th><th class="n" style="color:var(--sobre-mostrador);border-color:var(--sobre-mostrador)">Bs/mes</th><th class="n" style="color:var(--sobre-mostrador);border-color:var(--sobre-mostrador)">Implementación</th></tr></thead>
+      <tbody><tr><td>Inicial</td><td class="n">0</td><td class="n">autoservicio</td></tr><tr><td>Campus</td><td class="n">2 900</td><td class="n">9 000</td></tr><tr><td>Red</td><td class="n">7 500</td><td class="n">18 000</td></tr></tbody></table>
+  </div>
+  <footer>Precios con impuestos de ley incluidos. Costo de plataforma por cliente adicional: unos Bs 70 al mes de base de datos.</footer>
+</section>
+
+<section class="lamina clara" aria-label="Proyección">
+  <header><span>07 · Proyección a cinco años</span><span>Residata</span></header>
+  <div class="cuerpo dos">
+    <img src="../img/finanzas.webp" alt="Ingresos netos frente a egresos por año, del año 1 al 5" width="1584" height="792">
+    <div class="cifras" style="grid-template-columns:1fr 1fr">
+      <div><b>Año 3</b><span>primer flujo positivo</span></div><div><b>13,2</b><span>clientes Campus para el equilibrio</span></div>
+      <div><b>Bs 212 mil</b><span>VAN al 15 %</span></div><div><b>64,2 %</b><span>TIR</span></div>
+    </div>
+  </div>
+  <footer>Supuestos: IVA 13 %, IT 3 %, IUE 25 %, cargas sociales 16,71 % y aguinaldo; tipo de cambio Bs 11,67 por USD.</footer>
+</section>
+
+<section class="lamina" aria-label="Equipo">
+  <header><span>08 · Equipo</span><span>Residata</span></header>
+  <div class="cuerpo dos">
+    <div><h2>Quienes lo construyeron</h2><p class="entrada" style="font-size:1.15rem">Estudiantes de Ingeniería en Sistemas de la FICCT-UAGRM que diseñaron, programaron, probaron y desplegaron el sistema completo.</p></div>
+    <ul class="lista"><li><b>Carlos Gabriel Lobo Gutiérrez</b><br>Dirección del proyecto, desarrollo y configuración</li><li><b>Leonardo Serrate Basma</b><br>Desarrollo, aseguramiento de la calidad y pruebas</li></ul>
+  </div>
+  <footer>Plan de contratación: agente de soporte en el año 2 y un desarrollador adicional en el año 4.</footer>
+</section>
+
+<section class="lamina clara" aria-label="La ronda">
+  <header><span>09 · La ronda</span><span>Residata</span></header>
+  <div class="cuerpo dos">
+    <div><h2>Buscamos Bs 170 000</h2><p class="entrada" style="font-size:1.15rem">Cubre el déficit de los dos primeros años más 20 % de contingencia, hasta que el flujo se vuelve positivo en el año 3.</p>
+      <ul class="lista"><li>Capital semilla no reembolsable: concurso Incuba Unión Tecnológico (Bs 48 000).</li><li>Fideicomiso de Capital Semilla del BDP para el resto, a cinco años.</li></ul></div>
+    <table class="t"><thead><tr><th>Uso de los fondos</th><th class="n">Bs</th></tr></thead>
+      <tbody><tr><td>Equipo (sueldos y cargas)</td><td class="n">111 407</td></tr><tr><td>Marketing y ventas</td><td class="n">11 638</td></tr><tr><td>Infraestructura en la nube</td><td class="n">7 271</td></tr><tr><td>Constitución, contabilidad e impuestos</td><td class="n">8 939</td></tr><tr><td>Contingencia (20 %)</td><td class="n">30 745</td></tr></tbody></table>
+  </div>
+  <footer>Hitos con estos fondos: 3 clientes de pago en el año 1, 7 en el año 2 y equilibrio operativo con 13 clientes Campus equivalentes.</footer>
+</section>
+
+<section class="lamina" aria-label="Contacto">
+  <header><span>10 · Hablemos</span><span>Residata</span></header>
+  <div class="cuerpo">
+    <h2 style="font-size:clamp(2.6rem,6vw,4.6rem)">Mida la primera semana con nosotros.</h2>
+    <ul class="lista" style="max-width:640px"><li>Sitio: <b>residata-bolivia.vercel.app</b></li><li>Sistema en producción: <b>dsu-uagrm.vercel.app</b></li><li>Correo: <b>rekteado@gmail.com</b></li></ul>
+  </div>
+  <footer>Residata S.R.L. (en constitución) · Santa Cruz de la Sierra, Bolivia</footer>
+</section>
+</main>
+</body>
+</html>

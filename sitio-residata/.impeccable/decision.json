@@ -1,0 +1,57 @@
+{
+  "title": "Mundo visual del sitio de Residata S.R.L.",
+  "question": "La tirada asignó «Ticket de báscula». Quedate con él, elegí una alternativa o pedí otra tirada.",
+  "options": [
+    {
+      "id": "assigned", "kind": "assigned", "label": "Ticket de báscula", "kicker": "LA TIRADA",
+      "lineage": "Tickets térmicos de pesaje de las balanzas de camión y de plataforma",
+      "thesis": "Cada kilo pesado es un comprobante: el sitio entero se imprime como el ticket que sale de la báscula, con cifras en kg que pesan más que cualquier foto.",
+      "palette": ["#fbfbf8", "#17191c", "#6b7078", "#0b6b4f", "#d4351c"],
+      "materials": ["papel térmico blanco", "tinta de matriz de puntos", "perforación de corte", "sello de verificación verde"],
+      "viewport": "Un ticket largo centrado sobre fondo grafito: encabezado RESIDATA S.R.L. · NIT, la cifra «1 248,6 kg» enorme como total pesado del día (dato de demostración rotulado), debajo las líneas del ticket con punto, hora y operario; a la derecha, fuera del papel, el botón «Solicitar demostración» y el formulario corto.",
+      "risk": "Si el ticket se queda en adorno y el producto no aparece pronto, parece una tienda y no una plataforma.",
+      "raised": [
+        {"from": "challenger-manifiesto", "raise": "Las cifras en kg se componen a escala de cartel y cargan la jerarquía: ninguna foto de stock."},
+        {"from": "challenger-sukeban", "raise": "Las capturas reales del sistema llevan llamadas con líneas guía que unen cada función con su regla de negocio."},
+        {"from": "challenger-ciudad", "raise": "La predicción se muestra como un calendario académico que se recorre: clases, exámenes y receso cambian el pronóstico."},
+        {"from": "challenger-zine", "raise": "El funcionamiento del Random Forest se explica en pasos numerados, como un instructivo impreso al dorso del ticket."},
+        {"from": "challenger-terminal", "raise": "Los estados del sistema (pesaje registrado, jornada cerrada, alerta) se imprimen como líneas del ticket, no como insignias."}
+      ]
+    },
+    {
+      "id": "model-pick", "kind": "pick", "label": "Código de colores de segregación", "kicker": "ELECCIÓN DE IMPECCABLE",
+      "lineage": "Señalética de contenedores por tipo de residuo en campus y municipios",
+      "thesis": "La página se organiza por el mismo código de colores que el personal ya conoce de los contenedores: cada color es un tipo de residuo y un módulo del producto.",
+      "palette": ["#ffffff", "#1d1d1b", "#1f8a3b", "#f2b705", "#1f5fae", "#8a8d91"],
+      "materials": ["chapa esmaltada", "pictogramas de segregación", "rótulos troquelados"],
+      "viewport": "Cuatro franjas de color a toda altura como contenedores alineados; la primera abre con el titular y el botón de demostración, las otras muestran registro, mapa y predicción.",
+      "risk": "Es la lectura más previsible para «residuos» y puede parecer campaña municipal de reciclaje en vez de empresa de software."
+    },
+    {
+      "id": "challenger-cinta", "kind": "challenger", "catalogId": "exhibition-museum-curation-provenance-ribbon",
+      "label": "Cinta de trazabilidad", "verdict": "competitive",
+      "lineage": "Cintas de procedencia de las curadurías de museo",
+      "thesis": "Una sola cinta sigue la vida de una bolsa de residuos: punto, vaciado, jornada, ETL, predicción y reporte.",
+      "palette": ["#efe9dc", "#b3261e", "#8f8a80", "#1d1b18"],
+      "materials": ["cinta continua", "sellos fechados", "hilo gris en los vacíos"],
+      "viewport": "La cinta roja baja desde el titular y cada pliegue abre una etapa del producto con su captura.",
+      "case": "Funde bien con la trazabilidad y la bitácora del producto; pierde ante el ticket en identificación del comprador, que piensa en kilos y no en procedencia.",
+      "risk": "El fondo beige tira hacia el cliché de papel envejecido si no se compensa."
+    },
+    {"id": "challenger-manifiesto", "kind": "challenger", "catalogId": "design-canon-blast-manifesto-page", "label": "Manifiesto en tipos de madera", "verdict": "declined", "lineage": "Revista manifiesto de 1914", "palette": ["#c9a3a9", "#111111"], "materials": ["tipos de madera", "filetes gruesos"], "case": "Funde mal: un director de servicios no se identifica con un grito tipográfico.", "kept": "Que la tipografía cargue el peso sin imágenes."},
+    {"id": "challenger-sukeban", "kind": "challenger", "catalogId": "pop-culture-shelf-sukeban-long-skirt-code", "label": "Código de uniforme anotado", "verdict": "declined", "lineage": "Documento de código de vestimenta", "palette": ["#1b2340", "#ffffff"], "materials": ["sarga", "líneas guía"], "case": "Funde mal: el referente es ajeno al comprador boliviano.", "kept": "Llamadas con línea guía de cada función a su regla."},
+    {"id": "challenger-ciudad", "kind": "challenger", "catalogId": "light-shadow-caustics-rain-night-cityscape", "label": "Ciudad nocturna bajo lluvia", "verdict": "declined", "lineage": "Nocturno urbano", "palette": ["#14254f", "#f0a43a"], "materials": ["neón", "reflejos"], "case": "Funde mal: espectáculo sin relación con la recolección diurna.", "kept": "Estados indexados en el tiempo que el visitante recorre."},
+    {"id": "challenger-zine", "kind": "challenger", "catalogId": "hand-drawn-zine-explainer", "label": "Fanzine dibujado a mano", "verdict": "declined", "lineage": "Fanzine técnico", "palette": ["#f6efe0", "#111111", "#f5d90a"], "materials": ["marcador", "resaltador"], "case": "Funde mal: resta seriedad ante compradores institucionales.", "kept": "Explicar el mecanismo difícil paso a paso."},
+    {"id": "challenger-terminal", "kind": "challenger", "catalogId": "signals-instruments-phosphor-terminal-midnight", "label": "Terminal de fósforo", "verdict": "declined", "lineage": "Terminal de sala de máquinas", "palette": ["#0a0f0a", "#39ff6a"], "materials": ["fósforo", "líneas de barrido"], "case": "Funde mal: habla a programadores, no a quien compra.", "kept": "Que los estados se impriman como líneas."}
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "canon": true,
+  "canonCard": {
+    "kind": "canon", "label": "El estándar de la categoría",
+    "thesis": "Una landing SaaS limpia: titular, captura del producto, beneficios en tarjetas, planes y contacto, ejecutada con cuidado.",
+    "palette": ["#ffffff", "#111827", "#0f766e"],
+    "materials": ["grilla limpia", "capturas del producto"],
+    "viewport": "Titular y botón a la izquierda, captura del tablero a la derecha.",
+    "risk": "Indistinguible de cualquier SaaS."
+  }
+}

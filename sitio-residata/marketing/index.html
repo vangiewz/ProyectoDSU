@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es-BO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Residata — material de campaña</title>
+<meta name="description" content="Piezas digitales de la campaña de lanzamiento de Residata para redes sociales y anuncios.">
+<link rel="icon" href="../img/icono.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/site.css">
+<style>
+  body{padding:32px 16px;display:grid;gap:32px;justify-items:center}
+  .pieza{position:relative;overflow:hidden;background:var(--mostrador);color:var(--sobre-mostrador)}
+  .cuadrada{width:1080px;height:1080px;padding:80px;display:grid;grid-template-rows:auto 1fr auto}
+  .banner{width:1200px;height:628px;padding:56px 64px;display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+  .pieza h2{font-size:5.4rem;line-height:.95;margin:0}
+  .pieza p{font-size:1.9rem;line-height:1.35;color:var(--sobre-mostrador-2);max-width:none}
+  .marca-p{display:flex;justify-content:space-between;align-items:baseline;font:500 1.2rem/1 var(--dato);text-transform:uppercase;letter-spacing:.12em;color:var(--sobre-mostrador-2)}
+  .marca-p b{font:800 2.6rem/1 var(--titular);color:var(--sobre-mostrador);letter-spacing:.03em}
+  .tira{padding:40px 44px 56px;font-size:1.25rem}
+  .tira .cifra{font-size:9rem;display:block;text-align:center;margin:18px 0 6px}
+  .tira .linea{font-size:1.25rem}
+  .cta{display:inline-block;background:var(--alerta);color:#fff;font:700 1.5rem/1 var(--dato);text-transform:uppercase;letter-spacing:.06em;padding:22px 28px;border-radius:3px}
+  .lista-p{list-style:none;padding:0;margin:0;font-size:2rem}
+  .lista-p li{padding:18px 0;border-bottom:1px solid var(--mostrador-3);display:flex;justify-content:space-between;gap:20px}
+  .lista-p li b{font-family:var(--dato);font-weight:600}
+</style>
+</head>
+<body>
+<section class="pieza cuadrada" id="post-kilos" aria-label="Publicación: cada vaciado pesado">
+  <div class="marca-p"><b>RESIDATA</b><span>Software boliviano</span></div>
+  <div style="align-self:center">
+    <div class="tira papel ambos">
+      <div class="dato" style="text-align:center;font-size:1.2rem">TOTAL PESADO · SEMANA DE CLASES</div>
+      <span class="cifra">3&#8239;034 kg</span>
+      <div class="dato"><div class="linea"><span>Pronóstico próxima semana</span><b>≈ 2&#8239;896 ± 62,7 kg</b></div><div class="linea"><span>Alertas de desborde</span><b>2</b></div></div>
+    </div>
+  </div>
+  <p style="margin:0">Cada vaciado, pesado. Cada semana, anticipada. <span style="color:var(--sobre-mostrador)">residata-bolivia.vercel.app</span></p>
+</section>
+
+<section class="pieza cuadrada" id="post-sensores" aria-label="Publicación: sin sensores">
+  <div class="marca-p"><b>RESIDATA</b><span>Para universidades y municipios</span></div>
+  <div style="align-self:center">
+    <h2>Sin sensores.<br>Sin contenedores importados.</h2>
+    <ul class="lista-p" style="margin-top:44px"><li><span>Registro desde el teléfono</span><b>en kg</b></li><li><span>Pronóstico con Random Forest</span><b>± margen</b></li><li><span>Plan Inicial</span><b>Bs 0</b></li></ul>
+  </div>
+  <div><span class="cta">Solicite una demostración</span></div>
+</section>
+
+<section class="pieza banner" id="banner" aria-label="Banner de anuncio">
+  <div>
+    <div class="marca-p" style="margin-bottom:36px"><b>RESIDATA</b></div>
+    <h2 style="font-size:4.2rem">El campus no genera lo mismo en clases que en receso.</h2>
+    <p style="font-size:1.5rem;margin:22px 0 28px">Residata lo aprende y anticipa los kilos de cada punto.</p>
+    <span class="cta" style="font-size:1.2rem">residata-bolivia.vercel.app</span>
+  </div>
+  <img src="../img/prediccion-recorte.webp" alt="" width="1192" height="900" style="border-radius:3px">
+</section>
+</body>
+</html>

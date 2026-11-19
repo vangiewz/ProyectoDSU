@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es-BO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Novedades — Residata</title>
+<meta name="description" content="Versiones publicadas de la plataforma Residata y sus cambios, con suscripción por RSS y correo.">
+<meta name="theme-color" content="#17191c">
+<link rel="canonical" href="https://residata-bolivia.vercel.app/novedades.html">
+<meta property="og:title" content="Novedades — Residata"><meta property="og:description" content="Versiones publicadas de la plataforma Residata y sus cambios, con suscripción por RSS y correo."><meta property="og:type" content="website"><meta property="og:url" content="https://residata-bolivia.vercel.app/novedades.html"><meta property="og:image" content="https://residata-bolivia.vercel.app/img/og.png">
+<link rel="icon" href="img/icono.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Novedades de Residata" href="https://residata-bolivia.vercel.app/feed.xml">
+<link rel="preload" href="fonts/Doto.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/BarlowCondensed-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<script src="js/site.js" defer></script>
+</head>
+<body>
+<a class="salta" href="#contenido">Saltar al contenido</a>
+<header class="cabecera"><div class="fila">
+  <a class="marca" href="index.html" aria-label="Residata, inicio"><b>RESIDATA</b><span>S.R.L. · Santa Cruz</span></a>
+  <button class="asistente-cab" type="button" data-abrir-asistente aria-controls="asistente">Asistente</button>
+  <button class="abrir-menu" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+  <nav aria-label="Principal"><ul class="menu" id="menu"><li><a href="index.html">Producto</a></li><li><a href="planes.html">Planes</a></li><li><a href="novedades.html" aria-current=page>Novedades</a></li><li><a href="soporte.html">Soporte</a></li><li><a href="contacto.html">Contacto</a></li><li><a class="acceso" href="https://dsu-uagrm.vercel.app/">Acceso clientes</a></li></ul></nav>
+</div></header>
+<main id="contenido">
+<section class="seccion densa">
+  <div class="marco">
+    <h1>Novedades</h1>
+    <p class="entrada">Cada versión de la plataforma, con su fecha y lo que cambia para el personal de campo, los supervisores y los directivos. Siga las actualizaciones por <a href="feed.xml">RSS</a> o reciba un aviso por correo.</p>
+    <ol class="registro"><li id="v1.0.0"><div><time datetime="2026-11-18">18 de noviembre de 2026</time><span class="version">1.0.0</span><span class="estampa">Publicada</span></div><div><h3>Puesta en producción</h3><ul><li>La API funciona en una máquina virtual de Microsoft Azure (Mexico Central) con Docker y certificado TLS renovado automáticamente.</li><li>La aplicación web se publica en Vercel con cabeceras de seguridad y política de contenido.</li><li>Respaldo automático diario de la base de datos con retención de 14 días.</li><li>El proceso ETL se ejecuta cada hora sin intervención.</li></ul></div></li><li id="v0.9.0"><div><time datetime="2026-11-16">16 de noviembre de 2026</time><span class="version">0.9.0</span><span class="estampa">Publicada</span></div><div><h3>Tablero en Power BI y auditoría final</h3><ul><li>Página de tablero en Power BI con segmentadores de fecha y sector, barras por sector, tipo y punto, y evolución mensual.</li><li>Las 16 medidas del modelo semántico se verificaron contra consultas SQL de solo lectura.</li><li>42 pruebas automáticas sin fallos en Windows y en Linux con Docker.</li><li>Revisión de seguridad con OWASP ZAP y corrección de cabeceras.</li></ul></div></li><li id="v0.8.0"><div><time datetime="2026-10-30">30 de octubre de 2026</time><span class="version">0.8.0</span><span class="estampa">Publicada</span></div><div><h3>Cuatro roles</h3><ul><li>El rol administrativo se integra al Administrador; quedan Operativo, Supervisor, Directivo y Administrador.</li><li>El Administrador ya no registra vaciados ni abre jornadas: las acciones de campo quedan en el personal operativo y el supervisor.</li><li>La configuración guarda quién la cambió por última vez, además de la bitácora.</li><li>Cada reporte registra quién lo solicitó y cuándo se emitió.</li></ul></div></li><li id="v0.5.0"><div><time datetime="2026-10-05">5 de octubre de 2026</time><span class="version">0.5.0</span><span class="estampa">Publicada</span></div><div><h3>Analítica y predicción</h3><ul><li>Proceso ETL por comando y programación, sin infraestructura adicional.</li><li>Tablero de indicadores, comparación de periodos y mapa de calor del campus.</li><li>Reportes en Excel y PDF.</li><li>Modelo Random Forest Regressor con margen de error por estimación, alertas de desborde y recomendaciones logísticas por reglas.</li></ul></div></li><li id="v0.1.0"><div><time datetime="2026-10-04">4 de octubre de 2026</time><span class="version">0.1.0</span><span class="estampa">Publicada</span></div><div><h3>Base del sistema</h3><ul><li>Arquitectura por capas con API REST y base PostgreSQL administrada en Neon.</li><li>Interfaz web adaptable con registro de vaciados desde el teléfono.</li><li>Jornadas, puntos de recolección, contenedores y catálogos de residuos.</li></ul></div></li></ol>
+  </div>
+</section>
+<section class="seccion densa" aria-labelledby="t-aviso">
+  <div class="marco">
+    <div class="papel ambos lectura-larga" style="max-width:640px">
+      <h2 id="t-aviso" style="margin-top:0">Aviso de nuevas versiones</h2>
+      <p class="entrada">Le escribimos cuando publiquemos una versión. Un correo por versión, sin publicidad.</p>
+      <form data-envio="Suscripción a novedades" data-gracias="Suscripción registrada. Le avisaremos de la próxima versión." novalidate>
+        <input class="trampa" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="campo"><label for="s-correo">Correo</label><input id="s-correo" name="email" type="email" required autocomplete="email"></div>
+        <div class="campo"><label for="s-inst">Institución (opcional)</label><input id="s-inst" name="institucion" autocomplete="organization"></div>
+        <button class="boton primario" type="submit">Suscribirme</button>
+        <p class="resultado" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+<p class="cierre" aria-hidden="true"><span>Gracias por su visita</span><span class="barras"></span><span>Residata S.R.L.</span></p>
+<footer class="pie-sitio"><div class="marco">
+  <div><h3>Residata S.R.L.</h3><p>Software de gestión de residuos sólidos con predicción de generación. Santa Cruz de la Sierra, Bolivia. Sociedad en constitución.</p><p><a href="mailto:rekteado@gmail.com">rekteado@gmail.com</a></p></div>
+  <div><h3>Producto</h3><ul><li><a href="index.html#como-funciona">Cómo funciona</a></li><li><a href="index.html#pronostico">Pronóstico</a></li><li><a href="planes.html">Planes y precios</a></li><li><a href="https://dsu-uagrm.vercel.app/">Acceso clientes</a></li></ul></div>
+  <div><h3>Ayuda</h3><ul><li><a href="soporte.html">Soporte</a></li><li><a href="soporte.html#estado">Estado del servicio</a></li><li><a href="novedades.html">Novedades</a></li><li><a href="feed.xml">RSS</a></li></ul></div>
+  <div><h3>Legal</h3><ul><li><a href="terminos.html">Términos y condiciones</a></li><li><a href="privacidad.html">Privacidad</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!-- titulo: Soporte — Residata | descripcion: Ayuda de Residata: asistente, agentes de soporte por ticket, preguntas frecuentes, niveles de atención y estado del servicio en vivo. -->
+<section class="seccion densa">
+  <div class="marco">
+    <h1>Soporte</h1>
+    <p class="entrada">El asistente responde al instante las dudas frecuentes. Lo que no puede resolver pasa a un agente del equipo como ticket, con respuesta por correo.</p>
+    <div class="acciones"><a class="boton primario" href="#" data-abrir-asistente>Abrir el asistente</a><a class="boton linea-b" href="mailto:rekteado@gmail.com?subject=Soporte%20Residata">Escribir al correo</a></div>
+  </div>
+</section>
+
+<section class="seccion densa" aria-labelledby="t-niveles">
+  <div class="marco">
+    <h2 id="t-niveles">Niveles de atención</h2>
+    <div class="tarifas papel ambos">
+      <div class="tabla-desliza">
+        <table class="tarifario">
+          <thead><tr><th scope="col">Nivel</th><th scope="col">Canal</th><th scope="col">Atiende</th><th scope="col">Horario</th><th scope="col">Primera respuesta</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">1 · Autoservicio</th><td>Asistente, preguntas frecuentes, manual por rol</td><td>Asistente automático</td><td>Permanente</td><td>Inmediata</td></tr>
+            <tr><th scope="row">2 · Funcional</th><td>Ticket desde el asistente o correo</td><td>Agente de soporte</td><td>Lun a vie, 08:00 a 18:00</td><td>8 horas hábiles (plan Campus)</td></tr>
+            <tr><th scope="row">3 · Ingeniería</th><td>Ticket escalado por el agente</td><td>Desarrollo y base de datos</td><td>Lun a vie, 08:00 a 18:00</td><td>4 horas hábiles (plan Red)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion densa" aria-labelledby="t-faq">
+  <div class="marco">
+    <h2 id="t-faq">Preguntas frecuentes</h2>
+    <div class="papel ambos lectura-larga preguntas">
+      <details open><summary>Olvidé mi contraseña</summary><p>El Administrador de su institución la restablece desde Usuarios. Si es el Administrador quien no puede ingresar, abra un ticket desde el asistente.</p></details>
+      <details><summary>No veo mi jornada en el teléfono</summary><p>La jornada aparece cuando el supervisor la confirma con usted en la cuadrilla y la inicia. Revise con su supervisor que la jornada esté en ejecución para hoy.</p></details>
+      <details><summary>Registré un peso equivocado</summary><p>Los registros no se borran, para conservar la trazabilidad. Informe al supervisor el registro y el motivo; queda constancia en la bitácora y se registra el valor correcto.</p></details>
+      <details><summary>El tablero muestra cero kilos</summary><p>El tablero usa los datos depurados por el ETL. Revise el rango de fechas y los filtros; si los vaciados son de la última hora, espere la siguiente ejecución del ETL.</p></details>
+      <details><summary>¿Por qué la predicción tiene un ±?</summary><p>Es el margen de error medido del modelo para esa estimación. Una cifra estimada se muestra a lápiz para no confundirla con lo medido.</p></details>
+      <details><summary>¿Cómo exporto un reporte?</summary><p>En Reportes elija el tipo, el periodo y los filtros, y descárguelo en Excel o PDF.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="seccion densa" id="estado" aria-labelledby="t-estado">
+  <div class="marco">
+    <h2 id="t-estado">Estado del servicio</h2>
+    <div class="papel ambos lectura-larga" style="max-width:640px">
+      <p class="entrada">Comprobación en vivo desde su navegador.</p>
+      <div class="estado dato" id="estado-servicio" aria-live="polite">
+        <div class="linea"><span>Aplicación web (Vercel)</span><b data-s="app">Comprobando…</b></div>
+        <div class="linea"><span>API y base de datos (Azure · Neon)</span><b data-s="api">Comprobando…</b></div>
+        <div class="linea"><span>Última comprobación</span><b data-s="hora">—</b></div>
+      </div>
+    </div>
+  </div>
+</section>

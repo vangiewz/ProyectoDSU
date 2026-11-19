@@ -1,0 +1,113 @@
+# Integración y despliegue continuos del sistema DSU / Residata.
+# CI en cada push y pull request; CD a la VM de Azure solo desde main y con los secrets configurados.
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    name: Backend (Ruff + pytest)
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: gestion-residuos-dsu/backend
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_USER: dsu
+          POSTGRES_PASSWORD: dsu
+          POSTGRES_DB: dsu
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U dsu" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      SECRET_KEY: ci-solo-pruebas
+      DEBUG: "False"
+      SECURE_SSL_REDIRECT: "False"
+      DATABASE_URL: postgres://dsu:dsu@localhost:5432/dsu
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: gestion-residuos-dsu/backend/requirements*.txt
+      - run: pip install -r requirements-dev.txt
+      - run: ruff check .
+      - run: python manage.py makemigrations --check --dry-run
+      - run: pytest -q --junitxml=pytest.xml
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: junit-backend
+          path: gestion-residuos-dsu/backend/pytest.xml
+
+  frontend:
+    name: Frontend (oxlint + tsc + build)
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: gestion-residuos-dsu/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: gestion-residuos-dsu/frontend/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+
+  sitio:
+    name: Sitio corporativo (ensamblado)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ensamblar y comprobar que no hay cambios sin generar
+        working-directory: sitio-residata
+        run: |
+          python construir.py
+          git diff --exit-code -- '*.html' feed.xml
+
+  desplegar-api:
+    name: Desplegar API en Azure VM
+    needs: [backend]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-24.04
+    environment: produccion
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar secrets de despliegue
+        id: secretos
+        env:
+          HOST: ${{ secrets.AZURE_VM_HOST }}
+        run: echo "listo=$([ -n "$HOST" ] && echo si || echo no)" >> "$GITHUB_OUTPUT"
+      - name: Copiar el backend y reconstruir los contenedores
+        if: steps.secretos.outputs.listo == 'si'
+        env:
+          HOST: ${{ secrets.AZURE_VM_HOST }}
+          CLAVE: ${{ secrets.AZURE_VM_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh && install -m 600 /dev/null ~/clave && printf '%s\n' "$CLAVE" > ~/clave
+          ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts
+          tar --exclude=.env --exclude=respaldos -czf backend.tgz -C gestion-residuos-dsu/backend .
+          scp -i ~/clave backend.tgz azureuser@"$HOST":~/dsu/
+          ssh -i ~/clave azureuser@"$HOST" 'cd ~/dsu/backend && tar xzf ../backend.tgz && cd deploy && docker compose --env-file ../.env -f compose.azure.yml up -d --build app'
+      - name: Verificar que la API responde
+        if: steps.secretos.outputs.listo == 'si'
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com/api/)
+          test "$code" = 401

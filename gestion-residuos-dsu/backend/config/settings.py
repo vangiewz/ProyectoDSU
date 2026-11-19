@@ -13,7 +13,8 @@ environ.Env.read_env(BASE_DIR / ".env")
 SECRET_KEY = env("SECRET_KEY")
 DEBUG = env("DEBUG")
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["localhost", "127.0.0.1"])
-# Orígenes del frontend desplegado aparte (p. ej. https://dsu.vercel.app). Vacío = solo mismo origen. JWT va en cabecera, sin cookies.
+# Orígenes del frontend desplegado aparte (p. ej. https://dsu-uagrm.vercel.app).
+# Vacío = solo mismo origen. El JWT va en la cabecera, sin cookies.
 CORS_ALLOWED_ORIGINS = env.list("CORS_ALLOWED_ORIGINS", default=[])
 
 INSTALLED_APPS = [

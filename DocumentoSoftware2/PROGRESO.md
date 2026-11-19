@@ -1,5 +1,8 @@
 # Software 2 — avance y trazabilidad
 
+> **18/11/2026 (noche): leer primero [CONTINUAR_SESION.md](CONTINUAR_SESION.md)** — despliegue real en Azure + Vercel, sitio corporativo Residata, pruebas, finanzas y la lista de lo que falta del documento (13 puntos, entrega jueves 19/11 08:00).
+
+
 Actualizado: 16/11/2026.
 
 ## Decisiones y presentación
@@ -52,6 +55,10 @@ Formato alineado con el ejemplo Grupo 4: borde doble, carátula por capítulo, t
 269 páginas, 55 tablas, 183 figuras. Imágenes nuevas en `recursos/web/`, capturadas de sitios oficiales con Playwright el 17/11/2026 o descargadas de SENAPI: cap. 4 Docker, Power BI y OWASP ZAP; cap. 5 ficha del trámite 2 del SEPREC (Bs 455 + Bs 192), portal del SIN, pasos de búsqueda de signos (PI-112, Bs 75), flujos oficiales de signo distintivo y derecho de autor, registro virtual y tasas (programa de ordenador Bs 150 + Gaceta Bs 60, 5 días hábiles); cap. 6 GitHub, Neon y Vercel; cap. 8 gráfico de puntos de función (datos de 1.2); cap. 10 afiche de campaña (`recursos/afiche.html`, diseño del sistema DSU). Sparx Systems bloquea navegadores automáticos: no hay captura de precios de Enterprise Architect.
 
 Cap. 4 corregido según el repositorio: Ruff, oxlint y tsc (no Flake8/Black/ESLint/Prettier), npm (no pnpm), sin Postman ni pytest-cov, y regresión de 98,8 s en Windows y 41,4 s en Linux (no "menos de 2 s"). La tabla 4.4 reemplaza los porcentajes de ahorro (45–85 %) por evidencia medida. Cap. 10: 45 puntos de recolección (no 23).
+
+## SQAP contrastado con el Manual de Calidad (17/11/2026)
+
+SQAP ampliado según `Manual de Calidad.docx` y la clase del 12/11/2026 (`clase.pdf`, fuera del repositorio): concepto de SQA, relación PAPS–SQAP–certificación y costos/beneficios (2.1), estándares de certificación ISO 9001/ISO 9000-3, IEEE 730 y CMMI (2.6), preguntas de V&V y su aplicación en PUDS (2.11). Del Manual: objetivos, lema, atributos de calidad, cuatro organizaciones y responsabilidades, tareas por fase y del grupo SQA, resumen de ERS y SDD, procesos de V&V y sus informes, documentación de usuario, estándares de codificación y comentarios, revisiones mínimas (SRR, PDR, CDR, SVVPR, auditorías), RTF y agenda por iteración, niveles de prueba, secciones nuevas 2.12 Gestión de configuración y 2.15 Control de código, estados de problemas, proveedores, retención de registros, capacitación y riesgos de calidad. Ampliación moderada a pedido del usuario (no las 60 páginas del ejemplo Grupo 4). `ensamblar.py` admite `<!-- anchos: a,b,c -->` antes de una tabla Markdown y da formato a Heading 4. Completado después: lema «Datos confiables, campus limpio», funciones nominales (Lobo Gutiérrez coordinador y responsable de configuración; Serrate Basma responsable de SQA; elección de Claude a pedido del usuario), agenda de revisiones con los periodos del Gantt y anexos A–C como formatos para llenar. Documento de 289 páginas; `03_SQAP.pdf` de 29. Respaldo previo en `versiones/2026-11-17_antes_sqap_manual.docx`.
 
 ## Pendientes reales
 

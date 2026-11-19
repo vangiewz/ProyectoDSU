@@ -1,3 +1,4 @@
 python-docx
 pillow
 pymupdf
+matplotlib>=3.9

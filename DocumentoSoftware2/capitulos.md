@@ -1,53 +1,176 @@
-# 2. SQAP Manual de calidad
+# 2. Modelo de desarrollo de software mediante PUDS
 
-## 2.1. Introducción
+## 2.1. Organización del proceso
+
+El proyecto adopta el Proceso Unificado de Desarrollo de Software, dirigido por casos de uso, centrado en la arquitectura e iterativo e incremental. Se organiza temporalmente en Inicio, Elaboración, Construcción y Transición. Los flujos de requisitos, análisis, diseño, implementación y pruebas atraviesan las fases con distinta intensidad; no son nombres alternativos de esas fases (Jacobson, Booch y Rumbaugh, 2000).
+
+Los artefactos existentes permiten documentar el producto construido y sus relaciones. La correspondencia presentada a continuación organiza esos artefactos según las fases de PUDS.
+
+## 2.2. Fase de Inicio
+
+El objetivo de Inicio es delimitar el problema y el alcance, identificar destinatarios y reconocer riesgos que condicionan la viabilidad. Para DSU, la necesidad central es consolidar información de residuos y utilizarla en la planificación de recolección. El perfil, los objetivos y la identificación de cuatro actores proporcionan la base de esta fase.
+
+El producto comprende ocho áreas funcionales y 27 requisitos funcionales. El valor previsto es mejorar la disponibilidad y trazabilidad de información para la operación y la decisión. No se cuantifica un ahorro institucional sin una línea base de costos y mediciones de uso.
+
+Los riesgos iniciales incluyen calidad del histórico, participación de usuarios, permisos, conectividad y disponibilidad del despliegue. La revisión de Inicio debe comprobar comprensión del alcance, responsabilidades y condiciones para continuar.
+
+## 2.3. Fase de Elaboración
+
+### 2.3.1. Captura y organización de requisitos
+
+La especificación del producto conserva RF1 a RF27 y sus requisitos no funcionales, de interfaces, datos, diseño y rendimiento. El modelo detalla 34 casos de uso para Administrador del Sistema, Supervisor de Recolección, Personal Operativo de Limpieza y Cuerpo Directivo de la DSU. La matriz de este capítulo permite seguir la relación RF–CU sin alterar la numeración compartida.
+
+### 2.3.2. Arquitectura y paquetes
+
+La arquitectura separa la interfaz web, la API y la persistencia. Los módulos operativos registran eventos; el ETL prepara información analítica; los indicadores y mapas facilitan consulta; el componente predictivo utiliza el histórico para producir estimaciones y recomendaciones. La seguridad y la auditoría tienen efecto transversal.
+
+<!-- figura arquitectura -->
+
+El modelo general de componentes se reutiliza como artefacto del producto y conserva su fuente de Enterprise Architect.
+
+### 2.3.3. Decisiones y riesgos arquitectónicos
+
+Se mantiene PostgreSQL en Neon. La aplicación web usa React y la API Django. La predicción corresponde a Random Forest Regressor y las recomendaciones se basan en reglas; no se introduce un modelo de lenguaje como requisito. Las funciones de entrenamiento y ETL requieren controlar carga y acceso porque comparten recursos con otros componentes.
+
+La revisión de Elaboración debe contrastar permisos, reglas transaccionales, separación analítica e interfaces externas. La existencia de modelos y código permite comprobar decisiones técnicas, pero el rendimiento remoto y la validación del histórico institucional siguen necesitando evidencia específica.
+
+## 2.4. Fase de Construcción
+
+Se agrupan los incrementos del producto por dependencias funcionales: acceso y catálogos; operación y logística; analítica y cartografía; predicción y administración. Esta agrupación organiza el trabajo y la documentación; no se le asignan fechas históricas de iteración que no estén registradas.
+
+| Incremento de referencia | Producto integrado | Verificación prioritaria |
+| --- | --- | --- |
+| Acceso y catálogos | Usuarios, roles y estructura territorial | Permisos, validaciones y consistencia de referencias |
+| Operación y logística | Vaciados, incidencias y jornadas | Estados, asignación, omisiones y cierre |
+| Analítica y cartografía | ETL, indicadores, mapas y reportes | Totales, filtros y correspondencia con los registros |
+| Predicción y administración | Modelo, estimaciones, recomendaciones y auditoría | Evaluación, publicación, márgenes y trazabilidad |
+
+La evidencia técnica disponible comprende implementación de los requisitos funcionales según el registro del proyecto, pruebas automatizadas y revisión de pantallas. Un módulo implementado no se considera automáticamente aceptado.
+
+## 2.5. Fase de Transición
+
+La Transición prepara el uso y la entrega: instalación, verificación del entorno, manuales, capacitación y aceptación. La arquitectura utiliza Vercel para el frontend, AWS EC2 con Linux y Docker para la API y Neon para datos.
+
+Para cerrar esta fase se propone verificar el acceso por roles, un recorrido operativo completo, actualización analítica, predicción con su margen, exportación de reportes y recuperación de información. El piloto institucional debe identificar usuarios, datos autorizados, periodo de observación y criterios de aceptación. El cierre dependerá de evidencias y decisiones documentadas.
+
+## 2.6. Trazabilidad del producto
+
+La matriz siguiente se obtiene del catálogo de casos de uso del proyecto, consultado para esta edición. Su función es permitir localizar el comportamiento que concreta cada requisito. La vinculación con pruebas se desarrolla en el capítulo 9 y en las evidencias técnicas identificadas.
+
+<!-- matriz cu -->
+
+## 2.7. Ejemplo de aplicación del proceso a una jornada
+
+En requisitos, el flujo define que el supervisor planifica una jornada y asigna recursos; la operación atiende los puntos y registra omisiones justificadas. En análisis se identifican jornada, personal, vehículo, punto y registro. En diseño se establecen estados y servicios responsables de validar las transiciones. En implementación, estas reglas se materializan en los servicios de operaciones.
+
+La verificación comprueba asignaciones inválidas, conflictos de turno y cierre con puntos pendientes. La validación debe contrastar que la secuencia representa el trabajo de la DSU. Así, el mismo caso de uso conecta necesidades, decisiones de diseño y evidencias, sin depender de que cada flujo se ejecute una sola vez.
+
+<!-- modelos puds -->
+
+# 3. Manual de calidad (SQAP)
+
+## 3.1. Introducción
+
+El aseguramiento de la calidad del software (SQA) es el conjunto de actividades de protección que se aplican a lo largo de todo el ciclo de vida del software con el propósito de asegurar su calidad. El SQAP es el manual de calidad que documenta esas actividades. El PAPS organiza el proceso de ingeniería de software que produce el sistema; el SQAP define las actividades de SQA que, aplicadas a ese proceso y a sus productos, permiten aspirar a una certificación. Por eso SQA y el proceso de ingeniería de software trabajan juntos en todas las fases.
 
 El Plan de Aseguramiento de la Calidad del Software establece cómo el Grupo 8 organizará las revisiones, las pruebas y el tratamiento de problemas del sistema DSU. Su propósito es que cada decisión de calidad se apoye en requisitos identificables y evidencias conservadas. Se aplica a los documentos, modelos, código, datos de prueba, componente predictivo y materiales de entrega.
 
 El aseguramiento de calidad acompañará las fases de Inicio, Elaboración, Construcción y Transición. Las actividades previstas en este plan se expresan como compromisos de trabajo; las verificaciones ya ejecutadas se identifican con su registro y alcance en el capítulo 9. La aprobación académica del informe, la aceptación institucional del producto y una eventual certificación externa son resultados diferentes.
 
-## 2.2. Misión
+Aplicar SQA tiene costos: más tiempo y esfuerzo en el proceso, más documentación y riesgo de burocracia, que en proyectos pequeños puede volverlo poco práctico. Por eso este plan se ajusta a un equipo de dos integrantes y concentra los controles en los productos críticos. A cambio, reduce los defectos que llegan al usuario y facilita el mantenimiento del sistema.
+
+### 3.1.1. Objetivo general
+
+Asegurar que el sistema web de gestión de residuos sólidos de la DSU-UAGRM y su documentación cumplan los requisitos acordados, mediante revisiones, pruebas y registros que permitan demostrar la calidad de cada entrega.
+
+### 3.1.2. Objetivos específicos
+
+- Desarrollar el software a partir del análisis de las necesidades de la DSU, con requisitos identificados y verificables.
+- Diseñar e implementar el sistema según los estándares de codificación, comentarios y base de datos definidos en este plan.
+- Definir los atributos de calidad que se verificarán en el producto y la evidencia que los respalda.
+- Describir las tareas de calidad de cada fase de PUDS, sus responsables y sus registros.
+- Controlar la configuración y las versiones del código, los modelos y los documentos.
+- Registrar los problemas detectados y comprobar sus correcciones antes de liberar una versión.
+
+## 3.2. Misión
 
 La misión del equipo es construir y documentar una solución que permita a la DSU registrar su operación y utilizar información consistente para planificar la recolección.
 
-## 2.3. Visión
+## 3.3. Visión
 
 La visión del equipo es disponer de un producto mantenible que pueda evaluarse en un piloto institucional y evolucionar a partir de las necesidades verificadas de sus usuarios.
 
-## 2.4. Valores
+## 3.4. Valores
 
 El trabajo se orientará por responsabilidad sobre los datos, trazabilidad de las decisiones, revisión entre integrantes y transparencia sobre las limitaciones.
 
-## 2.5. Propósito
+### 3.4.1. Lema
+
+**«Datos confiables, campus limpio».** El lema resume el compromiso del equipo: la calidad del sistema se mide por la confiabilidad de los datos que registra, analiza y proyecta, porque de ellos dependen la planificación de la recolección y la limpieza del campus universitario.
+
+## 3.5. Propósito
 
 Este plan define las actividades, los responsables y los registros con los que el equipo asegurará la calidad del sistema DSU durante las cuatro fases de PUDS. Su objetivo es detectar defectos antes de la entrega y dejar evidencia de cada comprobación.
 
-### 2.5.1. Política de calidad
+### 3.5.1. Descripción
+
+Con la aplicación de este SQAP se busca que el sistema DSU cumpla los siguientes atributos de calidad del software, organizados según ISO/IEC 25010:2023 y controlados con la evidencia indicada en la sección 3.9:
+
+- **Correcto:** cada función responde a un requisito RF y a un caso de uso identificados.
+- **Eficiente:** los tiempos de respuesta y la carga se miden frente a los requisitos de rendimiento.
+- **Fiable:** las operaciones inválidas se rechazan sin dejar registros inconsistentes y la base de datos cuenta con respaldo diario.
+- **Fácil de usar:** las tareas de registro y consulta pueden realizarse en escritorio y en teléfono.
+- **Fácil de mantener:** el código se organiza en módulos por responsabilidad y cada cambio se acompaña de su prueba de regresión.
+- **Seguro e íntegro:** el acceso se controla por rol y sector, y toda escritura queda en una bitácora inalterable.
+- **Portable:** el backend se ejecuta en contenedores Docker y el frontend en cualquier navegador actualizado.
+
+El plan se aplica a todo el producto y a cualquier versión posterior que el equipo desarrolle para la DSU.
+
+### 3.5.2. Política de calidad
 
 La política exige que todo entregable tenga un responsable, una versión, criterios de revisión y un registro de observaciones. Los requisitos se conservarán con sus identificadores; los cambios del sistema deben propagarse a modelos y pruebas. Ninguna función se considerará aceptada únicamente porque su pantalla esté disponible o porque el código compile.
 
-### 2.5.2. Alcance
+### 3.5.3. Alcance
 
 El plan cubre acceso, catálogos, operación, logística, analítica, cartografía, predicción y administración. La evaluación de los servicios externos se limita a su integración y a los compromisos documentados del proveedor. No comprende una auditoría interna de Neon, AWS, Vercel o Microsoft.
 
-### 2.5.3. Criterio de liberación
+### 3.5.4. Criterio de liberación
 
 Se impide la liberación de una versión con defectos críticos abiertos. Para un defecto de severidad alta se requerirá resolución o aceptación explícita del riesgo por quien tenga autoridad sobre la entrega. Las observaciones de presentación podrán tratarse por separado, siempre que no oculten información necesaria para utilizar el producto.
 
-## 2.6. Documentos de referencia
+## 3.6. Documentos de referencia
 
 Se toman como entradas la especificación DSU, el modelo de casos de uso, los modelos de análisis y diseño, la configuración del producto y los registros técnicos de pruebas. El PAPS determina organización y recursos; el SQAP define controles; el informe de pruebas conserva resultados concretos.
 
 Los ejemplos académicos emplean IEEE 730 en ediciones anteriores. La ficha oficial consultada identifica IEEE 730-2026 como estándar de procesos de aseguramiento de calidad. Se utiliza su descripción pública para orientar la planificación y el control, sin declarar una evaluación de conformidad cláusula por cláusula. ISO/IEC 25010:2023 se consulta como referencia para organizar atributos de calidad del producto. Las condiciones medibles de aceptación provienen de los requisitos DSU y de los acuerdos de revisión, no de metas inventadas a partir del nombre de una norma (IEEE SA, 2026; ISO, 2023).
 
-## 2.7. Gestión
+Los estándares con los que puede certificarse la calidad del software son ISO 9001, que para el software se aplica con la guía ISO 9000-3 (actualmente ISO/IEC/IEEE 90003); IEEE 730, que define el plan de aseguramiento de la calidad; y CMMI, que evalúa la madurez del proceso en niveles progresivos. Este plan sigue la estructura de IEEE 730 porque se orienta a un proyecto concreto y no a la certificación de una organización; ISO 9001 y CMMI quedan como referencia para una certificación futura.
 
-### 2.7.1. Organización
+## 3.7. Gestión
 
-El equipo de desarrollo prepara los productos y corrige las observaciones. La función de revisión contrasta el resultado con sus entradas y registra hallazgos. La coordinación consolida el avance y las decisiones. Al tratarse de dos integrantes, estas funciones se distribuirán por actividad, procurando que quien elaboró un artefacto no sea su único revisor.
+### 3.7.1. Organización
 
-### 2.7.2. Tareas y actividades
+Las organizaciones que intervienen en el desarrollo y en el aseguramiento de la calidad del sistema DSU son el grupo de desarrollo, el consultor o especialista en SQA, el cliente y el grupo SQA.
 
+#### 3.7.1.1. Organización del grupo de desarrollo
+
+Es la organización encargada de construir el sistema. La integran los dos miembros del Grupo 8, que trabajan según la especificación de requisitos acordada con la DSU y los criterios de la materia. Prepara los productos de cada fase, corrige las observaciones e informa su avance al consultor. Carlos Gabriel Lobo Gutiérrez asume la coordinación, que consolida el avance, la programación y las decisiones.
+
+#### 3.7.1.2. Organización del consultor o especialista en SQA
+
+El docente de Ingeniería de Software 2 cumple este papel. Establece los criterios de los entregables, revisa los avances en las presentaciones y verifica que se cumplan los acuerdos. Actúa como intermediario entre las necesidades de la DSU y el trabajo del grupo de desarrollo.
+
+#### 3.7.1.3. Organización del cliente
+
+El cliente es quien patrocina el proyecto y busca una solución de software: la Dirección de Servicios Universitarios (DSU) de la UAGRM. Intervienen la dirección, que decide la aceptación institucional; los supervisores de recolección, que conocen la planificación y el control de las jornadas; y el personal operativo de limpieza, que realiza el registro en campo. La DSU proporciona la información operativa y valida la utilidad del sistema.
+
+#### 3.7.1.4. Organización del grupo SQA
+
+Se conforma con representantes de las tres organizaciones anteriores: el responsable de SQA del grupo de desarrollo, el consultor y el representante designado por la DSU. Analiza las observaciones, decide su tratamiento y aprueba las versiones sucesivas de este plan. Al tratarse de un equipo de dos integrantes, la función de revisión se alterna por actividad, de modo que quien elaboró un artefacto no sea su único revisor.
+
+### 3.7.2. Tareas y actividades
+
+<!-- anchos: 3.2,5.5,3.8,4.29 -->
 | Fase de PUDS | Actividad de aseguramiento de calidad | Producto revisado | Registro |
 | --- | --- | --- | --- |
 | Inicio | Revisar alcance, actores y riesgos iniciales | PAPS y perfil | Lista de revisión |
@@ -56,25 +179,79 @@ El equipo de desarrollo prepara los productos y corrige las observaciones. La fu
 | Transición | Verificar instalación, manual y versión de entrega | Producto y documentación | Lista de liberación |
 | Todas | Controlar cambios y actualizar riesgos | Línea base | Registro de cambios |
 
-### 2.7.3. Roles y responsabilidades
+Las tareas del grupo de desarrollo asociadas al ciclo de vida son las siguientes:
+
+| Fase | Actividades del grupo de desarrollo | Productos |
+| --- | --- | --- |
+| Inicio | Identificar actores y necesidades con la DSU, delimitar el alcance, estimar el esfuerzo e identificar los riesgos iniciales | Perfil, PAPS y registro de riesgos |
+| Elaboración | Especificar RF1–RF27 y los requisitos no funcionales, modelar los 34 casos de uso, definir paquetes, clases, base de datos y arquitectura | Especificación de requisitos, modelos UML y arquitectura |
+| Construcción | Implementar backend, frontend, ETL y componente predictivo por incrementos, escribir las pruebas automatizadas y corregir defectos | Código, migraciones, pruebas y registros de problemas |
+| Transición | Preparar el despliegue, el manual de usuario y la capacitación, ejecutar las pruebas de aceptación y entregar la versión | Versión liberada, manual y evidencias |
+
+Las actividades del grupo SQA y sus entregables son:
+
+| Actividad del grupo SQA | Entregable asociado |
+| --- | --- |
+| Elaborar el plan de SQA | Plan de SQA (este capítulo) |
+| Identificar los atributos de calidad del producto | Descripción de atributos (2.5.1) y aspectos de calidad (2.9.2) |
+| Evaluar la calidad de los productos | Informe de revisión SQA |
+| Revisar el ajuste al proceso | Informe de revisión SQA del ajuste al proceso |
+| Realizar las revisiones técnicas formales | Informe de RTF |
+| Verificar la gestión de configuración | Registro de líneas base y de cambios |
+| Dar seguimiento a los problemas y acciones correctivas | Registro de problema y acción correctiva (anexo B) |
+| Realizar las auditorías funcional y física | Informes de auditoría y lista de liberación |
+| Evaluar y ajustar el plan de SQA | Historial de cambios del SQAP |
+
+### 3.7.3. Roles y responsabilidades
 
 | Función | Responsabilidad | Registro requerido |
 | --- | --- | --- |
 | Responsable del entregable | Elaborar y mantener el producto; atender observaciones | Versión y lista de cambios |
 | Revisor del equipo | Comprobar criterios y registrar hallazgos reproducibles | Lista de revisión y decisión |
 | Coordinación | Priorizar trabajo y resolver dependencias | Acuerdos y seguimiento |
-| Representante de la DSU | Contrastar utilidad operativa cuando participe | Acta de validación o aceptación |
-| Docente | Evaluar los entregables de Software 2 | Observaciones académicas recibidas |
+| Representante de la DSU | Contrastar la utilidad operativa en las revisiones y validaciones | Acta de validación o aceptación |
+| Docente (consultor SQA) | Evaluar los entregables de Software 2 y verificar que se atiendan sus observaciones | Observaciones académicas recibidas |
 
-La asignación nominal se realizará en cada registro de actividad.
+Las funciones se asignan a los integrantes del grupo de la siguiente forma:
 
-## 2.8. Documentación
+<!-- anchos: 4.4,4.4,7.99 -->
+| Integrante | Función | Responsabilidades de calidad |
+| --- | --- | --- |
+| Carlos Gabriel Lobo Gutiérrez | Coordinador y responsable de la configuración | Programación del trabajo, inventario de entregables, control de las líneas base y de los cambios, e integración a la rama principal |
+| Leonardo Serrate Basma | Responsable de SQA | Mantenimiento de este plan, conducción de las RTF y auditorías, registro de hallazgos y seguimiento de problemas |
 
-### 2.8.1. Propósito
+Ambos integrantes desarrollan y cada uno revisa los productos que elaboró el otro; la liberación de una versión requiere la conformidad de los dos.
+
+#### 3.7.3.1. Responsabilidades del grupo de desarrollo
+
+- Elaborar los productos de cada fase conforme a la especificación y a los estándares de la sección 3.9.
+- Mantener la trazabilidad entre requisitos, casos de uso, modelos, código y pruebas.
+- Ejecutar las pruebas automatizadas antes de integrar cada cambio.
+- Corregir los defectos asignados y dejar evidencia de la corrección.
+- Entregar los productos a revisión en una versión identificada.
+
+#### 3.7.3.2. Responsabilidades del cliente
+
+- Proporcionar la información operativa: sectores, puntos de recolección, tipos de residuo y forma de trabajo de las cuadrillas.
+- Designar un representante para las revisiones y validaciones.
+- Revisar los prototipos y las versiones entregadas, y comunicar sus observaciones.
+- Decidir la aceptación institucional del producto.
+
+#### 3.7.3.3. Responsabilidades del grupo SQA
+
+- Mantener y actualizar este plan.
+- Planificar y conducir las revisiones de la agenda (2.10.5).
+- Verificar el cumplimiento de los estándares y del proceso.
+- Dar seguimiento a los problemas hasta su cierre y autorizar la liberación según el criterio de 2.5.4.
+- Conservar los registros de calidad.
+
+## 3.8. Documentación
+
+### 3.8.1. Propósito
 
 Esta sección identifica los documentos que gobiernan el desarrollo, la verificación y el uso del sistema, y la comprobación de calidad que se aplica a cada uno.
 
-### 2.8.2. Documentación mínima requerida
+### 3.8.2. Documentación mínima requerida
 
 | Producto | Contenido mínimo | Comprobación de calidad |
 | --- | --- | --- |
@@ -87,13 +264,79 @@ Esta sección identifica los documentos que gobiernan el desarrollo, la verifica
 
 Las fuentes de diagramas se conservarán junto a sus exportaciones.
 
-## 2.9. Estándares, prácticas, convenciones y métricas
+#### 3.8.2.1. Especificación de requisitos de software (ERS)
 
-### 2.9.1. Propósito
+La especificación sigue la estructura de IEEE 830-1998: introducción (propósito, ámbito, definiciones y referencias), descripción general (perspectiva y funciones del producto, características de los usuarios, restricciones, dependencias y modelo de dominio) y requisitos específicos. Es la entrada de la revisión de requisitos y la referencia de todas las pruebas. Sus requisitos se agrupan así:
+
+<!-- anchos: 4,3,9.79 -->
+| Grupo | Identificadores | Contenido |
+| --- | --- | --- |
+| Requisitos funcionales | RF1–RF27 | Acceso, catálogos, registro operativo, recolección, analítica, cartografía, predicción y administración |
+| Requisitos no funcionales | RNF1–RNF26 | Rendimiento, usabilidad, fiabilidad, seguridad, portabilidad, mantenibilidad, precisión, auditabilidad e interoperabilidad |
+| Interfaces | RI1–RI17 | Interfaces de usuario, de hardware, de software y de comunicación |
+| Base de datos | RBD1–RBD22 | Entidades, unicidad, integridad, precisión de cantidades y coordenadas, histórico y bitácora inalterable |
+| Diseño | RD1–RD15 | Python, Django REST Framework, React, PostgreSQL, scikit-learn, Leaflet, Power BI, arquitectura modular y UML |
+| Tiempo de respuesta | RTR1–RTR12 | Desde 2 segundos para autenticación y búsquedas hasta 10 minutos para el entrenamiento asíncrono |
+| Capacidad y carga | RCM1–RCM8 | 12 usuarios concurrentes, 500 puntos de recolección, 100 000 observaciones y horizonte de 30 días |
+| Uso de recursos | RUR1–RUR7 | Límites de procesador y memoria, procesos asíncronos y ancho de banda reducido en campo |
+| Disponibilidad | RDI1–RDI7 | 99 % en horario laboral, captura en campo durante los turnos y recuperación ante fallos |
+
+Cada requisito debe ser correcto, completo, consistente, no ambiguo, verificable, modificable y trazable a su origen y a sus casos de uso.
+
+#### 3.8.2.2. Descripción del diseño del software (SDD)
+
+La descripción del diseño detalla cómo se estructura el sistema para cumplir la ERS. Se documenta con los modelos UML de PUDS del capítulo 2 y cubre cuatro vistas:
+
+- **Descomposición en módulos.** Ocho paquetes: Gestión de Usuarios y Control de Acceso; Gestión Topológica y Puntos de Recolección; Gestión de Residuos; Gestión de Recolecciones y Logística; Inteligencia de Negocios y Analítica Visual; Componente Cartográfico y Análisis Espacial; Predicción mediante Random Forest Regressor; y Administración de la Plataforma y Auditoría. Se implementan en las aplicaciones de Django `accounts`, `campus`, `catalogs`, `operations`, `analytics`, `prediction` y `audit`, y en las pantallas de React.
+- **Descomposición en procesos concurrentes.** La API atiende las peticiones con varios procesos de Gunicorn; el ETL y el entrenamiento del modelo se ejecutan en segundo plano para no bloquear la operación (RD10); el ETL programado se lanza con un comando de Django desde cron, y el respaldo de la base de datos corre en un contenedor propio.
+- **Descomposición de datos.** Base PostgreSQL en tercera forma normal para el plano transaccional, con una tabla de hechos y vistas `bi_` para el plano analítico, y una bitácora protegida por disparador.
+- **Interfaces.** API REST con JSON sobre HTTPS bajo `/api/`, autenticación con JWT, conexión de solo lectura para Power BI y cartografía de OpenStreetMap.
+
+El diseño detallado (clases, secuencias, diseño lógico de la base de datos y componentes) se presenta en las secciones 3.12 a 3.15.
+
+### 3.8.3. Plan de verificación y validación
+
+La verificación y validación acompañan el ciclo de vida completo: cada fase de PUDS entrega productos que se verifican contra sus entradas antes de servir de base a la siguiente, y la validación con usuarios de la DSU se realiza sobre el producto de cada incremento. El plan genera los siguientes informes:
+
+<!-- anchos: 3.6,3.4,5.6,4.19 -->
+| Informe | Momento | Contenido | Ubicación |
+| --- | --- | --- | --- |
+| Reporte sumario de fase de V&V | Al cerrar cada fase de PUDS | Productos revisados, pruebas ejecutadas, hallazgos abiertos y cerrados, y decisión de continuar | Registro de revisión técnica (anexo A) |
+| Reporte de anomalías | Cuando se detecta una desviación | Identificador, versión, pasos de reproducción, severidad, responsable y estado | Registro de problema y acción correctiva (anexo B) |
+| Reporte final de V&V | Antes de la entrega | Resumen de todas las pruebas, defectos residuales, riesgos aceptados y recomendación de liberación | Capítulo 9 y lista de liberación |
+
+La verificación y validación se aplican a los procesos del ciclo de vida de la siguiente forma:
+
+| Proceso | Tareas de V&V en el proyecto DSU |
+| --- | --- |
+| Gestión | Planificar las revisiones de la agenda, asignar responsables y evaluar los resultados de cada fase |
+| Adquisición | Contrastar con la DSU las necesidades y el alcance antes de fijar la línea base de requisitos |
+| Suministro | Verificar que cada entrega contenga la versión, la documentación y las evidencias acordadas |
+| Desarrollo | Verificar requisitos, diseño, código e integración, y ejecutar las pruebas en cada incremento |
+| Operación | Validar con usuarios de la DSU las tareas de registro, planificación y consulta en producción |
+| Mantenimiento | Analizar el impacto de cada cambio y repetir la regresión pertinente |
+
+### 3.8.4. Documentación de usuario
+
+La documentación de usuario permite que cada rol opere el sistema sin asistencia del equipo. Toma como referencia IEEE 1063 y se entrega como manual por rol en el capítulo 12 y como documento independiente en la carpeta del proyecto.
+
+| Componente | Contenido | Destinatario |
+| --- | --- | --- |
+| Acceso al sistema | Inicio y cierre de sesión | Todos los roles |
+| Registro en campo | Jornada asignada, vaciados e incidencias desde el teléfono | Personal operativo |
+| Planificación y control | Jornadas, personal, vehículos, seguimiento, cierre, incidencias y recomendaciones | Supervisor |
+| Consulta y decisión | Tableros, mapa de calor, predicciones y reportes | Directivo |
+| Administración | Usuarios, roles, catálogos, parámetros, ETL, modelo y bitácora | Administrador |
+
+Cada tarea se describe con pasos y la pantalla donde se realiza. Antes de la entrega, otra persona reproduce los pasos del manual con la versión entregada.
+
+## 3.9. Estándares, prácticas, convenciones y métricas
+
+### 3.9.1. Propósito
 
 Esta sección fija las convenciones de identificación y revisión que deben cumplir los productos del proyecto y las métricas con que se evalúan.
 
-### 2.9.2. Contenido
+### 3.9.2. Contenido
 
 Los requisitos y casos de uso conservarán los identificadores RF y CU. Los casos de prueba usarán identificadores diferenciados y una referencia al requisito comprobado. Los hallazgos se registrarán con un identificador, severidad, versión afectada, evidencia, responsable y estado. Los nombres de documentos y archivos deben permitir identificar su contenido sin incluir credenciales ni datos personales innecesarios.
 
@@ -111,21 +354,63 @@ La revisión del backend comprobará autorización, validaciones, consistencia t
 
 Los indicadores del PAPS se aplicarán a un universo definido.
 
-## 2.10. Revisiones de software
+### 3.9.3. Estándar de codificación
 
-### 2.10.1. Propósito
+Las normas de codificación del sistema se detallan en el anexo I y se resumen así:
+
+- El software se divide en módulos independientes según el diseño: una aplicación de Django por área funcional y, dentro de cada una, un paquete por responsabilidad (`models/`, `serializers/`, `views/`, `services/`, `permissions/`, `tests/`) con un archivo por entidad.
+- Los nombres de funciones, clases y variables indican su función: `snake_case` y `PascalCase` en Python; `camelCase` y `PascalCase` en TypeScript.
+- El backend sigue PEP 8 con un máximo de 120 caracteres por línea, verificado con Ruff; el frontend se verifica con oxlint y con la compilación de TypeScript sin errores.
+- Los mensajes de error indican el campo o la regla que los originó, en español, con los códigos HTTP estándar.
+- Las credenciales y los parámetros de entorno nunca se escriben en el código fuente.
+- Cada archivo conserva su autoría, fecha e historial de cambios en el control de versiones de Git, sin repetirlos en cabeceras manuales.
+
+### 3.9.4. Estándar de comentarios
+
+- Un comentario explica por qué se realiza una acción o qué regla de negocio se aplica; no repite lo que el código ya expresa.
+- Los comentarios se escriben en español y en líneas separadas del código que explican.
+- Las descripciones de módulos, clases y funciones se escriben en comentarios de varias líneas (docstrings en Python); las aclaraciones puntuales, en comentarios de una línea.
+- Un comentario que deja de corresponder al código se corrige o se elimina en el mismo cambio.
+
+### 3.9.5. Responsables de verificar el cumplimiento
+
+El cumplimiento de los estándares lo verifican:
+
+- El coordinador del grupo de desarrollo, que revisa cada cambio antes de integrarlo a la rama principal.
+- El grupo SQA, que comprueba los estándares en las revisiones técnicas formales y en las auditorías previas a la entrega.
+- Las herramientas automáticas (Ruff, oxlint y el compilador de TypeScript), cuya ejecución sin errores es condición para integrar un cambio.
+
+## 3.10. Revisiones de software
+
+### 3.10.1. Propósito
 
 Las revisiones comprueban cada producto contra sus entradas antes de que sirva de base al siguiente flujo de trabajo.
 
-### 2.10.2. Requisitos mínimos
+### 3.10.2. Requisitos mínimos
 
 Se planifican revisiones de requisitos, arquitectura, implementación, pruebas y entrega. Cada revisión comenzará con una versión cerrada para inspección y una lista de criterios. El revisor documentará observaciones verificables, el responsable propondrá su tratamiento y ambos comprobarán el cierre. El registro conservará los desacuerdos y las decisiones que afecten al alcance.
 
 La revisión de requisitos comprobará que cada RF tenga actor o destinatario, reglas observables y al menos un criterio de prueba. La revisión de arquitectura verificará dependencias, interfaces, persistencia y separación de operación y analítica. La revisión de entrega verificará que manuales, versión instalada y evidencias correspondan al mismo producto.
 
-### 2.10.3. Otras revisiones y auditorías
+Las revisiones y auditorías mínimas son las siguientes:
 
-Además de las revisiones por producto, se revisa el proceso en los momentos siguientes. No se prevé una auditoría externa.
+<!-- anchos: 3.4,5.2,8.19 -->
+| Revisión | Objetivo | Criterios principales en DSU |
+| --- | --- | --- |
+| Revisión de requisitos (SRR) | Asegurar que la ERS es correcta, completa y verificable | Cada RF tiene actor, reglas observables y criterio de prueba, y está cubierto por al menos un caso de uso; los requisitos no funcionales tienen valores medibles |
+| Revisión del diseño preliminar (PDR) | Evaluar la arquitectura antes del diseño detallado | Interfaces externas (Neon, AWS, Vercel, Power BI, OpenStreetMap) identificadas con su protocolo; planos transaccional y analítico separados; procesos pesados asíncronos; control de acceso en interfaz y servicios |
+| Revisión del diseño crítico (CDR) | Confirmar que el diseño detallado satisface la ERS antes de codificar | Clases con atributos, métodos, visibilidad y multiplicidades; base de datos en 3FN con desnormalización justificada; interacciones con la base de datos expresadas |
+| Revisión del plan de V&V (SVVPR) | Evaluar si los métodos de V&V son adecuados | Cada requisito tiene caso de prueba con entrada, resultado esperado y entorno; la programación indica qué se prueba, cuándo y quién |
+| Auditoría funcional | Verificar antes de la entrega que el sistema hace todo y solo lo que indica la ERS | Cada RF1–RF27 con evidencia de prueba aprobada; las pruebas no ejecutadas se listan con su justificación |
+| Auditoría física | Verificar que el código y su documentación son consistentes | Los modelos UML coinciden con las clases y tablas implementadas; el manual describe las pantallas entregadas; el despliegue se reproduce con sus instrucciones |
+| Auditoría del proceso | Verificar la consistencia del producto durante el desarrollo | Código frente a diseño, interfaces frente a requisitos y pruebas frente a RF al cerrar cada incremento |
+| Revisión de gestión | Evaluar la ejecución de este plan | Observaciones del consultor en cada presentación de avance y actualización del SQAP |
+
+Cada revisión registra su objetivo, el producto evaluado, el responsable, los participantes, los criterios aplicados y la ubicación de sus resultados.
+
+### 3.10.3. Otras revisiones y auditorías
+
+Además de las revisiones por producto, se revisa el proceso en los momentos siguientes. No se prevé una auditoría externa al proyecto.
 
 | Momento | Entrada | Resultado de la revisión |
 | --- | --- | --- |
@@ -134,25 +419,115 @@ Además de las revisiones por producto, se revisa el proceso en los momentos sig
 | Al cerrar una iteración | Incremento y pruebas | Aceptación interna o actividades pendientes |
 | Antes de entregar | Versión candidata y documentación | Lista de liberación y riesgos residuales |
 
-## 2.11. Prueba
+### 3.10.4. Tipos de revisión
 
-La verificación contrasta los productos de trabajo con sus requisitos y especificaciones. La validación determina si la solución satisface el uso previsto y las necesidades de sus destinatarios. Ambas pueden aplicarse durante el desarrollo: una revisión de casos de uso verifica consistencia; una demostración de un prototipo con usuarios permite validar la interacción propuesta. Esta distinción se apoya en las definiciones y orientaciones de NASA sobre verificación y validación; no implica adoptar los requisitos de un proyecto aeroespacial (NASA, s. f.).
+<!-- anchos: 3.4,4.6,5.4,3.39 -->
+| Revisión | Objetivo | Mecanismo | Salida |
+| --- | --- | --- | --- |
+| Evaluación de la calidad de los productos | Revisar los productos clave y detectar desviaciones respecto de los estándares y objetivos de calidad | Se revisa cada producto con su lista de criterios; se comprueba que no queden observaciones pendientes de revisiones anteriores | Informe de revisión SQA con las desviaciones y sus responsables |
+| Revisión del ajuste al proceso | Comprobar que los productos se obtuvieron con las actividades definidas en PUDS | Se rastrean hacia atrás los productos de entrada (PAPS, plan de iteración y plan de V&V) y se verifica que cada paso se haya seguido | Informe de revisión SQA del ajuste al proceso |
+| Revisión técnica formal (RTF) | Descubrir errores de función, lógica o implementación y verificar que el producto satisface su especificación y los estándares | Reunión convocada con anticipación entre el responsable de SQA y el grupo de desarrollo; los participantes estudian el producto antes y llevan sus preguntas | Informe de RTF con hallazgos, decisiones y responsables |
+
+La RTF se reserva para los productos de mayor importancia. Como mínimo se revisan la especificación de requisitos, el modelo de diseño, el plan de verificación y validación, el PAPS, la gestión de configuración, el diseño frente a la especificación, la implementación frente al diseño y las pruebas frente a la especificación.
+
+### 3.10.5. Agenda de revisiones
+
+Las revisiones de calidad se organizan por fase e iteración de PUDS. Los periodos siguen el cronograma del proyecto (sección 1.5.3), del 18 de agosto al 19 de diciembre de 2026, y cada revisión se realiza al cierre de su iteración:
+
+<!-- anchos: 3.2,2.6,5.2,5.79 -->
+<!-- anchos: 2.5,2.1,2.9,4.6,4.69 -->
+| Fase | Iteración | Periodo previsto | Revisiones | Productos revisados |
+| --- | --- | --- | --- | --- |
+| Inicio | Iteración 1 | 18/08 al 14/09 | Evaluación de calidad y RTF del alcance | Perfil, PAPS, actores y riesgos iniciales |
+| Elaboración | Iteración 2 | 15/09 al 05/10 | Revisión de requisitos (SRR) | Especificación RF1–RF27 y modelo de casos de uso |
+| Elaboración | Iteración 3 | 06/10 al 26/10 | PDR, CDR, revisión del plan de V&V y ajuste al proceso | Paquetes, realizaciones, clases, base de datos, arquitectura y plan de pruebas |
+| Construcción | Iteración 4 | 27/10 al 05/11 | Evaluación de calidad y auditoría del proceso | Acceso y catálogos |
+| Construcción | Iteración 5 | 06/11 al 16/11 | Evaluación de calidad y auditoría del proceso | Registro de residuos, recolección y logística |
+| Construcción | Iteración 6 | 17/11 al 26/11 | Evaluación de calidad y auditoría del proceso | ETL, indicadores, tableros y cartografía |
+| Construcción | Iteración 7 | 27/11 al 07/12 | Evaluación de calidad y RTF del componente predictivo | Predicción, recomendaciones y administración |
+| Transición | Iteración 8 | 08/12 al 19/12 | Auditoría funcional, auditoría física, revisión de la documentación de usuario y revisión de gestión | Versión candidata, manual de usuario y evidencias de pruebas |
+
+## 3.11. Prueba
+
+La verificación responde a la pregunta «¿estamos construyendo el producto correctamente?» y se enfoca en el proceso: contrasta los productos de trabajo con sus requisitos y especificaciones. La validación responde a la pregunta «¿estamos construyendo el producto correcto?» y se enfoca en el producto: determina si la solución satisface el uso previsto y las necesidades de sus destinatarios. Ambas pueden aplicarse durante el desarrollo: una revisión de casos de uso verifica consistencia; una demostración de un prototipo con usuarios permite validar la interacción propuesta. Esta distinción se apoya en las definiciones y orientaciones de NASA sobre verificación y validación; no implica adoptar los requisitos de un proyecto aeroespacial (NASA, s. f.).
 
 Para DSU, la verificación abarcará reglas de jornadas, permisos, cantidades, ETL, reportes y restricciones predictivas. La validación institucional debe comprobar tareas como registrar un vaciado, atender una incidencia y utilizar una recomendación en la planificación.
 
 La estrategia de pruebas combina casos funcionales, análisis estructural de funciones críticas, revisión de seguridad y mediciones de rendimiento. Las pruebas utilizarán entornos aislados cuando impliquen creación o modificación de datos. Los resultados se registrarán con su versión y no se reutilizarán como evidencia de una versión diferente sin analizar el impacto del cambio.
 
-## 2.12. Notificación de problemas y acción correctiva
+En PUDS, la verificación revisa que cada fase y cada flujo de trabajo se hayan cumplido correctamente: por ejemplo, que la captura de requisitos haya producido los actores, los casos de uso con su detalle y el diagrama general antes de pasar al análisis. La validación se realiza con el cliente: mientras todavía no hay software, como en la captura de requisitos, se valida con prototipos de interfaz; desde la construcción, con la versión de cada incremento.
 
-### 2.12.1. Propósito
+### 3.11.1. Niveles y tipos de prueba
+
+<!-- anchos: 3,5.6,5,3.19 -->
+| Nivel o tipo | Objetivo | Herramienta o técnica | Responsable |
+| --- | --- | --- | --- |
+| Unitaria | Comprobar reglas de servicios, modelos y validaciones | pytest y pytest-django | Grupo de desarrollo |
+| Integración | Comprobar los endpoints de la API con permisos por rol y base de datos real | pytest sobre PostgreSQL desechable | Grupo de desarrollo |
+| Sistema | Comprobar los flujos completos de los casos de uso críticos | Casos de caja negra (capítulo 9) | Grupo SQA |
+| Caja blanca | Analizar los caminos de funciones críticas | Grafo de flujo y complejidad ciclomática | Grupo SQA |
+| Seguridad | Detectar configuraciones inseguras | OWASP ZAP en entorno aislado | Grupo SQA |
+| Interfaz | Verificar las pantallas por rol en escritorio y teléfono | Revisión a 1440 y 390 píxeles | Grupo SQA |
+| Rendimiento y carga | Contrastar tiempos con RTR y carga con RCM | Medición en entorno comparable a producción | Grupo SQA |
+| Aceptación | Validar tareas reales con usuarios de la DSU | Registro de validación (anexo C) | Cliente y grupo SQA |
+
+### 3.11.2. Criterios de entrada y salida
+
+Una prueba se inicia con una versión identificada, las migraciones aplicadas, los datos de prueba preparados en un entorno aislado y los casos revisados. Se da por concluida cuando todos los casos se ejecutaron o tienen justificación, no quedan defectos críticos abiertos, los defectos altos están resueltos o aceptados según 2.5.4 y los resultados quedan registrados con versión y entorno.
+
+## 3.12. Gestión de configuración
+
+El objetivo del aseguramiento de calidad en esta área es comprobar que las actividades de gestión de configuración descritas en el capítulo 6 se realizan según lo establecido. Los elementos de configuración son el código del backend y del frontend, las migraciones de la base de datos, la configuración de despliegue, el modelo UML de Enterprise Architect, los documentos del proyecto y los artefactos del modelo predictivo.
+
+Las actividades mínimas de control son las siguientes:
+
+- Comprobar que la línea base de cada fase se establece en el momento previsto por PUDS: requisitos al cerrar la elaboración, diseño antes de la construcción y versión candidata antes de la transición.
+- Comprobar que la línea base es correcta, es decir, que el código, los modelos y los documentos registrados corresponden a la misma versión del producto.
+- Verificar periódicamente que el responsable de la configuración (el coordinador del grupo de desarrollo) mantiene el control de la línea base y el registro completo de cambios de requisitos, diseño, código, pruebas y documentación.
+- Verificar que toda solicitud de cambio pase por el grupo SQA, que actúa como comité de control de cambios: se registra el motivo, se analizan los productos afectados y se decide su aprobación antes de modificar la línea base.
+- Comprobar que un cambio aprobado se propaga a todos los productos afectados: casos de uso, modelos de análisis y diseño, base de datos, pruebas e interfaces.
+
+### 3.12.1. Elementos de configuración
+
+<!-- anchos: 4,6.2,6.59 -->
+| Elemento | Identificación | Ubicación |
+| --- | --- | --- |
+| Código del backend y del frontend | Confirmaciones de Git y etiqueta de versión | Carpetas `backend/` y `frontend/` del repositorio |
+| Esquema de la base de datos | Migraciones numeradas de Django | Carpeta `migrations/` de cada aplicación |
+| Configuración de despliegue | Dockerfile, archivos compose y Caddyfile versionados | Carpeta `deploy/` del backend |
+| Modelo UML | Archivo de Enterprise Architect versionado | `modelo_uml/DSU-FaseFinal.eapx` |
+| Documentos del proyecto | Nombre y fecha de versión | Repositorio y carpeta compartida |
+| Modelo predictivo | Versión registrada en cada entrenamiento | Base de datos y artefacto `.joblib` |
+
+### 3.12.2. Líneas base
+
+| Línea base | Momento | Contenido |
+| --- | --- | --- |
+| Requisitos | Fin de la iteración 2 (elaboración) | ERS y modelo de casos de uso aprobados en la SRR |
+| Diseño | Fin de la iteración 3 (elaboración) | Modelos de análisis y diseño aprobados en la PDR y la CDR |
+| Producto | Cierre de cada incremento | Código, migraciones y pruebas del incremento |
+| Entrega | Transición | Versión etiquetada, manual y evidencias auditadas |
+
+## 3.13. Notificación de problemas y acción correctiva
+
+### 3.13.1. Propósito
 
 Esta sección establece cómo se registran, corrigen y cierran los problemas detectados en revisiones, pruebas u operación.
 
-### 2.12.2. Flujo de trabajo
+### 3.13.2. Flujo de trabajo
 
 El flujo es registro, clasificación, asignación, corrección, verificación y cierre. Si no se reproduce un problema, se conservarán las condiciones conocidas y la información faltante. Si una corrección no satisface el caso que originó el hallazgo, se reabrirá el registro.
 
-### 2.12.3. Clasificación de severidad
+| Estado | Significado | Quién lo asigna |
+| --- | --- | --- |
+| Abierto | Problema registrado con su evidencia | Quien lo detecta |
+| Asignado | Clasificado por severidad y con responsable | Grupo SQA |
+| En corrección | El responsable trabaja en la solución | Grupo de desarrollo |
+| En verificación | Corrección integrada, pendiente de prueba | Grupo de desarrollo |
+| Cerrado | Corrección comprobada con la prueba que lo detectó y la regresión | Grupo SQA |
+| Reabierto | La corrección no resolvió el caso | Grupo SQA |
+
+### 3.13.3. Clasificación de severidad
 
 | Severidad | Criterio | Tratamiento |
 | --- | --- | --- |
@@ -163,22 +538,47 @@ El flujo es registro, clasificación, asignación, corrección, verificación y 
 
 La severidad describe el efecto; la prioridad define el orden de atención y considera dependencias y exposición. Toda aceptación temporal de un defecto debe indicar quién la autorizó, a qué versión aplica y qué limitación debe comunicarse.
 
-### 2.12.4. Métricas de seguimiento
+### 3.13.4. Métricas de seguimiento
 
 Se registrarán los defectos abiertos por severidad y versión, el tiempo entre registro y cierre, y los defectos reabiertos. Estos valores alimentan el indicador de defectos pendientes del PAPS.
 
-## 2.13. Herramientas, técnicas y metodologías
+## 3.14. Herramientas, técnicas y metodologías
 
-Enterprise Architect conserva modelos; Git mantiene versiones; pytest permite ejecutar pruebas del backend; las herramientas del frontend comprueban construcción y consistencia técnica; ZAP aporta una revisión de seguridad dentro del alcance configurado. Las capturas y registros de API se utilizarán como evidencia complementaria. El resultado de una herramienta se interpretará según su configuración y no como una certificación automática.
+| Herramienta, técnica o metodología | Uso en el aseguramiento de calidad |
+| --- | --- |
+| PUDS | Organiza el trabajo en fases e iteraciones dirigidas por casos de uso |
+| Enterprise Architect | Modelos UML de requisitos, análisis y diseño, y trazabilidad RF–CU |
+| Git y GitHub | Control de versiones, historial y revisión de cambios |
+| pytest y pytest-django | Pruebas unitarias y de integración de la API con reportes JUnit |
+| Ruff, oxlint y TypeScript | Análisis estático y comprobación de tipos del backend y del frontend |
+| Docker | Entorno reproducible para las pruebas en Linux y para el despliegue |
+| OWASP ZAP | Revisión de seguridad de la aplicación |
+| Revisión técnica formal y listas de verificación | Detección temprana de defectos en documentos y modelos |
+| Caja negra y caja blanca | Particiones de equivalencia, valores límite, caminos independientes y complejidad ciclomática |
 
-## 2.14. Control de medios
+Las capturas y registros de API se utilizarán como evidencia complementaria. El resultado de una herramienta se interpretará según su configuración y no como una certificación automática.
 
-### 2.14.1. Propósito
+## 3.15. Control de código
+
+Esta sección define los métodos y medios con que se controla el almacenamiento y el mantenimiento de las versiones del código:
+
+- **Software controlado.** Todo el código del sistema: backend Django (`backend/`), frontend React (`frontend/`), migraciones de la base de datos, scripts de carga y respaldo, configuración de contenedores y despliegue, y los generadores de la documentación.
+- **Identificación y catalogación.** Un único repositorio Git (ProyectoDSU) con la rama principal `main` como línea base. Cada confirmación describe un cambio completo; cada versión entregada se identifica con una etiqueta `vMAYOR.MENOR` que la relaciona con su documentación y sus evidencias de prueba.
+- **Localización física.** Repositorio privado en GitHub (https://github.com/vangiewz/ProyectoDSU) y copias locales de trabajo de cada integrante.
+- **Copias de seguridad.** El historial de Git queda replicado en GitHub y en cada copia local. La base de datos se respalda diariamente con `pg_dump` en un contenedor dedicado, que conserva los respaldos de los últimos 14 días.
+- **Distribución de copias.** El acceso al repositorio se concede solo a los integrantes del equipo y a quienes el grupo autorice para la evaluación. Las copias entregadas para evaluación se publican en la carpeta compartida del proyecto, sin credenciales.
+- **Documentación afectada.** Un cambio de código se acompaña de la actualización de los requisitos, modelos, pruebas y manual que describen el comportamiento modificado.
+- **Construcción de una nueva versión.** Se ejecutan las comprobaciones de Ruff, oxlint y TypeScript y la regresión completa con pytest; se aplican las migraciones; se construye la imagen Docker del backend y la versión de producción del frontend, y se despliegan en sus entornos.
+
+## 3.16. Control de medios
+
+### 3.16.1. Propósito
 
 El código, los documentos, los diagramas, los datos de prueba y los artefactos del modelo se tratarán como elementos de configuración. El acceso al repositorio privado se limitará al equipo autorizado. Las copias compartidas para evaluación deben revisarse para excluir secretos y datos personales no necesarios.
 
-### 2.14.2. Matriz de control de medios
+### 3.16.2. Matriz de control de medios
 
+<!-- anchos: 3.4,5.2,3.6,4.59 -->
 | Medio | Ubicación | Control de acceso | Respaldo |
 | --- | --- | --- | --- |
 | Código fuente | Repositorio Git ProyectoDSU en GitHub | Cuentas del equipo | Historial de Git y copias locales |
@@ -187,31 +587,78 @@ El código, los documentos, los diagramas, los datos de prueba y los artefactos 
 | Evidencias de pruebas | Carpeta de auditoría del repositorio | Cuentas del equipo | Historial de Git |
 | Modelo predictivo | Artefacto versionado por entrenamiento | Rol Administrador | Registro de versiones del modelo |
 
-### 2.14.3. Roles y responsabilidades
+### 3.16.3. Roles y responsabilidades
 
 Ambos integrantes administran el repositorio. Quien modifica un medio registra el cambio; el otro integrante lo revisa.
 
 La base demo compartida no será utilizada para pruebas destructivas. Los cambios de estructura o datos se coordinarán entre integrantes.
 
-## 2.15. Control de proveedores
+## 3.17. Control de proveedores
 
 Se registrarán proveedor, servicio utilizado, dependencia del sistema, responsable de acceso y condición de continuidad. Para Neon se comprobará conexión segura y persistencia; para Vercel y AWS, configuración y disponibilidad de los entornos; para Power BI, actualización y acceso al informe; para cartografía, atribución y disponibilidad de recursos.
 
-## 2.16. Recopilación, mantenimiento y retención de registros
+<!-- anchos: 3.6,3.4,3.8,5.99 -->
+| Proveedor | Servicio | Uso en DSU | Control |
+| --- | --- | --- | --- |
+| Neon | PostgreSQL gestionado | Base de datos de producción | Conexión cifrada y respaldo diario propio con pg_dump |
+| Amazon Web Services | EC2 con Linux y Docker | Backend de producción | Configuración versionada y verificación de disponibilidad |
+| Vercel | Hospedaje estático | Frontend | Publicación de la versión de producción con HTTPS |
+| GitHub | Repositorio privado | Código y documentos | Acceso restringido y copias locales |
+| Microsoft | Power BI | Tableros analíticos | Conexión de solo lectura a las vistas analíticas |
+| OpenStreetMap | Teselas de mapa | Cartografía del campus | Atribución visible y disponibilidad del servicio |
+
+## 3.18. Recopilación, mantenimiento y retención de registros
 
 Cada evidencia conservará identificador, fecha, autor o herramienta, versión del producto, entorno y ubicación. Los resultados originales se mantendrán junto a una copia apta para revisión sin información sensible. Una corrección documental no debe reemplazar silenciosamente el resultado original de una prueba.
 
-El equipo conserva registros durante el desarrollo y la evaluación académica, revisando después la retención con el destinatario institucional.
+El equipo conserva registros durante el desarrollo y la evaluación académica, revisando después la retención con el destinatario institucional. El proceso es crear, identificar, almacenar, proteger, revisar y disponer cada registro.
 
-## 2.17. Capacitación
+<!-- anchos: 4.6,3.6,4.2,4.39 -->
+| Tipo de registro | Formato | Ubicación | Retención mínima |
+| --- | --- | --- | --- |
+| Informes de revisión, RTF y auditoría | Documento | Repositorio | Hasta un año después del cierre del proyecto |
+| Resultados de pruebas | XML JUnit, JSON y capturas | Carpeta de auditoría del repositorio | Vida útil de la versión probada |
+| Registros de problemas | Formato del anexo B | Repositorio | Hasta un año después del cierre del proyecto |
+| Bitácora de auditoría del sistema | Tabla de la base de datos | Neon | Permanente; no se modifica ni elimina |
+| Respaldos de la base de datos | Archivo de pg_dump | Volumen de respaldos | 14 días |
+| Historial de código y documentos | Git | GitHub | Permanente |
+
+El acceso a los registros se limita al equipo y a quienes autorice la DSU. La gestión de registros cumple su objetivo cuando toda evidencia es localizable por su identificador, ninguna carece de versión y ninguna copia compartida contiene credenciales.
+
+## 3.19. Capacitación
 
 La preparación del equipo abarcará uso del modelo UML, ejecución de pruebas aisladas, revisión de permisos, manejo de configuración y lectura de métricas predictivas. La capacitación de usuarios se organizará por rol y tarea, con ejercicios de registro, planificación y consulta.
 
-## 2.18. Gestión de riesgos
+<!-- anchos: 5,3.6,4.4,3.79 -->
+| Tema | Destinatarios | Modalidad | Evidencia |
+| --- | --- | --- | --- |
+| Revisión técnica formal y listas de verificación | Grupo de desarrollo | Sesión guiada sobre un producto real | Informe de RTF |
+| Pruebas aisladas y regresión | Grupo de desarrollo | Práctica con la suite del proyecto | Reporte JUnit |
+| Registro en campo desde el teléfono | Personal operativo | Práctica con datos de prueba | Registro de validación |
+| Planificación y control de jornadas | Supervisores | Práctica guiada por el manual | Registro de validación |
+| Tableros, mapa y predicciones | Directivos | Demostración | Registro de validación |
+| Administración del sistema y del modelo | Administrador | Práctica guiada | Lista de tareas completadas |
+
+## 3.20. Gestión de riesgos
 
 Se priorizará el tratamiento de datos no representativos, requisitos ambiguos, diferencias entre modelos y código, resultados de pruebas desactualizados y condiciones productivas no verificadas. Cada revisión de calidad actualizará el registro de riesgos del PAPS. Un hallazgo repetido debe analizarse también como problema del proceso, por ejemplo, una ausencia de revisión que permite errores similares en varios módulos.
 
-## 2.19. Glosario
+Se aplica la escala del PAPS: probabilidad (P) e impacto (I) de 1 a 5 y exposición P × I, tratando primero los valores de 15 a 25. Los riesgos propios de la calidad son:
+
+<!-- anchos: 4.6,1.4,2.2,6,2.59 -->
+| Riesgo de calidad | P e I | Exposición | Tratamiento | Responsable |
+| --- | --- | --- | --- | --- |
+| Datos históricos no representativos | 4 y 5 | 20 | Separar la evaluación técnica de la validación institucional | Grupo de desarrollo |
+| Diferencias entre modelos, documentos y código | 3 y 4 | 12 | Auditoría física y revisión en cada cambio | Grupo SQA |
+| Condiciones de producción no verificadas | 3 y 4 | 12 | Pruebas en un entorno comparable antes de liberar | Grupo SQA |
+| Exposición de credenciales en entregas | 2 y 5 | 10 | Revisar las copias compartidas antes de publicarlas | Grupo de desarrollo |
+| Resultados de pruebas desactualizados | 3 y 3 | 9 | Registrar la versión en cada resultado y repetir la regresión | Grupo de desarrollo |
+| Requisitos ambiguos o sin criterio de prueba | 2 y 4 | 8 | SRR con lista de verificación | Grupo SQA |
+| Defectos reabiertos repetidamente | 2 y 3 | 6 | Analizar la causa en el proceso | Grupo SQA |
+
+Cada riesgo se trata evitando su causa, mitigando su efecto o aceptándolo de forma explícita, y se revisa al cerrar cada fase.
+
+## 3.21. Glosario
 
 | Término | Significado en el proyecto | Aplicación |
 | --- | --- | --- |
@@ -221,87 +668,28 @@ Se priorizará el tratamiento de datos no representativos, requisitos ambiguos, 
 | Hallazgo | Desviación sustentada por evidencia | Registro para análisis y tratamiento |
 | Regresión | Reejecución para detectar efectos de cambios | Pruebas sobre funciones previamente comprobadas |
 | Aceptación | Decisión documentada sobre una entrega | Distinta de una ejecución técnica satisfactoria |
+| Certificación | Reconocimiento formal de que un proceso o producto cumple un estándar | ISO 9001, IEEE 730 o CMMI |
+| ERS | Especificación de requisitos de software | Requisitos RF, RNF y restricciones del sistema |
+| SDD | Descripción del diseño del software | Módulos, procesos, datos e interfaces |
+| V&V | Verificación y validación | Producto construido correctamente y producto correcto |
+| RTF | Revisión técnica formal | Reunión planificada para detectar defectos en un producto |
+| Elemento de configuración | Producto controlado por versiones | Código, esquema, modelos, documentos y modelo predictivo |
+| Auditoría funcional | Comparación del sistema con la ERS | Previa a la entrega |
+| Auditoría física | Comparación del código con su documentación | Previa a la entrega |
 
-## 2.20. Procedimiento e historial de cambios del SQAP
+## 3.22. Procedimiento e historial de cambios del SQAP
 
 Una modificación del plan debe indicar motivo, apartados afectados, repercusión en actividades y responsable de revisión. El equipo revisará los cambios que alteren criterios de liberación, distribución de funciones o alcance de pruebas.
 
+<!-- anchos: 1.8,2.4,10,2.59 -->
 | Versión | Fecha | Cambio | Responsable |
 | --- | --- | --- | --- |
 | 1.0 | 16/11/2026 | Primera redacción del plan | Grupo 8 |
+| 1.1 | 17/11/2026 | Se agregan concepto de SQA y estándares de certificación, objetivos, lema, atributos de calidad, organizaciones y responsabilidades, resumen de ERS y SDD, plan de V&V, documentación de usuario, estándares de codificación y comentarios, revisiones y agenda, niveles de prueba, gestión de configuración, control de código, retención de registros y riesgos de calidad | Grupo 8 |
 
-## 2.21. Anexos
+## 3.23. Anexos
 
 Los formatos de registro de revisión técnica, de problema y acción correctiva y de validación con usuarios, junto con la localización de las evidencias, se encuentran en los anexos A a D al final del documento.
-
-# 3. Modelo de desarrollo de software mediante PUDS
-
-## 3.1. Organización del proceso
-
-El proyecto adopta el Proceso Unificado de Desarrollo de Software, dirigido por casos de uso, centrado en la arquitectura e iterativo e incremental. Se organiza temporalmente en Inicio, Elaboración, Construcción y Transición. Los flujos de requisitos, análisis, diseño, implementación y pruebas atraviesan las fases con distinta intensidad; no son nombres alternativos de esas fases (Jacobson, Booch y Rumbaugh, 2000).
-
-Los artefactos existentes permiten documentar el producto construido y sus relaciones. La correspondencia presentada a continuación organiza esos artefactos según las fases de PUDS.
-
-## 3.2. Fase de Inicio
-
-El objetivo de Inicio es delimitar el problema y el alcance, identificar destinatarios y reconocer riesgos que condicionan la viabilidad. Para DSU, la necesidad central es consolidar información de residuos y utilizarla en la planificación de recolección. El perfil, los objetivos y la identificación de cuatro actores proporcionan la base de esta fase.
-
-El producto comprende ocho áreas funcionales y 27 requisitos funcionales. El valor previsto es mejorar la disponibilidad y trazabilidad de información para la operación y la decisión. No se cuantifica un ahorro institucional sin una línea base de costos y mediciones de uso.
-
-Los riesgos iniciales incluyen calidad del histórico, participación de usuarios, permisos, conectividad y disponibilidad del despliegue. La revisión de Inicio debe comprobar comprensión del alcance, responsabilidades y condiciones para continuar.
-
-## 3.3. Fase de Elaboración
-
-### 3.3.1. Captura y organización de requisitos
-
-La especificación del producto conserva RF1 a RF27 y sus requisitos no funcionales, de interfaces, datos, diseño y rendimiento. El modelo detalla 34 casos de uso para Administrador del Sistema, Supervisor de Recolección, Personal Operativo de Limpieza y Cuerpo Directivo de la DSU. La matriz de este capítulo permite seguir la relación RF–CU sin alterar la numeración compartida.
-
-### 3.3.2. Arquitectura y paquetes
-
-La arquitectura separa la interfaz web, la API y la persistencia. Los módulos operativos registran eventos; el ETL prepara información analítica; los indicadores y mapas facilitan consulta; el componente predictivo utiliza el histórico para producir estimaciones y recomendaciones. La seguridad y la auditoría tienen efecto transversal.
-
-<!-- figura arquitectura -->
-
-El modelo general de componentes se reutiliza como artefacto del producto y conserva su fuente de Enterprise Architect.
-
-### 3.3.3. Decisiones y riesgos arquitectónicos
-
-Se mantiene PostgreSQL en Neon. La aplicación web usa React y la API Django. La predicción corresponde a Random Forest Regressor y las recomendaciones se basan en reglas; no se introduce un modelo de lenguaje como requisito. Las funciones de entrenamiento y ETL requieren controlar carga y acceso porque comparten recursos con otros componentes.
-
-La revisión de Elaboración debe contrastar permisos, reglas transaccionales, separación analítica e interfaces externas. La existencia de modelos y código permite comprobar decisiones técnicas, pero el rendimiento remoto y la validación del histórico institucional siguen necesitando evidencia específica.
-
-## 3.4. Fase de Construcción
-
-Se agrupan los incrementos del producto por dependencias funcionales: acceso y catálogos; operación y logística; analítica y cartografía; predicción y administración. Esta agrupación organiza el trabajo y la documentación; no se le asignan fechas históricas de iteración que no estén registradas.
-
-| Incremento de referencia | Producto integrado | Verificación prioritaria |
-| --- | --- | --- |
-| Acceso y catálogos | Usuarios, roles y estructura territorial | Permisos, validaciones y consistencia de referencias |
-| Operación y logística | Vaciados, incidencias y jornadas | Estados, asignación, omisiones y cierre |
-| Analítica y cartografía | ETL, indicadores, mapas y reportes | Totales, filtros y correspondencia con los registros |
-| Predicción y administración | Modelo, estimaciones, recomendaciones y auditoría | Evaluación, publicación, márgenes y trazabilidad |
-
-La evidencia técnica disponible comprende implementación de los requisitos funcionales según el registro del proyecto, pruebas automatizadas y revisión de pantallas. Un módulo implementado no se considera automáticamente aceptado.
-
-## 3.5. Fase de Transición
-
-La Transición prepara el uso y la entrega: instalación, verificación del entorno, manuales, capacitación y aceptación. La arquitectura utiliza Vercel para el frontend, AWS EC2 con Linux y Docker para la API y Neon para datos.
-
-Para cerrar esta fase se propone verificar el acceso por roles, un recorrido operativo completo, actualización analítica, predicción con su margen, exportación de reportes y recuperación de información. El piloto institucional debe identificar usuarios, datos autorizados, periodo de observación y criterios de aceptación. El cierre dependerá de evidencias y decisiones documentadas.
-
-## 3.6. Trazabilidad del producto
-
-La matriz siguiente se obtiene del catálogo de casos de uso del proyecto, consultado para esta edición. Su función es permitir localizar el comportamiento que concreta cada requisito. La vinculación con pruebas se desarrolla en el capítulo 9 y en las evidencias técnicas identificadas.
-
-<!-- matriz cu -->
-
-## 3.7. Ejemplo de aplicación del proceso a una jornada
-
-En requisitos, el flujo define que el supervisor planifica una jornada y asigna recursos; la operación atiende los puntos y registra omisiones justificadas. En análisis se identifican jornada, personal, vehículo, punto y registro. En diseño se establecen estados y servicios responsables de validar las transiciones. En implementación, estas reglas se materializan en los servicios de operaciones.
-
-La verificación comprueba asignaciones inválidas, conflictos de turno y cierre con puntos pendientes. La validación debe contrastar que la secuencia representa el trabajo de la DSU. Así, el mismo caso de uso conecta necesidades, decisiones de diseño y evidencias, sin depender de que cada flujo se ejecute una sola vez.
-
-<!-- modelos puds -->
 
 # 4. Herramientas CASE y productividad
 
@@ -351,8 +739,8 @@ La productividad aportada por las herramientas CASE se evalúa con evidencia med
 
 | Actividad del ciclo de vida | Herramienta | Evidencia medida en el proyecto | Verificación |
 | --- | --- | --- | --- |
-| Especificación de requisitos y casos de uso | Enterprise Architect | 27 requisitos funcionales trazados a 34 casos de uso y 4 actores en un único modelo | Modelo DSU-FaseFinal.eapx y matriz de trazabilidad del capítulo 3 |
-| Análisis y diseño | Enterprise Architect | 34 realizaciones de análisis, diagramas de clases, secuencia, paquetes, componentes y despliegue exportados del mismo modelo | Figuras del capítulo 3, generadas desde el modelo y no redibujadas |
+| Especificación de requisitos y casos de uso | Enterprise Architect | 27 requisitos funcionales trazados a 34 casos de uso y 4 actores en un único modelo | Modelo DSU-FaseFinal.eapx y matriz de trazabilidad del capítulo 2 |
+| Análisis y diseño | Enterprise Architect | 34 realizaciones de análisis, diagramas de clases, secuencia, paquetes, componentes y despliegue exportados del mismo modelo | Figuras del capítulo 2, generadas desde el modelo y no redibujadas |
 | Diseño del esquema de base de datos | Migraciones de Django | Esquema PostgreSQL creado y actualizado solo por migraciones versionadas, sin sentencias DDL escritas a mano | Carpetas migrations de cada aplicación del backend |
 | Pruebas de regresión del backend | pytest y pytest-django | 42 pruebas sin fallos ni errores: 98,8 s en Windows y 41,4 s en Linux con Docker (16/11/2026) | Reportes JUnit XML de la carpeta de pruebas del material del proyecto |
 | Calidad estática del código | Ruff, oxlint y TypeScript | Reglas de estilo y errores comunes revisados en cada cambio, sin revisión manual línea por línea | pyproject.toml, .oxlintrc.json y tsconfig del repositorio |
