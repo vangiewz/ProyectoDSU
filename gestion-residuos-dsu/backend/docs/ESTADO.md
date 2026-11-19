@@ -2,6 +2,14 @@
 
 Última actualización de contexto: 2026-11-16. Este archivo vive en la carpeta backend del repositorio unificado ProyectoDSU y cubre todo el sistema (backend y frontend). Las verificaciones anteriores conservan sus fechas; las comprobaciones nuevas se detallan a continuación.
 
+## Despliegue en producción (18/11/2026)
+
+- API desplegada en **Azure VM** `dsu-api` (Standard_B2als_v2, Ubuntu 24.04, Mexico Central): `deploy/compose.azure.yml` (app Gunicorn, Caddy con Let's Encrypt, respaldo pg_dump diario 14 días), `.env` de producción solo en la VM (`~/dsu/backend/.env`), cron horario del ETL. URL: https://dsu-uagrm-api.mexicocentral.cloudapp.azure.com. AWS quedó descartado (la suscripción disponible es Azure for Students; regiones permitidas: EE. UU., Canadá, México).
+- Frontend en Vercel (`dsu-uagrm`, `VITE_API_URL` configurada): https://dsu-uagrm.vercel.app. CORS de la API: solo ese origen.
+- Monitoreo: Application Insights `residata-monitor` (prueba de disponibilidad de la API cada 15 min) y alertas de CPU, memoria y disponibilidad por correo.
+- Suite: 50 pruebas sin fallos (nuevo `operations/tests/test_registro_caminos.py`, caminos de RF8); CI en `.github/workflows/ci.yml`.
+- Latencia observada: login 4,8–6,9 s y carga de pantallas 3,4–7,3 s desde el navegador (VM en México, Neon en São Paulo).
+
 ## Auditoría de fase final (16/11/2026)
 
 - La arquitectura productiva prevista es frontend Vercel, API en AWS EC2 Linux/Docker en São Paulo y PostgreSQL gestionado por Neon. Hay configuración revisable en `deploy/compose.aws.yml` y `deploy/Caddyfile`; no se ha acreditado despliegue remoto. El compose local publica el puerto de API solo en loopback.
