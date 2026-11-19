@@ -1,0 +1,22 @@
+{
+  "fecha": "2026-11-19",
+  "dispositivo": "Samsung Galaxy S23 (SM-S911U)",
+  "backend": "Azure - API desplegada",
+  "login_supervisor": true,
+  "persistencia_sesion_tras_reinicio": true,
+  "mapa_con_puntos_api": true,
+  "gps_y_sugerencia_cercana": true,
+  "coordenadas_personales_guardadas": false,
+  "dictado_real": "Confirmado por el usuario en el telefono",
+  "envio_desde_boton_flutter": true,
+  "incidencia_prueba_id": 11,
+  "marca": "DSU-MOVIL-20261119-01",
+  "estado_final": "ATENDIDA",
+  "verificacion_persistencia": "GET independiente tras el envio y tras atender",
+  "limites": [
+    "No es prueba en recorrido fisico por el campus",
+    "Sin camara ni fotos adjuntas",
+    "Sin cola offline",
+    "Sin prueba exhaustiva de todos los roles"
+  ]
+}

@@ -144,3 +144,14 @@ Tests: `backend/apps/accounts/tests/`, `backend/apps/operations/tests/`, `backen
 Chrome visible, cinco cuentas y PostgreSQL 18 propio: evidencias independientes en `../../../auditoria_gui/INFORME_FINAL.md`. Se recorrieron 34 CU; 28 flujos principales aprobados y 6 parciales. No se acredita cobertura exhaustiva. Se corrigieron validaciones de cantidades, auditoría M2M, límites BBOX, roles dinámicos y predictivos, mensajes 404, edición gráfica de planificación y respuestas asíncronas atrasadas. `npm run build` pasa; lint conserva nueve advertencias previas. No se modificó Neon ni se publicó. Consultar matrices y pendientes antes de sostener un 100 %.
 
 Regresión final de esta validación: 74 pruebas aprobadas en PostgreSQL aislado (236,50 s). Evidencias: `auditoria_gui/regresion/`.
+
+
+## Complemento móvil y cierre de materiales — 19/11/2026
+
+Por pedido del usuario, se añadió `../movil/` (Flutter Android) sin alterar el Word/PDF académico. Usa la misma API HTTPS de Azure, cuenta y permisos. GPS puntual para sugerir y ordenar puntos permitidos por cercanía, confirmación del código, mapa e indicaciones y reporte de incidencias con dictado en español. No implementa fotos ni cola offline; no guarda coordenadas personales en Azure.
+
+Ocho pruebas automáticas aprobadas y análisis Flutter sin incidencias. En Samsung Galaxy S23 por ADB se verificaron login supervisor, sesión restaurada, mapa y puntos, GPS/sugerencia; el usuario confirmó el dictado real. El botón de la app creó una única incidencia de prueba (ID 11, marca DSU-MOVIL-20261119-01), contrastada por GET y dejada ATENDIDA mediante la API. No se ejecutaron seed, ETL, entrenamiento ni migraciones. Evidencia sanitizada: `../../../auditoria_movil/resultado_dispositivo.json`.
+
+CI ampliado a la rama `cierre-software2-20261118`, con análisis, pruebas y APK demo ARM64. El CD de API continúa limitado a main. Azure se inspeccionó por SSH: contenedor en ejecución identificado como 4980f79. La revisión de Residata aún requiere publicar los cambios desde la cuenta propietaria; no confundir un despliegue intentado con uno aprobado.
+
+Se retiraron 980 copias idénticas solo de Entregables/versiones (109,9 MiB del árbol actual), preservando cada contenido único y el documento vigente. Índice SHA-256 y reconstrucción en esa carpeta. No se reescribió Git ni se retiraron las credenciales autorizadas del repositorio privado. Se preparó folleto PDF complementario y guía de Android. Las pruebas de frontend pasan con nueve advertencias previas de lint; no equivalen a una nueva prueba exhaustiva de producción.

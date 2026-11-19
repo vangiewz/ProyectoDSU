@@ -1,10 +1,10 @@
 # Integración y despliegue continuos del sistema DSU / Residata.
-# CI en cada push y pull request; CD a la VM de Azure solo desde main y con los secrets configurados.
+# CI en pushes a main/cierre-software2-20261118 y pull requests; CD a la VM de Azure solo desde main y con los secrets configurados.
 name: CI/CD
 
 on:
   push:
-    branches: [main]
+    branches: [main, cierre-software2-20261118]
   pull_request:
   workflow_dispatch:
 
@@ -82,6 +82,28 @@ jobs:
           node probar_salud.cjs
           python construir.py
           git diff --exit-code -- '*.html' feed.xml
+
+  movil:
+    name: Móvil (Flutter analyze + test + APK)
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: gestion-residuos-dsu/movil
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.41.7"
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - run: flutter build apk --debug --split-per-abi --target-platform android-arm64
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dsu-campo-android-demo
+          path: gestion-residuos-dsu/movil/build/app/outputs/flutter-apk/app-arm64-v8a-debug.apk
 
   desplegar-api:
     name: Desplegar API en Azure VM

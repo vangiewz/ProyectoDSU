@@ -1,3 +1,5 @@
+> **Contexto vigente al 19/11/2026:** la entrega canónica está en `../revision_documental_final/entrega/Documento_Software_2_DSU_Entrega.pdf` y su Word. Leer `CONTINUAR_SESION.md`; el avance descrito debajo es histórico. La app Flutter complementaria está en `../gestion-residuos-dsu/movil/`, fuera del documento académico por decisión del usuario.
+
 # Software 2 — contexto del proyecto DSU
 
 Actualizado: 16/11/2026.

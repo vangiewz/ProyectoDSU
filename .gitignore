@@ -48,3 +48,7 @@ Thumbs.db
 /auditoria_gui/Evidencias_GUI_DSU_Residata.zip
 /revision_documental_final/entrega/evidencias/Evidencias_GUI_DSU_Residata.zip
 /Entregables/Software2_Final_20261119.zip
+
+# Paquetes reconstruibles para Drive; las fuentes y el APK demo se conservan en Git.
+/Entregables/Drive_Actualizado_20261119/
+/Entregables/Entrega_Final_DSU_20261119.zip
