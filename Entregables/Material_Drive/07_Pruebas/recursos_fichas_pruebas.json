@@ -1,0 +1,276 @@
+{
+  "fuente": "docs\\versiones\\2026-11-16_cap1-10_en_revision_02.docx",
+  "sha256": "7a31159f0a78d3877508a160537521aa7e96fac8ba7edfe8473e49874aba6053",
+  "casos": [
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-01. Credenciales válidas. CU1. Iniciar sesión.",
+      "Descripción": "Comprobar el escenario «Credenciales válidas» de RF3.",
+      "Precondición": "Operario activo con credenciales de prueba válidas. Base aislada; fixture: apps/accounts/tests/test_acceso.py::test_login_emite_tokens_y_registra_bitacora.",
+      "Entrada": "POST /api/auth/login/; parámetros: {}; datos: {\"username\": [\"oper_t\"], \"password\": \"[omitido]\"}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 200. {\"refresh\": \"[omitido]\", \"access\": \"[omitido]\"}",
+      "Resultado esperado": "HTTP 200. Emitir access y refresh; registrar LOGIN."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-02. Credenciales incorrectas. CU1. Iniciar sesión.",
+      "Descripción": "Comprobar el escenario «Credenciales incorrectas» de RF3.",
+      "Precondición": "Mismo usuario activo; contraseña incorrecta. Base aislada; fixture: apps/accounts/tests/test_acceso.py::test_login_emite_tokens_y_registra_bitacora.",
+      "Entrada": "POST /api/auth/login/; parámetros: {}; datos: {\"username\": [\"oper_t\"], \"password\": \"[omitido]\"}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 401. {\"detail\": \"No active account found with the given credentials\"}",
+      "Resultado esperado": "HTTP 401. Rechazar las credenciales y registrar LOGIN_FALLIDO."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-03. Cierre de sesión. CU2. Cerrar sesión.",
+      "Descripción": "Comprobar el escenario «Cierre de sesión» de RF3.",
+      "Precondición": "Sesión JWT iniciada y refresh válido. Base aislada; fixture: apps/accounts/tests/test_roles_y_sesion.py::test_logout_revoca_refresh_y_conserva_evidencia.",
+      "Entrada": "POST /api/auth/logout/; parámetros: {}; datos: {\"refresh\": \"[omitido]\"}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 205. {\"tipo\": null, \"bytes\": 0, \"firma\": \"\"}",
+      "Resultado esperado": "HTTP 205. Aceptar el cierre de sesión y revocar el refresh."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-04. Refresh revocado. CU2. Cerrar sesión.",
+      "Descripción": "Comprobar el escenario «Refresh revocado» de RF3.",
+      "Precondición": "Refresh del escenario anterior ya revocado. Base aislada; fixture: apps/accounts/tests/test_roles_y_sesion.py::test_logout_revoca_refresh_y_conserva_evidencia.",
+      "Entrada": "POST /api/auth/refresh/; parámetros: {}; datos: {\"refresh\": \"[omitido]\"}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 401. {\"detail\": \"Token is blacklisted\", \"code\": \"token_not_valid\"}",
+      "Resultado esperado": "HTTP 401. Rechazar la renovación con ese refresh."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-05. Operativo sin acceso a usuarios. CU3. Gestionar usuarios.",
+      "Descripción": "Comprobar el escenario «Operativo sin acceso a usuarios» de RF1.",
+      "Precondición": "Identidad Operativo sin permiso de administración de usuarios. Base aislada; fixture: apps/accounts/tests/test_acceso.py::test_operativo_no_administra_usuarios.",
+      "Entrada": "GET /api/usuarios/; parámetros: {}; datos: {}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 403. {\"detail\": \"Usted no tiene permiso para realizar esta acción.\"}",
+      "Resultado esperado": "HTTP 403. Denegar la consulta y registrar ACCESO_DENEGADO."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-06. Contraseña insuficiente. CU3. Gestionar usuarios.",
+      "Descripción": "Comprobar el escenario «Contraseña insuficiente» de RF1.",
+      "Precondición": "Administrador autorizado; nueva cuenta con contraseña 123. Base aislada; fixture: apps/accounts/tests/test_acceso.py::test_crear_usuario_valida_politica_de_contrasena.",
+      "Entrada": "POST /api/usuarios/; parámetros: {}; datos: {\"username\": \"nuevo\", \"first_name\": \"N\", \"last_name\": \"U\", \"roles\": [\"Operativo\"], \"password\": \"[omitido]\"}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. {\"non_field_errors\": [\"La contraseña es demasiado corta. Debe contener por lo menos 8 caracteres.\", \"Esta contraseña es demasiado común.\", \"Esta contraseña es completamente numérica.\"]}",
+      "Resultado esperado": "HTTP 400. Rechazar la contraseña por la política de validación."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-07. Creación válida de usuario. CU3. Gestionar usuarios.",
+      "Descripción": "Comprobar el escenario «Creación válida de usuario» de RF1.",
+      "Precondición": "Administrador autorizado; misma cuenta con contraseña válida. Base aislada; fixture: apps/accounts/tests/test_acceso.py::test_crear_usuario_valida_politica_de_contrasena.",
+      "Entrada": "POST /api/usuarios/; parámetros: {}; datos: {\"username\": \"nuevo\", \"first_name\": \"N\", \"last_name\": \"U\", \"roles\": [\"Operativo\"], \"password\": \"[omitido]\"}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 201. {\"id\": 17}; otros campos conservados en la evidencia JSON.",
+      "Resultado esperado": "HTTP 201. Crear la cuenta con rol Operativo y omitir password en la respuesta."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-08. Planificación válida. CU14. Planificar jornada y ruta de recolección.",
+      "Descripción": "Comprobar el escenario «Planificación válida» de RF11.",
+      "Precondición": "Supervisor de un sector con puntos P1 y P2 disponibles. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/; parámetros: {}; datos: {\"fecha\": \"2026-11-16\", \"turno\": \"MANANA\", \"sector\": 20, \"puntos\": [35, 36]}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 201. {\"id\": 19, \"estado\": \"PLANIFICADA\"}; otros campos conservados en la evidencia JSON.",
+      "Resultado esperado": "HTTP 201. Crear la jornada y conservar el orden P1, P2 de la ruta."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-09. Duplicación de jornada. CU14. Planificar jornada y ruta de recolección.",
+      "Descripción": "Comprobar el escenario «Duplicación de jornada» de RF11.",
+      "Precondición": "Ya existe una jornada con la misma fecha, turno y sector. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/; parámetros: {}; datos: {\"fecha\": \"2026-11-16\", \"turno\": \"MANANA\", \"sector\": 20, \"puntos\": [35]}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. {\"non_field_errors\": [\"Los campos fecha, turno, sector deben formar un conjunto único.\"]}",
+      "Resultado esperado": "HTTP 400. Rechazar la combinación duplicada de fecha, turno y sector."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-10. Asignación sin responsable. CU15. Asignar personal y vehículos a la jornada.",
+      "Descripción": "Comprobar el escenario «Asignación sin responsable» de RF13.",
+      "Precondición": "Jornada planificada; se informa personal pero responsable nulo. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/19/asignar/; parámetros: {}; datos: {\"personal\": [106], \"responsable\": null}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. {\"responsable\": \"Debe designar un responsable de la jornada.\"}",
+      "Resultado esperado": "HTTP 400. Rechazar la asignación sin responsable."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-11. Asignación válida. CU15. Asignar personal y vehículos a la jornada.",
+      "Descripción": "Comprobar el escenario «Asignación válida» de RF13.",
+      "Precondición": "Jornada planificada; responsable válido incluido en el personal. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/19/asignar/; parámetros: {}; datos: {\"personal\": [106], \"responsable\": 106}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 200. {\"id\": 19, \"estado\": \"PLANIFICADA\"}; otros campos conservados en la evidencia JSON.",
+      "Resultado esperado": "HTTP 200. Aceptar la asignación del personal y responsable."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-12. Cantidad cero. CU9. Registrar vaciado de residuos.",
+      "Descripción": "Comprobar el escenario «Cantidad cero» de RF8.",
+      "Precondición": "Jornada abierta por el operario; punto P1 pendiente. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/19/visitas/; parámetros: {}; datos: {\"punto\": 35, \"detalles\": [{\"tipo_residuo\": 18, \"cantidad\": \"0\"}]}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. {\"detalles\": {\"0\": {\"cantidad\": [\"Asegúrese de que este valor es mayor o igual a 0.001.\"]}}}",
+      "Resultado esperado": "HTTP 400. Rechazar una cantidad igual a cero."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-13. Cantidad superior a capacidad permitida. CU9. Registrar vaciado de residuos.",
+      "Descripción": "Comprobar el escenario «Cantidad superior a capacidad permitida» de RF8.",
+      "Precondición": "Jornada abierta; P1 tiene capacidad de 100 kg y tolerancia de 1,5. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/19/visitas/; parámetros: {}; datos: {\"punto\": 35, \"detalles\": [{\"tipo_residuo\": 18, \"cantidad\": \"151\"}]}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. {\"detalles\": \"151.00 kg excede de forma manifiesta la capacidad del punto (100.00 kg).\"}",
+      "Resultado esperado": "HTTP 400. Rechazar 151 kg por superar la capacidad admitida de 150 kg."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-14. Vaciado válido. CU9. Registrar vaciado de residuos.",
+      "Descripción": "Comprobar el escenario «Vaciado válido» de RF8.",
+      "Precondición": "Jornada abierta; P1 pendiente y cantidad válida de 35,5 kg. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/19/visitas/; parámetros: {}; datos: {\"punto\": 35, \"detalles\": [{\"tipo_residuo\": 18, \"cantidad\": \"35.5\"}]}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 201. [{\"id\": 25, \"punto_codigo\": \"P1\", \"sector\": \"Sector 1\", \"tipo_residuo_nombre\": \"Orgánico\", \"unidad_simbolo\": \"kg\", \"registrado_por_nombre\": \"oper_t\", \"jornada_detalle\": \"2026-11-16 Mañana - S1\", \"cantidad\": \"35.500\", \"observaciones\": \"\", \"fecha_hora\": \"2026-11-16T03:44:39.544894-04:00\", \"jornada\": 19, \"punto\": 35, \"tipo_residuo\": 18, \"unidad\": 26, \"registrado_por\": 106}]",
+      "Resultado esperado": "HTTP 201. Crear el registro con el operario autenticado y la unidad kg."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-15. Cierre con punto pendiente. CU18. Cerrar jornada de recolección.",
+      "Descripción": "Comprobar el escenario «Cierre con punto pendiente» de RF12.",
+      "Precondición": "P1 atendido y P2 todavía pendiente; supervisor autorizado. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/19/cerrar/; parámetros: {}; datos: {}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. [\"Puntos sin registro ni motivo de omisión: P2.\"]",
+      "Resultado esperado": "HTTP 400. Rechazar el cierre mientras quede un punto sin atender ni omitir."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-16. Omisión con motivo. CU17. Omitir punto de la ruta.",
+      "Descripción": "Comprobar el escenario «Omisión con motivo» de RF12.",
+      "Precondición": "Jornada abierta; P2 pendiente y motivo Acceso bloqueado. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/19/omitir/; parámetros: {}; datos: {\"punto\": 36, \"motivo\": \"Acceso bloqueado\"}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 200. {\"id\": 19, \"estado\": \"EN_EJECUCION\"}; otros campos conservados en la evidencia JSON.",
+      "Resultado esperado": "HTTP 200. Aceptar la omisión; el resumen debe mostrar P2 omitido y cobertura del 50 %."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-17. Cierre tras atender u omitir los puntos. CU18. Cerrar jornada de recolección.",
+      "Descripción": "Comprobar el escenario «Cierre tras atender u omitir los puntos» de RF12.",
+      "Precondición": "P1 atendido y P2 omitido con motivo. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_flujo_completo_de_jornada.",
+      "Entrada": "POST /api/jornadas/19/cerrar/; parámetros: {}; datos: {\"observaciones\": [\"OK\"]}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 200. {\"id\": 19, \"estado\": \"CERRADA\"}; otros campos conservados en la evidencia JSON.",
+      "Resultado esperado": "HTTP 200. Cerrar la jornada y persistir el estado CERRADA."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-18. Sector ajeno al supervisor. CU14. Planificar jornada y ruta de recolección.",
+      "Descripción": "Comprobar el escenario «Sector ajeno al supervisor» de RF11.",
+      "Precondición": "Supervisor sin alcance sobre el sector solicitado. Base aislada; fixture: apps/operations/tests/test_jornada.py::test_supervisor_no_opera_sectores_ajenos.",
+      "Entrada": "POST /api/jornadas/; parámetros: {}; datos: {\"fecha\": \"2026-11-16\", \"turno\": \"TARDE\", \"sector\": 21, \"puntos\": [37]}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 403. {\"detail\": \"No tiene permisos sobre el sector indicado.\"}",
+      "Resultado esperado": "HTTP 403. Denegar la planificación en el sector ajeno."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-19. Indicadores sin ETL previo. CU21. Visualizar tablero interactivo.",
+      "Descripción": "Comprobar el escenario «Indicadores sin ETL previo» de RF16, RF17.",
+      "Precondición": "Supervisor autorizado; registros transaccionales aún sin procesar por ETL. Base aislada; fixture: apps/analytics/tests/test_analitica.py::test_indicadores_exigen_etl_y_calculan_kpis.",
+      "Entrada": "GET /api/analitica/indicadores/; parámetros: {\"desde\": [\"2026-09-01\"], \"hasta\": [\"2026-09-30\"]}; datos: {}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. [\"Aún no hay información analítica: ejecute el proceso ETL al menos una vez.\"]",
+      "Resultado esperado": "HTTP 400. Informar que se requiere ejecutar ETL antes de obtener indicadores."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-20. Indicadores tras el ETL. CU21. Visualizar tablero interactivo.",
+      "Descripción": "Comprobar el escenario «Indicadores tras el ETL» de RF16, RF17.",
+      "Precondición": "ETL de la fixture ejecutado: dos hechos válidos y un duplicado excluido. Base aislada; fixture: apps/analytics/tests/test_analitica.py::test_indicadores_exigen_etl_y_calculan_kpis.",
+      "Entrada": "GET /api/analitica/indicadores/; parámetros: {\"desde\": [\"2026-09-01\"], \"hasta\": [\"2026-09-30\"]}; datos: {}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 200. {\"total_kg\": \"42.500\", \"cobertura_pct\": 50.0}; otros campos conservados en la evidencia JSON.",
+      "Resultado esperado": "HTTP 200. Devolver 42,500 kg, cobertura del 50 % y una recolección realizada."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-21. Comparación con periodos superpuestos. CU22. Comparar periodos e identificar tendencias.",
+      "Descripción": "Comprobar el escenario «Comparación con periodos superpuestos» de RF18.",
+      "Precondición": "ETL ejecutado; intervalos base y de comparación superpuestos. Base aislada; fixture: apps/analytics/tests/test_analitica.py::test_comparacion_rechaza_periodos_superpuestos.",
+      "Entrada": "GET /api/analitica/comparacion/; parámetros: {\"base_desde\": [\"2026-08-01\"], \"base_hasta\": [\"2026-09-15\"], \"comp_desde\": [\"2026-09-01\"], \"comp_hasta\": [\"2026-09-30\"]}; datos: {}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. [\"Los periodos seleccionados se superponen.\"]",
+      "Resultado esperado": "HTTP 400. Rechazar intervalos de comparación que se superponen."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-22. Comparación de periodos válidos. CU22. Comparar periodos e identificar tendencias.",
+      "Descripción": "Comprobar el escenario «Comparación de periodos válidos» de RF18.",
+      "Precondición": "ETL ejecutado; agosto sin datos como base y septiembre con 42,500 kg. Base aislada; fixture: apps/analytics/tests/test_analitica.py::test_comparacion_rechaza_periodos_superpuestos.",
+      "Entrada": "GET /api/analitica/comparacion/; parámetros: {\"base_desde\": [\"2026-08-01\"], \"base_hasta\": [\"2026-08-31\"], \"comp_desde\": [\"2026-09-01\"], \"comp_hasta\": [\"2026-09-30\"]}; datos: {}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 200. {\"base\": {\"desde\": \"2026-08-01\", \"hasta\": \"2026-08-31\"}, \"comparacion\": {\"desde\": \"2026-09-01\", \"hasta\": \"2026-09-30\"}, \"sector\": [{\"id\": 6, \"nombre\": \"Sector 1\", \"base_kg\": \"0\", \"comparacion_kg\": \"42.500\", \"variacion_kg\": \"42.500\", \"variacion_pct\": null, \"tendencia_creciente\": false}], \"punto\": [{\"id\": 11, \"nombre\": \"P1\", \"base_kg\": \"0\", \"comparacion_kg\": \"40.000\", \"variacion_kg\": \"40.000\", \"variacion_pct\": null, \"tendencia_creciente\": false}, {\"id\": 12, \"nombre\": \"P2\", \"base_kg\": \"0\", \"comparacion_kg\": \"2.500\", \"variacion_kg\": \"2.500\", \"variacion_pct\": null, \"tendencia_creciente\": false}], \"tipo\": [{\"id\": 6, \"nombre\": \"Orgánico\", \"base_kg\": [extracto; respuesta íntegra en la evidencia JSON]",
+      "Resultado esperado": "HTTP 200. Devolver variación de 42,500 kg y porcentaje nulo ante base cero."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-23. Predicción sin modelo vigente. CU28. Predecir generación futura y emitir alertas.",
+      "Descripción": "Comprobar el escenario «Predicción sin modelo vigente» de RF23, RF24.",
+      "Precondición": "Histórico sintético disponible; ningún modelo publicado vigente. Base aislada; fixture: apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte.",
+      "Entrada": "POST /api/predicciones/; parámetros: {}; datos: {\"horizonte\": 7}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. [\"No existe un modelo publicado vigente: entrene y publique uno primero.\"]",
+      "Resultado esperado": "HTTP 400. Rechazar la predicción hasta publicar un modelo vigente."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-24. Horizonte de predicción excesivo. CU28. Predecir generación futura y emitir alertas.",
+      "Descripción": "Comprobar el escenario «Horizonte de predicción excesivo» de RF23, RF24.",
+      "Precondición": "Modelo publicado; máximo configurado de 30 días y solicitud de 31. Base aislada; fixture: apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte.",
+      "Entrada": "POST /api/predicciones/; parámetros: {}; datos: {\"horizonte\": 31}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 400. {\"horizonte\": \"El horizonte debe estar entre 1 y 30 días.\"}",
+      "Resultado esperado": "HTTP 400. Rechazar el horizonte fuera del intervalo permitido."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-25. Predicción con modelo publicado. CU28. Predecir generación futura y emitir alertas.",
+      "Descripción": "Comprobar el escenario «Predicción con modelo publicado» de RF23, RF24.",
+      "Precondición": "Modelo publicado e histórico sintético suficiente; horizonte de siete días. Base aislada; fixture: apps/prediction/tests/test_prediccion.py::test_entrena_publica_predice_y_revierte.",
+      "Entrada": "POST /api/predicciones/; parámetros: {}; datos: {\"horizonte\": 7}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 201. {\"id\": 1, \"version\": 1}; otros campos conservados en la evidencia JSON.",
+      "Resultado esperado": "HTTP 201. Crear el lote con versión del modelo y predicciones con margen de error."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-26. Reporte PDF. CU34. Exportar reporte a Excel o PDF.",
+      "Descripción": "Comprobar el escenario «Reporte PDF» de RF27.",
+      "Precondición": "Administrador autorizado; ETL ejecutado y periodo con datos. Base aislada; fixture: apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[pdf-%PDF].",
+      "Entrada": "GET /api/reportes/indicadores/; parámetros: {\"desde\": [\"2026-09-01\"], \"hasta\": [\"2026-09-30\"], \"formato\": [\"pdf\"]}; datos: {}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 200. {\"tipo\": \"application/pdf\", \"bytes\": 2222, \"firma\": \"%PDF\"}",
+      "Resultado esperado": "HTTP 200. Entregar PDF con firma %PDF y registrar EXPORTAR."
+    },
+    {
+      "Campo": "Detalle",
+      "Nombre de caso de prueba": "CP-27. Reporte Excel. CU34. Exportar reporte a Excel o PDF.",
+      "Descripción": "Comprobar el escenario «Reporte Excel» de RF27.",
+      "Precondición": "Administrador autorizado; ETL ejecutado y periodo con datos. Base aislada; fixture: apps/analytics/tests/test_analitica.py::test_reportes_exportan_y_quedan_en_bitacora[xlsx-PK].",
+      "Entrada": "GET /api/reportes/indicadores/; parámetros: {\"desde\": [\"2026-09-01\"], \"hasta\": [\"2026-09-30\"], \"formato\": [\"xlsx\"]}; datos: {}.",
+      "Condición de ejecución": "Enviar la solicitud indicada con la identidad y el estado de la precondición; contrastar respuesta y aserciones del caso automatizado.",
+      "Resultado obtenido": "HTTP 200. {\"tipo\": \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\", \"bytes\": 5613, \"firma\": \"PK\\u0003\\u0004\"}",
+      "Resultado esperado": "HTTP 200. Entregar XLSX con firma ZIP PK y registrar EXPORTAR."
+    }
+  ]
+}

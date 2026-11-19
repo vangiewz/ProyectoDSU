@@ -1,0 +1,21 @@
+{
+  "fecha": "2026-11-16",
+  "fase": "verificado",
+  "ejecuciones": [
+    {
+      "objetivo": "api",
+      "exit_code": 2,
+      "reporte": true
+    },
+    {
+      "objetivo": "frontend",
+      "exit_code": 2,
+      "reporte": true
+    }
+  ],
+  "metodo": "ZAP baseline: spider limitado y reglas pasivas",
+  "autenticacion": "JWT de usuario Directivo de prueba en la API; sin sesión de navegador SPA",
+  "entorno": "HTTP local aislado; DEBUG=False; redirección TLS desactivada para la prueba",
+  "limites": "Sin escaneo activo, sin prueba TLS productiva, sin navegación autenticada de todos los flujos. No certifica ausencia de vulnerabilidades.",
+  "datos": "Base PostgreSQL desechable sin datos institucionales"
+}

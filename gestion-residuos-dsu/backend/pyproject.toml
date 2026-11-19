@@ -1,0 +1,13 @@
+[tool.ruff]
+line-length = 120
+extend-exclude = ["migrations"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "DJ"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
+python_files = ["test_*.py"]
+# Neon (pooler) mantiene sesiones abiertas: se reutiliza la BD de test en vez de borrarla.
+addopts = "--reuse-db"
+filterwarnings = ["ignore:No directory at:UserWarning"]

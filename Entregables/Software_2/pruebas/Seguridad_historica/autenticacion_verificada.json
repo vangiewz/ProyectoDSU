@@ -1,0 +1,34 @@
+[
+  {
+    "ruta": "/",
+    "estado": "HTTP/1.1 200 OK"
+  },
+  {
+    "ruta": "auth/me/",
+    "estado": "HTTP/1.1 200 OK"
+  },
+  {
+    "ruta": "puntos/",
+    "estado": "HTTP/1.1 200 OK"
+  },
+  {
+    "ruta": "sectores/",
+    "estado": "HTTP/1.1 200 OK"
+  },
+  {
+    "ruta": "registros/",
+    "estado": "HTTP/1.1 200 OK"
+  },
+  {
+    "ruta": "jornadas/",
+    "estado": "HTTP/1.1 200 OK"
+  },
+  {
+    "ruta": "predicciones/",
+    "estado": "HTTP/1.1 200 OK"
+  },
+  {
+    "ruta": "recomendaciones/",
+    "estado": "HTTP/1.1 200 OK"
+  }
+]

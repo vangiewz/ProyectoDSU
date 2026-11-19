@@ -1,0 +1,22 @@
+# Producción: la base de datos es Neon (DATABASE_URL en .env). TLS lo termina el proxy del servidor.
+# Solo el backend: el frontend está en una carpeta hermana y se despliega por separado.
+# Ejecutar desde la raíz de este repo:  docker compose up -d --build
+services:
+  app:
+    build: .
+    env_file: .env
+    environment:
+      DEBUG: "False"
+    ports:
+      - "127.0.0.1:8000:8000"
+    restart: unless-stopped
+
+  # RNF12: pg_dump diario a ./respaldos (fuera de Neon). Copiar esa carpeta a otro equipo o nube periódicamente.
+  respaldo:
+    image: postgres:18-alpine # pg_dump debe ser de la misma versión mayor que el servidor de Neon, o más nueva
+    env_file: .env
+    volumes:
+      - ./respaldos:/respaldos
+      - ./scripts/respaldo.sh:/respaldo.sh:ro
+    entrypoint: ["sh", "/respaldo.sh"]
+    restart: unless-stopped

@@ -1,0 +1,18 @@
+{
+  "dsu-uagrm": {
+    "rootDirectory": "gestion-residuos-dsu/frontend",
+    "framework": "vite",
+    "buildCommand": "npm run build",
+    "installCommand": "npm ci",
+    "outputDirectory": "dist",
+    "nodeVersion": "22.x"
+  },
+  "residata": {
+    "rootDirectory": "sitio-residata",
+    "framework": null,
+    "buildCommand": "python3 preparar_publicacion.py --solo-publico",
+    "installCommand": "",
+    "outputDirectory": "dist",
+    "nodeVersion": "22.x"
+  }
+}

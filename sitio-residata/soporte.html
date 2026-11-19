@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es-BO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soporte — Residata</title>
+<meta name="description" content="Ayuda de Residata: asistente, agentes de soporte por ticket, preguntas frecuentes, niveles de atención y estado del servicio en vivo.">
+<meta name="theme-color" content="#17191c">
+<link rel="canonical" href="https://residata-bolivia.vercel.app/soporte.html">
+<meta property="og:title" content="Soporte — Residata"><meta property="og:description" content="Ayuda de Residata: asistente, agentes de soporte por ticket, preguntas frecuentes, niveles de atención y estado del servicio en vivo."><meta property="og:type" content="website"><meta property="og:url" content="https://residata-bolivia.vercel.app/soporte.html"><meta property="og:image" content="https://residata-bolivia.vercel.app/img/og.png">
+<link rel="icon" href="img/icono.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Novedades de Residata" href="https://residata-bolivia.vercel.app/feed.xml">
+<link rel="preload" href="fonts/Doto.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/BarlowCondensed-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<script src="js/site.js" defer></script>
+</head>
+<body>
+<a class="salta" href="#contenido">Saltar al contenido</a>
+<header class="cabecera"><div class="fila">
+  <a class="marca" href="index.html" aria-label="Residata, inicio"><b>RESIDATA</b><span>S.R.L. · Santa Cruz</span></a>
+  <button class="asistente-cab" type="button" data-abrir-asistente aria-controls="asistente">Asistente</button>
+  <button class="abrir-menu" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+  <nav aria-label="Principal"><ul class="menu" id="menu"><li><a href="index.html">Producto</a></li><li><a href="planes.html">Planes</a></li><li><a href="novedades.html">Novedades</a></li><li><a href="soporte.html" aria-current=page>Soporte</a></li><li><a href="contacto.html">Contacto</a></li><li><a class="acceso" href="https://dsu-uagrm.vercel.app/">Acceso clientes</a></li></ul></nav>
+</div></header>
+<main id="contenido">
+<section class="seccion densa">
+  <div class="marco">
+    <h1>Soporte</h1>
+    <p class="entrada">El asistente responde al instante las dudas frecuentes. Lo que no puede resolver pasa a un agente del equipo como ticket, con respuesta por correo.</p>
+    <div class="acciones"><a class="boton primario" href="#" data-abrir-asistente>Abrir el asistente</a><a class="boton linea-b" href="mailto:rekteado@gmail.com?subject=Soporte%20Residata">Escribir al correo</a></div>
+  </div>
+</section>
+
+<section class="seccion densa" aria-labelledby="t-niveles">
+  <div class="marco">
+    <h2 id="t-niveles">Niveles de atención</h2>
+    <div class="tarifas papel ambos">
+      <div class="tabla-desliza">
+        <table class="tarifario">
+          <thead><tr><th scope="col">Nivel</th><th scope="col">Canal</th><th scope="col">Atiende</th><th scope="col">Horario</th><th scope="col">Primera respuesta</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">1 · Autoservicio</th><td>Asistente, preguntas frecuentes, manual por rol</td><td>Asistente automático</td><td>Permanente</td><td>Inmediata</td></tr>
+            <tr><th scope="row">2 · Funcional</th><td>Ticket desde el asistente o correo</td><td>Agente de soporte</td><td>Lun a vie, 08:00 a 18:00</td><td>8 horas hábiles (plan Campus)</td></tr>
+            <tr><th scope="row">3 · Ingeniería</th><td>Ticket escalado por el agente</td><td>Desarrollo y base de datos</td><td>Lun a vie, 08:00 a 18:00</td><td>4 horas hábiles (plan Red)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion densa" aria-labelledby="t-faq">
+  <div class="marco">
+    <h2 id="t-faq">Preguntas frecuentes</h2>
+    <div class="papel ambos lectura-larga preguntas">
+      <details open><summary>Olvidé mi contraseña</summary><p>El Administrador de su institución la restablece desde Usuarios. Si es el Administrador quien no puede ingresar, abra un ticket desde el asistente.</p></details>
+      <details><summary>No veo mi jornada en el teléfono</summary><p>La jornada aparece cuando el supervisor la confirma con usted en la cuadrilla y la inicia. Revise con su supervisor que la jornada esté en ejecución para hoy.</p></details>
+      <details><summary>Registré un peso equivocado</summary><p>Los registros no se borran, para conservar la trazabilidad. Informe al supervisor el registro y el motivo; queda constancia en la bitácora y se registra el valor correcto.</p></details>
+      <details><summary>El tablero muestra cero kilos</summary><p>El tablero usa los datos depurados por el ETL. Revise el rango de fechas y los filtros; si los vaciados son de la última hora, espere la siguiente ejecución del ETL.</p></details>
+      <details><summary>¿Por qué la predicción tiene un ±?</summary><p>Es el margen de error medido del modelo para esa estimación. Una cifra estimada se muestra a lápiz para no confundirla con lo medido.</p></details>
+      <details><summary>¿Cómo exporto un reporte?</summary><p>En Reportes elija el tipo, el periodo y los filtros, y descárguelo en Excel o PDF.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="seccion densa" id="estado" aria-labelledby="t-estado">
+  <div class="marco">
+    <h2 id="t-estado">Estado del servicio</h2>
+    <div class="papel ambos lectura-larga" style="max-width:640px">
+      <p class="entrada">Comprobación en vivo desde su navegador.</p>
+      <div class="estado dato" id="estado-servicio" aria-live="polite">
+        <div class="linea"><span>Aplicación web (Vercel)</span><b data-s="app">Comprobando…</b></div>
+        <div class="linea"><span>API y base de datos (Azure · Neon)</span><b data-s="api">Comprobando…</b></div>
+        <div class="linea"><span>Última comprobación</span><b data-s="hora">—</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<p class="cierre" aria-hidden="true"><span>Gracias por su visita</span><span class="barras"></span><span>Residata S.R.L.</span></p>
+<footer class="pie-sitio"><div class="marco">
+  <div><h3>Residata S.R.L.</h3><p>Software de gestión de residuos sólidos con predicción de generación. Santa Cruz de la Sierra, Bolivia. Sociedad en constitución.</p><p><a href="mailto:rekteado@gmail.com">rekteado@gmail.com</a></p></div>
+  <div><h3>Producto</h3><ul><li><a href="index.html#como-funciona">Cómo funciona</a></li><li><a href="index.html#pronostico">Pronóstico</a></li><li><a href="planes.html">Planes y precios</a></li><li><a href="https://dsu-uagrm.vercel.app/">Acceso clientes</a></li></ul></div>
+  <div><h3>Ayuda</h3><ul><li><a href="soporte.html">Soporte</a></li><li><a href="soporte.html#estado">Estado del servicio</a></li><li><a href="novedades.html">Novedades</a></li><li><a href="feed.xml">RSS</a></li></ul></div>
+  <div><h3>Legal</h3><ul><li><a href="terminos.html">Términos y condiciones</a></li><li><a href="privacidad.html">Privacidad</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
+</div></footer>
+</body>
+</html>

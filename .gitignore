@@ -1,0 +1,318 @@
+# Entornos y dependencias
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.ruff_cache/
+**/.cache/
+**/dist/
+**/dist-ssr/
+**/staticfiles/
+*.tsbuildinfo
+**/graphify-out/
+**/modelos/
+**/respaldos/
+**/htmlcov/
+**/.coverage
+
+# Secretos: configuraciones locales, nunca versionadas
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Configuración personal y temporales
+tmp/
+**/tmp/
+DocumentoSoftware2/Documento_Software_2_DSU_con_diagramas.docx
+**/.claude/
+**/.codex/
+**/.vscode/
+**/.idea/
+**/.pbi/
+docs/auditoria-fase-final/render/
+*.local
+*.log
+*.err
+~$*
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Transporte GitHub: los ZIP originales se conservan localmente; partes verificadas en Git.
+/auditoria_gui/Evidencias_GUI_DSU_Residata.zip
+/revision_documental_final/entrega/evidencias/Evidencias_GUI_DSU_Residata.zip
+/Entregables/Software2_Final_20261119.zip
+
+# Paquetes reconstruibles para Drive; las fuentes y el APK demo se conservan en Git.
+/Entregables/Drive_Actualizado_20261119/
+/Entregables/Entrega_Final_DSU_20261119.zip
+
+/Entregables/Drive_Organizado_20261119/
+
+# Antecedentes y generadores académicos conservados solo localmente.
+/generador/
+/clases/
+/cap8-10/
+/modelo_uml/
+/docs/versiones/
+/DocumentoSoftware2/versiones/
+/DocumentoSoftware2/Ejemplos/
+/Entregables/versiones/
+/Entregables/Software2_Final_20261119.zip.partes/
+/auditoria_cierre/08_paquete_entrega/
+/auditoria_gui/Evidencias_GUI_DSU_Residata.zip.partes/
+/revision_documental_final/entrega/reproducir/
+/revision_documental_final/revision_paginas/
+/*.pdf
+/GUIA_FASE2.md
+/GUIA_FASE_FINAL.md
+/docs/Documento_Taller*
+/DocumentoSoftware2/*.docx
+/revision_documental_final/*.py
+/revision_documental_final/entrega/*_Final.docx
+/revision_documental_final/entrega/*_Final.pdf
+/DocumentoSoftware2/ensamblar.py
+/DocumentoSoftware2/generar.py
+/DocumentoSoftware2/modelos.py
+/DocumentoSoftware2/material.py
+/DocumentoSoftware2/renderizar_revision.py
+/DocumentoSoftware2/publicar.ps1
+/DocumentoSoftware2/revisar.ps1
+
+# Material de trabajo y asistencia conservado solamente en este equipo.
+/DocumentoSoftware2/
+/Paquete_PowerBI_DSU/
+/auditoria-local/
+/auditoria_cierre/
+/auditoria_gui/
+/auditoria_movil/
+/docs/
+/revision_documental_final/
+AGENTS.md
+CLAUDE.md
+/INFORME_REVISION_ESTADO_2026-11-19.md
+/herramientas/entrega/
+/Entregables/Taller_de_Grado_I/
+/Entregables/Software2_Final_20261119.json
+/Entregables/LEEME_ENTREGA_SOFTWARE2.md
+**/.impeccable/
+PRODUCT.md
+DESIGN.md
+/gestion-residuos-dsu/backend/docs/ESTADO.md
+/Entregables/Material_Drive/05_Capturas_del_sistema/bitacora-admin_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/bitacora-admin_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/campo-oper_ui-1440-error.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/campo-oper_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/campo-oper_ui-390-error.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/campo-oper_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/contenedores-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/contenedores-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/historico-oper_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/historico-oper_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/incidencias-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/incidencias-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/jornadas-107-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/jornadas-107-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/jornadas-nueva-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/jornadas-nueva-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/jornadas-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/jornadas-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/login-anon-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/login-anon-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/mapa-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/mapa-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/modelo-admin_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/modelo-admin_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/parametros-admin_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/parametros-admin_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/predicciones-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/predicciones-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/procesos-admin_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/procesos-admin_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/puntos-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/puntos-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/recomendaciones-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/recomendaciones-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/reportes-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/reportes-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/roles-admin_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/roles-admin_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/sectores-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/sectores-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/tablero-dir_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/tablero-dir_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/tablero-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/tablero-super_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/tipos-residuo-admin_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/tipos-residuo-admin_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/usuarios-admin_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/usuarios-admin_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/usuarios-dir_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/usuarios-dir_ui-390-error.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/usuarios-dir_ui-390.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/vehiculos-super_ui-1440.png
+/Entregables/Material_Drive/05_Capturas_del_sistema/vehiculos-super_ui-390.png
+/Entregables/Material_Drive/06_Diagramas_UML/004 gantt.png
+/Entregables/Material_Drive/06_Diagramas_UML/006 c8_general.png
+/Entregables/Material_Drive/06_Diagramas_UML/007 Modelo de dominio.png
+/Entregables/Material_Drive/06_Diagramas_UML/008 Flujo operativo del sistema.png
+/Entregables/Material_Drive/06_Diagramas_UML/009 Actividad de RF8 Registro de vaciado.png
+/Entregables/Material_Drive/06_Diagramas_UML/010 Actividad de RF12 Ejecución y cierre de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/011 Actividad de RF15 Proceso ETL.png
+/Entregables/Material_Drive/06_Diagramas_UML/012 Actividad de RF16 Consulta de indicadores.png
+/Entregables/Material_Drive/06_Diagramas_UML/013 Actividad de RF20 Mapa de calor.png
+/Entregables/Material_Drive/06_Diagramas_UML/014 Actividad de RF22 Entrenamiento y evaluación del modelo.png
+/Entregables/Material_Drive/06_Diagramas_UML/015 Actividad de RF23 Generación de predicciones.png
+/Entregables/Material_Drive/06_Diagramas_UML/016 Actividad de RF24 Alertas y recomendaciones.png
+/Entregables/Material_Drive/06_Diagramas_UML/017 Actores y responsabilidades.png
+/Entregables/Material_Drive/06_Diagramas_UML/018 Modelo general de los 34 casos de uso.png
+/Entregables/Material_Drive/06_Diagramas_UML/019 CU1 Iniciar sesión.png
+/Entregables/Material_Drive/06_Diagramas_UML/020 CU2 Cerrar sesión.png
+/Entregables/Material_Drive/06_Diagramas_UML/021 CU3 Gestionar usuarios.png
+/Entregables/Material_Drive/06_Diagramas_UML/022 CU4 Gestionar roles y permisos.png
+/Entregables/Material_Drive/06_Diagramas_UML/023 CU5 Gestionar sectores y facultades.png
+/Entregables/Material_Drive/06_Diagramas_UML/024 CU6 Gestionar puntos de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/025 CU7 Gestionar contenedores.png
+/Entregables/Material_Drive/06_Diagramas_UML/026 CU8 Gestionar tipos de residuo y unidades de medida.png
+/Entregables/Material_Drive/06_Diagramas_UML/027 CU9 Registrar vaciado de residuos.png
+/Entregables/Material_Drive/06_Diagramas_UML/028 CU10 Registrar incidencia operativa.png
+/Entregables/Material_Drive/06_Diagramas_UML/029 CU11 Atender incidencia.png
+/Entregables/Material_Drive/06_Diagramas_UML/030 CU12 Consultar histórico de residuos.png
+/Entregables/Material_Drive/06_Diagramas_UML/031 CU13 Gestionar vehículos.png
+/Entregables/Material_Drive/06_Diagramas_UML/032 CU14 Planificar jornada y ruta de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/033 CU15 Asignar personal y vehículos a la jornada.png
+/Entregables/Material_Drive/06_Diagramas_UML/034 CU16 Ejecutar jornada de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/035 CU17 Omitir punto de la ruta.png
+/Entregables/Material_Drive/06_Diagramas_UML/036 CU18 Cerrar jornada de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/037 CU19 Consultar historial de recolecciones.png
+/Entregables/Material_Drive/06_Diagramas_UML/038 CU20 Ejecutar proceso ETL.png
+/Entregables/Material_Drive/06_Diagramas_UML/039 CU21 Visualizar tablero interactivo.png
+/Entregables/Material_Drive/06_Diagramas_UML/040 CU22 Comparar periodos e identificar tendencias.png
+/Entregables/Material_Drive/06_Diagramas_UML/041 CU23 Visualizar puntos en el mapa interactivo.png
+/Entregables/Material_Drive/06_Diagramas_UML/042 CU24 Generar mapa de calor.png
+/Entregables/Material_Drive/06_Diagramas_UML/043 CU25 Filtrar mapa por periodo sector y tipo de residuo.png
+/Entregables/Material_Drive/06_Diagramas_UML/044 CU26 Entrenar y evaluar el modelo Random Forest Regressor.png
+/Entregables/Material_Drive/06_Diagramas_UML/045 CU27 Publicar o revertir versión del modelo.png
+/Entregables/Material_Drive/06_Diagramas_UML/046 CU28 Predecir generación futura y emitir alertas.png
+/Entregables/Material_Drive/06_Diagramas_UML/047 CU29 Consultar alertas y recomendaciones logísticas.png
+/Entregables/Material_Drive/06_Diagramas_UML/048 CU30 Atender recomendación logística.png
+/Entregables/Material_Drive/06_Diagramas_UML/049 CU31 Configurar periodos académicos y parámetros.png
+/Entregables/Material_Drive/06_Diagramas_UML/050 CU32 Consultar bitácora de auditoría.png
+/Entregables/Material_Drive/06_Diagramas_UML/051 CU33 Generar reporte.png
+/Entregables/Material_Drive/06_Diagramas_UML/052 CU34 Exportar reporte a Excel o PDF.png
+/Entregables/Material_Drive/06_Diagramas_UML/053 Identificación de los ocho paquetes.png
+/Entregables/Material_Drive/06_Diagramas_UML/054 Trazabilidad del paquete Gestión de Usuarios y Control de Acceso.png
+/Entregables/Material_Drive/06_Diagramas_UML/055 Encapsulamiento de Gestión de Usuarios y Control de Acceso.png
+/Entregables/Material_Drive/06_Diagramas_UML/056 Trazabilidad del paquete Gestión Topológica y Puntos de Recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/057 Encapsulamiento de Gestión Topológica y Puntos de Recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/058 Trazabilidad del paquete Gestión de Residuos.png
+/Entregables/Material_Drive/06_Diagramas_UML/059 Encapsulamiento de Gestión de Residuos.png
+/Entregables/Material_Drive/06_Diagramas_UML/060 Trazabilidad del paquete Gestión de Recolecciones y Logística.png
+/Entregables/Material_Drive/06_Diagramas_UML/061 Encapsulamiento de Gestión de Recolecciones y Logística.png
+/Entregables/Material_Drive/06_Diagramas_UML/062 Trazabilidad del paquete Inteligencia de Negocios y Analítica Visual.png
+/Entregables/Material_Drive/06_Diagramas_UML/063 Encapsulamiento de Inteligencia de Negocios y Analítica Visual.png
+/Entregables/Material_Drive/06_Diagramas_UML/064 Trazabilidad del paquete Componente Cartográfico y Análisis Espacial.png
+/Entregables/Material_Drive/06_Diagramas_UML/065 Encapsulamiento de Componente Cartográfico y Análisis Espacial.png
+/Entregables/Material_Drive/06_Diagramas_UML/066 Trazabilidad del paquete Predicción mediante Random Forest Regressor.png
+/Entregables/Material_Drive/06_Diagramas_UML/067 Encapsulamiento de Predicción mediante Random Forest Regressor.png
+/Entregables/Material_Drive/06_Diagramas_UML/068 Trazabilidad del paquete Administración de la Plataforma y Auditoría.png
+/Entregables/Material_Drive/06_Diagramas_UML/069 Encapsulamiento de Administración de la Plataforma y Auditoría.png
+/Entregables/Material_Drive/06_Diagramas_UML/070 Dependencias del modelo de análisis.png
+/Entregables/Material_Drive/06_Diagramas_UML/071 Análisis de CU1 Iniciar sesión.png
+/Entregables/Material_Drive/06_Diagramas_UML/072 Análisis de CU2 Cerrar sesión.png
+/Entregables/Material_Drive/06_Diagramas_UML/073 Análisis de CU3 Gestionar usuarios.png
+/Entregables/Material_Drive/06_Diagramas_UML/074 Análisis de CU4 Gestionar roles y permisos.png
+/Entregables/Material_Drive/06_Diagramas_UML/075 Análisis de CU5 Gestionar sectores y facultades.png
+/Entregables/Material_Drive/06_Diagramas_UML/076 Análisis de CU6 Gestionar puntos de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/077 Análisis de CU7 Gestionar contenedores.png
+/Entregables/Material_Drive/06_Diagramas_UML/078 Análisis de CU8 Gestionar tipos de residuo y unidades de medida.png
+/Entregables/Material_Drive/06_Diagramas_UML/079 Análisis de CU9 Registrar vaciado de residuos.png
+/Entregables/Material_Drive/06_Diagramas_UML/080 Análisis de CU10 Registrar incidencia operativa.png
+/Entregables/Material_Drive/06_Diagramas_UML/081 Análisis de CU11 Atender incidencia.png
+/Entregables/Material_Drive/06_Diagramas_UML/082 Análisis de CU12 Consultar histórico de residuos.png
+/Entregables/Material_Drive/06_Diagramas_UML/083 Análisis de CU13 Gestionar vehículos.png
+/Entregables/Material_Drive/06_Diagramas_UML/084 Análisis de CU14 Planificar jornada y ruta de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/085 Análisis de CU15 Asignar personal y vehículos a la jornada.png
+/Entregables/Material_Drive/06_Diagramas_UML/086 Análisis de CU16 Ejecutar jornada de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/087 Análisis de CU17 Omitir punto de la ruta.png
+/Entregables/Material_Drive/06_Diagramas_UML/088 Análisis de CU18 Cerrar jornada de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/089 Análisis de CU19 Consultar historial de recolecciones.png
+/Entregables/Material_Drive/06_Diagramas_UML/090 Análisis de CU20 Ejecutar proceso ETL.png
+/Entregables/Material_Drive/06_Diagramas_UML/091 Análisis de CU21 Visualizar tablero interactivo.png
+/Entregables/Material_Drive/06_Diagramas_UML/092 Análisis de CU22 Comparar periodos e identificar tendencias.png
+/Entregables/Material_Drive/06_Diagramas_UML/093 Análisis de CU23 Visualizar puntos en el mapa interactivo.png
+/Entregables/Material_Drive/06_Diagramas_UML/094 Análisis de CU24 Generar mapa de calor.png
+/Entregables/Material_Drive/06_Diagramas_UML/095 Análisis de CU25 Filtrar mapa por periodo sector y tipo de residuo.png
+/Entregables/Material_Drive/06_Diagramas_UML/096 Análisis de CU26 Entrenar y evaluar el modelo Random Forest Regressor.png
+/Entregables/Material_Drive/06_Diagramas_UML/097 Análisis de CU27 Publicar o revertir versión del modelo.png
+/Entregables/Material_Drive/06_Diagramas_UML/098 Análisis de CU28 Predecir generación futura y emitir alertas.png
+/Entregables/Material_Drive/06_Diagramas_UML/099 Análisis de CU29 Consultar alertas y recomendaciones logísticas.png
+/Entregables/Material_Drive/06_Diagramas_UML/100 Análisis de CU30 Atender recomendación logística.png
+/Entregables/Material_Drive/06_Diagramas_UML/101 Análisis de CU31 Configurar periodos académicos y parámetros.png
+/Entregables/Material_Drive/06_Diagramas_UML/102 Análisis de CU32 Consultar bitácora de auditoría.png
+/Entregables/Material_Drive/06_Diagramas_UML/103 Análisis de CU33 Generar reporte.png
+/Entregables/Material_Drive/06_Diagramas_UML/104 Análisis de CU34 Exportar reporte a Excel o PDF.png
+/Entregables/Material_Drive/06_Diagramas_UML/105 Diseño lógico por capas.png
+/Entregables/Material_Drive/06_Diagramas_UML/106 Clases de diseño y relaciones generales.png
+/Entregables/Material_Drive/06_Diagramas_UML/107 Clases de seguridad y auditoría.png
+/Entregables/Material_Drive/06_Diagramas_UML/108 Clases de campus y catálogos.png
+/Entregables/Material_Drive/06_Diagramas_UML/109 Clases de operación de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/110 Clases de analítica y administración.png
+/Entregables/Material_Drive/06_Diagramas_UML/111 Clases de predicción.png
+/Entregables/Material_Drive/06_Diagramas_UML/112 Controladores de seguridad campus y administración.png
+/Entregables/Material_Drive/06_Diagramas_UML/113 Controladores de operación.png
+/Entregables/Material_Drive/06_Diagramas_UML/114 Controladores de analítica y predicción.png
+/Entregables/Material_Drive/06_Diagramas_UML/115 Esquema lógico general de datos.png
+/Entregables/Material_Drive/06_Diagramas_UML/116 Esquema de datos de seguridad y auditoría.png
+/Entregables/Material_Drive/06_Diagramas_UML/117 Esquema de datos de campus y catálogos.png
+/Entregables/Material_Drive/06_Diagramas_UML/118 Esquema de datos de operación de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/119 Esquema de datos de analítica y administración.png
+/Entregables/Material_Drive/06_Diagramas_UML/120 Esquema de datos de predicción.png
+/Entregables/Material_Drive/06_Diagramas_UML/121 Secuencia de CU1 Iniciar sesión.png
+/Entregables/Material_Drive/06_Diagramas_UML/122 Secuencia de CU9 Registrar vaciado de residuos.png
+/Entregables/Material_Drive/06_Diagramas_UML/123 Secuencia de CU14 Planificar jornada y ruta de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/124 Secuencia de CU18 Cerrar jornada de recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/125 Secuencia de CU20 Ejecutar proceso ETL.png
+/Entregables/Material_Drive/06_Diagramas_UML/126 Secuencia de CU26 Entrenar y evaluar el modelo Random Forest Regressor.png
+/Entregables/Material_Drive/06_Diagramas_UML/127 Secuencia de CU28 Predecir generación futura y emitir alertas.png
+/Entregables/Material_Drive/06_Diagramas_UML/128 Secuencia de CU30 Atender recomendación logística.png
+/Entregables/Material_Drive/06_Diagramas_UML/129 Componentes de Gestión de Usuarios y Control de Acceso.png
+/Entregables/Material_Drive/06_Diagramas_UML/130 Componentes de Gestión Topológica y Puntos de Recolección.png
+/Entregables/Material_Drive/06_Diagramas_UML/131 Componentes de Gestión de Residuos.png
+/Entregables/Material_Drive/06_Diagramas_UML/132 Componentes de Gestión de Recolecciones y Logística.png
+/Entregables/Material_Drive/06_Diagramas_UML/133 Componentes de Inteligencia de Negocios y Analítica Visual.png
+/Entregables/Material_Drive/06_Diagramas_UML/134 Componentes de Componente Cartográfico y Análisis Espacial.png
+/Entregables/Material_Drive/06_Diagramas_UML/135 Componentes de Predicción mediante Random Forest Regressor.png
+/Entregables/Material_Drive/06_Diagramas_UML/136 Componentes de Administración de la Plataforma y Auditoría.png
+/Entregables/Material_Drive/06_Diagramas_UML/153 c9_seq_cu09.png
+/Entregables/Material_Drive/06_Diagramas_UML/154 c9_grafo_cu09.png
+/Entregables/Material_Drive/06_Diagramas_UML/155 c9_seq_cu15.png
+/Entregables/Material_Drive/06_Diagramas_UML/156 c9_grafo_cu15.png
+/Entregables/Material_Drive/06_Diagramas_UML/157 c9_seq_cu28.png
+/Entregables/Material_Drive/06_Diagramas_UML/158 c9_grafo_cu28.png
+/Entregables/Material_Drive/06_Diagramas_UML/162 c7_despliegue.png
+/Entregables/Software_2/pruebas/actualizacion_financiera.json
+/Entregables/Software_2/pruebas/calculos_PAPS.json
+/Entregables/Software_2/pruebas/caratulas_preservadas.json
+/Entregables/Software_2/pruebas/catalogo_herramientas_QA.json
+/Entregables/Software_2/pruebas/estructura_final.json
+/Entregables/Software_2/pruebas/fuentes/operations/tests/test_asignacion_caminos.py
+/Entregables/Software_2/pruebas/fuentes/operations/tests/test_registro_caminos.py
+/Entregables/Software_2/pruebas/fuentes/prediction/tests/test_prediccion.py
+/Entregables/Software_2/pruebas/fuentes/prediction/tests/test_prediccion_caminos.py
+/Entregables/Software_2/pruebas/listas_comprobacion.json
+/Entregables/Software_2/pruebas/revision_automatica.json
+/Entregables/Software_2/pruebas/revision_comparada.json
+/Entregables/Software_2/pruebas/revision_secretos.json
+/Entregables/Software_2/pruebas/revision_visual.json
+/Entregables/Software_2/pruebas/validacion_financiera.json
+/Entregables/Software_2/pruebas/validacion_geometria_svg.json
+/Entregables/Software_2/pruebas/validacion_matematica.json
+/Entregables/Software_2/pruebas/verificacion_QR.json
+
+/gestion-residuos-dsu/movil/android/ci.repositories.gradle

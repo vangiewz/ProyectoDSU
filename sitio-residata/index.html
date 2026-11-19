@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es-BO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Residata — gestión de residuos sólidos con predicción</title>
+<meta name="description" content="Plataforma boliviana para registrar cada vaciado en kilos desde el teléfono, planificar la recolección y anticipar la generación de residuos con Random Forest.">
+<meta name="theme-color" content="#17191c">
+<link rel="canonical" href="https://residata-bolivia.vercel.app/">
+<meta property="og:title" content="Residata — gestión de residuos sólidos con predicción"><meta property="og:description" content="Plataforma boliviana para registrar cada vaciado en kilos desde el teléfono, planificar la recolección y anticipar la generación de residuos con Random Forest."><meta property="og:type" content="website"><meta property="og:url" content="https://residata-bolivia.vercel.app/index.html"><meta property="og:image" content="https://residata-bolivia.vercel.app/img/og.png">
+<link rel="icon" href="img/icono.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Novedades de Residata" href="https://residata-bolivia.vercel.app/feed.xml">
+<link rel="preload" href="fonts/Doto.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/BarlowCondensed-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<script src="js/site.js" defer></script>
+</head>
+<body>
+<a class="salta" href="#contenido">Saltar al contenido</a>
+<header class="cabecera"><div class="fila">
+  <a class="marca" href="index.html" aria-label="Residata, inicio"><b>RESIDATA</b><span>S.R.L. · Santa Cruz</span></a>
+  <button class="asistente-cab" type="button" data-abrir-asistente aria-controls="asistente">Asistente</button>
+  <button class="abrir-menu" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+  <nav aria-label="Principal"><ul class="menu" id="menu"><li><a href="index.html" aria-current=page>Producto</a></li><li><a href="planes.html">Planes</a></li><li><a href="novedades.html">Novedades</a></li><li><a href="soporte.html">Soporte</a></li><li><a href="contacto.html">Contacto</a></li><li><a class="acceso" href="https://dsu-uagrm.vercel.app/">Acceso clientes</a></li></ul></nav>
+</div></header>
+<main id="contenido">
+<div class="marco">
+  <section class="portada" aria-labelledby="t-portada">
+    <article class="ticket papel imprime" aria-label="Comprobante de pesaje de demostración">
+      <div class="encabezado">
+        <b>RESIDATA</b>
+        <span class="dato">COMPROBANTE DE PESAJE · DSU-UAGRM (PILOTO)</span>
+      </div>
+      <div class="total">
+        <span class="dato">TOTAL PESADO · SEMANA 28/09 – 04/10/2026</span>
+        <span class="cifra">3 034 kg</span>
+        <small class="dato">Datos del entorno de demostración del piloto</small>
+      </div>
+      <div class="lineas dato">
+        <div class="linea"><span>Puntos atendidos</span><b>12</b></div>
+        <div class="linea"><span>Sectores</span><b>FICCT · FCET · FCEE · BIBLIO</b></div>
+        <div class="linea"><span>Punto con mayor promedio</span><b>FCEE-P1 · 66,92 kg/día</b></div>
+        <div class="linea"><span>Tipo predominante</span><b>Orgánico</b></div>
+        <div class="linea"><span>Pronóstico 20–26/10 (modelo v2)</span><b>≈ 2 896 ± 62,7 kg</b></div>
+        <div class="linea"><span>Recomendaciones abiertas</span><b>2</b></div>
+      </div>
+      <div class="pie">
+        <span class="estampa">Registrado</span>
+        <div class="barras" role="img" aria-label="Código de barras del comprobante"></div>
+      </div>
+    </article>
+
+    <div class="gancho">
+      <h1 id="t-portada">Cada vaciado, pesado. Cada semana, anticipada.</h1>
+      <p class="entrada">Residata es la plataforma boliviana para gestionar la recolección de residuos sólidos. El personal registra el peso desde el teléfono, el supervisor planifica rutas y cuadrillas, y un modelo Random Forest anticipa cuántos kilos generará cada punto.</p>
+      <form data-envio="Solicitud de demostración" data-gracias="Solicitud recibida. Le escribimos en menos de un día hábil para coordinar la demostración." novalidate>
+        <input class="trampa" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="campo"><label for="d-nombre">Nombre y cargo</label><input id="d-nombre" name="nombre" required autocomplete="name"></div>
+        <div class="fila-campos">
+          <div class="campo"><label for="d-inst">Institución</label><input id="d-inst" name="institucion" required autocomplete="organization"></div>
+          <div class="campo"><label for="d-correo">Correo</label><input id="d-correo" name="email" type="email" required autocomplete="email"></div>
+        </div>
+        <div class="acciones"><button class="boton primario" type="submit">Solicitar demostración</button>
+        <a class="boton linea-b" href="planes.html">Ver planes</a></div>
+        <p class="resultado" role="status"></p>
+      </form>
+      <p class="nota">Sin sensores ni contenedores especiales: funciona con la balanza que su personal ya usa.</p>
+    </div>
+  </section>
+</div>
+
+<section class="seccion densa" id="como-funciona" aria-labelledby="t-producto">
+  <div class="marco">
+    <h2 id="t-producto">El producto, anotado</h2>
+    <p class="entrada">Pantalla de predicción del supervisor en el sistema desplegado para la DSU-UAGRM. Cada cifra estimada se muestra a lápiz, con su margen y la versión del modelo que la produjo.</p>
+    <div class="anotado">
+      <figure>
+        <img class="captura" src="img/prediccion-recorte.webp" width="1192" height="900" alt="Pantalla de predicción de Residata con el total proyectado de la semana, el gráfico por día y las recomendaciones pendientes" loading="lazy">
+        <svg class="guias" aria-hidden="true"></svg>
+        <ul class="llamadas">
+          <li class="llamada" style="left:0;top:4%;width:28%" data-punto="35,22"><div class="rotulo"><b>Horizonte y alcance</b>El supervisor elige cuántos días proyectar y para qué sector o punto.</div></li>
+          <li class="llamada" style="left:0;top:28%;width:28%" data-punto="32.8,44.9"><div class="rotulo"><b>Cifra con su margen</b>≈ 2 896 ± 62,7 kg: el margen es el error medido del modelo, no un adorno.</div></li>
+          <li class="llamada" style="left:0;top:52%;width:28%" data-punto="89.2,44.7" data-via="36.7"><div class="rotulo"><b>Alertas que piden acción</b>Desbordes y cambios de frecuencia quedan pendientes hasta que alguien los atiende.</div></li>
+          <li class="llamada" style="left:0;top:76%;width:28%" data-punto="43.6,75.1"><div class="rotulo"><b>Solo días de recolección</b>Kilos por día programado, cada barra con su intervalo.</div></li>
+        </ul>
+      </figure>
+      <p class="leyenda-captura">Captura del sistema en producción (dsu-uagrm.vercel.app) con el histórico sintético del entorno de demostración.</p>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" id="pronostico" aria-labelledby="t-pron">
+  <div class="marco">
+    <h2 id="t-pron">El campus no genera lo mismo en clases que en receso</h2>
+    <p class="entrada">Por eso el modelo aprende del calendario académico de cada institución. Recorra las semanas: el pronóstico de la última barra sale del modelo entrenado con ese mismo histórico.</p>
+    <div class="calendario papel ambos" id="calendario">
+      <div class="cabeza">
+        <div class="lectura">
+          <span class="dato" data-l="semana"></span>
+          <div><span class="cifra" data-l="kg"></span></div>
+          <span class="dato" data-l="margen"></span>
+        </div>
+        <span class="estampa" data-l="periodo"></span>
+      </div>
+      <div class="semanas" aria-hidden="true"></div>
+      <div class="regla" aria-hidden="true"></div>
+      <label class="sr" for="semana-sel">Semana del calendario (enero a octubre de 2026)</label>
+      <input class="deslizador" id="semana-sel" type="range" min="0" step="1">
+      <div class="tramos">
+        <span class="tramo"><i style="background:var(--tinta)"></i>Clases</span>
+        <span class="tramo"><i style="background:var(--tinta-3)"></i>Receso</span>
+        <span class="tramo"><i style="background:repeating-linear-gradient(45deg,var(--alerta) 0 3px,#f6d2cb 3px 6px)"></i>Pronóstico</span>
+      </div>
+      <p class="dato" style="margin-top:16px;color:var(--tinta-2)">Totales semanales del almacén ETL del entorno de demostración (histórico sintético usado para entrenar el modelo). No son mediciones institucionales.</p>
+    </div>
+    <script type="application/json" id="datos-calendario">{"semanas": [{"desde": "05/01/2026", "kg": 1049, "periodo": "receso", "etiqueta": "Receso de verano"}, {"desde": "12/01/2026", "kg": 1117, "periodo": "receso", "etiqueta": "Receso de verano"}, {"desde": "19/01/2026", "kg": 1085, "periodo": "receso", "etiqueta": "Receso de verano"}, {"desde": "26/01/2026", "kg": 1080, "periodo": "receso", "etiqueta": "Receso de verano"}, {"desde": "02/02/2026", "kg": 1080, "periodo": "receso", "etiqueta": "Receso de verano"}, {"desde": "09/02/2026", "kg": 1070, "periodo": "receso", "etiqueta": "Receso de verano"}, {"desde": "16/02/2026", "kg": 1143, "periodo": "receso", "etiqueta": "Receso de verano"}, {"desde": "23/02/2026", "kg": 1082, "periodo": "receso", "etiqueta": "Receso de verano"}, {"desde": "02/03/2026", "kg": 2632, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "09/03/2026", "kg": 2732, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "16/03/2026", "kg": 2678, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "23/03/2026", "kg": 2530, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "30/03/2026", "kg": 2615, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "06/04/2026", "kg": 2686, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "13/04/2026", "kg": 2795, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "20/04/2026", "kg": 2689, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "27/04/2026", "kg": 2769, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "04/05/2026", "kg": 2736, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "11/05/2026", "kg": 2853, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "18/05/2026", "kg": 2875, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "25/05/2026", "kg": 2912, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "01/06/2026", "kg": 2665, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "08/06/2026", "kg": 2717, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "15/06/2026", "kg": 2901, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "22/06/2026", "kg": 2648, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "29/06/2026", "kg": 2903, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "06/07/2026", "kg": 2969, "periodo": "clases", "etiqueta": "Clases · periodo 1-2026"}, {"desde": "13/07/2026", "kg": 1108, "periodo": "receso", "etiqueta": "Receso de invierno"}, {"desde": "20/07/2026", "kg": 1170, "periodo": "receso", "etiqueta": "Receso de invierno"}, {"desde": "27/07/2026", "kg": 1163, "periodo": "receso", "etiqueta": "Receso de invierno"}, {"desde": "03/08/2026", "kg": 2937, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "10/08/2026", "kg": 2896, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "17/08/2026", "kg": 2906, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "24/08/2026", "kg": 2988, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "31/08/2026", "kg": 2917, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "07/09/2026", "kg": 2757, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "14/09/2026", "kg": 2803, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "21/09/2026", "kg": 2947, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "28/09/2026", "kg": 3034, "periodo": "clases", "etiqueta": "Clases · periodo 2-2026"}, {"desde": "20/10/2026", "kg": 2896, "margen": 62.7, "modelo": "v2", "periodo": "pronostico", "etiqueta": "Pronóstico del modelo v2 · semana 20–26 oct"}]}</script>
+  </div>
+</section>
+
+<section class="seccion densa" aria-labelledby="t-modelo">
+  <div class="marco">
+    <div class="dorso papel ambos">
+    <div class="titulo-dorso"><h2 id="t-modelo" style="margin:0;font-size:clamp(1.6rem,3vw,2.2rem)">Cómo llega un vaciado a un pronóstico</h2><span class="dato">Instrucciones al dorso del comprobante</span></div>
+    <ol class="instructivo">
+      <li><h3>Se pesa y registra</h3><p>El operario elige el punto y el tipo de residuo y anota los kilos desde el teléfono, con hora y autor.</p></li>
+      <li><h3>Se depura</h3><p>El proceso ETL de cada hora valida unidades, descarta duplicados y marca valores atípicos para revisión.</p></li>
+      <li><h3>Se entrena</h3><p>Un Random Forest Regressor aprende por punto, tipo, día, semana y periodo académico.</p></li>
+      <li><h3>Se proyecta</h3><p>Cada estimación sale con su margen de error y la versión del modelo que la produjo.</p></li>
+      <li><h3>Se decide</h3><p>Las alertas de desborde y las recomendaciones llegan al supervisor, que decide y deja constancia.</p></li>
+    </ol>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-piloto">
+  <div class="marco piloto">
+    <div class="hechos papel">
+      <h2 id="t-piloto" style="font-size:2.2rem">Piloto en la UAGRM</h2>
+      <p class="entrada">Residata nació como el sistema de gestión de residuos de la Dirección de Servicios Universitarios de la Universidad Autónoma Gabriel René Moreno, en Santa Cruz de la Sierra.</p>
+      <div class="dato">
+        <div class="linea"><span>Roles</span><b>Operativo · Supervisor · Directivo · Administrador</b></div>
+        <div class="linea"><span>Requisitos funcionales</span><b>27</b></div>
+        <div class="linea"><span>Casos de uso</span><b>34</b></div>
+        <div class="linea"><span>Pruebas automáticas</span><b>42 sin fallos</b></div>
+        <div class="linea"><span>En producción desde</span><b>18/11/2026</b></div>
+      </div>
+    </div>
+    <figure style="margin:0">
+      <img class="captura" src="img/mapa-recorte.webp" width="1128" height="560" alt="Mapa de calor del campus de la UAGRM con los puntos de recolección de cuatro facultades" loading="lazy" style="border-radius:4px;border:1px solid var(--mostrador-3)">
+      <figcaption class="leyenda-captura">Mapa de calor del campus: los anillos oscuros marcan puntos críticos. Coordenadas aproximadas del entorno de demostración.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="seccion densa" aria-labelledby="t-precios">
+  <div class="marco">
+    <h2 id="t-precios">Lista de precios</h2>
+    <p class="entrada">Suscripción mensual en bolivianos, impuestos de ley incluidos. Empiece sin costo y cambie de plan cuando lo necesite.</p>
+    <div class="tarifas papel ambos">
+      <div class="tabla-desliza">
+        <table class="tarifario">
+          <thead><tr><th scope="col">Plan</th><th scope="col">Precio mensual</th><th scope="col">Para quién</th><th scope="col">Incluye</th></tr></thead>
+          <tbody>
+            <tr><th scope="row" class="plan">Inicial</th><td class="precio">Bs 0</td><td>Una sede que empieza a medir</td><td>Hasta 15 puntos y 5 usuarios, registro en campo, jornadas, tablero</td></tr>
+            <tr><th scope="row" class="plan">Campus</th><td class="precio">Bs 2 900<small>/mes</small></td><td>Universidades y campus empresariales</td><td>Hasta 80 puntos y 30 usuarios, mapa de calor, predicción y alertas, reportes Excel y PDF</td></tr>
+            <tr><th scope="row" class="plan">Red</th><td class="precio">Bs 7 500<small>/mes</small></td><td>Municipios y redes de sedes</td><td>Puntos y sedes sin límite, recomendaciones logísticas, conexión Power BI, disponibilidad comprometida de 99,5 %</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:20px"><a class="boton linea-b" href="planes.html">Comparar planes</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-cierre">
+  <div class="marco">
+    <h2 id="t-cierre">Mida la primera semana con nosotros</h2>
+    <p class="entrada">Configuramos sus sectores y puntos y capacitamos a su personal por rol. Desde el primer vaciado registrado, sus reportes salen en kilos.</p>
+    <div class="acciones"><a class="boton primario" href="contacto.html">Hablar con el equipo</a><a class="boton linea-b" href="#" data-abrir-asistente>Preguntar al asistente</a></div>
+  </div>
+</section>
+
+</main>
+<p class="cierre" aria-hidden="true"><span>Gracias por su visita</span><span class="barras"></span><span>Residata S.R.L.</span></p>
+<footer class="pie-sitio"><div class="marco">
+  <div><h3>Residata S.R.L.</h3><p>Software de gestión de residuos sólidos con predicción de generación. Santa Cruz de la Sierra, Bolivia. Sociedad en constitución.</p><p><a href="mailto:rekteado@gmail.com">rekteado@gmail.com</a></p></div>
+  <div><h3>Producto</h3><ul><li><a href="index.html#como-funciona">Cómo funciona</a></li><li><a href="index.html#pronostico">Pronóstico</a></li><li><a href="planes.html">Planes y precios</a></li><li><a href="https://dsu-uagrm.vercel.app/">Acceso clientes</a></li></ul></div>
+  <div><h3>Ayuda</h3><ul><li><a href="soporte.html">Soporte</a></li><li><a href="soporte.html#estado">Estado del servicio</a></li><li><a href="novedades.html">Novedades</a></li><li><a href="feed.xml">RSS</a></li></ul></div>
+  <div><h3>Legal</h3><ul><li><a href="terminos.html">Términos y condiciones</a></li><li><a href="privacidad.html">Privacidad</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
+</div></footer>
+</body>
+</html>

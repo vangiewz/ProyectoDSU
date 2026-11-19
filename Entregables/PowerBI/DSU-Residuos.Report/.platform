@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "DSU-Residuos"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d18fa8a7-a0c2-47b3-883c-ae6e50098b68"
+  }
+}

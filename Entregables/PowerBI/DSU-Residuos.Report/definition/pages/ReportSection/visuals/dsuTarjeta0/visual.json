@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "dsuTarjeta0",
+  "position": {
+    "x": 10,
+    "y": 10,
+    "z": 0,
+    "height": 100,
+    "width": 205
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bi_hechos_residuos"
+                    }
+                  },
+                  "Property": "Total kg"
+                }
+              },
+              "queryRef": "bi_hechos_residuos.Total kg"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Generación registrada (kg)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

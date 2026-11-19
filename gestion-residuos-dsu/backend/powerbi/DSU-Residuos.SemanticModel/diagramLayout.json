@@ -1,0 +1,113 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 330,
+            "y": 300
+          },
+          "nodeIndex": "bi_hechos_residuos",
+          "nodeLineageTag": "1efae0ec-0687-5145-a3b0-6acef67c93bc",
+          "size": {
+            "height": 240,
+            "width": 270
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20,
+            "y": 20
+          },
+          "nodeIndex": "bi_incidencias",
+          "nodeLineageTag": "cb509bd2-674d-50c8-bfea-91e1465f1793",
+          "size": {
+            "height": 240,
+            "width": 270
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 950,
+            "y": 300
+          },
+          "nodeIndex": "bi_jornadas",
+          "nodeLineageTag": "3640bd87-070c-5b52-be47-dc31ff5a0767",
+          "size": {
+            "height": 240,
+            "width": 270
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 640,
+            "y": 300
+          },
+          "nodeIndex": "bi_predicciones",
+          "nodeLineageTag": "a5e8581f-9bbd-5b27-b674-923b1e2920d9",
+          "size": {
+            "height": 240,
+            "width": 270
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 330,
+            "y": 20
+          },
+          "nodeIndex": "bi_puntos",
+          "nodeLineageTag": "0c787bb6-2dc4-5fce-b952-fce29c15ced6",
+          "size": {
+            "height": 240,
+            "width": 270
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20,
+            "y": 300
+          },
+          "nodeIndex": "bi_recomendaciones",
+          "nodeLineageTag": "3723bcaa-abcb-5a78-8f85-5bc2ef1681b2",
+          "size": {
+            "height": 240,
+            "width": 270
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 640,
+            "y": 20
+          },
+          "nodeIndex": "Calendario",
+          "nodeLineageTag": "9a60da52-c2ad-52a9-972c-769fce402eb7",
+          "size": {
+            "height": 240,
+            "width": 270
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 66.666666666666657,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

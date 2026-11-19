@@ -1,0 +1,56 @@
+<!-- titulo: Planes y precios — Residata | descripcion: Planes de suscripción de Residata en bolivianos: Inicial sin costo, Campus y Red, con implementación y soporte por niveles. -->
+<section class="seccion densa">
+  <div class="marco">
+    <h1>Planes y precios propuestos</h1>
+    <p class="entrada">Propuesta comercial para validación. El piloto académico DSU está disponible por coordinación con el equipo; no hay contratación, cobro ni facturación electrónica habilitados en esta web. Pago anual: diez meses por doce. Sin contrato de permanencia en el pago mensual.</p>
+
+    <p class="entrada">Los límites y diferencias de planes de esta tabla son alcance comercial propuesto. El piloto es una instalación institucional; no implementa cuotas automáticas por plan ni un SaaS multiempresa. El paso a una oferta comercial requiere validación técnica y formalización legal.</p>
+    <div class="tarifas papel ambos">
+      <div class="tabla-desliza">
+        <table class="tarifario">
+          <caption class="sr">Comparación de planes de Residata</caption>
+          <thead>
+            <tr><th scope="col">Función</th><th scope="col"><span class="plan">Inicial</span></th><th scope="col"><span class="plan">Campus</span></th><th scope="col"><span class="plan">Red</span></th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Precio mensual</th><td class="precio">Bs 0</td><td class="precio">Bs 2 900</td><td class="precio">Bs 7 500</td></tr>
+            <tr><th scope="row">Precio anual</th><td>—</td><td>Bs 29 000</td><td>Bs 75 000</td></tr>
+            <tr><th scope="row">Implementación (pago único)</th><td>Autoservicio</td><td>Bs 9 000</td><td>Bs 18 000</td></tr>
+            <tr><th scope="row">Sedes</th><td>1</td><td>1</td><td>Sin límite</td></tr>
+            <tr><th scope="row">Puntos de recolección</th><td>Hasta 15</td><td>Hasta 80</td><td>Sin límite</td></tr>
+            <tr><th scope="row">Usuarios</th><td>Hasta 5</td><td>Hasta 30</td><td>Sin límite</td></tr>
+            <tr><th scope="row">Registro en campo desde el teléfono</th><td class="si">Sí</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">Jornadas, rutas, personal y vehículos</th><td class="si">Sí</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">Incidencias y bitácora de auditoría</th><td class="si">Sí</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">Tablero de indicadores</th><td class="si">Sí</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">Reportes</th><td>Excel</td><td>Excel y PDF</td><td>Excel y PDF</td></tr>
+            <tr><th scope="row">Mapa de calor del campus o municipio</th><td class="no">No</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">Predicción Random Forest con margen de error</th><td class="no">No</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">Alertas de desborde</th><td class="no">No</td><td class="si">Sí</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">Recomendaciones logísticas</th><td class="no">No</td><td class="no">No</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">Conexión de solo lectura para Power BI</th><td class="no">No</td><td class="no">No</td><td class="si">Sí</td></tr>
+            <tr><th scope="row">ETL</th><td>Diario</td><td>Cada hora</td><td>Cada hora</td></tr>
+            <tr><th scope="row">Disponibilidad comprometida</th><td>Sin compromiso</td><td>99 %</td><td>99,5 %</td></tr>
+            <tr><th scope="row">Soporte</th><td>Autoservicio y asistente</td><td>Nivel 2 · respuesta en 8 h hábiles</td><td>Nivel 3 · respuesta en 4 h hábiles</td></tr>
+            <tr><th scope="row">Capacitación</th><td>Manual; videos por preparar</td><td>Inicial por rol</td><td>Inicial y trimestral</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="acciones" style="margin-top:24px"><a class="boton primario" href="contacto.html?plan=campus">Solicitar demostración</a><a class="boton linea-b" href="https://dsu-uagrm.vercel.app/">Acceso clientes</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion densa" aria-labelledby="t-cond">
+  <div class="marco">
+    <h2 id="t-cond">Condiciones</h2>
+    <div class="papel ambos lectura-larga preguntas">
+      <details open><summary>¿Qué incluye la implementación?</summary><p>Carga de sectores, puntos de recolección con su ubicación, contenedores, vehículos y catálogos de residuos; migración del histórico en planilla si existe; y capacitación inicial por rol. Se realiza en un plazo de 7 a 15 días hábiles según el tamaño de la sede.</p></details>
+      <details><summary>¿El plan Inicial vence?</summary><p>No. Es gratuito sin límite de tiempo mientras se mantenga dentro de una sede, 15 puntos y 5 usuarios. Los avisos y cambios automáticos de plan no están implementados en el piloto; deben desarrollarse antes de ofrecer autoservicio comercial.</p></details>
+      <details><summary>¿La predicción funciona desde el primer día?</summary><p>El modelo necesita histórico propio para entrenarse. Con un periodo académico completo de registros ya es posible entrenar la primera versión; hasta entonces el tablero y los reportes trabajan con lo medido.</p></details>
+      <details><summary>¿Necesito comprar equipos?</summary><p>No. Basta un teléfono con navegador por cuadrilla y la balanza que ya usa el personal. No se instalan sensores ni contenedores especiales.</p></details>
+      <details><summary>¿Cómo se factura?</summary><p>La modalidad mensual o anual es una propuesta. No se acredita habilitación de facturación electrónica ni constitución concluida de Residata; cualquier contratación requiere formalización previa y acuerdo escrito. Las instituciones públicas pueden contratar por los procedimientos de su normativa de contrataciones.</p></details>
+      <details><summary>¿Qué pasa con mis datos si dejo el servicio?</summary><p>Los datos son de su institución. Al terminar el contrato le entregamos una exportación completa en Excel y un respaldo de la base en formato PostgreSQL, y luego se eliminan de nuestros servidores.</p></details>
+    </div>
+  </div>
+</section>
